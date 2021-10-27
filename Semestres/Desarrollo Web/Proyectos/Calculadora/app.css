@@ -1,0 +1,101 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #fadfdf;
+
+}
+h1 {
+    text-align: center;
+}
+
+hr{
+
+    height:.5%;
+    border-width:0;
+    width: 80%;
+    margin-top: -2%;
+    margin-bottom: 7%;
+    color:#D08989;
+    background-color:#D08989;
+}
+
+#container {   
+    display: flex;
+    flex-direction: column;
+    border-radius: 8%;
+    align-items: center;
+    border: 2px solid #D08989;
+    background-color: #FFB4B4;
+    /* height: 37.3vw; */
+    height: 37.2vw;
+    width: 27.5%;
+    margin: 0 auto; 
+    box-shadow: 0 10px #D08989;
+}
+
+.num{
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 18%;
+    color: #77393C;
+    background-color: #fadcdf;
+    height: 4vw;
+    width: 4.6vw;
+    float: center;
+    margin: 1.8%;
+    font-size: 2.1vw;
+    box-shadow: 0 5px #D08989;
+}
+
+.operator{
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    color: #77393C;
+    background-color: #f8a98e;
+    border-radius: 18%;
+    height: 4vw;
+    width: 4.6vw;
+    float: center;
+    margin: 1.8%;
+    font-size: 2.1vw;
+    box-shadow: 0 5px #bf6e6e;
+}
+.igual{
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    color: #77393C;
+    background-color: #f09f84;
+    border-radius: 18%;
+    height: 4vw;
+    width: 4.6vw;
+    float: center;
+    margin: 1.8%;
+    font-size: 2.1vw;
+    box-shadow: 0 5px #bf6e6e;
+}
+
+.line { 
+    display:flex;
+    justify-content: center;
+}
+
+#res{
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    color: #77393C; 
+    border-radius: 15px;
+    margin-bottom: 16%;
+    margin-top: 16%;
+    width: 23vw;
+    height: 5.6vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.2vw;
+    text-align: center;
+    background-color: #FFDCDC;
+    float: center;
+    border-right: 3px solid #d68888;
+    box-shadow:  0 3px #d68888;
+}

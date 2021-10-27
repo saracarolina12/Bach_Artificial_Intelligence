@@ -1,0 +1,124 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega16A"</DEVICE>
+ <WORKING_DIR>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\Debug\Examen_Parcial2.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Examen_Parcial2.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Examen_Parcial2.map</FILE>
+  <FILE>Examen_Parcial2.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>53</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>554</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>556</LINE></EXT_INT1>
+  <TIM2_COMP><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>558</LINE></TIM2_COMP>
+  <TIM2_OVF><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>560</LINE></TIM2_OVF>
+  <TIM1_CAPT><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>562</LINE></TIM1_CAPT>
+  <TIM1_COMPA><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>564</LINE></TIM1_COMPA>
+  <TIM1_COMPB><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>566</LINE></TIM1_COMPB>
+  <TIM1_OVF><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>568</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>570</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>572</LINE></SPI_STC>
+  <USART_RXC><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>574</LINE></USART_RXC>
+  <USART_UDRE><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>576</LINE></USART_UDRE>
+  <USART_TXC><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>578</LINE></USART_TXC>
+  <ADC_COMP><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>580</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>582</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>584</LINE></ANA_COMP>
+  <TWSI><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>586</LINE></TWSI>
+  <EXT_INT2><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>588</LINE></EXT_INT2>
+  <TIM0_COMP><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>590</LINE></TIM0_COMP>
+  <SPM_RDY><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>592</LINE></SPM_RDY>
+  <TECLADO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>115</LINE></TECLADO>
+  <RST><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>514</LINE></RST>
+  <UNO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>169</LINE></UNO>
+  <CUATRO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>262</LINE></CUATRO>
+  <SIETE><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>369</LINE></SIETE>
+  <AST><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>504</LINE></AST>
+  <DOS><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>200</LINE></DOS>
+  <CINCO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>293</LINE></CINCO>
+  <OCHO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>400</LINE></OCHO>
+  <CERO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>474</LINE></CERO>
+  <TRES><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>231</LINE></TRES>
+  <SEIS><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>338</LINE></SEIS>
+  <NUEVE><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>431</LINE></NUEVE>
+  <GATO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>493</LINE></GATO>
+  <uno_esuno><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>187</LINE></uno_esuno>
+  <uno_esdos><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>190</LINE></uno_esdos>
+  <uno_estres><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>193</LINE></uno_estres>
+  <uno_escuatro><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>196</LINE></uno_escuatro>
+  <RETARDO50m><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>528</LINE></RETARDO50m>
+  <TRABA_UNO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>181</LINE></TRABA_UNO>
+  <ESUNO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>324</LINE></ESUNO>
+  <ESDOS><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>327</LINE></ESDOS>
+  <ESTRES><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>331</LINE></ESTRES>
+  <ESCUATRO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>334</LINE></ESCUATRO>
+  <dos_esuno><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>218</LINE></dos_esuno>
+  <dos_esdos><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>221</LINE></dos_esdos>
+  <dos_estres><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>224</LINE></dos_estres>
+  <dos_escuatro><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>227</LINE></dos_escuatro>
+  <TRABA_DOS><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>212</LINE></TRABA_DOS>
+  <tres_esuno><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>249</LINE></tres_esuno>
+  <tres_esdos><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>252</LINE></tres_esdos>
+  <tres_estres><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>255</LINE></tres_estres>
+  <tres_escuatro><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>258</LINE></tres_escuatro>
+  <TRABA_TRES><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>243</LINE></TRABA_TRES>
+  <cuatro_esuno><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>280</LINE></cuatro_esuno>
+  <cuatro_esdos><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>283</LINE></cuatro_esdos>
+  <cuatro_estres><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>286</LINE></cuatro_estres>
+  <cuatro_escuatro><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>289</LINE></cuatro_escuatro>
+  <TRABA_CUATRO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>274</LINE></TRABA_CUATRO>
+  <cinco_esuno><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>311</LINE></cinco_esuno>
+  <cinco_esdos><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>314</LINE></cinco_esdos>
+  <cinco_estres><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>317</LINE></cinco_estres>
+  <cinco_escuatro><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>320</LINE></cinco_escuatro>
+  <TRABA_CINCO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>305</LINE></TRABA_CINCO>
+  <seis_esuno><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>356</LINE></seis_esuno>
+  <seis_esdos><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>359</LINE></seis_esdos>
+  <seis_estres><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>362</LINE></seis_estres>
+  <seis_escuatro><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>365</LINE></seis_escuatro>
+  <TRABA_SEIS><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>350</LINE></TRABA_SEIS>
+  <siete_esuno><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>387</LINE></siete_esuno>
+  <siete_esdos><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>390</LINE></siete_esdos>
+  <siete_estres><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>393</LINE></siete_estres>
+  <siete_escuatro><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>396</LINE></siete_escuatro>
+  <TRABA_SIETE><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>381</LINE></TRABA_SIETE>
+  <ocho_esuno><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>418</LINE></ocho_esuno>
+  <ocho_esdos><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>421</LINE></ocho_esdos>
+  <ocho_estres><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>424</LINE></ocho_estres>
+  <ocho_escuatro><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>427</LINE></ocho_escuatro>
+  <TRABA_OCHO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>412</LINE></TRABA_OCHO>
+  <nueve_esuno><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>449</LINE></nueve_esuno>
+  <nueve_esdos><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>452</LINE></nueve_esdos>
+  <nueve_estres><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>455</LINE></nueve_estres>
+  <nueve_escuatro><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>458</LINE></nueve_escuatro>
+  <TRABA_NUEVE><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>443</LINE></TRABA_NUEVE>
+  <cero_esuno><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>462</LINE></cero_esuno>
+  <cero_esdos><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>465</LINE></cero_esdos>
+  <cero_estres><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>468</LINE></cero_estres>
+  <cero_escuatro><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>471</LINE></cero_escuatro>
+  <TRABA_CERO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>486</LINE></TRABA_CERO>
+  <SUMA><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>517</LINE></SUMA>
+  <TRABA_GATO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>497</LINE></TRABA_GATO>
+  <RESTA><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>522</LINE></RESTA>
+  <TRABA_AST><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>508</LINE></TRABA_AST>
+  <WGLOOP0><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>535</LINE></WGLOOP0>
+  <WGLOOP1><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>536</LINE></WGLOOP1>
+  <WGLOOP2><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Examen_Parcial2\Examen_Parcial2\main.asm</FILE><LINE>537</LINE></WGLOOP2>
+ </LABELS>
+</ASSEMBLER_INFO>

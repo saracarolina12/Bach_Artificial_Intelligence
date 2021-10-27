@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Pokemones</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+
+    
+ 
+</head>
+<body style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.5/dist/sweetalert2.all.min.js"></script>
+   
+    <!--PRINCIPAL-->
+    <div class="contenedor_imagen">
+        <!--IMAGEN Y TÍTULO-->
+        <img class="imagen" style="width: 100%; height: 100%;" src="background.jpg"/>
+        <div class="tittle2"><h1 style="font-size: 360%;"><b><i>Catálogo de Pokemones</i></b></h1></div>
+        <div class="tittle"><h1 style="font-size: 360%;"><b><i>Catálogo de Pokemones</i></b></h1></div>
+        <p class="text"><i><b>¡Haz click en cualquier pokémon para ver su información!</b></i></p>
+        <p class="text2"><i><b>¡Haz click en cualquier pokémon para ver su información!</b></i></p>
+        <img class="imagentitulo" style="width: 28%;" src="titulo.png"/>
+        <div class="autor"><h1 style="font-size: 200%;"><b><i>By Sara Carolina :)</i></b></h1></div>
+
+        <!--END IMAGEN Y TÍTULO-->
+    
+        <!--GRID-->
+
+            <!--<div class="line">
+                <div class="d-flex p-2"><a href="javascript:void(0);" onClick="alert('Hola')"><button type="button" class="btn colorbut"><b class="fs-5">Bulbasaur</b></button></a></div>
+                <div class="d-flex p-2"><a href="javascript:void(0);" onClick="alert('Hola')"><button type="button" class="btn colorbut"><b class="fs-5">Ivysaur</b></button></a></div>
+                <div class="d-flex p-2"><a href="javascript:void(0);" onClick="alert('Hola')"><button type="button" class="btn colorbut"><b class="fs-5">Venusaur</b></button></a></div>
+                <div class="d-flex p-2"><a href="javascript:void(0);" onClick="alert('Hola')"><button type="button" class="btn colorbut"><b class="fs-5">Charmander</b></button></a></div>
+                <div class="d-flex p-2"><a href="javascript:void(0);" onClick="alert('Hola')"><button type="button" class="btn colorbut"><b class="fs-5">Charmeleon</b></button></a></div>
+            </div>-->
+            <div class="btn-toolbar container" role="toolbar">
+                <div class="btn-group-vertical btn-group-lg " role="group" aria-label="Vertical button group">
+                    <button id="1" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Bulbasaur</button>
+                    <button id="2" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Ivysaur</button>
+                    <button id="3" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Venusaur</button>
+                    <button id="4" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Charmander</button>
+                  </div>
+                  <div class="btn-group-vertical btn-group-lg" role="group" aria-label="Vertical button group">
+                    <button id="5" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Charmeleon</button>
+                    <button id="6" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Charizard</button>
+                    <button id="7" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Squirtle</button>
+                    <button id="8" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Wartortle</button>
+                  </div>
+                  <div class="btn-group-vertical btn-group-lg" role="group" aria-label="Vertical button group">
+                    <button id="9" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Blastoise</button>
+                    <button id="10" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Caterpie</button>
+                    <button id="11" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Metapod</button>
+                    <button id="12" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Butterfree</button>
+                  </div>
+                  <div class="btn-group-vertical btn-group-lg" role="group" aria-label="Vertical button group">
+                    <button id="13" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Weedle</button>
+                    <button id="14" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Kakuna</button>
+                    <button id="15" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Beedrill</button>
+                    <button id="16" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Pidgey</button>
+                  </div>
+                  <div class="btn-group-vertical btn-group-lg" role="group" aria-label="Vertical button group">
+                    <button id="17" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Pidgeotto</button>
+                    <button id="18" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Pidgeot</button>
+                    <button id="19" onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Rattata</button>
+                    <button id="20"  onclick="showimage(this.id)" type="button" class="btn btn-dark bsize">Raticate</button>
+                  </div>
+            </div> 
+
+        <!--END GRID-->
+    </div>
+    <!--END PRINCIPAL-->
+
+
+   
+    <script src="script.js"></script>
+</body>
+</html>

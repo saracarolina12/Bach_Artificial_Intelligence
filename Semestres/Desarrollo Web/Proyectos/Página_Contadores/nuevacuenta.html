@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear nueva cuenta</title>
+</head>
+<body style="background-color: rgba(251, 164, 133, 0.612);">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+
+
+    <div class="CUENTA"  style="text-align: center;">
+        <!--<img class="rounded mx-auto d-block" src="misión.jpg"/>--->
+        <form>
+            <center>
+                        <h2 style="font-size: 150%";><i>Crear cuenta</i></h2>
+                        <div class="mb-3">
+                            <label for="Nombre" class="form-label"><i>Nombre<i style="color: red;">*</i></i></label>
+                            <input style="width: 210px;" size="10" type="text" pattern="[a-zA-Z]+" class="form-control" id="nombre" aria-describedby="emailHelp" required>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="Apellido" class="form-label"><i>Apellido<i style="color: red;">*</i></i></label>
+                            <input style="width: 210px;" size="10" type="text" pattern="[a-zA-Z]+" class="form-control" id="apellido" aria-describedby="emailHelp" required>
+                        </div>
+                        
+                        <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label"><i>Correo<i style="color: red;">*</i></i></label>
+                        <input style="width: 210px;" type="email" class="form-control" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"  aria-describedby="emailHelp" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="Usuario" class="form-label"><i>Usuario<i style="color: red;">*</i></i></label>
+                            <input style="width: 210px;" size="10" type="text" class="form-control" id="usuario" aria-describedby="emailHelp" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label style="padding-top: -20px;" for="Password" class="form-label"><i>Contraseña<i style="color: red;">*</i></i></label>
+                            <p><i style=" line-height: 30%; font-size: 95%; color: red;">*Al menos 8 caracteres<br>*Al menos un dígito<br>*Comenzar con una letra</i></p>
+                            <input style="width: 210px;" size="10" type="password" name="pass" id="pass" pattern="[A-Za-z][A-Za-z0-9]*[0-9][A-Za-z0-9]*" required>
+                        </div>
+
+                        
+                        <button id="enviar" type="submit" class="btn btn-dark">Enviar</button>
+
+            </center>
+          </form>
+    </div>
+    
+
+    <script src="EnviarCorreo.js"></script>
+
+</body>
+</html>

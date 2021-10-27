@@ -1,0 +1,86 @@
+  myFile = read.delim("C:/Users/scago/Documents/GitHub/School/Semestres/Optimización y Metaheurísticas/Examen_Parcial2/input.txt", header = FALSE, sep = " ") 
+  h = c()
+  elementos = myFile[1, 1]
+  grupos = myFile[1, 2]
+  lim_inf = myFile[2,1]
+  lim_sup = myFile[2,2]
+  pesos = myFile[3,]
+  m = matrix(nrow = elementos, ncol = elementos, byrow = FALSE)
+  for(i in 4:28683){
+    m[myFile[i,1]+1, myFile[i,2]+1] = myFile[i,3] #matriz posición [a][b] = c
+  }
+  # print(m)                         
+  # print(elementos)
+  # print(grupos)
+  # print(lim_inf)
+  # print(lim_sup)
+  # print(pesos) 
+#------------------------termina lectura------------------------
+selector <- 1
+elem_group <- rep(0,elementos)
+suma <- 0
+indice = 0
+elementos_peso = rep(0,grupos)
+
+for(i in 1:length(pesos)){
+  suma = suma + pesos[i]
+  if(as.integer(suma/75)+1 == 13){
+    indice = i
+    break
+  }
+  elem_group[i] = as.integer(suma/75)+1
+  elementos_peso[as.integer(suma/75)+1] = elementos_peso[as.integer(suma/75)+1] + pesos[i]
+}
+k = 0
+repeat{
+  if(elementos_peso[k%%12 + 1] + pesos[k+indice] <= lim_sup){
+    elem_group[k%%12 + 1] = elem_group[k%%12+1] + pesos[k+indice]
+    elementos_peso[k%%12+1] = elementos_peso[k%%12+1] + pesos[i+k]
+  }
+  k <- k + 1
+  if(k == elementos + 1) k = 1
+}
+
+for(i in 1:100){
+  a <- sample(1:grupos, 1)
+  b <- sample(1:elementos, 1)
+  x = fobjetivo()
+  h = c(h, x)
+  print(x)
+  if(elementos_peso[a] + pesos[b] <= lim_sup){  
+    elementos_peso[elem_group[b]] =  elementos_peso[elem_group[b]] - pesos[b]
+    elementos_peso[a] = elementos_peso[a] + pesos[b]
+    if(fobjetivo() <= x){                                                         #módulo de aceptación-rechazo metropolis //pendiente
+      elementos_peso[elem_group[b]] =  elementos_peso[elem_group[b]] + pesos[b]
+      elementos_peso[a] = elementos_peso[a] - pesos[b]
+    }
+  }
+}
+print(elementos_peso)
+
+#definir función a optmizar
+  fobjetivo = function(){
+    benef_global = 0
+    for(i in 1:grupos){
+      v = c()
+      benef = 0
+      for(j in 1:length(elem_group)){
+        if(i == elem_group[j]) v = c(v,j)
+      }
+      for(k in 2:length(v)){
+        a = k-1
+        b = k
+        if(b < a){#swap
+          aux = a
+          a = b
+          b = aux
+        }
+        benef = benef + m[a+1, b+1]
+      }
+      benef_global = benef_global + benef
+    }
+  }
+
+  print(h)
+  
+#--------------------comienzan las repeticiones--------------------

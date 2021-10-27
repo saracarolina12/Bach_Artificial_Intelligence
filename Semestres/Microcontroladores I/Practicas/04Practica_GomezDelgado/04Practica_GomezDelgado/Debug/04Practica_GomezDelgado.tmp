@@ -1,0 +1,67 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega16A"</DEVICE>
+ <WORKING_DIR>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\Debug\04Practica_GomezDelgado.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>04Practica_GomezDelgado.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>04Practica_GomezDelgado.map</FILE>
+  <FILE>04Practica_GomezDelgado.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>46</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>202</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>204</LINE></EXT_INT1>
+  <TIM2_COMP><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>206</LINE></TIM2_COMP>
+  <TIM2_OVF><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>208</LINE></TIM2_OVF>
+  <TIM1_CAPT><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>210</LINE></TIM1_CAPT>
+  <TIM1_COMPA><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>212</LINE></TIM1_COMPA>
+  <TIM1_COMPB><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>214</LINE></TIM1_COMPB>
+  <TIM1_OVF><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>216</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>218</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>220</LINE></SPI_STC>
+  <USART_RXC><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>222</LINE></USART_RXC>
+  <USART_UDRE><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>224</LINE></USART_UDRE>
+  <USART_TXC><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>226</LINE></USART_TXC>
+  <ADC_COMP><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>228</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>230</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>232</LINE></ANA_COMP>
+  <TWSI><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>234</LINE></TWSI>
+  <EXT_INT2><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>236</LINE></EXT_INT2>
+  <TIM0_COMP><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>238</LINE></TIM0_COMP>
+  <SPM_RDY><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>240</LINE></SPM_RDY>
+  <REPETIR><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>79</LINE></REPETIR>
+  <BOTONES><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>81</LINE></BOTONES>
+  <RESET1><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>99</LINE></RESET1>
+  <AUM1><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>112</LINE></AUM1>
+  <RESET2><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>127</LINE></RESET2>
+  <AUM2><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>140</LINE></AUM2>
+  <RETARDO><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>172</LINE></RETARDO>
+  <reseteado1><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>102</LINE></reseteado1>
+  <RESETEAR_UNO><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>155</LINE></RESETEAR_UNO>
+  <fin_reseteo><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>117</LINE></fin_reseteo>
+  <presionado><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>120</LINE></presionado>
+  <sacar><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>164</LINE></sacar>
+  <reseteado2><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>134</LINE></reseteado2>
+  <RESETEAR_DOS><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>159</LINE></RESETEAR_DOS>
+  <fin_reseteo2><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>145</LINE></fin_reseteo2>
+  <presionado2><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>149</LINE></presionado2>
+  <WGLOOP0><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>179</LINE></WGLOOP0>
+  <WGLOOP1><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>180</LINE></WGLOOP1>
+  <WGLOOP2><FILE>C:\Users\scago\Documents\Atmel Studio\7.0\04Practica_GomezDelgado\04Practica_GomezDelgado\main.asm</FILE><LINE>187</LINE></WGLOOP2>
+ </LABELS>
+</ASSEMBLER_INFO>

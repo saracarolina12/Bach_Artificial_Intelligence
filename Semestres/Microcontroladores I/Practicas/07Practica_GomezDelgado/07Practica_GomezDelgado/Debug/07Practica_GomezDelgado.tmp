@@ -1,0 +1,109 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega16A"</DEVICE>
+ <WORKING_DIR>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\Debug\07Practica_GomezDelgado.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>07Practica_GomezDelgado.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>07Practica_GomezDelgado.map</FILE>
+  <FILE>07Practica_GomezDelgado.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>53</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>587</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>589</LINE></EXT_INT1>
+  <TIM2_COMP><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>591</LINE></TIM2_COMP>
+  <TIM2_OVF><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>593</LINE></TIM2_OVF>
+  <TIM1_CAPT><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>595</LINE></TIM1_CAPT>
+  <TIM1_COMPA><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>597</LINE></TIM1_COMPA>
+  <TIM1_COMPB><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>599</LINE></TIM1_COMPB>
+  <TIM1_OVF><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>601</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>603</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>605</LINE></SPI_STC>
+  <USART_RXC><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>607</LINE></USART_RXC>
+  <USART_UDRE><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>609</LINE></USART_UDRE>
+  <USART_TXC><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>611</LINE></USART_TXC>
+  <ADC_COMP><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>613</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>615</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>617</LINE></ANA_COMP>
+  <TWSI><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>619</LINE></TWSI>
+  <EXT_INT2><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>621</LINE></EXT_INT2>
+  <TIM0_COMP><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>623</LINE></TIM0_COMP>
+  <SPM_RDY><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>625</LINE></SPM_RDY>
+  <TECLADO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>86</LINE></TECLADO>
+  <UNO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>153</LINE></UNO>
+  <CUATRO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>212</LINE></CUATRO>
+  <SIETE><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>270</LINE></SIETE>
+  <AST><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>369</LINE></AST>
+  <DOS><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>174</LINE></DOS>
+  <CINCO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>232</LINE></CINCO>
+  <OCHO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>291</LINE></OCHO>
+  <CERO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>379</LINE></CERO>
+  <TRES><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>193</LINE></TRES>
+  <SEIS><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>251</LINE></SEIS>
+  <NUEVE><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>310</LINE></NUEVE>
+  <GATO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>398</LINE></GATO>
+  <A><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>329</LINE></A>
+  <B><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>339</LINE></B>
+  <C><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>349</LINE></C>
+  <D><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>359</LINE></D>
+  <tomove1><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>170</LINE></tomove1>
+  <ESCUCHA><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>417</LINE></ESCUCHA>
+  <abrir><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>168</LINE></abrir>
+  <RETARDO50m><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>487</LINE></RETARDO50m>
+  <TRABA_UNO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>162</LINE></TRABA_UNO>
+  <siabre><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>480</LINE></siabre>
+  <MOVER><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>410</LINE></MOVER>
+  <tomove2><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>189</LINE></tomove2>
+  <TRABA_DOS><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>183</LINE></TRABA_DOS>
+  <tomove3><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>208</LINE></tomove3>
+  <TRABA_TRES><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>202</LINE></TRABA_TRES>
+  <tomove4><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>227</LINE></tomove4>
+  <TRABA_CUATRO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>221</LINE></TRABA_CUATRO>
+  <tomove5><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>247</LINE></tomove5>
+  <TRABA_CINCO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>241</LINE></TRABA_CINCO>
+  <tomove6><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>266</LINE></tomove6>
+  <TRABA_SEIS><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>260</LINE></TRABA_SEIS>
+  <tomove7><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>285</LINE></tomove7>
+  <abrir2><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>288</LINE></abrir2>
+  <TRABA_SIETE><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>279</LINE></TRABA_SIETE>
+  <tomove8><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>306</LINE></tomove8>
+  <TRABA_OCHO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>300</LINE></TRABA_OCHO>
+  <tomove9><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>325</LINE></tomove9>
+  <TRABA_NUEVE><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>319</LINE></TRABA_NUEVE>
+  <TRABA_A><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>332</LINE></TRABA_A>
+  <TRABA_B><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>342</LINE></TRABA_B>
+  <TRABA_C><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>352</LINE></TRABA_C>
+  <TRABA_D><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>362</LINE></TRABA_D>
+  <TRABA_AST><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>372</LINE></TRABA_AST>
+  <tomove0><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>394</LINE></tomove0>
+  <TRABA_CERO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>388</LINE></TRABA_CERO>
+  <TRABA_GATO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>401</LINE></TRABA_GATO>
+  <siescandalo><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>465</LINE></siescandalo>
+  <CONT1><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>433</LINE></CONT1>
+  <CONT2><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>438</LINE></CONT2>
+  <CONT3><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>443</LINE></CONT3>
+  <CONT4><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>448</LINE></CONT4>
+  <FLAGON><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>456</LINE></FLAGON>
+  <ESCANDALO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>460</LINE></ESCANDALO>
+  <ABRE><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>475</LINE></ABRE>
+  <APAGAR_ALARMA><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>470</LINE></APAGAR_ALARMA>
+  <WGLOOP0><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>494</LINE></WGLOOP0>
+  <WGLOOP1><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>495</LINE></WGLOOP1>
+  <WGLOOP2><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\07Practica_GomezDelgado\07Practica_GomezDelgado\main.asm</FILE><LINE>502</LINE></WGLOOP2>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,26 @@
+Define entero a
+Define entero b
+Define entero c
+Recibe a
+Recibe b
+Asigna c = a + b
+If c > 3
+{
+ Imprime c
+ For index 0 10 1
+ {
+  For index2 0 10 1
+  {
+  While a < 14
+  {
+   Asigna a = a * 2.4
+  }
+  Asigna a = a - a
+  }
+  Asigna b = b / 2
+ }
+}
+Else
+{
+Imprime "NO Funciona"
+}

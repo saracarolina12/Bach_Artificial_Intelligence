@@ -1,0 +1,90 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega16A"</DEVICE>
+ <WORKING_DIR>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc</FILE>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\Debug\Corrección_Examen.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Corrección_Examen.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Corrección_Examen.map</FILE>
+  <FILE>Corrección_Examen.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>53</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>412</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>414</LINE></EXT_INT1>
+  <TIM2_COMP><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>416</LINE></TIM2_COMP>
+  <TIM2_OVF><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>418</LINE></TIM2_OVF>
+  <TIM1_CAPT><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>420</LINE></TIM1_CAPT>
+  <TIM1_COMPA><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>422</LINE></TIM1_COMPA>
+  <TIM1_COMPB><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>424</LINE></TIM1_COMPB>
+  <TIM1_OVF><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>426</LINE></TIM1_OVF>
+  <TIM0_OVF><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>428</LINE></TIM0_OVF>
+  <SPI_STC><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>430</LINE></SPI_STC>
+  <USART_RXC><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>432</LINE></USART_RXC>
+  <USART_UDRE><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>434</LINE></USART_UDRE>
+  <USART_TXC><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>436</LINE></USART_TXC>
+  <ADC_COMP><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>438</LINE></ADC_COMP>
+  <EE_RDY><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>440</LINE></EE_RDY>
+  <ANA_COMP><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>442</LINE></ANA_COMP>
+  <TWSI><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>444</LINE></TWSI>
+  <EXT_INT2><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>446</LINE></EXT_INT2>
+  <TIM0_COMP><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>448</LINE></TIM0_COMP>
+  <SPM_RDY><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>450</LINE></SPM_RDY>
+  <RST><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>69</LINE></RST>
+  <TECLADO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>93</LINE></TECLADO>
+  <UNO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>148</LINE></UNO>
+  <CUATRO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>184</LINE></CUATRO>
+  <SIETE><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>220</LINE></SIETE>
+  <AST><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>268</LINE></AST>
+  <DOS><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>160</LINE></DOS>
+  <CINCO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>196</LINE></CINCO>
+  <OCHO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>232</LINE></OCHO>
+  <CERO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>256</LINE></CERO>
+  <TRES><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>172</LINE></TRES>
+  <SEIS><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>208</LINE></SEIS>
+  <NUEVE><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>244</LINE></NUEVE>
+  <GATO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>280</LINE></GATO>
+  <RETARDO50m><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>384</LINE></RETARDO50m>
+  <TRABA_UNO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>151</LINE></TRABA_UNO>
+  <SIGUE><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>302</LINE></SIGUE>
+  <TRABA_DOS><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>163</LINE></TRABA_DOS>
+  <TRABA_TRES><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>175</LINE></TRABA_TRES>
+  <TRABA_CUATRO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>187</LINE></TRABA_CUATRO>
+  <TRABA_CINCO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>199</LINE></TRABA_CINCO>
+  <TRABA_SEIS><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>211</LINE></TRABA_SEIS>
+  <TRABA_SIETE><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>223</LINE></TRABA_SIETE>
+  <TRABA_OCHO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>235</LINE></TRABA_OCHO>
+  <TRABA_NUEVE><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>247</LINE></TRABA_NUEVE>
+  <TRABA_CERO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>259</LINE></TRABA_CERO>
+  <TRABA_AST><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>271</LINE></TRABA_AST>
+  <MAS><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>292</LINE></MAS>
+  <TRABA_GATO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>283</LINE></TRABA_GATO>
+  <menos><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>297</LINE></menos>
+  <CONT0><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>314</LINE></CONT0>
+  <CONT1><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>321</LINE></CONT1>
+  <CONT3><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>329</LINE></CONT3>
+  <CONT4><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>336</LINE></CONT4>
+  <SUMA><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>358</LINE></SUMA>
+  <RESTA><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>363</LINE></RESTA>
+  <DIVIDIR_NIBLES><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>368</LINE></DIVIDIR_NIBLES>
+  <MODULO><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>373</LINE></MODULO>
+  <MOSTRAR><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>377</LINE></MOSTRAR>
+  <WGLOOP0><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>391</LINE></WGLOOP0>
+  <WGLOOP1><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>392</LINE></WGLOOP1>
+  <WGLOOP2><FILE>C:\Users\scago\Documents\GitHub\School\Semestres\Microcontroladores I\Practicas\Corrección_Examen\Corrección_Examen\main.asm</FILE><LINE>393</LINE></WGLOOP2>
+ </LABELS>
+</ASSEMBLER_INFO>

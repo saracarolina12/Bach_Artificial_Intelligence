@@ -1,0 +1,77 @@
+ 
+body{
+    overflow: hidden;
+} 
+.imagentitulo{
+    position: absolute;
+    bottom: 23%;
+    right: -4.5%;
+}
+.tittle{
+    color:rgb(255, 179, 25);
+    font-family: Garamond, serif;
+    position: absolute;
+    top: 5%;
+    left: 9.27%;
+}
+.tittle2{
+    color:rgb(3, 83, 151);
+    font-family: Garamond, serif;
+    position: absolute;
+    top: 5%;
+    left: 9%;
+}
+.text{
+    color:rgb(52, 2, 2);
+    font-family: Garamond, serif;
+    position: absolute;
+    top: 12.6%;
+    left: 9.3%;
+    font-size: 134%;
+}
+.text2{
+    color:rgb(52, 2, 2);
+    font-family: Garamond, serif;
+    position: absolute;
+    top: 12.6%;
+    left: 9.34%;
+    font-size: 134%;
+}
+.autor{
+    font-family: Garamond, serif;
+    position: absolute;
+    top: 2%;
+    right: 4%;
+}
+
+.contenedor_imagen{
+    flex-direction: column;
+    justify-content:center;
+    display: flex;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    width: 100%;  
+}
+
+.container{
+    position: absolute;
+    transform: translate(9.2%, -186%);
+}
+
+.correoind{
+    flex-direction: column;
+    justify-content:center;
+    display: flex;
+    margin:1.4%;
+    top:0%;
+}
+
+.colorbut{
+    background-color: rgb(201, 67, 67) !important;
+}
+
+.bsize{
+    height: 12vh;
+    width: 15vw;
+}
