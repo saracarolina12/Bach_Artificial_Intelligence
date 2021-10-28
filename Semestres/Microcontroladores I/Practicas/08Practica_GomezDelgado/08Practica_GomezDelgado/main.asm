@@ -76,7 +76,7 @@ out PORTA, R16
 //botón
 ldi R16, 0				;entradas
 out DDRD, R16
-ldi R16, $FF			;pullsups
+ldi R16, $FF			;pullups
 out PORTD, R16
 
 ciclo:
@@ -89,34 +89,30 @@ ciclo:
 	ldi R16, 0b0111_1111
 	rjmp ciclo
 
-/*BOTON:
-	out PORTD,R16
-	rcall RETARDO
-		botoncito: sbis PIND, 2
-				rjmp botoncito
-	rcall RETARDO
-	*/
+
 RETARDO:	
 	; ============================= 
-	;   Warteschleifen-Generator 
-	;     100000 Zyklen:
+	;    delay loop generator 
+	;     50000 cycles:
 	; ----------------------------- 
-	; warte 99990 Zyklen:
-			  ldi  R17, $A5
-	WGLOOP0:  ldi  R18, $C9
+	; delaying 49995 cycles:
+			  ldi  R17, $65
+	WGLOOP0:  ldi  R18, $A4
 	WGLOOP1:  dec  R18
 			  brne WGLOOP1
 			  dec  R17
 			  brne WGLOOP0
 	; ----------------------------- 
-	; warte 9 Zyklen:
-			  ldi  R17, $03
+	; delaying 3 cycles:
+			  ldi  R17, $01
 	WGLOOP2:  dec  R17
 			  brne WGLOOP2
 	; ----------------------------- 
-	; warte 1 Zyklus:
+	; delaying 2 cycles:
+			  nop
 			  nop
 	; ============================= 
+	ret
 
 
 

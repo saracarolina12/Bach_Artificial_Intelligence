@@ -11,9 +11,9 @@
     <OutputFileExtension>.obj</OutputFileExtension>
     <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
     <Language>ASSEMBLY</Language>
-    <AssemblyName>08Practica_Gomez_Delgado</AssemblyName>
-    <Name>08Practica_Gomez_Delgado</Name>
-    <RootNamespace>08Practica_Gomez_Delgado</RootNamespace>
+    <AssemblyName>08Practica_GomezDelgado</AssemblyName>
+    <Name>08Practica_GomezDelgado</Name>
+    <RootNamespace>08Practica_GomezDelgado</RootNamespace>
     <ToolchainFlavour>Native</ToolchainFlavour>
     <EntryFile>$(MSBuildProjectDirectory)\main.asm</EntryFile>
     <KeepTimersRunning>true</KeepTimersRunning>
