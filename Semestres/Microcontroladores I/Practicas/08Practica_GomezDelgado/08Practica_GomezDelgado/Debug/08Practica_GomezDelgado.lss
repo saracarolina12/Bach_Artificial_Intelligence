@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\08Practica_GomezDelgado\08Practica_GomezDelgado\main.asm Thu Oct 28 07:05:47 2021
+AVRASM ver. 2.2.8  C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\08Practica_GomezDelgado\08Practica_GomezDelgado\main.asm Thu Oct 28 16:50:11 2021
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc'
 C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\08Practica_GomezDelgado\08Practica_GomezDelgado\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc'
@@ -934,26 +934,26 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
                                  .org 0x0000
                                  ;Comienza el vector de interrupciones.
 000000 940c 002a                 jmp RESET ; Reset Handler
-000002 940c 0051                 jmp EXT_INT0 ; IRQ0 Handler
-000004 940c 0057                 jmp EXT_INT1 ; IRQ1 Handler
-000006 940c 0058                 jmp TIM2_COMP ; Timer2 Compare Handler
-000008 940c 0059                 jmp TIM2_OVF ; Timer2 Overflow Handler
-00000a 940c 005a                 jmp TIM1_CAPT ; Timer1 Capture Handler
-00000c 940c 005b                 jmp TIM1_COMPA ; Timer1 CompareA Handler
-00000e 940c 005c                 jmp TIM1_COMPB ; Timer1 CompareB Handler
-000010 940c 005d                 jmp TIM1_OVF ; Timer1 Overflow Handler
-000012 940c 005e                 jmp TIM0_OVF ; Timer0 Overflow Handler
-000014 940c 005f                 jmp SPI_STC ; SPI Transfer Complete Handler
-000016 940c 0060                 jmp USART_RXC ; USART RX Complete Handler
-000018 940c 0061                 jmp USART_UDRE ; UDR Empty Handler
-00001a 940c 0062                 jmp USART_TXC ; USART TX Complete Handler
-00001c 940c 0063                 jmp ADC_COMP ; ADC Conversion Complete Handler
-00001e 940c 0064                 jmp EE_RDY ; EEPROM Ready Handler
-000020 940c 0065                 jmp ANA_COMP ; Analog Comparator Handler
-000022 940c 0066                 jmp TWSI ; Two-wire Serial Interface Handler
-000024 940c 0067                 jmp EXT_INT2 ; IRQ2 Handler
-000026 940c 0068                 jmp TIM0_COMP ; Timer0 Compare Handler
-000028 940c 0069                 jmp SPM_RDY ; Store Program Memory Ready Handler
+000002 940c 0050                 jmp EXT_INT0 ; IRQ0 Handler
+000004 940c 0056                 jmp EXT_INT1 ; IRQ1 Handler
+000006 940c 0057                 jmp TIM2_COMP ; Timer2 Compare Handler
+000008 940c 0058                 jmp TIM2_OVF ; Timer2 Overflow Handler
+00000a 940c 0059                 jmp TIM1_CAPT ; Timer1 Capture Handler
+00000c 940c 005a                 jmp TIM1_COMPA ; Timer1 CompareA Handler
+00000e 940c 005b                 jmp TIM1_COMPB ; Timer1 CompareB Handler
+000010 940c 005c                 jmp TIM1_OVF ; Timer1 Overflow Handler
+000012 940c 005d                 jmp TIM0_OVF ; Timer0 Overflow Handler
+000014 940c 005e                 jmp SPI_STC ; SPI Transfer Complete Handler
+000016 940c 005f                 jmp USART_RXC ; USART RX Complete Handler
+000018 940c 0060                 jmp USART_UDRE ; UDR Empty Handler
+00001a 940c 0061                 jmp USART_TXC ; USART TX Complete Handler
+00001c 940c 0062                 jmp ADC_COMP ; ADC Conversion Complete Handler
+00001e 940c 0063                 jmp EE_RDY ; EEPROM Ready Handler
+000020 940c 0064                 jmp ANA_COMP ; Analog Comparator Handler
+000022 940c 0065                 jmp TWSI ; Two-wire Serial Interface Handler
+000024 940c 0066                 jmp EXT_INT2 ; IRQ2 Handler
+000026 940c 0067                 jmp TIM0_COMP ; Timer0 Compare Handler
+000028 940c 0068                 jmp SPM_RDY ; Store Program Memory Ready Handler
                                  ; Termina el vector de interrupciones.
                                  
                                  ;******************************************************
@@ -973,9 +973,9 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
 00002b bf0e                      out SPH, r16
 00002c e50f                      ldi r16, low(RAMEND)
 00002d bf0d                      out SPL, r16 
-00002e 9478                      sei
                                  
                                  //interrupciones
+00002e 9478                      sei
 00002f e002                      ldi R16, 0b0000_0010	;flanco de bajada
 000030 bf05                      out MCUCR, R16
 000031 ee00                      ldi R16, 0b1110_0000	;clear flags
@@ -1009,26 +1009,25 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
                                  RETARDO:	
                                  	; ============================= 
                                  	;    delay loop generator 
-                                 	;     50000 cycles:
+                                 	;     100000 cycles:
                                  	; ----------------------------- 
-                                 	; delaying 49995 cycles:
-000045 e615                      			  ldi  R17, $65
-000046 ea24                      	WGLOOP0:  ldi  R18, $A4
+                                 	; delaying 99990 cycles:
+000045 ea15                      			  ldi  R17, $A5
+000046 ec29                      	WGLOOP0:  ldi  R18, $C9
 000047 952a                      	WGLOOP1:  dec  R18
 000048 f7f1                      			  brne WGLOOP1
 000049 951a                      			  dec  R17
 00004a f7d9                      			  brne WGLOOP0
                                  	; ----------------------------- 
-                                 	; delaying 3 cycles:
-00004b e011                      			  ldi  R17, $01
+                                 	; delaying 9 cycles:
+00004b e013                      			  ldi  R17, $03
 00004c 951a                      	WGLOOP2:  dec  R17
 00004d f7f1                      			  brne WGLOOP2
                                  	; ----------------------------- 
-                                 	; delaying 2 cycles:
+                                 	; delaying 1 cycle:
 00004e 0000                      			  nop
-00004f 0000                      			  nop
                                  	; ============================= 
-000050 9508                      	ret
+00004f 9508                      	ret
                                  
                                  
                                  
@@ -1037,50 +1036,50 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
                                  ;Aquí están las rutinas para el manejo de las interrupciones concretas
                                  ;******************************************************
                                  EXT_INT0: ; IRQ0 Handler
-000051 bb0b                      	out PORTA,R16
-000052 dff2                      	rcall RETARDO
-000053 9b82                      		botoncito: sbis PIND, 2
-000054 cffe                      				rjmp botoncito
-000055 dfef                      	rcall RETARDO
-000056 9518                      reti
+000050 bb0b                      	out PORTA,R16
+000051 dff3                      	rcall RETARDO
+000052 9b82                      		botoncito: sbis PIND, 2
+000053 cffe                      				rjmp botoncito
+000054 dff0                      	rcall RETARDO
+000055 9518                      reti
                                  EXT_INT1: 
-000057 9518                      reti ; IRQ1 Handler
+000056 9518                      reti ; IRQ1 Handler
                                  TIM2_COMP: 
-000058 9518                      reti ; Timer2 Compare Handler
+000057 9518                      reti ; Timer2 Compare Handler
                                  TIM2_OVF: 
-000059 9518                      reti ; Timer2 Overflow Handler
+000058 9518                      reti ; Timer2 Overflow Handler
                                  TIM1_CAPT: 
-00005a 9518                      reti ; Timer1 Capture Handler
+000059 9518                      reti ; Timer1 Capture Handler
                                  TIM1_COMPA: 
-00005b 9518                      reti ; Timer1 CompareA Handler
+00005a 9518                      reti ; Timer1 CompareA Handler
                                  TIM1_COMPB: 
-00005c 9518                      reti ; Timer1 CompareB Handler
+00005b 9518                      reti ; Timer1 CompareB Handler
                                  TIM1_OVF: 
-00005d 9518                      reti ; Timer1 Overflow Handler
+00005c 9518                      reti ; Timer1 Overflow Handler
                                  TIM0_OVF: 
-00005e 9518                      reti ; Timer0 Overflow Handler
+00005d 9518                      reti ; Timer0 Overflow Handler
                                  SPI_STC: 
-00005f 9518                      reti ; SPI Transfer Complete Handler
+00005e 9518                      reti ; SPI Transfer Complete Handler
                                  USART_RXC: 
-000060 9518                      reti ; USART RX Complete Handler
+00005f 9518                      reti ; USART RX Complete Handler
                                  USART_UDRE: 
-000061 9518                      reti ; UDR Empty Handler
+000060 9518                      reti ; UDR Empty Handler
                                  USART_TXC: 
-000062 9518                      reti ; USART TX Complete Handler
+000061 9518                      reti ; USART TX Complete Handler
                                  ADC_COMP: 
-000063 9518                      reti ; ADC Conversion Complete Handler
+000062 9518                      reti ; ADC Conversion Complete Handler
                                  EE_RDY: 
-000064 9518                      reti ; EEPROM Ready Handler
+000063 9518                      reti ; EEPROM Ready Handler
                                  ANA_COMP: 
-000065 9518                      reti ; Analog Comparator Handler
+000064 9518                      reti ; Analog Comparator Handler
                                  TWSI: 
-000066 9518                      reti ; Two-wire Serial Interface Handler
+000065 9518                      reti ; Two-wire Serial Interface Handler
                                  EXT_INT2: 
-000067 9518                      reti ; IRQ2 Handler
+000066 9518                      reti ; IRQ2 Handler
                                  TIM0_COMP: 
-000068 9518                      reti
+000067 9518                      reti
                                  SPM_RDY: 
-000069 9518                      reti ; Store Program Memory Ready Handler
+000068 9518                      reti ; Store Program Memory Ready Handler
                                  
                                  
                                  
@@ -1121,7 +1120,7 @@ cpi   :   0 cpse  :   0 dec   :   3 eor   :   0 fmul  :   0 fmuls :   0
 fmulsu:   0 icall :   0 ijmp  :   0 in    :   0 inc   :   0 jmp   :  21 
 ld    :   0 ldd   :   0 ldi   :  19 lds   :   0 lpm   :   0 lsl   :   0 
 lsr   :   0 mov   :   0 movw  :   0 mul   :   0 muls  :   0 mulsu :   0 
-neg   :   0 nop   :   2 or    :   0 ori   :   0 out   :  10 pop   :   0 
+neg   :   0 nop   :   1 or    :   0 ori   :   0 out   :  10 pop   :   0 
 push  :   0 rcall :   2 ret   :   1 reti  :  20 rjmp  :   2 rol   :   0 
 ror   :   0 sbc   :   0 sbci  :   0 sbi   :   0 sbic  :   0 sbis  :   1 
 sbiw  :   0 sbr   :   0 sbrc  :   0 sbrs  :   0 sec   :   0 seh   :   0 
@@ -1133,7 +1132,7 @@ Instructions used: 12 out of 113 (10.6%)
 "ATmega16A" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x0000d4    212      0    212   16384   1.3%
+[.cseg] 0x000000 0x0000d2    210      0    210   16384   1.3%
 [.dseg] 0x000060 0x000060      0      0      0    1024   0.0%
 [.eseg] 0x000000 0x000000      0      0      0     512   0.0%
 

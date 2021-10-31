@@ -32,7 +32,7 @@ for(i in 1:length(elementos)){
     if(nuevo_peso <= lim_sup && nuevo_peso >= lim_inf) break #si se encuentra dentro del rango
     #revisar límite inferior
   }
- 
+  
   elementos_caja[i] = id_caja #asigno cada random a cada elemento
   peso_caja[id_caja] = nuevo_peso
 }

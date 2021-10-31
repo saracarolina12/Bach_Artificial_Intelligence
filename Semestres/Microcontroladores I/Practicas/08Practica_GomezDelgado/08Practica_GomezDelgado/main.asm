@@ -57,9 +57,9 @@ ldi r16, high(RAMEND)
 out SPH, r16
 ldi r16, low(RAMEND)
 out SPL, r16 
-sei
 
 //interrupciones
+sei
 ldi R16, 0b0000_0010	;flanco de bajada
 out MCUCR, R16
 ldi R16, 0b1110_0000	;clear flags
@@ -93,29 +93,25 @@ ciclo:
 RETARDO:	
 	; ============================= 
 	;    delay loop generator 
-	;     50000 cycles:
+	;     100000 cycles:
 	; ----------------------------- 
-	; delaying 49995 cycles:
-			  ldi  R17, $65
-	WGLOOP0:  ldi  R18, $A4
+	; delaying 99990 cycles:
+			  ldi  R17, $A5
+	WGLOOP0:  ldi  R18, $C9
 	WGLOOP1:  dec  R18
 			  brne WGLOOP1
 			  dec  R17
 			  brne WGLOOP0
 	; ----------------------------- 
-	; delaying 3 cycles:
-			  ldi  R17, $01
+	; delaying 9 cycles:
+			  ldi  R17, $03
 	WGLOOP2:  dec  R17
 			  brne WGLOOP2
 	; ----------------------------- 
-	; delaying 2 cycles:
-			  nop
+	; delaying 1 cycle:
 			  nop
 	; ============================= 
 	ret
-
-
-
 
 ;******************************************************
 ;Aquí están las rutinas para el manejo de las interrupciones concretas
