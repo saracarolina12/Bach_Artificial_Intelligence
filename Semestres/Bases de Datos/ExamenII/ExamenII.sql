@@ -165,27 +165,27 @@
 		---Cliente: nombre+apell
 		---Aval: nombre+apell
 
-		select * from TablaCredito where Estatus like '%activo%'
+		--select * from TablaCredito where Estatus like '%activo%'
 		
 ----d.	(10%) Generar un listado que incluya el id del cliente, el nombre del cliente y total de créditos que ha tenido dentro de la empresa.
 		--id_cliente, nombre cliente, total creditos
 		---Cliente: id_cliente, nombre
 		---Creditos: suma de creditos basados en el id
-		select tc.ID_cliente, tc.Nombre, count(1) Creditos from TablaCredito c
-		join TablaCliente tc on tc.ID_cliente = c.IDCliente_1m
-		group by tc.ID_cliente, tc.Nombre
+		--select tc.ID_cliente, tc.Nombre, count(1) Creditos from TablaCredito c
+		--join TablaCliente tc on tc.ID_cliente = c.IDCliente_1m
+		--group by tc.ID_cliente, tc.Nombre
 
 ----e.	(10%) Generar un listado que contenga los avales y el total de créditos avalados, el reporte mostrara el id del aval, el nombre del aval y total de créditos avalados.
 		--avales, total de créditos avalados: id_aval, nombre_aval, suma créditos avalados
-		select ta.ID_Aval, Nombre, count(1) Total_Avalados from TablaAval ta
-		join CreditoAval ca on ca.ID_mm = ta.ID_Aval
-		group by ID_Aval, Nombre
+		--select ta.ID_Aval, Nombre, count(1) Total_Avalados from TablaAval ta
+		--join CreditoAval ca on ca.ID_mm = ta.ID_Aval
+		--group by ID_Aval, Nombre
 
 
 ----f.	(10%) Generar el total prestado para los créditos de tipo línea blanca y créditos personales, agrupados por tipo de crédito y numero de semanas y que actualmente se encuentran activos.
 		--suma total créditos línea blanca, suma total créditos efectivo, GROUP BY tipoCredito, GROUP BY numero de semanas, where Estatus like '%activo%'
-		select cr.Tipo_cred, cr.NumSemanas, cr.Estatus, sum(cr.MontoPrestado) TotalPrestado from TablaCredito cr where cr.Estatus like '%activo%'
-		group by cr.Tipo_cred, cr.NumSemanas, cr.Estatus
+		--select cr.Tipo_cred, cr.NumSemanas, cr.Estatus, sum(cr.MontoPrestado) TotalPrestado from TablaCredito cr where cr.Estatus like '%activo%'
+		--group by cr.Tipo_cred, cr.NumSemanas, cr.Estatus
 
 
 	--select * from TablaCredito
