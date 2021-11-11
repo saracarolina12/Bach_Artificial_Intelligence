@@ -56,46 +56,47 @@ out SPL, r16
 ;Los registros que vayas a utilizar inicializalos si es necesario
 ;******************************************************
 
-//BOTONES-A
-ldi R16, 0													
-out DDRA, R16
-ldi R16, $FF												
-out PORTA, R16
-//MINUTOS-C
-ldi R16, $FF												
-out DDRC, R16
-ldi R16, 0
-out PORTC, R16
-//MINUTOS-D
-ldi R16, $FF												
-out DDRC, R16
-ldi R16, 0
-out PORTC, R16
+res:
+	//BOTONES-A
+	ldi R16, 0													
+	out DDRA, R16
+	ldi R16, $FF												
+	out PORTA, R16
+	//MINUTOS-C
+	ldi R16, $FF												
+	out DDRC, R16
+	ldi R16, 0
+	out PORTC, R16
+	//MINUTOS-D
+	ldi R16, $FF												
+	out DDRC, R16
+	ldi R16, 0
+	out PORTC, R16
 
-sei
+	sei
 
-ldi R16, 0											;lleva la cuenta cada N ciclos
-out TCNT0, R16
-ldi R16, 155										;0.01 segundos
-out OCR0, R16	
-ldi R16, 0b0000_0011								;0000_00xx [comp][overf] 1=limpia, 0=activa
-out TIFR, R16
-ldi R16, 0b0000_0010								;0000_00xx [comp][overf] 1=usar, 0=no_usar
-out TIMSK, R16
-;ldi R16, 0b0000_1100 todavía no se pone
-;out TCCR0, R16
+	ldi R16, 0											;lleva la cuenta cada N ciclos
+	out TCNT0, R16
+	ldi R16, 155										;0.01 segundos
+	out OCR0, R16	
+	ldi R16, 0b0000_0011								;0000_00xx [comp][overf] 1=limpia, 0=activa
+	out TIFR, R16
+	ldi R16, 0b0000_0010								;0000_00xx [comp][overf] 1=usar, 0=no_usar
+	out TIMSK, R16
+	;ldi R16, 0b0000_1100 todavía no se pone
+	;out TCCR0, R16
 
-BOTONES:
-		sbis PINA, 0								;INICIO
-		rcall INICIO
-		sbis PINA, 7								;LIMPIAR
-		rcall LIMPIAR
-	rjmp BOTONES
+	BOTONES:
+			sbis PINA, 0								;INICIO
+			rcall INICIO
+			sbis PINA, 7								;LIMPIAR
+			rjmp res
+		rjmp BOTONES
 
 
 INICIO:
+	
 
-LIMPIAR:
 
 
 RETARDO:
