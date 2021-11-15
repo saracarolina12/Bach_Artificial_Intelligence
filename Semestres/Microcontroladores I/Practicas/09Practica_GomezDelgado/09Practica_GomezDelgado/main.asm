@@ -49,13 +49,19 @@ ldi r16, high(RAMEND)
 out SPH, r16
 ldi r16, low(RAMEND)
 out SPL, r16 
+sei
+
 ;******************************************************
 ;No olvides configurar al inicio los puertos que utilizarás
 ;También debes configurar si habrá o no pull ups en las entradas
 ;Para las salidas deberás indicar cuál es la salida inicial
 ;Los registros que vayas a utilizar inicializalos si es necesario
 ;******************************************************
-
+/*
+		R17 = contador de 1 segundo
+		R18 = [x][segundos]
+		R19 = [mins][x]
+*/
 res:
 	//BOTONES-A
 	ldi R16, 0													
@@ -69,11 +75,10 @@ res:
 	out PORTC, R16
 	//MINUTOS-D
 	ldi R16, $FF												
-	out DDRC, R16
+	out DDRD, R16
 	ldi R16, 0
-	out PORTC, R16
+	out PORTD, R16
 
-	sei
 
 	ldi R16, 0											;lleva la cuenta cada N ciclos
 	out TCNT0, R16
@@ -95,9 +100,14 @@ res:
 
 
 INICIO:
+	ldi R16, 0b0000_1100
+	out TCCR0, R16										;enciendo el TIMER0_COMP
+	rcall RETARDO
+	traba: sbis pinA, 0									;¿el A0 sigue presionado?
+		   rjmp traba									;sí
+	rcall RETARDO										;no
+	rjmp BOTONES
 	
-
-
 
 RETARDO:
 	; ============================= 
@@ -162,9 +172,33 @@ reti ; Two-wire Serial Interface Handler
 EXT_INT2: 
 reti ; IRQ2 Handler
 TIM0_COMP: 
+	ldi R16, SREG								;respaldo SREG
+	push R16									;respaldo SREG
+	inc R17										;contador 1 seg
+	cpi R17, 100				
+	rjmp ES_100									;si sí es 100	
+	regresa:
+		pop R16										;si no, regresa
+		out SREG, R16																				
 reti
 SPM_RDY: 
 reti ; Store Program Memory Ready Handler
+
+
+ES_100:
+	inc R18
+	cpi R18, 59
+	rjmp ES_59
+	//help
+
+ES_59:
+	ldi R18, 0
+	inc R19										;aumento minutos
+	out PORTC, R19								;saco minutos
+	ldi R17, 0
+	rjmp regresa
+
+	
 
 
 
