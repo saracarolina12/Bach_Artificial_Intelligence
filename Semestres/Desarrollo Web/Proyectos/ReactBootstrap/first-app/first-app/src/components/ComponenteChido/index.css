@@ -1,0 +1,41 @@
+@font-face {
+    font-family: text;
+    src: url("./Fonts/lemon.otf");
+}
+
+@font-face {
+    font-family: Title;
+    src: url("./Fonts/Homework.otf");
+}
+
+.bg {
+    background-image: url('./gitpages.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.datos{
+    margin-top: 7%;
+}
+
+.nombre{
+    font-size: 180%;
+
+}
+
+.nombre{
+    margin-top: -7%;
+    font-family: text;
+}
+
+.titulo{
+    font-family: text;
+    font-size: 300%;
+}
+
+.linea{
+   border: 2px solid purple;
+   width: 50%;
+}
