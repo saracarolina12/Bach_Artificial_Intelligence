@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\09Practica_GomezDelgado\09Practica_GomezDelgado\main.asm Fri Nov 12 09:37:30 2021
+AVRASM ver. 2.2.8  C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\09Practica_GomezDelgado\09Practica_GomezDelgado\main.asm Mon Nov 15 17:43:01 2021
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc'
 C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\09Practica_GomezDelgado\09Practica_GomezDelgado\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc'
@@ -953,7 +953,7 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
 000022 940c 006a                 jmp TWSI ; Two-wire Serial Interface Handler
 000024 940c 006b                 jmp EXT_INT2 ; IRQ2 Handler
 000026 940c 006c                 jmp TIM0_COMP ; Timer0 Compare Handler
-000028 940c 006f                 jmp SPM_RDY ; Store Program Memory Ready Handler
+000028 940c 0074                 jmp SPM_RDY ; Store Program Memory Ready Handler
                                  ; Termina el vector de interrupciones.
                                  
                                  ;******************************************************
@@ -973,7 +973,11 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
                                  ;Para las salidas deberás indicar cuál es la salida inicial
                                  ;Los registros que vayas a utilizar inicializalos si es necesario
                                  ;******************************************************
-                                 
+                                 /*
+                                 		R17 = contador de 1 segundo
+                                 		R18 = [x][segundos]
+                                 		R19 = [mins][x]
+                                 */
                                  res:
                                  	//BOTONES-A
 00002f e000                      	ldi R16, 0													
@@ -1084,11 +1088,44 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
                                  EXT_INT2: 
 00006b 9518                      reti ; IRQ2 Handler
                                  TIM0_COMP: 
-00006c e30f                      	ldi R16, SREG								;respaldo SREG
-00006d 930f                      	push R16
-00006e 9518                      reti
+00006c b70f                      	in R16, SREG								;respaldo SREG
+00006d 930f                      	push R16									;respaldo SREG
+00006e 9513                      	inc R17										;contador 1 seg
+00006f 3614                      	cpi R17, 100				
+000070 c004                      	rjmp ES_100									;si sí es 100	
+                                 	regresa:
+000071 910f                      		pop R16									;si no, regresa
+000072 bf0f                      		out SREG, R16																				
+000073 9518                      reti
                                  SPM_RDY: 
-00006f 9518                      reti ; Store Program Memory Ready Handler
+000074 9518                      reti ; Store Program Memory Ready Handler
+                                 
+                                 
+                                 ES_100:
+000075 9523                      	inc R18
+000076 332b                      	cpi R18, 59									;es 59?
+000077 c002                      	rjmp ES_59									;sí
+                                 	continua:
+000078 bb22                      		out PORTD, R18								;no: saco segundos
+                                 		//out PORTC, R19								;saco minutos			//creo que esta línea es innecesaria
+000079 cff7                      		rjmp regresa
+                                 		
+                                 ES_59:
+00007a e020                      	ldi R18, 0
+00007b 9533                      	inc R19
+00007c 3034                      	cpi R19, 4									; ¿4:59?
+00007d c004                      	rjmp ES4_59
+00007e bb22                      	out PORTD, R18								;saco los segundos
+00007f bb35                      	out PORTC, R19								;saco los minutos
+000080 e010                      	ldi R17, 0
+000081 cfef                      	rjmp regresa
+                                 
+                                 ES4_59:
+000082 e008                      	ldi R16, 0b0000_1000						;apago prescaler
+000083 bf03                      	out TCCR0, R16	
+000084 cff3                      	rjmp continua
+                                 
+                                 	
                                  
                                  
                                  
@@ -1111,10 +1148,10 @@ counted separately from r26..r31 here.
 "ATmega16A" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  28 r17:   0 r18:   0 r19:   0 r20:   0 
+r13:   0 r14:   0 r15:   0 r16:  32 r17:   3 r18:   5 r19:   3 r20:   0 
 r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   0 r27:   0 r28:   0 
 r29:   4 r30:   2 r31:   0 
-Registers used: 3 out of 35 (8.6%)
+Registers used: 6 out of 35 (17.1%)
 
 "ATmega16A" instruction use summary:
 .lds  :   0 .sts  :   0 adc   :   0 add   :   0 adiw  :   0 and   :   0 
@@ -1125,23 +1162,23 @@ brne  :   3 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0
 brvs  :   0 bset  :   0 bst   :   0 call  :   0 cbi   :   0 cbr   :   0 
 clc   :   0 clh   :   0 cli   :   0 cln   :   0 clr   :   0 cls   :   0 
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
-cpi   :   0 cpse  :   0 dec   :   3 eor   :   0 fmul  :   0 fmuls :   0 
-fmulsu:   0 icall :   0 ijmp  :   0 in    :   0 inc   :   0 jmp   :  21 
-ld    :   0 ldd   :   0 ldi   :  17 lds   :   0 lpm   :   0 lsl   :   0 
+cpi   :   3 cpse  :   0 dec   :   3 eor   :   0 fmul  :   0 fmuls :   0 
+fmulsu:   0 icall :   0 ijmp  :   0 in    :   1 inc   :   3 jmp   :  21 
+ld    :   0 ldd   :   0 ldi   :  19 lds   :   0 lpm   :   0 lsl   :   0 
 lsr   :   0 mov   :   0 movw  :   0 mul   :   0 muls  :   0 mulsu :   0 
-neg   :   0 nop   :   1 or    :   0 ori   :   0 out   :  13 pop   :   0 
-push  :   1 rcall :   3 ret   :   1 reti  :  20 rjmp  :   4 rol   :   0 
+neg   :   0 nop   :   1 or    :   0 ori   :   0 out   :  18 pop   :   1 
+push  :   1 rcall :   3 ret   :   1 reti  :  20 rjmp  :  10 rol   :   0 
 ror   :   0 sbc   :   0 sbci  :   0 sbi   :   0 sbic  :   0 sbis  :   3 
 sbiw  :   0 sbr   :   0 sbrc  :   0 sbrs  :   0 sec   :   0 seh   :   0 
 sei   :   1 sen   :   0 ser   :   0 ses   :   0 set   :   0 sev   :   0 
 sez   :   0 sleep :   0 spm   :   0 st    :   0 std   :   0 sts   :   0 
 sub   :   0 subi  :   0 swap  :   0 tst   :   0 wdr   :   0 
-Instructions used: 13 out of 113 (11.5%)
+Instructions used: 17 out of 113 (15.0%)
 
 "ATmega16A" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x0000e0    224      0    224   16384   1.4%
+[.cseg] 0x000000 0x00010a    266      0    266   16384   1.6%
 [.dseg] 0x000060 0x000060      0      0      0    1024   0.0%
 [.eseg] 0x000000 0x000000      0      0      0     512   0.0%
 

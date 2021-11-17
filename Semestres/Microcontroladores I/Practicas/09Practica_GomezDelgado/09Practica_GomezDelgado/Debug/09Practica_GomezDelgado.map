@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\09Practica_GomezDelgado\09Practica_GomezDelgado\main.asm Fri Nov 12 09:37:30 2021
+AVRASM ver. 2.2.8  C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\09Practica_GomezDelgado\09Practica_GomezDelgado\main.asm Mon Nov 15 17:43:01 2021
 
 
 EQU  SIGNATURE_000 0000001e
@@ -624,7 +624,7 @@ CSEG ANA_COMP     00000069
 CSEG TWSI         0000006a
 CSEG EXT_INT2     0000006b
 CSEG TIM0_COMP    0000006c
-CSEG SPM_RDY      0000006f
+CSEG SPM_RDY      00000074
 CSEG res          0000002f
 CSEG BOTONES      00000043
 CSEG INICIO       00000048
@@ -633,3 +633,8 @@ CSEG traba        0000004b
 CSEG WGLOOP0      00000050
 CSEG WGLOOP1      00000051
 CSEG WGLOOP2      00000056
+CSEG ES_100       00000075
+CSEG regresa      00000071
+CSEG ES_59        0000007a
+CSEG continua     00000078
+CSEG ES4_59       00000082
