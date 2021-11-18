@@ -70,32 +70,82 @@ out PORTB, R16
 //DISPLAY - C
 ldi R16, $FF								;salida
 out DDRC, R16
-ldi R16, $FF								;encendidos
+ldi R16, 0								;encendidos
 out PORTC, R16
 
 //TIMER 8MHz
 ldi R16, 0b0000_0011						;limpia comp, ovrfl
 out TIFR, R16
 ldi R16, 0 
-out TCNT, R16
+out TCNT0, R16
 ldi R16, 124								;0.001 segs
 out OCR0, R16
 ldi R16, 0b0000_0010						;por comparación
 out TIMSK, R16
-ldi R16, 0b0000_1011						;modo:ctc, prescaler:64
+;aquí no enciendo el TIMER0
+
+
+//INTERRUMPCIONES
+ldi R16, 0b0000_0010						;int 0, flanco de bajada
+out MCUCR, R16
+ldi R16, 0b1110_0000						;limpia banderas
+out GIFR, R16
+ldi R16, 0b0100_0000						;habilito int 0
+out GICR, R16
 
 //revisar si está presionado el botón
 BOTON:									
-	sbis PORTB, 0							;¿botón A0 apretado?
+	sbis PINB, 0							;¿botón A0 apretado?
 	rjmp PRESIONADO
 	rjmp BOTON
-
 PRESIONADO:
-	
-//¿a dónde regresa?
+		rcall RETARDO
+		traba_boton: sbis PINB, 0
+				rjmp traba_boton
+		rcall RETARDO
+		ldi R19, 0							;inicializo en 0 el contador por si quiero volver a contar
+
+		traba0: sbis PINA, 0				;por si no presiono en el "flanco de bajada"
+				rjmp traba0
+		traba1: sbic PINA, 0
+				rjmp traba1
+		
+		ldi R16, 0b0000_1011				;modo:ctc, prescaler:64 ENCIENDO TIMER0
+		out TCCR0, R16
+
+		traba0_dos: sbis PINA, 0				
+				rjmp traba0_dos
+		traba1_dos: sbic PINA, 0
+				rjmp traba1_dos
+
+		ldi R16, 0b0000_1000				;modo:ctc, prescaler:64  APAGO TIMER0
+		out TCCR0, R16
+
+  rjmp BOTON
 
 
-
+  RETARDO:
+	; ============================= 
+	;    delay loop generator 
+	;     100000 cycles:
+	; ----------------------------- 
+	; delaying 99990 cycles:
+			  ldi  R31, $A5
+	WGLOOP0:  ldi  R30, $C9
+	WGLOOP1:  dec  R30
+			  brne WGLOOP1
+			  dec  R31
+			  brne WGLOOP0
+	; ----------------------------- 
+	; delaying 9 cycles:
+			  ldi  R31, $03
+	WGLOOP2:  dec  R31
+			  brne WGLOOP2
+	; ----------------------------- 
+	; delaying 1 cycle:
+			  nop
+	; ============================= 
+	ret
 
 
 ;******************************************************
@@ -138,6 +188,8 @@ reti ; Two-wire Serial Interface Handler
 EXT_INT2: 
 reti ; IRQ2 Handler
 TIM0_COMP: 
+	inc R19											;Contador
+
 reti
 SPM_RDY: 
 reti ; Store Program Memory Ready Handler
