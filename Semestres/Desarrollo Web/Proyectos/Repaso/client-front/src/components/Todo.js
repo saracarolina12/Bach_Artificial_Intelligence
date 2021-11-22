@@ -1,13 +1,10 @@
 import React from "react"
 import {useEffect} from "react";
-import { getTodos } from "../functions/index.js";
-import { createTodo } from "../api/index.js";
+import {getTodos} from "../functions/index.js";
 import "bootstrap/dist/css/bootstrap.min.css"
 import Container from "react-bootstrap/esm/Container";
 import Card from 'react-bootstrap/Card'
 import './Todo.css';
-
-
 
 function ShowInfo(){
     const [state, setState] = React.useState();
@@ -16,11 +13,11 @@ function ShowInfo(){
         console.log(value);
         setState(value);
     }
-
     useEffect(() => {
         console.log("Todos");
         const fetchData = async() => {
             const result = await getTodos();
+            setState(result);                       //guardo el fetch
             console.log('Fetched data', result);
         };
         fetchData();
@@ -48,15 +45,18 @@ function ShowInfo(){
         <center>
             <Card
                 text='black'
-                style={{ width: '18rem' }}
+                // style={{ width: '18rem' }}
                 className="mb-2 cardcolor"
                 style={{width: '60%'}}
             >
                 <Card.Header><h3>Posts:</h3></Card.Header>
                 <Card.Body>
                 <Card.Text>
-                   //posts
-                   {/* <p>{getTodos}</p> */}
+                {state && state.map((post) => {                     //siempre y cuando exista state, recorremos con map la promesa
+                    return(
+                        <p><i>{post.title}: {post.content}</i></p>
+                    )
+                })}
                 </Card.Text>
                 </Card.Body>
             </Card>
@@ -64,5 +64,6 @@ function ShowInfo(){
         </Container>
 
     )
+    
 }
 export default ShowInfo;

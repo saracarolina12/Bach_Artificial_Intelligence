@@ -1,17 +1,17 @@
 ;******************************************************
-; Medidor de periodo
+; Brazo Mec√°nico - Proyecto Final
 ;
-; Fecha: 16/11/2021
-; Autor: Sara Carolina GÛmez Delgado
+; Fecha: 21/11/2021
+; Autor: Sara Y Luis 
 ;******************************************************
 
 .include "m16adef.inc"     
    
 ;******************************************************
-;Registros (aquÌ pueden definirse)
+;Registros (aqu√≠ pueden definirse)
 ;.def temporal=r19
 
-;Palabras claves (aquÌ pueden definirse)
+;Palabras claves (aqu√≠ pueden definirse)
 ;.equ LCD_DAT=DDRC
 ;******************************************************
 
@@ -41,7 +41,7 @@ jmp SPM_RDY ; Store Program Memory Ready Handler
 ; Termina el vector de interrupciones.
 
 ;******************************************************
-;AquÌ comenzar· el programa
+;Aqu√≠ comenzar√° el programa
 ;******************************************************
 Reset:
 ;Primero inicializamos el stack pointer...
@@ -49,116 +49,22 @@ ldi r16, high(RAMEND)
 out SPH, r16
 ldi r16, low(RAMEND)
 out SPL, r16 
-sei
 ;******************************************************
-;No olvides configurar al inicio los puertos que utilizar·s
-;TambiÈn debes configurar si habr· o no pull ups en las entradas
-;Para las salidas deber·s indicar cu·l es la salida inicial
+;No olvides configurar al inicio los puertos que utilizar√°s
+;Tambi√©n debes configurar si habr√° o no pull ups en las entradas
+;Para las salidas deber√°s indicar cu√°l es la salida inicial
 ;Los registros que vayas a utilizar inicializalos si es necesario
 ;******************************************************
 
-//SE—AL - A
-ldi R16, 0									;entrada
-out DDRA, R16					
-ldi R16, $FF								;pullups
-out PORTA, R16
-//BOTON - B
-ldi R16, 0									;entrada
-out DDRB, R16
-ldi R16, $FF								;pullups
-out PORTB, R16
-//DISPLAY - C
-ldi R16, $FF								;salida
-out DDRC, R16
-ldi R16, 0									;encendidos
-out PORTC, R16
-
-//TIMER 8MHz
-ldi R16, 0b0000_0011						;limpia comp, ovrfl
-out TIFR, R16
-ldi R16, 0 
-out TCNT0, R16
-ldi R16, 124								;0.001 segs
-out OCR0, R16
-ldi R16, 0b0000_0010						;por comparaciÛn
-out TIMSK, R16
-;aquÌ no enciendo el TIMER0
-
-/*
-//INTERRUMPCIONES
-ldi R16, 0b0000_0010						;int 0, flanco de bajada
-out MCUCR, R16
-ldi R16, 0b1110_0000						;limpia banderas
-out GIFR, R16
-ldi R16, 0b0100_0000						;habilito int 0
-out GICR, R16
-*/
-
-//revisar si est· presionado el botÛn
-BOTON:									
-	sbis PINB, 0							;øbotÛn A0 apretado?
-	rjmp PRESIONADO
-	rjmp BOTON
-PRESIONADO:
-		rcall RETARDO
-		traba_boton: sbis PINB, 0
-				rjmp traba_boton
-		rcall RETARDO
-		ldi R19, 0							;inicializo en 0 el contador por si quiero volver a contar
-
-		traba0: sbis PINA, 0				;por si no presiono en el "flanco de bajada"
-				rjmp traba0
-		traba1: sbic PINA, 0
-				rjmp traba1
-		
-		ldi R16, 0b0000_1011				;modo:ctc, prescaler:64		//ENCIENDO TIMER0
-		out TCCR0, R16
-
-		traba0_dos: sbis PINA, 0				
-				rjmp traba0_dos
-		traba1_dos: sbic PINA, 0
-				rjmp traba1_dos
-
-		ldi R16, 0b0000_1000				;modo:ctc, prescaler:64		//APAGO TIMER0
-		out TCCR0, R16
-
-		rcall MOSTRAR
-  rjmp BOTON
-
-  MOSTRAR:
-	//muestro R19, que es quien tiene el periodo
-	//decenas
-	
-	//unidades
-	ret
+//SENSOR CNY70 
+ldi R16, 
 
 
-  RETARDO:
-	; ============================= 
-	;    delay loop generator 
-	;     100000 cycles:
-	; ----------------------------- 
-	; delaying 99990 cycles:
-			  ldi  R31, $A5
-	WGLOOP0:  ldi  R30, $C9
-	WGLOOP1:  dec  R30
-			  brne WGLOOP1
-			  dec  R31
-			  brne WGLOOP0
-	; ----------------------------- 
-	; delaying 9 cycles:
-			  ldi  R31, $03
-	WGLOOP2:  dec  R31
-			  brne WGLOOP2
-	; ----------------------------- 
-	; delaying 1 cycle:
-			  nop
-	; ============================= 
-	ret
+
 
 
 ;******************************************************
-;AquÌ est·n las rutinas para el manejo de las interrupciones concretas
+;Aqu√≠ est√°n las rutinas para el manejo de las interrupciones concretas
 ;******************************************************
 EXT_INT0: ; IRQ0 Handler
 reti
@@ -197,8 +103,6 @@ reti ; Two-wire Serial Interface Handler
 EXT_INT2: 
 reti ; IRQ2 Handler
 TIM0_COMP: 
-	inc R19											;Contador
 reti
 SPM_RDY: 
 reti ; Store Program Memory Ready Handler
-

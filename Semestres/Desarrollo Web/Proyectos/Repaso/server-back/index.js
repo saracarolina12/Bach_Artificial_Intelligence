@@ -14,6 +14,7 @@ const MONGO_URL = `mongodb+srv://${process.env.mongousername}:${process.env.mong
 //console.log(MONGO_URL);
 const PORT = process.env.PORT || 5000;      //si no existe el de la derecha, toma el de la izquierda
 
+console.log(PORT);
 app.use(cors());
 
 app.get("/", (req, res) => {
