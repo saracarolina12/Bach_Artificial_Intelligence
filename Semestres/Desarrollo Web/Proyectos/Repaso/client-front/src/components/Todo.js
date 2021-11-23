@@ -11,7 +11,7 @@ function ShowInfo(){
     function Changing(x){
         const {value} = x.target;
         console.log(value);
-        setState(value);
+        //setState(value);
     }
     useEffect(() => {
         console.log("Todos");
