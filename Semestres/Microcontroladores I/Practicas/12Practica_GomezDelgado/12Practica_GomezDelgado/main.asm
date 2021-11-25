@@ -61,28 +61,31 @@ out SPL, r16
 ;LEDS
 ldi R16, $FF									;salida
 out DDRB, R16
-ldi R16, 0b0010_1000							;encendido 
+ldi R16, 0b0000_1010							;encendido  B3,B1
 out PORTB, R16	
-
 ;BOTONES
 ldi R16, 0										;entrada
 out DDRA, R16
 ldi R16, $FF									;pullups
 out PORTA, R16
-
+;TIMER0
+ldi R16, 0										;inicializo en 0
+out TCNT0, R16
 BOTONES:
-	sbis PINA, 1							
-		rjmp AUMENTA
-	sbis PINA, 2
-		rjmp DISMINUYE	
+	sbis PINA, 0							
+		rcall AUMENTA
+	sbis PINA, 1
+		rcall DISMINUYE	
 rjmp BOTONES
 
 AUMENTA:
-		
+	
+	ret
 	//regresar
 
 DISMINUYE:
 
+	ret
 	//regresar
 
 

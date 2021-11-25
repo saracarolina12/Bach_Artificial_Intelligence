@@ -1,4 +1,5 @@
 import Todo from "../models/todos.js";
+import mongoose from "mongoose";
 
 export const getTodos = async(req, res) => {
     try{
@@ -20,3 +21,11 @@ export const createTodo = async(req, res) => {
     }
 };
 
+export const deleteTodos = async(req, res) => {
+    const {id} = req.params;
+    if (!mongoose.Types.ObjectId.isValid(id))
+        return res.status(404).send("This id doesn't exist")
+    
+    await Todo.findByIdAndRemove(id);
+        res.status(200).json({message : "Todo deleted successfully"})
+};

@@ -11,12 +11,21 @@ export const getTodos = async() => {
     }
 }
 
-export const createTodos = async() => {
+export const createTodo = async({title, content}) => {
     try {
-        const {data} = await api.createTodo();
+        const {data} = await api.createTodo({title, content});
         return data;
     }
     catch(error) {
         console.log(error);
+    }
+}
+
+export const deleteTodos = async(id) => {
+    try {
+        await api.deleteTodos(id);
+        return `${id} deleted successfully`;
+    }catch (error) {
+        console.log(error)
     }
 }
