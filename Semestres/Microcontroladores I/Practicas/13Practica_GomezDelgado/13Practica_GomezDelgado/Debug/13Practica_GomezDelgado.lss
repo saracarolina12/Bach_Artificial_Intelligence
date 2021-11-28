@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\13Practica_GomezDelgado\13Practica_GomezDelgado\main.asm Wed Nov 24 09:32:13 2021
+AVRASM ver. 2.2.8  C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\13Practica_GomezDelgado\13Practica_GomezDelgado\main.asm Thu Nov 25 15:39:29 2021
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc'
 C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\13Practica_GomezDelgado\13Practica_GomezDelgado\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc'
@@ -1051,7 +1051,7 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
 00005a e001                      	ldi R16, 1						;para mostrar la posición en el display
 00005b bb05                      	out PORTC, R16
                                  	//Servo
-00005c e00e                      	ldi R16, 14						
+00005c e005                      	ldi R16, 5						
 00005d bf0c                      	out OCR0, R16
 00005e e60b                      	ldi R16, 0b0110_1011				
 00005f bf03                      	out TCCR0, R16
@@ -1068,7 +1068,7 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
 000065 e002                      	ldi R16, 2
 000066 bb05                      	out PORTC, R16
                                  	//Servo
-000067 e103                      	ldi R16, 19						
+000067 e00e                      	ldi R16, 14						
 000068 bf0c                      	out OCR0, R16
 000069 e60b                      	ldi R16, 0b0110_1011				
 00006a bf03                      	out TCCR0, R16
@@ -1102,7 +1102,7 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
 00007b e004                      	ldi R16, 4
 00007c bb05                      	out PORTC, R16
                                  	//Servo
-00007d e10a                      	ldi R16, 26						
+00007d e10f                      	ldi R16, 31						
 00007e bf0c                      	out OCR0, R16
 00007f e60b                      	ldi R16, 0b0110_1011				
 000080 bf03                      	out TCCR0, R16
@@ -1119,7 +1119,7 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
 000086 e005                      	ldi R16, 5
 000087 bb05                      	out PORTC, R16
                                  	//Servo
-000088 e10e                      	ldi R16, 30						
+000088 e207                      	ldi R16, 39						
 000089 bf0c                      	out OCR0, R16
 00008a e60b                      	ldi R16, 0b0110_1011				
 00008b bf03                      	out TCCR0, R16

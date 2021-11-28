@@ -90,6 +90,10 @@ res:
 	out TIMSK, R16
 	;ldi R16, 0b0000_1100 todavía no se pone
 	;out TCCR0, R16
+	clr R17												;inicializar
+	clr R19												
+	clr R20
+	clr R21
 
 	BOTONES:
 			sbis PINA, 0								;INICIO
@@ -176,7 +180,7 @@ TIM0_COMP:
 	push R16									;respaldo SREG
 	inc R17										;contador 1 seg
 	cpi R17, 100				
-	rjmp ES_100									;si sí es 100	
+	breq ES_100									;si sí es 100	
 	regresa:
 		pop R16									;si no, regresa
 		out SREG, R16																				
@@ -188,26 +192,41 @@ reti ; Store Program Memory Ready Handler
 ES_100:
 	inc R18
 	cpi R18, 59									;es 59?
-	rjmp ES_59									;sí
+	breq ES_59									;sí
 	continua:
-		out PORTD, R18								;no: saco segundos
-		//out PORTC, R19								;saco minutos			//creo que esta línea es innecesaria
+		mov R20, R18
+		rjmp mod
+		imprime:
+		out PORTD, R20							;no: saco segundos
+		//out PORTC, R19						;saco minutos			//creo que esta línea es innecesaria
 		rjmp regresa
 		
 ES_59:
 	ldi R18, 0
 	inc R19
-	cpi R19, 4									; ¿4:59?
-	rjmp ES4_59
+	cpi R19, 5									; ¿4:59?
+	breq ES5
 	out PORTD, R18								;saco los segundos
 	out PORTC, R19								;saco los minutos
 	ldi R17, 0
 	rjmp regresa
 
-ES4_59:
+ES5:
 	ldi R16, 0b0000_1000						;apago prescaler
 	out TCCR0, R16	
 	rjmp continua
+
+mod:
+	cpi R20, 10
+	brsh resta									;si R20 >= 10, entra a resta
+	swap R21
+	or R20, R21								;uno ambos registros para mostrarlos
+	rjmp imprime
+
+resta:
+	subi R20, 10									;le resta 10
+	inc R21										;aumentan las decenas
+	rjmp mod
 
 	
 

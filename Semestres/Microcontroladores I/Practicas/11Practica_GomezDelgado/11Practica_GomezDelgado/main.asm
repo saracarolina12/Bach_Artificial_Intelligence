@@ -72,6 +72,7 @@ ldi R16, $FF								;salida
 out DDRC, R16
 ldi R16, 0									;encendidos
 out PORTC, R16
+ldi R20, 0									;inicializo contador
 
 //TIMER 8MHz
 ldi R16, 0b0000_0011						;limpia comp, ovrfl
@@ -119,7 +120,7 @@ PRESIONADO:
 		traba1_dos: sbic PINA, 0
 				rjmp traba1_dos
 
-		ldi R16, 0b0000_1000				;modo:ctc, prescaler:64		//APAGO TIMER0
+		ldi R16, 0b0000_1000				;modo:ctc 		//APAGO TIMER0
 		out TCCR0, R16
 
 		rcall MOSTRAR
@@ -127,10 +128,18 @@ PRESIONADO:
 
   MOSTRAR:
 	//muestro R19, que es quien tiene el periodo
-	//decenas
+	cpi R19, 10
+	brsh RESTA
 	
-	//unidades
+	swap R20
+	or R20, R19
+	out PORTC, R20
 	ret
+
+	RESTA:
+		subi R19, 10
+		inc R20
+		rjmp MOSTRAR
 
 
   RETARDO:

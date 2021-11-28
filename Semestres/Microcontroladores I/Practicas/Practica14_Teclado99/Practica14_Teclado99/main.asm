@@ -1,7 +1,7 @@
 ;******************************************************
-; Teclado Matricial
+; Practica Examen
 ;
-; Fecha: 23/11/2021
+; Fecha: 28/11/2021
 ; Autor: Sara Carolina Gómez Delgado
 ;******************************************************
 
@@ -17,9 +17,9 @@
 ;.equ ESA = DDRB
 ;.equ ESA = DDRC
 ;.equ ESA = DDRD
-.equ DDR_TEC = DDRD	
-.equ PORT_TEC = PORTD 
-.equ PIN_TEC = PIND
+.equ DDR_TEC = DDRA	
+.equ PORT_TEC = PORTA 
+.equ PIN_TEC = PINA
 ;******************************************************
 
 .org 0x0000
@@ -56,6 +56,8 @@ ldi r16, high(RAMEND)
 out SPH, r16
 ldi r16, low(RAMEND)
 out SPL, r16 
+
+
 ;******************************************************
 ;No olvides configurar al inicio los puertos que utilizarás
 ;También debes configurar si habrá o no pull ups en las entradas
@@ -63,42 +65,39 @@ out SPL, r16
 ;Los registros que vayas a utilizar inicializalos si es necesario
 ;******************************************************
 
-//Teclado
-ldi R16, 0xF0 ;es lo mismo que declararlo como 0b1111_0000
-out DDR_TEC, R16 ; configuré el puerto del teclado SALIDAS:ENTRADAS
-
-//Display
-ldi R16, $FF						;salidas
-out DDRC, R16
-ldi R16, $03						;encendidos en "3"
-out PORTC, R16
-
-//Servo (funciona a 50 Hz) /*entonces, busco en la tablita el Fpwm(Hz) que mejor me convenga y añado el tiempo necesario al excel*/
-ldi R16, $FF						;salidas
-out DDRB, R16
-ldi R16, $FF						;encendido al inicio
-out PORTB, R16
-ldi R16, 0							;inicializo en 0
-out TCNT0, R16
-ldi R16, 22							;lo dice el excel (segs=0.001)
-out OCR0, R16
-ldi R16, 0b0110_1011				;prescaler = 64
-out TCCR0, R16
+res:
+	//TECLADO
+	ldi R16, 0b0111_0000			;salidas(a7,a6,a5), las demás entradas
+	out DDR_TEC, R16					
+	ldi R16, $FF
+	out PORT_TEC, R16
+	//DISPLAY
+	ldi R16, $FF					;salidas
+	out DDRC, R16						
+	ldi R16, 0						;encendidos
+	out PORTC, R16
+	clr R17							;inicializo R17
 
 TECLADO: //ciclo
+	sbis PINA,7						;si presiona reset, se regresa a resetear
+		rjmp res
 	;ldi R16, 0b1110_1111			;para ahorrarme el "cbi PORT_TEC, 4"
 	ldi R16, 0xFF
 	out PORT_TEC, R16				;5v:Salidas // pullups:entradas
 	cbi PORT_TEC, 4					;A4=0 (pin 4 con 0)
 	nop								;pierde un ciclo de reloj
 	nop								;pierde otro ciclo de reloj
-	
 
 	//1,4,7,*  ---------------------------------------------------------
 	sbis PIN_TEC,0					;si tiene un 1 se brinca la línea
 	rjmp UNO
 	sbis PIN_TEC,1
 	rjmp CUATRO
+	sbis PIN_TEC,2
+	rjmp SIETE
+	sbis PIN_TEC,3
+	rjmp AST
+
 	sbi PORT_TEC, 4					;A4=1 --5v
 	cbi PORT_TEC, 5					;A5=0 --0v
 	nop
@@ -110,6 +109,11 @@ TECLADO: //ciclo
 	rjmp DOS
 	sbis PIN_TEC,1
 	rjmp CINCO
+	sbis PIN_TEC,2
+	rjmp OCHO
+	sbis PIN_TEC,3
+	rjmp CERO
+
 
 	sbi PORT_TEC, 5					;A5=1 --5v
 	cbi PORT_TEC, 6					;A6=0 --0v
@@ -120,11 +124,17 @@ TECLADO: //ciclo
 	//3,6,9,#   ---------------------------------------------------------
 	sbis PIN_TEC,0					;tiene un 1 se brinca la línea
 	rjmp TRES
+	sbis PIN_TEC,1
+	rjmp SEIS
+	sbis PIN_TEC,2
+	rjmp NUEVE
+	sbis PIN_TEC,3
+	rjmp GATO
 
 rjmp TECLADO  //regresa al ciclo
 
 
-UNO:	//0°
+UNO:	
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_UNO	:					;mientras tenga 0 se cicla
@@ -132,16 +142,11 @@ UNO:	//0°
 	RJMP TRABA_UNO
 	rcall RETARDO50m
 	;código al soltar
-	ldi R16, 1						;para mostrar la posición en el display
-	out PORTC, R16
-	//Servo
-	ldi R16, 5						
-	out OCR0, R16
-	ldi R16, 0b0110_1011				
-	out TCCR0, R16
+	ldi R16, 1
+	rcall PRINT
 rjmp TECLADO
 
-DOS:	//45°
+DOS:	
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_DOS:						;mientras tenga 0 se cicla
@@ -150,15 +155,10 @@ DOS:	//45°
 	rcall RETARDO50m
 	;código al soltar
 	ldi R16, 2
-	out PORTC, R16
-	//Servo
-	ldi R16, 14						
-	out OCR0, R16
-	ldi R16, 0b0110_1011				
-	out TCCR0, R16
+	rcall PRINT
 rjmp TECLADO
 
-TRES:	//90°
+TRES:	
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_TRES:						;mientras tenga 0 se cicla
@@ -167,15 +167,10 @@ TRES:	//90°
 	rcall RETARDO50m
 	;código al soltar
 	ldi R16, 3
-	out PORTC, R16
-	//SERVO
-	ldi R16, 22						
-	out OCR0, R16
-	ldi R16, 0b0110_1011				
-	out TCCR0, R16
+	rcall PRINT
 rjmp TECLADO
 
-CUATRO:	//135°
+CUATRO:	
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_CUATRO:					;mientras tenga 0 se cicla
@@ -184,15 +179,10 @@ CUATRO:	//135°
 	rcall RETARDO50m
 	;código al soltar
 	ldi R16, 4
-	out PORTC, R16
-	//Servo
-	ldi R16, 31						
-	out OCR0, R16
-	ldi R16, 0b0110_1011				
-	out TCCR0, R16
+	rcall PRINT
 rjmp TECLADO
 
-CINCO:	//180°
+CINCO:	
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_CINCO:					;mientras tenga 0 se cicla
@@ -201,13 +191,97 @@ CINCO:	//180°
 	rcall RETARDO50m
 	;código al soltar
 	ldi R16, 5
-	out PORTC, R16
-	//Servo
-	ldi R16, 39						
-	out OCR0, R16
-	ldi R16, 0b0110_1011				
-	out TCCR0, R16
+	rcall PRINT
 rjmp TECLADO
+
+SEIS:	
+	;código al presionar
+	rcall RETARDO50m
+	TRABA_SEIS:						;mientras tenga 0 se cicla
+		sbis PIN_TEC, 1				;A0 porque entró el UNO en A0
+	RJMP TRABA_SEIS
+	rcall RETARDO50m
+	;código al soltar
+	ldi R16, 6
+	rcall PRINT
+rjmp TECLADO
+
+SIETE:	
+	;código al presionar
+	rcall RETARDO50m
+	TRABA_SIETE:					;mientras tenga 0 se cicla
+		sbis PIN_TEC, 2				;A0 porque entró el UNO en A0
+	RJMP TRABA_SIETE
+	rcall RETARDO50m
+	;código al soltar
+	ldi R16, 7
+	rcall PRINT
+rjmp TECLADO
+
+OCHO:	
+	;código al presionar
+	rcall RETARDO50m
+	TRABA_OCHO:						;mientras tenga 0 se cicla
+		sbis PIN_TEC, 2				;A0 porque entró el UNO en A0
+	RJMP TRABA_OCHO
+	rcall RETARDO50m
+	;código al soltar
+	ldi R16, 8
+	rcall PRINT
+rjmp TECLADO
+
+NUEVE:	
+	;código al presionar
+	rcall RETARDO50m
+	TRABA_NUEVE:					;mientras tenga 0 se cicla
+		sbis PIN_TEC, 2				;A0 porque entró el UNO en A0
+	RJMP TRABA_NUEVE
+	rcall RETARDO50m
+	;código al soltar
+	ldi R16, 9
+	rcall PRINT
+rjmp TECLADO
+
+AST:	
+	;código al presionar
+	rcall RETARDO50m
+	TRABA_AST:					;mientras tenga 0 se cicla
+		sbis PIN_TEC, 3			;A0 porque entró el UNO en A0
+	RJMP TRABA_AST
+	rcall RETARDO50m
+	;código al soltar
+rjmp TECLADO
+
+CERO:	
+	;código al presionar
+	rcall RETARDO50m
+	TRABA_CERO:					;mientras tenga 0 se cicla
+		sbis PIN_TEC, 3			;A0 porque entró el UNO en A0
+	RJMP TRABA_CERO
+	rcall RETARDO50m
+	;código al soltar
+	clr R16
+	rcall PRINT
+rjmp TECLADO
+
+GATO:	
+	;código al presionar
+	rcall RETARDO50m
+	TRABA_GATO:					;mientras tenga 0 se cicla
+		sbis PIN_TEC, 3			;A0 porque entró el UNO en A0
+	RJMP TRABA_GATO
+	rcall RETARDO50m
+	;código al soltar
+rjmp TECLADO
+
+PRINT:
+	swap R16
+	or R16, R17
+	out PORTC, R16
+	mov R17, R16
+	cbr R17, 0b0000_1111
+	swap R17
+	ret
 
 RETARDO50m:						//50,000 ciclos
 	; ============================= 
@@ -231,6 +305,7 @@ RETARDO50m:						//50,000 ciclos
 			  nop
 			  nop
 	; ============================= 
+	ret
 
 
 /*
@@ -349,3 +424,4 @@ TIM0_COMP:
 reti
 SPM_RDY: 
 reti ; Store Program Memory Ready Handler
+

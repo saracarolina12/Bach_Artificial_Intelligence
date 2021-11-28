@@ -1,10 +1,10 @@
 
-AVRASM ver. 2.2.8  C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\09Practica_GomezDelgado\09Practica_GomezDelgado\main.asm Thu Nov 25 16:43:20 2021
+AVRASM ver. 2.2.8  C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\Practica14_Teclado99\Practica14_Teclado99\main.asm Sun Nov 28 10:46:12 2021
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc'
-C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\09Practica_GomezDelgado\09Practica_GomezDelgado\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc'
+C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\Practica14_Teclado99\Practica14_Teclado99\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc'
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc'
-C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\09Practica_GomezDelgado\09Practica_GomezDelgado\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc'
+C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\Practica14_Teclado99\Practica14_Teclado99\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc'
                                  
                                  ;******************************************************
                                  
@@ -872,9 +872,9 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
                                  #endif  /* _M16ADEF_INC_ */
                                  
                                  
-                                 ; Cronómetro
+                                 ; Practica Examen
                                  ;
-                                 ; Fecha: 09/11/2021
+                                 ; Fecha: 28/11/2021
                                  ; Autor: Sara Carolina Gómez Delgado
                                  ;******************************************************
                                  
@@ -929,31 +929,38 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
                                  
                                  ;Palabras claves (aquí pueden definirse)
                                  ;.equ LCD_DAT=DDRC
+                                 ;.equ ESA = DDRA
+                                 ;.equ ESA = DDRB
+                                 ;.equ ESA = DDRC
+                                 ;.equ ESA = DDRD
+                                 .equ DDR_TEC = DDRA	
+                                 .equ PORT_TEC = PORTA 
+                                 .equ PIN_TEC = PINA
                                  ;******************************************************
                                  
                                  .org 0x0000
                                  ;Comienza el vector de interrupciones.
 000000 940c 002a                 jmp RESET ; Reset Handler
-000002 940c 005e                 jmp EXT_INT0 ; IRQ0 Handler
-000004 940c 005f                 jmp EXT_INT1 ; IRQ1 Handler
-000006 940c 0060                 jmp TIM2_COMP ; Timer2 Compare Handler
-000008 940c 0061                 jmp TIM2_OVF ; Timer2 Overflow Handler
-00000a 940c 0062                 jmp TIM1_CAPT ; Timer1 Capture Handler
-00000c 940c 0063                 jmp TIM1_COMPA ; Timer1 CompareA Handler
-00000e 940c 0064                 jmp TIM1_COMPB ; Timer1 CompareB Handler
-000010 940c 0065                 jmp TIM1_OVF ; Timer1 Overflow Handler
-000012 940c 0066                 jmp TIM0_OVF ; Timer0 Overflow Handler
-000014 940c 0067                 jmp SPI_STC ; SPI Transfer Complete Handler
-000016 940c 0068                 jmp USART_RXC ; USART RX Complete Handler
-000018 940c 0069                 jmp USART_UDRE ; UDR Empty Handler
-00001a 940c 006a                 jmp USART_TXC ; USART TX Complete Handler
-00001c 940c 006b                 jmp ADC_COMP ; ADC Conversion Complete Handler
-00001e 940c 006c                 jmp EE_RDY ; EEPROM Ready Handler
-000020 940c 006d                 jmp ANA_COMP ; Analog Comparator Handler
-000022 940c 006e                 jmp TWSI ; Two-wire Serial Interface Handler
-000024 940c 006f                 jmp EXT_INT2 ; IRQ2 Handler
-000026 940c 0070                 jmp TIM0_COMP ; Timer0 Compare Handler
-000028 940c 0078                 jmp SPM_RDY ; Store Program Memory Ready Handler
+000002 940c 00c1                 jmp EXT_INT0 ; IRQ0 Handler
+000004 940c 00c2                 jmp EXT_INT1 ; IRQ1 Handler
+000006 940c 00c3                 jmp TIM2_COMP ; Timer2 Compare Handler
+000008 940c 00c4                 jmp TIM2_OVF ; Timer2 Overflow Handler
+00000a 940c 00c5                 jmp TIM1_CAPT ; Timer1 Capture Handler
+00000c 940c 00c6                 jmp TIM1_COMPA ; Timer1 CompareA Handler
+00000e 940c 00c7                 jmp TIM1_COMPB ; Timer1 CompareB Handler
+000010 940c 00c8                 jmp TIM1_OVF ; Timer1 Overflow Handler
+000012 940c 00c9                 jmp TIM0_OVF ; Timer0 Overflow Handler
+000014 940c 00ca                 jmp SPI_STC ; SPI Transfer Complete Handler
+000016 940c 00cb                 jmp USART_RXC ; USART RX Complete Handler
+000018 940c 00cc                 jmp USART_UDRE ; UDR Empty Handler
+00001a 940c 00cd                 jmp USART_TXC ; USART TX Complete Handler
+00001c 940c 00ce                 jmp ADC_COMP ; ADC Conversion Complete Handler
+00001e 940c 00cf                 jmp EE_RDY ; EEPROM Ready Handler
+000020 940c 00d0                 jmp ANA_COMP ; Analog Comparator Handler
+000022 940c 00d1                 jmp TWSI ; Two-wire Serial Interface Handler
+000024 940c 00d2                 jmp EXT_INT2 ; IRQ2 Handler
+000026 940c 00d3                 jmp TIM0_COMP ; Timer0 Compare Handler
+000028 940c 00d4                 jmp SPM_RDY ; Store Program Memory Ready Handler
                                  ; Termina el vector de interrupciones.
                                  
                                  ;******************************************************
@@ -965,7 +972,7 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
 00002b bf0e                      out SPH, r16
 00002c e50f                      ldi r16, low(RAMEND)
 00002d bf0d                      out SPL, r16 
-00002e 9478                      sei
+                                 
                                  
                                  ;******************************************************
                                  ;No olvides configurar al inicio los puertos que utilizarás
@@ -973,180 +980,365 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
                                  ;Para las salidas deberás indicar cuál es la salida inicial
                                  ;Los registros que vayas a utilizar inicializalos si es necesario
                                  ;******************************************************
-                                 /*
-                                 		R17 = contador de 1 segundo
-                                 		R18 = [x][segundos]
-                                 		R19 = [mins][x]
-                                 */
+                                 
                                  res:
-                                 	//BOTONES-A
-00002f e000                      	ldi R16, 0													
-000030 bb0a                      	out DDRA, R16
-000031 ef0f                      	ldi R16, $FF												
-000032 bb0b                      	out PORTA, R16
-                                 	//MINUTOS-C
-000033 ef0f                      	ldi R16, $FF												
-000034 bb04                      	out DDRC, R16
-000035 e000                      	ldi R16, 0
-000036 bb05                      	out PORTC, R16
-                                 	//MINUTOS-D
-000037 ef0f                      	ldi R16, $FF												
-000038 bb01                      	out DDRD, R16
-000039 e000                      	ldi R16, 0
-00003a bb02                      	out PORTD, R16
+                                 	//TECLADO
+00002e e700                      	ldi R16, 0b0111_0000			;salidas(a7,a6,a5), las demás entradas
+00002f bb0a                      	out DDR_TEC, R16					
+000030 ef0f                      	ldi R16, $FF
+000031 bb0b                      	out PORT_TEC, R16
+                                 	//DISPLAY
+000032 ef0f                      	ldi R16, $FF					;salidas
+000033 bb04                      	out DDRC, R16						
+000034 e000                      	ldi R16, 0						;encendidos
+000035 bb05                      	out PORTC, R16
+000036 2711                      	clr R17							;inicializo R17
+                                 
+                                 TECLADO: //ciclo
+000037 9bcf                      	sbis PINA,7						;si presiona reset, se regresa a resetear
+000038 cff5                      		rjmp res
+                                 	;ldi R16, 0b1110_1111			;para ahorrarme el "cbi PORT_TEC, 4"
+000039 ef0f                      	ldi R16, 0xFF
+00003a bb0b                      	out PORT_TEC, R16				;5v:Salidas // pullups:entradas
+00003b 98dc                      	cbi PORT_TEC, 4					;A4=0 (pin 4 con 0)
+00003c 0000                      	nop								;pierde un ciclo de reloj
+00003d 0000                      	nop								;pierde otro ciclo de reloj
+                                 
+                                 	//1,4,7,*  ---------------------------------------------------------
+00003e 9bc8                      	sbis PIN_TEC,0					;si tiene un 1 se brinca la línea
+00003f c01f                      	rjmp UNO
+000040 9bc9                      	sbis PIN_TEC,1
+000041 c032                      	rjmp CUATRO
+000042 9bca                      	sbis PIN_TEC,2
+000043 c045                      	rjmp SIETE
+000044 9bcb                      	sbis PIN_TEC,3
+000045 c058                      	rjmp AST
+                                 
+000046 9adc                      	sbi PORT_TEC, 4					;A4=1 --5v
+000047 98dd                      	cbi PORT_TEC, 5					;A5=0 --0v
+000048 0000                      	nop
+000049 0000                      	nop
                                  
                                  
-00003b e000                      	ldi R16, 0											;lleva la cuenta cada N ciclos
-00003c bf02                      	out TCNT0, R16
-00003d e90b                      	ldi R16, 155										;0.01 segundos
-00003e bf0c                      	out OCR0, R16	
-00003f e003                      	ldi R16, 0b0000_0011								;0000_00xx [comp][overf] 1=limpia, 0=activa
-000040 bf08                      	out TIFR, R16
-000041 e002                      	ldi R16, 0b0000_0010								;0000_00xx [comp][overf] 1=usar, 0=no_usar
-000042 bf09                      	out TIMSK, R16
-                                 	;ldi R16, 0b0000_1100 todavía no se pone
-                                 	;out TCCR0, R16
-000043 2711                      	clr R17												;inicializar
-000044 2733                      	clr R19												
-000045 2744                      	clr R20
-000046 2755                      	clr R21
-                                 
-                                 	BOTONES:
-000047 9bc8                      			sbis PINA, 0								;INICIO
-000048 d003                      			rcall INICIO
-000049 9bcf                      			sbis PINA, 7								;LIMPIAR
-00004a cfe4                      			rjmp res
-00004b cffb                      		rjmp BOTONES
+                                 	//2,5,8,0   ---------------------------------------------------------
+00004a 9bc8                      	sbis PIN_TEC,0					;tiene un 1 se brinca la línea
+00004b c01a                      	rjmp DOS
+00004c 9bc9                      	sbis PIN_TEC,1
+00004d c02d                      	rjmp CINCO
+00004e 9bca                      	sbis PIN_TEC,2
+00004f c040                      	rjmp OCHO
+000050 9bcb                      	sbis PIN_TEC,3
+000051 c051                      	rjmp CERO
                                  
                                  
-                                 INICIO:
-00004c e00c                      	ldi R16, 0b0000_1100
-00004d bf03                      	out TCCR0, R16										;enciendo el TIMER0_COMP
-00004e d004                      	rcall RETARDO
-00004f 9bc8                      	traba: sbis pinA, 0									;¿el A0 sigue presionado?
-000050 cffe                      		   rjmp traba									;sí
-000051 d001                      	rcall RETARDO										;no
-000052 cff4                      	rjmp BOTONES
-                                 	
+000052 9add                      	sbi PORT_TEC, 5					;A5=1 --5v
+000053 98de                      	cbi PORT_TEC, 6					;A6=0 --0v
+000054 0000                      	nop
+000055 0000                      	nop
                                  
-                                 RETARDO:
+                                 
+                                 	//3,6,9,#   ---------------------------------------------------------
+000056 9bc8                      	sbis PIN_TEC,0					;tiene un 1 se brinca la línea
+000057 c015                      	rjmp TRES
+000058 9bc9                      	sbis PIN_TEC,1
+000059 c028                      	rjmp SEIS
+00005a 9bca                      	sbis PIN_TEC,2
+00005b c03b                      	rjmp NUEVE
+00005c 9bcb                      	sbis PIN_TEC,3
+00005d c04c                      	rjmp GATO
+                                 
+00005e cfd8                      rjmp TECLADO  //regresa al ciclo
+                                 
+                                 
+                                 UNO:	
+                                 	;código al presionar
+00005f d056                      	rcall RETARDO50m
+                                 	TRABA_UNO	:					;mientras tenga 0 se cicla
+000060 9bc8                      		sbis PIN_TEC, 0				;A0 porque entró el UNO en A0
+000061 cffe                      	RJMP TRABA_UNO
+000062 d053                      	rcall RETARDO50m
+                                 	;código al soltar
+000063 e001                      	ldi R16, 1
+000064 d04a                      	rcall PRINT
+000065 cfd1                      rjmp TECLADO
+                                 
+                                 DOS:	
+                                 	;código al presionar
+000066 d04f                      	rcall RETARDO50m
+                                 	TRABA_DOS:						;mientras tenga 0 se cicla
+000067 9bc8                      		sbis PIN_TEC, 0				;A0 porque entró el UNO en A0
+000068 cffe                      	RJMP TRABA_DOS
+000069 d04c                      	rcall RETARDO50m
+                                 	;código al soltar
+00006a e002                      	ldi R16, 2
+00006b d043                      	rcall PRINT
+00006c cfca                      rjmp TECLADO
+                                 
+                                 TRES:	
+                                 	;código al presionar
+00006d d048                      	rcall RETARDO50m
+                                 	TRABA_TRES:						;mientras tenga 0 se cicla
+00006e 9bc8                      		sbis PIN_TEC, 0				;A0 porque entró el UNO en A0
+00006f cffe                      	RJMP TRABA_TRES
+000070 d045                      	rcall RETARDO50m
+                                 	;código al soltar
+000071 e003                      	ldi R16, 3
+000072 d03c                      	rcall PRINT
+000073 cfc3                      rjmp TECLADO
+                                 
+                                 CUATRO:	
+                                 	;código al presionar
+000074 d041                      	rcall RETARDO50m
+                                 	TRABA_CUATRO:					;mientras tenga 0 se cicla
+000075 9bc9                      		sbis PIN_TEC, 1				;A0 porque entró el UNO en A0
+000076 cffe                      	RJMP TRABA_CUATRO
+000077 d03e                      	rcall RETARDO50m
+                                 	;código al soltar
+000078 e004                      	ldi R16, 4
+000079 d035                      	rcall PRINT
+00007a cfbc                      rjmp TECLADO
+                                 
+                                 CINCO:	
+                                 	;código al presionar
+00007b d03a                      	rcall RETARDO50m
+                                 	TRABA_CINCO:					;mientras tenga 0 se cicla
+00007c 9bc9                      		sbis PIN_TEC, 1				;A0 porque entró el UNO en A0
+00007d cffe                      	RJMP TRABA_CINCO
+00007e d037                      	rcall RETARDO50m
+                                 	;código al soltar
+00007f e005                      	ldi R16, 5
+000080 d02e                      	rcall PRINT
+000081 cfb5                      rjmp TECLADO
+                                 
+                                 SEIS:	
+                                 	;código al presionar
+000082 d033                      	rcall RETARDO50m
+                                 	TRABA_SEIS:						;mientras tenga 0 se cicla
+000083 9bc9                      		sbis PIN_TEC, 1				;A0 porque entró el UNO en A0
+000084 cffe                      	RJMP TRABA_SEIS
+000085 d030                      	rcall RETARDO50m
+                                 	;código al soltar
+000086 e006                      	ldi R16, 6
+000087 d027                      	rcall PRINT
+000088 cfae                      rjmp TECLADO
+                                 
+                                 SIETE:	
+                                 	;código al presionar
+000089 d02c                      	rcall RETARDO50m
+                                 	TRABA_SIETE:					;mientras tenga 0 se cicla
+00008a 9bca                      		sbis PIN_TEC, 2				;A0 porque entró el UNO en A0
+00008b cffe                      	RJMP TRABA_SIETE
+00008c d029                      	rcall RETARDO50m
+                                 	;código al soltar
+00008d e007                      	ldi R16, 7
+00008e d020                      	rcall PRINT
+00008f cfa7                      rjmp TECLADO
+                                 
+                                 OCHO:	
+                                 	;código al presionar
+000090 d025                      	rcall RETARDO50m
+                                 	TRABA_OCHO:						;mientras tenga 0 se cicla
+000091 9bca                      		sbis PIN_TEC, 2				;A0 porque entró el UNO en A0
+000092 cffe                      	RJMP TRABA_OCHO
+000093 d022                      	rcall RETARDO50m
+                                 	;código al soltar
+000094 e008                      	ldi R16, 8
+000095 d019                      	rcall PRINT
+000096 cfa0                      rjmp TECLADO
+                                 
+                                 NUEVE:	
+                                 	;código al presionar
+000097 d01e                      	rcall RETARDO50m
+                                 	TRABA_NUEVE:					;mientras tenga 0 se cicla
+000098 9bca                      		sbis PIN_TEC, 2				;A0 porque entró el UNO en A0
+000099 cffe                      	RJMP TRABA_NUEVE
+00009a d01b                      	rcall RETARDO50m
+                                 	;código al soltar
+00009b e009                      	ldi R16, 9
+00009c d012                      	rcall PRINT
+00009d cf99                      rjmp TECLADO
+                                 
+                                 AST:	
+                                 	;código al presionar
+00009e d017                      	rcall RETARDO50m
+                                 	TRABA_AST:					;mientras tenga 0 se cicla
+00009f 9bcb                      		sbis PIN_TEC, 3			;A0 porque entró el UNO en A0
+0000a0 cffe                      	RJMP TRABA_AST
+0000a1 d014                      	rcall RETARDO50m
+                                 	;código al soltar
+0000a2 cf94                      rjmp TECLADO
+                                 
+                                 CERO:	
+                                 	;código al presionar
+0000a3 d012                      	rcall RETARDO50m
+                                 	TRABA_CERO:					;mientras tenga 0 se cicla
+0000a4 9bcb                      		sbis PIN_TEC, 3			;A0 porque entró el UNO en A0
+0000a5 cffe                      	RJMP TRABA_CERO
+0000a6 d00f                      	rcall RETARDO50m
+                                 	;código al soltar
+0000a7 2700                      	clr R16
+0000a8 d006                      	rcall PRINT
+0000a9 cf8d                      rjmp TECLADO
+                                 
+                                 GATO:	
+                                 	;código al presionar
+0000aa d00b                      	rcall RETARDO50m
+                                 	TRABA_GATO:					;mientras tenga 0 se cicla
+0000ab 9bcb                      		sbis PIN_TEC, 3			;A0 porque entró el UNO en A0
+0000ac cffe                      	RJMP TRABA_GATO
+0000ad d008                      	rcall RETARDO50m
+                                 	;código al soltar
+0000ae cf88                      rjmp TECLADO
+                                 
+                                 PRINT:
+0000af 9502                      	swap R16
+0000b0 2b01                      	or R16, R17
+0000b1 bb05                      	out PORTC, R16
+0000b2 2f10                      	mov R17, R16
+0000b3 7f10                      	cbr R17, 0b0000_1111
+0000b4 9512                      	swap R17
+0000b5 9508                      	ret
+                                 
+                                 RETARDO50m:						//50,000 ciclos
+                                 	; ============================= 
+                                 	;    delay loop generator 
+                                 	;     50000 cycles:
+                                 	; ----------------------------- 
+                                 	; delaying 49995 cycles:
+0000b6 e6d5                      			  ldi  R29, $65
+0000b7 eae4                      	WGLOOP0:  ldi  R30, $A4
+0000b8 95ea                      	WGLOOP1:  dec  R30
+0000b9 f7f1                      			  brne WGLOOP1
+0000ba 95da                      			  dec  R29
+0000bb f7d9                      			  brne WGLOOP0
+                                 	; ----------------------------- 
+                                 	; delaying 3 cycles:
+0000bc e0d1                      			  ldi  R29, $01
+0000bd 95da                      	WGLOOP2:  dec  R29
+0000be f7f1                      			  brne WGLOOP2
+                                 	; ----------------------------- 
+                                 	; delaying 2 cycles:
+0000bf 0000                      			  nop
+0000c0 0000                      			  nop
+                                 	; ============================= 
+                                 
+                                 
+                                 /*
+                                 RETARDO50m:						//100,000 ciclos
                                  	; ============================= 
                                  	;    delay loop generator 
                                  	;     100000 cycles:
                                  	; ----------------------------- 
                                  	; delaying 99990 cycles:
-000053 ead5                      			  ldi  R29, $A5
-000054 ece9                      	WGLOOP0:  ldi  R30, $C9
-000055 95ea                      	WGLOOP1:  dec  R30
-000056 f7f1                      			  brne WGLOOP1
-000057 95da                      			  dec  R29
-000058 f7d9                      			  brne WGLOOP0
+                                 			  ldi  R31, $A5
+                                 	WGLOOP0:  ldi  R30, $C9
+                                 	WGLOOP1:  dec  R30
+                                 			  brne WGLOOP1
+                                 			  dec  R31
+                                 			  brne WGLOOP0
                                  	; ----------------------------- 
                                  	; delaying 9 cycles:
-000059 e0d3                      			  ldi  R29, $03
-00005a 95da                      	WGLOOP2:  dec  R29
-00005b f7f1                      			  brne WGLOOP2
+                                 			  ldi  R31, $03
+                                 	WGLOOP2:  dec  R31
+                                 			  brne WGLOOP2
                                  	; ----------------------------- 
                                  	; delaying 1 cycle:
-00005c 0000                      			  nop
+                                 			  nop
                                  	; ============================= 
-00005d 9508                      	RET
+                                 */
+                                 
+                                 /*	
+                                 RETARDO50m:						//200,000 ciclos
+                                 	; ============================= 
+                                 	;    delay loop generator 
+                                 	;     200000 cycles:
+                                 	; ----------------------------- 
+                                 	; delaying 199998 cycles:
+                                 			  ldi  R31, $06
+                                 	WGLOOP0:  ldi  R30, $37
+                                 	WGLOOP1:  ldi  R29, $C9
+                                 	WGLOOP2:  dec  R29
+                                 			  brne WGLOOP2
+                                 			  dec  R30
+                                 			  brne WGLOOP1
+                                 			  dec  R31
+                                 			  brne WGLOOP0
+                                 	; ----------------------------- 
+                                 	; delaying 2 cycles:
+                                 			  nop
+                                 			  nop
+                                 	; ============================= 
+                                 */
+                                 
+                                 /*
+                                 RETARDO50m:						//400,000 ciclos
+                                 	; ============================= 
+                                 	;    delay loop generator 
+                                 	;     400000 cycles:
+                                 	; ----------------------------- 
+                                 	; delaying 399999 cycles:
+                                 			  ldi  R31, $97
+                                 	WGLOOP0:  ldi  R30, $06
+                                 	WGLOOP1:  ldi  R29, $92
+                                 	WGLOOP2:  dec  R29
+                                 			  brne WGLOOP2
+                                 			  dec  R30
+                                 			  brne WGLOOP1
+                                 			  dec  R31
+                                 			  brne WGLOOP0
+                                 	; ----------------------------- 
+                                 	; delaying 1 cycle:
+                                 			  nop
+                                 	; ============================= 
+                                 */
+                                 
+                                 
+                                 
+                                 
                                  
                                  ;******************************************************
                                  ;Aquí están las rutinas para el manejo de las interrupciones concretas
                                  ;******************************************************
                                  EXT_INT0: ; IRQ0 Handler
-00005e 9518                      reti
+0000c1 9518                      reti
                                  EXT_INT1: 
-00005f 9518                      reti ; IRQ1 Handler
+0000c2 9518                      reti ; IRQ1 Handler
                                  TIM2_COMP: 
-000060 9518                      reti ; Timer2 Compare Handler
+0000c3 9518                      reti ; Timer2 Compare Handler
                                  TIM2_OVF: 
-000061 9518                      reti ; Timer2 Overflow Handler
+0000c4 9518                      reti ; Timer2 Overflow Handler
                                  TIM1_CAPT: 
-000062 9518                      reti ; Timer1 Capture Handler
+0000c5 9518                      reti ; Timer1 Capture Handler
                                  TIM1_COMPA: 
-000063 9518                      reti ; Timer1 CompareA Handler
+0000c6 9518                      reti ; Timer1 CompareA Handler
                                  TIM1_COMPB: 
-000064 9518                      reti ; Timer1 CompareB Handler
+0000c7 9518                      reti ; Timer1 CompareB Handler
                                  TIM1_OVF: 
-000065 9518                      reti ; Timer1 Overflow Handler
+0000c8 9518                      reti ; Timer1 Overflow Handler
                                  TIM0_OVF: 
-000066 9518                      reti ; Timer0 Overflow Handler
+0000c9 9518                      reti ; Timer0 Overflow Handler
                                  SPI_STC: 
-000067 9518                      reti ; SPI Transfer Complete Handler
+0000ca 9518                      reti ; SPI Transfer Complete Handler
                                  USART_RXC: 
-000068 9518                      reti ; USART RX Complete Handler
+0000cb 9518                      reti ; USART RX Complete Handler
                                  USART_UDRE: 
-000069 9518                      reti ; UDR Empty Handler
+0000cc 9518                      reti ; UDR Empty Handler
                                  USART_TXC: 
-00006a 9518                      reti ; USART TX Complete Handler
+0000cd 9518                      reti ; USART TX Complete Handler
                                  ADC_COMP: 
-00006b 9518                      reti ; ADC Conversion Complete Handler
+0000ce 9518                      reti ; ADC Conversion Complete Handler
                                  EE_RDY: 
-00006c 9518                      reti ; EEPROM Ready Handler
+0000cf 9518                      reti ; EEPROM Ready Handler
                                  ANA_COMP: 
-00006d 9518                      reti ; Analog Comparator Handler
+0000d0 9518                      reti ; Analog Comparator Handler
                                  TWSI: 
-00006e 9518                      reti ; Two-wire Serial Interface Handler
+0000d1 9518                      reti ; Two-wire Serial Interface Handler
                                  EXT_INT2: 
-00006f 9518                      reti ; IRQ2 Handler
+0000d2 9518                      reti ; IRQ2 Handler
                                  TIM0_COMP: 
-000070 b70f                      	in R16, SREG								;respaldo SREG
-000071 930f                      	push R16									;respaldo SREG
-000072 9513                      	inc R17										;contador 1 seg
-000073 3614                      	cpi R17, 100				
-000074 f021                      	breq ES_100									;si sí es 100	
-                                 	regresa:
-000075 910f                      		pop R16									;si no, regresa
-000076 bf0f                      		out SREG, R16																				
-000077 9518                      reti
+0000d3 9518                      reti
                                  SPM_RDY: 
-000078 9518                      reti ; Store Program Memory Ready Handler
-                                 
-                                 
-                                 ES_100:
-000079 9523                      	inc R18
-00007a 332b                      	cpi R18, 59									;es 59?
-00007b f021                      	breq ES_59									;sí
-                                 	continua:
-00007c 2f42                      		mov R20, R18
-00007d c00d                      		rjmp mod
-                                 		imprime:
-00007e bb42                      		out PORTD, R20							;no: saco segundos
-                                 		//out PORTC, R19						;saco minutos			//creo que esta línea es innecesaria
-00007f cff5                      		rjmp regresa
-                                 		
-                                 ES_59:
-000080 e020                      	ldi R18, 0
-000081 9533                      	inc R19
-000082 3035                      	cpi R19, 5									; ¿4:59?
-000083 f021                      	breq ES5
-000084 bb22                      	out PORTD, R18								;saco los segundos
-000085 bb35                      	out PORTC, R19								;saco los minutos
-000086 e010                      	ldi R17, 0
-000087 cfed                      	rjmp regresa
-                                 
-                                 ES5:
-000088 e008                      	ldi R16, 0b0000_1000						;apago prescaler
-000089 bf03                      	out TCCR0, R16	
-00008a cff1                      	rjmp continua
-                                 
-                                 mod:
-00008b 304a                      	cpi R20, 10
-00008c f418                      	brsh resta									;si R20 >= 10, entra a resta
-00008d 9552                      	swap R21
-00008e 2b45                      	or R20, R21								;uno ambos registros para mostrarlos
-00008f cfee                      	rjmp imprime
-                                 
-                                 resta:
-000090 504a                      	subi R20, 10									;le resta 10
-000091 9553                      	inc R21										;aumentan las decenas
-000092 cff8                      	rjmp mod
-                                 
-                                 	
-                                 
-                                 
+0000d4 9518                      reti ; Store Program Memory Ready Handler
                                  
 
 
@@ -1167,37 +1359,37 @@ counted separately from r26..r31 here.
 "ATmega16A" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  32 r17:   4 r18:   5 r19:   4 r20:   6 
-r21:   4 r22:   0 r23:   0 r24:   0 r25:   0 r26:   0 r27:   0 r28:   0 
+r13:   0 r14:   0 r15:   0 r16:  28 r17:   5 r18:   0 r19:   0 r20:   0 
+r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   0 r27:   0 r28:   0 
 r29:   4 r30:   2 r31:   0 
-Registers used: 8 out of 35 (22.9%)
+Registers used: 4 out of 35 (11.4%)
 
 "ATmega16A" instruction use summary:
 .lds  :   0 .sts  :   0 adc   :   0 add   :   0 adiw  :   0 and   :   0 
 andi  :   0 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
-brcc  :   0 brcs  :   0 break :   0 breq  :   3 brge  :   0 brhc  :   0 
+brcc  :   0 brcs  :   0 break :   0 breq  :   0 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
-brne  :   3 brpl  :   0 brsh  :   1 brtc  :   0 brts  :   0 brvc  :   0 
-brvs  :   0 bset  :   0 bst   :   0 call  :   0 cbi   :   0 cbr   :   0 
-clc   :   0 clh   :   0 cli   :   0 cln   :   0 clr   :   4 cls   :   0 
+brne  :   3 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
+brvs  :   0 bset  :   0 bst   :   0 call  :   0 cbi   :   3 cbr   :   1 
+clc   :   0 clh   :   0 cli   :   0 cln   :   0 clr   :   2 cls   :   0 
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
-cpi   :   4 cpse  :   0 dec   :   3 eor   :   0 fmul  :   0 fmuls :   0 
-fmulsu:   0 icall :   0 ijmp  :   0 in    :   1 inc   :   4 jmp   :  21 
+cpi   :   0 cpse  :   0 dec   :   3 eor   :   0 fmul  :   0 fmuls :   0 
+fmulsu:   0 icall :   0 ijmp  :   0 in    :   0 inc   :   0 jmp   :  21 
 ld    :   0 ldd   :   0 ldi   :  19 lds   :   0 lpm   :   0 lsl   :   0 
 lsr   :   0 mov   :   1 movw  :   0 mul   :   0 muls  :   0 mulsu :   0 
-neg   :   0 nop   :   1 or    :   1 ori   :   0 out   :  18 pop   :   1 
-push  :   1 rcall :   3 ret   :   1 reti  :  20 rjmp  :  10 rol   :   0 
-ror   :   0 sbc   :   0 sbci  :   0 sbi   :   0 sbic  :   0 sbis  :   3 
+neg   :   0 nop   :   8 or    :   1 ori   :   0 out   :   8 pop   :   0 
+push  :   0 rcall :  34 ret   :   1 reti  :  20 rjmp  :  38 rol   :   0 
+ror   :   0 sbc   :   0 sbci  :   0 sbi   :   2 sbic  :   0 sbis  :  25 
 sbiw  :   0 sbr   :   0 sbrc  :   0 sbrs  :   0 sec   :   0 seh   :   0 
-sei   :   1 sen   :   0 ser   :   0 ses   :   0 set   :   0 sev   :   0 
+sei   :   0 sen   :   0 ser   :   0 ses   :   0 set   :   0 sev   :   0 
 sez   :   0 sleep :   0 spm   :   0 st    :   0 std   :   0 sts   :   0 
-sub   :   0 subi  :   1 swap  :   1 tst   :   0 wdr   :   0 
-Instructions used: 24 out of 113 (21.2%)
+sub   :   0 subi  :   0 swap  :   2 tst   :   0 wdr   :   0 
+Instructions used: 18 out of 113 (15.9%)
 
 "ATmega16A" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x000126    294      0    294   16384   1.8%
+[.cseg] 0x000000 0x0001aa    426      0    426   16384   2.6%
 [.dseg] 0x000060 0x000060      0      0      0    1024   0.0%
 [.eseg] 0x000000 0x000000      0      0      0     512   0.0%
 

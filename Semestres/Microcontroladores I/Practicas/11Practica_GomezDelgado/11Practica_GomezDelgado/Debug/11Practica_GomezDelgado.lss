@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\11Practica_GomezDelgado\11Practica_GomezDelgado\main.asm Thu Nov 18 14:58:44 2021
+AVRASM ver. 2.2.8  C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\11Practica_GomezDelgado\11Practica_GomezDelgado\main.asm Sun Nov 28 11:45:24 2021
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc'
 C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\11Practica_GomezDelgado\11Practica_GomezDelgado\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc'
@@ -934,26 +934,26 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
                                  .org 0x0000
                                  ;Comienza el vector de interrupciones.
 000000 940c 002a                 jmp RESET ; Reset Handler
-000002 940c 0065                 jmp EXT_INT0 ; IRQ0 Handler
-000004 940c 0066                 jmp EXT_INT1 ; IRQ1 Handler
-000006 940c 0067                 jmp TIM2_COMP ; Timer2 Compare Handler
-000008 940c 0068                 jmp TIM2_OVF ; Timer2 Overflow Handler
-00000a 940c 0069                 jmp TIM1_CAPT ; Timer1 Capture Handler
-00000c 940c 006a                 jmp TIM1_COMPA ; Timer1 CompareA Handler
-00000e 940c 006b                 jmp TIM1_COMPB ; Timer1 CompareB Handler
-000010 940c 006c                 jmp TIM1_OVF ; Timer1 Overflow Handler
-000012 940c 006d                 jmp TIM0_OVF ; Timer0 Overflow Handler
-000014 940c 006e                 jmp SPI_STC ; SPI Transfer Complete Handler
-000016 940c 006f                 jmp USART_RXC ; USART RX Complete Handler
-000018 940c 0070                 jmp USART_UDRE ; UDR Empty Handler
-00001a 940c 0071                 jmp USART_TXC ; USART TX Complete Handler
-00001c 940c 0072                 jmp ADC_COMP ; ADC Conversion Complete Handler
-00001e 940c 0073                 jmp EE_RDY ; EEPROM Ready Handler
-000020 940c 0074                 jmp ANA_COMP ; Analog Comparator Handler
-000022 940c 0075                 jmp TWSI ; Two-wire Serial Interface Handler
-000024 940c 0076                 jmp EXT_INT2 ; IRQ2 Handler
-000026 940c 0077                 jmp TIM0_COMP ; Timer0 Compare Handler
-000028 940c 0079                 jmp SPM_RDY ; Store Program Memory Ready Handler
+000002 940c 006e                 jmp EXT_INT0 ; IRQ0 Handler
+000004 940c 006f                 jmp EXT_INT1 ; IRQ1 Handler
+000006 940c 0070                 jmp TIM2_COMP ; Timer2 Compare Handler
+000008 940c 0071                 jmp TIM2_OVF ; Timer2 Overflow Handler
+00000a 940c 0072                 jmp TIM1_CAPT ; Timer1 Capture Handler
+00000c 940c 0073                 jmp TIM1_COMPA ; Timer1 CompareA Handler
+00000e 940c 0074                 jmp TIM1_COMPB ; Timer1 CompareB Handler
+000010 940c 0075                 jmp TIM1_OVF ; Timer1 Overflow Handler
+000012 940c 0076                 jmp TIM0_OVF ; Timer0 Overflow Handler
+000014 940c 0077                 jmp SPI_STC ; SPI Transfer Complete Handler
+000016 940c 0078                 jmp USART_RXC ; USART RX Complete Handler
+000018 940c 0079                 jmp USART_UDRE ; UDR Empty Handler
+00001a 940c 007a                 jmp USART_TXC ; USART TX Complete Handler
+00001c 940c 007b                 jmp ADC_COMP ; ADC Conversion Complete Handler
+00001e 940c 007c                 jmp EE_RDY ; EEPROM Ready Handler
+000020 940c 007d                 jmp ANA_COMP ; Analog Comparator Handler
+000022 940c 007e                 jmp TWSI ; Two-wire Serial Interface Handler
+000024 940c 007f                 jmp EXT_INT2 ; IRQ2 Handler
+000026 940c 0080                 jmp TIM0_COMP ; Timer0 Compare Handler
+000028 940c 0082                 jmp SPM_RDY ; Store Program Memory Ready Handler
                                  ; Termina el vector de interrupciones.
                                  
                                  ;******************************************************
@@ -988,16 +988,17 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
 000038 bb04                      out DDRC, R16
 000039 e000                      ldi R16, 0									;encendidos
 00003a bb05                      out PORTC, R16
+00003b e040                      ldi R20, 0									;inicializo contador
                                  
                                  //TIMER 8MHz
-00003b e003                      ldi R16, 0b0000_0011						;limpia comp, ovrfl
-00003c bf08                      out TIFR, R16
-00003d e000                      ldi R16, 0 
-00003e bf02                      out TCNT0, R16
-00003f e70c                      ldi R16, 124								;0.001 segs
-000040 bf0c                      out OCR0, R16
-000041 e002                      ldi R16, 0b0000_0010						;por comparación
-000042 bf09                      out TIMSK, R16
+00003c e003                      ldi R16, 0b0000_0011						;limpia comp, ovrfl
+00003d bf08                      out TIFR, R16
+00003e e000                      ldi R16, 0 
+00003f bf02                      out TCNT0, R16
+000040 e70c                      ldi R16, 124								;0.001 segs
+000041 bf0c                      out OCR0, R16
+000042 e002                      ldi R16, 0b0000_0010						;por comparación
+000043 bf09                      out TIMSK, R16
                                  ;aquí no enciendo el TIMER0
                                  
                                  /*
@@ -1012,41 +1013,49 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
                                  
                                  //revisar si está presionado el botón
                                  BOTON:									
-000043 9bb0                      	sbis PINB, 0							;¿botón A0 apretado?
-000044 c001                      	rjmp PRESIONADO
-000045 cffd                      	rjmp BOTON
+000044 9bb0                      	sbis PINB, 0							;¿botón A0 apretado?
+000045 c001                      	rjmp PRESIONADO
+000046 cffd                      	rjmp BOTON
                                  PRESIONADO:
-000046 d013                      		rcall RETARDO
-000047 9bb0                      		traba_boton: sbis PINB, 0
-000048 cffe                      				rjmp traba_boton
-000049 d010                      		rcall RETARDO
-00004a e030                      		ldi R19, 0							;inicializo en 0 el contador por si quiero volver a contar
+000047 d01b                      		rcall RETARDO
+000048 9bb0                      		traba_boton: sbis PINB, 0
+000049 cffe                      				rjmp traba_boton
+00004a d018                      		rcall RETARDO
+00004b e030                      		ldi R19, 0							;inicializo en 0 el contador por si quiero volver a contar
                                  
-00004b 9bc8                      		traba0: sbis PINA, 0				;por si no presiono en el "flanco de bajada"
-00004c cffe                      				rjmp traba0
-00004d 99c8                      		traba1: sbic PINA, 0
-00004e cffe                      				rjmp traba1
+00004c 9bc8                      		traba0: sbis PINA, 0				;por si no presiono en el "flanco de bajada"
+00004d cffe                      				rjmp traba0
+00004e 99c8                      		traba1: sbic PINA, 0
+00004f cffe                      				rjmp traba1
                                  		
-00004f e00b                      		ldi R16, 0b0000_1011				;modo:ctc, prescaler:64		//ENCIENDO TIMER0
-000050 bf03                      		out TCCR0, R16
+000050 e00b                      		ldi R16, 0b0000_1011				;modo:ctc, prescaler:64		//ENCIENDO TIMER0
+000051 bf03                      		out TCCR0, R16
                                  
-000051 9bc8                      		traba0_dos: sbis PINA, 0				
-000052 cffe                      				rjmp traba0_dos
-000053 99c8                      		traba1_dos: sbic PINA, 0
-000054 cffe                      				rjmp traba1_dos
+000052 9bc8                      		traba0_dos: sbis PINA, 0				
+000053 cffe                      				rjmp traba0_dos
+000054 99c8                      		traba1_dos: sbic PINA, 0
+000055 cffe                      				rjmp traba1_dos
                                  
-000055 e008                      		ldi R16, 0b0000_1000				;modo:ctc, prescaler:64		//APAGO TIMER0
-000056 bf03                      		out TCCR0, R16
+000056 e008                      		ldi R16, 0b0000_1000				;modo:ctc 		//APAGO TIMER0
+000057 bf03                      		out TCCR0, R16
                                  
-000057 d001                      		rcall MOSTRAR
-000058 cfea                        rjmp BOTON
+000058 d001                      		rcall MOSTRAR
+000059 cfea                        rjmp BOTON
                                  
                                    MOSTRAR:
                                  	//muestro R19, que es quien tiene el periodo
-                                 	//decenas
+00005a 303a                      	cpi R19, 10
+00005b f420                      	brsh RESTA
                                  	
-                                 	//unidades
-000059 9508                      	ret
+00005c 9542                      	swap R20
+00005d 2b43                      	or R20, R19
+00005e bb45                      	out PORTC, R20
+00005f 9508                      	ret
+                                 
+                                 	RESTA:
+000060 503a                      		subi R19, 10
+000061 9543                      		inc R20
+000062 cff7                      		rjmp MOSTRAR
                                  
                                  
                                    RETARDO:
@@ -1055,68 +1064,68 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
                                  	;     100000 cycles:
                                  	; ----------------------------- 
                                  	; delaying 99990 cycles:
-00005a eaf5                      			  ldi  R31, $A5
-00005b ece9                      	WGLOOP0:  ldi  R30, $C9
-00005c 95ea                      	WGLOOP1:  dec  R30
-00005d f7f1                      			  brne WGLOOP1
-00005e 95fa                      			  dec  R31
-00005f f7d9                      			  brne WGLOOP0
+000063 eaf5                      			  ldi  R31, $A5
+000064 ece9                      	WGLOOP0:  ldi  R30, $C9
+000065 95ea                      	WGLOOP1:  dec  R30
+000066 f7f1                      			  brne WGLOOP1
+000067 95fa                      			  dec  R31
+000068 f7d9                      			  brne WGLOOP0
                                  	; ----------------------------- 
                                  	; delaying 9 cycles:
-000060 e0f3                      			  ldi  R31, $03
-000061 95fa                      	WGLOOP2:  dec  R31
-000062 f7f1                      			  brne WGLOOP2
+000069 e0f3                      			  ldi  R31, $03
+00006a 95fa                      	WGLOOP2:  dec  R31
+00006b f7f1                      			  brne WGLOOP2
                                  	; ----------------------------- 
                                  	; delaying 1 cycle:
-000063 0000                      			  nop
+00006c 0000                      			  nop
                                  	; ============================= 
-000064 9508                      	ret
+00006d 9508                      	ret
                                  
                                  
                                  ;******************************************************
                                  ;Aquí están las rutinas para el manejo de las interrupciones concretas
                                  ;******************************************************
                                  EXT_INT0: ; IRQ0 Handler
-000065 9518                      reti
+00006e 9518                      reti
                                  EXT_INT1: 
-000066 9518                      reti ; IRQ1 Handler
+00006f 9518                      reti ; IRQ1 Handler
                                  TIM2_COMP: 
-000067 9518                      reti ; Timer2 Compare Handler
+000070 9518                      reti ; Timer2 Compare Handler
                                  TIM2_OVF: 
-000068 9518                      reti ; Timer2 Overflow Handler
+000071 9518                      reti ; Timer2 Overflow Handler
                                  TIM1_CAPT: 
-000069 9518                      reti ; Timer1 Capture Handler
+000072 9518                      reti ; Timer1 Capture Handler
                                  TIM1_COMPA: 
-00006a 9518                      reti ; Timer1 CompareA Handler
+000073 9518                      reti ; Timer1 CompareA Handler
                                  TIM1_COMPB: 
-00006b 9518                      reti ; Timer1 CompareB Handler
+000074 9518                      reti ; Timer1 CompareB Handler
                                  TIM1_OVF: 
-00006c 9518                      reti ; Timer1 Overflow Handler
+000075 9518                      reti ; Timer1 Overflow Handler
                                  TIM0_OVF: 
-00006d 9518                      reti ; Timer0 Overflow Handler
+000076 9518                      reti ; Timer0 Overflow Handler
                                  SPI_STC: 
-00006e 9518                      reti ; SPI Transfer Complete Handler
+000077 9518                      reti ; SPI Transfer Complete Handler
                                  USART_RXC: 
-00006f 9518                      reti ; USART RX Complete Handler
+000078 9518                      reti ; USART RX Complete Handler
                                  USART_UDRE: 
-000070 9518                      reti ; UDR Empty Handler
+000079 9518                      reti ; UDR Empty Handler
                                  USART_TXC: 
-000071 9518                      reti ; USART TX Complete Handler
+00007a 9518                      reti ; USART TX Complete Handler
                                  ADC_COMP: 
-000072 9518                      reti ; ADC Conversion Complete Handler
+00007b 9518                      reti ; ADC Conversion Complete Handler
                                  EE_RDY: 
-000073 9518                      reti ; EEPROM Ready Handler
+00007c 9518                      reti ; EEPROM Ready Handler
                                  ANA_COMP: 
-000074 9518                      reti ; Analog Comparator Handler
+00007d 9518                      reti ; Analog Comparator Handler
                                  TWSI: 
-000075 9518                      reti ; Two-wire Serial Interface Handler
+00007e 9518                      reti ; Two-wire Serial Interface Handler
                                  EXT_INT2: 
-000076 9518                      reti ; IRQ2 Handler
+00007f 9518                      reti ; IRQ2 Handler
                                  TIM0_COMP: 
-000077 9533                      	inc R19											;Contador
-000078 9518                      reti
+000080 9533                      	inc R19											;Contador
+000081 9518                      reti
                                  SPM_RDY: 
-000079 9518                      reti ; Store Program Memory Ready Handler
+000082 9518                      reti ; Store Program Memory Ready Handler
                                  
 
 
@@ -1137,37 +1146,37 @@ counted separately from r26..r31 here.
 "ATmega16A" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  28 r17:   0 r18:   0 r19:   2 r20:   0 
+r13:   0 r14:   0 r15:   0 r16:  28 r17:   0 r18:   0 r19:   5 r20:   5 
 r21:   0 r22:   0 r23:   0 r24:   0 r25:   0 r26:   0 r27:   0 r28:   0 
 r29:   0 r30:   2 r31:   4 
-Registers used: 4 out of 35 (11.4%)
+Registers used: 5 out of 35 (14.3%)
 
 "ATmega16A" instruction use summary:
 .lds  :   0 .sts  :   0 adc   :   0 add   :   0 adiw  :   0 and   :   0 
 andi  :   0 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
 brcc  :   0 brcs  :   0 break :   0 breq  :   0 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
-brne  :   3 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
+brne  :   3 brpl  :   0 brsh  :   1 brtc  :   0 brts  :   0 brvc  :   0 
 brvs  :   0 bset  :   0 bst   :   0 call  :   0 cbi   :   0 cbr   :   0 
 clc   :   0 clh   :   0 cli   :   0 cln   :   0 clr   :   0 cls   :   0 
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
-cpi   :   0 cpse  :   0 dec   :   3 eor   :   0 fmul  :   0 fmuls :   0 
-fmulsu:   0 icall :   0 ijmp  :   0 in    :   0 inc   :   1 jmp   :  21 
-ld    :   0 ldd   :   0 ldi   :  18 lds   :   0 lpm   :   0 lsl   :   0 
+cpi   :   1 cpse  :   0 dec   :   3 eor   :   0 fmul  :   0 fmuls :   0 
+fmulsu:   0 icall :   0 ijmp  :   0 in    :   0 inc   :   2 jmp   :  21 
+ld    :   0 ldd   :   0 ldi   :  19 lds   :   0 lpm   :   0 lsl   :   0 
 lsr   :   0 mov   :   0 movw  :   0 mul   :   0 muls  :   0 mulsu :   0 
-neg   :   0 nop   :   1 or    :   0 ori   :   0 out   :  14 pop   :   0 
-push  :   0 rcall :   3 ret   :   2 reti  :  20 rjmp  :   8 rol   :   0 
+neg   :   0 nop   :   1 or    :   1 ori   :   0 out   :  15 pop   :   0 
+push  :   0 rcall :   3 ret   :   2 reti  :  20 rjmp  :   9 rol   :   0 
 ror   :   0 sbc   :   0 sbci  :   0 sbi   :   0 sbic  :   2 sbis  :   4 
 sbiw  :   0 sbr   :   0 sbrc  :   0 sbrs  :   0 sec   :   0 seh   :   0 
 sei   :   1 sen   :   0 ser   :   0 ses   :   0 set   :   0 sev   :   0 
 sez   :   0 sleep :   0 spm   :   0 st    :   0 std   :   0 sts   :   0 
-sub   :   0 subi  :   0 swap  :   0 tst   :   0 wdr   :   0 
-Instructions used: 14 out of 113 (12.4%)
+sub   :   0 subi  :   1 swap  :   1 tst   :   0 wdr   :   0 
+Instructions used: 19 out of 113 (16.8%)
 
 "ATmega16A" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x0000f4    244      0    244   16384   1.5%
+[.cseg] 0x000000 0x000106    262      0    262   16384   1.6%
 [.dseg] 0x000060 0x000060      0      0      0    1024   0.0%
 [.eseg] 0x000000 0x000000      0      0      0     512   0.0%
 
