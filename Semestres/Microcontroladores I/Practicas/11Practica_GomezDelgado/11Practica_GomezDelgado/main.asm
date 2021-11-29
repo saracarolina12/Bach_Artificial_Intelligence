@@ -85,15 +85,6 @@ ldi R16, 0b0000_0010						;por comparación
 out TIMSK, R16
 ;aquí no enciendo el TIMER0
 
-/*
-//INTERRUMPCIONES
-ldi R16, 0b0000_0010						;int 0, flanco de bajada
-out MCUCR, R16
-ldi R16, 0b1110_0000						;limpia banderas
-out GIFR, R16
-ldi R16, 0b0100_0000						;habilito int 0
-out GICR, R16
-*/
 
 //revisar si está presionado el botón
 BOTON:									
@@ -123,6 +114,7 @@ PRESIONADO:
 		ldi R16, 0b0000_1000				;modo:ctc 		//APAGO TIMER0
 		out TCCR0, R16
 
+		clr R20
 		rcall MOSTRAR
   rjmp BOTON
 

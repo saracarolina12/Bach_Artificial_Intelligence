@@ -190,11 +190,13 @@ reti ; Store Program Memory Ready Handler
 
 
 ES_100:
+	clr R17
 	inc R18
-	cpi R18, 59									;es 59?
+	cpi R18, 60									;es 59?
 	breq ES_59									;sí
 	continua:
 		mov R20, R18
+		clr r21
 		rjmp mod
 		imprime:
 		out PORTD, R20							;no: saco segundos
@@ -214,7 +216,7 @@ ES_59:
 ES5:
 	ldi R16, 0b0000_1000						;apago prescaler
 	out TCCR0, R16	
-	rjmp continua
+	rjmp regresa
 
 mod:
 	cpi R20, 10

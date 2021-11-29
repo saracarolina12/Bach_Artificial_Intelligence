@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\09Practica_GomezDelgado\09Practica_GomezDelgado\main.asm Thu Nov 25 16:43:20 2021
+AVRASM ver. 2.2.8  C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\09Practica_GomezDelgado\09Practica_GomezDelgado\main.asm Sun Nov 28 18:43:16 2021
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc'
 C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practicas\09Practica_GomezDelgado\09Practica_GomezDelgado\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc'
@@ -1106,43 +1106,45 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Practic
                                  
                                  
                                  ES_100:
-000079 9523                      	inc R18
-00007a 332b                      	cpi R18, 59									;es 59?
-00007b f021                      	breq ES_59									;sí
+000079 2711                      	clr R17
+00007a 9523                      	inc R18
+00007b 332c                      	cpi R18, 60									;es 59?
+00007c f029                      	breq ES_59									;sí
                                  	continua:
-00007c 2f42                      		mov R20, R18
-00007d c00d                      		rjmp mod
+00007d 2f42                      		mov R20, R18
+00007e 2755                      		clr r21
+00007f c00d                      		rjmp mod
                                  		imprime:
-00007e bb42                      		out PORTD, R20							;no: saco segundos
+000080 bb42                      		out PORTD, R20							;no: saco segundos
                                  		//out PORTC, R19						;saco minutos			//creo que esta línea es innecesaria
-00007f cff5                      		rjmp regresa
+000081 cff3                      		rjmp regresa
                                  		
                                  ES_59:
-000080 e020                      	ldi R18, 0
-000081 9533                      	inc R19
-000082 3035                      	cpi R19, 5									; ¿4:59?
-000083 f021                      	breq ES5
-000084 bb22                      	out PORTD, R18								;saco los segundos
-000085 bb35                      	out PORTC, R19								;saco los minutos
-000086 e010                      	ldi R17, 0
-000087 cfed                      	rjmp regresa
+000082 e020                      	ldi R18, 0
+000083 9533                      	inc R19
+000084 3035                      	cpi R19, 5									; ¿4:59?
+000085 f021                      	breq ES5
+000086 bb22                      	out PORTD, R18								;saco los segundos
+000087 bb35                      	out PORTC, R19								;saco los minutos
+000088 e010                      	ldi R17, 0
+000089 cfeb                      	rjmp regresa
                                  
                                  ES5:
-000088 e008                      	ldi R16, 0b0000_1000						;apago prescaler
-000089 bf03                      	out TCCR0, R16	
-00008a cff1                      	rjmp continua
+00008a e008                      	ldi R16, 0b0000_1000						;apago prescaler
+00008b bf03                      	out TCCR0, R16	
+00008c cfe8                      	rjmp regresa
                                  
                                  mod:
-00008b 304a                      	cpi R20, 10
-00008c f418                      	brsh resta									;si R20 >= 10, entra a resta
-00008d 9552                      	swap R21
-00008e 2b45                      	or R20, R21								;uno ambos registros para mostrarlos
-00008f cfee                      	rjmp imprime
+00008d 304a                      	cpi R20, 10
+00008e f418                      	brsh resta									;si R20 >= 10, entra a resta
+00008f 9552                      	swap R21
+000090 2b45                      	or R20, R21								;uno ambos registros para mostrarlos
+000091 cfee                      	rjmp imprime
                                  
                                  resta:
-000090 504a                      	subi R20, 10									;le resta 10
-000091 9553                      	inc R21										;aumentan las decenas
-000092 cff8                      	rjmp mod
+000092 504a                      	subi R20, 10									;le resta 10
+000093 9553                      	inc R21										;aumentan las decenas
+000094 cff8                      	rjmp mod
                                  
                                  	
                                  
@@ -1167,8 +1169,8 @@ counted separately from r26..r31 here.
 "ATmega16A" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   0 r16:  32 r17:   4 r18:   5 r19:   4 r20:   6 
-r21:   4 r22:   0 r23:   0 r24:   0 r25:   0 r26:   0 r27:   0 r28:   0 
+r13:   0 r14:   0 r15:   0 r16:  32 r17:   5 r18:   5 r19:   4 r20:   6 
+r21:   5 r22:   0 r23:   0 r24:   0 r25:   0 r26:   0 r27:   0 r28:   0 
 r29:   4 r30:   2 r31:   0 
 Registers used: 8 out of 35 (22.9%)
 
@@ -1179,7 +1181,7 @@ brcc  :   0 brcs  :   0 break :   0 breq  :   3 brge  :   0 brhc  :   0
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
 brne  :   3 brpl  :   0 brsh  :   1 brtc  :   0 brts  :   0 brvc  :   0 
 brvs  :   0 bset  :   0 bst   :   0 call  :   0 cbi   :   0 cbr   :   0 
-clc   :   0 clh   :   0 cli   :   0 cln   :   0 clr   :   4 cls   :   0 
+clc   :   0 clh   :   0 cli   :   0 cln   :   0 clr   :   6 cls   :   0 
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
 cpi   :   4 cpse  :   0 dec   :   3 eor   :   0 fmul  :   0 fmuls :   0 
 fmulsu:   0 icall :   0 ijmp  :   0 in    :   1 inc   :   4 jmp   :  21 
@@ -1197,7 +1199,7 @@ Instructions used: 24 out of 113 (21.2%)
 "ATmega16A" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x000126    294      0    294   16384   1.8%
+[.cseg] 0x000000 0x00012a    298      0    298   16384   1.8%
 [.dseg] 0x000060 0x000060      0      0      0    1024   0.0%
 [.eseg] 0x000000 0x000000      0      0      0     512   0.0%
 
