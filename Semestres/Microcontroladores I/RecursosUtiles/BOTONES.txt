@@ -1,0 +1,12 @@
+BOTONES:
+	sbis PINA, 0
+		rcall ETIQUETA
+	rjmp BOTONES
+
+ETIQUETA:
+	rcall RETARDO
+	traba:
+		sbis PINA, 0
+		rjmp traba
+	rcall RETARDO
+	ret

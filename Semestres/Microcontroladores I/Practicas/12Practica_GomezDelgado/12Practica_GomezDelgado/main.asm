@@ -50,14 +50,21 @@ out SPH, r16
 ldi r16, low(RAMEND)
 out SPL, r16 
 
-
 ;******************************************************
 ;No olvides configurar al inicio los puertos que utilizarás
 ;También debes configurar si habrá o no pull ups en las entradas
 ;Para las salidas deberás indicar cuál es la salida inicial
 ;Los registros que vayas a utilizar inicializalos si es necesario
 ;******************************************************
-
+/*
+	leds:
+		B3: principal
+		B2: máximo
+		B1: mínimo
+	botones:
+		A0: aumenta
+		A1: disminuye
+*/
 ;LEDS
 ldi R16, $FF									;salida
 out DDRB, R16
@@ -71,7 +78,12 @@ out PORTA, R16
 ;TIMER0
 ldi R16, 0										;inicializo en 0
 out TCNT0, R16
-BOTONES:
+ldi R16, 0b0110_1011
+out TCCR0, R16
+clr R19											;intensidad
+ldi R20, 5									
+out OCR0, R19
+BOTONES:	
 	sbis PINA, 0							
 		rcall AUMENTA
 	sbis PINA, 1
@@ -79,17 +91,67 @@ BOTONES:
 rjmp BOTONES
 
 AUMENTA:
-	
+	//presionar
+	rcall RETARDO
+	traba: sbis PINA,0
+		rjmp traba
+	rcall RETARDO
+	//soltar
+	cpi R19, 250									;si es el máximo (250 porque como va de 10 en 10, no puede llegar al 255)
+	breq INTENSIDADMAX
+	cpi R19, 255									;si excede, ya no suma
+	breq yamax	
+	add R19, R20
+	out OCR0, R19
+	cbi PORTB, 1
+	yamax:
 	ret
-	//regresar
 
 DISMINUYE:
-
+	//presionar
+	rcall RETARDO
+	trabadis: sbis PINA,0
+		rjmp trabadis
+	rcall RETARDO
+	//soltar
+	cpi R19, 0
+	breq INTENSIDADMIN	
+	subi R19, 5
+	out OCR0, R19
+	cbi PORTB, 2
+	yamin:
 	ret
-	//regresar
 
+INTENSIDADMAX:
+	sbi PORTB, 2
+	rjmp yamax
 
+INTENSIDADMIN:
+	sbi PORTB, 1
+	rjmp yamin
 
+RETARDO:
+	; ============================= 
+	;    delay loop generator 
+	;     100000 cycles:
+	; ----------------------------- 
+	; delaying 99990 cycles:
+			  ldi  R31, $A5
+	WGLOOP0:  ldi  R30, $C9
+	WGLOOP1:  dec  R30
+			  brne WGLOOP1
+			  dec  R31
+			  brne WGLOOP0
+	; ----------------------------- 
+	; delaying 9 cycles:
+			  ldi  R31, $03
+	WGLOOP2:  dec  R31
+			  brne WGLOOP2
+	; ----------------------------- 
+	; delaying 1 cycle:
+			  nop
+	; ============================= 
+	ret
 
 ;******************************************************
 ;Aquí están las rutinas para el manejo de las interrupciones concretas
