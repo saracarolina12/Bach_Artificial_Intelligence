@@ -5,8 +5,8 @@
 	Search
 	Procedure
 ## ->Consiste en dos fases:
-####	1. Fase constructiva (Greedy Randomized Adaptive): consiste en generar una buena solución factible.
-####	2. Fase de mejora local (Local Search): consiste en mejorar localmente la solución
+####	1. **Fase constructiva** (Greedy Randomized Adaptive): consiste en generar una buena solución factible.
+####	2. **Fase de mejora local** (Local Search): consiste en mejorar localmente la solución
 
 _La solución obtenida después de las dos fases, se almacena y se realiza una nueva iteración (guardando cada vez la mejor solución que se haya encontrada hasta el momento)_
 
