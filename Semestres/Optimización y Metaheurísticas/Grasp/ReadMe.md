@@ -4,7 +4,7 @@
 	Adaptive
 	Search
 	Procedure
-##### ->Consiste en dos fases:
+## ->Consiste en dos fases:
 ####	1. Fase constructiva (Greedy Randomized Adaptive): consiste en generar una buena solución factible.
 ####	2. Fase de mejora local (Local Search): consiste en mejorar localmente la solución
 
