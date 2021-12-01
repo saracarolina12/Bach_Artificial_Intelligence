@@ -1,4 +1,4 @@
-# GRASP 💥
+# 💥 GRASP 💥
 	Greedy
 	Randomized
 	Adaptive
