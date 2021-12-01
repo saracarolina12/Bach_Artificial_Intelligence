@@ -8,10 +8,10 @@
 ####	1. Fase constructiva (Greedy Randomized Adaptive): consiste en generar una buena solución factible.
 ####	2. Fase de mejora local (Local Search): consiste en mejorar localmente la solución
 
-La solución obtenida después de las dos fases, se almacena y se realiza una nueva iteración (guardando cada vez la mejor solución que se haya encontrada hasta el momento)
+_La solución obtenida después de las dos fases, se almacena y se realiza una nueva iteración (guardando cada vez la mejor solución que se haya encontrada hasta el momento)_
 
 ------------------------------------------------------------------------------------------
-FASE #1 - Greedy Randomized Adaptive
+## FASE #1 - Greedy Randomized Adaptive
 	1. Algoritmo voraz: Siempre toma la mejor elección disponible en cada paso
 	2. Función adaptativa (función greedy): función que indica qué elemento seleccionar para la solución parcial.
 	3. Selección probabilista: 
