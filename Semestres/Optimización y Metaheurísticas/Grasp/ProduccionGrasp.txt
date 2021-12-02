@@ -1,0 +1,26 @@
+1. Greedy
+  Alpha: JP y Uli
+
+  Ideas: 
+    1. Cada operación a su máquina más rápida
+      Problemas: 
+	Ignoramos tiempo de ajuste
+	  -> *Somehow juntar tiempo de operación con tiempo de ajuste
+	Asumimos que las operaciones están en orden
+    2. Ordenar los tiempos de una máquina al azar y asignar la operación que tome menos tiempo
+      Se escoge siguiente operacion partiendo de la misma idea, pero considerando el tiempo de ajuste
+      Problemas:
+        Se mantiene el orden de esa máquina
+      Improvement:
+	No se escoge al azar, se escogería la máquina con el mejor promedio
+    3. Grafo
+      Se crea nueva matriz, donde cada casilla es el promedio del tiempo de ajusta de las otras matrices.
+      Después se parte de la operación que tome menos tiempo global, y se define la siguiente operacion de forma aleatoria a partir de uno random de sus mejores 3 vecinos en la mejor matriz (considerando promedio de operación y de tiempo de ajuste). Después se asigna la siguiente operación que se definió antes, a la máquina donde afecte menos el resultado.
+      Problema: 
+	Se corre el riesgo de ignorar buenos tiempos de ajuste
+
+  Malas ideas: 
+    Sumar por columna
+
+
+2. Mejora local
