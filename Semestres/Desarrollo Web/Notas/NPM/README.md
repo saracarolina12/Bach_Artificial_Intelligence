@@ -1,3 +1,3 @@
 ## NPM
-	_install new package:_
+	# install new package:
 		npm i [package name]
