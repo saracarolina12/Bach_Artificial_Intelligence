@@ -1,0 +1,30 @@
+
+.navcolor{
+    background-color: #467a39;
+}  
+.textFoot {
+    color: white;
+}
+.imgLogo {
+    text-align: start;
+    display: block;
+    align-items: start;
+    justify-content: start;
+    /* margin: auto; */
+    margin-left: 5%;
+    margin-bottom: -2%;
+
+    width: 15%;
+    border-radius: 5%; 
+}
+
+/* .imgLogo {
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    width: 30%;
+    border-radius: 5%; 
+} */

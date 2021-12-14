@@ -1,18 +1,19 @@
 import React from "react"
 import Container from 'react-bootstrap/Container'
-import './footer.css';
+import './nav.css';
 import "bootstrap/dist/css/bootstrap.min.css"
+import Logo from './Logo.png'
 
-function Footer() {
+function Navb() {
     return (
-        <Container  fluid className="footercolor">
+        <Container  fluid className="navcolor">
+            <br/>
+            <img src={Logo} alt="logo" className="imgLogo"/>
             <br/>
             <p></p>
-            <br/>
-            <br/>
             <br/>
         </Container>
     )
 }
 
-export default Footer;
+export default Navb;

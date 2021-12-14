@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Titulo;
+    src: url(./Titulo.ttf);
+}
+.menueventos{
+    /* Centrar */
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    /* padding: 40px 40px; */
+    line-height: 20%;
+    font-size: 200%;
+    background-color: #729D39 !important;
+    border: #729D39;
+    width: 220px;
+    height: 120px;
+}
+.Titulo{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    font-size: 410%;
+    font-family: Titulo;
+    color: #467a39;
+}
+i.material-icons {
+    vertical-align: middle;
+}
+
+.invisibleButton{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+/* .invisibleButton:hover{
+    background: transparent;
+    border: none !important;
+    font-size:0;
+} */
+
+i.iconColor{
+    color: #467a39;
+    font-size: 300%;
+}
