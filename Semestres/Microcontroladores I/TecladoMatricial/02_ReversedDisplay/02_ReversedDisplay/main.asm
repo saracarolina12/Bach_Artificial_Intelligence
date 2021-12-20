@@ -1,5 +1,5 @@
 ;******************************************************
-; Display ordenado
+; Display al revés
 ;
 ; Fecha: 20/12/2021
 ; Autor: Sara Carolina Gómez Delgado
@@ -85,56 +85,56 @@ TECLADO: //ciclo
 	nop
 	nop
 
-	sbis PIND, 0
-	rjmp A
-	sbis PIND, 2
-	rjmp NUEVE
-	sbis PIND, 4
-	rjmp OCHO
-	sbis PIND, 6
-	rjmp SIETE
+	sbis PIN_TEC, 0
+	rjmp D
+	sbis PIN_TEC, 2
+	rjmp GATO
+	sbis PIN_TEC, 4
+	rjmp CERO
+	sbis PIN_TEC, 6
+	rjmp AST
 
 	sbi PORT_TEC, 1
 	cbi PORT_TEC, 3
 	nop
 	nop
 
-	sbis PIND, 0
-	rjmp B
-	sbis PIND, 2
-	rjmp SEIS
-	sbis PIND, 4
-	rjmp CINCO
-	sbis PIND, 6
-	rjmp CUATRO
+	sbis PIN_TEC, 0
+	rjmp C
+	sbis PIN_TEC, 2
+	rjmp TRES
+	sbis PIN_TEC, 4
+	rjmp DOS
+	sbis PIN_TEC, 6
+	rjmp UNO
 
 	sbi PORT_TEC, 3
 	cbi PORT_TEC, 5
 	nop
 	nop
 
-	sbis PIND, 0
-	rjmp C
-	sbis PIND, 2
-	rjmp TRES
-	sbis PIND, 4
-	rjmp DOS
-	sbis PIND, 6
-	rjmp UNO
+	sbis PIN_TEC, 0
+	rjmp B
+	sbis PIN_TEC, 2
+	rjmp SEIS
+	sbis PIN_TEC, 4
+	rjmp CINCO
+	sbis PIN_TEC, 6
+	rjmp CUATRO
 
 	sbi PORT_TEC, 5
 	cbi PORT_TEC, 7
 	nop
 	nop
 
-	sbis PIND, 0
-	rjmp D
-	sbis PIND, 2
-	rjmp GATO
-	sbis PIND, 4
-	rjmp CERO
-	sbis PIND, 6
-	rjmp AST
+	sbis PIN_TEC, 0
+	rjmp A
+	sbis PIN_TEC, 2
+	rjmp NUEVE
+	sbis PIN_TEC, 4
+	rjmp OCHO
+	sbis PIN_TEC, 6
+	rjmp SIETE
 
 rjmp TECLADO  //regresa al ciclo
 
@@ -147,8 +147,8 @@ UNO:
 	RJMP TRABA_UNO
 	rcall RETARDO50m
 	;código al soltar
-	ldi R16, 1
-	out PORTA, R16
+	ldi R16, 0b1000_0000
+	rcall PRINT
 rjmp TECLADO
 
 DOS:	
@@ -159,8 +159,8 @@ DOS:
 	RJMP TRABA_DOS
 	rcall RETARDO50m
 	;código al soltar
-	ldi R16, 2
-	out PORTA, R16
+	ldi R16, 0b0100_0000
+	rcall PRINT
 rjmp TECLADO
 
 TRES:	
@@ -171,8 +171,8 @@ TRES:
 	RJMP TRABA_TRES
 	rcall RETARDO50m
 	;código al soltar
-	ldi R16, 3
-	out PORTA, R16
+	ldi R16, 0b1100_0000
+	rcall PRINT
 rjmp TECLADO
 
 CUATRO:	
@@ -183,8 +183,8 @@ CUATRO:
 	RJMP TRABA_CUATRO
 	rcall RETARDO50m
 	;código al soltar
-	ldi R16, 4
-	out PORTA, R16
+	ldi R16, 0b0010_0000
+	rcall PRINT
 rjmp TECLADO
 
 CINCO:	
@@ -195,8 +195,8 @@ CINCO:
 	RJMP TRABA_CINCO
 	rcall RETARDO50m
 	;código al soltar
-	ldi R16, 5
-	out PORTA, R16
+	ldi R16, 0b1010_0000
+	rcall PRINT
 rjmp TECLADO
 
 SEIS:	
@@ -207,8 +207,8 @@ SEIS:
 	RJMP TRABA_SEIS
 	rcall RETARDO50m
 	;código al soltar
-	ldi R16, 6
-	out PORTA, R16
+	ldi R16, 0b0110_0000
+	rcall PRINT
 rjmp TECLADO
 
 SIETE:	
@@ -219,8 +219,8 @@ SIETE:
 	RJMP TRABA_SIETE
 	rcall RETARDO50m
 	;código al soltar
-	ldi R16, 7
-	out PORTA, R16
+	ldi R16, 0b1110_0000
+	rcall PRINT
 rjmp TECLADO
 
 OCHO:	
@@ -231,8 +231,8 @@ OCHO:
 	RJMP TRABA_OCHO
 	rcall RETARDO50m
 	;código al soltar
-	ldi R16, 8
-	out PORTA, R16
+	ldi R16, 0b0001_0000
+	rcall PRINT
 rjmp TECLADO
 
 NUEVE:	
@@ -243,8 +243,8 @@ NUEVE:
 	RJMP TRABA_NUEVE
 	rcall RETARDO50m
 	;código al soltar
-	ldi R16, 9
-	out PORTA, R16
+	ldi R16, 0b1001_0000
+	rcall PRINT
 rjmp TECLADO
 
 A:	
@@ -306,7 +306,7 @@ CERO:
 	rcall RETARDO50m
 	;código al soltar
 	clr R16
-	out PORTA, R16
+	rcall PRINT
 rjmp TECLADO
 
 GATO:	
@@ -319,6 +319,11 @@ GATO:
 	;código al soltar
 rjmp TECLADO
 
+PRINT:
+	swap R16
+	out PORTB, R16
+	clr R16
+	ret
 
 RETARDO50m:						//50,000 ciclos
 	; ============================= 
