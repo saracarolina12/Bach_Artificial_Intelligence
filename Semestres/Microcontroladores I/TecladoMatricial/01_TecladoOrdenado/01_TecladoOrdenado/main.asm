@@ -1,7 +1,7 @@
 ;******************************************************
 ; Display ordenado
 ;
-; Fecha: 20/12/2021
+; Fecha: 13/12/2021
 ; Autor: Sara Carolina Gómez Delgado
 ;******************************************************
 
@@ -17,9 +17,9 @@
 ;.equ ESA = DDRB
 ;.equ ESA = DDRC
 ;.equ ESA = DDRD
-.equ DDR_TEC = DDRA	
-.equ PORT_TEC = PORTA
-.equ PIN_TEC = PINA
+.equ DDR_TEC = DDRD	
+.equ PORT_TEC = PORTD
+.equ PIN_TEC = PIND
 ;******************************************************
 
 .org 0x0000
@@ -64,76 +64,76 @@ out SPL, r16
 ;******************************************************
 
 /*En las salidas rota la tierra*/
-//TECLADO A
-ldi R16, 0b1010_1010				;7-5-3-1:salidas // 6-4-2-0:entradas
+//TECLADO D
+ldi R16, 0b0000_1111				;7-5-3-1:salidas // 6-4-2-0:entradas
 out DDR_TEC, R16					;configuré el puerto del teclado ENTRADAS:SALIDAS
 ldi R16, 0b1111_1111				;pullups : salida inicial 1
 out PORT_TEC, R16
 
-//DISPLAY B
+//DISPLAY A
 ldi R16, $FF						;salida, led
-out DDRB, R16
+out DDRA, R16
 ldi R16, 0							;inicia en 0
-out PORTB, R16
+out PORTA, R16
 
 
 TECLADO: //ciclo	
 	ldi R16, 0b1111_1111			;pullups : salida inicial 1
 	out PORT_TEC, R16
 
-	cbi PORT_TEC, 1						;para empezar a rotar la tierra (en las salidas)
+	cbi PORT_TEC, 0						;para empezar a rotar la tierra (en las salidas)
 	nop
 	nop
 
-	sbis PIND, 0
-	rjmp A
-	sbis PIND, 2
-	rjmp NUEVE
 	sbis PIND, 4
-	rjmp OCHO
+	rjmp A
+	sbis PIND, 5
+	rjmp NUEVE
 	sbis PIND, 6
+	rjmp OCHO
+	sbis PIND, 7
 	rjmp SIETE
 
+	sbi PORT_TEC, 0
+	cbi PORT_TEC, 1
+	nop
+	nop
+
+	sbis PIND, 4
+	rjmp B
+	sbis PIND, 5
+	rjmp SEIS
+	sbis PIND, 6
+	rjmp CINCO
+	sbis PIND, 7
+	rjmp CUATRO
+
 	sbi PORT_TEC, 1
+	cbi PORT_TEC, 2
+	nop
+	nop
+
+	sbis PIND, 4
+	rjmp C
+	sbis PIND, 5
+	rjmp TRES
+	sbis PIND, 6
+	rjmp DOS
+	sbis PIND, 7
+	rjmp UNO
+
+	sbi PORT_TEC, 2
 	cbi PORT_TEC, 3
 	nop
 	nop
 
-	sbis PIND, 0
-	rjmp B
-	sbis PIND, 2
-	rjmp SEIS
 	sbis PIND, 4
-	rjmp CINCO
-	sbis PIND, 6
-	rjmp CUATRO
-
-	sbi PORT_TEC, 3
-	cbi PORT_TEC, 5
-	nop
-	nop
-
-	sbis PIND, 0
-	rjmp C
-	sbis PIND, 2
-	rjmp TRES
-	sbis PIND, 4
-	rjmp DOS
-	sbis PIND, 6
-	rjmp UNO
-
-	sbi PORT_TEC, 5
-	cbi PORT_TEC, 7
-	nop
-	nop
-
-	sbis PIND, 0
 	rjmp D
-	sbis PIND, 2
+	sbis PIND, 5
 	rjmp GATO
-	sbis PIND, 4
-	rjmp CERO
 	sbis PIND, 6
+	rjmp CERO
+	sbis PIND, 7
 	rjmp AST
 
 rjmp TECLADO  //regresa al ciclo
@@ -143,7 +143,7 @@ UNO:
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_UNO:						
-		sbis PIN_TEC, 6				;el pin debe ser el que corresponda a la "entrada" del micro->pin
+		sbis PIN_TEC, 7				;el pin debe ser el que corresponda a la "entrada" del micro->pin
 	RJMP TRABA_UNO
 	rcall RETARDO50m
 	;código al soltar
@@ -155,7 +155,7 @@ DOS:
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_DOS:						;mientras tenga 0 se cicla
-		sbis PIN_TEC, 4				;A0 porque entró el UNO en A0
+		sbis PIN_TEC, 6				;A0 porque entró el UNO en A0
 	RJMP TRABA_DOS
 	rcall RETARDO50m
 	;código al soltar
@@ -167,7 +167,7 @@ TRES:
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_TRES:						;mientras tenga 0 se cicla
-		sbis PIN_TEC, 2				;A0 porque entró el UNO en A0
+		sbis PIN_TEC, 5				;A0 porque entró el UNO en A0
 	RJMP TRABA_TRES
 	rcall RETARDO50m
 	;código al soltar
@@ -179,7 +179,7 @@ CUATRO:
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_CUATRO:					;mientras tenga 0 se cicla
-		sbis PIN_TEC, 6				;A0 porque entró el UNO en A0
+		sbis PIN_TEC, 7				;A0 porque entró el UNO en A0
 	RJMP TRABA_CUATRO
 	rcall RETARDO50m
 	;código al soltar
@@ -191,7 +191,7 @@ CINCO:
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_CINCO:					;mientras tenga 0 se cicla
-		sbis PIN_TEC, 4 			;A0 porque entró el UNO en A0
+		sbis PIN_TEC, 6 			;A0 porque entró el UNO en A0
 	RJMP TRABA_CINCO
 	rcall RETARDO50m
 	;código al soltar
@@ -203,7 +203,7 @@ SEIS:
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_SEIS:						;mientras tenga 0 se cicla
-		sbis PIN_TEC, 2				;A0 porque entró el UNO en A0
+		sbis PIN_TEC, 5				;A0 porque entró el UNO en A0
 	RJMP TRABA_SEIS
 	rcall RETARDO50m
 	;código al soltar
@@ -215,7 +215,7 @@ SIETE:
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_SIETE:					;mientras tenga 0 se cicla
-		sbis PIN_TEC, 6				;A0 porque entró el UNO en A0
+		sbis PIN_TEC, 7				;A0 porque entró el UNO en A0
 	RJMP TRABA_SIETE
 	rcall RETARDO50m
 	;código al soltar
@@ -227,7 +227,7 @@ OCHO:
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_OCHO:						;mientras tenga 0 se cicla
-		sbis PIN_TEC, 4				;A0 porque entró el UNO en A0
+		sbis PIN_TEC, 6				;A0 porque entró el UNO en A0
 	RJMP TRABA_OCHO
 	rcall RETARDO50m
 	;código al soltar
@@ -239,7 +239,7 @@ NUEVE:
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_NUEVE:					;mientras tenga 0 se cicla
-		sbis PIN_TEC, 2				;A0 porque entró el UNO en A0
+		sbis PIN_TEC, 5				;A0 porque entró el UNO en A0
 	RJMP TRABA_NUEVE
 	rcall RETARDO50m
 	;código al soltar
@@ -251,7 +251,7 @@ A:
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_A:					;mientras tenga 0 se cicla
-		sbis PIN_TEC, 0			;A0 porque entró el UNO en A0
+		sbis PIN_TEC, 4			;A0 porque entró el UNO en A0
 	RJMP TRABA_A
 	rcall RETARDO50m
 	;código al soltar
@@ -261,7 +261,7 @@ B:
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_B:					;mientras tenga 0 se cicla
-		sbis PIN_TEC, 0			;A0 porque entró el UNO en A0
+		sbis PIN_TEC, 4			;A0 porque entró el UNO en A0
 	RJMP TRABA_B
 	rcall RETARDO50m
 	;código al soltar
@@ -271,7 +271,7 @@ C:
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_C:					;mientras tenga 0 se cicla
-		sbis PIN_TEC, 0			;A0 porque entró el UNO en A0
+		sbis PIN_TEC, 4			;A0 porque entró el UNO en A0
 	RJMP TRABA_C
 	rcall RETARDO50m
 	;código al soltar
@@ -281,7 +281,7 @@ D:
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_D:					;mientras tenga 0 se cicla
-		sbis PIN_TEC, 0  		;A0 porque entró el UNO en A0
+		sbis PIN_TEC, 4  		;A0 porque entró el UNO en A0
 	RJMP TRABA_D
 	rcall RETARDO50m
 	;código al soltar
@@ -291,7 +291,7 @@ AST:
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_AST:					;mientras tenga 0 se cicla
-		sbis PIN_TEC, 6			;A0 porque entró el UNO en A0
+		sbis PIN_TEC, 7			;A0 porque entró el UNO en A0
 	RJMP TRABA_AST
 	rcall RETARDO50m
 	;código al soltar
@@ -301,7 +301,7 @@ CERO:
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_CERO:					;mientras tenga 0 se cicla
-		sbis PIN_TEC, 4			;A0 porque entró el UNO en A0
+		sbis PIN_TEC, 6			;A0 porque entró el UNO en A0
 	RJMP TRABA_CERO
 	rcall RETARDO50m
 	;código al soltar
@@ -313,7 +313,7 @@ GATO:
 	;código al presionar
 	rcall RETARDO50m
 	TRABA_GATO:					;mientras tenga 0 se cicla
-		sbis PIN_TEC, 2			;A0 porque entró el UNO en A0
+		sbis PIN_TEC, 5			;A0 porque entró el UNO en A0
 	RJMP TRABA_GATO
 	rcall RETARDO50m
 	;código al soltar

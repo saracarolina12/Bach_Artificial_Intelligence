@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\TecladoMatricial\01_TecladoOrdenado\01_TecladoOrdenado\main.asm Mon Dec 13 21:51:01 2021
+AVRASM ver. 2.2.8  C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\TecladoMatricial\01_TecladoOrdenado\01_TecladoOrdenado\main.asm Mon Dec 20 12:25:41 2021
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16Adef.inc'
 C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\TecladoMatricial\01_TecladoOrdenado\01_TecladoOrdenado\main.asm(8): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m16adef.inc'
@@ -872,9 +872,9 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Teclado
                                  #endif  /* _M16ADEF_INC_ */
                                  
                                  
-                                 ; Teclado Matricial
+                                 ; Display ordenado
                                  ;
-                                 ; Fecha: 05/10/2021
+                                 ; Fecha: 13/12/2021
                                  ; Autor: Sara Carolina Gómez Delgado
                                  ;******************************************************
                                  
@@ -972,8 +972,6 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Teclado
 00002b bf0e                      out SPH, r16
 00002c e50f                      ldi r16, low(RAMEND)
 00002d bf0d                      out SPL, r16 
-                                 
-                                 
                                  ;******************************************************
                                  ;No olvides configurar al inicio los puertos que utilizarás
                                  ;También debes configurar si habrá o no pull ups en las entradas
@@ -983,7 +981,7 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Teclado
                                  
                                  /*En las salidas rota la tierra*/
                                  //TECLADO D
-00002e e00f                      ldi R16, 0x0F						;es lo mismo que declararlo como 0b0000_1111
+00002e e00f                      ldi R16, 0b0000_1111				;7-5-3-1:salidas // 6-4-2-0:entradas
 00002f bb01                      out DDR_TEC, R16					;configuré el puerto del teclado ENTRADAS:SALIDAS
 000030 ef0f                      ldi R16, 0b1111_1111				;pullups : salida inicial 1
 000031 bb02                      out PORT_TEC, R16
@@ -999,7 +997,7 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Teclado
 000036 ef0f                      	ldi R16, 0b1111_1111			;pullups : salida inicial 1
 000037 bb02                      	out PORT_TEC, R16
                                  
-000038 9890                      	cbi PORT_TEC, 0						;para empezar a rotar la tierra
+000038 9890                      	cbi PORT_TEC, 0						;para empezar a rotar la tierra (en las salidas)
 000039 0000                      	nop
 00003a 0000                      	nop
                                  
@@ -1060,8 +1058,8 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Teclado
                                  UNO:	
                                  	;código al presionar
 000068 d063                      	rcall RETARDO50m
-                                 	TRABA_UNO:						;mientras tenga 0 se cicla
-000069 9b87                      		sbis PIN_TEC, 7				;A0 porque entró el UNO en A0
+                                 	TRABA_UNO:						
+000069 9b87                      		sbis PIN_TEC, 7				;el pin debe ser el que corresponda a la "entrada" del micro->pin
 00006a cffe                      	RJMP TRABA_UNO
 00006b d060                      	rcall RETARDO50m
                                  	;código al soltar
@@ -1109,7 +1107,7 @@ C:\Users\scago\Documents\GitHub\IA_School\Semestres\Microcontroladores I\Teclado
                                  	;código al presionar
 000084 d047                      	rcall RETARDO50m
                                  	TRABA_CINCO:					;mientras tenga 0 se cicla
-000085 9b86                      		sbis PIN_TEC, 6				;A0 porque entró el UNO en A0
+000085 9b86                      		sbis PIN_TEC, 6 			;A0 porque entró el UNO en A0
 000086 cffe                      	RJMP TRABA_CINCO
 000087 d044                      	rcall RETARDO50m
                                  	;código al soltar
