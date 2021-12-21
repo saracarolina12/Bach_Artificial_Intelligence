@@ -31,8 +31,15 @@
 	.htpasswd tiene en cada línea forma de 
 		username:$contraseña (sin espacios)
 </pre>
-
-
+######Restringiendo acceso con nginx y Basic Auth
+<pre>
+	En el caso de nginx necesitarás especificar la localización a proteger y usar la directiva "auth_basic", que provee el nombre del área protegida.
+	La directiva "auth_basic_user_file" apunta al fichero .htpasswd que contiene las credenciales de usuario encriptadas.
+	location /status {
+    		auth_basic           "Access to the staging site";
+   		 auth_basic_user_file /etc/apache2/.htpasswd;
+		}
+</pre>
 
 
 
