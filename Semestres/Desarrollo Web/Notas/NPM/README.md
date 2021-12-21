@@ -6,4 +6,4 @@
 	
 	**Uninstall packages:** 
 	  npm uninstall [package name]
-   pre />
+   <pre/>
