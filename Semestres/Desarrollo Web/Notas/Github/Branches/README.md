@@ -1,5 +1,5 @@
-<pre>
 ## Git branch:
+<pre>
 	-Create new branch && switch to it:
 		git checkout -b [new_branch-name]
 	-Create sub branch:
