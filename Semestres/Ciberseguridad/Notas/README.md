@@ -1,4 +1,4 @@
-##Autenticación HTTP:
+## Autenticación HTTP:
 <pre>
 	Control de acceso y autenticación.
 	*Más común: "Basic Auth"
@@ -15,11 +15,11 @@
 <pre>
 	Está definido por "RFC 7617" (quien transmite credenciales como un par de usuario/contraseña codificado usando base64)
 </pre>
-######Seguridad de la autenticación básica
+###### Seguridad de la autenticación básica
 <pre>
 	base64 también puede ser decodificado, por lo tanto, es necesario usar HTTPS/TLS junto a la Basic Auth. (sin esto, es recomendable no usar Basic Auth para información valiosa o sensible)
 </pre>
-######Restringiendo acceso con Apache y Basic Auth
+###### Restringiendo acceso con Apache y Basic Auth
 <pre>
 	Para proteger por contraseña un directorio con un servidor Apache, necesitamos usar los ficheros .htaccess y .htpasswd
 
@@ -31,7 +31,7 @@
 	.htpasswd tiene en cada línea forma de 
 		username:$contraseña (sin espacios)
 </pre>
-######Restringiendo acceso con nginx y Basic Auth
+###### Restringiendo acceso con nginx y Basic Auth
 <pre>
 	En el caso de nginx necesitarás especificar la localización a proteger y usar la directiva "auth_basic", que provee el nombre del área protegida.
 	La directiva "auth_basic_user_file" apunta al fichero .htpasswd que contiene las credenciales de usuario encriptadas.
