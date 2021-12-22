@@ -7,7 +7,3 @@
 	Import: (optional)
 		import "net/http"
 </pre>
-{
-	"username":"hestia"
-	"password":"holamundo"
-}
