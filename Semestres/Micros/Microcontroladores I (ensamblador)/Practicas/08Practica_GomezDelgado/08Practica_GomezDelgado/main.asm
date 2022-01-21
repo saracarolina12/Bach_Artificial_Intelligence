@@ -1,5 +1,5 @@
 ;******************************************************
-; Título del proyecto
+; Dadito
 ;
 ; Fecha: Poner aquí la fecha
 ; Autor: Poner aquí el autor
@@ -59,25 +59,25 @@ ldi r16, low(RAMEND)
 out SPL, r16 
 
 //interrupciones
-sei
-ldi R16, 0b0000_0010	;flanco de bajada
+sei											;habilito interrupciones
+ldi R16, 0b0000_0010						;int 0, flanco de bajada
 out MCUCR, R16
-ldi R16, 0b1110_0000	;clear flags
+ldi R16, 0b1110_0000						;limpio banderas
 out GIFR, R16
-ldi R16, 0b0100_0000	;uso de interrumpción 0
-out GICR, R16	
-
-//leds
-ldi R16, $FF			;salidas
-out DDRA, R16 
-ldi R16, 0				;apagados al inicio
-out PORTA, R16
+ldi R16, 0b0100_0000						;habilito interrupción 0
+out GICR, R16
 
 //botón
-ldi R16, 0				;entradas
+ldi R16, 0									;entrada
 out DDRD, R16
-ldi R16, $FF			;pullups
-out PORTD, R16
+ldi R16, $FF								;sí pullups por ser botón
+out PORTD, R16	
+
+//leds
+ldi R16, $FF								;salidas
+out DDRA, R16
+ldi R16, 0									;apagados
+out PORTA, R16
 
 ciclo:
 	ldi R16, 0b0000_1000
@@ -88,7 +88,6 @@ ciclo:
 	ldi R16, 0b0111_0111
 	ldi R16, 0b0111_1111
 	rjmp ciclo
-
 
 RETARDO:	
 	; ============================= 
@@ -117,10 +116,8 @@ RETARDO:
 ;Aquí están las rutinas para el manejo de las interrupciones concretas
 ;******************************************************
 EXT_INT0: ; IRQ0 Handler
-	out PORTA,R16
 	rcall RETARDO
-		botoncito: sbis PIND, 2
-				rjmp botoncito
+		out PORTA, R16
 	rcall RETARDO
 reti
 EXT_INT1: 
