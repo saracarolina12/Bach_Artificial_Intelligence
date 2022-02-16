@@ -3,29 +3,29 @@
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
-  0 .text         0000026a  00000000  00000000  00000054  2**1
+  0 .text         000002ea  00000000  00000000  00000054  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  1 .data         00000000  00800060  00800060  000002be  2**0
+  1 .data         00000000  00800060  00800060  0000033e  2**0
                   CONTENTS, ALLOC, LOAD, DATA
-  2 .comment      00000030  00000000  00000000  000002be  2**0
+  2 .comment      00000030  00000000  00000000  0000033e  2**0
                   CONTENTS, READONLY
-  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  000002f0  2**2
+  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  00000370  2**2
                   CONTENTS, READONLY
-  4 .debug_aranges 00000038  00000000  00000000  0000032c  2**0
+  4 .debug_aranges 00000038  00000000  00000000  000003ac  2**0
                   CONTENTS, READONLY, DEBUGGING
-  5 .debug_info   00000a61  00000000  00000000  00000364  2**0
+  5 .debug_info   00000af4  00000000  00000000  000003e4  2**0
                   CONTENTS, READONLY, DEBUGGING
-  6 .debug_abbrev 0000068d  00000000  00000000  00000dc5  2**0
+  6 .debug_abbrev 000006c5  00000000  00000000  00000ed8  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_line   000003f1  00000000  00000000  00001452  2**0
+  7 .debug_line   000004cb  00000000  00000000  0000159d  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_frame  00000064  00000000  00000000  00001844  2**2
+  8 .debug_frame  00000064  00000000  00000000  00001a68  2**2
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_str    000003f7  00000000  00000000  000018a8  2**0
+  9 .debug_str    00000411  00000000  00000000  00001acc  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_loc    000000de  00000000  00000000  00001c9f  2**0
+ 10 .debug_loc    000001cf  00000000  00000000  00001edd  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_ranges 00000028  00000000  00000000  00001d7d  2**0
+ 11 .debug_ranges 00000028  00000000  00000000  000020ac  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -61,7 +61,7 @@ Disassembly of section .text:
   5c:	de bf       	out	0x3e, r29	; 62
   5e:	cd bf       	out	0x3d, r28	; 61
   60:	0e 94 27 01 	call	0x24e	; 0x24e <main>
-  64:	0c 94 33 01 	jmp	0x266	; 0x266 <_exit>
+  64:	0c 94 73 01 	jmp	0x2e6	; 0x2e6 <_exit>
 
 00000068 <__bad_interrupt>:
   68:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
@@ -206,7 +206,7 @@ uint8_t pressed(void){
 			RTR(4);
  12e:	84 e0       	ldi	r24, 0x04	; 4
  130:	0e 94 42 00 	call	0x84	; 0x84 <_Z3RTRh>
-			return(15);
+			return(15);										//RESETEAR
  134:	cf e0       	ldi	r28, 0x0F	; 15
  136:	88 c0       	rjmp	.+272    	; 0x248 <__EEPROM_REGION_LENGTH__+0x48>
 		}
@@ -405,16 +405,119 @@ int main(void)
 	PORTD= 0;
  25c:	12 ba       	out	0x12, r1	; 18
 	
-	uint8_t tecla;
+	DDRB = 0;
+ 25e:	17 ba       	out	0x17, r1	; 23
+	PORTB= 0xFF;
+ 260:	88 bb       	out	0x18, r24	; 24
+	uint8_t cont=1, temp, tecla, resp, last;
+ 262:	c1 e0       	ldi	r28, 0x01	; 1
     while (1){
-		//tecla = pressed();
-		PORTD = pressed();
- 25e:	0e 94 59 00 	call	0xb2	; 0xb2 <_Z7pressedv>
- 262:	82 bb       	out	0x12, r24	; 18
- 264:	fc cf       	rjmp	.-8      	; 0x25e <main+0x10>
+		tecla = pressed();
+ 264:	0e 94 59 00 	call	0xb2	; 0xb2 <_Z7pressedv>
+		if(tecla == 15){
+ 268:	8f 30       	cpi	r24, 0x0F	; 15
+ 26a:	49 f4       	brne	.+18     	; 0x27e <main+0x30>
+			DDRT = 0b00001111;
+ 26c:	9f e0       	ldi	r25, 0x0F	; 15
+ 26e:	9a bb       	out	0x1a, r25	; 26
+			PORTT = 0b11111111;
+ 270:	9f ef       	ldi	r25, 0xFF	; 255
+ 272:	9b bb       	out	0x1b, r25	; 27
+			DDRC = 0b11111111;
+ 274:	94 bb       	out	0x14, r25	; 20
+			PORTC= 0;
+ 276:	15 ba       	out	0x15, r1	; 21
+			DDRD = 0b11111111;
+ 278:	91 bb       	out	0x11, r25	; 17
+			PORTD= 0;
+ 27a:	12 ba       	out	0x12, r1	; 18
+			cont = 1;
+ 27c:	c1 e0       	ldi	r28, 0x01	; 1
+		}
+		if(cont == 1 && tecla != 15){
+ 27e:	c1 30       	cpi	r28, 0x01	; 1
+ 280:	31 f4       	brne	.+12     	; 0x28e <main+0x40>
+ 282:	8f 30       	cpi	r24, 0x0F	; 15
+ 284:	21 f0       	breq	.+8      	; 0x28e <main+0x40>
+			PORTC = temp = tecla;
+ 286:	85 bb       	out	0x15, r24	; 21
+			cont++;
+ 288:	cf 5f       	subi	r28, 0xFF	; 255
+			DDRD = 0b11111111;
+			PORTD= 0;
+			cont = 1;
+		}
+		if(cont == 1 && tecla != 15){
+			PORTC = temp = tecla;
+ 28a:	08 2f       	mov	r16, r24
+			cont++;
+ 28c:	eb cf       	rjmp	.-42     	; 0x264 <main+0x16>
+		}else if(cont == 2){
+ 28e:	c2 30       	cpi	r28, 0x02	; 2
+ 290:	51 f4       	brne	.+20     	; 0x2a6 <main+0x58>
+			uint8_t mix = (temp<<4);
+ 292:	90 2f       	mov	r25, r16
+ 294:	92 95       	swap	r25
+ 296:	90 7f       	andi	r25, 0xF0	; 240
+			mix |= tecla;
+ 298:	98 2b       	or	r25, r24
+			resp = tecla<<4;
+ 29a:	d8 2f       	mov	r29, r24
+ 29c:	d2 95       	swap	r29
+ 29e:	d0 7f       	andi	r29, 0xF0	; 240
+			PORTC = mix;
+ 2a0:	95 bb       	out	0x15, r25	; 21
+			cont++;
+ 2a2:	cf 5f       	subi	r28, 0xFF	; 255
+ 2a4:	df cf       	rjmp	.-66     	; 0x264 <main+0x16>
+		}else if(cont == 3){
+ 2a6:	c3 30       	cpi	r28, 0x03	; 3
+ 2a8:	49 f4       	brne	.+18     	; 0x2bc <main+0x6e>
+			uint8_t res = resp | tecla;
+ 2aa:	9d 2f       	mov	r25, r29
+ 2ac:	98 2b       	or	r25, r24
+			last = tecla<<4;
+ 2ae:	18 2f       	mov	r17, r24
+ 2b0:	12 95       	swap	r17
+ 2b2:	10 7f       	andi	r17, 0xF0	; 240
+			PORTC = res;
+ 2b4:	95 bb       	out	0x15, r25	; 21
+			PORTD = temp;
+ 2b6:	02 bb       	out	0x12, r16	; 18
+			cont++;
+ 2b8:	cf 5f       	subi	r28, 0xFF	; 255
+ 2ba:	d4 cf       	rjmp	.-88     	; 0x264 <main+0x16>
+		}else if(cont > 3){		
+ 2bc:	c4 30       	cpi	r28, 0x04	; 4
+ 2be:	90 f2       	brcs	.-92     	; 0x264 <main+0x16>
+			uint8_t total = last | tecla;	
+ 2c0:	91 2f       	mov	r25, r17
+ 2c2:	98 2b       	or	r25, r24
+			resp = resp>>4;
+ 2c4:	2d 2f       	mov	r18, r29
+ 2c6:	30 e0       	ldi	r19, 0x00	; 0
+ 2c8:	35 95       	asr	r19
+ 2ca:	27 95       	ror	r18
+ 2cc:	35 95       	asr	r19
+ 2ce:	27 95       	ror	r18
+ 2d0:	35 95       	asr	r19
+ 2d2:	27 95       	ror	r18
+ 2d4:	35 95       	asr	r19
+ 2d6:	27 95       	ror	r18
+			PORTC = total;
+ 2d8:	95 bb       	out	0x15, r25	; 21
+			PORTD = resp;
+ 2da:	22 bb       	out	0x12, r18	; 18
+			resp = last;
+ 2dc:	d1 2f       	mov	r29, r17
+			last = tecla<<4;
+ 2de:	18 2f       	mov	r17, r24
+ 2e0:	12 95       	swap	r17
+ 2e2:	10 7f       	andi	r17, 0xF0	; 240
+ 2e4:	bf cf       	rjmp	.-130    	; 0x264 <main+0x16>
 
-00000266 <_exit>:
- 266:	f8 94       	cli
+000002e6 <_exit>:
+ 2e6:	f8 94       	cli
 
-00000268 <__stop_program>:
- 268:	ff cf       	rjmp	.-2      	; 0x268 <__stop_program>
+000002e8 <__stop_program>:
+ 2e8:	ff cf       	rjmp	.-2      	; 0x2e8 <__stop_program>
