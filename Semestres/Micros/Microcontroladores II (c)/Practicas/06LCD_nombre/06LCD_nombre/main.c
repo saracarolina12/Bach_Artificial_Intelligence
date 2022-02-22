@@ -1,8 +1,8 @@
 /*
- * 06LCD.cpp
+ * lcd.c
  *
- * Created: 17/02/2022 09:39:35 p. m.
- * Author : scago
+ * Created: 22/02/2022
+ * Author : Sarita
  */ 
 
 #define F_CPU 1000000
@@ -53,8 +53,8 @@ void LCD_wr_string(volatile uint8_t *s);
 int main(void)
 {
 	LCD_init();
-	LCD_wr_instruction(0b10001111); //posición cero!
-	LCD_wr_string("hola mundo");
+	LCD_wr_instruction(0b11000000); //segunda línea
+	LCD_wr_string("sara carolina :D");
 
 	while (1)
 	{
@@ -82,7 +82,8 @@ void LCD_init(void){
 	LCD_wr_instruction(LCD_Cmd_Func2Lin); //4 Bits, número de líneas y tipo de letra
 	LCD_wr_instruction(LCD_Cmd_Off); //apaga el display
 	LCD_wr_instruction(LCD_Cmd_Clear); //limpia el display
-	LCD_wr_instruction(LCD_Cmd_ModeDcS); //Entry mode set ID S	
+	//LCD_wr_instruction(LCD_Cmd_ModeDcS); //Entry mode set ID S	
+	LCD_wr_instruction(0b10000000); //posición 0 ->
 	LCD_wr_instruction(LCD_Cmd_OnsCsB); //Enciende el display
 }
 
@@ -143,7 +144,7 @@ void LCD_wait_flag(void){
 		saca_uno(&PORTLCD,E); //pregunto por el primer nibble
 		_delay_ms(10);
 		saca_cero(&PORTLCD,E);	
-		if(uno_en_bit(&PINLCD,BF)) {break;} //uno_en_bit para protues, 0 para la vida real
+		if(cero_en_bit(&PINLCD,BF)) {break;} //uno_en_bit para proteus, 0 para la vida real
 		_delay_us(10);
 		saca_uno(&PORTLCD,E); //pregunto por el segundo nibble
 		_delay_ms(10);

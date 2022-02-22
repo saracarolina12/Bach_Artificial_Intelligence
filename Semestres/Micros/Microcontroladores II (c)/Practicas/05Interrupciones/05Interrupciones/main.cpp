@@ -122,16 +122,16 @@ void imprimir(){
 }
 void showservo(uint8_t tec){
 	PORTD = tec;
-	if(tec == 0) OCR0 = 15;
-	else if(tec == 1) OCR0 = 16;
-	else if(tec == 2) OCR0 = 18;
-	else if(tec == 3) OCR0 = 20;
+	if(tec == 0) OCR0 = 5;
+	else if(tec == 1) OCR0 = 9;
+	else if(tec == 2) OCR0 = 13;
+	else if(tec == 3) OCR0 = 17;
 	else if(tec == 4) OCR0 = 21;
-	else if(tec == 5) OCR0 = 23;
-	else if(tec == 6) OCR0 = 25;
-	else if(tec == 7) OCR0 = 26;
-	else if(tec == 8) OCR0 = 28;
-	else if(tec == 9) OCR0 = 30;
+	else if(tec == 5) OCR0 = 25;
+	else if(tec == 6) OCR0 = 28;
+	else if(tec == 7) OCR0 = 32;
+	else if(tec == 8) OCR0 = 36;
+	else if(tec == 9) OCR0 = 38;
 }
 
 int main(void){

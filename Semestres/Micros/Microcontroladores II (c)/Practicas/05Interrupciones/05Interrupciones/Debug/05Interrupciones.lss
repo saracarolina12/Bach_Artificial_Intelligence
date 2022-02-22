@@ -465,28 +465,28 @@ void imprimir(){
 void showservo(uint8_t tec){
 	PORTD = tec;
  2d6:	82 bb       	out	0x12, r24	; 18
-	if(tec == 0) OCR0 = 15;
+	if(tec == 0) OCR0 = 5;
  2d8:	81 11       	cpse	r24, r1
  2da:	03 c0       	rjmp	.+6      	; 0x2e2 <_Z9showservoh+0xc>
- 2dc:	8f e0       	ldi	r24, 0x0F	; 15
+ 2dc:	85 e0       	ldi	r24, 0x05	; 5
  2de:	8c bf       	out	0x3c, r24	; 60
  2e0:	08 95       	ret
-	else if(tec == 1) OCR0 = 16;
+	else if(tec == 1) OCR0 = 9;
  2e2:	81 30       	cpi	r24, 0x01	; 1
  2e4:	19 f4       	brne	.+6      	; 0x2ec <_Z9showservoh+0x16>
- 2e6:	80 e1       	ldi	r24, 0x10	; 16
+ 2e6:	89 e0       	ldi	r24, 0x09	; 9
  2e8:	8c bf       	out	0x3c, r24	; 60
  2ea:	08 95       	ret
-	else if(tec == 2) OCR0 = 18;
+	else if(tec == 2) OCR0 = 13;
  2ec:	82 30       	cpi	r24, 0x02	; 2
  2ee:	19 f4       	brne	.+6      	; 0x2f6 <_Z9showservoh+0x20>
- 2f0:	82 e1       	ldi	r24, 0x12	; 18
+ 2f0:	8d e0       	ldi	r24, 0x0D	; 13
  2f2:	8c bf       	out	0x3c, r24	; 60
  2f4:	08 95       	ret
-	else if(tec == 3) OCR0 = 20;
+	else if(tec == 3) OCR0 = 17;
  2f6:	83 30       	cpi	r24, 0x03	; 3
  2f8:	19 f4       	brne	.+6      	; 0x300 <_Z9showservoh+0x2a>
- 2fa:	84 e1       	ldi	r24, 0x14	; 20
+ 2fa:	81 e1       	ldi	r24, 0x11	; 17
  2fc:	8c bf       	out	0x3c, r24	; 60
  2fe:	08 95       	ret
 	else if(tec == 4) OCR0 = 21;
@@ -495,34 +495,34 @@ void showservo(uint8_t tec){
  304:	85 e1       	ldi	r24, 0x15	; 21
  306:	8c bf       	out	0x3c, r24	; 60
  308:	08 95       	ret
-	else if(tec == 5) OCR0 = 23;
+	else if(tec == 5) OCR0 = 25;
  30a:	85 30       	cpi	r24, 0x05	; 5
  30c:	19 f4       	brne	.+6      	; 0x314 <_Z9showservoh+0x3e>
- 30e:	87 e1       	ldi	r24, 0x17	; 23
+ 30e:	89 e1       	ldi	r24, 0x19	; 25
  310:	8c bf       	out	0x3c, r24	; 60
  312:	08 95       	ret
-	else if(tec == 6) OCR0 = 25;
+	else if(tec == 6) OCR0 = 28;
  314:	86 30       	cpi	r24, 0x06	; 6
  316:	19 f4       	brne	.+6      	; 0x31e <_Z9showservoh+0x48>
- 318:	89 e1       	ldi	r24, 0x19	; 25
+ 318:	8c e1       	ldi	r24, 0x1C	; 28
  31a:	8c bf       	out	0x3c, r24	; 60
  31c:	08 95       	ret
-	else if(tec == 7) OCR0 = 26;
+	else if(tec == 7) OCR0 = 32;
  31e:	87 30       	cpi	r24, 0x07	; 7
  320:	19 f4       	brne	.+6      	; 0x328 <_Z9showservoh+0x52>
- 322:	8a e1       	ldi	r24, 0x1A	; 26
+ 322:	80 e2       	ldi	r24, 0x20	; 32
  324:	8c bf       	out	0x3c, r24	; 60
  326:	08 95       	ret
-	else if(tec == 8) OCR0 = 28;
+	else if(tec == 8) OCR0 = 36;
  328:	88 30       	cpi	r24, 0x08	; 8
  32a:	19 f4       	brne	.+6      	; 0x332 <_Z9showservoh+0x5c>
- 32c:	8c e1       	ldi	r24, 0x1C	; 28
+ 32c:	84 e2       	ldi	r24, 0x24	; 36
  32e:	8c bf       	out	0x3c, r24	; 60
  330:	08 95       	ret
-	else if(tec == 9) OCR0 = 30;
+	else if(tec == 9) OCR0 = 38;
  332:	89 30       	cpi	r24, 0x09	; 9
  334:	11 f4       	brne	.+4      	; 0x33a <_Z9showservoh+0x64>
- 336:	8e e1       	ldi	r24, 0x1E	; 30
+ 336:	86 e2       	ldi	r24, 0x26	; 38
  338:	8c bf       	out	0x3c, r24	; 60
  33a:	08 95       	ret
 
