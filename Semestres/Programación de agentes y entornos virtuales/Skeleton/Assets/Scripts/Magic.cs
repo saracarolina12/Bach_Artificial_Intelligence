@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class Magic : MonoBehaviour
 {
-    public GameObject cosa;
-    void OnTriggerEnter2D(Collider2D other){
-        cosa.SetActive(false);
+    public GameObject plate;
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        plate.SetActive(false);
     }
 
-    void OnTriggerExit2D(Collider2D other){
-        cosa.SetActive(true);
+    void OnTriggerExit2D(Collider2D other)
+    {
+        plate.SetActive(true);
     }
 }

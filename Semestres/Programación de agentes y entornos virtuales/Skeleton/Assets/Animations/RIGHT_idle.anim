@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RIGHT_idle
+  m_Name: Right_idle
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,7 +20,7 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -4919746073550338936, guid: ca79ab001b5601c4bb975bb4d3e79d4f,
+      value: {fileID: -4919746073550338936, guid: 1147195256fbcde458b93ceb37e4e76d,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -41,7 +41,7 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -4919746073550338936, guid: ca79ab001b5601c4bb975bb4d3e79d4f, type: 3}
+    - {fileID: -4919746073550338936, guid: 1147195256fbcde458b93ceb37e4e76d, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

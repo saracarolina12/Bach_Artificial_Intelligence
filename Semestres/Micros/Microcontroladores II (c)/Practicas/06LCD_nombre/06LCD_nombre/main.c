@@ -144,7 +144,7 @@ void LCD_wait_flag(void){
 		saca_uno(&PORTLCD,E); //pregunto por el primer nibble
 		_delay_ms(10);
 		saca_cero(&PORTLCD,E);	
-		if(cero_en_bit(&PINLCD,BF)) {break;} //uno_en_bit para proteus, 0 para la vida real
+		if(uno_en_bit(&PINLCD,BF)) {break;} //uno_en_bit para proteus, 0 para la vida real
 		_delay_us(10);
 		saca_uno(&PORTLCD,E); //pregunto por el segundo nibble
 		_delay_ms(10);
