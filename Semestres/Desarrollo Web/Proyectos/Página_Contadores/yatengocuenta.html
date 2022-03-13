@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuenta existente</title>
+</head>
+<body style="background-color: rgba(226, 198, 255, 0.646); ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+
+    <div class="CUENTA" style="text-align: center;">
+        <center>
+        <h2 style="padding-top: 2%;"><i>Iniciar sesión</i></h2>
+                <!--<img class="rounded mx-auto d-block" src="misión.jpg"/>--->
+                <form>
+                    <div class="mb-3">
+                        <label for="Usuario" class="form-label"><i style="font-size: 150%;">Usuario<i style="color: red;">*</i></i></label>
+                        <input style="width: 210px;" size="10" type="text" class="form-control" id="usuario" aria-describedby="emailHelp" required>
+                    </div>
+
+                    <div class="mb-3" >
+                        <label for="Password" class="form-label"><i style="font-size: 150%;">Contraseña<i style="color: red;">*</i></i></label>
+                            <p><i style=" line-height: 50%; font-size: 95%; color: red;">*Al menos 8 caracteres<br>*Al menos un dígito<br>*Comenzar con una letra</i></p>
+                            <input style="width: 210px;" size="10" type="password" id="pass" name="pass" pattern="[A-Za-z][A-Za-z0-9]*[0-9][A-Za-z0-9]*" required>
+                    </div>
+
+                    
+                    <button id="enviar" type="submit" class="btn btn-dark">Iniciar Sesión</button>
+
+            </center>
+          </form>
+    </div>
+    
+    <script src="EnviarCorreo.js"></script>
+
+</body>
+</html>

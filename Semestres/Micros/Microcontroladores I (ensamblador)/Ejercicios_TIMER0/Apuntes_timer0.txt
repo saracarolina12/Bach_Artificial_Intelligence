@@ -1,0 +1,116 @@
+/*
+Un timer es una alarma que podemos programar dentro de un microcontrolador //como un cronómetro, no se necesita estar revisando (cuando termina levanta una bandera y brinca sin que yo le diga que debe saltar)
+*/
+
+para 1MHz
+
+TIMER 0: //comienza a contar en 0 ;puede ser por flanco de subida o de bajada //SOLITO SE COMPARA
+
+funciona de cuatro modos distintos:
+	-normal
+	-ctc
+	-phase correct pwm
+	-fast pwm
+---------------------------------------
+
+~~~~~~~~~~MODO NORMAL~~~~~~~~~~~
+tope: OCR0
+cuenta: TCNT0
+N = prescaler //multiplicador (cada cuánto se incrementa el contador) 1,8,64,256,1024 contar más lento
+
+tiempo por comparación = T*N*(OCR0+1) máximo: 256 segs
+---------------------------------------
+*OCR0 registro de 8 bits [][][][] | [][][][] 0->255 máx
+	Tope máximo al que contará //valor con el que se compara al TCNT0 y cuando TCNT0 = OCR0 se activa la interrumpción por comparación
+*TCNT0 registro de 8 bits [][][][] | [][][][] 
+	Lleva la cuenta cada N ciclos de reloj
+*TCCR0 registro
+	Sirve para configurar nuestro timer0
+	7->0
+	[7:siempre --0][6:MGM00][5:controla salida--0][4:controla salida--0]|[3:WGM01][2:][1:][0:]
+										      PRESCALER	210
+	0X00|XXXX
+
+7
+6 modo WGM00
+5
+4
+3 modo WGM01
+2
+1
+0
+
+001
+
+WGM01	WGM00    MODO
+0         0 	normal
+0    	  1	phase correct pwm	
+1  	  0	ctc
+1	  1	fast pwm
+
+PRESCALER:
+	000-N=0 apagado
+	001-N=1 
+	010-N=8
+	011-N=64
+	100-N=256
+	101-N=1024
+	110-cuenta con "algo" externo
+	111-cuenta con "algo" externo
+
+*TIMSK [][][][] | [][][1:interrumpción por comp][0:overflow]
+	0000|00xx
+	Sirve para habilitar interrupciones
+	0-deshabilitada
+	1-habilitada
+
+*TIFR	[][][][] | [][][comp][overflow] //yo no activo la bandera, se activa sola (pero debo inicializarla en 11) [antes del TIMSK]
+	0000|00xx
+	Registro de banderas
+	1- no ha sucedido la interrumpción
+	0- sucedió la interrupción(activa)
+
+
+~~~~~~~~~~~MODO CTC(Clear Timer on Compare)~~~~~~~~~~~~~
+->no existe el overflow 
+reinicia el contador(TCNT0) cuando llega a OCR0
+->si TCNT0 es muy chiquito, hay que buscar a otra frecuencia para el micro
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ejercicios en clase:
+	1. se configuró al micro a F=1MHz con prescaler de 64 y OCR0 de 20. Si se activa la interrupción por comparación, ¿cuánto tiempo tardará en entrar?
+			tcomp = 1x10^-6 * 64(20 + 1)
+			      =0.001344 s
+		1.1 si se configura la interrupción por overflow, ¿cuánto tiempo tardará en entrar?
+			toverflow = Tmicro*N(256)//FORMULA
+			toverflow = 1x10^-6(64)(256) = 0.016384 s
+	2. F = 8Mhz
+	   TCNT0=0 		contador 
+	   OCR0=41 		tope
+	   tifr = 0b0000_0011
+	   TIMSK = 0b0000_0010
+	   TCCR0 = 0b0000_1010
+		tcomp = 
+
+3.	
+4Mhz
+timer 0
+tifr 0000_0101 overflow activa
+timsk 0001_0100 deshabilitada
+ocr0 0000_0100 hasta el 4
+
+
+2Mhz
+54 microS
+TCNT0 = 0 
+TIFR  0000_0011=3
+TIMSK=0000_00xx
+OCR0=0110 1011 si este da 256
+TCCR0=
+
+
+
+TIFR antes del TIMSK(que sea la última)
+

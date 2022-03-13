@@ -1,0 +1,346 @@
+
+10HumPHTemp_ADC.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000001fa  00000000  00000000  00000094  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000004  00800060  000001fa  0000028e  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000002  00800064  00800064  00000292  2**0
+                  ALLOC
+  3 .comment      00000030  00000000  00000000  00000292  2**0
+                  CONTENTS, READONLY
+  4 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  000002c4  2**2
+                  CONTENTS, READONLY
+  5 .debug_aranges 00000078  00000000  00000000  00000300  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_info   000010e8  00000000  00000000  00000378  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_abbrev 000006f6  00000000  00000000  00001460  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_line   000005fe  00000000  00000000  00001b56  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_frame  0000013c  00000000  00000000  00002154  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_str    00000442  00000000  00000000  00002290  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_loc    000007d0  00000000  00000000  000026d2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_ranges 00000068  00000000  00000000  00002ea2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 2a 00 	jmp	0x54	; 0x54 <__ctors_end>
+   4:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+   8:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+   c:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  10:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  14:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  18:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  1c:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  20:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  24:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  28:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  2c:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  30:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  34:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  38:	0c 94 64 00 	jmp	0xc8	; 0xc8 <__vector_14>
+  3c:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  40:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  44:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  48:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  4c:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  50:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+
+00000054 <__ctors_end>:
+  54:	11 24       	eor	r1, r1
+  56:	1f be       	out	0x3f, r1	; 63
+  58:	cf e5       	ldi	r28, 0x5F	; 95
+  5a:	d4 e0       	ldi	r29, 0x04	; 4
+  5c:	de bf       	out	0x3e, r29	; 62
+  5e:	cd bf       	out	0x3d, r28	; 61
+
+00000060 <__do_copy_data>:
+  60:	10 e0       	ldi	r17, 0x00	; 0
+  62:	a0 e6       	ldi	r26, 0x60	; 96
+  64:	b0 e0       	ldi	r27, 0x00	; 0
+  66:	ea ef       	ldi	r30, 0xFA	; 250
+  68:	f1 e0       	ldi	r31, 0x01	; 1
+  6a:	02 c0       	rjmp	.+4      	; 0x70 <__do_copy_data+0x10>
+  6c:	05 90       	lpm	r0, Z+
+  6e:	0d 92       	st	X+, r0
+  70:	a4 36       	cpi	r26, 0x64	; 100
+  72:	b1 07       	cpc	r27, r17
+  74:	d9 f7       	brne	.-10     	; 0x6c <__do_copy_data+0xc>
+
+00000076 <__do_clear_bss>:
+  76:	20 e0       	ldi	r18, 0x00	; 0
+  78:	a4 e6       	ldi	r26, 0x64	; 100
+  7a:	b0 e0       	ldi	r27, 0x00	; 0
+  7c:	01 c0       	rjmp	.+2      	; 0x80 <.do_clear_bss_start>
+
+0000007e <.do_clear_bss_loop>:
+  7e:	1d 92       	st	X+, r1
+
+00000080 <.do_clear_bss_start>:
+  80:	a6 36       	cpi	r26, 0x66	; 102
+  82:	b2 07       	cpc	r27, r18
+  84:	e1 f7       	brne	.-8      	; 0x7e <.do_clear_bss_loop>
+  86:	0e 94 49 00 	call	0x92	; 0x92 <main>
+  8a:	0c 94 fb 00 	jmp	0x1f6	; 0x1f6 <_exit>
+
+0000008e <__bad_interrupt>:
+  8e:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+00000092 <main>:
+uint16_t lastVal=-1;
+uint16_t adcRange=204.5, rej;
+int main(void)
+{	
+	//rojo
+	DDRC = 0xFF;
+  92:	8f ef       	ldi	r24, 0xFF	; 255
+  94:	84 bb       	out	0x14, r24	; 20
+	PORTC = 0;
+  96:	15 ba       	out	0x15, r1	; 21
+	//verde-azul
+	DDRB = 0xFF;
+  98:	87 bb       	out	0x17, r24	; 23
+	PORTB = 0;
+  9a:	18 ba       	out	0x18, r1	; 24
+	//pruebas
+	DDRD = 0;
+  9c:	11 ba       	out	0x11, r1	; 17
+	
+	ADMUX =     0b01000000; //A0 -> Temp
+  9e:	80 e4       	ldi	r24, 0x40	; 64
+  a0:	87 b9       	out	0x07, r24	; 7
+	SFIOR =     0b00000000;
+  a2:	10 be       	out	0x30, r1	; 48
+	ADCSRA =    0b10011101; //4 MHz, Fdiv = 32 CON INTERRUPCIONES
+  a4:	8d e9       	ldi	r24, 0x9D	; 157
+  a6:	86 b9       	out	0x06, r24	; 6
+	DDRA =      0b00000000;
+  a8:	1a ba       	out	0x1a, r1	; 26
+	PORTA =     0b00000000; //ADC doesnt need pull up
+  aa:	1b ba       	out	0x1b, r1	; 27
+	
+	//ADMUX =     0b01000001; //A1 -> Hum
+	
+	//ADMUX =     0b01000010; //A2 -> PH
+	
+	sei();
+  ac:	78 94       	sei
+	ADCSRA |= (1<<ADSC); //le digo que inicie
+  ae:	86 b1       	in	r24, 0x06	; 6
+  b0:	80 64       	ori	r24, 0x40	; 64
+  b2:	86 b9       	out	0x06, r24	; 6
+	
+	while (1){
+		ADMUX =     0b01000000; //A0 -> Temp
+  b4:	80 e4       	ldi	r24, 0x40	; 64
+  b6:	87 b9       	out	0x07, r24	; 7
+		ADMUX =     0b01000001; //A1 -> Hum
+  b8:	81 e4       	ldi	r24, 0x41	; 65
+  ba:	87 b9       	out	0x07, r24	; 7
+		ADMUX =     0b01000010; //A2 -> PH
+  bc:	82 e4       	ldi	r24, 0x42	; 66
+  be:	87 b9       	out	0x07, r24	; 7
+		ADCSRA |= (1<<ADSC); //le digo que inicie
+  c0:	86 b1       	in	r24, 0x06	; 6
+  c2:	80 64       	ori	r24, 0x40	; 64
+  c4:	86 b9       	out	0x06, r24	; 6
+  c6:	f6 cf       	rjmp	.-20     	; 0xb4 <main+0x22>
+
+000000c8 <__vector_14>:
+		//PORTB = 5;
+	}
+	
+}
+
+ISR(ADC_vect){ //entra aquí solito después de la interrupción
+  c8:	1f 92       	push	r1
+  ca:	0f 92       	push	r0
+  cc:	0f b6       	in	r0, 0x3f	; 63
+  ce:	0f 92       	push	r0
+  d0:	11 24       	eor	r1, r1
+  d2:	2f 93       	push	r18
+  d4:	3f 93       	push	r19
+  d6:	5f 93       	push	r21
+  d8:	6f 93       	push	r22
+  da:	7f 93       	push	r23
+  dc:	8f 93       	push	r24
+  de:	9f 93       	push	r25
+  e0:	af 93       	push	r26
+  e2:	bf 93       	push	r27
+	rej = ADC;
+  e4:	84 b1       	in	r24, 0x04	; 4
+  e6:	95 b1       	in	r25, 0x05	; 5
+  e8:	90 93 65 00 	sts	0x0065, r25	; 0x800065 <__data_end+0x1>
+  ec:	80 93 64 00 	sts	0x0064, r24	; 0x800064 <__data_end>
+	PORTD = ADMUX;
+  f0:	87 b1       	in	r24, 0x07	; 7
+  f2:	82 bb       	out	0x12, r24	; 18
+	//delay(1000);
+	if(ADMUX == 0x42){
+  f4:	87 b1       	in	r24, 0x07	; 7
+  f6:	82 34       	cpi	r24, 0x42	; 66
+  f8:	09 f0       	breq	.+2      	; 0xfc <__vector_14+0x34>
+  fa:	46 c0       	rjmp	.+140    	; 0x188 <__vector_14+0xc0>
+		if(lastVal != rej){ //si cambió el valor
+  fc:	80 91 62 00 	lds	r24, 0x0062	; 0x800062 <lastVal>
+ 100:	90 91 63 00 	lds	r25, 0x0063	; 0x800063 <lastVal+0x1>
+ 104:	20 91 64 00 	lds	r18, 0x0064	; 0x800064 <__data_end>
+ 108:	30 91 65 00 	lds	r19, 0x0065	; 0x800065 <__data_end+0x1>
+ 10c:	82 17       	cp	r24, r18
+ 10e:	93 07       	cpc	r25, r19
+ 110:	e9 f1       	breq	.+122    	; 0x18c <__vector_14+0xc4>
+			lastVal = rej; //respaldo
+ 112:	30 93 63 00 	sts	0x0063, r19	; 0x800063 <lastVal+0x1>
+ 116:	20 93 62 00 	sts	0x0062, r18	; 0x800062 <lastVal>
+			uint16_t Udec = (float)(rej*10/adcRange); //19 en caso de 1.9
+ 11a:	c9 01       	movw	r24, r18
+ 11c:	88 0f       	add	r24, r24
+ 11e:	99 1f       	adc	r25, r25
+ 120:	22 0f       	add	r18, r18
+ 122:	33 1f       	adc	r19, r19
+ 124:	22 0f       	add	r18, r18
+ 126:	33 1f       	adc	r19, r19
+ 128:	22 0f       	add	r18, r18
+ 12a:	33 1f       	adc	r19, r19
+ 12c:	82 0f       	add	r24, r18
+ 12e:	93 1f       	adc	r25, r19
+ 130:	60 91 60 00 	lds	r22, 0x0060	; 0x800060 <__DATA_REGION_ORIGIN__>
+ 134:	70 91 61 00 	lds	r23, 0x0061	; 0x800061 <__DATA_REGION_ORIGIN__+0x1>
+ 138:	0e 94 d8 00 	call	0x1b0	; 0x1b0 <__udivmodhi4>
+ 13c:	9b 01       	movw	r18, r22
+			uint16_t concat =Udec/10; //1.9
+ 13e:	ad ec       	ldi	r26, 0xCD	; 205
+ 140:	bc ec       	ldi	r27, 0xCC	; 204
+ 142:	0e 94 ec 00 	call	0x1d8	; 0x1d8 <__umulhisi3>
+ 146:	96 95       	lsr	r25
+ 148:	87 95       	ror	r24
+ 14a:	96 95       	lsr	r25
+ 14c:	87 95       	ror	r24
+ 14e:	96 95       	lsr	r25
+ 150:	87 95       	ror	r24
+			if(concat >= 0 && concat < 1){
+ 152:	00 97       	sbiw	r24, 0x00	; 0
+ 154:	11 f4       	brne	.+4      	; 0x15a <__vector_14+0x92>
+				PORTC = 0; //0
+ 156:	15 ba       	out	0x15, r1	; 21
+ 158:	19 c0       	rjmp	.+50     	; 0x18c <__vector_14+0xc4>
+				}else if(concat >=1 && concat <2){
+ 15a:	81 30       	cpi	r24, 0x01	; 1
+ 15c:	91 05       	cpc	r25, r1
+ 15e:	19 f4       	brne	.+6      	; 0x166 <__vector_14+0x9e>
+				PORTC = 8; //1
+ 160:	88 e0       	ldi	r24, 0x08	; 8
+ 162:	85 bb       	out	0x15, r24	; 21
+ 164:	13 c0       	rjmp	.+38     	; 0x18c <__vector_14+0xc4>
+				}else if(concat >=2 && concat <3){
+ 166:	82 30       	cpi	r24, 0x02	; 2
+ 168:	91 05       	cpc	r25, r1
+ 16a:	19 f4       	brne	.+6      	; 0x172 <__vector_14+0xaa>
+				PORTC = 4; //2
+ 16c:	84 e0       	ldi	r24, 0x04	; 4
+ 16e:	85 bb       	out	0x15, r24	; 21
+ 170:	0d c0       	rjmp	.+26     	; 0x18c <__vector_14+0xc4>
+				}else if(concat >=3 && concat <4){
+ 172:	83 30       	cpi	r24, 0x03	; 3
+ 174:	91 05       	cpc	r25, r1
+ 176:	19 f4       	brne	.+6      	; 0x17e <__vector_14+0xb6>
+				PORTC = 12; //3
+ 178:	8c e0       	ldi	r24, 0x0C	; 12
+ 17a:	85 bb       	out	0x15, r24	; 21
+ 17c:	07 c0       	rjmp	.+14     	; 0x18c <__vector_14+0xc4>
+				}else if(concat >=4 && concat <5){
+ 17e:	04 97       	sbiw	r24, 0x04	; 4
+ 180:	29 f4       	brne	.+10     	; 0x18c <__vector_14+0xc4>
+				PORTC = 2; //4 leds prendidos
+ 182:	82 e0       	ldi	r24, 0x02	; 2
+ 184:	85 bb       	out	0x15, r24	; 21
+ 186:	02 c0       	rjmp	.+4      	; 0x18c <__vector_14+0xc4>
+			}
+			
+		}
+	}else{
+		PORTB = 3;
+ 188:	83 e0       	ldi	r24, 0x03	; 3
+ 18a:	88 bb       	out	0x18, r24	; 24
+	}
+
+	ADCSRA|=(1 << ADSC);//inicia una nueva conversión
+ 18c:	86 b1       	in	r24, 0x06	; 6
+ 18e:	80 64       	ori	r24, 0x40	; 64
+ 190:	86 b9       	out	0x06, r24	; 6
+	//delay(500);
+	PORTB = 0;
+ 192:	18 ba       	out	0x18, r1	; 24
+}
+ 194:	bf 91       	pop	r27
+ 196:	af 91       	pop	r26
+ 198:	9f 91       	pop	r25
+ 19a:	8f 91       	pop	r24
+ 19c:	7f 91       	pop	r23
+ 19e:	6f 91       	pop	r22
+ 1a0:	5f 91       	pop	r21
+ 1a2:	3f 91       	pop	r19
+ 1a4:	2f 91       	pop	r18
+ 1a6:	0f 90       	pop	r0
+ 1a8:	0f be       	out	0x3f, r0	; 63
+ 1aa:	0f 90       	pop	r0
+ 1ac:	1f 90       	pop	r1
+ 1ae:	18 95       	reti
+
+000001b0 <__udivmodhi4>:
+ 1b0:	aa 1b       	sub	r26, r26
+ 1b2:	bb 1b       	sub	r27, r27
+ 1b4:	51 e1       	ldi	r21, 0x11	; 17
+ 1b6:	07 c0       	rjmp	.+14     	; 0x1c6 <__udivmodhi4_ep>
+
+000001b8 <__udivmodhi4_loop>:
+ 1b8:	aa 1f       	adc	r26, r26
+ 1ba:	bb 1f       	adc	r27, r27
+ 1bc:	a6 17       	cp	r26, r22
+ 1be:	b7 07       	cpc	r27, r23
+ 1c0:	10 f0       	brcs	.+4      	; 0x1c6 <__udivmodhi4_ep>
+ 1c2:	a6 1b       	sub	r26, r22
+ 1c4:	b7 0b       	sbc	r27, r23
+
+000001c6 <__udivmodhi4_ep>:
+ 1c6:	88 1f       	adc	r24, r24
+ 1c8:	99 1f       	adc	r25, r25
+ 1ca:	5a 95       	dec	r21
+ 1cc:	a9 f7       	brne	.-22     	; 0x1b8 <__udivmodhi4_loop>
+ 1ce:	80 95       	com	r24
+ 1d0:	90 95       	com	r25
+ 1d2:	bc 01       	movw	r22, r24
+ 1d4:	cd 01       	movw	r24, r26
+ 1d6:	08 95       	ret
+
+000001d8 <__umulhisi3>:
+ 1d8:	a2 9f       	mul	r26, r18
+ 1da:	b0 01       	movw	r22, r0
+ 1dc:	b3 9f       	mul	r27, r19
+ 1de:	c0 01       	movw	r24, r0
+ 1e0:	a3 9f       	mul	r26, r19
+ 1e2:	70 0d       	add	r23, r0
+ 1e4:	81 1d       	adc	r24, r1
+ 1e6:	11 24       	eor	r1, r1
+ 1e8:	91 1d       	adc	r25, r1
+ 1ea:	b2 9f       	mul	r27, r18
+ 1ec:	70 0d       	add	r23, r0
+ 1ee:	81 1d       	adc	r24, r1
+ 1f0:	11 24       	eor	r1, r1
+ 1f2:	91 1d       	adc	r25, r1
+ 1f4:	08 95       	ret
+
+000001f6 <_exit>:
+ 1f6:	f8 94       	cli
+
+000001f8 <__stop_program>:
+ 1f8:	ff cf       	rjmp	.-2      	; 0x1f8 <__stop_program>
