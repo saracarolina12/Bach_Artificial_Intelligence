@@ -7,7 +7,7 @@ Sin interrupciones
 
     for(;;){
         ADCSRA = ADCSRA | (1 << ADSC);
-        while(uno_en_bit(&ADSCRA, ADSC)){}
+        while(isSet(&ADSCRA, ADSC)){}
         uint16_t res = ADC;
         //
     }

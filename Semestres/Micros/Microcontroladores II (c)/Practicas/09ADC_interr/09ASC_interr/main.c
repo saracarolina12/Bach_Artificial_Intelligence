@@ -204,7 +204,8 @@ ISR(ADC_vect){ //entra aqu� solito despu�s de la interrupci�n
 		uint16_t u = (float)(rej/adcRange);
 		uint16_t Udec = (float)(rej*10/adcRange);
 		uint16_t Ddec = (float)(rej*100/adcRange);
-		sprintf(dos, "%d.%d%d", u%10, Udec%10, Ddec%10); 
+		///sprintf(dos, "%d.%d%d", u%10, Udec%10, Ddec%10);
+		sprintf(dos, "%d", Udec);
 		LCD_wr_lineTwo(dos);
 		ADCSRA|=(1 << ADSC);//inicia una nueva conversi�n
 	}
