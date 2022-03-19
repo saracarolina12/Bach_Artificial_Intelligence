@@ -4,8 +4,8 @@ namespace BuilderPattern
 {
 	abstract class Computer_Builder
 	{
-		public abstract void CentralUnit();		
-		public abstract void Component(); //Input & Output
-		public abstract Product Computer_GetResult(); //returns finished product
+		public abstract void BuildCentralUnit();		
+		public abstract void BuildComponent(); //Input & Output
+		public abstract Computer Computer_GetResult(); //returns finished product
 	}
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace BuilderPattern
 {
-	class Product
+	class Computer
 	{
 		// generic collection holding the list of parts
 		private List<string> _parts = new List<string>();

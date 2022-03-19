@@ -10,8 +10,8 @@ namespace BuilderPattern
 		/// <param name="builder">The builder to use to construct the product.</param>
 		public void Construct(Computer_Builder computer_builder)
 		{
-			computer_builder.CentralUnit();
-			computer_builder.Component();
+			computer_builder.BuildCentralUnit();
+			computer_builder.BuildComponent();
 		}
 	}
 }
