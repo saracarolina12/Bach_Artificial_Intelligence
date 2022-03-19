@@ -12,7 +12,7 @@ namespace BuilderPattern
 		/// </summary>
 		public override void BuildCentralUnit()
 		{
-			Console. WriteLine("Basic Central Unit built");
+			Console. WriteLine("Basic Central Unit builded");
 			_computer.Add("PartA1");
 		}
 
@@ -21,7 +21,7 @@ namespace BuilderPattern
 		/// </summary>
 		public override void BuildComponent()
 		{
-			Console. WriteLine("Basic Component built");
+			Console. WriteLine("Basic Component builded");
 			_computer.Add("PartB1");
 		}
 
