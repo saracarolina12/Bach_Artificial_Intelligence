@@ -14,6 +14,9 @@ cienup= np.array([35,255,255])
 doscientoslow= np.array([30,0,0])
 doscientosup= np.array([80,255,255])
 
+quinientoslow = np.array([0,30,0]) 
+quinientosup = np.array([20,255,255]) 
+
 color = ""
 
 def funcion(img):
@@ -32,27 +35,30 @@ def funcion(img):
       imgn = img[rect[1]:rect[1] + rect[3], rect[0]:rect[0] + rect[2]]
       imgn = cv2.resize(imgn, (100, 50))
       c += 1
+       
       
-      # Clasificar la imagen imgn
-      # Escribir el resultado
+      #toclasify = [[doscientoslow, doscientosup],
+      #              [quinientoslow, quinientosup]]
+      toclasify = [[veintelow, veinteup],
+                    [cincuentalow, cincuentaup]]
       
       #20
       BGR_RGB = cv2.cvtColor(imgn, cv2.COLOR_BGR2RGB) #convertir color [viene en cv]
       hsv = cv2.cvtColor(BGR_RGB,cv2.COLOR_RGB2HSV)
-      maskrange20 = cv2.inRange(hsv,veintelow,veinteup) 
+      maskrange20 = cv2.inRange(hsv,toclasify[0][0],toclasify[0][1]) 
       img_maskA = cv2.bitwise_and(BGR_RGB, BGR_RGB, mask=maskrange20)
       
       #50
       BGR_RGB = cv2.cvtColor(imgn, cv2.COLOR_BGR2RGB) #convertir color [viene en cv]
       hsv = cv2.cvtColor(BGR_RGB,cv2.COLOR_RGB2HSV)
-      maskrange50 = cv2.inRange(hsv,cincuentalow,cincuentaup) 
+      maskrange50 = cv2.inRange(hsv,toclasify[1][0],toclasify[1][1]) 
       img_maskB = cv2.bitwise_and(BGR_RGB, BGR_RGB, mask=maskrange50)
       
       nrows, ncols, nch = imgn.shape
       
       Ximg = np.reshape(imgn,(nrows*ncols,3))
       Xhsv = np.reshape(hsv,(nrows*ncols,3))
-      nsample = 20
+      nsample = 100
       idx = np.random.permutation(nrows*ncols)[:nsample] #toma los primeros 300 pixeles de forma random
       Ximg = Ximg[idx,:]
       Xhsv = Xhsv[idx,:]
@@ -62,12 +68,12 @@ def funcion(img):
       #print("hsv: ", Xhsv[0,0])
       #tocompare = np.array([150,50,50])
       #'''
-      if((tocompare >= veintelow).all() and (tocompare <= veinteup).all()):
+      if((tocompare >= toclasify[0][0]).all() and (tocompare <= toclasify[0][1]).all()):
           color = "20"
-      elif((tocompare >= cincuentalow).all() and (tocompare <= cincuentaup).all() ):
+      elif((tocompare >= toclasify[1][0]).all() and (tocompare <= toclasify[1][1]).all() ):
           color="50"
       else: color=""
-      print("\nveintelow:", veintelow)
+      print("\primer billete:", toclasify[0][0])
       print("hsv: ", tocompare)
       cv2.imshow("Image rect",  imgn)
       
@@ -76,7 +82,7 @@ def funcion(img):
       cv2.putText(img, color, (rect[0], rect[1]), cv2.FONT_HERSHEY_SIMPLEX, 1, (200, 0, 0), 3, cv2.LINE_AA)
   return img
 
-'''
+#'''
 cam = cv2.VideoCapture(0)
 while True:
     val, img = cam.read()
@@ -102,3 +108,4 @@ while (captura.isOpened()):
     break
 captura.release()
 cv2.destroyAllWindows()
+'''

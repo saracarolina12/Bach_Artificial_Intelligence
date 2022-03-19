@@ -1,11 +1,18 @@
+/*
+ * 12EEPROM_LCD_TECLADO.c
+ *
+ * Created: 16/03/2022 01:47:46 p. m.
+ * Author : scago
+ */ 
+
 
 /*TEMPLATE*/
 
 //LCD
 #define F_CPU 1000000
-#define PINT PINA
-#define PORTT PORTA
-#define DDRT DDRA
+#define PINT PIND
+#define PORTT PORTD
+#define DDRT DDRD
 #include <avr/io.h>
 #include <util/delay.h>
 #include <avr/interrupt.h>
@@ -58,49 +65,48 @@ void LCD_wr_string(volatile uint8_t *s);
 void LCD_wr_lines(uint8_t *a, uint8_t *b);
 void LCD_wr_lineTwo(volatile uint8_t *b);
 void write_EEPROM(uint16_t dir, uint8_t dato);
-void read_EEPROM(uint16_t dir);
+uint8_t read_EEPROM(uint16_t dir);
 
-uint8_t seed = 0;
-char uno[17],dos[17];
 //uint8_t keyb[4][4] =
 //{
-	//{0x7, 0x8, 0x9, 0xA},
-	//{0x4, 0x5, 0x6, 0xB},
-	//{0x1, 0x2, 0x3, 0xC},
-	//{0xE, 0x0, 0xF, 0xD}
-//};
-uint8_t keyb[4][3] =
-{
-//{0x1, 0x2, 0x3, 0xA},
+//{0x7, 0x8, 0x9, 0xA},
 //{0x4, 0x5, 0x6, 0xB},
-//{0x7, 0x8, 0x9, 0xC},
+//{0x1, 0x2, 0x3, 0xC},
 //{0xE, 0x0, 0xF, 0xD}
+//};
+uint8_t keyb[4][4] =
+{
+	{0x1, 0x2, 0x3, 0xA},
+	{0x4, 0x5, 0x6, 0xB},
+	{0x7, 0x8, 0x9, 0xC},
+	{0xE, 0x0, 0xF, 0xD}
 };
 
 void RTR(uint8_t pin){
 	_delay_ms(50);
-	while(isClear(PINA,pin));
+	while(isClear(PINT,pin));
 	_delay_ms(50);
 }
 
+
 uint8_t pressed(void){
 	while(1){
-		seed++;
 		PORTT = ~(1<<0);				//1111_1110 rota tierra
 		asm("nop");
 		asm("nop");
 		//DCBA
-		if(isClear(PINT,4)){		//+,D
+		if(isClear(PINT,4)){		//1
 			RTR(4);
-			return(keyb[3][3]);
+			
+			return(keyb[0][0]);
 		}
-		if(isClear(PINT,5)){		//-,C
+		if(isClear(PINT,5)){		//8
 			RTR(5);
-			return(keyb[2][3]);
+			return(keyb[0][1]);
 		}
-		if(isClear(PINT,6)){		//x,B
+		if(isClear(PINT,6)){		//9
 			RTR(6);
-			return(keyb[1][3]);
+			return(keyb[0][2]);
 		}
 		if(isClear(PINT,7)){		// entre, A
 			RTR(7);
@@ -109,13 +115,13 @@ uint8_t pressed(void){
 		PORTT = ~(1<<1);
 		
 		//3,6,9,#(F)
-		if(isClear(PINT,4)){		//A
+		if(isClear(PINT,4)){		//4
 			RTR(4);
-			return(keyb[3][2]);
+			return(keyb[1][0]);
 		}
 		if(isClear(PINT,5)){		//B
 			RTR(5);
-			return(keyb[2][2]);
+			return(keyb[1][1]);
 		}
 		if(isClear(PINT,6)){		//C
 			RTR(6);
@@ -123,14 +129,14 @@ uint8_t pressed(void){
 		}
 		if(isClear(PINT,7)){		//D
 			RTR(7);
-			return(keyb[0][2]);
+			return(keyb[1][3]);
 		}
 		PORTT = ~(1<<2);
 		
 		//2,5,8,0
 		if(isClear(PINT,4)){		//A
 			RTR(4);
-			return(keyb[3][1]);
+			return(keyb[2][0]);
 		}
 		if(isClear(PINT,5)){		//B
 			RTR(5);
@@ -138,11 +144,11 @@ uint8_t pressed(void){
 		}
 		if(isClear(PINT,6)){		//C
 			RTR(6);
-			return(keyb[1][1]);
+			return(keyb[2][2]);
 		}
 		if(isClear(PINT,7)){		//D
 			RTR(7);
-			return(keyb[0][1]);
+			return(keyb[2][3]);
 		}
 		PORTT = ~(1<<3);
 		
@@ -153,38 +159,39 @@ uint8_t pressed(void){
 		}
 		if(isClear(PINT,5)){		//B
 			RTR(5);
-			return(keyb[2][0]);
+			return(keyb[3][1]);
 		}
 		if(isClear(PINT,6)){		//C
 			RTR(6);
-			return(keyb[1][0]);
+			return(keyb[3][2]);
 		}
 		if(isClear(PINT,7)){		//D
 			RTR(7);
-			return(keyb[0][0]);
+			return(keyb[3][3]);
 		}
 
 	}
 }
 
+char uno[17], dos[17];
 int main(void)
 {
-	//srand(0); //seed
-	//random values
-	// rnd = rand() % (b-a) + a; //Random within a limit [a;b)
- 
 	LCD_init();
 	//teclado
 	DDRT = 0b00001111;					//7->4: entradas,3->0: salidas(rotar tierra)
 	PORTT = 0b11111111;
 	//pruebas
-	DDRD = 0;
+	DDRB = 0;
 	
 	uint8_t tecla;
 	
 	while (1){
 		tecla = pressed();
-
+		if(tecla < 10){
+			sprintf(uno, "%d", tecla);
+			LCD_wr_lineTwo(uno);
+		}
+		
 	}
 	
 }
@@ -199,7 +206,7 @@ void write_EEPROM(uint16_t dir, uint8_t dato){
 	sei();
 }
 
-void read_EEPROM(uint16_t dir){
+uint8_t read_EEPROM(uint16_t dir){
 	while(isSet(EECR, EEWE)){}
 	EEAR = dir;
 	EECR |= (1<<EERE);
@@ -324,3 +331,5 @@ void saca_uno(volatile uint8_t *LUGAR, uint8_t BIT){ // al usarla, no olvidar el
 void saca_cero(volatile uint8_t *LUGAR, uint8_t BIT){// al usarla, no olvidar el &
 	*LUGAR=*LUGAR&~(1<<BIT);
 }
+
+
