@@ -2,26 +2,27 @@ using System;
 
 namespace BuilderPattern
 {
-	class Computer_Basic : Computer_Builder
+	class IO_Basic : IO_Builder
 	{
 		// the product being constructed
-		private Computer _computer = new Computer();
+		private IO _IO = new IO();
+
 		public override void BuildCentralUnit()
 		{
 			Console. WriteLine("Basic Central Unit builded");
-			_computer.Add("Basic CentralUnit");
+			_IO.Add("Basic CentralUnit");
 		}
 
 		public override void BuildComponent()
 		{
 			Console. WriteLine("Basic Component builded");
-			_computer.Add("Basic Component");
+			_IO.Add("Basic Component");
 		}
 
-		public override Computer Computer_GetResult()
+		public override IO IO_GetResult()
 		{
-			Console.WriteLine("Basic computer result: {0}",_computer);
-			return _computer;
+			Console.WriteLine("Basic IO result: {0}",_IO);
+			return _IO;
 		}
 	}
 }

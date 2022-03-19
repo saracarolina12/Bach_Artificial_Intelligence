@@ -2,40 +2,30 @@ using System;
 
 namespace BuilderPattern
 {
-	/// <summary>
 	/// The concrete builder class for product type 2.
-	/// </summary>
 	class Computer_Medium : Computer_Builder
 	{
 		// the product being constructed
 		private Computer _computer = new Computer();
-
-		/// <summary>
-		/// Build part A.
-		/// </summary>
+		// nombre del fabricante, el modelo y el precio de venta
 		public override void BuildCentralUnit()
 		{
-			Console.WriteLine("Medium Central Unit builded");
-			_computer.Add("Central Unit");
+			Console.WriteLine("-> Medium Central Unit builded");
+
+			_computer.Add("Medium Central Unit");
 		}
 
-		/// <summary>
-		/// Build part B.
-		/// </summary>
 		public override void BuildComponent()
 		{
-			Console.WriteLine("Medium Components builded");
-			_computer.Add("Components");
+			Console.WriteLine("-> Medium Components builded");
+			_computer.Add("Medium Components");
 		}
 
-		/// <summary>
-		/// Gets the finished product.
-		/// </summary>
-		/// <returns>The finished product.</returns>
 		public override Computer Computer_GetResult()
 		{
-			Console.WriteLine("Medium computer result: {0}",_computer);
+			Console.WriteLine("--- Medium computer result: {0}",_computer,"---");
 			return _computer;
 		}
 	}
 }
+

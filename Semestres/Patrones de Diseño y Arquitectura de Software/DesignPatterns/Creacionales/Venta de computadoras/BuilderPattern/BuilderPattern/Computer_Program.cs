@@ -4,13 +4,8 @@ namespace BuilderPattern
 {
 	class MainClass
 	{
-		/// <summary>
-		/// The entry point of the program, where the program control starts and ends.
-		/// </summary>
-		/// <param name="args">The command-line arguments.</param>
 		public static void Main (string[] args)
 		{
-			// create director
 			Computer_Director computer_director = new Computer_Director();
 
 
@@ -28,7 +23,7 @@ namespace BuilderPattern
 			Computer_Builder Computer_b2 = new Computer_Medium();
 			computer_director.Construct(Computer_b2);
 			Computer c2 = Computer_b2.Computer_GetResult();
-			//Console.WriteLine ("Basic computer: {0}", c2);
+			//Console.WriteLine ("{0} ,  {1}",c2, c2.GetType().Name);
 		}
 	}
 }
