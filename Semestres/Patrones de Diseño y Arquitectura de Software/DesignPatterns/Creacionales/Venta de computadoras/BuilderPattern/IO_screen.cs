@@ -21,7 +21,11 @@ namespace BuilderPattern
 		public override void setPort(){
 			_io.validPorts[0] = 4;
 		}
-		public override void setTonerCart(){
+		public override void setAsToner(){
+			//just for printers
+		}
+
+		public override void setAsCart(){
 			//just for printers
 		}
 

@@ -14,13 +14,13 @@ namespace BuilderPattern
 		}
 
 		public void PrintComputer(){
-			Console.WriteLine("\t ~ Computer ~");
+			Console.WriteLine("\t ~ Components ~");
 			float totalPrice = 0f;
 			foreach(IO i in _parts){
 				i.PrintInfo();
 				totalPrice += i.subprice;
 			}
-			Console.WriteLine("Total price: ${0}",totalPrice);
+			Console.WriteLine("  ->Total price: ${0}",totalPrice);
 		}
 	}
 }

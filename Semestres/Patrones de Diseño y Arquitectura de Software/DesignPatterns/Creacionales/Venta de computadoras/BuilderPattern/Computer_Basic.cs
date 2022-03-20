@@ -32,7 +32,6 @@ namespace BuilderPattern
 
 		public override Computer Computer_GetResult()
 		{
-			
 			return _computer;
 		}
 	}

@@ -20,7 +20,7 @@ namespace BuilderPattern
 			Computer_Builder Computer_b2 = new Computer_Medium();
 			computer_director.Construct(Computer_b2);
 			Computer c2 = Computer_b2.Computer_GetResult();
-
+			c2.PrintComputer();
 			
 		}
 	}

@@ -9,7 +9,8 @@ namespace BuilderPattern
 		public abstract void setInfo();
 		public abstract void setConector();
 		public abstract void setPort();
-		public abstract void setTonerCart();
+		public abstract void setAsCart();
+		public abstract void setAsToner();
 		public abstract IO IO_GetResult(); //returns finished product
 	}
 }
