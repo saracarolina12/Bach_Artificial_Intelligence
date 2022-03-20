@@ -7,8 +7,8 @@ namespace BuilderPattern
 		
 		public void Construct(Computer_Builder computer_builder)
 		{
-			computer_builder.BuildCentralUnit();
-			computer_builder.BuildComponent(); //Input/output
+			computer_builder.IncludeCentralUnit();
+			computer_builder.IncludeComponent(); 
 		}
 	}
 }

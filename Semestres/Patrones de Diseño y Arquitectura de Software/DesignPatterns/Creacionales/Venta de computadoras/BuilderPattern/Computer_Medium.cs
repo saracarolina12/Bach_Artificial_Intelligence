@@ -8,22 +8,19 @@ namespace BuilderPattern
 		// the product being constructed
 		private Computer _computer = new Computer();
 		// nombre del fabricante, el modelo y el precio de venta
-		public override void BuildCentralUnit()
+		public override void IncludeCentralUnit()
 		{
-			Console.WriteLine("-> Medium Central Unit builded");
 
-			_computer.Add("Medium Central Unit");
+			//_computer.Add(null);
 		}
 
-		public override void BuildComponent()
+		public override void IncludeComponent()
 		{
-			Console.WriteLine("-> Medium Components builded");
-			_computer.Add("Medium Components");
+			//_computer.Add(null);
 		}
 
 		public override Computer Computer_GetResult()
 		{
-			Console.WriteLine("--- Medium computer result: {0}",_computer,"---");
 			return _computer;
 		}
 	}
