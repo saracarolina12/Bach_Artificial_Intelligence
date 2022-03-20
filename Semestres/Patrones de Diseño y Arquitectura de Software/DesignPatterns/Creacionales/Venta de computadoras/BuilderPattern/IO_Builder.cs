@@ -11,6 +11,9 @@ namespace BuilderPattern
 		public abstract void setPort();
 		public abstract void setAsCart();
 		public abstract void setAsToner();
+
+		public abstract void setAsLaser();
+		public abstract void setAsIny();
 		public abstract IO IO_GetResult(); //returns finished product
 	}
 }

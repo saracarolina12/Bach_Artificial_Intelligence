@@ -37,9 +37,15 @@ namespace BuilderPattern
 			else Console.WriteLine("\t      *IO Type: CPU");
 
 			//toner / cart
-			if(isToner && !isCart) Console.WriteLine("\t      *Printer type: Toner");
-			else if(isCart && !isToner) Console.WriteLine("\t      *Printer type: Cart");
-			else if(isCart && isToner) Console.WriteLine("\t      *Printer type: Toner and Cart");
+			if(isToner && !isCart) Console.WriteLine("\t      *Toner");
+			else if(isCart && !isToner) Console.WriteLine("\t      *Cartridge");
+			else if(isCart && isToner) Console.WriteLine("\t      *Toner and Cartridge");
+			else Console.WriteLine("");
+
+			//iny / laser
+			if(isLaser && !isIny) Console.WriteLine("\t      *Laser");
+			else if(isIny && !isLaser) Console.WriteLine("\t      *Injection");
+			else if(isIny && isLaser) Console.WriteLine("\t      *Injection and Laser");
 			else Console.WriteLine("");
 		}
 	}

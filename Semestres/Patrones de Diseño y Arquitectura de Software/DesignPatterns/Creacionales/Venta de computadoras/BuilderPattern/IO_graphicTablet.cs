@@ -31,6 +31,13 @@ namespace BuilderPattern
 			_io.isInput = true;
 		}
 
+		public override void setAsLaser(){
+			//just for printers
+		}
+
+		public override void setAsIny(){
+			//just for printers
+		}
 		public override void setAsOutput(){
 			_io.isOutput = false;
 		}

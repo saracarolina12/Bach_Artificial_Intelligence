@@ -14,6 +14,8 @@ namespace BuilderPattern
 			io_builder.setAsOutput();
 			io_builder.setAsToner();
 			io_builder.setAsCart();
+			io_builder.setAsLaser();
+			io_builder.setAsIny();
 		}
 	}
 }

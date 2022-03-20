@@ -28,6 +28,13 @@ namespace BuilderPattern
 		public override void setAsCart(){
 			//just for printers
 		}
+		public override void setAsLaser(){
+			//just for printers
+		}
+
+		public override void setAsIny(){
+			//just for printers
+		}
 		public override void setAsInput(){
 			_io.isInput = false;
 		}

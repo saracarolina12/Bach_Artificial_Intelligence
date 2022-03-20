@@ -29,7 +29,13 @@ namespace BuilderPattern
 			_io.isCart = true;
 		}
 
-		public override void setAsInput(){
+		public override void setAsLaser(){
+			_io.isLaser = false;
+		}
+
+		public override void setAsIny(){
+			_io.isIny = true;
+		}		public override void setAsInput(){
 			_io.isInput = false;
 		}
 

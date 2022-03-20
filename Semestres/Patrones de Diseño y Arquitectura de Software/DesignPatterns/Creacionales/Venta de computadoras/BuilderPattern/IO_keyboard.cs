@@ -15,6 +15,13 @@ namespace BuilderPattern
 			_io.subprice=480f; //precio de venta
 		}
 
+		public override void setAsLaser(){
+			//just for printers
+		}
+
+		public override void setAsIny(){
+			//just for printers
+		}
 		public override void setConector(){
 			_io.conector = "bluetooth"; //tipo de conector
 		}

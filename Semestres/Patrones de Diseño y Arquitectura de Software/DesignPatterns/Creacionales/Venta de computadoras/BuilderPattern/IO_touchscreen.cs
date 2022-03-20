@@ -25,6 +25,13 @@ namespace BuilderPattern
 			//just for printers
 		}
 
+		public override void setAsLaser(){
+			//just for printers
+		}
+
+		public override void setAsIny(){
+			//just for printers
+		}
 		public override void setAsCart(){
 			_io.isCart = false;
 		}

@@ -20,7 +20,7 @@ namespace BuilderPattern
 				i.PrintInfo();
 				totalPrice += i.subprice;
 			}
-			Console.WriteLine("  ->Total price: ${0}",totalPrice);
+			Console.WriteLine("\n  ->Total price: ${0}",totalPrice);
 		}
 	}
 }
