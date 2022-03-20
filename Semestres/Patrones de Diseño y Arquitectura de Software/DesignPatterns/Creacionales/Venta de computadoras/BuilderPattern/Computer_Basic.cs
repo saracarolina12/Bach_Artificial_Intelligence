@@ -8,18 +8,26 @@ namespace BuilderPattern
 		private Computer _computer = new Computer();
 		public override void IncludeCentralUnit()
 		{
-			
-			//_computer.Add(null);
+			IO_Builder CPU = new IO_CPU();
+			io_director.Construct(CPU);
+			IO x2 = CPU.IO_GetResult();
+			_computer.Add(x2);
 		}
 
 		public override void IncludeComponent()
 		{
-			
-
+			//INPUT - graphics
 			IO_Builder graphicsTablet = new IO_graphicTablet();
 			io_director.Construct(graphicsTablet);
-			IO x3 = graphicsTablet.IO_GetResult();
-			_computer.Add(x3);
+			IO x1 = graphicsTablet.IO_GetResult();
+			_computer.Add(x1);
+
+			//OUTPUT
+			IO_Builder screen = new IO_screen();
+			io_director.Construct(screen);
+			IO x2 = screen.IO_GetResult();
+			_computer.Add(x2);
+			
 		}
 
 		public override Computer Computer_GetResult()

@@ -16,7 +16,17 @@ namespace BuilderPattern
 
 		public override void IncludeComponent()
 		{
-			//_computer.Add(null);
+			//input 1 
+			IO_Builder keyboard = new IO_keyboard();
+			io_director.Construct(keyboard);
+			IO x2 = keyboard.IO_GetResult();
+			_computer.Add(x2);
+
+			//input 2
+			IO_Builder mouse = new IO_mouse(); 
+			io_director.Construct(mouse);
+			IO x1 = mouse.IO_GetResult();
+			_computer.Add(x1);
 		}
 
 		public override Computer Computer_GetResult()
