@@ -6,6 +6,12 @@
 #define PINT PINA
 #define PORTT PORTA
 #define DDRT DDRA
+
+/* Comunicación Serial */
+#define FCPU 4000000//clock speed
+#define BAUD 2400 //bps
+#define MYUBRR FCPU/16/BAUD-1
+
 #include <avr/io.h>
 #include <util/delay.h>
 #include <avr/interrupt.h>
@@ -58,7 +64,7 @@ void LCD_wr_string(volatile uint8_t *s);
 void LCD_wr_lines(uint8_t *a, uint8_t *b);
 void LCD_wr_lineTwo(volatile uint8_t *b);
 void write_EEPROM(uint16_t dir, uint8_t dato);
-void read_EEPROM(uint16_t dir);
+uint8_t read_EEPROM(uint16_t dir);
 
 uint8_t seed = 0;
 char uno[17],dos[17];
@@ -194,12 +200,12 @@ void write_EEPROM(uint16_t dir, uint8_t dato){
 	EEAR = dir;
 	EEDR = dato;
 	cli();
-	EECR |= (1<<EEMWE); //pone uno en EEMWE
-	EECR |= (1<<EEMWE); //pone uno en EEMWE
+	EECR |= (1<<EEMWE);
+	EECR |= (1<<EEWE); //pone uno en EEMWE
 	sei();
 }
 
-void read_EEPROM(uint16_t dir){
+uint8_t read_EEPROM(uint16_t dir){
 	while(isSet(EECR, EEWE)){}
 	EEAR = dir;
 	EECR |= (1<<EERE);
@@ -323,4 +329,36 @@ void saca_uno(volatile uint8_t *LUGAR, uint8_t BIT){ // al usarla, no olvidar el
 
 void saca_cero(volatile uint8_t *LUGAR, uint8_t BIT){// al usarla, no olvidar el &
 	*LUGAR=*LUGAR&~(1<<BIT);
+}
+
+void USART_Init(uint16_t ubrr){
+	DDRD |= 0b00000010; //or por si estabamos usando el puerto D (pin 1: TX, pin0: RX) (lo mismo que DDRD|=(1<<1))
+
+	/* Set baud rate */
+
+	/* Enable receiver and transmitter */
+	UCSRB = (1<<RXEN) | (1<<TXEN) | (1<<RXCIE);
+	/* Set frame format: 8data, 2stop bit */
+	UCSRC = (1<<URSEL) | (1<<USBS) | (3<<UCSZ0);
+}
+
+void USART_Transmit(uint8_t data){
+	/* Wait for empty transmit buffer */
+	while(!( UCSRA & (1<<UDRE) )){}
+	
+	/* Put data into buffer, sends the data */
+	UDR = data;
+}
+
+uint8_t USART_Receive(void){
+	/* Wait for data to be received */
+	while(!(UCSRA & (1<<RXC))){} //traba
+		
+	/* Get and return received data from buffer */
+	return UDR;
+}
+
+volatile uint8_t dato;
+ISR(USART_RXC_vect){
+	dato = UDR;
 }

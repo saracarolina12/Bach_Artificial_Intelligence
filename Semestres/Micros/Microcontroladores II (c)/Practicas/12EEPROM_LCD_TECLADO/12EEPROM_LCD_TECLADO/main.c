@@ -63,7 +63,7 @@ void LCD_wait_flag(void);
 void LCD_init(void);
 void LCD_wr_string(volatile uint8_t *s);
 void LCD_wr_lines(uint8_t *a, uint8_t *b);
-void LCD_wr_lineTwo(volatile uint8_t *b);
+void LCD_wr_lineTwo(uint8_t b);
 void write_EEPROM(uint16_t dir, uint8_t dato);
 uint8_t read_EEPROM(uint16_t dir);
 
@@ -113,6 +113,8 @@ uint8_t pressed(void){
 			return(keyb[0][3]);
 		}
 		PORTT = ~(1<<1);
+		asm("nop");
+		asm("nop");
 		
 		//3,6,9,#(F)
 		if(isClear(PINT,4)){		//4
@@ -132,6 +134,8 @@ uint8_t pressed(void){
 			return(keyb[1][3]);
 		}
 		PORTT = ~(1<<2);
+		asm("nop");
+		asm("nop");
 		
 		//2,5,8,0
 		if(isClear(PINT,4)){		//A
@@ -151,6 +155,8 @@ uint8_t pressed(void){
 			return(keyb[2][3]);
 		}
 		PORTT = ~(1<<3);
+		asm("nop");
+		asm("nop");
 		
 		//1,4,7,*(E)
 		if(isClear(PINT,4)){		//A
@@ -173,7 +179,8 @@ uint8_t pressed(void){
 	}
 }
 
-char uno[17], dos[17];
+char lin1[17], lin2[17], clear[11];
+volatile uint8_t pos = 0x88, c = 1, uno, dos, tres, cuatro;
 int main(void)
 {
 	LCD_init();
@@ -181,19 +188,45 @@ int main(void)
 	DDRT = 0b00001111;					//7->4: entradas,3->0: salidas(rotar tierra)
 	PORTT = 0b11111111;
 	//pruebas
-	DDRB = 0;
+	DDRA = 0;
 	
-	uint8_t tecla;
+	uno = read_EEPROM(0);
+	dos = read_EEPROM(1);
+	tres = read_EEPROM(2);
+	cuatro = read_EEPROM(3);
+	sprintf(lin1, "%d %d %d %d", uno, dos, tres, cuatro);
+	LCD_wr_instruction(0x89);
+	LCD_wr_string(lin1);
 	
 	while (1){
-		tecla = pressed();
-		if(tecla < 10){
-			sprintf(uno, "%d", tecla);
-			LCD_wr_lineTwo(uno);
+		uint8_t tecla = pressed();
+		if(tecla < 10){ //bloqueo los que no son números
+			LCD_wr_lineTwo(tecla);
 		}
 		
 	}
 	
+}
+
+void LCD_wr_lineTwo( uint8_t b){
+	cuatro = tres;
+	tres = dos;
+	dos = uno;
+	uno = b;
+	sprintf(lin1, "%d %d %d %d", uno, dos, tres, cuatro);
+	LCD_wr_instruction(0x89);
+	LCD_wr_string(lin1);
+	//for(uint8_t i=0; i<11; i++){
+		sprintf(clear, " ");
+		LCD_wr_instruction(0x8A);
+		LCD_wr_string(clear);
+		//pos++;
+	//}
+	write_EEPROM(0, uno);
+	write_EEPROM(1, dos);
+	write_EEPROM(2, tres);
+	write_EEPROM(3, cuatro);
+	pos = 0x87;
 }
 
 void write_EEPROM(uint16_t dir, uint8_t dato){
@@ -201,8 +234,8 @@ void write_EEPROM(uint16_t dir, uint8_t dato){
 	EEAR = dir;
 	EEDR = dato;
 	cli();
-	EECR |= (1<<EEMWE); //pone uno en EEMWE
-	EECR |= (1<<EEMWE); //pone uno en EEMWE
+	EECR |= (1<<EEMWE);
+	EECR |= (1<<EEWE); //pone uno en EEMWE
 	sei();
 }
 
@@ -211,11 +244,6 @@ uint8_t read_EEPROM(uint16_t dir){
 	EEAR = dir;
 	EECR |= (1<<EERE);
 	return EEDR;
-}
-
-void LCD_wr_lineTwo(volatile uint8_t *b){
-	LCD_wr_instruction(0b11000000);
-	LCD_wr_string(b);
 }
 
 void LCD_wr_string(volatile uint8_t *s){

@@ -59,7 +59,7 @@ def funcion(img):
       Ximg = np.reshape(imgn,(nrows*ncols,3))
       Xhsv = np.reshape(hsv,(nrows*ncols,3))
       nsample = 100
-      idx = np.random.permutation(nrows*ncols)[:nsample] #toma los primeros 300 pixeles de forma random
+      idx = np.random.permutation(nrows*ncols)[:nsample] #toma los primeros 100 pixeles de forma random
       Ximg = Ximg[idx,:]
       Xhsv = Xhsv[idx,:]
       
@@ -69,7 +69,7 @@ def funcion(img):
       #tocompare = np.array([150,50,50])
       #'''
       if((tocompare >= toclasify[0][0]).all() and (tocompare <= toclasify[0][1]).all()):
-          color = "20"
+          color = "20"  
       elif((tocompare >= toclasify[1][0]).all() and (tocompare <= toclasify[1][1]).all() ):
           color="50"
       else: color=""

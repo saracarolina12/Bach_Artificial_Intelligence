@@ -20,7 +20,8 @@ namespace BuilderPattern
 		}
 		public override void setPort(){
 			_io.validPorts[0] = 1;
-		}		public override void setAsToner(){
+		}		
+		public override void setAsToner(){
 			//just for printers
 		}
 
