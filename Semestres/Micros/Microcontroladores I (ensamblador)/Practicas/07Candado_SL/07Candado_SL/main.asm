@@ -1,0 +1,423 @@
+; CandadoDigital.asm
+;
+; Created: 16/10/2021 03:44:45 p. m.
+; Author : lalor
+;
+
+.include "m16adef.inc"     
+   
+;*******************
+;Registros (aqui pueden definirse)
+;.def temporal=r19
+
+;Palabras claves (aqui pueden definirse)
+;.equ LCD_DAT=DDRC
+.EQU DDRK = DDRA
+.EQU PORTK = PORTA	;PARA PODER CAMBIAR CONEXIONES
+.EQU PINK = PINA 
+;********************
+
+.org 0x0000
+;Comienza el vector de interrupciones...
+jmp RESET ; Reset Handler
+jmp EXT_INT0 ; IRQ0 Handler
+jmp EXT_INT1 ; IRQ1 Handler
+jmp TIM2_COMP ; Timer2 Compare Handler
+jmp TIM2_OVF ; Timer2 Overflow Handler
+jmp TIM1_CAPT ; Timer1 Capture Handler
+jmp TIM1_COMPA ; Timer1 CompareA Handler
+jmp TIM1_COMPB ; Timer1 CompareB Handler
+jmp TIM1_OVF ; Timer1 Overflow Handler
+jmp TIM0_OVF ; Timer0 Overflow Handler
+jmp SPI_STC ; SPI Transfer Complete Handler
+jmp USART_RXC ; USART RX Complete Handler
+jmp USART_UDRE ; UDR Empty Handler
+jmp USART_TXC ; USART TX Complete Handler
+jmp ADC_COMP ; ADC Conversion Complete Handler
+jmp EE_RDY ; EEPROM Ready Handler
+jmp ANA_COMP ; Analog Comparator Handler
+jmp TWSI ; Two-wire Serial Interface Handler
+jmp EXT_INT2 ; IRQ2 Handler
+jmp TIM0_COMP ; Timer0 Compare Handler
+jmp SPM_RDY ; Store Program Memory Ready Handler
+
+;**************
+;Inicializar el Stack Pointer
+;**************
+Reset:
+ldi r16, high(RAMEND)
+out SPH, r16
+ldi r16, low(RAMEND)
+out SPL, r16 
+
+
+;*********************************
+;Aqu? comienza el programa...
+;No olvides configurar al inicio todo lo que utilizar?s
+;*********************************
+LDI R16, $F0
+OUT DDRK, R16
+LDI R16, $FF
+OUT PORTK, R16
+OUT DDRD, R16
+LDI R16, $FE
+OUT PORTD, R16
+LDI R17, 1
+LDI R19, 0	; PRESSED KEY
+LDI R20, 0	; REGISTER
+;...
+
+TECLADO: 
+	LDI R16, $EF ;PULL-UPS ENTRADAS, MANDO PRIMER TIERRA A PIN 4
+	OUT PORTK, R16
+	NOP ;PIERDE CICLO DE RELOJ
+	NOP
+	SBIS PINK, 0
+	RJMP UNO
+	SBIS PINK, 1
+	RJMP CUATRO
+	SBIS PINK, 2
+	RJMP SIETE
+	SBIS PINK, 3
+	RJMP ASTERISCO
+	SBI PORTK, 4 ;REGRESA 5v
+	CBI PORTK, 5 ;CAMBIA GND
+	NOP
+	NOP
+	SBIS PINK, 0
+	RJMP DOS
+	SBIS PINK, 1
+	RJMP CINCO
+	SBIS PINK, 2
+	RJMP OCHO
+	SBIS PINK, 3
+	RJMP CERO
+	SBI PORTK, 5 
+	CBI PORTK, 6 
+	NOP
+	NOP
+	SBIS PINK, 0
+	RJMP TRES
+	SBIS PINK, 1
+	RJMP SEIS
+	SBIS PINK, 2
+	RJMP NUEVE
+	SBIS PINK, 3
+	RJMP GATITO
+	SBI PORTK, 6 
+	CBI PORTK, 7 
+	NOP
+	NOP
+	SBIS PINK, 0
+	RJMP A
+	SBIS PINK, 1
+	RJMP B
+	SBIS PINK, 2
+	RJMP C
+	SBIS PINK, 3
+	RJMP D
+RJMP TECLADO
+
+UNO:
+	LDI R19, $01
+	SBRS R17, 0
+	ORI R18, 1
+	LSL R17
+
+	RCALL DELAY
+	TRABA_UNO:
+		SBIS PINK, 0
+	RJMP TRABA_UNO
+	RCALL DELAY
+	;CODIGO AL SOLTAR
+RJMP CHECK
+DOS:
+	LDI R19, $02
+	ORI R18, 1
+	LSL R17
+
+	RCALL DELAY
+	TRABA_DOS:
+		SBIS PINK, 0
+	RJMP TRABA_DOS
+	RCALL DELAY
+RJMP CHECK
+TRES:
+	LDI R19, $03
+	ORI R18, 1
+	LSL R17
+
+	RCALL DELAY
+	TRABA_TRES:
+		SBIS PINK, 0
+	RJMP TRABA_TRES
+	RCALL DELAY
+RJMP CHECK
+A:
+	LDI R19, $0A
+	ORI R18, 1
+	LSL R17
+
+	RCALL DELAY
+	TRABA_A:
+		SBIS PINK, 0
+	RJMP TRABA_A
+	RCALL DELAY
+RJMP CHECK
+CUATRO:
+	LDI R19, $04
+	ORI R18, 1
+	LSL R17
+
+	RCALL DELAY
+	TRABA_CUATRO:
+		SBIS PINK, 1
+	RJMP TRABA_CUATRO
+	RCALL DELAY
+RJMP CHECK
+CINCO:
+	LDI R19, $05
+	SBRS R17, 1
+	ORI R18, 1
+	LSL R17
+
+	RCALL DELAY
+	TRABA_CINCO:
+		SBIS PINK, 1
+	RJMP TRABA_CINCO
+	RCALL DELAY
+RJMP CHECK
+SEIS:
+	LDI R19, $06
+	ORI R18, 1
+	LSL R17
+
+	RCALL DELAY
+	TRABA_SEIS:
+		SBIS PINK, 1
+	RJMP TRABA_SEIS
+	RCALL DELAY
+RJMP CHECK
+B:
+	LDI R19, $0B
+	ORI R18, 1
+	LSL R17
+
+	RCALL DELAY
+	TRABA_B:
+		SBIS PINK, 1
+	RJMP TRABA_B
+	RCALL DELAY
+RJMP CHECK
+SIETE:
+	LDI R19, $07
+	SBRS R17, 2
+	ORI R18, 1
+	LSL R17
+
+	RCALL DELAY
+	TRABA_SIETE:
+		SBIS PINK, 2
+	RJMP TRABA_SIETE
+	RCALL DELAY
+RJMP CHECK
+OCHO:
+	LDI R19, $08
+	ORI R18, 1
+	LSL R17
+
+	RCALL DELAY
+	TRABA_OCHO:
+		SBIS PINK, 2
+	RJMP TRABA_OCHO
+	RCALL DELAY
+RJMP CHECK
+NUEVE:
+	LDI R19, $09
+	SBRS R17, 3
+	ORI R18, 1
+	LSL R17
+
+	RCALL DELAY
+	TRABA_NUEVE:
+		SBIS PINK, 2
+	RJMP TRABA_NUEVE
+	RCALL DELAY
+RJMP CHECK
+C:
+	LDI R19, $0C
+	ORI R18, 1
+	LSL R17
+
+	RCALL DELAY
+	TRABA_C:
+		SBIS PINK, 2
+	RJMP TRABA_C
+	RCALL DELAY
+RJMP CHECK
+ASTERISCO:
+	LDI R19, $0D
+
+	CPI R17, 0
+	BRNE ASTERISCORST
+	RTRASTERISCO: 
+		RCALL DELAY
+		TRABA_ASTERISCO:
+			SBIS PINK, 3
+		RJMP TRABA_ASTERISCO
+		RCALL DELAY
+RJMP CHECK
+CERO:
+	LDI R19, $00
+	ORI R18, 1
+	LSL R17
+
+	RCALL DELAY
+	TRABA_CERO:
+		SBIS PINK, 3
+	RJMP TRABA_CERO
+	RCALL DELAY
+RJMP CHECK
+GATITO:
+	LDI R19, $0F
+	ORI R18, 1
+	LSL R17
+
+	RCALL DELAY
+	TRABA_GATITO:
+		SBIS PINK, 3
+	RJMP TRABA_GATITO
+	RCALL DELAY
+RJMP CHECK
+
+D:
+	LDI R19, $0D
+	ORI R18, 1
+	LSL R17
+
+	RCALL DELAY
+	TRABA_D:
+		SBIS PINK, 3
+	RJMP TRABA_D
+	RCALL DELAY
+RJMP CHECK
+
+ASTERISCORST: 
+	RCALL RST
+	RJMP RTRASTERISCO
+
+CHECK: 
+	SWAP R20		; 
+	ANDI R20, $F0	; LAST 2 NUMBERS
+	OR R20, R19		; 
+						; R18: ALARMED, OPENED, FLAG
+	SBRC R18, 1		; LOCKS WHEN OPEN
+	RCALL RST
+	SBRS R18, 2		; IF NOT ALARMED
+	LDI R16, $FE	; LED ON, BUZZER OFF
+	SBRC R18, 2		; IF ALARMED
+	RCALL ALARMED
+	SBRC R17, 4		; FINISHED SEQUENCE OF 4
+	RCALL FINISHED
+
+	OUT PORTD, R16
+
+	RJMP TECLADO
+
+FINISHED: 
+	SBRS R18, 0		; IF CORRECT
+	RCALL UNLOCK
+	SBRC R18, 0		; OTHERWISE
+	RCALL ALARM
+	ANDI R18, $FE	; TURNS FLAG OFF
+	
+	RET
+
+UNLOCK:
+	ANDI R16, $7F
+	LDI R18, $02
+	LDI R17, 0
+	RET
+
+RST:
+	LDI R18, 0	; TURNS OFF FLAGS
+	LDI R17, 1	; STARTS LISTENING 
+	RET	
+
+ALARM:
+	ORI R16, $01 
+	LDI R18, $04	; ALARM STATE
+	LDI R17, 0
+	RET
+
+ALARMED:	; CHECKS IF ALARMED SHOULD BE TURNED OFF
+	CPI R20, $23
+	BREQ TURNOFFALARM
+	RETALARMED: 
+		RET
+TURNOFFALARM:
+	LDI R16, $FE
+	RCALL RST
+	RJMP RETALARMED
+
+DELAY: ;50000 cycles
+          ldi  R29, $65
+WGLOOP0:  ldi  R30, $A4
+WGLOOP1:  dec  R30
+          brne WGLOOP1
+          dec  R29
+          brne WGLOOP0
+          ldi  R29, $01
+WGLOOP2:  dec  R29
+          brne WGLOOP2
+          nop
+          nop
+RET
+
+
+
+
+
+;*********************************
+;Aqu? est? el manejo de las interrupciones concretas
+;*********************************
+EXT_INT0: ; IRQ0 Handler
+reti
+EXT_INT1: 
+reti ; IRQ1 Handler
+TIM2_COMP: 
+reti ; Timer2 Compare Handler
+TIM2_OVF: 
+reti ; Timer2 Overflow Handler
+TIM1_CAPT: 
+reti ; Timer1 Capture Handler
+TIM1_COMPA: 
+reti ; Timer1 CompareA Handler
+TIM1_COMPB: 
+reti ; Timer1 CompareB Handler
+TIM1_OVF: 
+reti ; Timer1 Overflow Handler
+TIM0_OVF: 
+reti ; Timer0 Overflow Handler
+SPI_STC: 
+reti ; SPI Transfer Complete Handler
+USART_RXC: 
+reti ; USART RX Complete Handler
+USART_UDRE: 
+reti ; UDR Empty Handler
+USART_TXC: 
+reti ; USART TX Complete Handler
+ADC_COMP: 
+reti ; ADC Conversion Complete Handler
+EE_RDY: 
+reti ; EEPROM Ready Handler
+ANA_COMP: 
+reti ; Analog Comparator Handler
+TWSI: 
+reti ; Two-wire Serial Interface Handler
+EXT_INT2: 
+reti ; IRQ2 Handler
+TIM0_COMP: 
+reti
+SPM_RDY: 
+reti ; Store Program Memory Ready Handler

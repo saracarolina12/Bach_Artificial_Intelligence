@@ -1,0 +1,132 @@
+
+.otherdividers{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 5rem;
+    background-color: rgba(89, 101, 191, 0.68) !important;
+    border: solid rgba(70, 89, 216, 0.68);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    text-align: center;
+  }
+.b-example-divider {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 4rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    text-align: center;
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  
+  .contenedor_imagen{
+      text-align: center;
+      position: relative;
+      display: inline-block;
+      width: 100%;  
+  }
+
+  .serv{
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    width: 100%;  
+}
+  
+  .servicios{
+    padding: 20px 20px 20px 20px;
+  }
+  .serviciosindex{
+    padding: 30px 200px 200px 200px;
+  }
+
+  .titulo{
+    font-size: large;
+    font-family: Garamond, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -450%);
+    font-size: 20%;
+  }
+
+  .correoind{
+      background-color: rgb(238, 227, 165) !important;
+  }
+
+
+  .texto{
+    list-style: inside;
+    float: left;
+  }
+
+  .headertext{
+    font-size: 15px;
+  }
+
+  .main {
+    height: 100vh;
+  }
+  .img-container {
+    width: 70%;
+    height: 100%;
+    background-color: lightgray ;
+    float: right;
+    background: url(misión.jpg) no-repeat center center / cover;
+    -webkit-shape-outside: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+    shape-outside:         polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+    -webkit-clip-path:     polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+    clip-path:             polygon(35% 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .img-containerlft {
+    width: 50%;
+    height: 76%;
+    background-color: rgba(101, 128, 209, 0.374) ;
+    float: left;
+    padding: 2%;
+    -webkit-shape-outside: polygon(100% 0, 100 100, 100% 100%, 100% 30);
+    shape-outside:         polygon(100% 0, 0 100, 100% 100%, 100% 30);
+    -webkit-clip-path:     polygon(100% 0, 0 100, 100% 100%, 100% 30);
+    clip-path:             polygon(100% 0, 0 100, 100% 100%, 100% 30);
+  }
+
+  .img-containerder {
+    width: 50%;
+    height: 76%;
+    background-color: rgba(101, 128, 209, 0.374) ;
+    float: right;
+
+    padding-left: 10%;
+    -webkit-shape-outside: polygon(100% 0, 100 100, 100% 100%, 100% 30);
+    shape-outside:         polygon(100% 0, 0 100, 100% 100%, 100% 30);
+    -webkit-clip-path:     polygon(100% 0, 0 100, 100% 100%, 100% 30);
+    clip-path:             polygon(100% 0, 0 100, 100% 100%, 100% 30);
+  }
+
+
+ 
+
+  .cajacontacto { 
+
+    font-size: 18px; 
+    width: 20%; 
+    color: #ffffff; 
+    background:#000000 }
+
+
+    .CONTACTANOS{
+
+      padding: 50px 160px 5px 160px;
+    }
+
+
+    

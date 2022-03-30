@@ -1,0 +1,193 @@
+
+01Display_GomezDelgado.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000000f4  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00800060  00800060  00000148  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .comment      00000030  00000000  00000000  00000148  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  00000178  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000020  00000000  00000000  000001b4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   000005cc  00000000  00000000  000001d4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 0000054a  00000000  00000000  000007a0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   00000266  00000000  00000000  00000cea  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000024  00000000  00000000  00000f50  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    00000374  00000000  00000000  00000f74  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    00000081  00000000  00000000  000012e8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000010  00000000  00000000  00001369  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 2a 00 	jmp	0x54	; 0x54 <__ctors_end>
+   4:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+   8:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+   c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  10:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  14:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  18:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  1c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  20:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  24:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  28:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  2c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  30:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  34:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  38:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  3c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  40:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  44:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  48:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  4c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  50:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+
+00000054 <__ctors_end>:
+  54:	11 24       	eor	r1, r1
+  56:	1f be       	out	0x3f, r1	; 63
+  58:	cf e5       	ldi	r28, 0x5F	; 95
+  5a:	d4 e0       	ldi	r29, 0x04	; 4
+  5c:	de bf       	out	0x3e, r29	; 62
+  5e:	cd bf       	out	0x3d, r28	; 61
+  60:	0e 94 36 00 	call	0x6c	; 0x6c <main>
+  64:	0c 94 78 00 	jmp	0xf0	; 0xf0 <_exit>
+
+00000068 <__bad_interrupt>:
+  68:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+0000006c <main>:
+//prototipado de funciones
+
+int main(void)
+{
+	//DipSwitch;
+	DDRA=0;
+  6c:	1a ba       	out	0x1a, r1	; 26
+	PORTA=0xFF;
+  6e:	8f ef       	ldi	r24, 0xFF	; 255
+  70:	8b bb       	out	0x1b, r24	; 27
+	
+	//display
+	DDRC=0xFF;
+  72:	84 bb       	out	0x14, r24	; 20
+	PORTC=0;			//cátodo común, enciende con 0
+  74:	15 ba       	out	0x15, r1	; 21
+	
+	DDRB=0xFF;
+  76:	87 bb       	out	0x17, r24	; 23
+	PORTB=255;
+  78:	88 bb       	out	0x18, r24	; 24
+	uint8_t lectura;
+    while (1) 
+    {
+		lectura = PINA;	//puerto
+  7a:	89 b3       	in	r24, 0x19	; 25
+		switch(lectura){
+  7c:	8f 3a       	cpi	r24, 0xAF	; 175
+  7e:	39 f1       	breq	.+78     	; 0xce <main+0x62>
+  80:	58 f4       	brcc	.+22     	; 0x98 <main+0x2c>
+  82:	8f 37       	cpi	r24, 0x7F	; 127
+  84:	69 f1       	breq	.+90     	; 0xe0 <main+0x74>
+  86:	18 f4       	brcc	.+6      	; 0x8e <main+0x22>
+  88:	8f 36       	cpi	r24, 0x6F	; 111
+  8a:	69 f1       	breq	.+90     	; 0xe6 <main+0x7a>
+  8c:	2f c0       	rjmp	.+94     	; 0xec <main+0x80>
+  8e:	8f 38       	cpi	r24, 0x8F	; 143
+  90:	21 f1       	breq	.+72     	; 0xda <main+0x6e>
+  92:	8f 39       	cpi	r24, 0x9F	; 159
+  94:	f9 f0       	breq	.+62     	; 0xd4 <main+0x68>
+  96:	2a c0       	rjmp	.+84     	; 0xec <main+0x80>
+  98:	8f 3d       	cpi	r24, 0xDF	; 223
+  9a:	81 f0       	breq	.+32     	; 0xbc <main+0x50>
+  9c:	28 f4       	brcc	.+10     	; 0xa8 <main+0x3c>
+  9e:	8f 3b       	cpi	r24, 0xBF	; 191
+  a0:	99 f0       	breq	.+38     	; 0xc8 <main+0x5c>
+  a2:	8f 3c       	cpi	r24, 0xCF	; 207
+  a4:	71 f0       	breq	.+28     	; 0xc2 <main+0x56>
+  a6:	22 c0       	rjmp	.+68     	; 0xec <main+0x80>
+  a8:	8f 3e       	cpi	r24, 0xEF	; 239
+  aa:	29 f0       	breq	.+10     	; 0xb6 <main+0x4a>
+  ac:	8f 3f       	cpi	r24, 0xFF	; 255
+  ae:	f1 f4       	brne	.+60     	; 0xec <main+0x80>
+			case 0b11111111:		//0
+				PORTC=0b00111111;
+  b0:	8f e3       	ldi	r24, 0x3F	; 63
+  b2:	85 bb       	out	0x15, r24	; 21
+				break;	
+  b4:	e2 cf       	rjmp	.-60     	; 0x7a <main+0xe>
+			case 0b11101111:		//1
+				PORTC=0b00000110;
+  b6:	86 e0       	ldi	r24, 0x06	; 6
+  b8:	85 bb       	out	0x15, r24	; 21
+				break;
+  ba:	df cf       	rjmp	.-66     	; 0x7a <main+0xe>
+			case 0b011011111:		//2
+				PORTC=0b01011011;
+  bc:	8b e5       	ldi	r24, 0x5B	; 91
+  be:	85 bb       	out	0x15, r24	; 21
+				break;
+  c0:	dc cf       	rjmp	.-72     	; 0x7a <main+0xe>
+			case 0b011001111:		//3
+				PORTC=0b01001111;
+  c2:	8f e4       	ldi	r24, 0x4F	; 79
+  c4:	85 bb       	out	0x15, r24	; 21
+				break;
+  c6:	d9 cf       	rjmp	.-78     	; 0x7a <main+0xe>
+			case 0b10111111:		//4
+				PORTC=0b01100110;
+  c8:	86 e6       	ldi	r24, 0x66	; 102
+  ca:	85 bb       	out	0x15, r24	; 21
+				break;
+  cc:	d6 cf       	rjmp	.-84     	; 0x7a <main+0xe>
+			case 0b10101111:		//5
+				PORTC=0b01101101;
+  ce:	8d e6       	ldi	r24, 0x6D	; 109
+  d0:	85 bb       	out	0x15, r24	; 21
+				break;
+  d2:	d3 cf       	rjmp	.-90     	; 0x7a <main+0xe>
+			case 0b10011111:		//6
+				PORTC=0b01111101;
+  d4:	8d e7       	ldi	r24, 0x7D	; 125
+  d6:	85 bb       	out	0x15, r24	; 21
+				break;
+  d8:	d0 cf       	rjmp	.-96     	; 0x7a <main+0xe>
+			case 0b10001111:		//7
+				PORTC=0b01000111;
+  da:	87 e4       	ldi	r24, 0x47	; 71
+  dc:	85 bb       	out	0x15, r24	; 21
+				break;
+  de:	cd cf       	rjmp	.-102    	; 0x7a <main+0xe>
+			case 0b01111111:		//8
+				PORTC=0b01111111;
+  e0:	8f e7       	ldi	r24, 0x7F	; 127
+  e2:	85 bb       	out	0x15, r24	; 21
+				break;
+  e4:	ca cf       	rjmp	.-108    	; 0x7a <main+0xe>
+			case 0b01101111:		//9
+				PORTC=0b01101111;
+  e6:	8f e6       	ldi	r24, 0x6F	; 111
+  e8:	85 bb       	out	0x15, r24	; 21
+				break;
+  ea:	c7 cf       	rjmp	.-114    	; 0x7a <main+0xe>
+			default:				//default
+				PORTC=0b00000000;
+  ec:	15 ba       	out	0x15, r1	; 21
+				break;
+  ee:	c5 cf       	rjmp	.-118    	; 0x7a <main+0xe>
+
+000000f0 <_exit>:
+  f0:	f8 94       	cli
+
+000000f2 <__stop_program>:
+  f2:	ff cf       	rjmp	.-2      	; 0xf2 <__stop_program>

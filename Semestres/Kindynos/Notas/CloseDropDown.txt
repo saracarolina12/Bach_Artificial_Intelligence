@@ -1,0 +1,29 @@
+const [selected, setSelection] = useState(false);
+    
+    function expand(){
+        setSelection(true);
+    }
+    function close(){
+        setSelection(false);
+    }
+-------------------------------------------------------------------------------------------------------------
+return(
+			<div onFocus={expand} onBlur={close}>
+                                                <Dropdown>
+                                                    <Dropdown.Toggle id="dropdown-basic">
+                                                        <ButtonLight height='10px'>Launchpad</ButtonLight>
+                                                    </Dropdown.Toggle>
+                                                    {selected? (
+                                                        <Dropdown.Menu className="bg-dark-700  shadow-swap-blue-glow  max-w-2xl rounded">
+                                                            <NavLink id={`newsale-nav-link`} to={'/newsale'}>
+                                                                <Dropdown.Item href="">New Sale</Dropdown.Item>
+                                                            </NavLink>
+                                                            <br/>
+                                                            <NavLink id={`newtoken-nav-link`} to={'/newtoken'}>
+                                                                <Dropdown.Item href="">New Token</Dropdown.Item>
+                                                            </NavLink>
+                                                        </Dropdown.Menu>
+                                                    ): null}
+                                                </Dropdown>
+                                           </div>
+)
