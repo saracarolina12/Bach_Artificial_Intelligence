@@ -2,10 +2,11 @@
 
 namespace AlumniApp
 {
-	class MenuDirector
+	class UserDirector
 	{
 		public void Construct(UserBuilder builder)
 		{
+			builder.BuildID();
 			builder.BuildName();
 			builder.BuildCareer();
 			builder.BuildBirthYear();

@@ -11,8 +11,7 @@ namespace AlumniApp
 		public void SpecificRequest()
 		{
 			//throw new NotImplementedException("SpecificRequest is not implemented.");
-
-			Console.WriteLine("Adapted!!");
+			Console.WriteLine("-----> Adapted");
 		}
 	}
 
