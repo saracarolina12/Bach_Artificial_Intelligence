@@ -2,7 +2,8 @@
 
 namespace AlumniApp
 {
-
+	// The Adapter makes the Adaptee's interface compatible with the Target's
+	// interface. (XML->JSON)
 	class Adapter : Target
 	{
 		private Adaptee _adaptee = new Adaptee();
