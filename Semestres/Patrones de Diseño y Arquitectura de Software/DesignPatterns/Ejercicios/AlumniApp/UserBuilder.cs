@@ -17,4 +17,7 @@ namespace AlumniApp
 		public abstract void BuildstudentsID();
 		public abstract User GetResult();
 	}
+
+
+
 }

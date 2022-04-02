@@ -1,63 +1,40 @@
 {
+  "hola": "como estás?",
   "users": [
     {
       "students": [
         {
           "id": 1,
-          "BasicInfo": {
-            "name": "Alondra Vanessa Gómez Delgado",
-            "career": "DNA",
-            "birthYear": 2005,
-            "hometown": "Lagos de Moreno"
-          },
-          "LoginData": {
-            "mail": "alondra@up.edu.mx",
-            "password": "alondra123"
-          },
-          "subjects": [
-            {
-              "subjectID": 301,
-              "grades": [10, 10, 9]
-            }
-          ]
+          "name": "Alondra Vanessa Gómez Delgado",
+          "career": "DNA",
+          "birthYear": 2005,
+          "hometown": "Lagos de Moreno",
+          "mail": "alondra@up.edu.mx",
+          "password": "alondra123",
+          "subjectID": 301,
+          "grades": [10, 10, 9]
         },
         {
           "id": 2,
-          "BasicInfo": {
-            "name": "Sara Carolina Gómez Delgado",
-            "career": "IIA",
-            "birthYear": 2000,
-            "hometown": "Lagos de Moreno"
-          },
-          "LoginData": {
-            "mail": "sara@up.edu.mx",
-            "password": "sara123"
-          },
-          "subjects": [
-            {
-              "subjectID": 300,
-              "grades": [10, 9, 10]
-            }
-          ]
+          "name": "Sara Carolina Gómez Delgado",
+          "career": "IIA",
+          "birthYear": 2000,
+          "hometown": "Lagos de Moreno",
+          "mail": "sara@up.edu.mx",
+          "password": "sara123",
+          "subjectID": 300,
+          "grades": [10, 9, 10]
         },
         {
           "id": 3,
-          "BasicInfo": {
-            "name": "Luis Eduardo Robles Jiménez",
-            "career": "IIA",
-            "birthYear": 2001,
-            "hometown": "Ecatepec"
-          },
-          "LoginData": {
-            "mail": "luis@up.edu.mx",
-            "password": "luis123"
-          },
-          "subjects": [
-            {
-              "subjectID": 30,
-              "grades": [9, 10, 10]
-            }
-          ]
+          "name": "Luis Eduardo Robles Jiménez",
+          "career": "IIA",
+          "birthYear": 2001,
+          "hometown": "Ecatepec",
+          "mail": "luis@up.edu.mx",
+          "password": "luis123",
+          "subjectID": 30,
+          "grades": [9, 10, 10]
         }
       ]
     },
@@ -65,29 +42,21 @@
       "teachers": [
         {
           "id": 200,
-          "BasicInfo": {
-            "name": "Lidia Chávez López",
-            "subjectID": 300,
-            "birthYear": 1982,
-            "hometown": "Ags"
-          },
-          "LoginData": {
-            "mail": "lidia@up.edu.mx",
-            "password": "lidia123"
-          }
+          "name": "Lidia Chávez López",
+          "subjectID": 300,
+          "birthYear": 1982,
+          "hometown": "Ags",
+          "mail": "lidia@up.edu.mx",
+          "password": "lidia123"
         },
         {
           "id": 201,
-          "BasicInfo": {
-            "name": "María Pérez Rodríguez",
-            "subjectID": 301,
-            "birthYear": 1980,
-            "hometown": "Ags"
-          },
-          "LoginData": {
-            "mail": "maria@up.edu.mx",
-            "password": "maria123"
-          }
+          "name": "María Pérez Rodríguez",
+          "subjectID": 301,
+          "birthYear": 1980,
+          "hometown": "Ags",
+          "mail": "maria@up.edu.mx",
+          "password": "maria123"
         }
       ]
     },
@@ -95,15 +64,11 @@
       "supervisor": [
         {
           "id": 0,
-          "BasicInfo": {
-            "name": "Joaquín López Dóriga",
-            "birthYear": 1970,
-            "hometown": "CDMX"
-          },
-          "LoginData": {
-            "mail": "supervisor@up.edu.mx",
-            "password": "supervisor123"
-          }
+          "name": "Joaquín López Dóriga",
+          "birthYear": 1970,
+          "hometown": "CDMX",
+          "mail": "supervisor@up.edu.mx",
+          "password": "supervisor123"
         }
       ]
     }
