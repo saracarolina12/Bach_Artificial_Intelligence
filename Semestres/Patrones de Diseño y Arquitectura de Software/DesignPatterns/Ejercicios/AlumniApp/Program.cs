@@ -27,7 +27,7 @@ namespace AlumniApp
             {
                 string json = read.ReadToEnd();
                 Data data = JsonConvert.DeserializeObject<Data>(json);
-                Console.WriteLine("data: ", data.users[0].students);
+                Console.WriteLine("data: ", data.users.students);
             }
 
                 /* Adapter */

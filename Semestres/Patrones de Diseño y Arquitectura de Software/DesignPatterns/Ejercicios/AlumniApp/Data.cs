@@ -50,9 +50,8 @@ namespace AlumniApp
     }
     public class Data
     {
-        public users[] users;
+        public users users;
         public subjects[] subjects;
-        public string hola { get; set; }
     }
 
 }
