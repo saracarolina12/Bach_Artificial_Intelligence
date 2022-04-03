@@ -36,7 +36,7 @@ namespace AlumniApp
             UserDirector director = new UserDirector();
 
             // Students
-            UserBuilder builder1 = new StudentsBuilder();
+            UserBuilder builder1 = new StudentsBuilder(1);
             director.Construct(builder1);
             User user1 = builder1.GetResult();
             Console.WriteLine("* Students: {0}", user1);
