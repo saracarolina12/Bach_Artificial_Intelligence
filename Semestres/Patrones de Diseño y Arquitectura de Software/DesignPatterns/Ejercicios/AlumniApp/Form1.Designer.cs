@@ -84,6 +84,7 @@ namespace AlumniApp
             this.setMail.Size = new System.Drawing.Size(341, 31);
             this.setMail.TabIndex = 1;
             this.setMail.Text = "Mail";
+            this.setMail.TextChanged += new System.EventHandler(this.setMail_TextChanged);
             this.setMail.Enter += new System.EventHandler(this.setMail_Enter);
             this.setMail.Leave += new System.EventHandler(this.setMail_Leave);
             // 
@@ -98,7 +99,7 @@ namespace AlumniApp
             this.setPassword.Size = new System.Drawing.Size(341, 31);
             this.setPassword.TabIndex = 2;
             this.setPassword.Text = "Password";
-            this.setPassword.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.setPassword.TextChanged += new System.EventHandler(this.setPassword_TextChanged);
             this.setPassword.Enter += new System.EventHandler(this.setPassword_Enter);
             this.setPassword.Leave += new System.EventHandler(this.setPassword_Leave);
             // 
@@ -137,6 +138,7 @@ namespace AlumniApp
             this.sign_inbutton.TabIndex = 0;
             this.sign_inbutton.Text = "Sign in";
             this.sign_inbutton.UseVisualStyleBackColor = false;
+            this.sign_inbutton.Click += new System.EventHandler(this.sign_inbutton_Click);
             // 
             // exitButton
             // 

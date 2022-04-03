@@ -14,29 +14,12 @@ namespace AlumniApp
 	class StudentsBuilder : UserBuilder
 	{
 		private User _user = new User();
-        private int v;
+		StreamReader read = new StreamReader("..\\..\\Data.json"); //to read json
 
-        public StudentsBuilder(int v)
-        {
-            this.v = v;
-        }
 
         public override void BuildID()
 		{
-			StreamReader read = new StreamReader("..\\..\\Data.json");
-			Root data;
-			using (read)
-			{
-				string json = read.ReadToEnd();
-				data = JsonConvert.DeserializeObject<Root>(json);
-				for(int i=0; i<data.users.students.Count; i++)
-                {
-					Console.WriteLine("data: {0}", data.users.students[i].id.ToString());
-					_user.Add(data.users.students[i].id.ToString());
-				}
-				
-			}
-			
+			_user.Add("id"); 
 		}
 		public override void BuildName()
 		{

@@ -11,10 +11,10 @@ using System.Text;
 
 namespace AlumniApp
 {
-    static class Program
+     class Program
     {
-        
-       
+        public static Root data;
+
         static void Main()
         {
 
@@ -26,7 +26,6 @@ namespace AlumniApp
                 //Console.WriteLine("data: {0}",data.users.supervisor.Count);
             }*/
 
-
                 /* Adapter */
             Client client = new Client();
             client.Operation();
@@ -36,10 +35,28 @@ namespace AlumniApp
             UserDirector director = new UserDirector();
 
             // Students
-            UserBuilder builder1 = new StudentsBuilder(1);
+            /*UserBuilder builder1 = new StudentsBuilder(1);
             director.Construct(builder1);
             User user1 = builder1.GetResult();
-            Console.WriteLine("* Students: {0}", user1);
+            Console.WriteLine("* Students: {0}", user1);*/
+
+            
+            StreamReader read = new StreamReader("..\\..\\Data.json");
+            using (read)
+            {
+                string json = read.ReadToEnd();
+                Root data = JsonConvert.DeserializeObject<Root>(json);
+                //Console.WriteLine("data: {0}",data.users.supervisor.Count);
+            }
+
+
+            UserBuilder builder1 = new StudentsBuilder();
+            director.Construct(builder1);
+            User user1 = builder1.GetResult();
+            Console.WriteLine("-> {0}", user1);
+              
+
+
 
             // Teachers
             UserBuilder builder2 = new TeachersBuilder();
