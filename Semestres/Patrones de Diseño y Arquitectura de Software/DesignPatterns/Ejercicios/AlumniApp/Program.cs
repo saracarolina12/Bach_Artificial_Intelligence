@@ -22,10 +22,10 @@ namespace AlumniApp
             //Data m = JsonConvert.DeserializeObject<Data>(jsonString);
             //Console.WriteLine("data: ",m.users);
 
-            StreamReader r = new StreamReader("..\\..\\Data.json");
-            using (r)
+            StreamReader read = new StreamReader("..\\..\\Data.json");
+            using (read)
             {
-                string json = r.ReadToEnd();
+                string json = read.ReadToEnd();
                 Data data = JsonConvert.DeserializeObject<Data>(json);
                 Console.WriteLine("data: ", data.users[0].students);
             }
