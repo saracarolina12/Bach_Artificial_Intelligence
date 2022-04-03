@@ -1,4 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Configuration;
+using Newtonsoft.Json;
+using System.Net;
+using System.IO;
+using System.Text;
 
 namespace AlumniApp
 {
@@ -7,6 +16,14 @@ namespace AlumniApp
 		private User _user = new User();
 		public override void BuildID()
 		{
+			/*StreamReader read = new StreamReader("..\\..\\Data.json");
+			using (read)
+			{
+				string json = read.ReadToEnd();
+				Root data = JsonConvert.DeserializeObject<Root>(json);
+				//for(int i=0; i<data.users)
+				Console.WriteLine("data: {0}", data.users.students[0].name);
+			}*/
 			_user.Add("id");
 		}
 		public override void BuildName()

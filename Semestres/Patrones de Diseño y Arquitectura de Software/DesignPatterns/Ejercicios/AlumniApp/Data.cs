@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace AlumniApp
 {
-    public class students
+    public class Student
     {
         public int id { get; set; }
         public string name { get; set; }
@@ -15,7 +15,8 @@ namespace AlumniApp
         public int subjectID { get; set; }
         public List<int> grades { get; set; }
     }
-    public class teachers
+
+    public class Teacher
     {
         public int id { get; set; }
         public string name { get; set; }
@@ -25,7 +26,8 @@ namespace AlumniApp
         public string mail { get; set; }
         public string password { get; set; }
     }
-    public class supervisors
+
+    public class Supervisor
     {
         public int id { get; set; }
         public string name { get; set; }
@@ -34,24 +36,28 @@ namespace AlumniApp
         public string mail { get; set; }
         public string password { get; set; }
     }
-    public class subjects
+
+    public class Users
+    {
+        public List<Student> students { get; set; }
+        public List<Teacher> teachers { get; set; }
+        public List<Supervisor> supervisor { get; set; }
+    }
+
+    public class Subject
     {
         public int id { get; set; }
         public string name { get; set; }
         public int teacherID { get; set; }
-        public List<int> studentsID;
+        public List<int> studentsID { get; set; }
+    }
 
-    }
-    public class users
+    public class Root
     {
-        public students[] students;
-        public teachers[] teachers;
-        public supervisors[] supervisor;
+        public Users users { get; set; }
+        public List<Subject> subjects { get; set; }
     }
-    public class Data
-    {
-        public users users;
-        public subjects[] subjects;
-    }
+
+
 
 }

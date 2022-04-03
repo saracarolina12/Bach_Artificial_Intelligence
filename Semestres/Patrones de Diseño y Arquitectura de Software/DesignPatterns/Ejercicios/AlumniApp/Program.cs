@@ -17,18 +17,15 @@ namespace AlumniApp
        
         static void Main()
         {
-            //StreamReader r = new StreamReader("..\\..\\Data.json");
-            //string jsonString = r.ReadToEnd();
-            //Data m = JsonConvert.DeserializeObject<Data>(jsonString);
-            //Console.WriteLine("data: ",m.users);
 
-            StreamReader read = new StreamReader("..\\..\\Data.json");
+            /*StreamReader read = new StreamReader("..\\..\\Data.json");
             using (read)
             {
                 string json = read.ReadToEnd();
-                Data data = JsonConvert.DeserializeObject<Data>(json);
-                Console.WriteLine("data: ", data.users.students);
-            }
+                Root data = JsonConvert.DeserializeObject<Root>(json);
+                //Console.WriteLine("data: {0}",data.users.supervisor.Count);
+            }*/
+
 
                 /* Adapter */
             Client client = new Client();
