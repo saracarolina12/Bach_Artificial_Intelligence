@@ -1,18 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
-using System.Configuration;
-using Newtonsoft.Json;
-using System.Net;
-using System.IO;
-using System.Linq;
+using word = Microsoft.Office.Interop.Word;
 
 namespace AlumniApp
 {
@@ -327,7 +318,14 @@ namespace AlumniApp
                             gradesTable.Columns.Add("P2", "P2");
                             gradesTable.Columns.Add("P3", "P3");
                             gradesTable.Rows.Add(mySubjectName, mygrades[0], mygrades[1], mygrades[2]);
-                            //show his/her subjects
+                            //export
+                            /*word.Application app = new word.Application();
+                            word.Document doc = app.Documents.Add();
+                            doc.Content.Text = "hola word";
+
+                            doc.SaveAs2(base.GetFileName("PRUEBA") + ".docx");
+                            doc.Close();
+                            app.Quit();*/
                         }
                         if (isTeacher)
                         {
