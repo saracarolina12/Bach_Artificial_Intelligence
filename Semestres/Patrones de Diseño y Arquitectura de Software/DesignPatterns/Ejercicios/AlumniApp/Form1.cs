@@ -21,9 +21,8 @@ namespace AlumniApp
         {
             InitializeComponent();
         }
-        private string mymail;
-        private string mypass;
-        private string correctPass;
+        private string mymail, mypass, myID, myName, myBday, myHometown, myCareer, correctPass, mySubject, mySubjectName;
+        private bool isTeacher, isStudent, isSupervisor;
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -102,6 +101,56 @@ namespace AlumniApp
             mymail = setMail.Text;
         }
 
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void showMail_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void downloadbutton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void showHometown_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void showBday_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void showName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void showID_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataBasicInfo_Click(object sender, EventArgs e)
+        {
+
+        }
+
         /********************************************************************/
         private void sign_inbutton_Click(object sender, EventArgs e)
         {
@@ -144,46 +193,78 @@ namespace AlumniApp
                 int existsMail = 0;
                 string existsMailID="x";
                 //students
-                for (int i=0; i< Program.data.users.students.Count; i++) 
+                for (int i=0; i< Adaptee.data.users.students.Count; i++) 
                 {
-                    if (mymail == Program.data.users.students[i].mail)
+                    if (mymail == Adaptee.data.users.students[i].mail)
                     {
                         Console.WriteLine("is a student");
+                        isStudent = true;
+                        isTeacher = false;
+                        isSupervisor = false;
                         //exists
+                        myID = Adaptee.data.users.students[i].id.ToString();
+                        myName = Adaptee.data.users.students[i].name;
+                        myBday = Adaptee.data.users.students[i].birthYear.ToString();
+                        myHometown = Adaptee.data.users.students[i].hometown;
+                        myCareer = Adaptee.data.users.students[i].career;
+                        for(int j=0; j<Adaptee.data.subjects.Count; j++)
+                        {
+                            if (Adaptee.data.subjects[j].id == Adaptee.data.users.students[i].subjectID)
+                            {
+                                mySubject = Adaptee.data.subjects[j].id.ToString();
+                                mySubjectName = Adaptee.data.subjects[j].name.ToString();
+                            }
+                                
+                        }
+
                         existsMail = 1;
-                        existsMailID = Program.data.users.students[i].mail; //guardo el ID del usuario
-                        correctPass = Program.data.users.students[i].password; //guardo la contraseña correcta
+                        existsMailID = Adaptee.data.users.students[i].mail; //guardo el ID del usuario
+                        correctPass = Adaptee.data.users.students[i].password; //guardo la contraseña correcta
                         break;
                     }
                 }
                 //teachers
-                for (int i = 0; i < Program.data.users.teachers.Count; i++) 
+                for (int i = 0; i < Adaptee.data.users.teachers.Count; i++) 
                 {
-                    if (mymail == Program.data.users.teachers[i].mail)
+                    if (mymail == Adaptee.data.users.teachers[i].mail)
                     {
                         Console.WriteLine("is a teacher");
+                        isStudent = false;
+                        isTeacher =  true;
+                        isSupervisor = false;
                         //exists
+                        myID = Adaptee.data.users.teachers[i].id.ToString();
+                        myName = Adaptee.data.users.teachers[i].name;
+                        myBday = Adaptee.data.users.teachers[i].birthYear.ToString();
+                        myHometown = Adaptee.data.users.teachers[i].hometown;
                         existsMail = 1;
-                        existsMailID = Program.data.users.teachers[i].mail; //guardo el ID del usuario
-                        correctPass = Program.data.users.teachers[i].password; //guardo la contraseña correcta
+                        existsMailID = Adaptee.data.users.teachers[i].mail; //guardo el ID del usuario
+                        correctPass = Adaptee.data.users.teachers[i].password; //guardo la contraseña correcta
                         break;
                     }
                 }
                 //supervisor
-                for (int i = 0; i < Program.data.users.supervisor.Count; i++) 
+                for (int i = 0; i < Adaptee.data.users.supervisor.Count; i++) 
                 {
-                    if (mymail == Program.data.users.supervisor[i].mail)
+                    if (mymail == Adaptee.data.users.supervisor[i].mail)
                     {
                         Console.WriteLine("is a supervisor");
+                        isStudent = false;
+                        isTeacher = false;
+                        isSupervisor =  true;
                         //exists
+                        myID = Adaptee.data.users.supervisor[i].id.ToString();
+                        myName = Adaptee.data.users.supervisor[i].name;
+                        myBday = Adaptee.data.users.supervisor[i].birthYear.ToString();
+                        myHometown = Adaptee.data.users.supervisor[i].hometown;
                         existsMail = 1;
-                        existsMailID = Program.data.users.supervisor[i].mail; //guardo el ID del usuario
-                        correctPass = Program.data.users.supervisor[i].password; //guardo la contraseña correcta
+                        existsMailID = Adaptee.data.users.supervisor[i].mail; //guardo el ID del usuario
+                        correctPass = Adaptee.data.users.supervisor[i].password; //guardo la contraseña correcta
                         break;
                     }
                 }
 
-                Console.WriteLine("EXISTS? {0}", existsMail);
+                //Console.WriteLine("EXISTS? {0}", existsMail);
 
                 if (existsMail == 1) //sí existe ese correo en la "db", reviso que la contraseña esté bien
                 {
@@ -205,6 +286,35 @@ namespace AlumniApp
                     else
                     {
                         //CONTRASEÑA CORRECTA!!!!! LOGIN 
+                        setMail.Visible = setPassword.Visible = line1.Visible = line2.Visible = sign_inbutton.Visible = false;
+                        pagetittle.Text = "¡Bienvenido!";
+                        basicinfo.Visible = dataBasicInfo.Visible = true;
+
+                        //interfaz individual
+                        Console.WriteLine(mymail);
+                        showID.Visible = showName.Visible = showBday.Visible = showHometown.Visible = showMail.Visible  = true;
+                        showMail.BringToFront(); showName.BringToFront(); showBday.BringToFront(); showHometown.BringToFront(); showID.BringToFront(); 
+
+                        //PARA TODOS
+                        showID.Text = myID;
+                        showMail.Text = mymail;
+                        showName.Text = myName;
+                        showBday.Text = myBday;
+                        showHometown.Text = myHometown;
+
+                        //SÓLO ESTUDIANTES
+                        if (isStudent)
+                        {
+                            StudentBasicInfo.Visible = true;
+                            showCareer.Visible = true;
+                            showCareer.BringToFront();
+                            showCareer.Text = myCareer;
+                            downloadbutton.Visible = true;
+
+                            //show his/her subjects
+                            Console.WriteLine("MY SUBJECT: ");
+                            Console.WriteLine(mySubjectName);
+                        }
                     }
                 }
                 else
@@ -226,5 +336,11 @@ namespace AlumniApp
 
             }
         }
+
+        private void pagetittle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+

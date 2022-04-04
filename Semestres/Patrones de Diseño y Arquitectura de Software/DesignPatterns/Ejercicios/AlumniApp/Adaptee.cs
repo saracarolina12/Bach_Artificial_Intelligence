@@ -17,16 +17,18 @@ namespace AlumniApp
 	class Adaptee
 	{
 		/// A specific request that needs an adapter.
+		public static Root data;
 		public Root ReadJSON(string ruta) //sólo lee JSONS
 		{
 			
 			//throw new NotImplementedException("SpecificRequest is not implemented.");
 			//StreamReader read = new StreamReader("..\\..\\Data.json");
 			StreamReader read = new StreamReader(ruta);
+			
 			using (read)
 			{
 				string json = read.ReadToEnd();
-				Root data = JsonConvert.DeserializeObject<Root>(json);
+				data = JsonConvert.DeserializeObject<Root>(json);
 				return data;
 			}
 			

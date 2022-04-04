@@ -2,20 +2,31 @@
 
 namespace AlumniApp
 {
+	
 	abstract class UserBuilder
 	{
-		public abstract void BuildID();
-		public abstract void BuildName();
+		public User _user = new User();
+		//private User _user = new User();
 		public abstract void BuildCareer();
-		public abstract void BuildBirthYear();
-		public abstract void BuildHometown();
-		public abstract void BuildMail();
-		public abstract void BuildPassword();
 		public abstract void BuildSubjectID();
 		public abstract void BuildGrades();
-		public abstract void BuildteacherID();
-		public abstract void BuildstudentsID();
-		public abstract User GetResult();
+		public virtual void BasicInfo()
+		{
+            _user.Add("id");
+            _user.Add("name");
+            _user.Add("birthyear");
+            _user.Add("hometown");
+            _user.Add("mail");
+            _user.Add("password");
+        }
+        public virtual void Login()
+		{
+            _user.Add("login");
+        }
+		public virtual User GetResult()
+		{
+			return _user;
+		}
 	}
 
 
