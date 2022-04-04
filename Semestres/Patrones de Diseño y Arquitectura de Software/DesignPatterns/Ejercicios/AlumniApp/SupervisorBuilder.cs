@@ -16,6 +16,15 @@ namespace AlumniApp
 		{
 			//just students
 		}
-		
+		public override void Download()
+		{
+			//just for students
+		}
+
+		public override void NoAccess()
+        {
+			Form1.noaccess.Visible = true;
+
+		}
 	}
 }

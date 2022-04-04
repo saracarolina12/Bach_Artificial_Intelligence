@@ -17,37 +17,9 @@ namespace AlumniApp
         public override void BuildCareer()
 		{
 			_user.Add("career");
-            /*for (int i = 0; i < Adaptee.data.users.students.Count; i++)
-            {
-                Console.WriteLine("\t\tMY MAAAAIL");
-                Console.WriteLine(Form1.mymail);
-                if (Form1.mymail == Adaptee.data.users.students[i].mail)
-                {
-                    Console.WriteLine("is a student");
-                    Form1.isStudent = true;
-                    Form1.isTeacher = false;
-                    Form1.isSupervisor = false;
-                    //exists
-                    Form1.myID = Adaptee.data.users.students[i].id.ToString();
-                    Form1.myName = Adaptee.data.users.students[i].name;
-                    Form1.myBday = Adaptee.data.users.students[i].birthYear.ToString();
-                    Form1.myHometown = Adaptee.data.users.students[i].hometown;
-                    Form1.myCareer = Adaptee.data.users.students[i].career;
-                    for (int j = 0; j < Adaptee.data.subjects.Count; j++)
-                    {
-                        if (Adaptee.data.subjects[j].id == Adaptee.data.users.students[i].subjectID)
-                        {
-                            Form1.mySubject = Adaptee.data.subjects[j].id.ToString();
-                            Form1.mySubjectName = Adaptee.data.subjects[j].name.ToString();
-                        }
-
-                    }
-                    Form1.existsMail = 1;
-                    Form1.existsMailID = Adaptee.data.users.students[i].mail; //guardo el ID del usuario
-                    Form1.correctPass = Adaptee.data.users.students[i].password; //guardo la contraseña correcta
-                    break;
-                }
-            }*/
+            Form1.StudentBasicInfo.Visible = Form1.showCareer.Visible = true;
+            Form1.showCareer.BringToFront();
+            Form1.showCareer.Text = Form1.myCareer;
         }
 		public override void BuildSubjectID()
 		{
@@ -56,7 +28,42 @@ namespace AlumniApp
 		public override void BuildGrades()
 		{
 			_user.Add("grades");
-		}
+            Form1.gradesTable.Visible = true;
+            Form1.gradesTable.Columns.Add("Subject", "Subject");
+            Form1.gradesTable.Columns.Add("P1", "P1");
+            Form1.gradesTable.Columns.Add("P2", "P2");
+            Form1.gradesTable.Columns.Add("P3", "P3");
+            Form1.gradesTable.Rows.Add(Form1.mySubjectName, Form1.mygrades[0], Form1.mygrades[1], Form1.mygrades[2]);
+        }
 
-	}
+        public override void Download()
+        {
+            Form1.downloadbutton.Visible = true;
+            //export
+            //    //Application application = new Application();
+            //    //Document document = application.Documents.Open("C:\\word.doc");
+            //    //int count = document.Words.Count;
+            //    //for (int i = 1; i <= count; i++)
+            //    //{
+            //    //    string text = document.Words[i].Text;
+            //    //    Console.WriteLine("Word {0} = {1}", i, text);
+            //    //}
+            //    //application.Quit();
+        }
+
+        public override void NoAccess()
+        {
+            //just for supervisor
+        }
+
+    }
 }
+
+/*
+ 
+		StudentBasicInfo.Visible = showCareer.Visible = downloadbutton.Visible = gradesTable.Visible = true;
+        showCareer.BringToFront();
+        showCareer.Text = myCareer;
+        
+ 
+ */

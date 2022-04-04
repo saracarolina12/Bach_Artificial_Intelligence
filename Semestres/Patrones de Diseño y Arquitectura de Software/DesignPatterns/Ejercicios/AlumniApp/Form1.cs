@@ -7,35 +7,67 @@ using word = Microsoft.Office.Interop.Word;
 
 namespace AlumniApp
 {
+    
     public partial class Form1 : Form
     {
         public static int existsMail = 0;
         public static string existsMailID = "x";
         public static string mymail, mypass, myID, myName, myBday, myHometown, myCareer, correctPass, mySubject, mySubjectName, myTeacherSubject, myTeachersSubject_ID;
-        public static bool isTeacher, isStudent, isSupervisor;
+        public static bool isTeacher, isStudent, isSupervisor, TODOBIEN = false;
         public static List<int> mygrades = new List<int>();
         public Form1()
         {
             InitializeComponent();
+            InitializePrivateComponents();
         }
-        
+
+
+        public static void createStudentInterface()
+        {
+            UserDirector director = new UserDirector();
+            // Students Interface
+            UserBuilder builder1 = new StudentsBuilder();
+            director.Construct(builder1);
+            User user1 = builder1.GetResult();
+            Console.WriteLine("-> {0}", user1);
+        }
+
+        public static void createTeacherInterface()
+        {
+            UserDirector director = new UserDirector();
+            // Teachers Interface
+            UserBuilder builder2 = new TeachersBuilder();
+            director.Construct(builder2);
+            User user2 = builder2.GetResult();
+            Console.WriteLine("* Teachers: {0}", user2);
+        }
+        public static void createSupervisorInterface()
+        {
+            UserDirector director = new UserDirector();
+            // Supervisor Interface
+            UserBuilder builder3 = new SupervisorBuilder();
+            director.Construct(builder3);
+            User user3 = builder3.GetResult();
+            Console.WriteLine("* Supervisor: {0}", user3);
+        }
+
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
 
-        private void setPassword_TextChanged(object sender, EventArgs e)
+        public static void setPassword_TextChanged(object sender, EventArgs e)
         {
             Console.WriteLine("written Password: {0}", setPassword.Text);
             mypass = setPassword.Text;
         }
 
-        private void lineShape1_Click(object sender, EventArgs e)
+        public static void lineShape1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void setMail_Enter(object sender, EventArgs e)
+        public static void setMail_Enter(object sender, EventArgs e)
         {
             if(setMail.Text == "Mail")
             {
@@ -44,7 +76,7 @@ namespace AlumniApp
             }
         }
 
-        private void setMail_Leave(object sender, EventArgs e)
+        public static void setMail_Leave(object sender, EventArgs e)
         {
             if(setMail.Text == "")
             {
@@ -53,7 +85,7 @@ namespace AlumniApp
             }
         }
 
-        private void setPassword_Enter(object sender, EventArgs e)
+        public static void setPassword_Enter(object sender, EventArgs e)
         {
             if (setPassword.Text == "Password")
             {
@@ -63,7 +95,7 @@ namespace AlumniApp
             }
         }
 
-        private void setPassword_Leave(object sender, EventArgs e)
+        public static void setPassword_Leave(object sender, EventArgs e)
         {
             if (setPassword.Text == "")
             {
@@ -85,73 +117,73 @@ namespace AlumniApp
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
-        private void exitButton_Click(object sender, EventArgs e)
+        public static void exitButton_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void setMail_TextChanged(object sender, EventArgs e)
+        public static void setMail_TextChanged(object sender, EventArgs e)
         {
             Console.WriteLine("written Mail: {0}", setMail.Text);
             mymail = setMail.Text;
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        public static void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void showMail_Click(object sender, EventArgs e)
+        public static void showMail_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void downloadbutton_Click(object sender, EventArgs e)
+        public static void downloadbutton_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click_1(object sender, EventArgs e)
+        public static void label1_Click_1(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click_2(object sender, EventArgs e)
+        public static void label1_Click_2(object sender, EventArgs e)
         {
 
         }
 
-        private void showHometown_Click(object sender, EventArgs e)
+        public static void showHometown_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void showBday_Click(object sender, EventArgs e)
+        public static void showBday_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void showName_Click(object sender, EventArgs e)
+        public static void showName_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void showID_Click(object sender, EventArgs e)
+        public static void showID_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void dataBasicInfo_Click(object sender, EventArgs e)
+        public static void dataBasicInfo_Click(object sender, EventArgs e)
         {
 
         }
 
         /********************************************************************/
-        private void sign_inbutton_Click(object sender, EventArgs e)
+        public static void sign_inbutton_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Click :D");
             //aquí reviso que los campos no estén vacíos
-            if(setMail.Text == "Mail" && setPassword.Text == "Password")
+            if (setMail.Text == "Mail" && setPassword.Text == "Password")
             {
                 string message = "Empty mail and password";
                 string title = "Error";
@@ -188,7 +220,7 @@ namespace AlumniApp
                 existsMail = 0;
                 existsMailID="x";
                 //students
-                for (int i=0; i< Adaptee.data.users.students.Count; i++) 
+                for (int i = 0; i < Adaptee.data.users.students.Count; i++)
                 {
                     if (mymail == Adaptee.data.users.students[i].mail)
                     {
@@ -202,16 +234,17 @@ namespace AlumniApp
                         myBday = Adaptee.data.users.students[i].birthYear.ToString();
                         myHometown = Adaptee.data.users.students[i].hometown;
                         myCareer = Adaptee.data.users.students[i].career;
-                        for(int j=0; j<Adaptee.data.subjects.Count; j++)
+                        
+                        for (int j = 0; j < Adaptee.data.subjects.Count; j++)
                         {
                             if (Adaptee.data.subjects[j].id == Adaptee.data.users.students[i].subjectID)
                             {
                                 mySubject = Adaptee.data.subjects[j].id.ToString();
                                 mySubjectName = Adaptee.data.subjects[j].name.ToString();
                             }
-                                
+
                         }
-                        for(int j=0; j< Adaptee.data.users.students[i].grades.Count; j++) //Add 3 grades
+                        for (int j = 0; j < Adaptee.data.users.students[i].grades.Count; j++) //Add 3 grades
                             mygrades.Add(Adaptee.data.users.students[i].grades[j]);
 
                         existsMail = 1;
@@ -221,20 +254,20 @@ namespace AlumniApp
                     }
                 }
                 //teachers
-                for (int i = 0; i < Adaptee.data.users.teachers.Count; i++) 
+                for (int i = 0; i < Adaptee.data.users.teachers.Count; i++)
                 {
                     if (mymail == Adaptee.data.users.teachers[i].mail)
                     {
                         Console.WriteLine("is a teacher");
                         isStudent = false;
-                        isTeacher =  true;
+                        isTeacher = true;
                         isSupervisor = false;
                         //exists
                         myID = Adaptee.data.users.teachers[i].id.ToString();
                         myName = Adaptee.data.users.teachers[i].name;
                         myBday = Adaptee.data.users.teachers[i].birthYear.ToString();
                         myHometown = Adaptee.data.users.teachers[i].hometown;
-                        for(int j=0; j<Adaptee.data.subjects.Count ; j++)
+                        for (int j = 0; j < Adaptee.data.subjects.Count; j++)
                         {
                             if (Adaptee.data.subjects[j].id == Adaptee.data.users.teachers[i].subjectID)
                             {
@@ -249,14 +282,14 @@ namespace AlumniApp
                     }
                 }
                 //supervisor
-                for (int i = 0; i < Adaptee.data.users.supervisor.Count; i++) 
+                for (int i = 0; i < Adaptee.data.users.supervisor.Count; i++)
                 {
                     if (mymail == Adaptee.data.users.supervisor[i].mail)
                     {
                         Console.WriteLine("is a supervisor");
                         isStudent = false;
                         isTeacher = false;
-                        isSupervisor =  true;
+                        isSupervisor = true;
                         //exists
                         myID = Adaptee.data.users.supervisor[i].id.ToString();
                         myName = Adaptee.data.users.supervisor[i].name;
@@ -269,11 +302,11 @@ namespace AlumniApp
                     }
                 }
 
-                //Console.WriteLine("EXISTS? {0}", existsMail);
+                //Console.WriteLine("EXISTS? {0}", existsMail); //to know if the user actually exists
 
                 if (existsMail == 1) //sí existe ese correo en la "db", reviso que la contraseña esté bien
                 {
-                    if(mypass != correctPass) //CONTRASEÑA INCORRECTA
+                    if (mypass != correctPass) //CONTRASEÑA INCORRECTA
                     {
                         string message = "Wrong password!!";
                         string title = "Error";
@@ -290,63 +323,51 @@ namespace AlumniApp
                     }
                     else
                     {
-                        //CONTRASEÑA CORRECTA!!!!! LOGIN 
-                        logoUP.Visible = setMail.Visible = setPassword.Visible = line1.Visible = line2.Visible = sign_inbutton.Visible = false;
-                        pagetittle.Text = "¡Bienvenido!";
-                        basicinfo.Visible = dataBasicInfo.Visible = true;
+                        TODOBIEN = true;
+                        ////CONTRASEÑA CORRECTA!!!!! LOGIN 
+                        //logoUP.Visible = setMail.Visible = setPassword.Visible = line1.Visible = line2.Visible = sign_inbutton.Visible = false;
+                        //pagetittle.Text = "¡Bienvenido!";
+                        //basicinfo.Visible = dataBasicInfo.Visible = true;
 
-                        //interfaz individual
-                        Console.WriteLine(mymail);
-                        showID.Visible = showName.Visible = showBday.Visible = showHometown.Visible = showMail.Visible  = true;
-                        showMail.BringToFront(); showName.BringToFront(); showBday.BringToFront(); showHometown.BringToFront(); showID.BringToFront(); 
+                        ////interfaz individual
+                        //Console.WriteLine(mymail);
+                        //showID.Visible = showName.Visible = showBday.Visible = showHometown.Visible = showMail.Visible = true;
+                        //showMail.BringToFront(); showName.BringToFront(); showBday.BringToFront(); showHometown.BringToFront(); showID.BringToFront();
 
-                        //PARA TODOS
-                        showID.Text = myID;
-                        showMail.Text = mymail;
-                        showName.Text = myName;
-                        showBday.Text = myBday;
-                        showHometown.Text = myHometown;
+                        ////PARA TODOS
+                        //showID.Text = myID;
+                        //showMail.Text = mymail;
+                        //showName.Text = myName;
+                        //showBday.Text = myBday;
+                        //showHometown.Text = myHometown;
 
-                        //SÓLO ESTUDIANTES
+                        ////SÓLO ESTUDIANTES
                         if (isStudent)
                         {
-                            StudentBasicInfo.Visible = showCareer.Visible = downloadbutton.Visible = gradesTable.Visible = true;
-                            showCareer.BringToFront();
-                            showCareer.Text = myCareer;
-                            gradesTable.Columns.Add("Subject", "Subject");
-                            gradesTable.Columns.Add("P1", "P1");
-                            gradesTable.Columns.Add("P2", "P2");
-                            gradesTable.Columns.Add("P3", "P3");
-                            gradesTable.Rows.Add(mySubjectName, mygrades[0], mygrades[1], mygrades[2]);
-                            //export
-                            /*word.Application app = new word.Application();
-                            word.Document doc = app.Documents.Add();
-                            doc.Content.Text = "hola word";
-
-                            doc.SaveAs2(base.GetFileName("PRUEBA") + ".docx");
-                            doc.Close();
-                            app.Quit();*/
+                            createStudentInterface();
                         }
-                        if (isTeacher)
-                        {
-                            gradesTable.Visible = showSubject.Visible = setSubject.Visible = true;
-                            showSubject.BringToFront();
-                            showSubject.Text = myTeacherSubject;
+                        if (isTeacher) {
+                            createTeacherInterface();
+                            //{
+                            //    gradesTable.Visible = showSubject.Visible = setSubject.Visible = true;
+                            //    showSubject.BringToFront();
+                            //    showSubject.Text = myTeacherSubject;
 
-                            gradesTable.Columns.Add("N°", "N°");
-                            gradesTable.Columns.Add("Student", "Student");
-                            gradesTable.Columns.Add("P1", "P1");
-                            gradesTable.Columns.Add("P2", "P2");
-                            gradesTable.Columns.Add("P3", "P3");
-                            for (int c=1,i = 0; i < Adaptee.data.users.students.Count; i++)
-                            {
-                                if (Adaptee.data.users.students[i].subjectID.ToString() == myTeachersSubject_ID)
-                                    gradesTable.Rows.Add(c++, Adaptee.data.users.students[i].name, Adaptee.data.users.students[i].grades[0], Adaptee.data.users.students[i].grades[1], Adaptee.data.users.students[i].grades[2]);
-                            }
+                            //    gradesTable.Columns.Add("N°", "N°");
+                            //    gradesTable.Columns.Add("Student", "Student");
+                            //    gradesTable.Columns.Add("P1", "P1");
+                            //    gradesTable.Columns.Add("P2", "P2");
+                            //    gradesTable.Columns.Add("P3", "P3");
+                            //    for (int c = 1, i = 0; i < Adaptee.data.users.students.Count; i++)
+                            //    {
+                            //        if (Adaptee.data.users.students[i].subjectID.ToString() == myTeachersSubject_ID)
+                            //            gradesTable.Rows.Add(c++, Adaptee.data.users.students[i].name, Adaptee.data.users.students[i].grades[0], Adaptee.data.users.students[i].grades[1], Adaptee.data.users.students[i].grades[2]);
+                            //    }
                         }
                         if (isSupervisor)
                         {
-                            noaccess.Visible = true;
+                            createSupervisorInterface();
+                            //noaccess.Visible = true;
                         }
                     }
                 }
@@ -370,7 +391,7 @@ namespace AlumniApp
             }
         }
 
-        private void pagetittle_Click(object sender, EventArgs e)
+        public static void pagetittle_Click(object sender, EventArgs e)
         {
 
         }

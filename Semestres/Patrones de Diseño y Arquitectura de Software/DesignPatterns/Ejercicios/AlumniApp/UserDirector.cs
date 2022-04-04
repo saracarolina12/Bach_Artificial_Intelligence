@@ -11,6 +11,9 @@ namespace AlumniApp
 			builder.BuildGrades();
 			builder.BasicInfo();
 			builder.Login();
-		}
+			builder.Download();
+			builder.NoAccess();
+
+	}
 	}
 }
