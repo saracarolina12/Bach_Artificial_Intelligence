@@ -164,6 +164,7 @@ namespace AlumniApp
                 route = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
                 saveas = myName.Replace(" ", String.Empty) + ".docx";
                 word.Application app = new word.Application();
+                //app.Selection.TypeText("Heading");
                 word.Document doc = app.Documents.Add();
                 string text="Student name: " + myName + "\n";
                 for(int i=1; i<=mygrades.Count; i++)
