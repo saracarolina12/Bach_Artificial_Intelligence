@@ -12,18 +12,22 @@ using System.Configuration;
 using Newtonsoft.Json;
 using System.Net;
 using System.IO;
+using System.Linq;
 
 namespace AlumniApp
 {
     public partial class Form1 : Form
     {
+        public static int existsMail = 0;
+        public static string existsMailID = "x";
+        public static string mymail, mypass, myID, myName, myBday, myHometown, myCareer, correctPass, mySubject, mySubjectName, myTeacherSubject, myTeachersSubject_ID;
+        public static bool isTeacher, isStudent, isSupervisor;
+        public static List<int> mygrades = new List<int>();
         public Form1()
         {
             InitializeComponent();
         }
-        private string mymail, mypass, myID, myName, myBday, myHometown, myCareer, correctPass, mySubject, mySubjectName;
-        private bool isTeacher, isStudent, isSupervisor;
-
+        
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
@@ -190,8 +194,8 @@ namespace AlumniApp
             }
             else //si no están vacíos, verifica que existan los usuarios
             {
-                int existsMail = 0;
-                string existsMailID="x";
+                existsMail = 0;
+                existsMailID="x";
                 //students
                 for (int i=0; i< Adaptee.data.users.students.Count; i++) 
                 {
@@ -216,6 +220,8 @@ namespace AlumniApp
                             }
                                 
                         }
+                        for(int j=0; j< Adaptee.data.users.students[i].grades.Count; j++) //Add 3 grades
+                            mygrades.Add(Adaptee.data.users.students[i].grades[j]);
 
                         existsMail = 1;
                         existsMailID = Adaptee.data.users.students[i].mail; //guardo el ID del usuario
@@ -237,6 +243,14 @@ namespace AlumniApp
                         myName = Adaptee.data.users.teachers[i].name;
                         myBday = Adaptee.data.users.teachers[i].birthYear.ToString();
                         myHometown = Adaptee.data.users.teachers[i].hometown;
+                        for(int j=0; j<Adaptee.data.subjects.Count ; j++)
+                        {
+                            if (Adaptee.data.subjects[j].id == Adaptee.data.users.teachers[i].subjectID)
+                            {
+                                myTeachersSubject_ID = Adaptee.data.subjects[j].id.ToString();
+                                myTeacherSubject = Adaptee.data.subjects[j].name;
+                            }
+                        }
                         existsMail = 1;
                         existsMailID = Adaptee.data.users.teachers[i].mail; //guardo el ID del usuario
                         correctPass = Adaptee.data.users.teachers[i].password; //guardo la contraseña correcta
@@ -286,7 +300,7 @@ namespace AlumniApp
                     else
                     {
                         //CONTRASEÑA CORRECTA!!!!! LOGIN 
-                        setMail.Visible = setPassword.Visible = line1.Visible = line2.Visible = sign_inbutton.Visible = false;
+                        logoUP.Visible = setMail.Visible = setPassword.Visible = line1.Visible = line2.Visible = sign_inbutton.Visible = false;
                         pagetittle.Text = "¡Bienvenido!";
                         basicinfo.Visible = dataBasicInfo.Visible = true;
 
@@ -305,15 +319,36 @@ namespace AlumniApp
                         //SÓLO ESTUDIANTES
                         if (isStudent)
                         {
-                            StudentBasicInfo.Visible = true;
-                            showCareer.Visible = true;
+                            StudentBasicInfo.Visible = showCareer.Visible = downloadbutton.Visible = gradesTable.Visible = true;
                             showCareer.BringToFront();
                             showCareer.Text = myCareer;
-                            downloadbutton.Visible = true;
-
+                            gradesTable.Columns.Add("Subject", "Subject");
+                            gradesTable.Columns.Add("P1", "P1");
+                            gradesTable.Columns.Add("P2", "P2");
+                            gradesTable.Columns.Add("P3", "P3");
+                            gradesTable.Rows.Add(mySubjectName, mygrades[0], mygrades[1], mygrades[2]);
                             //show his/her subjects
-                            Console.WriteLine("MY SUBJECT: ");
-                            Console.WriteLine(mySubjectName);
+                        }
+                        if (isTeacher)
+                        {
+                            gradesTable.Visible = showSubject.Visible = setSubject.Visible = true;
+                            showSubject.BringToFront();
+                            showSubject.Text = myTeacherSubject;
+
+                            gradesTable.Columns.Add("N°", "N°");
+                            gradesTable.Columns.Add("Student", "Student");
+                            gradesTable.Columns.Add("P1", "P1");
+                            gradesTable.Columns.Add("P2", "P2");
+                            gradesTable.Columns.Add("P3", "P3");
+                            for (int c=1,i = 0; i < Adaptee.data.users.students.Count; i++)
+                            {
+                                if (Adaptee.data.users.students[i].subjectID.ToString() == myTeachersSubject_ID)
+                                    gradesTable.Rows.Add(c++, Adaptee.data.users.students[i].name, Adaptee.data.users.students[i].grades[0], Adaptee.data.users.students[i].grades[1], Adaptee.data.users.students[i].grades[2]);
+                            }
+                        }
+                        if (isSupervisor)
+                        {
+                            noaccess.Visible = true;
                         }
                     }
                 }

@@ -30,6 +30,8 @@ namespace AlumniApp
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.showCareer = new System.Windows.Forms.Label();
+            this.StudentBasicInfo = new System.Windows.Forms.Label();
             this.showMail = new System.Windows.Forms.Label();
             this.showHometown = new System.Windows.Forms.Label();
             this.showBday = new System.Windows.Forms.Label();
@@ -44,17 +46,25 @@ namespace AlumniApp
             this.setPassword = new System.Windows.Forms.TextBox();
             this.pagetittle = new System.Windows.Forms.Label();
             this.sign_inbutton = new System.Windows.Forms.Button();
-            this.exitButton = new System.Windows.Forms.PictureBox();
             this.downloadbutton = new System.Windows.Forms.Button();
-            this.StudentBasicInfo = new System.Windows.Forms.Label();
-            this.showCareer = new System.Windows.Forms.Label();
+            this.gradesTable = new System.Windows.Forms.DataGridView();
+            this.exitButton = new System.Windows.Forms.PictureBox();
+            this.logoUP = new System.Windows.Forms.PictureBox();
+            this.setSubject = new System.Windows.Forms.Label();
+            this.showSubject = new System.Windows.Forms.Label();
+            this.noaccess = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gradesTable)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.exitButton)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logoUP)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(23)))), ((int)(((byte)(57)))));
+            this.panel1.Controls.Add(this.showSubject);
+            this.panel1.Controls.Add(this.setSubject);
+            this.panel1.Controls.Add(this.logoUP);
             this.panel1.Controls.Add(this.showCareer);
             this.panel1.Controls.Add(this.StudentBasicInfo);
             this.panel1.Controls.Add(this.showMail);
@@ -70,6 +80,31 @@ namespace AlumniApp
             this.panel1.Size = new System.Drawing.Size(457, 450);
             this.panel1.TabIndex = 0;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
+            // 
+            // showCareer
+            // 
+            this.showCareer.AutoSize = true;
+            this.showCareer.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showCareer.ForeColor = System.Drawing.Color.White;
+            this.showCareer.Location = new System.Drawing.Point(119, 361);
+            this.showCareer.Name = "showCareer";
+            this.showCareer.Size = new System.Drawing.Size(0, 23);
+            this.showCareer.TabIndex = 8;
+            this.showCareer.Visible = false;
+            this.showCareer.Click += new System.EventHandler(this.label1_Click_2);
+            // 
+            // StudentBasicInfo
+            // 
+            this.StudentBasicInfo.AutoSize = true;
+            this.StudentBasicInfo.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StudentBasicInfo.ForeColor = System.Drawing.Color.White;
+            this.StudentBasicInfo.Location = new System.Drawing.Point(37, 361);
+            this.StudentBasicInfo.Name = "StudentBasicInfo";
+            this.StudentBasicInfo.Size = new System.Drawing.Size(72, 23);
+            this.StudentBasicInfo.TabIndex = 7;
+            this.StudentBasicInfo.Text = "Career:";
+            this.StudentBasicInfo.Visible = false;
+            this.StudentBasicInfo.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // showMail
             // 
@@ -247,6 +282,37 @@ namespace AlumniApp
             this.sign_inbutton.UseVisualStyleBackColor = false;
             this.sign_inbutton.Click += new System.EventHandler(this.sign_inbutton_Click);
             // 
+            // downloadbutton
+            // 
+            this.downloadbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(80)))), ((int)(((byte)(94)))));
+            this.downloadbutton.FlatAppearance.BorderSize = 0;
+            this.downloadbutton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(60)))), ((int)(((byte)(70)))));
+            this.downloadbutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(60)))), ((int)(((byte)(70)))));
+            this.downloadbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.downloadbutton.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.downloadbutton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(235)))), ((int)(((byte)(223)))));
+            this.downloadbutton.Location = new System.Drawing.Point(774, 377);
+            this.downloadbutton.Name = "downloadbutton";
+            this.downloadbutton.Size = new System.Drawing.Size(127, 34);
+            this.downloadbutton.TabIndex = 7;
+            this.downloadbutton.Text = "Download";
+            this.downloadbutton.UseVisualStyleBackColor = false;
+            this.downloadbutton.Visible = false;
+            this.downloadbutton.Click += new System.EventHandler(this.downloadbutton_Click);
+            // 
+            // gradesTable
+            // 
+            this.gradesTable.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(179)))), ((int)(((byte)(178)))));
+            this.gradesTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gradesTable.Location = new System.Drawing.Point(542, 107);
+            this.gradesTable.Name = "gradesTable";
+            this.gradesTable.ReadOnly = true;
+            this.gradesTable.RowHeadersWidth = 51;
+            this.gradesTable.RowTemplate.Height = 24;
+            this.gradesTable.Size = new System.Drawing.Size(580, 264);
+            this.gradesTable.TabIndex = 8;
+            this.gradesTable.Visible = false;
+            // 
             // exitButton
             // 
             this.exitButton.Image = global::AlumniApp.Properties.Resources.X;
@@ -258,48 +324,53 @@ namespace AlumniApp
             this.exitButton.TabStop = false;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
-            // downloadbutton
+            // logoUP
             // 
-            this.downloadbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(158)))), ((int)(((byte)(80)))), ((int)(((byte)(94)))));
-            this.downloadbutton.FlatAppearance.BorderSize = 0;
-            this.downloadbutton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(60)))), ((int)(((byte)(70)))));
-            this.downloadbutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(60)))), ((int)(((byte)(70)))));
-            this.downloadbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.downloadbutton.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.downloadbutton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(235)))), ((int)(((byte)(223)))));
-            this.downloadbutton.Location = new System.Drawing.Point(983, 347);
-            this.downloadbutton.Name = "downloadbutton";
-            this.downloadbutton.Size = new System.Drawing.Size(138, 48);
-            this.downloadbutton.TabIndex = 7;
-            this.downloadbutton.Text = "Download";
-            this.downloadbutton.UseVisualStyleBackColor = false;
-            this.downloadbutton.Visible = false;
-            this.downloadbutton.Click += new System.EventHandler(this.downloadbutton_Click);
+            this.logoUP.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.logoUP.Image = global::AlumniApp.Properties.Resources.logoUP;
+            this.logoUP.Location = new System.Drawing.Point(91, 80);
+            this.logoUP.Name = "logoUP";
+            this.logoUP.Size = new System.Drawing.Size(274, 304);
+            this.logoUP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logoUP.TabIndex = 9;
+            this.logoUP.TabStop = false;
             // 
-            // StudentBasicInfo
+            // setSubject
             // 
-            this.StudentBasicInfo.AutoSize = true;
-            this.StudentBasicInfo.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StudentBasicInfo.ForeColor = System.Drawing.Color.White;
-            this.StudentBasicInfo.Location = new System.Drawing.Point(37, 361);
-            this.StudentBasicInfo.Name = "StudentBasicInfo";
-            this.StudentBasicInfo.Size = new System.Drawing.Size(72, 23);
-            this.StudentBasicInfo.TabIndex = 7;
-            this.StudentBasicInfo.Text = "Career:";
-            this.StudentBasicInfo.Visible = false;
-            this.StudentBasicInfo.Click += new System.EventHandler(this.label1_Click_1);
+            this.setSubject.AutoSize = true;
+            this.setSubject.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.setSubject.ForeColor = System.Drawing.Color.White;
+            this.setSubject.Location = new System.Drawing.Point(37, 361);
+            this.setSubject.Name = "setSubject";
+            this.setSubject.Size = new System.Drawing.Size(80, 23);
+            this.setSubject.TabIndex = 10;
+            this.setSubject.Text = "Subject:";
+            this.setSubject.Visible = false;
             // 
-            // showCareer
+            // showSubject
             // 
-            this.showCareer.AutoSize = true;
-            this.showCareer.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showCareer.ForeColor = System.Drawing.Color.White;
-            this.showCareer.Location = new System.Drawing.Point(119, 361);
-            this.showCareer.Name = "showCareer";
-            this.showCareer.Size = new System.Drawing.Size(0, 23);
-            this.showCareer.TabIndex = 8;
-            this.showCareer.Visible = false;
-            this.showCareer.Click += new System.EventHandler(this.label1_Click_2);
+            this.showSubject.AutoSize = true;
+            this.showSubject.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showSubject.ForeColor = System.Drawing.Color.White;
+            this.showSubject.Location = new System.Drawing.Point(123, 361);
+            this.showSubject.Name = "showSubject";
+            this.showSubject.Size = new System.Drawing.Size(0, 23);
+            this.showSubject.TabIndex = 11;
+            this.showSubject.Visible = false;
+            // 
+            // noaccess
+            // 
+            this.noaccess.AutoSize = true;
+            this.noaccess.Enabled = false;
+            this.noaccess.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.noaccess.ForeColor = System.Drawing.Color.DimGray;
+            this.noaccess.Location = new System.Drawing.Point(550, 188);
+            this.noaccess.Name = "noaccess";
+            this.noaccess.Size = new System.Drawing.Size(563, 96);
+            this.noaccess.TabIndex = 12;
+            this.noaccess.Text = "                      We are sorry!\r\n\r\nYou don\'t have access to this information " +
+    ":(";
+            this.noaccess.Visible = false;
             // 
             // Form1
             // 
@@ -307,6 +378,8 @@ namespace AlumniApp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(242)))), ((int)(((byte)(238)))));
             this.ClientSize = new System.Drawing.Size(1200, 450);
+            this.Controls.Add(this.noaccess);
+            this.Controls.Add(this.gradesTable);
             this.Controls.Add(this.downloadbutton);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.sign_inbutton);
@@ -323,7 +396,9 @@ namespace AlumniApp
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gradesTable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.exitButton)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logoUP)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -350,6 +425,11 @@ namespace AlumniApp
         private System.Windows.Forms.Button downloadbutton;
         private System.Windows.Forms.Label StudentBasicInfo;
         private System.Windows.Forms.Label showCareer;
+        private System.Windows.Forms.DataGridView gradesTable;
+        private System.Windows.Forms.PictureBox logoUP;
+        private System.Windows.Forms.Label showSubject;
+        private System.Windows.Forms.Label setSubject;
+        private System.Windows.Forms.Label noaccess;
     }
 }
 

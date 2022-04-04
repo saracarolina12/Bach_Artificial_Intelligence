@@ -31,7 +31,7 @@
         "hometown": "Ecatepec",
         "mail": "luis@up.edu.mx",
         "password": "luis123",
-        "subjectID": 30,
+        "subjectID": 300,
         "grades": [9, 10, 10]
       }
     ],
@@ -69,7 +69,7 @@
   "subjects": [
     {
       "id": 300,
-      "name": "Design Patterns and Software Achitecture",
+      "name": "Design Patterns",
       "teacherID": 200,
       "studentsID": [2, 3]
     },
