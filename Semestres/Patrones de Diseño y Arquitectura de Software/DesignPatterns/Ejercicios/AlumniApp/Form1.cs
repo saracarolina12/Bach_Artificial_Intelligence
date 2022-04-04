@@ -23,6 +23,7 @@ namespace AlumniApp
         }
         private string mymail;
         private string mypass;
+        private string correctPass;
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -101,6 +102,7 @@ namespace AlumniApp
             mymail = setMail.Text;
         }
 
+        /********************************************************************/
         private void sign_inbutton_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Click :D");
@@ -139,22 +141,89 @@ namespace AlumniApp
             }
             else //si no están vacíos, verifica que existan los usuarios
             {
-                int existsMail = 0, existsMailID=-1;
-                Console.WriteLine("{0}", Program.data.users.students[0].name);
-                /*for(int i=1; i< Program.data.users.students.Count; i++)
+                int existsMail = 0;
+                string existsMailID="x";
+                //students
+                for (int i=0; i< Program.data.users.students.Count; i++) 
                 {
-                    if(mymail == Program.data.users.students[i].id.ToString())
+                    if (mymail == Program.data.users.students[i].mail)
                     {
+                        Console.WriteLine("is a student");
                         //exists
                         existsMail = 1;
-                        existsMailID = i;
+                        existsMailID = Program.data.users.students[i].mail; //guardo el ID del usuario
+                        correctPass = Program.data.users.students[i].password; //guardo la contraseña correcta
                         break;
                     }
                 }
-                if(existsMail == 1) //si existe
+                //teachers
+                for (int i = 0; i < Program.data.users.teachers.Count; i++) 
                 {
-                    //if(data.users.students[existsMailID])
-                }*/
+                    if (mymail == Program.data.users.teachers[i].mail)
+                    {
+                        Console.WriteLine("is a teacher");
+                        //exists
+                        existsMail = 1;
+                        existsMailID = Program.data.users.teachers[i].mail; //guardo el ID del usuario
+                        correctPass = Program.data.users.teachers[i].password; //guardo la contraseña correcta
+                        break;
+                    }
+                }
+                //supervisor
+                for (int i = 0; i < Program.data.users.supervisor.Count; i++) 
+                {
+                    if (mymail == Program.data.users.supervisor[i].mail)
+                    {
+                        Console.WriteLine("is a supervisor");
+                        //exists
+                        existsMail = 1;
+                        existsMailID = Program.data.users.supervisor[i].mail; //guardo el ID del usuario
+                        correctPass = Program.data.users.supervisor[i].password; //guardo la contraseña correcta
+                        break;
+                    }
+                }
+
+                Console.WriteLine("EXISTS? {0}", existsMail);
+
+                if (existsMail == 1) //sí existe ese correo en la "db", reviso que la contraseña esté bien
+                {
+                    if(mypass != correctPass) //CONTRASEÑA INCORRECTA
+                    {
+                        string message = "Wrong password!!";
+                        string title = "Error";
+                        MessageBoxButtons buttons = MessageBoxButtons.OK;
+                        DialogResult result = MessageBox.Show(message, title, buttons, MessageBoxIcon.Warning);
+                        if (result == DialogResult.OK)
+                        {
+                            setMail.Text = "Mail";
+                            setPassword.Text = "Password";
+                            mymail = "";
+                            mypass = "";
+                            return;
+                        }
+                    }
+                    else
+                    {
+                        //CONTRASEÑA CORRECTA!!!!! LOGIN 
+                    }
+                }
+                else
+                {
+                    //no existe la cuenta
+                    string message = "This user does not exist. \nPlease, try again";
+                    string title = "Error";
+                    MessageBoxButtons buttons = MessageBoxButtons.OK;
+                    DialogResult result = MessageBox.Show(message, title, buttons, MessageBoxIcon.Warning);
+                    if (result == DialogResult.OK)
+                    {
+                        setMail.Text = "Mail";
+                        setPassword.Text = "Password";
+                        mymail = "";
+                        mypass = "";
+                        return;
+                    }
+                }
+
             }
         }
     }

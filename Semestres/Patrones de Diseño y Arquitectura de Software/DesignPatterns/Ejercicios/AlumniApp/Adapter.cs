@@ -8,12 +8,10 @@ namespace AlumniApp
 	{
 		private Adaptee _adaptee = new Adaptee();
 
-		public override void Request()
+		public override Root Request(string ruta)
 		{
 			// possibly do some other work ...
-			// call the adaptee
-			_adaptee.SpecificRequest();
-			// possibly do some other work ...
+			return _adaptee.ReadJSON(ruta);
 		}
 	}	
 

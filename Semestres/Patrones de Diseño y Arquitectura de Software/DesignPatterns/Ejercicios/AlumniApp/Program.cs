@@ -45,7 +45,7 @@ namespace AlumniApp
             using (read)
             {
                 string json = read.ReadToEnd();
-                Root data = JsonConvert.DeserializeObject<Root>(json);
+                data = JsonConvert.DeserializeObject<Root>(json);
                 //Console.WriteLine("data: {0}",data.users.supervisor.Count);
             }
 
@@ -55,7 +55,6 @@ namespace AlumniApp
             User user1 = builder1.GetResult();
             Console.WriteLine("-> {0}", user1);
               
-
 
 
             // Teachers
