@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Configuration;
 using word = Microsoft.Office.Interop.Word;
+using System.IO;
 
 namespace AlumniApp
 {
@@ -13,8 +15,9 @@ namespace AlumniApp
         public static int existsMail = 0;
         public static string existsMailID = "x";
         public static string mymail, mypass, myID, myName, myBday, myHometown, myCareer, correctPass, mySubject, mySubjectName, myTeacherSubject, myTeachersSubject_ID;
-        public static bool isTeacher, isStudent, isSupervisor, TODOBIEN = false;
+        public static bool isTeacher, isStudent, isSupervisor, TODOBIEN = false, downloadPressed = false;
         public static List<int> mygrades = new List<int>();
+        public static string route, saveas;
         public Form1()
         {
             InitializeComponent();
@@ -29,7 +32,6 @@ namespace AlumniApp
             UserBuilder builder1 = new StudentsBuilder();
             director.Construct(builder1);
             User user1 = builder1.GetResult();
-            Console.WriteLine("-> {0}", user1);
         }
 
         public static void createTeacherInterface()
@@ -39,7 +41,6 @@ namespace AlumniApp
             UserBuilder builder2 = new TeachersBuilder();
             director.Construct(builder2);
             User user2 = builder2.GetResult();
-            Console.WriteLine("* Teachers: {0}", user2);
         }
         public static void createSupervisorInterface()
         {
@@ -48,7 +49,6 @@ namespace AlumniApp
             UserBuilder builder3 = new SupervisorBuilder();
             director.Construct(builder3);
             User user3 = builder3.GetResult();
-            Console.WriteLine("* Supervisor: {0}", user3);
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -140,7 +140,42 @@ namespace AlumniApp
 
         public static void downloadbutton_Click(object sender, EventArgs e)
         {
+            downloadPressed = true;
+            string configval = ConfigurationManager.AppSettings["export"];
+            if(configval == "txt")
+            {
+                Console.WriteLine("es txt");
+                route = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+                saveas = myName.Replace(" ", String.Empty) + ".txt";
 
+                string text = "Student name: " + myName + "\n";
+                for (int i = 1; i <= mygrades.Count; i++)
+                {
+                    text += "*P" + i + ": " + mygrades[i - 1] + "\n";
+                }
+                using (StreamWriter writer = new StreamWriter(route + "\\" + saveas, false))
+                {
+                    writer.WriteLine(text);
+                }
+            }
+            else if(configval == "docx" || configval == "word")
+            {
+                Console.WriteLine("es word");
+                route = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+                saveas = myName.Replace(" ", String.Empty) + ".docx";
+                word.Application app = new word.Application();
+                word.Document doc = app.Documents.Add();
+                string text="Student name: " + myName + "\n";
+                for(int i=1; i<=mygrades.Count; i++)
+                {
+                    text += "*P"+i+ ": " + mygrades[i-1] + "\n";
+                }
+                doc.Content.Text = text;
+
+                doc.SaveAs(route + "\\" + saveas);
+                doc.Close();
+                app.Quit();
+            }
         }
 
         public static void label1_Click_1(object sender, EventArgs e)
@@ -181,7 +216,6 @@ namespace AlumniApp
         /********************************************************************/
         public static void sign_inbutton_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("Click :D");
             //aquí reviso que los campos no estén vacíos
             if (setMail.Text == "Mail" && setPassword.Text == "Password")
             {
@@ -325,21 +359,7 @@ namespace AlumniApp
                     {
                         TODOBIEN = true;
                         ////CONTRASEÑA CORRECTA!!!!! LOGIN 
-                        //logoUP.Visible = setMail.Visible = setPassword.Visible = line1.Visible = line2.Visible = sign_inbutton.Visible = false;
-                        //pagetittle.Text = "¡Bienvenido!";
-                        //basicinfo.Visible = dataBasicInfo.Visible = true;
-
-                        ////interfaz individual
-                        //Console.WriteLine(mymail);
-                        //showID.Visible = showName.Visible = showBday.Visible = showHometown.Visible = showMail.Visible = true;
-                        //showMail.BringToFront(); showName.BringToFront(); showBday.BringToFront(); showHometown.BringToFront(); showID.BringToFront();
-
-                        ////PARA TODOS
-                        //showID.Text = myID;
-                        //showMail.Text = mymail;
-                        //showName.Text = myName;
-                        //showBday.Text = myBday;
-                        //showHometown.Text = myHometown;
+                       
 
                         ////SÓLO ESTUDIANTES
                         if (isStudent)
