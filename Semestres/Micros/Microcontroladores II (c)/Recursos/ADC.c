@@ -29,7 +29,11 @@ Con interrupciones
 
     ISR(ADC_vect){ //entra aquí solito después de la interrupción
         uint16_t rej = ADC;
-        //código después 
+        
+        uint16_t u = (float)(rej/adcRange); //5
+		uint16_t Udec = (float)(rej*10/adcRange); //5.2 
+        sprintf(dos, "%d.%d%d", u%10, Udec%10); //5  -  2
+		LCD_wr_lineTwo(dos);
 
         ADCSRA|=(1 << ADSC);//inicia una nueva conversión
     }

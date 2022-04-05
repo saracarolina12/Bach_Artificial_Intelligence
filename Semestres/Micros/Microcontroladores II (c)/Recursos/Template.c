@@ -7,11 +7,6 @@
 #define PORTT PORTA
 #define DDRT DDRA
 
-/* Comunicación Serial */
-#define FCPU 4000000//clock speed
-#define BAUD 2400 //bps
-#define MYUBRR FCPU/16/BAUD-1
-
 #include <avr/io.h>
 #include <util/delay.h>
 #include <avr/interrupt.h>
@@ -62,6 +57,7 @@ void LCD_wait_flag(void);
 void LCD_init(void);
 void LCD_wr_string(volatile uint8_t *s);
 void LCD_wr_lines(uint8_t *a, uint8_t *b);
+void LCD_wr_lineOne(volatile uint8_t *a)
 void LCD_wr_lineTwo(volatile uint8_t *b);
 void write_EEPROM(uint16_t dir, uint8_t dato);
 uint8_t read_EEPROM(uint16_t dir);
@@ -195,6 +191,71 @@ int main(void)
 	
 }
 
+
+#define PORTADC PORTA
+#define PINADC PINA
+#define DDRADC DDRA
+void ADC_init(){
+	ADMUX = 0b01000010; 
+		/*
+			7, 6: 01 = Connect AREF to 5v, connect pins 10, 11, 30 and 31
+			5: 0 = 10 bits adjusted to the right (using full precision of the ADC)
+			2, 1, 0: Specify the PIN to be read in binary
+		*/
+	SFIOR = 0b00000011;
+		/* 
+			Bits 7 - 5: 
+				000 - Free running mode (we ask to do the conversion)
+				011 - Compare match timer 0
+			When using something different to free running mode: Bit 5 of ADCSRA has to be 1.
+		*/
+	ADCSRA =  0b11111011; //Fdiv = 32 CON INTERRUPCIONES
+		/* 
+			7: ADC Enable. 1 ON; 0 OFF
+			6: When 'free running mode' a 1 indicates when to start the conversion
+				
+				ADCSRA |= (1<<ADSC); Needed whenever we want to start
+				
+			5: Has to be 1 when not in free running mode
+			4: Flag of interruption when the conversion finishes (1 to clear interruption)
+			3: Tells if we want an interruption when the conversion ends (SEI is needed)
+			2 - 0: Divisor Factor. Helps to keep the needed frequency of the ADC between 50kHz - 200kHz
+				Bits Divisor
+				000		2
+				001		2
+				010		4
+				011		8
+				100		16
+				101		32
+				110		64
+				111		128
+				Fmicro/Divisor has to be between the valid range.
+		*/
+			
+	DDRADC = 0b00000000;
+	PORTADC = 0b00000000; //ADC doesnt need pull up
+}
+ISR(ADC_vect){ //Entra aqu? solito despu?s de la conversion
+	uint16_t rej = ADC;	//10 bits
+	//uint8_t r = ADCH;	//8 bits
+
+
+	rej >>= 2;
+	PORTC = OCR2 = rej;
+}
+ ISR(ADC_vect){ //entra aquí solito después de la interrupción
+        uint16_t rej = ADC; //10 bits
+		//uint8_r r = ADCH //8 bits
+		//dtostrf(a, 1, 3, v); //Float to string
+        
+        uint16_t u = (float)(rej/adcRange); //5
+		uint16_t Udec = (float)(rej*10/adcRange); //5.2 
+        sprintf(dos, "%d.%d%d", u%10, Udec%10); //5  -  2
+		LCD_wr_lineTwo(dos);
+
+        ADCSRA|=(1 << ADSC);//inicia una nueva conversión
+    }
+
 void write_EEPROM(uint16_t dir, uint8_t dato){
 	while(isSet(EECR, EEWE)){}//traba mientras escribe
 	EEAR = dir;
@@ -212,25 +273,27 @@ uint8_t read_EEPROM(uint16_t dir){
 	return EEDR;
 }
 
+void LCD_wr_lineOne(volatile uint8_t *a){
+	CD_wr_instruction(LCD_Cmd_Clear);
+	LCD_wr_instruction(LCD_Cmd_Home);
+	LCD_wr_string(a);
+}
 void LCD_wr_lineTwo(volatile uint8_t *b){
 	LCD_wr_instruction(0b11000000);
 	LCD_wr_string(b);
 }
-
-void LCD_wr_string(volatile uint8_t *s){
-	uint8_t c;
-	while((c=*s++)){
-		LCD_wr_char(c);
-	}
-}
-
-
 void LCD_wr_lines(uint8_t *a, uint8_t *b){
 	LCD_wr_instruction(LCD_Cmd_Clear);
 	LCD_wr_instruction(LCD_Cmd_Home);
 	LCD_wr_string(a);
 	LCD_wr_instruction(0b11000000);
 	LCD_wr_string(b);
+}
+void LCD_wr_string(volatile uint8_t *s){
+	uint8_t c;
+	while((c=*s++)){
+		LCD_wr_char(c);
+	}
 }
 void LCD_init(void){
 	DDRLCD=(15<<0)|(1<<RS)|(1<<RW)|(1<<E); //DDRLCD=DDRLCD|(0B01111111)
@@ -331,34 +394,3 @@ void saca_cero(volatile uint8_t *LUGAR, uint8_t BIT){// al usarla, no olvidar el
 	*LUGAR=*LUGAR&~(1<<BIT);
 }
 
-void USART_Init(uint16_t ubrr){
-	DDRD |= 0b00000010; //or por si estabamos usando el puerto D (pin 1: TX, pin0: RX) (lo mismo que DDRD|=(1<<1))
-
-	/* Set baud rate */
-
-	/* Enable receiver and transmitter */
-	UCSRB = (1<<RXEN) | (1<<TXEN) | (1<<RXCIE);
-	/* Set frame format: 8data, 2stop bit */
-	UCSRC = (1<<URSEL) | (1<<USBS) | (3<<UCSZ0);
-}
-
-void USART_Transmit(uint8_t data){
-	/* Wait for empty transmit buffer */
-	while(!( UCSRA & (1<<UDRE) )){}
-	
-	/* Put data into buffer, sends the data */
-	UDR = data;
-}
-
-uint8_t USART_Receive(void){
-	/* Wait for data to be received */
-	while(!(UCSRA & (1<<RXC))){} //traba
-		
-	/* Get and return received data from buffer */
-	return UDR;
-}
-
-volatile uint8_t dato;
-ISR(USART_RXC_vect){
-	dato = UDR;
-}
