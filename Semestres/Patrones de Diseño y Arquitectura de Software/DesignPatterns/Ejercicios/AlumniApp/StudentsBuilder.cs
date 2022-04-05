@@ -33,22 +33,18 @@ namespace AlumniApp
             Form1.gradesTable.Columns.Add("P1", "P1");
             Form1.gradesTable.Columns.Add("P2", "P2");
             Form1.gradesTable.Columns.Add("P3", "P3");
-            Form1.gradesTable.Rows.Add(Form1.mySubjectName, Form1.mygrades[0], Form1.mygrades[1], Form1.mygrades[2]);
+            Form1.gradesTable.Columns.Add("Promedio", "Promedio");
+            for (int i = 0; i < Form1.mygrades.Count; i++)
+            {
+                Form1.myAvg += Form1.mygrades[i];
+            }
+            Form1.gradesTable.Rows.Add(Form1.mySubjectName, Form1.mygrades[0], Form1.mygrades[1], Form1.mygrades[2], (Form1.myAvg/Form1.mygrades.Count).ToString("N", Form1.setPrecision));
         }
 
         public override void Download()
         {
             Form1.downloadbutton.Visible = true;
-            //export
-            //    //Application application = new Application();
-            //    //Document document = application.Documents.Open("C:\\word.doc");
-            //    //int count = document.Words.Count;
-            //    //for (int i = 1; i <= count; i++)
-            //    //{
-            //    //    string text = document.Words[i].Text;
-            //    //    Console.WriteLine("Word {0} = {1}", i, text);
-            //    //}
-            //    //application.Quit();
+
         }
 
         public override void NoAccess()

@@ -6,18 +6,22 @@ using System.Runtime.InteropServices;
 using System.Configuration;
 using word = Microsoft.Office.Interop.Word;
 using System.IO;
+using System.Globalization;
 
 namespace AlumniApp
 {
     
     public partial class Form1 : Form
     {
+
         public static int existsMail = 0;
+        public static float myAvg;
         public static string existsMailID = "x";
         public static string mymail, mypass, myID, myName, myBday, myHometown, myCareer, correctPass, mySubject, mySubjectName, myTeacherSubject, myTeachersSubject_ID;
         public static bool isTeacher, isStudent, isSupervisor, TODOBIEN = false, downloadPressed = false;
-        public static List<int> mygrades = new List<int>();
+        public static List<float> mygrades = new List<float>();
         public static string route, saveas;
+        public static NumberFormatInfo setPrecision = new NumberFormatInfo();
         public Form1()
         {
             InitializeComponent();
@@ -140,9 +144,15 @@ namespace AlumniApp
 
         public static void downloadbutton_Click(object sender, EventArgs e)
         {
+            setPrecision.NumberDecimalDigits = 2;
             downloadPressed = true;
             string configval = ConfigurationManager.AppSettings["export"];
-            if(configval == "txt")
+            string message = "A download has started";
+            string title = "Download";
+            MessageBoxButtons buttons = MessageBoxButtons.OK;
+            DialogResult result = MessageBox.Show(message, title, buttons, MessageBoxIcon.Question);
+
+            if (configval == "txt")
             {
                 Console.WriteLine("es txt");
                 route = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
@@ -153,6 +163,7 @@ namespace AlumniApp
                 {
                     text += "*P" + i + ": " + mygrades[i - 1] + "\n";
                 }
+                text += "\n----> Promedio: " + (myAvg / mygrades.Count).ToString("N", setPrecision); 
                 using (StreamWriter writer = new StreamWriter(route + "\\" + saveas, false))
                 {
                     writer.WriteLine(text);
@@ -160,6 +171,7 @@ namespace AlumniApp
             }
             else if(configval == "docx" || configval == "word")
             {
+
                 Console.WriteLine("es word");
                 route = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
                 saveas = myName.Replace(" ", String.Empty) + ".docx";
@@ -171,6 +183,7 @@ namespace AlumniApp
                 {
                     text += "*P"+i+ ": " + mygrades[i-1] + "\n";
                 }
+                text += "\n----> Promedio: " + (myAvg/mygrades.Count).ToString("N", setPrecision);
                 doc.Content.Text = text;
 
                 doc.SaveAs(route + "\\" + saveas);
