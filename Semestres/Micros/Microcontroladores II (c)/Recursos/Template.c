@@ -1,8 +1,9 @@
 
 /*TEMPLATE*/
 
-//LCD
 #define F_CPU 1000000
+
+//Teclado
 #define PINT PINA
 #define PORTT PORTA
 #define DDRT DDRA
@@ -22,6 +23,7 @@
 #define mNEG(who) memset(who, -1, sizeof(who));
 #define delay(t) _delay_ms(t)
 
+//LCD
 #define DDRLCD DDRC
 #define PORTLCD PORTC
 #define PINLCD PINC
@@ -48,22 +50,13 @@
 #define LCD_Cmd_Func1LinG  0b00100100
 //#define LCD_Cmd_DDRAM    0b1xxxxxxx
 
-void saca_uno(volatile uint8_t *LUGAR, uint8_t BIT);
-void saca_cero(volatile uint8_t *LUGAR, uint8_t BIT);
-void LCD_wr_inst_ini(uint8_t instruccion);
-void LCD_wr_char(uint8_t data);
-void LCD_wr_instruction(uint8_t instruccion);
-void LCD_wait_flag(void);
-void LCD_init(void);
-void LCD_wr_string(volatile uint8_t *s);
-void LCD_wr_lines(uint8_t *a, uint8_t *b);
-void LCD_wr_lineOne(volatile uint8_t *a)
-void LCD_wr_lineTwo(volatile uint8_t *b);
-void write_EEPROM(uint16_t dir, uint8_t dato);
-uint8_t read_EEPROM(uint16_t dir);
 
+/* INIT VARIABLES  */
 uint8_t seed = 0;
 char uno[17],dos[17];
+uint8_t adcRange=204.5; //adc 10 bits
+//uint8_t adcRange=50; //adc 8 bits
+
 //uint8_t keyb[4][4] =
 //{
 	//{0x7, 0x8, 0x9, 0xA},
@@ -79,6 +72,8 @@ uint8_t keyb[4][3] =
 //{0xE, 0x0, 0xF, 0xD}
 };
 
+
+/*  FUNCTIONS  */
 void RTR(uint8_t pin){
 	_delay_ms(50);
 	while(isClear(PINA,pin));
@@ -169,80 +164,18 @@ uint8_t pressed(void){
 	}
 }
 
-int main(void)
-{
-	//srand(0); //seed
-	//random values
-	// rnd = rand() % (b-a) + a; //Random within a limit [a;b)
- 
-	LCD_init();
-	//teclado
-	DDRT = 0b00001111;					//7->4: entradas,3->0: salidas(rotar tierra)
-	PORTT = 0b11111111;
-	//pruebas
-	DDRD = 0;
-	
-	uint8_t tecla;
-	
-	while (1){
-		tecla = pressed();
-
-	}
-	
-}
-
 
 #define PORTADC PORTA
 #define PINADC PINA
 #define DDRADC DDRA
 void ADC_init(){
 	ADMUX = 0b01000010; 
-		/*
-			7, 6: 01 = Connect AREF to 5v, connect pins 10, 11, 30 and 31
-			5: 0 = 10 bits adjusted to the right (using full precision of the ADC)
-			2, 1, 0: Specify the PIN to be read in binary
-		*/
-	SFIOR = 0b00000011;
-		/* 
-			Bits 7 - 5: 
-				000 - Free running mode (we ask to do the conversion)
-				011 - Compare match timer 0
-			When using something different to free running mode: Bit 5 of ADCSRA has to be 1.
-		*/
-	ADCSRA =  0b11111011; //Fdiv = 32 CON INTERRUPCIONES
-		/* 
-			7: ADC Enable. 1 ON; 0 OFF
-			6: When 'free running mode' a 1 indicates when to start the conversion
-				
-				ADCSRA |= (1<<ADSC); Needed whenever we want to start
-				
-			5: Has to be 1 when not in free running mode
-			4: Flag of interruption when the conversion finishes (1 to clear interruption)
-			3: Tells if we want an interruption when the conversion ends (SEI is needed)
-			2 - 0: Divisor Factor. Helps to keep the needed frequency of the ADC between 50kHz - 200kHz
-				Bits Divisor
-				000		2
-				001		2
-				010		4
-				011		8
-				100		16
-				101		32
-				110		64
-				111		128
-				Fmicro/Divisor has to be between the valid range.
-		*/
-			
+	SFIOR = 0b01100000;
+	ADCSRA =  0b11111011; 
 	DDRADC = 0b00000000;
-	PORTADC = 0b00000000; //ADC doesnt need pull up
+	PORTADC = 0b00000000; //ADC does not need pull up
 }
-ISR(ADC_vect){ //Entra aqu? solito despu?s de la conversion
-	uint16_t rej = ADC;	//10 bits
-	//uint8_t r = ADCH;	//8 bits
 
-
-	rej >>= 2;
-	PORTC = OCR2 = rej;
-}
  ISR(ADC_vect){ //entra aquí solito después de la interrupción
         uint16_t rej = ADC; //10 bits
 		//uint8_r r = ADCH //8 bits
@@ -274,7 +207,7 @@ uint8_t read_EEPROM(uint16_t dir){
 }
 
 void LCD_wr_lineOne(volatile uint8_t *a){
-	CD_wr_instruction(LCD_Cmd_Clear);
+	LCD_wr_instruction(LCD_Cmd_Clear);
 	LCD_wr_instruction(LCD_Cmd_Home);
 	LCD_wr_string(a);
 }
@@ -394,3 +327,27 @@ void saca_cero(volatile uint8_t *LUGAR, uint8_t BIT){// al usarla, no olvidar el
 	*LUGAR=*LUGAR&~(1<<BIT);
 }
 
+
+
+
+int main(void)
+{
+	//srand(0); //seed
+	//random values
+	// rnd = rand() % (b-a) + a; //Random within a limit [a;b)
+ 
+	LCD_init();
+	//teclado
+	DDRT = 0b00001111;					//7->4: entradas,3->0: salidas(rotar tierra)
+	PORTT = 0b11111111;
+	//pruebas
+	DDRD = 0;
+	
+	uint8_t tecla;
+	
+	while (1){
+		tecla = pressed();
+
+	}
+	
+}
