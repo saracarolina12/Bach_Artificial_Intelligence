@@ -200,7 +200,7 @@ int main(void)
 	
 	while (1){
 		uint8_t tecla = pressed();
-		if(tecla < 10){ //bloqueo los que no son números
+		if(tecla < 10){ //bloqueo los que no son nï¿½meros
 			LCD_wr_lineTwo(tecla);
 		}
 		

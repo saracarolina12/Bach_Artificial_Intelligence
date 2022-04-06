@@ -183,7 +183,7 @@ int main(void)
 	DDRT = 0b00001111;					//7->4: entradas,3->0: salidas(rotar tierra)
 	PORTT = 0b11111111;
 	//adc
-	ADMUX =     0b01100000; //8bits,patita A0 (últimos 5 bits)
+	ADMUX =     0b01100000; //8bits,patita A0 (ï¿½ltimos 5 bits)
 	SFIOR =     0b01100000;
 	ADCSRA =    0b10111011; //4 MHz, Fdiv = 32 CON INTERRUPCIONES
 	DDRA =      0b00000000;
@@ -208,7 +208,7 @@ int main(void)
 		uint8_t tecla;
 
 		while(pressed() != 0){} //(0 +) sigue sensando y escribiendo en eeprom
-		cli(); //si se sale del while, quiere decir que presionó +
+		cli(); //si se sale del while, quiere decir que presionï¿½ +
 		sprintf(lin1, "Ultimos val");
 		 uint8_t readEeprom = read_EEPROM(--pos);
 		 Ddec = ((float)readEeprom/51.0); //2.3
@@ -216,7 +216,7 @@ int main(void)
 		 dtostrf(Ddec,1,2,conv);
 		 sprintf(lin2,"%s V", conv);
 		 LCD_wr_lines(lin1,lin2);
-		uint16_t backup=pos; //última posición
+		uint16_t backup=pos; //ï¿½ltima posiciï¿½n
 			
 		do{
 			tecla = pressed();
@@ -260,7 +260,7 @@ ISR(TIMER0_COMP_vect){
 	
 }
 
-ISR(ADC_vect){ //entra aquí solito después de la interrupción
+ISR(ADC_vect){ //entra aquï¿½ solito despuï¿½s de la interrupciï¿½n
 	uint8_t rej = ADCH;
 	if(pos >= 512 && full!=1){
 		full=1;

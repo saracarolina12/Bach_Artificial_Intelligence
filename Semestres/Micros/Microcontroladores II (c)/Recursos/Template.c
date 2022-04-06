@@ -52,6 +52,7 @@
 
 
 /* INIT VARIABLES  */
+uint8_t tecla;
 uint8_t seed = 0;
 char uno[17],dos[17];
 uint8_t adcRange=204.5; //adc 10 bits
@@ -76,7 +77,7 @@ uint8_t keyb[4][3] =
 /*  FUNCTIONS  */
 void RTR(uint8_t pin){
 	_delay_ms(50);
-	while(isClear(PINA,pin));
+	while(isClear(PINT,pin));
 	_delay_ms(50);
 }
 
@@ -104,7 +105,8 @@ uint8_t pressed(void){
 			return(keyb[0][3]);
 		}
 		PORTT = ~(1<<1);
-		
+		asm("nop");
+		asm("nop");
 		//3,6,9,#(F)
 		if(isClear(PINT,4)){		//A
 			RTR(4);
@@ -123,7 +125,8 @@ uint8_t pressed(void){
 			return(keyb[0][2]);
 		}
 		PORTT = ~(1<<2);
-		
+		asm("nop");
+		asm("nop");
 		//2,5,8,0
 		if(isClear(PINT,4)){		//A
 			RTR(4);
@@ -142,7 +145,8 @@ uint8_t pressed(void){
 			return(keyb[0][1]);
 		}
 		PORTT = ~(1<<3);
-		
+		asm("nop");
+		asm("nop");
 		//1,4,7,*(E)
 		if(isClear(PINT,4)){		//A
 			RTR(4);
@@ -303,7 +307,7 @@ void LCD_wait_flag(void){
 		saca_uno(&PORTLCD,E); //pregunto por el primer nibble
 		_delay_ms(10);
 		saca_cero(&PORTLCD,E);
-		if(isSet(PINLCD,BF)) {break;} //uno_en_bit para protues, 0 para la vida real
+		if(isSet(PINLCD,BF)) {break;} //uno_en_bit para proteus, 0 para la vida real
 		_delay_us(10);
 		saca_uno(&PORTLCD,E); //pregunto por el segundo nibble
 		_delay_ms(10);
@@ -327,27 +331,71 @@ void saca_cero(volatile uint8_t *LUGAR, uint8_t BIT){// al usarla, no olvidar el
 	*LUGAR=*LUGAR&~(1<<BIT);
 }
 
-
-
+#define BAUD 4800
+#define MYUBRR F_CPU/16/BAUD-1
+void USART_Init(uint16_t UBRR){
+	DDRD |= 0b00000010; //Pin 1: TX; Pin0: RX
+	UBRRH = (uint8_t)(UBRR >> 8); //UBRRH:UBRRL
+	UBRRL = (uint8_t)(UBRR); //UBRRH:UBRRL
+	UCSRB = (1<<RXEN) | (1<<TXEN) | (1<<RXCIE);
+		/*
+			RXCIE. 1: Interruption when data received; 0: No interruption
+			TXCIE. 1: Interruption when finished transmission (not usually needed); 0: No interruption
+			UDRIE. 1: Interruption When ready to transmit; 0: No interruption
+			RXEN. 1: Habilita recepcion; 0: Deshabilita recepcion
+			TXEN. 1: Habilita transmision; 0: Deshabilita transmision
+			UCSZ2. To enable 9 bits of transmission
+			RXB8, TXB8. 9th bit of UDR. Write or read before UDR
+		*/
+	
+	UCSRC = (1<<URSEL) | (0<<USBS) | (3<<UCSZ0);
+		/* Set frame format: 8 data, 2 stop bit */
+		/*
+			URSEL. Set as 1 always
+			UMSEL. 1: Síncrono; 0: Asíncrono (usamos 0)
+			Parity
+				UPM1: 1, UPM0: 0 Par
+				UPM1: 1, UPM1: 1 Impar
+			USBS. 0: 1 stop bit; 1: 2 stop bits
+			Number of bits
+				UCSZ1	UCSZ0
+				0		0		5 bits
+				0		1		6 bits
+				1		0		7 bits
+				1		1		8 bits	
+				1		1		8 bits //Enable UCSZ2
+		*/
+	/*
+		Other registers
+			UDR Contains the data to send and just received. It is used in other functions
+				There's a ninth bit in another register
+			It resets immediately after accesing to it
+			
+			UCSRA Has information and other stuff, not completely needed
+	*/
+}
+void USART_Transmit(uint8_t data) { 
+	while (!(UCSRA & (1<<UDRE)));
+	UDR = data;
+}
+volatile uint8_t data = 0;
+ISR(USART_RXC_vect){ //Cuando se recibe el dato, entra aqui
+	data = UDR;
+	if(dato=='letrita'){ //comparar para transmitir
+		//código
+	}
+		
+}
+void Keyboard_init(){
+	DDRT = 0b00001111;									//7->4: entradas,3->0: salidas(rotar tierra)
+	PORTT = 0b11111111;
+}
 
 int main(void)
 {
-	//srand(0); //seed
-	//random values
-	// rnd = rand() % (b-a) + a; //Random within a limit [a;b)
- 
-	LCD_init();
-	//teclado
-	DDRT = 0b00001111;					//7->4: entradas,3->0: salidas(rotar tierra)
-	PORTT = 0b11111111;
-	//pruebas
-	DDRD = 0;
-	
-	uint8_t tecla;
-	
+	//DDRD = 0;//pruebas
 	while (1){
 		tecla = pressed();
-
 	}
 	
 }
