@@ -16,15 +16,24 @@ public class CollectCoins : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void OnTriggerEnter(Collider Col){
+    public IEnumerator OnTriggerEnter(Collider Col){
         if(Col.gameObject.tag == "Coin"){
             coins += 1;
             Col.gameObject.SetActive(false);
             coinsSound.Play();
             Coinstext.text = coins.ToString();
-            if(coins == 5) SceneManager.LoadScene("LoadingGame");
+            if(coins == 5){
+                Debug.Log("antes bro");
+                 yield return new WaitForSeconds (1f);
+                SceneManager.LoadScene("Winner");
+                Debug.Log("Después bro");
+
+            }
+             yield return new WaitForSeconds (0f);
         }
+         yield return new WaitForSeconds (0f);
          //coinsSound.Stop();
          //m_ToggleChange = false;
     }
+ 
 }
