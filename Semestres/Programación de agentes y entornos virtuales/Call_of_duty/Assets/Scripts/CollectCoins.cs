@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class CollectCoins : MonoBehaviour
 {
@@ -20,8 +21,8 @@ public class CollectCoins : MonoBehaviour
             coins += 1;
             Col.gameObject.SetActive(false);
             coinsSound.Play();
-            
             Coinstext.text = coins.ToString();
+            if(coins == 5) SceneManager.LoadScene("LoadingGame");
         }
          //coinsSound.Stop();
          //m_ToggleChange = false;
