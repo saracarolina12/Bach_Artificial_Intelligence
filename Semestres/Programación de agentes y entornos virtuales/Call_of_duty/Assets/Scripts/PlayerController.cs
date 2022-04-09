@@ -14,6 +14,9 @@ public class PlayerController : MonoBehaviour
     public float sensibility = 0.01f;
     private bool jmp;
     public float jumpForce = 5f;
+    void Start(){
+        
+    }
     private void Awake() { 
         control = new PlayerControllers();
         actions = control.Gameplay;
@@ -21,7 +24,10 @@ public class PlayerController : MonoBehaviour
         camT = transform.GetChild(0);
 		
 		actions.MoveCamera.performed += ctx => mouseVector = ctx.ReadValue<Vector2>();
-        actions.Movement.performed += ctx => moveVector = ctx.ReadValue<Vector2>();
+        actions.Movement.performed += ctx =>{
+            moveVector = ctx.ReadValue<Vector2>();
+        };
+        
         actions.Jump.performed += ctx => jmp = true;
         
     }
@@ -34,6 +40,7 @@ public class PlayerController : MonoBehaviour
     private void Update() { 
         transform.Rotate( 0f, mouseVector.x * sensibility ,0f);
 		camT.Rotate( -mouseVector.y * sensibility ,0f, 0f);	
+        //rb.AddRelativeForce (( (transform.forward * moveVector.y) + (transform.right * moveVector.x)) - rb.velocity);
         rb.AddForce(((transform.forward * moveVector.y) + (transform.right * moveVector.x)) * force);
         if (jmp && rb.velocity.y == 0) rb.AddForce(transform.up * jumpForce);
         jmp = false;
