@@ -24,10 +24,7 @@ public class PlayerController : MonoBehaviour
         camT = transform.GetChild(0);
 		
 		actions.MoveCamera.performed += ctx => mouseVector = ctx.ReadValue<Vector2>();
-        actions.Movement.performed += ctx =>{
-            moveVector = ctx.ReadValue<Vector2>();
-        };
-        
+        actions.Movement.performed += ctx => moveVector = ctx.ReadValue<Vector2>();
         actions.Jump.performed += ctx => jmp = true;
         
     }

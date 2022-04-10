@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class CollectCoins : MonoBehaviour
 {
     AudioSource coinsSound;
+    public Slider healthBar;
+    public Image healthfill;
     public Text Coinstext;
     public int coins;
     bool m_ToggleChange;
@@ -23,17 +25,19 @@ public class CollectCoins : MonoBehaviour
             coinsSound.Play();
             Coinstext.text = coins.ToString();
             if(coins == 5){
-                Debug.Log("antes bro");
-                 yield return new WaitForSeconds (1f);
+                yield return new WaitForSeconds (1f);
                 SceneManager.LoadScene("Winner");
-                Debug.Log("Después bro");
-
             }
              yield return new WaitForSeconds (0f);
+        }else if(Col.gameObject.tag == "Zombie"){
+                yield return new WaitForSeconds (1f);
+                healthBar.value++;
+                Debug.Log(healthBar.value);
+                if(healthBar.value == 10){
+                    yield return new WaitForSeconds (1f);
+                    SceneManager.LoadScene("GameOver");
+                }
         }
-         yield return new WaitForSeconds (0f);
-         //coinsSound.Stop();
-         //m_ToggleChange = false;
+        yield return new WaitForSeconds (0f);
     }
- 
 }
