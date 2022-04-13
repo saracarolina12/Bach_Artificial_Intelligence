@@ -636,7 +636,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 980fb31838f84464a8b7721b144b9ca4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.121
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -867,7 +867,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9433962, g: 0.77874684, b: 0.77874684, a: 1}
+  m_Color: {r: 1, g: 0.6179246, b: 0.6179246, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:

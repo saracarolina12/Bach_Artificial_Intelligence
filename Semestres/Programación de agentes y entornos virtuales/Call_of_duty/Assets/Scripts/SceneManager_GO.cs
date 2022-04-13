@@ -10,6 +10,5 @@ public class SceneManager_GO : MonoBehaviour
     }
     public void ExitGame(){
         Application.Quit();
-        Debug.Log("Exit Game");
     }
 }

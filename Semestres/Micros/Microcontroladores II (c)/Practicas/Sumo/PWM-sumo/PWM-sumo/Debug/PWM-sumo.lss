@@ -1,0 +1,188 @@
+
+PWM-sumo.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000000dc  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00800060  00800060  00000130  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .comment      00000030  00000000  00000000  00000130  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  00000160  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000020  00000000  00000000  0000019c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   000006a7  00000000  00000000  000001bc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 000005f5  00000000  00000000  00000863  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   000002b4  00000000  00000000  00000e58  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000024  00000000  00000000  0000110c  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    000003a7  00000000  00000000  00001130  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    00000014  00000000  00000000  000014d7  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000010  00000000  00000000  000014eb  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 2a 00 	jmp	0x54	; 0x54 <__ctors_end>
+   4:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+   8:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+   c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  10:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  14:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  18:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  1c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  20:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  24:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  28:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  2c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  30:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  34:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  38:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  3c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  40:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  44:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  48:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  4c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  50:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+
+00000054 <__ctors_end>:
+  54:	11 24       	eor	r1, r1
+  56:	1f be       	out	0x3f, r1	; 63
+  58:	cf e5       	ldi	r28, 0x5F	; 95
+  5a:	d4 e0       	ldi	r29, 0x04	; 4
+  5c:	de bf       	out	0x3e, r29	; 62
+  5e:	cd bf       	out	0x3d, r28	; 61
+  60:	0e 94 36 00 	call	0x6c	; 0x6c <main>
+  64:	0c 94 6c 00 	jmp	0xd8	; 0xd8 <_exit>
+
+00000068 <__bad_interrupt>:
+  68:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+0000006c <main>:
+#include <stdint.h>
+
+
+int main(void)
+{
+	PORTDIGITAL = ( (1<<ID)|(1<<DD) );
+  6c:	85 e0       	ldi	r24, 0x05	; 5
+  6e:	84 bb       	out	0x14, r24	; 20
+	//Varia el ocr
+	//delay(500)
+	//Varia el ocr
+	//delay(500)
+	//PWM
+	TIFR = 0b00000011;
+  70:	83 e0       	ldi	r24, 0x03	; 3
+  72:	88 bf       	out	0x38, r24	; 56
+	TCNT0 = 0;
+  74:	12 be       	out	0x32, r1	; 50
+	OCR0 = 255;
+  76:	8f ef       	ldi	r24, 0xFF	; 255
+  78:	8c bf       	out	0x3c, r24	; 60
+	TCCR0 = 0b01101011;
+  7a:	8b e6       	ldi	r24, 0x6B	; 107
+  7c:	83 bf       	out	0x33, r24	; 51
+	//Lecturas analogicas
+    ADMUX = 0b01100000;
+  7e:	80 e6       	ldi	r24, 0x60	; 96
+  80:	87 b9       	out	0x07, r24	; 7
+    ADCSRA = 0b11000000;
+  82:	80 ec       	ldi	r24, 0xC0	; 192
+  84:	86 b9       	out	0x06, r24	; 6
+	DDRANALOG = 0; 
+  86:	1a ba       	out	0x1a, r1	; 26
+	PORTANALOG = 0; 
+  88:	1a ba       	out	0x1a, r1	; 26
+	//Motores y sensores logicos
+    DDRDIGITAL = ( (0<<DB) | (0<<IB) | (1<<DR) | (1<<DD) | (1<<IR) | (1<<ID) );
+  8a:	8f e0       	ldi	r24, 0x0F	; 15
+  8c:	84 bb       	out	0x14, r24	; 20
+    PORTDIGITAL = 0;
+  8e:	14 ba       	out	0x14, r1	; 20
+	
+	//PWM
+	DDRB |= (1<<3);
+  90:	87 b3       	in	r24, 0x17	; 23
+  92:	88 60       	ori	r24, 0x08	; 8
+  94:	87 bb       	out	0x17, r24	; 23
+	DDRD |= (1<<7);
+  96:	81 b3       	in	r24, 0x11	; 17
+  98:	80 68       	ori	r24, 0x80	; 128
+  9a:	81 bb       	out	0x11, r24	; 17
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+  9c:	2f ef       	ldi	r18, 0xFF	; 255
+  9e:	81 e1       	ldi	r24, 0x11	; 17
+  a0:	9a e7       	ldi	r25, 0x7A	; 122
+  a2:	21 50       	subi	r18, 0x01	; 1
+  a4:	80 40       	sbci	r24, 0x00	; 0
+  a6:	90 40       	sbci	r25, 0x00	; 0
+  a8:	e1 f7       	brne	.-8      	; 0xa2 <main+0x36>
+  aa:	00 c0       	rjmp	.+0      	; 0xac <main+0x40>
+  ac:	00 00       	nop
+	_delay_ms(5000);
+	
+    while (1) 
+    {
+		//Sensor sharp izquierdo
+	    ADMUX = 0b01100000;
+  ae:	80 e6       	ldi	r24, 0x60	; 96
+  b0:	87 b9       	out	0x07, r24	; 7
+	    ADCSRA|=(1<<6);
+  b2:	86 b1       	in	r24, 0x06	; 6
+  b4:	80 64       	ori	r24, 0x40	; 64
+  b6:	86 b9       	out	0x06, r24	; 6
+	    while( ADCSRA & (1<<ADSC) );
+  b8:	36 99       	sbic	0x06, 6	; 6
+  ba:	fe cf       	rjmp	.-4      	; 0xb8 <main+0x4c>
+	    val = (ADCH*5)/256;
+  bc:	85 b1       	in	r24, 0x05	; 5
+		if(val < lower_val && val > upper_val) sharp_izq = 0;
+		else sharp_izq = 1;
+	    
+	    //Sensor sharp izquierdo
+	    ADMUX = 0b01100001;
+  be:	81 e6       	ldi	r24, 0x61	; 97
+  c0:	87 b9       	out	0x07, r24	; 7
+	    ADCSRA|=(1<<6);
+  c2:	86 b1       	in	r24, 0x06	; 6
+  c4:	80 64       	ori	r24, 0x40	; 64
+  c6:	86 b9       	out	0x06, r24	; 6
+	    while( ADCSRA & (1<<ADSC) );
+  c8:	36 99       	sbic	0x06, 6	; 6
+  ca:	fe cf       	rjmp	.-4      	; 0xc8 <main+0x5c>
+	    val = (ADCH*5)/256;
+  cc:	85 b1       	in	r24, 0x05	; 5
+	    if(val < lower_val && val > upper_val) sharp_der = 0;
+		else sharp_der = 1;
+    
+		//Sensor piso izquierdo
+		if(PINDIGITAL & (1 << IB)) bool_izq = 1;
+  ce:	9c 9b       	sbis	0x13, 4	; 19
+  d0:	00 c0       	rjmp	.+0      	; 0xd2 <main+0x66>
+		else bool_izq = 0;
+    
+		//Sensor piso derecho
+		if(PINDIGITAL & (1 << DB)) bool_der = 1;
+  d2:	9d 9b       	sbis	0x13, 5	; 19
+  d4:	ec cf       	rjmp	.-40     	; 0xae <main+0x42>
+  d6:	eb cf       	rjmp	.-42     	; 0xae <main+0x42>
+
+000000d8 <_exit>:
+  d8:	f8 94       	cli
+
+000000da <__stop_program>:
+  da:	ff cf       	rjmp	.-2      	; 0xda <__stop_program>

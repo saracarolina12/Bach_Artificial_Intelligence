@@ -349,8 +349,13 @@ int main(void)
 	sei();
 	LCD_init();
 	USART_Init(MYUBRR);
+	DDRB = 1;
+	PORTB = 1;
+	delay(500);
+	PORTB = 0;
 	while (1){
-
+		if(dato == '1') PORTB = 1;
+		else PORTB = 0;
 	}
 	
 }

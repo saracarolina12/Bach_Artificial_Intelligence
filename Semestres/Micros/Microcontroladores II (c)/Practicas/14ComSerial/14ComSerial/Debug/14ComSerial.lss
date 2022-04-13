@@ -3,31 +3,31 @@
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
-  0 .text         00000376  00000000  00000000  00000074  2**1
+  0 .text         000003a0  00000000  00000000  00000074  2**1
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  1 .data         00000000  00800060  00800060  000003ea  2**0
+  1 .data         00000000  00800060  00800060  00000414  2**0
                   CONTENTS, ALLOC, LOAD, DATA
-  2 .bss          00000023  00800060  00800060  000003ea  2**0
+  2 .bss          00000023  00800060  00800060  00000414  2**0
                   ALLOC
-  3 .comment      00000030  00000000  00000000  000003ea  2**0
+  3 .comment      00000030  00000000  00000000  00000414  2**0
                   CONTENTS, READONLY
-  4 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  0000041c  2**2
+  4 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  00000444  2**2
                   CONTENTS, READONLY
-  5 .debug_aranges 000000b0  00000000  00000000  00000458  2**0
+  5 .debug_aranges 000000b0  00000000  00000000  00000480  2**0
                   CONTENTS, READONLY, DEBUGGING
-  6 .debug_info   000013c2  00000000  00000000  00000508  2**0
+  6 .debug_info   000013fc  00000000  00000000  00000530  2**0
                   CONTENTS, READONLY, DEBUGGING
-  7 .debug_abbrev 000007a5  00000000  00000000  000018ca  2**0
+  7 .debug_abbrev 000007a5  00000000  00000000  0000192c  2**0
                   CONTENTS, READONLY, DEBUGGING
-  8 .debug_line   000007a6  00000000  00000000  0000206f  2**0
+  8 .debug_line   000007dc  00000000  00000000  000020d1  2**0
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_frame  000001c8  00000000  00000000  00002818  2**2
+  9 .debug_frame  000001c8  00000000  00000000  000028b0  2**2
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_str    00000492  00000000  00000000  000029e0  2**0
+ 10 .debug_str    00000492  00000000  00000000  00002a78  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_loc    0000080a  00000000  00000000  00002e72  2**0
+ 11 .debug_loc    00000852  00000000  00000000  00002f0a  2**0
                   CONTENTS, READONLY, DEBUGGING
- 12 .debug_ranges 000000a0  00000000  00000000  0000367c  2**0
+ 12 .debug_ranges 000000a0  00000000  00000000  0000375c  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -77,7 +77,7 @@ Disassembly of section .text:
   6c:	b2 07       	cpc	r27, r18
   6e:	e1 f7       	brne	.-8      	; 0x68 <.do_clear_bss_loop>
   70:	0e 94 b1 01 	call	0x362	; 0x362 <main>
-  74:	0c 94 b9 01 	jmp	0x372	; 0x372 <_exit>
+  74:	0c 94 ce 01 	jmp	0x39c	; 0x39c <_exit>
 
 00000078 <__bad_interrupt>:
   78:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
@@ -393,7 +393,7 @@ Disassembly of section .text:
  30e:	08 95       	ret
 
 00000310 <__vector_11>:
-
+   
 volatile uint8_t dato;
 ISR(USART_RXC_vect){
  310:	1f 92       	push	r1
@@ -451,10 +451,43 @@ int main(void)
  368:	87 e6       	ldi	r24, 0x67	; 103
  36a:	90 e0       	ldi	r25, 0x00	; 0
  36c:	0e 94 7e 01 	call	0x2fc	; 0x2fc <USART_Init>
- 370:	ff cf       	rjmp	.-2      	; 0x370 <main+0xe>
+	DDRB = 1;
+ 370:	81 e0       	ldi	r24, 0x01	; 1
+ 372:	87 bb       	out	0x17, r24	; 23
+	PORTB = 1;
+ 374:	88 bb       	out	0x18, r24	; 24
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
 
-00000372 <_exit>:
- 372:	f8 94       	cli
+	__builtin_avr_delay_cycles(__ticks_dc);
+ 376:	2f e7       	ldi	r18, 0x7F	; 127
+ 378:	8a e1       	ldi	r24, 0x1A	; 26
+ 37a:	96 e0       	ldi	r25, 0x06	; 6
+ 37c:	21 50       	subi	r18, 0x01	; 1
+ 37e:	80 40       	sbci	r24, 0x00	; 0
+ 380:	90 40       	sbci	r25, 0x00	; 0
+ 382:	e1 f7       	brne	.-8      	; 0x37c <main+0x1a>
+ 384:	00 c0       	rjmp	.+0      	; 0x386 <main+0x24>
+ 386:	00 00       	nop
+	delay(500);
+	PORTB = 0;
+ 388:	18 ba       	out	0x18, r1	; 24
+	while (1){
+		if(dato == '1') PORTB = 1;
+ 38a:	80 91 82 00 	lds	r24, 0x0082	; 0x800082 <dato>
+ 38e:	81 33       	cpi	r24, 0x31	; 49
+ 390:	19 f4       	brne	.+6      	; 0x398 <main+0x36>
+ 392:	81 e0       	ldi	r24, 0x01	; 1
+ 394:	88 bb       	out	0x18, r24	; 24
+ 396:	f9 cf       	rjmp	.-14     	; 0x38a <main+0x28>
+		else PORTB = 0;
+ 398:	18 ba       	out	0x18, r1	; 24
+ 39a:	f7 cf       	rjmp	.-18     	; 0x38a <main+0x28>
 
-00000374 <__stop_program>:
- 374:	ff cf       	rjmp	.-2      	; 0x374 <__stop_program>
+0000039c <_exit>:
+ 39c:	f8 94       	cli
+
+0000039e <__stop_program>:
+ 39e:	ff cf       	rjmp	.-2      	; 0x39e <__stop_program>
