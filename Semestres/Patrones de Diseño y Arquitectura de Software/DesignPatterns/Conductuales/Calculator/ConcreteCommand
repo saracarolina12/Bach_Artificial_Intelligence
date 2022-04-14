@@ -1,0 +1,17 @@
+using System;
+
+namespace Calculator
+{
+	public class ConcreteCommand : Command
+	{
+		public ConcreteCommand(Receiver receiver) : base(receiver)
+		{
+			Console.WriteLine ("New command created");
+		}
+		public override void Execute(int a, int b, char op, float res )
+		{
+            res = receiver.receive_data(a, b, op);
+		}
+	}
+	
+}
