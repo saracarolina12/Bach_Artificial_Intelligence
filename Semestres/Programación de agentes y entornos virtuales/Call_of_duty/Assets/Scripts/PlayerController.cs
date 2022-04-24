@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 mouseVector;
     private Rigidbody rb;
 	private Transform camT;
-    public float force = 10f;
+    public float force = 20f;
     public float sensibility = 0.01f;
     private bool jmp;
     public float jumpForce = 5f;
@@ -37,7 +37,6 @@ public class PlayerController : MonoBehaviour
     private void Update() { 
         transform.Rotate( 0f, mouseVector.x * sensibility ,0f);
 		camT.Rotate( -mouseVector.y * sensibility ,0f, 0f);	
-        //rb.AddRelativeForce (( (transform.forward * moveVector.y) + (transform.right * moveVector.x)) - rb.velocity);
         rb.AddForce(((transform.forward * moveVector.y) + (transform.right * moveVector.x)) * force);
         if (jmp && rb.velocity.y == 0) rb.AddForce(transform.up * jumpForce);
         jmp = false;

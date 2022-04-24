@@ -18,7 +18,7 @@ namespace Calculator
 			Receiver receiver = new Receiver(); //quien recibe los números y hacer los cálculos
 			Command command = new ConcreteCommand(receiver);
 			Invoker invoker = new Invoker();
-			invoker.Invoke(command,a, b, op,res);
+			invoker.Invoke(command,a, b, op, res);
 		}
 	}
 }

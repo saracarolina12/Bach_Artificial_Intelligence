@@ -69,6 +69,7 @@ public class CollectCoins : MonoBehaviour
                     Quaternion newCameraRot = Quaternion.Euler(-4.7f,currentRot[1],-58.11f);
                     mainCamera.transform.rotation = newCameraRot;
                     //SHOW TEXT GAME OVER
+                    Debug.Log("GameOver");
                     var GOcolor = gameoverText.GetComponent<Text>().color;
                     color.a = 1f;
                     gameoverText.GetComponent<Text>().color = color;

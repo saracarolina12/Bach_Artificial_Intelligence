@@ -53,6 +53,7 @@
 
         public void OnTriggerEnter(Collider Col){
             if(Col.gameObject.tag == "Zombie"){
+                 Debug.Log("ontriggerrrrrr");
                 if(weAttacked == true){
                      hurtZombie.Play();
                     if(health>0) health--;

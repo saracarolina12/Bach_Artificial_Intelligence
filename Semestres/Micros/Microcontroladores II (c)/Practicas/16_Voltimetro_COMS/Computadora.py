@@ -1,12 +1,14 @@
-import serial
-with serial.Serial() as computer:
-    computer.baudrate = 4800 
-    computer.port = 'COM1' 
-    computer.stopbits = 2 
-    computer.bytesize = 8 
-    computer.parity = 'N' 
-    
-    computer.open() 
-    while(1):
-        dato = computer.read() #lee el dato
-        print(int.from_bytes(dato , byteorder='little') * 5/255) #lo imprime
+'''
+lst = []
+
+for i in range(0, 4):
+    user_movies = int(input("Write 5 ID's of your favourite movies: "))
+
+    lst.append(user_movies) # adding the element
+     
+print(lst)
+'''
+
+user_movies = list(map(int,input("Write 5 ID's of your favourite movies: ").strip().split()))[:5]
+ 
+print("\nList is - ", user_movies[0])

@@ -47,7 +47,7 @@ public class Persecution_Enemy : MonoBehaviour
         }
         if(playerInSightRange == true){
             myaudio = GetComponent<AudioSource>();
-            myaudio.Play();
+            //myaudio.Play();
         }
     }
 
@@ -83,12 +83,7 @@ public class Persecution_Enemy : MonoBehaviour
         agent.SetDestination(player.position);
         //agent.SetDestination(transform.position);
     }
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
 
-        if (health <= 0) Invoke(nameof(DestroyEnemy), 0.5f);
-    }
     private void DestroyEnemy()
     {
         Destroy(gameObject);
