@@ -18,6 +18,7 @@
 
 #define isClear(r, i) (!(r & (1 << i)))
 #define isSet(r, i) (r & (1 << i))
+
 #define mZERO(who) memset(who, 0, sizeof(who));
 #define mONE(who) memset(who, 1, sizeof(who));
 #define mNEG(who) memset(who, -1, sizeof(who));

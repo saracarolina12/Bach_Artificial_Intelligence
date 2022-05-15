@@ -11,10 +11,11 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <util/twi.h>
 
-#define DDRLCD DDRC
-#define PORTLCD PORTC
-#define PINLCD PINC
+#define DDRLCD DDRA
+#define PORTLCD PORTA
+#define PINLCD PINA
 #define RS 4
 #define RW 5
 #define E 6
@@ -40,15 +41,155 @@
 #define isClear(r, i) (!(r & (1 << i)))
 #define isSet(r, i) (r & (1 << i))
 
-//DHT-11
-#define DHT11_PIN 0
-#define PIN_SENS PINA
-#define PORT_SENS PORTA
-#define DDR_SENS DDRA
+//DHT-11 temphum
+#define PIN 5
+#define DHT_PIN PIND
+#define DHT_PORT PORTD
+#define DHT_DDR DDRD
+#define maxTemp 32
 
-/**** VARIABLES ****/
-uint8_t c=0,I_RH,D_RH,I_Temp,D_Temp,CheckSum;
+//DS3231 reloj
+#define DS3231_ReadMode_U8    (0xD1)
+#define DS3231_WriteMode_U8   (0xD0)
+#define DS3231_REG_Seconds    (0x00)
+#define SCL_CLOCK  100000
+
+/** VARIABLES **/
 char uno[17], dos[17];
+
+typedef struct
+{
+	uint8_t sec;
+	uint8_t min;
+	uint8_t hour;
+	uint8_t weekDay;
+	uint8_t date;
+	uint8_t month;
+	uint8_t year;
+}rtc_t;
+
+void init_i2c(void)
+{
+	/* initialize TWI clock: 100 kHz clock, TWPS = 0 => prescaler = 1 */
+	
+	TWSR = 0;                         /* no prescaler */
+	TWBR = ((F_CPU/SCL_CLOCK)-16)/2;  /* must be > 10 for stable operation */
+	TWCR = (1<<TWINT) | (1<<TWSTA) | (1<<TWEN);
+}
+
+uint8_t i2c_readAck(void)
+{
+	TWCR = (1<<TWINT) | (1<<TWEN) | (1<<TWEA);
+	while(!(TWCR & (1<<TWINT)));
+
+	return TWDR;
+}
+
+uint8_t i2c_readNack(void)
+{
+	TWCR = (1<<TWINT) | (1<<TWEN);
+	while(!(TWCR & (1<<TWINT)));
+	
+	return TWDR;
+}
+
+void i2c_stop(void)
+{
+	/* send stop condition */
+	TWCR = (1<<TWINT) | (1<<TWEN) | (1<<TWSTO);
+	// wait until stop condition is executed and bus released
+	while(TWCR & (1<<TWSTO));
+}
+
+uint8_t i2c_write(uint8_t byte_data)
+{
+	uint8_t   twst;
+	
+	// send data to the previously addressed device
+	TWDR = byte_data;
+	TWCR = (1<<TWINT) | (1<<TWEN);
+
+	// wait until transmission completed
+	while(!(TWCR & (1<<TWINT)));
+
+	// check value of TWI Status Register. Mask prescaler bits
+	twst = TW_STATUS & 0xF8;
+	if( twst != TW_MT_DATA_ACK) return 1;
+	return 0;
+}
+
+uint8_t i2c_start(uint8_t addr)
+{
+	uint8_t   twst;
+	TWCR = (1<<TWINT) | (1<<TWSTA) | (1<<TWEN);
+	while(!(TWCR & (1<<TWINT)));                    // wait until transmission completet
+	twst = TW_STATUS & 0xF8;                    // check value of TWI Status Register. Mask prescaler bits.
+	if ( (twst != TW_START) && (twst != TW_REP_START)) return 1;
+	TWDR = addr;                             // send device address
+	TWCR = (1<<TWINT) | (1<<TWEN);
+	while(!(TWCR & (1<<TWINT)));            // wail until transmission completed and ACK/NACK has been received
+	twst = TW_STATUS & 0xF8;               // check value of TWI Status Register. Mask prescaler bits.
+	if ( (twst != TW_MT_SLA_ACK) && (twst != TW_MR_SLA_ACK) ) return 1;
+	return 0;
+}
+
+uint8_t DS3231_Bin_Bcd(uint8_t binary_value)
+{
+	uint8_t temp;
+	uint8_t retval;
+	temp = binary_value;
+	retval = 0;
+	while(1)
+	{
+		if(temp >= 10){
+			temp -= 10;
+			retval += 0x10;
+			}else{
+			retval += temp;
+			break;
+		}
+	}
+	return(retval);
+}
+
+void DS3231_Set_Date_Time(uint8_t dy, uint8_t mth, uint8_t yr, uint8_t dw, uint8_t hr, uint8_t mn, uint8_t sc)
+{
+	PORTB = 1;
+	sc &= 0x7F;
+	hr &= 0x3F;
+	i2c_start(0xD1);
+	i2c_write(0xD0);
+	i2c_write(0x00);
+	i2c_write(DS3231_Bin_Bcd(sc));
+	i2c_write(DS3231_Bin_Bcd(mn));
+	i2c_write(DS3231_Bin_Bcd(hr));
+	i2c_write(DS3231_Bin_Bcd(dw));
+	i2c_write(DS3231_Bin_Bcd(dy));
+	i2c_write(DS3231_Bin_Bcd(mth));
+	i2c_write(DS3231_Bin_Bcd(yr));
+	i2c_stop();
+	PORTB = 2;
+}
+
+void ds3231_GetDateTime(rtc_t *rtc)
+{
+	i2c_start(0xD0);                            // Start I2C communication
+	//i2c_write(DS3231_WriteMode_U8);        // connect to ds3231 by sending its ID on I2c Bus
+	i2c_write(DS3231_REG_Seconds);         // Request Sec RAM address at 00H
+	i2c_stop();                            // Stop I2C communication after selecting Sec Register
+
+	i2c_start(0xD1);                            // Start I2C communication
+	//i2c_write(DS3231_ReadMode_U8);            // connect to ds3231(Read mode) by sending its ID
+
+	rtc->sec = i2c_readAck();                // read second and return Positive ACK
+	rtc->min = i2c_readAck();                 // read minute and return Positive ACK
+	rtc->hour= i2c_readAck();               // read hour and return Negative/No ACK
+	rtc->weekDay = i2c_readAck();           // read weekDay and return Positive ACK
+	rtc->date= i2c_readAck();              // read Date and return Positive ACK
+	rtc->month=i2c_readAck();            // read Month and return Positive ACK
+	rtc->year =i2c_readNack();             // read Year and return Negative/No ACK
+}
+
 
 void saca_uno(volatile uint8_t *LUGAR, uint8_t BIT){
 	*LUGAR=*LUGAR|(1<<BIT);
@@ -57,7 +198,6 @@ void saca_uno(volatile uint8_t *LUGAR, uint8_t BIT){
 void saca_cero(volatile uint8_t *LUGAR, uint8_t BIT){
 	*LUGAR=*LUGAR&~(1<<BIT);
 }
-
 
 void LCD_wait_flag(void){
 	//	_delay_ms(100);
@@ -131,45 +271,6 @@ void LCD_wr_instruction(uint8_t instruccion){
 }
 
 
-void Request_HUMTEMP()				/* Microcontroller send start pulse/request */
-{
-	DDR_SENS |= (1<<DHT11_PIN);
-	PORT_SENS |= (1<<DHT11_PIN); /* add this line */
-	_delay_ms(100); /* add this line */
-	PORT_SENS &= ~(1<<DHT11_PIN); /* set to low pin */
-	_delay_ms(20); /* wait for 20ms */
-	PORT_SENS |= (1<<DHT11_PIN); /* set to high pin */
-}
-
-int Response_HUMTEMP()
-{
-	DDR_SENS &= ~(1<<DHT11_PIN);
-	_delay_us(39);
-	if((PIN_SENS & (1<<DHT11_PIN))) //response signal error check!
-	return 1;
-	_delay_us(80);
-	if(!(PIN_SENS & (1<<DHT11_PIN))) //pulled ready output check!
-	return 1;
-	_delay_us(80);
-}
-
-uint8_t Receive_data_HUMTEMP()			/* receive data */
-{
-	c=0;
-	for (int q=0; q<8; q++)
-	{
-		while((PIN_SENS & (1<<DHT11_PIN)) == 0);  /* check received bit 0 or 1 */
-		
-		_delay_us(30);
-		if(PIN_SENS & (1<<DHT11_PIN))/* if high pulse is greater than 30ms */
-			c = (c<<1)|(0x01);	/* then its logic HIGH */
-		else			/* otherwise its logic LOW */
-			c = (c<<1);
-		while(PIN_SENS & (1<<DHT11_PIN));
-	}
-	return c;
-}
-
 void LCD_wr_string(volatile uint8_t *s){
 	uint8_t c;
 	while((c=*s++)){
@@ -196,12 +297,12 @@ void LCD_init(void){
 	LCD_wr_instruction(LCD_Cmd_OnsCsB); //Enciende el display
 }
 
-void LCD_wr_lineOne(volatile uint8_t *a){
+void LCD_wr_lineOne(volatile uint8_t a){
 	LCD_wr_instruction(LCD_Cmd_Clear);
 	LCD_wr_instruction(LCD_Cmd_Home);
 	LCD_wr_string(a);
 }
-void LCD_wr_lineTwo(volatile uint8_t *b){
+void LCD_wr_lineTwo(volatile uint8_t b){
 	LCD_wr_instruction(0b11000000);
 	LCD_wr_string(b);
 }
@@ -213,59 +314,152 @@ void LCD_wr_lines(uint8_t *a, uint8_t *b){
 	LCD_wr_string(b);
 }
 
+void LCD_printTime(rtc_t rtc){
+	uint8_t c[16];
+	sprintf(c, "%d:%d", rtc.hour, rtc.min);
+	LCD_wr_lines("", c);
+}
+
+void DHT11_init(void){						
+	DHT_DDR |= (1<<PIN);					//salida
+	DHT_PORT |= (1<<PIN);					//encendido
+}
+
+uint8_t DHT11_read(int *temp, int *hum){
+	uint8_t bits[5];						//guardo valores que recibo
+	uint8_t cont=0;		
+	
+	//MCU sends out start signal and pulls down voltage for 18ms
+	DHT_PORT &= ~(1<<PIN);					//apagado 
+	_delay_ms(18);
+	DHT_PORT |= (1<<PIN);					//encendido
+	DHT_DDR &= ~(1<<PIN);					//entrada para recibir datos
+	
+	//MCU pulls up voltage and waits for DHT response (20-40us)
+	cont = 0;
+	while(DHT_PIN & (1<<PIN)){
+		_delay_us(2);
+		cont +=2;							//incrementa cada 2us
+		if(cont > 60){						//si entra aquí, hay error
+			DHT_DDR |= (1<<PIN);			//salida
+			DHT_PORT |= (1<<PIN);			//encendido
+			return 0;
+		}
+	}
+	
+	//DHT sends out response signal & keeps it for 80us
+	cont = 0;
+	while(!(DHT_PIN & (1<<PIN))){
+		_delay_us(2);
+		cont+=2;
+		if(cont > 100){
+			DHT_DDR |= (1<<PIN);			//salida
+			DHT_PORT |= (1<<PIN);			//encendido
+			return 0;
+		}
+	}
+	
+	//DHT pulls up voltage and keeps it for 80us
+	cont = 0;
+	while(DHT_PIN & (1<<PIN)){
+		_delay_us(2);
+		cont+=2;
+		if(cont > 100){
+			DHT_DDR |= (1<<PIN);			//salida
+			DHT_PORT |= (1<<PIN);			//encendido
+			return 0;
+		}
+	}
+	
+	//Start data transmission
+	for(uint8_t j=0; j<5; j++){
+		uint8_t res = 0;
+		for(uint8_t i=0; i<8; i++){
+			while(!(DHT_PIN & (1<<PIN)));
+				_delay_us(35);
+			if(DHT_PIN & (1<<PIN)) 
+				res |= (1<<(7-i));
+			while(DHT_PIN & (1<<PIN));
+		}
+		bits[j] = res;
+	}
+	DHT_DDR |= (1<<PIN);					//salida
+	DHT_PORT |= (1<<PIN);					//encendido
+	
+	//convert temp&hum
+	if((uint8_t)(bits[0] + bits[1] + bits[2] + bits[3]) == bits[4]){ //si es igual a checksum, todo ok
+		uint16_t rawhum = bits[0]<<8 | bits[1];
+		uint16_t rawtemp = bits[2]<<8 | bits[3];
+		
+		if(rawtemp & 0x8000){				//temperatura negativa
+			temp = (int)((rawtemp & 0x7fff)/10)-1;
+		}else{
+			*temp = (int)(rawtemp)/10;
+		}
+		
+		*hum = (int)(rawhum)/10;
+		return 1;
+	}	
+	return 1;
+}
 
 
-
-
-
+int lastTemp, lastHum;
 int main(void)
 {
-	DDRA = 0;
-	PORTA = 0;
-	char IZQ_hum[5], DER_hum[5], IZQ_temp[5], DER_temp[5];
+	int temp=0, hum=0;
+	int moist=0.0;
+	uint8_t mycont = 200;
 	LCD_init();
-	//LCD_wr_string("Sarita :D");
+	DHT11_init();
+	/*Ventilador*/
+	DDRB = 0b000000001; //B0 salida
+	/*Bomba de agua*/
+	
+	
+	/**/
+		init_i2c();
+		rtc_t rn;
+		//DS3231_Set_Date_Time(15,5,22,0,11,42,0);            // Day,Month,Year,Day_Week,Hour,Minute,Second
+		
+	/**/
 	while (1)
 	{
-		Request_HUMTEMP();		/* send start pulse */
-		Response_HUMTEMP();		/* receive response */
-		if(Response_HUMTEMP() != 1) /* receive response */
-		{
-			LCD_wr_string("3");
-			I_RH = Receive_data_HUMTEMP(); /* store first eight bit in I_RH */
-			LCD_wr_string("4");
-			D_RH = Receive_data_HUMTEMP(); /* store next eight bit in D_RH */
-			LCD_wr_string("5");
-			I_Temp = Receive_data_HUMTEMP(); /* store next eight bit in I_Temp */
-			D_Temp = Receive_data_HUMTEMP(); /* store next eight bit in D_Temp */
-			CheckSum = Receive_data_HUMTEMP();/* store next eight bit in CheckSum */
-			LCD_wr_string("6");
-		}
-
-		LCD_wr_string("3 :D");
-		I_RH=Receive_data_HUMTEMP();	/* store first eight bit in I_RH */
-		LCD_wr_string("4");
-		D_RH=Receive_data_HUMTEMP();	/* store next eight bit in D_RH */
-		I_Temp=Receive_data_HUMTEMP();	/* store next eight bit in I_Temp */
-		D_Temp=Receive_data_HUMTEMP();	/* store next eight bit in D_Temp */
-		CheckSum=Receive_data_HUMTEMP();/* store next eight bit in CheckSum */
-		LCD_wr_string("7");
-		if((I_RH + D_RH + I_Temp + D_Temp) != CheckSum){ //error
-			LCD_wr_string("Error!!");
-		}else{
-			/* HUM */
-			//itoa(I_RH, IZQ_hum, 10); //val,char,base
-			//itoa(D_RH, DER_hum, 10); //val,char,base
-			//sprintf(uno, "%c.%c", IZQ_hum, DER_hum);
-			///* TEMP */
-			//itoa(I_Temp,IZQ_temp,10);
-			//itoa(D_Temp,DER_temp,10);
-			//sprintf(dos, "%c.%c", IZQ_temp, DER_temp);
-			//LCD_wr_lines(uno,dos);
+		/**/
+			ds3231_GetDateTime(&rn);
 			
-			
-			sprintf(uno, "H: %d %d,T: %d %d",I_RH, D_RH, I_Temp, D_Temp );
-			LCD_wr_lineOne(uno);
+			LCD_printTime(rn);
+		/**/
+		LCD_wr_instruction(LCD_Cmd_Home);
+		mycont++;
+		if(mycont>=200){				//leer cada 2000ms
+			uint8_t status = DHT11_read(&temp, &hum);
+			if(status){
+				if(lastTemp != temp/25){
+						//LCD_wr_instruction(LCD_Cmd_Home);
+					lastTemp = temp/256;
+					
+					/*muestro temperatura*/
+						//LCD_wr_string("Temp: ");
+					
+					itoa(temp/25, uno, 10);
+						//LCD_wr_string(uno);
+						//LCD_wr_string(" C");
+					/*Si excede a 32°, enciendo ventilador*/
+					if(temp/25 >= maxTemp) PORTB = 0;  //CAMBIAR 27 POR 32
+					else PORTB = 1;
+				}
+				if(lastHum != hum/25){
+						//LCD_wr_instruction(0b11000000);
+						//LCD_wr_string("Hum: ");
+					dtostrf(hum/25.6,2,2, dos);
+						//LCD_wr_string(dos);
+						//LCD_wr_string(" %");
+				}
+			}else{
+				LCD_wr_instruction(LCD_Cmd_Clear);
+				LCD_wr_string(" ");
+			}
 		}
 	}
 }
