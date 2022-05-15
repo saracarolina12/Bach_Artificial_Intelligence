@@ -12,6 +12,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <util/twi.h>
+#include <avr/interrupt.h>
+
 
 #define DDRLCD DDRA
 #define PORTLCD PORTA
@@ -54,8 +56,14 @@
 #define DS3231_REG_Seconds    (0x00)
 #define SCL_CLOCK  100000
 
+//SERIAL COM
+#define BAUD 9600
+#define MYUBRR F_CPU/16/BAUD-1
+
+
 /** VARIABLES **/
 char uno[17], dos[17];
+volatile uint8_t data = 0;
 
 typedef struct
 {
@@ -403,10 +411,36 @@ uint8_t DHT11_read(int *temp, int *hum){
 	return 1;
 }
 
+void USART_Init(uint16_t UBRR){
+	DDRD |= 0b00000010; //Pin 1: TX; Pin0: RX
+	UBRRH = (uint8_t)(UBRR >> 8); //UBRRH:UBRRL
+	UBRRL = (uint8_t)(UBRR); //UBRRH:UBRRL
+	UCSRB = (1<<RXEN) | (1<<TXEN) | (1<<RXCIE);
+	UCSRC = (1<<URSEL) | (0<<USBS) | (3<<UCSZ0);
+	
+}
+void USART_Transmit(uint8_t data) {
+	while (!(UCSRA & (1<<UDRE)));
+	UDR = data;
+}
+
+ISR(USART_RXC_vect){ //Cuando se recibe el dato, entra aqui
+	data = UDR;
+	if(data=='M'){ //comparar para transmitir
+		PORTB = 8;
+	}else if(data = 'T'){
+		PORTB = 10;
+	}
+}
+		
 
 int lastTemp, lastHum;
 int main(void)
 {
+	/*App serial COMS*/
+	sei();
+	USART_Init(MYUBRR);
+	
 	int temp=0, hum=0;
 	int moist=0.0;
 	uint8_t mycont = 200;
@@ -415,21 +449,16 @@ int main(void)
 	/*Ventilador*/
 	DDRB = 0b000000001; //B0 salida
 	/*Bomba de agua*/
-	
-	
-	/**/
-		init_i2c();
-		rtc_t rn;
-		//DS3231_Set_Date_Time(15,5,22,0,11,42,0);            // Day,Month,Year,Day_Week,Hour,Minute,Second
+	DDRD |= (1<<6); //D6 salida
+	/*Reloj*/
+	init_i2c();
+	rtc_t rn;
+	//DS3231_Set_Date_Time(15,5,22,0,11,42,0);            // Day,Month,Year,Day_Week,Hour,Minute,Second
 		
-	/**/
 	while (1)
 	{
-		/**/
-			ds3231_GetDateTime(&rn);
-			
-			LCD_printTime(rn);
-		/**/
+		ds3231_GetDateTime(&rn);
+		LCD_printTime(rn);
 		LCD_wr_instruction(LCD_Cmd_Home);
 		mycont++;
 		if(mycont>=200){				//leer cada 2000ms
