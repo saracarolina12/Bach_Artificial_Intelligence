@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Gma.QrCodeNet.Encoding;
+using Gma.QrCodeNet.Encoding.Windows.Render;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Imaging;
+using System.IO;
 
 namespace Simulacion_Pedidos
 {
@@ -64,7 +68,9 @@ namespace Simulacion_Pedidos
 
         private void readQR_Click(object sender, EventArgs e)
         {
-           
+            this.Hide();
+            Form2 f2 = new Form2();
+            f2.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -78,6 +84,11 @@ namespace Simulacion_Pedidos
         }
 
         private void ID_store_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
