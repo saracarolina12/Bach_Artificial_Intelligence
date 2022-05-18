@@ -51,8 +51,8 @@
 #define maxTemp 32
 
 //DS3231 reloj
-#define DS3231_ReadMode_U8    (0xD1)
-#define DS3231_WriteMode_U8   (0xD0)
+#define DS3231_ReadMode_U8    (0xD1) /*1101 0001*/
+#define DS3231_WriteMode_U8   (0xD0) /*1101 0000*/
 #define DS3231_REG_Seconds    (0x00)
 #define SCL_CLOCK  100000
 
@@ -82,7 +82,7 @@ void init_i2c(void)
 	
 	TWSR = 0;                         /* no prescaler */
 	TWBR = ((F_CPU/SCL_CLOCK)-16)/2;  /* must be > 10 for stable operation */
-	TWCR = (1<<TWINT) | (1<<TWSTA) | (1<<TWEN);
+	TWCR = (1<<TWINT) | (1<<TWSTA) | (1<<TWEN); /*master transmisor*/
 }
 
 uint8_t i2c_readAck(void)
@@ -182,7 +182,7 @@ void DS3231_Set_Date_Time(uint8_t dy, uint8_t mth, uint8_t yr, uint8_t dw, uint8
 void ds3231_GetDateTime(rtc_t *rtc)
 {
 	i2c_start(0xD0);                            // Start I2C communication
-	//i2c_write(DS3231_WriteMode_U8);        // connect to ds3231 by sending its ID on I2c Bus
+	i2c_write(DS3231_WriteMode_U8);        // connect to ds3231 by sending its ID on I2c Bus
 	i2c_write(DS3231_REG_Seconds);         // Request Sec RAM address at 00H
 	i2c_stop();                            // Stop I2C communication after selecting Sec Register
 
