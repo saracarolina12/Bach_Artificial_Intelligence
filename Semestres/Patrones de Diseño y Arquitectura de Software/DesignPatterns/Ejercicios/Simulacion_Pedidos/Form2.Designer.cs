@@ -42,10 +42,13 @@ namespace Simulacion_Pedidos
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.Add_button = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.name_label = new System.Windows.Forms.Label();
             this.ID_table = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.save_button = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
@@ -84,6 +87,7 @@ namespace Simulacion_Pedidos
             this.QR_container.Name = "QR_container";
             this.QR_container.Size = new System.Drawing.Size(196, 199);
             this.QR_container.TabIndex = 1;
+            this.QR_container.Paint += new System.Windows.Forms.PaintEventHandler(this.QR_container_Paint);
             // 
             // label2
             // 
@@ -145,6 +149,7 @@ namespace Simulacion_Pedidos
             // 
             this.numericUpDown1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(252)))), ((int)(((byte)(250)))));
             this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
             this.numericUpDown1.Location = new System.Drawing.Point(560, 126);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(103, 34);
@@ -154,6 +159,7 @@ namespace Simulacion_Pedidos
             // 
             this.numericUpDown2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(252)))), ((int)(((byte)(250)))));
             this.numericUpDown2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
             this.numericUpDown2.Location = new System.Drawing.Point(371, 126);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(183, 34);
@@ -164,7 +170,8 @@ namespace Simulacion_Pedidos
             this.Add_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(191)))), ((int)(((byte)(188)))));
             this.Add_button.FlatAppearance.BorderSize = 0;
             this.Add_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Add_button.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Add_button.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Add_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
             this.Add_button.Location = new System.Drawing.Point(669, 126);
             this.Add_button.Name = "Add_button";
             this.Add_button.Size = new System.Drawing.Size(116, 36);
@@ -175,14 +182,17 @@ namespace Simulacion_Pedidos
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tableLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel1.ColumnCount = 4;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.40816F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 79.59184F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 109F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 84F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 85F));
+            this.tableLayoutPanel1.Controls.Add(this.label8, 3, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label7, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.name_label, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.ID_table, 0, 0);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(371, 235);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
@@ -204,6 +214,60 @@ namespace Simulacion_Pedidos
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(414, 271);
             this.tableLayoutPanel1.TabIndex = 11;
+            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
+            // 
+            // label8
+            // 
+            this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
+            this.label8.Location = new System.Drawing.Point(337, 1);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(65, 18);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "Amount";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label7
+            // 
+            this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
+            this.label7.Location = new System.Drawing.Point(248, 1);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(47, 18);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "Price";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // name_label
+            // 
+            this.name_label.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.name_label.AutoSize = true;
+            this.name_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
+            this.name_label.Location = new System.Drawing.Point(74, 1);
+            this.name_label.Name = "name_label";
+            this.name_label.Size = new System.Drawing.Size(113, 18);
+            this.name_label.TabIndex = 1;
+            this.name_label.Text = "Product name";
+            this.name_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ID_table
+            // 
+            this.ID_table.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.ID_table.AutoSize = true;
+            this.ID_table.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ID_table.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
+            this.ID_table.Location = new System.Drawing.Point(10, 1);
+            this.ID_table.Name = "ID_table";
+            this.ID_table.Size = new System.Drawing.Size(24, 18);
+            this.ID_table.TabIndex = 0;
+            this.ID_table.Text = "ID";
+            this.ID_table.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ID_table.Click += new System.EventHandler(this.label7_Click);
             // 
             // label6
             // 
@@ -216,18 +280,6 @@ namespace Simulacion_Pedidos
             this.label6.TabIndex = 12;
             this.label6.Text = "List to stock";
             // 
-            // ID_table
-            // 
-            this.ID_table.AutoSize = true;
-            this.ID_table.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ID_table.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.ID_table.Location = new System.Drawing.Point(3, 0);
-            this.ID_table.Name = "ID_table";
-            this.ID_table.Size = new System.Drawing.Size(24, 18);
-            this.ID_table.TabIndex = 0;
-            this.ID_table.Text = "ID";
-            this.ID_table.Click += new System.EventHandler(this.label7_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -239,18 +291,20 @@ namespace Simulacion_Pedidos
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // button1
+            // save_button
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(191)))), ((int)(((byte)(188)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Mongolian Baiti", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(809, 513);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(116, 36);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Save";
-            this.button1.UseVisualStyleBackColor = false;
+            this.save_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(191)))), ((int)(((byte)(188)))));
+            this.save_button.FlatAppearance.BorderSize = 0;
+            this.save_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.save_button.Font = new System.Drawing.Font("Mongolian Baiti", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.save_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
+            this.save_button.Location = new System.Drawing.Point(809, 500);
+            this.save_button.Name = "save_button";
+            this.save_button.Size = new System.Drawing.Size(116, 49);
+            this.save_button.TabIndex = 14;
+            this.save_button.Text = "Save";
+            this.save_button.UseVisualStyleBackColor = false;
+            this.save_button.Click += new System.EventHandler(this.save_button_Click);
             // 
             // Form2
             // 
@@ -258,7 +312,7 @@ namespace Simulacion_Pedidos
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(252)))), ((int)(((byte)(248)))));
             this.ClientSize = new System.Drawing.Size(951, 577);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.save_button);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.tableLayoutPanel1);
@@ -304,6 +358,9 @@ namespace Simulacion_Pedidos
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label ID_table;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button save_button;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label name_label;
     }
 }

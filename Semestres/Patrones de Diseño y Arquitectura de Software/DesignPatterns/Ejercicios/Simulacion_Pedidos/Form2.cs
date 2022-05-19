@@ -11,14 +11,26 @@ using Gma.QrCodeNet.Encoding;
 using Gma.QrCodeNet.Encoding.Windows.Render;
 using System.Drawing.Imaging;
 using System.IO;
+using Newtonsoft.Json;
 
 namespace Simulacion_Pedidos
 {
     public partial class Form2 : Form
     {
+        private string lastQRdata;
+        private int oneTimeLastQR;
+
         public Form2()
         {
             InitializeComponent();
+            oneTimeLastQR = 0;
+            Console.WriteLine("this comp");
+        }
+
+        internal void getData(String data)
+        {
+            Console.WriteLine("d: {0}", data);
+            //ordersTableAdapter.FillByCustomerID(northwindDataSet.Orders, CustomerID);
         }
 
         protected override void OnPaint(PaintEventArgs e)
@@ -45,7 +57,7 @@ namespace Simulacion_Pedidos
         {
             QrEncoder qrEncoder = new QrEncoder(ErrorCorrectionLevel.H);
             QrCode qrCode = new QrCode();
-            qrEncoder.TryEncode("hola", out qrCode);
+            qrEncoder.TryEncode("string", out qrCode);
 
             GraphicsRenderer renderer = new GraphicsRenderer(new FixedCodeSize(400, QuietZoneModules.Zero), Brushes.Black, Brushes.White);
             MemoryStream ms = new MemoryStream();
@@ -54,6 +66,11 @@ namespace Simulacion_Pedidos
             var imagen = new Bitmap(imageTemporal, new Size(new Point(200, 200)));
             QR_container.BackgroundImage = imagen;
             imagen.Save("QR-code", ImageFormat.Png);
+
+            //Save image as png
+            Image image = (Image)QR_container.BackgroundImage.Clone();
+            string path = @"C:\Users\scago\Downloads\QRs\store-QR.png";
+            image.Save(path);
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -74,6 +91,25 @@ namespace Simulacion_Pedidos
         }
 
         private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void QR_container_Paint(object sender, PaintEventArgs e)
+        {
+            
+            if(oneTimeLastQR==0) QR_container.BackgroundImage = Image.FromFile(@"C:\Users\scago\Documents\store-name.png");
+            Console.WriteLine(oneTimeLastQR++);
+        }
+
+        private void save_button_Click(object sender, EventArgs e)
+        {
+            string message = "Saved :D";
+            string title = "Info";
+            MessageBox.Show(message);
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

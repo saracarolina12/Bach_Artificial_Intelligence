@@ -70,7 +70,9 @@ namespace Simulacion_Pedidos
         {
             this.Hide();
             Form2 f2 = new Form2();
+            f2.getData("hola desde Form1");
             f2.Show();
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
