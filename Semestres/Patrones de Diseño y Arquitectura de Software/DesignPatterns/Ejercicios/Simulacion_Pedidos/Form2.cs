@@ -24,12 +24,10 @@ namespace Simulacion_Pedidos
         {
             InitializeComponent();
             oneTimeLastQR = 0;
-            Console.WriteLine("this comp");
         }
 
         internal void getData(String data)
         {
-            Console.WriteLine("d: {0}", data);
             //ordersTableAdapter.FillByCustomerID(northwindDataSet.Orders, CustomerID);
         }
 
@@ -55,22 +53,28 @@ namespace Simulacion_Pedidos
 
         private void Add_button_Click(object sender, EventArgs e)
         {
+
+            Console.WriteLine(Adaptee.data[0].storeName.ToString());
+
             QrEncoder qrEncoder = new QrEncoder(ErrorCorrectionLevel.H);
             QrCode qrCode = new QrCode();
-            qrEncoder.TryEncode("string", out qrCode);
+            qrEncoder.TryEncode("ddfsh", out qrCode);
 
             GraphicsRenderer renderer = new GraphicsRenderer(new FixedCodeSize(400, QuietZoneModules.Zero), Brushes.Black, Brushes.White);
             MemoryStream ms = new MemoryStream();
             renderer.WriteToStream(qrCode.Matrix, ImageFormat.Png, ms);
-            var imageTemporal = new Bitmap(ms);
-            var imagen = new Bitmap(imageTemporal, new Size(new Point(200, 200)));
-            QR_container.BackgroundImage = imagen;
+            Bitmap imageTemporal = new Bitmap(ms);
+            Bitmap imagen = new Bitmap(imageTemporal, new Size(new Point(200, 200)));
+
+
             imagen.Save("QR-code", ImageFormat.Png);
 
+            QR_container.BackgroundImage = imagen;
             //Save image as png
             Image image = (Image)QR_container.BackgroundImage.Clone();
             string path = @"C:\Users\scago\Downloads\QRs\store-QR.png";
             image.Save(path);
+
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -92,14 +96,14 @@ namespace Simulacion_Pedidos
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void QR_container_Paint(object sender, PaintEventArgs e)
         {
             
             if(oneTimeLastQR==0) QR_container.BackgroundImage = Image.FromFile(@"C:\Users\scago\Documents\store-name.png");
-            Console.WriteLine(oneTimeLastQR++);
+            oneTimeLastQR++;
         }
 
         private void save_button_Click(object sender, EventArgs e)

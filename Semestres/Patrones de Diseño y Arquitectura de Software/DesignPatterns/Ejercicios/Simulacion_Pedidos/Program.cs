@@ -14,6 +14,11 @@ namespace Simulacion_Pedidos
         [STAThread]
         static void Main()
         {
+            /* Adapter */
+            Client client = new Client();
+            client.getQR();
+
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
