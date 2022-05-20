@@ -12,6 +12,8 @@ using Gma.QrCodeNet.Encoding.Windows.Render;
 using System.Drawing.Imaging;
 using System.IO;
 using Newtonsoft.Json;
+using MessagingToolkit.QRCode.Codec;
+using MessagingToolkit.QRCode.Codec.Data;
 
 namespace Simulacion_Pedidos
 {
@@ -53,28 +55,35 @@ namespace Simulacion_Pedidos
 
         private void Add_button_Click(object sender, EventArgs e)
         {
-
-            Console.WriteLine(Adaptee.data[0].storeName.ToString());
-
-            QrEncoder qrEncoder = new QrEncoder(ErrorCorrectionLevel.H);
-            QrCode qrCode = new QrCode();
-            qrEncoder.TryEncode("ddfsh", out qrCode);
-
-            GraphicsRenderer renderer = new GraphicsRenderer(new FixedCodeSize(400, QuietZoneModules.Zero), Brushes.Black, Brushes.White);
-            MemoryStream ms = new MemoryStream();
-            renderer.WriteToStream(qrCode.Matrix, ImageFormat.Png, ms);
-            Bitmap imageTemporal = new Bitmap(ms);
+            //Console.WriteLine(typeof(Adaptee.mywrite));
+            Bitmap imageTemporal = Adaptee.mywrite;
             Bitmap imagen = new Bitmap(imageTemporal, new Size(new Point(200, 200)));
-
-
             imagen.Save("QR-code", ImageFormat.Png);
-
             QR_container.BackgroundImage = imagen;
             //Save image as png
             Image image = (Image)QR_container.BackgroundImage.Clone();
             string path = @"C:\Users\scago\Downloads\QRs\store-QR.png";
             image.Save(path);
 
+
+            FileInfo fileInfo = new FileInfo("..\\..\\Stores-data\\QRs\\QRCode.png");
+            //FileInfo fileInfo = new FileInfo(@"C:\Users\scago\Downloads\QRs\QRCode.png");
+            Console.WriteLine(fileInfo.Length);
+            byte[] data = new byte[fileInfo.Length];
+
+            using (FileStream fs = fileInfo.OpenRead())
+            {
+                fs.Read(data, 0, data.Length);
+            }
+            //fileInfo.Delete();
+            Image myimage;
+            using (MemoryStream memstr = new MemoryStream(data))
+            {
+                myimage = Image.FromStream(memstr);
+            }
+            //QR_container.BackgroundImage = myimage;
+            MessagingToolkit.QRCode.Codec.QRCodeDecoder decoder = new MessagingToolkit.QRCode.Codec.QRCodeDecoder();
+            Console.WriteLine(decoder.Decode(new QRCodeBitmapImage(myimage as Bitmap)));
         }
 
         private void label7_Click(object sender, EventArgs e)

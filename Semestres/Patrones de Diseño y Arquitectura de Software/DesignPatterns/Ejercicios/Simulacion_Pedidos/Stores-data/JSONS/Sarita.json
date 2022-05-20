@@ -1,23 +1,23 @@
-    [
-        {
-            "idStore": "1",
-            "storeName": "Sarita",
-            "products": [
-                {
-                    "idProduct": 1,
-                    "name": "Frozen vegetables",
-                    "quantity": 89
-                },
-                {
-                    "idProduct": 2,
-                    "name": "Sodas",
-                    "quantity": 100
-                },
-                {
-                    "idProduct": 3,
-                    "name": "Bread",
-                    "quantity": 50
-                }
-            ]
-        }
+[
+  {
+    "idStore": "1",
+    "storeName": "Florida Market",
+    "products": [
+      {
+        "idProduct": 1,
+        "name": "Frozen vegetables",
+        "quantity": 89
+      },
+      {
+        "idProduct": 2,
+        "name": "Sodas",
+        "quantity": 100
+      },
+      {
+        "idProduct": 3,
+        "name": "Bread",
+        "quantity": 50
+      }
     ]
+  }
+]
