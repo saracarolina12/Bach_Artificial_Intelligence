@@ -25,7 +25,8 @@ namespace Simulacion_Pedidos
         public Form2()
         {
             InitializeComponent();
-
+            idStoreLabel.Text = Adaptee.data[0].idStore.ToString();
+            nameStoreLabel.Text = Adaptee.data[0].storeName.ToString();
             oneTimeLastQR = 0;
         }
 
