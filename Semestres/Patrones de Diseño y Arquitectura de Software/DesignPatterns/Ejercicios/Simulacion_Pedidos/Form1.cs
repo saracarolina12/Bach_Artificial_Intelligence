@@ -19,6 +19,10 @@ namespace Simulacion_Pedidos
         public Form1()
         {
             InitializeComponent();
+
+            toStockList.Controls.Add(new Label() { Text = "Street, City, State" }, 1, toStockList.RowCount - 1);
+            toStockList.Controls.Add(new Label() { Text = "888888888888" }, 2, toStockList.RowCount - 1);
+            toStockList.Controls.Add(new Label() { Text = "xxxxxxx@gmail.com" }, 3, toStockList.RowCount - 1);
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -91,6 +95,11 @@ namespace Simulacion_Pedidos
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toStockList_Paint(object sender, PaintEventArgs e)
         {
 
         }
