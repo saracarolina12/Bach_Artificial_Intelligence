@@ -58,6 +58,21 @@ namespace Simulacion_Pedidos
         private void Add_button_Click(object sender, EventArgs e)
         {
             //Console.WriteLine(Adaptee.data[0]);
+            //if (Adaptee.data[0].products.Count != 0)
+            //{
+            //    for (int i = 0; i < Adaptee.data[0].products.Count; i++)
+            //    {
+            //        listToStock.RowCount = listToStock.RowCount + 1;
+            //        listToStock.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
+            //        listToStock.Controls.Add(new Label() { Text = Adaptee.data[0].products[i].idProduct.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, i + 1);
+            //        listToStock.Controls.Add(new Label() { Text = Adaptee.data[0].products[i].name.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, i + 1);
+            //    }
+
+            //    listToStock.Controls.Add(new Label() { Text = totalVeg, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, 1);
+            //    listToStock.Controls.Add(new Label() { Text = totalSoda, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, 2);
+            //    listToStock.Controls.Add(new Label() { Text = totalBread, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, 3);
+            //}
+
             //Write QR
             Bitmap imageTemporal = Adaptee.mywrite;
             Bitmap imagen = new Bitmap(imageTemporal, new Size(new Point(200, 200)));

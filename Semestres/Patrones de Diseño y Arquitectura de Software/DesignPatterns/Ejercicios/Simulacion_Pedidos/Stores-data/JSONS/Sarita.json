@@ -6,17 +6,26 @@
       {
         "idProduct": 1,
         "name": "Frozen vegetables",
-        "quantity": 89
+        "quantity": 89,
+        "price": 100
       },
       {
         "idProduct": 2,
         "name": "Sodas",
-        "quantity": 100
+        "quantity": 100,
+        "price": 15
       },
       {
         "idProduct": 3,
         "name": "Bread",
-        "quantity": 50
+        "quantity": 50,
+        "price": 5
+      },
+      {
+        "idProduct": 4,
+        "name": "Tostadas",
+        "quantity": 100,
+        "price": 32
       }
     ]
   }
