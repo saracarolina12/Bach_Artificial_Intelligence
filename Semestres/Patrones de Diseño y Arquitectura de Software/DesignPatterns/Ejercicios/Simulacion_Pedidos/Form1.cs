@@ -24,9 +24,9 @@ namespace Simulacion_Pedidos
         {
             InitializeComponent();
 
-            toStockList.Controls.Add(new Label() { Text = totalVeg }, 1, 1);
-            toStockList.Controls.Add(new Label() { Text = totalSoda }, 1, 2);
-            toStockList.Controls.Add(new Label() { Text = totalBread }, 1, 3);
+            toStockList.Controls.Add(new Label() { Text = totalVeg,ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize= true }, 1, 1);
+            toStockList.Controls.Add(new Label() { Text = totalSoda, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, 2);
+            toStockList.Controls.Add(new Label() { Text = totalBread, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, 3);
         }
 
         private void label2_Click(object sender, EventArgs e)

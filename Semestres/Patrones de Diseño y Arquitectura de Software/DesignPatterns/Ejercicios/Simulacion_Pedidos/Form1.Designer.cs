@@ -57,9 +57,9 @@ namespace Simulacion_Pedidos
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.toStockList.SuspendLayout();
             this.panel_trucks.SuspendLayout();
@@ -84,8 +84,8 @@ namespace Simulacion_Pedidos
             this.toStockList.ColumnCount = 2;
             this.toStockList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.toStockList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.toStockList.Controls.Add(this.label11, 0, 2);
             this.toStockList.Controls.Add(this.label9, 0, 1);
+            this.toStockList.Controls.Add(this.label11, 0, 2);
             this.toStockList.Controls.Add(this.label8, 1, 0);
             this.toStockList.Controls.Add(this.label7, 0, 0);
             this.toStockList.Controls.Add(this.label10, 0, 3);
@@ -417,19 +417,6 @@ namespace Simulacion_Pedidos
             this.label8.TabIndex = 11;
             this.label8.Text = "Quantity";
             // 
-            // label9
-            // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Mongolian Baiti", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label9.Location = new System.Drawing.Point(4, 49);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(92, 20);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "Vegetables";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
-            // 
             // label10
             // 
             this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -453,6 +440,18 @@ namespace Simulacion_Pedidos
             this.label11.Size = new System.Drawing.Size(48, 20);
             this.label11.TabIndex = 14;
             this.label11.Text = "Soda";
+            // 
+            // label9
+            // 
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Mongolian Baiti", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
+            this.label9.Location = new System.Drawing.Point(4, 49);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(92, 20);
+            this.label9.TabIndex = 15;
+            this.label9.Text = "Vegetables";
             // 
             // Form1
             // 
@@ -517,10 +516,10 @@ namespace Simulacion_Pedidos
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TableLayoutPanel toStockList;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
     }
 }
 
