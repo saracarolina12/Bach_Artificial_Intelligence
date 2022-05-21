@@ -26,6 +26,7 @@ namespace Simulacion_Pedidos
 		/// A specific request that needs an adapter.
 		public static Root[] data;
         public static Bitmap mywrite;
+        public static Root[] JSONdata;
         public Root[] ReadQR(string ruta) //Decode
 		{
             Console.WriteLine("readQR");

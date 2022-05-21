@@ -25,6 +25,7 @@ namespace Simulacion_Pedidos
         public Form2()
         {
             InitializeComponent();
+
             oneTimeLastQR = 0;
         }
 
@@ -56,6 +57,7 @@ namespace Simulacion_Pedidos
         private void Add_button_Click(object sender, EventArgs e)
         {
             //Console.WriteLine(Adaptee.data[0]);
+            //Write QR
             Bitmap imageTemporal = Adaptee.mywrite;
             Bitmap imagen = new Bitmap(imageTemporal, new Size(new Point(200, 200)));
             imagen.Save("QR-code", ImageFormat.Png);

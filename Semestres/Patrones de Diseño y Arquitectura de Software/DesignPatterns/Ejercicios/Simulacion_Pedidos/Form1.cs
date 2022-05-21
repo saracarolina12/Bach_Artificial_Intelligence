@@ -16,13 +16,17 @@ namespace Simulacion_Pedidos
 {
     public partial class Form1 : Form
     {
+
+        string totalVeg = 34.ToString();
+        string totalSoda = 64.ToString();
+        string totalBread = 14.ToString();
         public Form1()
         {
             InitializeComponent();
 
-            toStockList.Controls.Add(new Label() { Text = "Street, City, State" }, 1, toStockList.RowCount - 1);
-            toStockList.Controls.Add(new Label() { Text = "888888888888" }, 2, toStockList.RowCount - 1);
-            toStockList.Controls.Add(new Label() { Text = "xxxxxxx@gmail.com" }, 3, toStockList.RowCount - 1);
+            toStockList.Controls.Add(new Label() { Text = totalVeg }, 1, 1);
+            toStockList.Controls.Add(new Label() { Text = totalSoda }, 1, 2);
+            toStockList.Controls.Add(new Label() { Text = totalBread }, 1, 3);
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -100,6 +104,11 @@ namespace Simulacion_Pedidos
         }
 
         private void toStockList_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
         {
 
         }

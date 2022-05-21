@@ -428,6 +428,7 @@ namespace Simulacion_Pedidos
             this.label9.Size = new System.Drawing.Size(92, 20);
             this.label9.TabIndex = 12;
             this.label9.Text = "Vegetables";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label10
             // 
