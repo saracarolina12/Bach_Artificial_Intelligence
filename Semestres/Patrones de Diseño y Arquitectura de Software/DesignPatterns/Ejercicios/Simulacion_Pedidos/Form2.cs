@@ -62,11 +62,9 @@ namespace Simulacion_Pedidos
             QR_container.BackgroundImage = imagen;
             //Save image as png
             Image image = (Image)QR_container.BackgroundImage.Clone();
-            string path = @"C:\Users\scago\Downloads\QRs\string_holamundou.png";
+            string path = "..\\..\\Stores-data\\QRs\\Tienda_1.png";
             image.Save(path);
 
-
-            //Console.WriteLine(Adaptee.data);
 
             //FileInfo fileInfo = new FileInfo("..\\..\\Stores-data\\QRs\\Tienda_1.png");
             //Console.WriteLine(fileInfo.Length);

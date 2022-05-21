@@ -29,36 +29,36 @@ namespace Simulacion_Pedidos
         public Root[] ReadQR(string ruta) //Decode
 		{
             Console.WriteLine("readQR");
-            FileInfo fileInfo = new FileInfo(ruta);
+            FileInfo fileInfo = new FileInfo("..\\..\\Stores-data\\QRs\\Tienda_1.png");
             Console.WriteLine(fileInfo.Length);
             byte[] JSONdata = new byte[fileInfo.Length];
             using (FileStream fs = fileInfo.OpenRead())
             {
                 fs.Read(JSONdata, 0, JSONdata.Length);
             }
+            //fileInfo.Delete();
             Image myimage;
             using (MemoryStream memstr = new MemoryStream(JSONdata))
             {
                 myimage = Image.FromStream(memstr);
             }
-           // QR_container.BackgroundImage = myimage;
+            //QR_container.BackgroundImage = myimage;
             MessagingToolkit.QRCode.Codec.QRCodeDecoder decoder = new MessagingToolkit.QRCode.Codec.QRCodeDecoder();
             string json = decoder.Decode(new QRCodeBitmapImage(myimage as Bitmap));
             data = JsonConvert.DeserializeObject<Root[]>(json);
-
-            //for (int i = 0; i <= 2; i++)
-            //{
-            //    Console.WriteLine(data[0].products[i].name);
-            //}
             return data;
         }
 
         public Bitmap WriteQR() //Encode
         {
             Console.WriteLine("WriteQR");
+
+            Root[] root = JSONdata;
+            string jsontoQR = JsonConvert.SerializeObject(root);
+
             QrEncoder qrEncoder = new QrEncoder(ErrorCorrectionLevel.H);
             QrCode qrCode = new QrCode();
-            qrEncoder.TryEncode("holamundou", out qrCode);
+            qrEncoder.TryEncode(jsontoQR, out qrCode);
 
             GraphicsRenderer renderer = new GraphicsRenderer(new FixedCodeSize(400, QuietZoneModules.Zero), Brushes.Black, Brushes.White);
             MemoryStream ms = new MemoryStream();
