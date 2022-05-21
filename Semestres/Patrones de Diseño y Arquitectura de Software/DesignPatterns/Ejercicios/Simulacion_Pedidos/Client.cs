@@ -23,8 +23,8 @@ namespace Simulacion_Pedidos
 		public void getQR()
 		{
 			Target adapter = new Adapter(); // wrap the adaptee with an adapter
-			data = adapter.Read("..\\..\\Stores-data\\JSONS\\Sarita.json"); // use the adapter to make a request  -- JSON --
-			//data = adapter.Read("..\\..\\Stores-data\\QRs\\store-name.png");
+			//data = adapter.Read("..\\..\\Stores-data\\JSONS\\Sarita.json"); // use the adapter to make a request  -- JSON --
+			data = adapter.Read("..\\..\\Stores-data\\QRs\\Tienda_1.png");
 			Bitmap towrite = adapter.Write();
 		}
 	}

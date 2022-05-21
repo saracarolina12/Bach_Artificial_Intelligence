@@ -16,6 +16,6 @@ namespace Simulacion_Pedidos
     {
         public int idStore { get; set; }
         public string storeName { get; set; }
-        public List<Products> prods { get; set; }
+        public List<Products> products { get; set; }
     }
 }

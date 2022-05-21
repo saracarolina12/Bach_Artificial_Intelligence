@@ -55,16 +55,18 @@ namespace Simulacion_Pedidos
 
         private void Add_button_Click(object sender, EventArgs e)
         {
-            Console.WriteLine(Adaptee.data[0].storeName);
+            //Console.WriteLine(Adaptee.data[0]);
             Bitmap imageTemporal = Adaptee.mywrite;
             Bitmap imagen = new Bitmap(imageTemporal, new Size(new Point(200, 200)));
             imagen.Save("QR-code", ImageFormat.Png);
             QR_container.BackgroundImage = imagen;
             //Save image as png
             Image image = (Image)QR_container.BackgroundImage.Clone();
-            string path = @"C:\Users\scago\Downloads\QRs\store-QR.png";
+            string path = @"C:\Users\scago\Downloads\QRs\string_holamundou.png";
             image.Save(path);
 
+
+            //Console.WriteLine(Adaptee.data);
 
             //FileInfo fileInfo = new FileInfo("..\\..\\Stores-data\\QRs\\Tienda_1.png");
             //Console.WriteLine(fileInfo.Length);

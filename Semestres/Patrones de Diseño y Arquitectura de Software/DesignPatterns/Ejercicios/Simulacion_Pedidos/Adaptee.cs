@@ -29,25 +29,28 @@ namespace Simulacion_Pedidos
         public Root[] ReadQR(string ruta) //Decode
 		{
             Console.WriteLine("readQR");
-            FileInfo fileInfo = new FileInfo("..\\..\\Stores-data\\QRs\\Tienda_1.png");
+            FileInfo fileInfo = new FileInfo(ruta);
             Console.WriteLine(fileInfo.Length);
             byte[] JSONdata = new byte[fileInfo.Length];
             using (FileStream fs = fileInfo.OpenRead())
             {
                 fs.Read(JSONdata, 0, JSONdata.Length);
             }
-            //fileInfo.Delete();
             Image myimage;
             using (MemoryStream memstr = new MemoryStream(JSONdata))
             {
                 myimage = Image.FromStream(memstr);
             }
-            //QR_container.BackgroundImage = myimage;
+           // QR_container.BackgroundImage = myimage;
             MessagingToolkit.QRCode.Codec.QRCodeDecoder decoder = new MessagingToolkit.QRCode.Codec.QRCodeDecoder();
             string json = decoder.Decode(new QRCodeBitmapImage(myimage as Bitmap));
             data = JsonConvert.DeserializeObject<Root[]>(json);
-            return data;
 
+            //for (int i = 0; i <= 2; i++)
+            //{
+            //    Console.WriteLine(data[0].products[i].name);
+            //}
+            return data;
         }
 
         public Bitmap WriteQR() //Encode
