@@ -30,7 +30,7 @@ namespace Simulacion_Pedidos
         public Root[] ReadQR(string ruta) //Decode
 		{
             Console.WriteLine("readQR");
-            FileInfo fileInfo = new FileInfo("..\\..\\Stores-data\\QRs\\Tienda_1.png");
+            FileInfo fileInfo = new FileInfo("..\\..\\Stores-data\\QRs\\Tienda_2.png");
             Console.WriteLine(fileInfo.Length);
             byte[] JSONdata = new byte[fileInfo.Length];
             using (FileStream fs = fileInfo.OpenRead())

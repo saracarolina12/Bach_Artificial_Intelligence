@@ -55,36 +55,65 @@ namespace Simulacion_Pedidos
 
         }
 
+        private void addProductToStock(int try_id, int quantity)
+        {
+            var newprod = new Products();
+            int ID_newp=0;
+            string name_newp = "";
+            bool exists = false;
+            if (Adaptee.data[0].products.Count != 0)
+            {
+                for (int i = 0; i < Adaptee.data[0].products.Count; i++)
+                {
+                    if (Adaptee.data[0].products[i].idProduct == try_id)
+                    {
+                        exists = true;
+                        //newprod.idProduct = Adaptee.data[0].products[i].idProduct;
+                        //newprod.name = Adaptee.data[0].products[i].name;
+                        //newprod.quantity += quantity;
+                       
+                        listToStock.RowCount = listToStock.RowCount + 1;
+                        listToStock.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
+                        listToStock.Controls.Add(new Label() { Text = Adaptee.data[0].products[i].idProduct.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, listToStock.RowCount-1);
+                        listToStock.Controls.Add(new Label() { Text = Adaptee.data[0].products[i].name, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, listToStock.RowCount - 1);
+                        listToStock.Controls.Add(new Label() { Text = Adaptee.data[0].products[i].price.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, listToStock.RowCount - 1);
+                        listToStock.Controls.Add(new Label() { Text = quantity.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 3, listToStock.RowCount - 1);
+
+                        break;
+                    }
+                    else
+                    {
+                        exists = false;
+                    }
+                }
+                if(exists == false)
+                {
+                    string message = "This ID does not exist. Try again.";
+                    string title = "Error";
+                    MessageBox.Show(message, title);
+                }
+            }
+
+        }
+
         private void Add_button_Click(object sender, EventArgs e)
         {
-            //Console.WriteLine(Adaptee.data[0]);
-            //if (Adaptee.data[0].products.Count != 0)
-            //{
-            //    for (int i = 0; i < Adaptee.data[0].products.Count; i++)
-            //    {
-            //        listToStock.RowCount = listToStock.RowCount + 1;
-            //        listToStock.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-            //        listToStock.Controls.Add(new Label() { Text = Adaptee.data[0].products[i].idProduct.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, i + 1);
-            //        listToStock.Controls.Add(new Label() { Text = Adaptee.data[0].products[i].name.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, i + 1);
-            //    }
+            if(((int)numericUpDown1.Value) != 0) addProductToStock(((int)numericUpDown2.Value), ((int)numericUpDown1.Value));
+           
+            
 
-            //    listToStock.Controls.Add(new Label() { Text = totalVeg, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, 1);
-            //    listToStock.Controls.Add(new Label() { Text = totalSoda, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, 2);
-            //    listToStock.Controls.Add(new Label() { Text = totalBread, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, 3);
-            //}
-
-            //Write QR
-            Bitmap imageTemporal = Adaptee.mywrite;
-            Bitmap imagen = new Bitmap(imageTemporal, new Size(new Point(200, 200)));
-            imagen.Save("QR-code", ImageFormat.Png);
-            QR_container.BackgroundImage = imagen;
-            //Save image as png
-            Image image = (Image)QR_container.BackgroundImage.Clone();
-            string path = "..\\..\\Stores-data\\QRs\\Tienda_1.png";
-            image.Save(path);
+            //Write QR WORKSSSS
+            //Bitmap imageTemporal = Adaptee.mywrite;
+            //Bitmap imagen = new Bitmap(imageTemporal, new Size(new Point(200, 200)));
+            //imagen.Save("QR-code", ImageFormat.Png);
+            //QR_container.BackgroundImage = imagen;
+            ////Save image as png
+            //Image image = (Image)QR_container.BackgroundImage.Clone();
+            //string path = "..\\..\\Stores-data\\QRs\\Tienda_2.png";
+            //image.Save(path);
 
 
-            //FileInfo fileInfo = new FileInfo("..\\..\\Stores-data\\QRs\\Tienda_1.png");
+            //FileInfo fileInfo = new FileInfo("..\\..\\Stores-data\\QRs\\Tienda_2.png");
             //Console.WriteLine(fileInfo.Length);
             //byte[] data = new byte[fileInfo.Length];
 
@@ -140,6 +169,16 @@ namespace Simulacion_Pedidos
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void numericUpDown2_ValueChanged(object sender, EventArgs e) //ID
+        {
+
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e) //amount
         {
 
         }

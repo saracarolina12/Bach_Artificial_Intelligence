@@ -66,7 +66,7 @@ namespace Simulacion_Pedidos
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(250, 577);
+            this.panel1.Size = new System.Drawing.Size(309, 577);
             this.panel1.TabIndex = 0;
             // 
             // label_actual_QR
@@ -103,7 +103,7 @@ namespace Simulacion_Pedidos
             // idStoreLabel
             // 
             this.idStoreLabel.AutoSize = true;
-            this.idStoreLabel.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idStoreLabel.Font = new System.Drawing.Font("Mongolian Baiti", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.idStoreLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
             this.idStoreLabel.Location = new System.Drawing.Point(24, 69);
             this.idStoreLabel.Name = "idStoreLabel";
@@ -141,9 +141,9 @@ namespace Simulacion_Pedidos
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
             this.label5.Location = new System.Drawing.Point(556, 102);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(76, 21);
+            this.label5.Size = new System.Drawing.Size(81, 21);
             this.label5.TabIndex = 6;
-            this.label5.Text = "Amount";
+            this.label5.Text = "Quantity";
             // 
             // numericUpDown1
             // 
@@ -154,6 +154,7 @@ namespace Simulacion_Pedidos
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(103, 34);
             this.numericUpDown1.TabIndex = 7;
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // numericUpDown2
             // 
@@ -164,6 +165,7 @@ namespace Simulacion_Pedidos
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(183, 34);
             this.numericUpDown2.TabIndex = 8;
+            this.numericUpDown2.ValueChanged += new System.EventHandler(this.numericUpDown2_ValueChanged);
             // 
             // Add_button
             // 
