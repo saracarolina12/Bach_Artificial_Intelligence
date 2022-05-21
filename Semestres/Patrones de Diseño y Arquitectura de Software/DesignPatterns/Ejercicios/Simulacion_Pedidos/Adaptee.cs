@@ -14,6 +14,8 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Drawing.Imaging;
+using MessagingToolkit.QRCode.Codec;
+using MessagingToolkit.QRCode.Codec.Data;
 
 
 namespace Simulacion_Pedidos
@@ -27,27 +29,24 @@ namespace Simulacion_Pedidos
         public Root[] ReadQR(string ruta) //Decode
 		{
             Console.WriteLine("readQR");
-            StreamReader read = new StreamReader(ruta);
-            using (read)
+            FileInfo fileInfo = new FileInfo("..\\..\\Stores-data\\QRs\\Tienda_1.png");
+            Console.WriteLine(fileInfo.Length);
+            byte[] JSONdata = new byte[fileInfo.Length];
+            using (FileStream fs = fileInfo.OpenRead())
             {
-                string json = read.ReadToEnd();
-                data = JsonConvert.DeserializeObject<Root[]>(json);
-                return data;
+                fs.Read(JSONdata, 0, JSONdata.Length);
             }
-
-            //e decoder = new QRCodeDecoder();
-            //String decodedString = decoder.decode(ruta);
-            //return decodedString;
-
-            //FileInfo fileInfo = new FileInfo(ruta);
-            //byte[] data = new byte[fileInfo.Length];
-            //using (FileStream fs = fileInfo.OpenRead())
-            //{
-            //   fs.Read(data, 0, data.Length);
-            //}
             //fileInfo.Delete();
-            //PictureBox.Image = data;
-            //MessagingToolkit.QRCode.Codec.QRCodeDecoder decoder = new MessagingToolkit.QRCode.Codec.QRCodeDecoder();
+            Image myimage;
+            using (MemoryStream memstr = new MemoryStream(JSONdata))
+            {
+                myimage = Image.FromStream(memstr);
+            }
+            //QR_container.BackgroundImage = myimage;
+            MessagingToolkit.QRCode.Codec.QRCodeDecoder decoder = new MessagingToolkit.QRCode.Codec.QRCodeDecoder();
+            string json = decoder.Decode(new QRCodeBitmapImage(myimage as Bitmap));
+            data = JsonConvert.DeserializeObject<Root[]>(json);
+            return data;
 
         }
 

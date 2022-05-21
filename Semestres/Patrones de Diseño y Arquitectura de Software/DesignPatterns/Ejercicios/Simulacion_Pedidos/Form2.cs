@@ -55,7 +55,7 @@ namespace Simulacion_Pedidos
 
         private void Add_button_Click(object sender, EventArgs e)
         {
-            //Console.WriteLine(typeof(Adaptee.mywrite));
+            Console.WriteLine(Adaptee.data[0].storeName);
             Bitmap imageTemporal = Adaptee.mywrite;
             Bitmap imagen = new Bitmap(imageTemporal, new Size(new Point(200, 200)));
             imagen.Save("QR-code", ImageFormat.Png);
@@ -66,24 +66,23 @@ namespace Simulacion_Pedidos
             image.Save(path);
 
 
-            FileInfo fileInfo = new FileInfo("..\\..\\Stores-data\\QRs\\QRCode.png");
-            //FileInfo fileInfo = new FileInfo(@"C:\Users\scago\Downloads\QRs\QRCode.png");
-            Console.WriteLine(fileInfo.Length);
-            byte[] data = new byte[fileInfo.Length];
+            //FileInfo fileInfo = new FileInfo("..\\..\\Stores-data\\QRs\\Tienda_1.png");
+            //Console.WriteLine(fileInfo.Length);
+            //byte[] data = new byte[fileInfo.Length];
 
-            using (FileStream fs = fileInfo.OpenRead())
-            {
-                fs.Read(data, 0, data.Length);
-            }
-            //fileInfo.Delete();
-            Image myimage;
-            using (MemoryStream memstr = new MemoryStream(data))
-            {
-                myimage = Image.FromStream(memstr);
-            }
-            //QR_container.BackgroundImage = myimage;
-            MessagingToolkit.QRCode.Codec.QRCodeDecoder decoder = new MessagingToolkit.QRCode.Codec.QRCodeDecoder();
-            Console.WriteLine(decoder.Decode(new QRCodeBitmapImage(myimage as Bitmap)));
+            //using (FileStream fs = fileInfo.OpenRead())
+            //{
+            //    fs.Read(data, 0, data.Length);
+            //}
+            ////fileInfo.Delete();
+            //Image myimage;
+            //using (MemoryStream memstr = new MemoryStream(data))
+            //{
+            //    myimage = Image.FromStream(memstr);
+            //}
+            ////QR_container.BackgroundImage = myimage;
+            //MessagingToolkit.QRCode.Codec.QRCodeDecoder decoder = new MessagingToolkit.QRCode.Codec.QRCodeDecoder();
+            //Console.WriteLine(decoder.Decode(new QRCodeBitmapImage(myimage as Bitmap)));
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -117,7 +116,7 @@ namespace Simulacion_Pedidos
 
         private void save_button_Click(object sender, EventArgs e)
         {
-            string message = "Saved :D";
+            string message = "Your changes have been saved! :D";
             string title = "Info";
             MessageBox.Show(message);
         }
