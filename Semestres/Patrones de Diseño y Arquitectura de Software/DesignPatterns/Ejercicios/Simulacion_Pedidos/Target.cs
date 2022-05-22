@@ -20,6 +20,6 @@ namespace Simulacion_Pedidos
 	public abstract class Target
 	{
 		public abstract Root[] Read(string ruta);
-		public abstract Bitmap Write();
+		public abstract Bitmap Write(Root[] JSONdata);
 	}
 }

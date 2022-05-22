@@ -26,12 +26,12 @@ namespace Simulacion_Pedidos
 		public override Root[] Read(string ruta)
 		{
 			// possibly do some other work ...
-			return _adaptee.ReadQR(ruta);
+			return Adaptee.ReadQR(ruta);
 		}
-		public override Bitmap Write()
+		public override Bitmap Write(Root[] JSONdata)
 		{
 			// possibly do some other work ...
-			return _adaptee.WriteQR();
+			return Adaptee.WriteQR(JSONdata);
 		}
 	}
 }

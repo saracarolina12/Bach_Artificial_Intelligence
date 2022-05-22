@@ -20,12 +20,13 @@ namespace Simulacion_Pedidos
 	public class Client //administra queries (id, etc)
 	{
 		private Root[] data;
+		private Root[] JSONdata;
 		public void getQR()
 		{
 			Target adapter = new Adapter(); // wrap the adaptee with an adapter
 			//data = adapter.Read("..\\..\\Stores-data\\JSONS\\Sarita.json"); // use the adapter to make a request  -- JSON --
 			data = adapter.Read("..\\..\\Stores-data\\QRs\\Tienda_2.png");
-			Bitmap towrite = adapter.Write();
+			Bitmap towrite = adapter.Write(JSONdata);
 		}
 	}
 }

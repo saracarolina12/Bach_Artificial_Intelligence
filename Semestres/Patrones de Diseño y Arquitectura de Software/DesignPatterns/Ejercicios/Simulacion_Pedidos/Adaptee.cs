@@ -26,8 +26,8 @@ namespace Simulacion_Pedidos
 		/// A specific request that needs an adapter.
 		public static Root[] data;
         public static Bitmap mywrite;
-        public static Root[] JSONdata;
-        public Root[] ReadQR(string ruta) //Decode
+        //public static Root[] JSONdata;
+        public static Root[] ReadQR(string ruta) //Decode
 		{
             Console.WriteLine("readQR");
             FileInfo fileInfo = new FileInfo("..\\..\\Stores-data\\QRs\\Tienda_2.png");
@@ -50,7 +50,7 @@ namespace Simulacion_Pedidos
             return data;
         }
 
-        public Bitmap WriteQR() //Encode
+        public static Bitmap WriteQR(Root[] JSONdata) //Encode
         {
             Console.WriteLine("WriteQR");
 
