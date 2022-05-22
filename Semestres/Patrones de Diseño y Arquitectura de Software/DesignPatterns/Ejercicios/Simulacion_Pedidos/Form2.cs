@@ -98,15 +98,13 @@ namespace Simulacion_Pedidos
             int ID_newp=0;
             string name_newp = "";
             bool exists = false;
-            string path = "..\\..\\Stores-data\\QRs\\Tienda_2.png";
+            string path = "..\\..\\Stores-data\\QRs\\" + Adaptee.data[0].storeName + ".png";
             Root[] thisdata = Adaptee.ReadQR(path);
 
             if (thisdata[0].products.Count != 0)
             {
                 for (int i = 0; i < thisdata[0].products.Count; i++)
                 {
-                    double benef = calculate_profit(thisdata, thisdata[0].products[i].quantity, thisdata[0].products[i].name);
-                    Console.WriteLine("profit: {0}", benef);
                     if (thisdata[0].products[i].idProduct == try_id)
                     {
                         exists = true;
@@ -119,7 +117,7 @@ namespace Simulacion_Pedidos
                         listToStock.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
                         listToStock.Controls.Add(new Label() { Text = thisdata[0].products[i].idProduct.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, listToStock.RowCount-1);
                         listToStock.Controls.Add(new Label() { Text = thisdata[0].products[i].name, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, listToStock.RowCount - 1);
-                        listToStock.Controls.Add(new Label() { Text = getPrice(thisdata[0].products[i].name).ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, listToStock.RowCount - 1);
+                        listToStock.Controls.Add(new Label() { Text = thisdata[0].products[i].price.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, listToStock.RowCount - 1);
                         listToStock.Controls.Add(new Label() { Text = quantity.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 3, listToStock.RowCount - 1);
 
                         //Write QR WORKSSSS
@@ -127,9 +125,10 @@ namespace Simulacion_Pedidos
                         Bitmap imagen = new Bitmap(imageTemporal, new Size(new Point(200, 200)));
                         imagen.Save("QR-code", ImageFormat.Png);
                         QR_container.BackgroundImage = imagen;
-                        ////Save image as png
-                        //Image image = (Image)QR_container.BackgroundImage.Clone();
-                        //image.Save(path);
+                        //Save image as png
+                        Image image = (Image)QR_container.BackgroundImage.Clone();
+
+                        image.Save(path);
 
                         break;
                     }
