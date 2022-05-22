@@ -50,6 +50,7 @@ namespace Simulacion_Pedidos
             return data;
         }
 
+    
         public static Bitmap WriteQR(Root[] JSONdata) //Encode
         {
             Console.WriteLine("WriteQR");

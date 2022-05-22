@@ -88,7 +88,7 @@ namespace Simulacion_Pedidos
             this.toStockList.Controls.Add(this.label8, 2, 0);
             this.toStockList.Controls.Add(this.label15, 1, 0);
             this.toStockList.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.toStockList.Location = new System.Drawing.Point(20, 206);
+            this.toStockList.Location = new System.Drawing.Point(21, 232);
             this.toStockList.Name = "toStockList";
             this.toStockList.RowCount = 1;
             this.toStockList.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.68493F));
@@ -129,7 +129,7 @@ namespace Simulacion_Pedidos
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label1.Location = new System.Drawing.Point(45, 158);
+            this.label1.Location = new System.Drawing.Point(46, 184);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(223, 30);
             this.label1.TabIndex = 1;

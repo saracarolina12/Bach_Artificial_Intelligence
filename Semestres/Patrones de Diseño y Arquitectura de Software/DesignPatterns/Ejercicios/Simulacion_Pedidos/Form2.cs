@@ -21,6 +21,12 @@ namespace Simulacion_Pedidos
     {
         private string lastQRdata;
         private int oneTimeLastQR;
+        private int QR_ID;
+        private int price_vegetables = 100;
+        private int price_sodas = 15;
+        private int price_bread = 5;
+        private double profit = 0;
+
 
         public Form2()
         {
@@ -55,6 +61,37 @@ namespace Simulacion_Pedidos
 
         }
 
+        private double calculate_profit(Root[] data, int quantity, string prodName)
+        {
+            if (prodName == "Frozen vegetables")
+            {
+                profit += 100.0*quantity;
+            }
+            else if (prodName == "Sodas")
+            {
+                profit += 15.0*quantity;
+            }
+            else
+            {
+                profit += 5.0*quantity;
+            }
+            return profit;
+        }
+
+        private double getPrice(string prodName)
+        {
+            if (prodName == "Frozen vegetables")
+            {
+                return 100.0;
+            }else if(prodName == "Sodas")
+            {
+                return 15.0;
+            }
+            else { 
+                return 5.0;
+            }
+        }
+
         private void addProductToStock(int try_id, int quantity)
         {
             var newprod = new Products();
@@ -68,6 +105,8 @@ namespace Simulacion_Pedidos
             {
                 for (int i = 0; i < thisdata[0].products.Count; i++)
                 {
+                    double benef = calculate_profit(thisdata, thisdata[0].products[i].quantity, thisdata[0].products[i].name);
+                    Console.WriteLine("profit: {0}", benef);
                     if (thisdata[0].products[i].idProduct == try_id)
                     {
                         exists = true;
@@ -80,7 +119,7 @@ namespace Simulacion_Pedidos
                         listToStock.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
                         listToStock.Controls.Add(new Label() { Text = thisdata[0].products[i].idProduct.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, listToStock.RowCount-1);
                         listToStock.Controls.Add(new Label() { Text = thisdata[0].products[i].name, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, listToStock.RowCount - 1);
-                        listToStock.Controls.Add(new Label() { Text = thisdata[0].products[i].price.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, listToStock.RowCount - 1);
+                        listToStock.Controls.Add(new Label() { Text = getPrice(thisdata[0].products[i].name).ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, listToStock.RowCount - 1);
                         listToStock.Controls.Add(new Label() { Text = quantity.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 3, listToStock.RowCount - 1);
 
                         //Write QR WORKSSSS
@@ -88,10 +127,9 @@ namespace Simulacion_Pedidos
                         Bitmap imagen = new Bitmap(imageTemporal, new Size(new Point(200, 200)));
                         imagen.Save("QR-code", ImageFormat.Png);
                         QR_container.BackgroundImage = imagen;
-                        //Save image as png
-                        Image image = (Image)QR_container.BackgroundImage.Clone();
-
-                        image.Save(path);
+                        ////Save image as png
+                        //Image image = (Image)QR_container.BackgroundImage.Clone();
+                        //image.Save(path);
 
                         break;
                     }
@@ -113,37 +151,6 @@ namespace Simulacion_Pedidos
         private void Add_button_Click(object sender, EventArgs e)
         {
             if(((int)numericUpDown1.Value) != 0) addProductToStock(((int)numericUpDown2.Value), ((int)numericUpDown1.Value));
-           
-            
-
-            //Write QR WORKSSSS
-            //Bitmap imageTemporal = Adaptee.mywrite;
-            //Bitmap imagen = new Bitmap(imageTemporal, new Size(new Point(200, 200)));
-            //imagen.Save("QR-code", ImageFormat.Png);
-            //QR_container.BackgroundImage = imagen;
-            ////Save image as png
-            //Image image = (Image)QR_container.BackgroundImage.Clone();
-            //string path = "..\\..\\Stores-data\\QRs\\Tienda_2.png";
-            //image.Save(path);
-
-
-            //FileInfo fileInfo = new FileInfo("..\\..\\Stores-data\\QRs\\Tienda_2.png");
-            //Console.WriteLine(fileInfo.Length);
-            //byte[] data = new byte[fileInfo.Length];
-
-            //using (FileStream fs = fileInfo.OpenRead())
-            //{
-            //    fs.Read(data, 0, data.Length);
-            //}
-            ////fileInfo.Delete();
-            //Image myimage;
-            //using (MemoryStream memstr = new MemoryStream(data))
-            //{
-            //    myimage = Image.FromStream(memstr);
-            //}
-            ////QR_container.BackgroundImage = myimage;
-            //MessagingToolkit.QRCode.Codec.QRCodeDecoder decoder = new MessagingToolkit.QRCode.Codec.QRCodeDecoder();
-            //Console.WriteLine(decoder.Decode(new QRCodeBitmapImage(myimage as Bitmap)));
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -177,6 +184,10 @@ namespace Simulacion_Pedidos
 
         private void save_button_Click(object sender, EventArgs e)
         {
+            //Save image as png
+            Image image = (Image)QR_container.BackgroundImage.Clone();
+            image.Save("..\\..\\Stores-data\\QRs\\Tienda_2.png");
+
             string message = "Your changes have been saved! :D";
             string title = "Info";
             MessageBox.Show(message);
