@@ -117,7 +117,6 @@ namespace Simulacion_Pedidos
                         listToStock.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
                         listToStock.Controls.Add(new Label() { Text = thisdata[0].products[i].idProduct.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, listToStock.RowCount-1);
                         listToStock.Controls.Add(new Label() { Text = thisdata[0].products[i].name, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, listToStock.RowCount - 1);
-                        listToStock.Controls.Add(new Label() { Text = thisdata[0].products[i].price.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, listToStock.RowCount - 1);
                         listToStock.Controls.Add(new Label() { Text = quantity.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 3, listToStock.RowCount - 1);
 
                         //Write QR WORKSSSS
@@ -177,7 +176,7 @@ namespace Simulacion_Pedidos
         private void QR_container_Paint(object sender, PaintEventArgs e)
         {
             
-            if(oneTimeLastQR==0) QR_container.BackgroundImage = Image.FromFile(@"C:\Users\scago\Documents\store-name.png");
+            if(oneTimeLastQR==0) QR_container.BackgroundImage = Image.FromFile("..\\..\\Stores-data\\QRs\\Tienda_2.png");
             oneTimeLastQR++;
         }
 
