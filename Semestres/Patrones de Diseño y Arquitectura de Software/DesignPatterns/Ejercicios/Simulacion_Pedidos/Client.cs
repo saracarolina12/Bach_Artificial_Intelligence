@@ -25,7 +25,7 @@ namespace Simulacion_Pedidos
 		{
 			Target adapter = new Adapter(); // wrap the adaptee with an adapter
 			//data = adapter.Read("..\\..\\Stores-data\\JSONS\\Sarita.json"); // use the adapter to make a request  -- JSON --
-			data = adapter.Read("..\\..\\Stores-data\\QRs\\Tienda_2.png");
+			data = adapter.Read("init");
 			Bitmap towrite = adapter.Write(JSONdata);
 		}
 	}

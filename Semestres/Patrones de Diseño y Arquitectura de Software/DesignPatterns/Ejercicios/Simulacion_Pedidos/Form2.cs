@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Specialized;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,14 +28,21 @@ namespace Simulacion_Pedidos
         private int price_sodas = 15;
         private int price_bread = 5;
         private double profit = 0;
+        private ListDictionary availableProds = new ListDictionary();   //products <ID, name>
+        Root[] thisdata = Adaptee.ReadQR("..\\..\\Stores-data\\QRs\\Tienda_2.png");
 
 
         public Form2()
         {
+            
             InitializeComponent();
             idStoreLabel.Text = Adaptee.data[0].idStore.ToString();
             nameStoreLabel.Text = Adaptee.data[0].storeName.ToString();
             oneTimeLastQR = 0;
+
+            availableProds.Add(1, "Vegetables");
+            availableProds.Add(2, "Sodas");
+            availableProds.Add(3, "Bread");
         }
 
         internal void getData(String data)
@@ -98,51 +107,99 @@ namespace Simulacion_Pedidos
             int ID_newp=0;
             string name_newp = "";
             bool exists = false;
-            string path = "..\\..\\Stores-data\\QRs\\" + Adaptee.data[0].storeName + ".png";
-            Root[] thisdata = Adaptee.ReadQR(path);
+            //string path = "..\\..\\Stores-data\\QRs\\Tienda_2.png";
+            //Root[] thisdata = Adaptee.ReadQR(path);
 
-            if (thisdata[0].products.Count != 0)
+            IDictionaryEnumerator enumerator = availableProds.GetEnumerator();
+            while (enumerator.MoveNext())
             {
-                for (int i = 0; i < thisdata[0].products.Count; i++)
+                Console.WriteLine("it moves still");
+                if (try_id == (int)enumerator.Key)
                 {
-                    if (thisdata[0].products[i].idProduct == try_id)
-                    {
-                        exists = true;
-                        newprod.idProduct = thisdata[0].products[i].idProduct;
-                        newprod.name = thisdata[0].products[i].name;
-                        newprod.quantity += quantity;
-                        thisdata[0].products.Add(newprod);
+                    Console.WriteLine("true");
+                    exists = true;
+                    newprod.idProduct = try_id;
+                    newprod.name = (string)enumerator.Value;
+                    newprod.quantity += quantity;
 
-                        listToStock.RowCount = listToStock.RowCount + 1;
-                        listToStock.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-                        listToStock.Controls.Add(new Label() { Text = thisdata[0].products[i].idProduct.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, listToStock.RowCount-1);
-                        listToStock.Controls.Add(new Label() { Text = thisdata[0].products[i].name, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, listToStock.RowCount - 1);
-                        listToStock.Controls.Add(new Label() { Text = quantity.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 3, listToStock.RowCount - 1);
+                    //Singleton.GeneratePath();
+                    thisdata[0].products.Add(newprod);
+                    Console.WriteLine(thisdata[0].products.Count());
+                    listToStock.RowCount = listToStock.RowCount + 1;
+                    listToStock.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
+                    listToStock.Controls.Add(new Label() { Text = enumerator.Key.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, listToStock.RowCount - 1);
+                    listToStock.Controls.Add(new Label() { Text = (string)enumerator.Value, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, listToStock.RowCount - 1);
+                    listToStock.Controls.Add(new Label() { Text = getPrice((string)enumerator.Value).ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, listToStock.RowCount - 1);
+                    listToStock.Controls.Add(new Label() { Text = quantity.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 3, listToStock.RowCount - 1);
 
-                        //Write QR WORKSSSS
-                        Bitmap imageTemporal = Adaptee.WriteQR(thisdata);
-                        Bitmap imagen = new Bitmap(imageTemporal, new Size(new Point(200, 200)));
-                        imagen.Save("QR-code", ImageFormat.Png);
-                        QR_container.BackgroundImage = imagen;
-                        //Save image as png
-                        Image image = (Image)QR_container.BackgroundImage.Clone();
-
-                        image.Save(path);
-
-                        break;
-                    }
-                    else
-                    {
-                        exists = false;
-                    }
+                    //Write QR WORKSSSS
+                    Bitmap imageTemporal = Adaptee.WriteQR(thisdata);
+                    Bitmap imagen = new Bitmap(imageTemporal, new Size(new Point(200, 200)));
+                    imagen.Save("QR-code", ImageFormat.Png);
+                    QR_container.BackgroundImage = imagen;
+                    ////Save image as png
+                    //Image image = (Image)QR_container.BackgroundImage.Clone();
+                    //image.Save(path);
+                    break;
                 }
-                if(exists == false)
+                else
                 {
-                    string message = "This ID does not exist. Try again.";
-                    string title = "Error";
-                    MessageBox.Show(message, title);
+                    Console.WriteLine("false");
+                    exists = false;
                 }
             }
+
+            if (exists == false)
+            {
+                string message = "This ID does not exist. Try again.";
+                string title = "Error";
+                MessageBox.Show(message, title);
+            }
+
+
+            /*before*/
+            //if (thisdata[0].products.Count != 0)
+            //{
+            //    for (int i = 0; i < thisdata[0].products.Count; i++)
+            //    {
+            //        if (thisdata[0].products[i].idProduct == try_id)
+            //        {
+            //            exists = true;
+            //            newprod.idProduct = thisdata[0].products[i].idProduct;
+            //            newprod.name = thisdata[0].products[i].name;
+            //            newprod.quantity += quantity;
+            //            thisdata[0].products.Add(newprod);
+
+            //            listToStock.RowCount = listToStock.RowCount + 1;
+            //            listToStock.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
+            //            listToStock.Controls.Add(new Label() { Text = thisdata[0].products[i].idProduct.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, listToStock.RowCount-1);
+            //            listToStock.Controls.Add(new Label() { Text = thisdata[0].products[i].name, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, listToStock.RowCount - 1);
+            //            listToStock.Controls.Add(new Label() { Text = quantity.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 3, listToStock.RowCount - 1);
+
+            //            //Write QR WORKSSSS
+            //            Bitmap imageTemporal = Adaptee.WriteQR(thisdata);
+            //            Bitmap imagen = new Bitmap(imageTemporal, new Size(new Point(200, 200)));
+            //            imagen.Save("QR-code", ImageFormat.Png);
+            //            QR_container.BackgroundImage = imagen;
+            //            //Save image as png
+            //            Image image = (Image)QR_container.BackgroundImage.Clone();
+
+            //            image.Save(path);
+
+            //            break;
+            //        }
+            //        else
+            //        {
+            //            exists = false;
+            //        }
+            //    }
+            //    if(exists == false)
+            //    {
+            //        string message = "This ID does not exist. Try again.";
+            //        string title = "Error";
+            //        MessageBox.Show(message, title);
+            //    }
+            //}
 
         }
 
@@ -184,6 +241,7 @@ namespace Simulacion_Pedidos
         {
             //Save image as png
             Image image = (Image)QR_container.BackgroundImage.Clone();
+            File.Delete("..\\..\\Stores-data\\QRs\\Tienda_2.png");
             image.Save("..\\..\\Stores-data\\QRs\\Tienda_2.png");
 
             string message = "Your changes have been saved! :D";

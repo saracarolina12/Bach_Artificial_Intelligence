@@ -30,24 +30,29 @@ namespace Simulacion_Pedidos
         public static Root[] ReadQR(string ruta) //Decode
 		{
             Console.WriteLine("readQR");
-            FileInfo fileInfo = new FileInfo("..\\..\\Stores-data\\QRs\\Tienda_2.png");
-            Console.WriteLine(fileInfo.Length);
-            byte[] JSONdata = new byte[fileInfo.Length];
-            using (FileStream fs = fileInfo.OpenRead())
+            if(ruta != "init")
             {
-                fs.Read(JSONdata, 0, JSONdata.Length);
+                FileInfo fileInfo = new FileInfo(ruta);
+                Console.WriteLine(fileInfo.Length);
+                byte[] JSONdata = new byte[fileInfo.Length];
+                using (FileStream fs = fileInfo.OpenRead())
+                {
+                    fs.Read(JSONdata, 0, JSONdata.Length);
+                    fs.Close();
+                }
+                //fileInfo.Delete();
+                Image myimage;
+                using (MemoryStream memstr = new MemoryStream(JSONdata))
+                {
+                    myimage = Image.FromStream(memstr);
+                }
+                //QR_container.BackgroundImage = myimage;
+                MessagingToolkit.QRCode.Codec.QRCodeDecoder decoder = new MessagingToolkit.QRCode.Codec.QRCodeDecoder();
+                string json = decoder.Decode(new QRCodeBitmapImage(myimage as Bitmap));
+                data = JsonConvert.DeserializeObject<Root[]>(json);
+                return data;
             }
-            //fileInfo.Delete();
-            Image myimage;
-            using (MemoryStream memstr = new MemoryStream(JSONdata))
-            {
-                myimage = Image.FromStream(memstr);
-            }
-            //QR_container.BackgroundImage = myimage;
-            MessagingToolkit.QRCode.Codec.QRCodeDecoder decoder = new MessagingToolkit.QRCode.Codec.QRCodeDecoder();
-            string json = decoder.Decode(new QRCodeBitmapImage(myimage as Bitmap));
-            data = JsonConvert.DeserializeObject<Root[]>(json);
-            return data;
+            return null;
         }
 
         public static Bitmap WriteQR(Root[] JSONdata) //Encode
