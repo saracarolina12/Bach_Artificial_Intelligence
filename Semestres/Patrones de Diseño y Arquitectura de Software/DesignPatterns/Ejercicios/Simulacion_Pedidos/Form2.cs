@@ -98,7 +98,7 @@ namespace Simulacion_Pedidos
             int ID_newp=0;
             string name_newp = "";
             bool exists = false;
-            string path = "..\\..\\Stores-data\\QRs\\" + Adaptee.data[0].storeName + ".png";
+            string path = "..\\..\\Stores-data\\QRs\\Tienda_2.png";
             Root[] thisdata = Adaptee.ReadQR(path);
 
             if (thisdata[0].products.Count != 0)
