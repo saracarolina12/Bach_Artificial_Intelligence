@@ -14,6 +14,8 @@ namespace Simulacion_Pedidos
             Client client = new Client();
             client.getQR();
 
+            Singleton s1 = Singleton.GeneratePath();
+
         }
     }
 }

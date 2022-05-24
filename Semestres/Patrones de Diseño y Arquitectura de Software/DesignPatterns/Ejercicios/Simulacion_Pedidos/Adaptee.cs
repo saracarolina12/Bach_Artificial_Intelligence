@@ -47,9 +47,10 @@ namespace Simulacion_Pedidos
                     myimage = Image.FromStream(memstr);
                 }
                 //QR_container.BackgroundImage = myimage;
-                MessagingToolkit.QRCode.Codec.QRCodeDecoder decoder = new MessagingToolkit.QRCode.Codec.QRCodeDecoder();
+                QRCodeDecoder decoder = new QRCodeDecoder();
                 string json = decoder.Decode(new QRCodeBitmapImage(myimage as Bitmap));
                 data = JsonConvert.DeserializeObject<Root[]>(json);
+                //File.Delete("..\\..\\Stores-data\\QRs\\Tienda_2.png");
                 return data;
             }
             return null;
@@ -67,13 +68,15 @@ namespace Simulacion_Pedidos
             qrEncoder.TryEncode(jsontoQR, out qrCode);
             Bitmap imageTemporal;
             GraphicsRenderer renderer = new GraphicsRenderer(new FixedCodeSize(400, QuietZoneModules.Zero), Brushes.Black, Brushes.White);
-            using (MemoryStream ms = new MemoryStream()) {
+            using (MemoryStream ms = new MemoryStream())
+            {
                 renderer.WriteToStream(qrCode.Matrix, ImageFormat.Png, ms);
                 imageTemporal = new Bitmap(ms);
                 ms.Close();
             }
             mywrite = imageTemporal;
             return mywrite;
+
         }
 
     }

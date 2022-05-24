@@ -52,17 +52,15 @@ namespace Simulacion_Pedidos
             this.readQR = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.arrow = new System.Windows.Forms.PictureBox();
-            this.ID_store = new System.Windows.Forms.Label();
-            this.name_store = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.trucks_panel = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.toStockList.SuspendLayout();
             this.panel_trucks.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.arrow)).BeginInit();
-            this.trucks_panel.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -84,11 +82,11 @@ namespace Simulacion_Pedidos
             this.toStockList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.90173F));
             this.toStockList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.09827F));
             this.toStockList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 109F));
-            this.toStockList.Controls.Add(this.label7, 0, 0);
             this.toStockList.Controls.Add(this.label8, 2, 0);
+            this.toStockList.Controls.Add(this.label7, 0, 0);
             this.toStockList.Controls.Add(this.label15, 1, 0);
             this.toStockList.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.toStockList.Location = new System.Drawing.Point(21, 232);
+            this.toStockList.Location = new System.Drawing.Point(33, 231);
             this.toStockList.Name = "toStockList";
             this.toStockList.RowCount = 1;
             this.toStockList.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.68493F));
@@ -177,7 +175,7 @@ namespace Simulacion_Pedidos
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Mongolian Baiti", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label2.Location = new System.Drawing.Point(481, 21);
+            this.label2.Location = new System.Drawing.Point(525, 22);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(241, 50);
             this.label2.TabIndex = 2;
@@ -195,7 +193,7 @@ namespace Simulacion_Pedidos
             this.panel_trucks.Controls.Add(this.soda_truck);
             this.panel_trucks.Controls.Add(this.Available_trucks);
             this.panel_trucks.Controls.Add(this.shapeContainer1);
-            this.panel_trucks.Location = new System.Drawing.Point(382, 95);
+            this.panel_trucks.Location = new System.Drawing.Point(382, 82);
             this.panel_trucks.Margin = new System.Windows.Forms.Padding(0);
             this.panel_trucks.Name = "panel_trucks";
             this.panel_trucks.Size = new System.Drawing.Size(537, 132);
@@ -330,7 +328,7 @@ namespace Simulacion_Pedidos
             this.readQR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.readQR.Font = new System.Drawing.Font("Mongolian Baiti", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.readQR.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.readQR.Location = new System.Drawing.Point(789, 483);
+            this.readQR.Location = new System.Drawing.Point(799, 498);
             this.readQR.Name = "readQR";
             this.readQR.Size = new System.Drawing.Size(120, 56);
             this.readQR.TabIndex = 4;
@@ -354,72 +352,66 @@ namespace Simulacion_Pedidos
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Mongolian Baiti", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label5.Location = new System.Drawing.Point(563, 248);
+            this.label5.Location = new System.Drawing.Point(552, 231);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(181, 35);
             this.label5.TabIndex = 7;
             this.label5.Text = "Ideal Route";
             // 
-            // arrow
+            // tableLayoutPanel1
             // 
-            this.arrow.Image = ((System.Drawing.Image)(resources.GetObject("arrow.Image")));
-            this.arrow.Location = new System.Drawing.Point(511, 312);
-            this.arrow.Name = "arrow";
-            this.arrow.Size = new System.Drawing.Size(73, 47);
-            this.arrow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.arrow.TabIndex = 8;
-            this.arrow.TabStop = false;
-            this.arrow.Click += new System.EventHandler(this.arrow_Click);
+            this.tableLayoutPanel1.AutoSize = true;
+            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel1.ColumnCount = 3;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.74074F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.25926F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 86F));
+            this.tableLayoutPanel1.Controls.Add(this.label11, 2, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label10, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label9, 0, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(503, 273);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 53.57143F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 46.42857F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(276, 57);
+            this.tableLayoutPanel1.TabIndex = 11;
             // 
-            // ID_store
+            // label9
             // 
-            this.ID_store.AutoSize = true;
-            this.ID_store.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(191)))), ((int)(((byte)(188)))));
-            this.ID_store.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ID_store.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.ID_store.Location = new System.Drawing.Point(40, 9);
-            this.ID_store.Name = "ID_store";
-            this.ID_store.Size = new System.Drawing.Size(33, 25);
-            this.ID_store.TabIndex = 9;
-            this.ID_store.Text = "ID";
-            this.ID_store.Click += new System.EventHandler(this.ID_store_Click);
+            this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
+            this.label9.Location = new System.Drawing.Point(22, 4);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(33, 21);
+            this.label9.TabIndex = 11;
+            this.label9.Text = "ID";
             // 
-            // name_store
+            // label10
             // 
-            this.name_store.AutoSize = true;
-            this.name_store.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(191)))), ((int)(((byte)(188)))));
-            this.name_store.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name_store.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.name_store.Location = new System.Drawing.Point(29, 37);
-            this.name_store.Name = "name_store";
-            this.name_store.Size = new System.Drawing.Size(50, 20);
-            this.name_store.TabIndex = 10;
-            this.name_store.Text = "name";
+            this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
+            this.label10.Location = new System.Drawing.Point(101, 4);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(62, 21);
+            this.label10.TabIndex = 12;
+            this.label10.Text = "Name";
             // 
-            // label6
+            // label11
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(191)))), ((int)(((byte)(188)))));
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label6.Location = new System.Drawing.Point(21, 64);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(68, 20);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "revenue";
-            // 
-            // trucks_panel
-            // 
-            this.trucks_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(191)))), ((int)(((byte)(188)))));
-            this.trucks_panel.Controls.Add(this.ID_store);
-            this.trucks_panel.Controls.Add(this.label6);
-            this.trucks_panel.Controls.Add(this.name_store);
-            this.trucks_panel.Location = new System.Drawing.Point(382, 287);
-            this.trucks_panel.Margin = new System.Windows.Forms.Padding(0);
-            this.trucks_panel.Name = "trucks_panel";
-            this.trucks_panel.Size = new System.Drawing.Size(114, 93);
-            this.trucks_panel.TabIndex = 10;
-            this.trucks_panel.Paint += new System.Windows.Forms.PaintEventHandler(this.trucks_Paint);
+            this.label11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
+            this.label11.Location = new System.Drawing.Point(200, 4);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(63, 21);
+            this.label11.TabIndex = 13;
+            this.label11.Text = "Profit";
             // 
             // Form1
             // 
@@ -427,8 +419,7 @@ namespace Simulacion_Pedidos
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(252)))), ((int)(((byte)(248)))));
             this.ClientSize = new System.Drawing.Size(951, 577);
-            this.Controls.Add(this.trucks_panel);
-            this.Controls.Add(this.arrow);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.readQR);
@@ -447,9 +438,8 @@ namespace Simulacion_Pedidos
             this.panel_trucks.ResumeLayout(false);
             this.panel_trucks.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.arrow)).EndInit();
-            this.trucks_panel.ResumeLayout(false);
-            this.trucks_panel.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -475,17 +465,16 @@ namespace Simulacion_Pedidos
         private System.Windows.Forms.Button readQR;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox arrow;
-        private System.Windows.Forms.Label ID_store;
-        private System.Windows.Forms.Label name_store;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TableLayoutPanel toStockList;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Panel trucks_panel;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
     }
 }
 

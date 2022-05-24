@@ -28,10 +28,11 @@ namespace Simulacion_Pedidos
         public Form1()
         {
             InitializeComponent();
+            //storeProfits.Clear();
+            //sortedProfits.Clear();
 
             var fileCount = (from file in Directory.EnumerateFiles("..\\..\\Stores-data\\QRs\\", "*.png", SearchOption.AllDirectories)
                              select file).Count();
-            
 
             /*iterate over filenames*/
             DirectoryInfo d = new DirectoryInfo("..\\..\\Stores-data\\QRs\\"); //Assuming Test is your Folder
@@ -58,6 +59,8 @@ namespace Simulacion_Pedidos
                 sortedProfits.Add(x.Key, x.Value);
                 Console.WriteLine("Key: {0}, Value: {1}", x.Key, x.Value);
             }
+
+            showProfitsDict();
 
             /*PANEL ARRAYS*/
             //for (int i = 0; i < 5; i++)
@@ -166,20 +169,24 @@ namespace Simulacion_Pedidos
         {
             this.Hide();
             Form2 f2 = new Form2();
-            //f2.getData("hola desde Form1");
             f2.Show();
 
         }
         internal void getProfits(int storeID, double profit)
         {
-            storeProfits[storeID] = profit;
-        }
-        private void showProfitsDict()
-        {
-            foreach (KeyValuePair<int, double> x in storeProfits)
+            storeProfits[storeID] = profit+=storeProfits[storeID];
+            foreach (KeyValuePair<int, double> x in storeProfits.OrderByDescending(key => key.Value))
             {
                 Console.WriteLine("thissss: {0}, otherrrr: {1}", x.Key, x.Value);
             }
+        }
+        private void showProfitsDict()
+        {
+
+            //foreach (KeyValuePair<int, double> x in storeProfits.OrderByDescending(key => key.Value))
+            //{
+            //    Console.WriteLine("thissss: {0}, otherrrr: {1}", x.Key, x.Value);
+            //}
             
         }
 
@@ -230,29 +237,7 @@ namespace Simulacion_Pedidos
 
         private void arrow_Click(object sender, EventArgs e)
         {
-            //for (int i = 0; i < 5; i++)
-            //{
-            //    Panel pnl = new Panel();
-            //    pnl.Location = new Point(300 * i, 100);
-            //    pnl.BorderStyle = trucks_panel.BorderStyle;
-            //    pnl.BackColor = trucks_panel.BackColor;
-            //    pnl.Size = trucks_panel.Size;
-            //    pnl.Visible = true;
-
-            //    foreach (Control c in trucks_panel.Controls)
-            //    {
-            //        Control c2 = new Control();
-            //        c2 = new Label();
-            //        c2.Location = c.Location;
-            //        c2.Size = c.Size;
-            //        c2.Text = c.Text;
-            //        pnl.Controls.Add(c2);
-            //    }
-
-            //    Controls.Add(pnl);
-            //}
-            showProfitsDict();
-
+            
         }
     }
 }
