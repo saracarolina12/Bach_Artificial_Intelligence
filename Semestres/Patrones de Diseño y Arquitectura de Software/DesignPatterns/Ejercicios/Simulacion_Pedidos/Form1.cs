@@ -36,7 +36,6 @@ namespace Simulacion_Pedidos
             /*iterate over filenames*/
             DirectoryInfo d = new DirectoryInfo("..\\..\\Stores-data\\QRs\\"); //Assuming Test is your Folder
             FileInfo[] Files = d.GetFiles("*.png"); //Getting Text files
-            string str = "";
             Root[] data;
             double prof = 0;
             foreach (FileInfo file in Files)
@@ -53,26 +52,32 @@ namespace Simulacion_Pedidos
                 storeProfits.Add(data[0].idStore, prof);
             }
 
-
+            /*SORT INTIIAL PROFIT VALUES*/
             foreach (KeyValuePair<int, double> x in storeProfits.OrderByDescending(key => key.Value))
             {
                 sortedProfits.Add(x.Key, x.Value);
                 Console.WriteLine("Key: {0}, Value: {1}", x.Key, x.Value);
             }
 
+            /*PANEL ARRAYS*/
+            Panel store_panel = new Panel();
+            store_panel.Location = new System.Drawing.Point(26, 12);
+            store_panel.Name = "Panel1";
+            store_panel.Size = new System.Drawing.Size(228, 200);
+            store_panel.TabIndex = 0;
+
+
+            /*INTIAL PRODUCTS VALUES*/
             toStockList.RowCount = toStockList.RowCount + 1;
             toStockList.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-
             /**/
             toStockList.Controls.Add(new Label() { Text = "1", ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, 1);
             toStockList.Controls.Add(new Label() { Text = "2", ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, 2);
             toStockList.Controls.Add(new Label() { Text = "3", ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, 3);
-
             /*names*/
             toStockList.Controls.Add(new Label() { Text = "Vegetables", ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, 1);
             toStockList.Controls.Add(new Label() { Text = "Sodas", ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, 2);
             toStockList.Controls.Add(new Label() { Text = "Bread", ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, 3);
-
             /*quantity available*/
             toStockList.Controls.Add(new Label() { Text = totalVeg, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, 1);
             toStockList.Controls.Add(new Label() { Text = totalSoda, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, 2);
