@@ -60,11 +60,28 @@ namespace Simulacion_Pedidos
             }
 
             /*PANEL ARRAYS*/
-            Panel store_panel = new Panel();
-            store_panel.Location = new System.Drawing.Point(26, 12);
-            store_panel.Name = "Panel1";
-            store_panel.Size = new System.Drawing.Size(228, 200);
-            store_panel.TabIndex = 0;
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    Panel pnl = new Panel();
+            //    pnl.Location = new Point(10 * i, 10 * i);
+            //    pnl.BorderStyle = panel1.BorderStyle;
+            //    pnl.BackColor = panel1.BackColor;
+            //    pnl.Size = panel1.Size;
+            //    pnl.Visible = true;
+
+            //    foreach (Control c in panel1.Controls)
+            //    {
+            //        Control c2 = new Control();
+            //        c2 = new Label();
+            //        c2.Location = c.Location;
+            //        c2.Size = c.Size;
+            //        c2.Text = c.Text;
+            //        pnl.Controls.Add(c2);
+            //    }
+
+            //    tabPage1.Controls.Add(pnl);
+            //}
+
 
 
             /*INTIAL PRODUCTS VALUES*/
@@ -155,7 +172,15 @@ namespace Simulacion_Pedidos
         }
         internal void getProfits(int storeID, double profit)
         {
-            Console.WriteLine("id: {0}, profit: {1}", storeID, profit);
+            storeProfits[storeID] = profit;
+        }
+        private void showProfitsDict()
+        {
+            foreach (KeyValuePair<int, double> x in storeProfits)
+            {
+                Console.WriteLine("thissss: {0}, otherrrr: {1}", x.Key, x.Value);
+            }
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -201,6 +226,33 @@ namespace Simulacion_Pedidos
         private void trucks_Paint(object sender, PaintEventArgs e)
         {
             
+        }
+
+        private void arrow_Click(object sender, EventArgs e)
+        {
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    Panel pnl = new Panel();
+            //    pnl.Location = new Point(300 * i, 100);
+            //    pnl.BorderStyle = trucks_panel.BorderStyle;
+            //    pnl.BackColor = trucks_panel.BackColor;
+            //    pnl.Size = trucks_panel.Size;
+            //    pnl.Visible = true;
+
+            //    foreach (Control c in trucks_panel.Controls)
+            //    {
+            //        Control c2 = new Control();
+            //        c2 = new Label();
+            //        c2.Location = c.Location;
+            //        c2.Size = c.Size;
+            //        c2.Text = c.Text;
+            //        pnl.Controls.Add(c2);
+            //    }
+
+            //    Controls.Add(pnl);
+            //}
+            showProfitsDict();
+
         }
     }
 }

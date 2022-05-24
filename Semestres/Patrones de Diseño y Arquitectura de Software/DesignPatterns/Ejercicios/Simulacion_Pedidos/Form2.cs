@@ -225,7 +225,7 @@ namespace Simulacion_Pedidos
             this.Hide();
             Form1 f1 = new Form1();
             //Root[] getData = Adaptee.ReadQR("..\\..\\Stores-data\\QRs\\Tienda_2.png");
-            f1.getProfits(2, local_profit);
+            f1.getProfits(thisdata[0].idStore, local_profit);
             f1.Show();
         }
 

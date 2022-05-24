@@ -56,13 +56,13 @@ namespace Simulacion_Pedidos
             this.ID_store = new System.Windows.Forms.Label();
             this.name_store = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.trucks = new System.Windows.Forms.Panel();
+            this.trucks_panel = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.toStockList.SuspendLayout();
             this.panel_trucks.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.arrow)).BeginInit();
-            this.trucks.SuspendLayout();
+            this.trucks_panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -83,7 +83,7 @@ namespace Simulacion_Pedidos
             this.toStockList.ColumnCount = 3;
             this.toStockList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.90173F));
             this.toStockList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.09827F));
-            this.toStockList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 105F));
+            this.toStockList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 109F));
             this.toStockList.Controls.Add(this.label7, 0, 0);
             this.toStockList.Controls.Add(this.label8, 2, 0);
             this.toStockList.Controls.Add(this.label15, 1, 0);
@@ -142,7 +142,7 @@ namespace Simulacion_Pedidos
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label8.Location = new System.Drawing.Point(158, 13);
+            this.label8.Location = new System.Drawing.Point(156, 13);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(89, 21);
             this.label8.TabIndex = 11;
@@ -154,7 +154,7 @@ namespace Simulacion_Pedidos
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label15.Location = new System.Drawing.Point(65, 13);
+            this.label15.Location = new System.Drawing.Point(63, 13);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(62, 21);
             this.label15.TabIndex = 19;
@@ -369,6 +369,7 @@ namespace Simulacion_Pedidos
             this.arrow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.arrow.TabIndex = 8;
             this.arrow.TabStop = false;
+            this.arrow.Click += new System.EventHandler(this.arrow_Click);
             // 
             // ID_store
             // 
@@ -407,18 +408,18 @@ namespace Simulacion_Pedidos
             this.label6.TabIndex = 11;
             this.label6.Text = "revenue";
             // 
-            // trucks
+            // trucks_panel
             // 
-            this.trucks.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(191)))), ((int)(((byte)(188)))));
-            this.trucks.Controls.Add(this.ID_store);
-            this.trucks.Controls.Add(this.label6);
-            this.trucks.Controls.Add(this.name_store);
-            this.trucks.Location = new System.Drawing.Point(382, 287);
-            this.trucks.Margin = new System.Windows.Forms.Padding(0);
-            this.trucks.Name = "trucks";
-            this.trucks.Size = new System.Drawing.Size(114, 93);
-            this.trucks.TabIndex = 10;
-            this.trucks.Paint += new System.Windows.Forms.PaintEventHandler(this.trucks_Paint);
+            this.trucks_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(191)))), ((int)(((byte)(188)))));
+            this.trucks_panel.Controls.Add(this.ID_store);
+            this.trucks_panel.Controls.Add(this.label6);
+            this.trucks_panel.Controls.Add(this.name_store);
+            this.trucks_panel.Location = new System.Drawing.Point(382, 287);
+            this.trucks_panel.Margin = new System.Windows.Forms.Padding(0);
+            this.trucks_panel.Name = "trucks_panel";
+            this.trucks_panel.Size = new System.Drawing.Size(114, 93);
+            this.trucks_panel.TabIndex = 10;
+            this.trucks_panel.Paint += new System.Windows.Forms.PaintEventHandler(this.trucks_Paint);
             // 
             // Form1
             // 
@@ -426,7 +427,7 @@ namespace Simulacion_Pedidos
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(252)))), ((int)(((byte)(248)))));
             this.ClientSize = new System.Drawing.Size(951, 577);
-            this.Controls.Add(this.trucks);
+            this.Controls.Add(this.trucks_panel);
             this.Controls.Add(this.arrow);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.pictureBox1);
@@ -447,8 +448,8 @@ namespace Simulacion_Pedidos
             this.panel_trucks.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.arrow)).EndInit();
-            this.trucks.ResumeLayout(false);
-            this.trucks.PerformLayout();
+            this.trucks_panel.ResumeLayout(false);
+            this.trucks_panel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -481,8 +482,10 @@ namespace Simulacion_Pedidos
         private System.Windows.Forms.TableLayoutPanel toStockList;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Panel trucks;
+        private System.Windows.Forms.Panel trucks_panel;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tabPage1;
     }
 }
 
