@@ -60,13 +60,7 @@ namespace Simulacion_Pedidos
 
             showProfitsDict();
 
-            if (Start.TOTAL_SODA >= 360)
-            {
-
-            }
-            Console.WriteLine("-- actual sodas: {0}", Start.TOTAL_SODA);
-            Console.WriteLine("-- actual bread: {0}", Start.TOTAL_BREAD);
-            Console.WriteLine("-- actual vegetables: {0}", Start.TOTAL_VEGETABLES);
+            
 
             /*INTIAL PRODUCTS VALUES*/
             toStockList.RowCount = toStockList.RowCount + 1;
@@ -103,6 +97,22 @@ namespace Simulacion_Pedidos
             else
             {
                 return 5.0 * quantity;
+            }
+        }
+
+        private string getStoreName(int ID)
+        {
+            if (ID == 1)
+            {
+                return "Frozen vegetables";
+            }
+            else if (ID == 2)
+            {
+                return "Sodas";
+            }
+            else
+            {
+                return "Bread";
             }
         }
 
@@ -146,10 +156,10 @@ namespace Simulacion_Pedidos
         internal void getProfits(int storeID, double profit)
         {
             storeProfits[storeID] = profit+=storeProfits[storeID];
-            foreach (KeyValuePair<int, double> x in storeProfits.OrderByDescending(key => key.Value))
-            {
-                Console.WriteLine("thissss: {0}, otherrrr: {1}", x.Key, x.Value);
-            }
+            //foreach (KeyValuePair<int, double> x in storeProfits.OrderByDescending(key => key.Value))
+            //{
+            //    Console.WriteLine("thissss: {0}, otherrrr: {1}", x.Key, x.Value);
+            //}
         }
 
       
@@ -276,7 +286,6 @@ namespace Simulacion_Pedidos
                 if (Start.SODA_TRUCK != 0)
                 {
                     Start.SODA_TRUCK -= 1;
-                    Console.WriteLine("SODITAS: {0}", Start.SODA_TRUCK);
                     Nsoda_trucks.Text = Start.SODA_TRUCK.ToString();
                 }
             }
@@ -311,8 +320,34 @@ namespace Simulacion_Pedidos
 
         }
 
+        private void generateRoute()
+        {
+            for (int i = 1; i < Ideal_route.ColumnCount; i++)
+            {
+                Control Control = Ideal_route.GetControlFromPosition(0, i);
+                Ideal_route.Controls.Remove(Control);
+            }
+            Ideal_route.RowStyles.RemoveAt(rowCount - 1);
+
+            foreach (KeyValuePair<int, double> x in storeProfits.OrderByDescending(key => key.Value))
+            {
+                Console.WriteLine("****KEY: {0}, PROFIT: {1}", x.Key, x.Value);
+                Ideal_route.RowCount = Ideal_route.RowCount + 1;
+                Ideal_route.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
+                //ID
+                Ideal_route.Controls.Add(new Label() { Text = x.Key.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, Ideal_route.RowCount - 1);
+                Ideal_route.Controls.Add(new Label() { Text = getStoreName(x.Key), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, Ideal_route.RowCount - 1);
+                Ideal_route.Controls.Add(new Label() { Text = x.Value.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, Ideal_route.RowCount - 1);
+            }
+
+
+        }
+
         private void start_sim_Click(object sender, EventArgs e)
         {
+            /* Generate route */
+            generateRoute();
+
             /* SODA */
             if(Start.TOTAL_SODA == 0)
             {
@@ -325,10 +360,8 @@ namespace Simulacion_Pedidos
                 switch (Start.SODA_TRUCK)
                 {
                     case 1:
-                        //Console.WriteLine("aaa: {0}", Start.TOTAL_SODA-120);
                         if (120-Start.TOTAL_SODA >= 0)
                         {
-                            Console.WriteLine("REQUIRED SODA: {0}", Start.TOTAL_SODA);
                             soda_demand_label.ForeColor = Color.Green;
                             soda_demand_label.Text = "Fulfilled";
                         }
@@ -384,7 +417,6 @@ namespace Simulacion_Pedidos
                     case 1:
                         if (270 - Start.TOTAL_BREAD >= 0)
                         {
-                            Console.WriteLine("REQUIRED bread: {0}", Start.TOTAL_BREAD);
                             bread_demand_label.ForeColor = Color.Green;
                             bread_demand_label.Text = "Fulfilled";
                         }
@@ -397,7 +429,6 @@ namespace Simulacion_Pedidos
                     case 2:
                         if (540 - Start.TOTAL_BREAD >= 0)
                         {
-                            Console.WriteLine("REQUIRED bread: {0}", Start.TOTAL_BREAD);
                             bread_demand_label.ForeColor = Color.Green;
                             bread_demand_label.Text = "Fulfilled";
                         }
@@ -410,7 +441,6 @@ namespace Simulacion_Pedidos
                     case 3:
                         if (810 - Start.TOTAL_BREAD >= 0)
                         {
-                            Console.WriteLine("REQUIRED bread: {0}", Start.TOTAL_BREAD);
                             bread_demand_label.ForeColor = Color.Green;
                             bread_demand_label.Text = "Fulfilled";
                         }
@@ -425,7 +455,6 @@ namespace Simulacion_Pedidos
                 }
                 if ((270 - Start.TOTAL_BREAD < 0) && (540 - Start.TOTAL_BREAD < 0) && (810 - Start.TOTAL_BREAD < 0))
                 {
-                    Console.WriteLine("in");
                     string message = "Not enough products, we need " + Math.Abs((285 - Start.TOTAL_BREAD)).ToString() + " more breads";
                     MessageBox.Show(message);
                 }
@@ -444,7 +473,6 @@ namespace Simulacion_Pedidos
                     case 1:
                         if (95 - Start.TOTAL_VEGETABLES >= 0)
                         {
-                            Console.WriteLine("REQUIRED vegetables: {0}", Start.TOTAL_VEGETABLES);
                             vegetables_demand_label.ForeColor = Color.Green;
                             vegetables_demand_label.Text = "Fulfilled";
                         }
@@ -457,7 +485,6 @@ namespace Simulacion_Pedidos
                     case 2:
                         if (190 - Start.TOTAL_VEGETABLES >= 0)
                         {
-                            Console.WriteLine("REQUIRED vegetables: {0}", Start.TOTAL_VEGETABLES);
                             vegetables_demand_label.ForeColor = Color.Green;
                             vegetables_demand_label.Text = "Fulfilled";
                         }
@@ -470,7 +497,6 @@ namespace Simulacion_Pedidos
                     case 3:
                         if (285 - Start.TOTAL_VEGETABLES >= 0)
                         {
-                            Console.WriteLine("REQUIRED vegetables: {0}", Start.TOTAL_VEGETABLES);
                             vegetables_demand_label.ForeColor = Color.Green;
                             vegetables_demand_label.Text = "Fulfilled";
                         }
@@ -485,7 +511,6 @@ namespace Simulacion_Pedidos
                 }
                 if ((95 - Start.TOTAL_VEGETABLES < 0) && (190 - Start.TOTAL_VEGETABLES < 0) && (285 - Start.TOTAL_VEGETABLES < 0))
                 {
-                    Console.WriteLine("in");
                     string message = "Not enough products, we need " + Math.Abs((285 - Start.TOTAL_VEGETABLES)).ToString() + " more vegetables";
                     MessageBox.Show(message);
                 }
