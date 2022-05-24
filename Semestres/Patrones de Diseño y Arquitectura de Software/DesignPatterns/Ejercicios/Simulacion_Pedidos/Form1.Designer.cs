@@ -592,13 +592,13 @@ namespace Simulacion_Pedidos
             this.readQR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(191)))), ((int)(((byte)(188)))));
             this.readQR.FlatAppearance.BorderSize = 0;
             this.readQR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.readQR.Font = new System.Drawing.Font("Mongolian Baiti", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.readQR.Font = new System.Drawing.Font("Mongolian Baiti", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.readQR.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.readQR.Location = new System.Drawing.Point(799, 498);
+            this.readQR.Location = new System.Drawing.Point(776, 516);
             this.readQR.Name = "readQR";
-            this.readQR.Size = new System.Drawing.Size(120, 56);
+            this.readQR.Size = new System.Drawing.Size(143, 38);
             this.readQR.TabIndex = 4;
-            this.readQR.Text = "Read QR";
+            this.readQR.Text = "Add Products";
             this.readQR.UseVisualStyleBackColor = false;
             this.readQR.Click += new System.EventHandler(this.readQR_Click);
             // 

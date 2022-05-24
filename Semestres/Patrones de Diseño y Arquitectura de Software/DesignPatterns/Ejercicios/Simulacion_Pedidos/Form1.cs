@@ -363,176 +363,186 @@ namespace Simulacion_Pedidos
 
         private void start_sim_Click(object sender, EventArgs e)
         {
-            /* Generate route */
-            generateRoute();
+            if( (Start.BREADK_TRUCK + Start.SODA_TRUCK + Start.VEGETABLES_TRUCK) != 0)
+            {
+                /* SODA */
+                if (Start.TOTAL_SODA == 0)
+                {
 
-            /* SODA */
-            if(Start.TOTAL_SODA == 0)
-            {
-                
-                soda_demand_label.ForeColor = Color.Green;
-                soda_demand_label.Text = "Fulfilled";
+                    soda_demand_label.ForeColor = Color.Green;
+                    soda_demand_label.Text = "Fulfilled";
+                }
+                else //calculate how many trucks we need
+                {
+                    switch (Start.SODA_TRUCK)
+                    {
+                        case 1:
+                            if (120 - Start.TOTAL_SODA >= 0)
+                            {
+                                soda_demand_label.ForeColor = Color.Green;
+                                soda_demand_label.Text = "Fulfilled";
+                            }
+                            else
+                            {
+                                soda_demand_label.Text = "Not fulfilled";
+                                soda_demand_label.ForeColor = Color.Red;
+                            }
+                            break;
+                        case 2:
+                            if (240 - Start.TOTAL_SODA >= 0)
+                            {
+                                soda_demand_label.ForeColor = Color.Green;
+                                soda_demand_label.Text = "Fulfilled";
+                            }
+                            else
+                            {
+                                soda_demand_label.Text = "Not fulfilled";
+                                soda_demand_label.ForeColor = Color.Red;
+                            }
+                            break;
+                        case 3:
+                            if (360 - Start.TOTAL_SODA >= 0)
+                            {
+                                soda_demand_label.ForeColor = Color.Green;
+                                soda_demand_label.Text = "Fulfilled";
+                            }
+                            else
+                            {
+                                soda_demand_label.ForeColor = Color.Red;
+                                soda_demand_label.Text = "Not fulfilled";
+                            }
+                            break;
+                        default:
+                            break;
+                    }
+                    if ((120 - Start.TOTAL_SODA < 0) && (240 - Start.TOTAL_SODA < 0) && (360 - Start.TOTAL_SODA < 0))
+                    {
+                        string message = "Not enough products, we need " + Math.Abs((810 - Start.TOTAL_SODA)).ToString() + " more sodas";
+                        MessageBox.Show(message);
+                    }
+                }
+                /* BREAD */
+                if (Start.TOTAL_BREAD == 0)
+                {
+                    bread_demand_label.Text = "Fulfilled";
+                    bread_demand_label.ForeColor = Color.Green;
+                }
+                else //calculate how many trucks we need
+                {
+                    switch (Start.BREADK_TRUCK)
+                    {
+                        case 1:
+                            if (270 - Start.TOTAL_BREAD >= 0)
+                            {
+                                bread_demand_label.ForeColor = Color.Green;
+                                bread_demand_label.Text = "Fulfilled";
+                            }
+                            else
+                            {
+                                bread_demand_label.Text = "Not fulfilled";
+                                bread_demand_label.ForeColor = Color.Red;
+                            }
+                            break;
+                        case 2:
+                            if (540 - Start.TOTAL_BREAD >= 0)
+                            {
+                                bread_demand_label.ForeColor = Color.Green;
+                                bread_demand_label.Text = "Fulfilled";
+                            }
+                            else
+                            {
+                                bread_demand_label.Text = "Not fulfilled";
+                                bread_demand_label.ForeColor = Color.Red;
+                            }
+                            break;
+                        case 3:
+                            if (810 - Start.TOTAL_BREAD >= 0)
+                            {
+                                bread_demand_label.ForeColor = Color.Green;
+                                bread_demand_label.Text = "Fulfilled";
+                            }
+                            else
+                            {
+                                bread_demand_label.Text = "Not fulfilled";
+                                bread_demand_label.ForeColor = Color.Red;
+                            }
+                            break;
+                        default:
+                            break;
+                    }
+                    if ((270 - Start.TOTAL_BREAD < 0) && (540 - Start.TOTAL_BREAD < 0) && (810 - Start.TOTAL_BREAD < 0))
+                    {
+                        string message = "Not enough products, we need " + Math.Abs((285 - Start.TOTAL_BREAD)).ToString() + " more breads";
+                        MessageBox.Show(message);
+                    }
+                }
+
+                /* VEGETABLES */
+                if (Start.TOTAL_VEGETABLES == 0)
+                {
+                    vegetables_demand_label.Text = "Fulfilled";
+                    vegetables_demand_label.ForeColor = Color.Green;
+                }
+                else //calculate how many trucks we need
+                {
+                    switch (Start.VEGETABLES_TRUCK)
+                    {
+                        case 1:
+                            if (95 - Start.TOTAL_VEGETABLES >= 0)
+                            {
+                                vegetables_demand_label.ForeColor = Color.Green;
+                                vegetables_demand_label.Text = "Fulfilled";
+                            }
+                            else
+                            {
+                                vegetables_demand_label.Text = "Not fulfilled";
+                                vegetables_demand_label.ForeColor = Color.Red;
+                            }
+                            break;
+                        case 2:
+                            if (190 - Start.TOTAL_VEGETABLES >= 0)
+                            {
+                                vegetables_demand_label.ForeColor = Color.Green;
+                                vegetables_demand_label.Text = "Fulfilled";
+                            }
+                            else
+                            {
+                                vegetables_demand_label.Text = "Not fulfilled";
+                                vegetables_demand_label.ForeColor = Color.Red;
+                            }
+                            break;
+                        case 3:
+                            if (285 - Start.TOTAL_VEGETABLES >= 0)
+                            {
+                                vegetables_demand_label.ForeColor = Color.Green;
+                                vegetables_demand_label.Text = "Fulfilled";
+                            }
+                            else
+                            {
+                                vegetables_demand_label.Text = "Not fulfilled";
+                                vegetables_demand_label.ForeColor = Color.Red;
+                            }
+                            break;
+                        default:
+                            break;
+                    }
+                    if ((95 - Start.TOTAL_VEGETABLES < 0) && (190 - Start.TOTAL_VEGETABLES < 0) && (285 - Start.TOTAL_VEGETABLES < 0))
+                    {
+                        string message = "Not enough products, we need " + Math.Abs((285 - Start.TOTAL_VEGETABLES)).ToString() + " more vegetables";
+                        MessageBox.Show(message);
+                    }
+                }
+
+                /* Generate route */
+                generateRoute();
             }
-            else //calculate how many trucks we need
+            else
             {
-                switch (Start.SODA_TRUCK)
-                {
-                    case 1:
-                        if (120-Start.TOTAL_SODA >= 0)
-                        {
-                            soda_demand_label.ForeColor = Color.Green;
-                            soda_demand_label.Text = "Fulfilled";
-                        }
-                        else
-                        {
-                            soda_demand_label.Text = "Not fulfilled";
-                            soda_demand_label.ForeColor = Color.Red;
-                        }
-                        break;
-                    case 2:
-                        if (240-Start.TOTAL_SODA>= 0)
-                        {
-                            soda_demand_label.ForeColor = Color.Green;
-                            soda_demand_label.Text = "Fulfilled";
-                        }
-                        else
-                        {
-                            soda_demand_label.Text = "Not fulfilled";
-                            soda_demand_label.ForeColor = Color.Red;
-                        }
-                        break;
-                    case 3:
-                        if (360 - Start.TOTAL_SODA  >= 0)
-                        {
-                            soda_demand_label.ForeColor = Color.Green;
-                            soda_demand_label.Text = "Fulfilled";
-                        }
-                        else
-                        {
-                            soda_demand_label.ForeColor = Color.Red;
-                            soda_demand_label.Text = "Not fulfilled";
-                        }
-                        break;
-                    default:
-                        break;
-                }
-                if ((120 - Start.TOTAL_SODA < 0) && (240 - Start.TOTAL_SODA < 0) && (360 - Start.TOTAL_SODA < 0))
-                {
-                    string message = "Not enough products, we need " + Math.Abs((810 - Start.TOTAL_SODA)).ToString() + " more sodas";
-                    MessageBox.Show(message);
-                }
-            }
-            /* BREAD */ 
-            if(Start.TOTAL_BREAD == 0)
-            {
-                bread_demand_label.Text = "Fulfilled";
-                bread_demand_label.ForeColor = Color.Green;
-            }
-            else //calculate how many trucks we need
-            {
-                switch (Start.BREADK_TRUCK)
-                {
-                    case 1:
-                        if (270 - Start.TOTAL_BREAD >= 0)
-                        {
-                            bread_demand_label.ForeColor = Color.Green;
-                            bread_demand_label.Text = "Fulfilled";
-                        }
-                        else
-                        {
-                            bread_demand_label.Text = "Not fulfilled";
-                            bread_demand_label.ForeColor = Color.Red;
-                        }
-                        break;
-                    case 2:
-                        if (540 - Start.TOTAL_BREAD >= 0)
-                        {
-                            bread_demand_label.ForeColor = Color.Green;
-                            bread_demand_label.Text = "Fulfilled";
-                        }
-                        else
-                        {
-                            bread_demand_label.Text = "Not fulfilled";
-                            bread_demand_label.ForeColor = Color.Red;
-                        }
-                        break;
-                    case 3:
-                        if (810 - Start.TOTAL_BREAD >= 0)
-                        {
-                            bread_demand_label.ForeColor = Color.Green;
-                            bread_demand_label.Text = "Fulfilled";
-                        }
-                        else
-                        {
-                            bread_demand_label.Text = "Not fulfilled";
-                            bread_demand_label.ForeColor = Color.Red;
-                        }
-                        break;
-                    default:
-                        break;
-                }
-                if ((270 - Start.TOTAL_BREAD < 0) && (540 - Start.TOTAL_BREAD < 0) && (810 - Start.TOTAL_BREAD < 0))
-                {
-                    string message = "Not enough products, we need " + Math.Abs((285 - Start.TOTAL_BREAD)).ToString() + " more breads";
-                    MessageBox.Show(message);
-                }
+                string message = "You should at least select one truck";
+                MessageBox.Show(message);
             }
 
-            /* VEGETABLES */
-            if(Start.TOTAL_VEGETABLES == 0)
-            {
-                vegetables_demand_label.Text = "Fulfilled";
-                vegetables_demand_label.ForeColor = Color.Green;
-            }
-            else //calculate how many trucks we need
-            {
-                switch (Start.VEGETABLES_TRUCK)
-                {
-                    case 1:
-                        if (95 - Start.TOTAL_VEGETABLES >= 0)
-                        {
-                            vegetables_demand_label.ForeColor = Color.Green;
-                            vegetables_demand_label.Text = "Fulfilled";
-                        }
-                        else
-                        {
-                            vegetables_demand_label.Text = "Not fulfilled";
-                            vegetables_demand_label.ForeColor = Color.Red;
-                        }
-                        break;
-                    case 2:
-                        if (190 - Start.TOTAL_VEGETABLES >= 0)
-                        {
-                            vegetables_demand_label.ForeColor = Color.Green;
-                            vegetables_demand_label.Text = "Fulfilled";
-                        }
-                        else
-                        {
-                            vegetables_demand_label.Text = "Not fulfilled";
-                            vegetables_demand_label.ForeColor = Color.Red;
-                        }
-                        break;
-                    case 3:
-                        if (285 - Start.TOTAL_VEGETABLES >= 0)
-                        {
-                            vegetables_demand_label.ForeColor = Color.Green;
-                            vegetables_demand_label.Text = "Fulfilled";
-                        }
-                        else
-                        {
-                            vegetables_demand_label.Text = "Not fulfilled";
-                            vegetables_demand_label.ForeColor = Color.Red;
-                        }
-                        break;
-                    default:
-                        break;
-                }
-                if ((95 - Start.TOTAL_VEGETABLES < 0) && (190 - Start.TOTAL_VEGETABLES < 0) && (285 - Start.TOTAL_VEGETABLES < 0))
-                {
-                    string message = "Not enough products, we need " + Math.Abs((285 - Start.TOTAL_VEGETABLES)).ToString() + " more vegetables";
-                    MessageBox.Show(message);
-                }
-            }
+            
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
