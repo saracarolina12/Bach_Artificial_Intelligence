@@ -21,7 +21,9 @@ namespace Simulacion_Pedidos
         string totalVeg = 34.ToString();
         string totalSoda = 64.ToString();
         string totalBread = 14.ToString();
-        private ListDictionary storeProfits = new ListDictionary();   //store to order <ID, name>
+        //private ListDictionary storeProfits = new ListDictionary();   //store to order <ID, name>
+        private Dictionary<int, double> storeProfits = new Dictionary<int, double>();
+        private Dictionary<int, double> sortedProfits = new Dictionary<int, double>();
 
         public Form1()
         {
@@ -35,17 +37,28 @@ namespace Simulacion_Pedidos
             DirectoryInfo d = new DirectoryInfo("..\\..\\Stores-data\\QRs\\"); //Assuming Test is your Folder
             FileInfo[] Files = d.GetFiles("*.png"); //Getting Text files
             string str = "";
+            Root[] data;
+            double prof = 0;
             foreach (FileInfo file in Files)
             {
-                str = str + ", " + file.Name;
+                prof = 0;
+                data = Adaptee.ReadQR("..\\..\\Stores-data\\QRs\\Tienda_"+ file.Name.Substring(file.Name.Length - 5, 1) + ".png");
+                //str = file.Name.Substring(file.Name.Length-5,1);
+               
+                for(int j=0; j<data[0].products.Count; j++)
+                {
+                    prof += getPrice(data[0].products[j].quantity, data[0].products[j].name);
+                    
+                }
+                storeProfits.Add(data[0].idStore, prof);
             }
-            Console.WriteLine("filenames: {0}", str);
 
-            //toStockList.RowCount = toStockList.RowCount + 1;
-            //toStockList.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-            //toStockList.Controls.Add(new Label() { Text = "Street, City, State" }, 1, toStockList.RowCount - 1);
-            //toStockList.Controls.Add(new Label() { Text = "888888888888" }, 2, toStockList.RowCount - 1);
-            //toStockList.Controls.Add(new Label() { Text = "xxxxxxx@gmail.com" }, 3, toStockList.RowCount - 1);
+
+            foreach (KeyValuePair<int, double> x in storeProfits.OrderByDescending(key => key.Value))
+            {
+                sortedProfits.Add(x.Key, x.Value);
+                Console.WriteLine("Key: {0}, Value: {1}", x.Key, x.Value);
+            }
 
             toStockList.RowCount = toStockList.RowCount + 1;
             toStockList.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
@@ -69,6 +82,22 @@ namespace Simulacion_Pedidos
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private double getPrice(int quantity, string prodName)
+        {
+            if (prodName == "Frozen vegetables")
+            {
+                return 100.0 * quantity;
+            }
+            else if (prodName == "Sodas")
+            {
+                return 15.0 * quantity;
+            }
+            else
+            {
+                return 5.0 * quantity;
+            }
         }
 
         private void label3_Click(object sender, EventArgs e)
