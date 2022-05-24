@@ -79,6 +79,7 @@ namespace Simulacion_Pedidos
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.start_sim = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sub_vegetables)).BeginInit();
@@ -101,6 +102,7 @@ namespace Simulacion_Pedidos
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(191)))), ((int)(((byte)(188)))));
+            this.panel1.Controls.Add(this.start_sim);
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel2);
@@ -119,12 +121,13 @@ namespace Simulacion_Pedidos
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(353, 577);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // panel5
             // 
             this.panel5.Controls.Add(this.sub_vegetables);
             this.panel5.Controls.Add(this.add_vegetables);
-            this.panel5.Location = new System.Drawing.Point(21, 498);
+            this.panel5.Location = new System.Drawing.Point(28, 359);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(67, 28);
             this.panel5.TabIndex = 16;
@@ -155,7 +158,7 @@ namespace Simulacion_Pedidos
             // 
             this.panel4.Controls.Add(this.sub_bread);
             this.panel4.Controls.Add(this.add_bread);
-            this.panel4.Location = new System.Drawing.Point(21, 459);
+            this.panel4.Location = new System.Drawing.Point(29, 434);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(67, 28);
             this.panel4.TabIndex = 15;
@@ -186,7 +189,7 @@ namespace Simulacion_Pedidos
             // 
             this.panel2.Controls.Add(this.sub_soda);
             this.panel2.Controls.Add(this.add_soda);
-            this.panel2.Location = new System.Drawing.Point(20, 425);
+            this.panel2.Location = new System.Drawing.Point(28, 396);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(67, 28);
             this.panel2.TabIndex = 14;
@@ -218,7 +221,7 @@ namespace Simulacion_Pedidos
             this.vegetables_demand_label.AutoSize = true;
             this.vegetables_demand_label.Font = new System.Drawing.Font("Mongolian Baiti", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vegetables_demand_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.vegetables_demand_label.Location = new System.Drawing.Point(224, 498);
+            this.vegetables_demand_label.Location = new System.Drawing.Point(229, 367);
             this.vegetables_demand_label.Name = "vegetables_demand_label";
             this.vegetables_demand_label.Size = new System.Drawing.Size(103, 20);
             this.vegetables_demand_label.TabIndex = 13;
@@ -229,7 +232,7 @@ namespace Simulacion_Pedidos
             this.bread_demand_label.AutoSize = true;
             this.bread_demand_label.Font = new System.Drawing.Font("Mongolian Baiti", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bread_demand_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.bread_demand_label.Location = new System.Drawing.Point(224, 463);
+            this.bread_demand_label.Location = new System.Drawing.Point(229, 440);
             this.bread_demand_label.Name = "bread_demand_label";
             this.bread_demand_label.Size = new System.Drawing.Size(103, 20);
             this.bread_demand_label.TabIndex = 12;
@@ -240,7 +243,7 @@ namespace Simulacion_Pedidos
             this.soda_demand_label.AutoSize = true;
             this.soda_demand_label.Font = new System.Drawing.Font("Mongolian Baiti", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.soda_demand_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.soda_demand_label.Location = new System.Drawing.Point(224, 426);
+            this.soda_demand_label.Location = new System.Drawing.Point(229, 401);
             this.soda_demand_label.Name = "soda_demand_label";
             this.soda_demand_label.Size = new System.Drawing.Size(103, 20);
             this.soda_demand_label.TabIndex = 11;
@@ -252,7 +255,7 @@ namespace Simulacion_Pedidos
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Mongolian Baiti", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label14.Location = new System.Drawing.Point(93, 498);
+            this.label14.Location = new System.Drawing.Point(97, 367);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(97, 20);
             this.label14.TabIndex = 10;
@@ -263,7 +266,7 @@ namespace Simulacion_Pedidos
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Mongolian Baiti", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label13.Location = new System.Drawing.Point(93, 463);
+            this.label13.Location = new System.Drawing.Point(98, 440);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(59, 20);
             this.label13.TabIndex = 10;
@@ -275,7 +278,7 @@ namespace Simulacion_Pedidos
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Mongolian Baiti", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label12.Location = new System.Drawing.Point(93, 426);
+            this.label12.Location = new System.Drawing.Point(99, 401);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(53, 20);
             this.label12.TabIndex = 10;
@@ -286,7 +289,7 @@ namespace Simulacion_Pedidos
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Mongolian Baiti", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label6.Location = new System.Drawing.Point(108, 370);
+            this.label6.Location = new System.Drawing.Point(110, 329);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(113, 30);
             this.label6.TabIndex = 2;
@@ -406,30 +409,30 @@ namespace Simulacion_Pedidos
             // 
             this.lineShape5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
             this.lineShape5.Name = "lineShape5";
-            this.lineShape5.X1 = 155;
-            this.lineShape5.X2 = 229;
-            this.lineShape5.Y1 = 476;
-            this.lineShape5.Y2 = 476;
+            this.lineShape5.X1 = 159;
+            this.lineShape5.X2 = 233;
+            this.lineShape5.Y1 = 413;
+            this.lineShape5.Y2 = 413;
             this.lineShape5.Click += new System.EventHandler(this.lineShape1_Click);
             // 
             // lineShape6
             // 
             this.lineShape6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
             this.lineShape6.Name = "lineShape6";
-            this.lineShape6.X1 = 113;
-            this.lineShape6.X2 = 278;
-            this.lineShape6.Y1 = 511;
-            this.lineShape6.Y2 = 511;
+            this.lineShape6.X1 = 117;
+            this.lineShape6.X2 = 282;
+            this.lineShape6.Y1 = 448;
+            this.lineShape6.Y2 = 448;
             this.lineShape6.Click += new System.EventHandler(this.lineShape1_Click);
             // 
             // lineShape4
             // 
             this.lineShape4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
             this.lineShape4.Name = "lineShape4";
-            this.lineShape4.X1 = 154;
-            this.lineShape4.X2 = 228;
-            this.lineShape4.Y1 = 440;
-            this.lineShape4.Y2 = 440;
+            this.lineShape4.X1 = 158;
+            this.lineShape4.X2 = 232;
+            this.lineShape4.Y1 = 377;
+            this.lineShape4.Y2 = 377;
             this.lineShape4.Click += new System.EventHandler(this.lineShape1_Click);
             // 
             // label2
@@ -705,6 +708,21 @@ namespace Simulacion_Pedidos
             this.pictureBox5.TabIndex = 13;
             this.pictureBox5.TabStop = false;
             // 
+            // start_sim
+            // 
+            this.start_sim.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(145)))), ((int)(((byte)(148)))));
+            this.start_sim.FlatAppearance.BorderSize = 0;
+            this.start_sim.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.start_sim.Font = new System.Drawing.Font("Mongolian Baiti", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.start_sim.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
+            this.start_sim.Location = new System.Drawing.Point(79, 489);
+            this.start_sim.Name = "start_sim";
+            this.start_sim.Size = new System.Drawing.Size(180, 42);
+            this.start_sim.TabIndex = 12;
+            this.start_sim.Text = "Simulate Route";
+            this.start_sim.UseVisualStyleBackColor = false;
+            this.start_sim.Click += new System.EventHandler(this.start_sim_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -802,6 +820,7 @@ namespace Simulacion_Pedidos
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Button start_sim;
     }
 }
 
