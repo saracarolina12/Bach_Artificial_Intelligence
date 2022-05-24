@@ -20,6 +20,7 @@ namespace Simulacion_Pedidos
         //private ListDictionary storeProfits = new ListDictionary();   //store to order <ID, name>
         private Dictionary<int, double> storeProfits = new Dictionary<int, double>();
         private Dictionary<int, double> sortedProfits = new Dictionary<int, double>();
+        private int c = 0;
 
         public Form1()
         {
@@ -322,23 +323,40 @@ namespace Simulacion_Pedidos
 
         private void generateRoute()
         {
-            for (int i = 1; i < Ideal_route.ColumnCount; i++)
+            if(c == 0)
             {
-                Control Control = Ideal_route.GetControlFromPosition(0, i);
-                Ideal_route.Controls.Remove(Control);
+                foreach (KeyValuePair<int, double> x in storeProfits.OrderByDescending(key => key.Value))
+                {
+                    Ideal_route.RowCount = Ideal_route.RowCount + 1;
+                    Ideal_route.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
+                    //ID
+                    Ideal_route.Controls.Add(new Label() { Text = x.Key.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, Ideal_route.RowCount - 1);
+                    Ideal_route.Controls.Add(new Label() { Text = getStoreName(x.Key), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, Ideal_route.RowCount - 1);
+                    Ideal_route.Controls.Add(new Label() { Text = x.Value.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, Ideal_route.RowCount - 1);
+                }
+                c++;
             }
-            Ideal_route.RowStyles.RemoveAt(rowCount - 1);
-
-            foreach (KeyValuePair<int, double> x in storeProfits.OrderByDescending(key => key.Value))
+            else
             {
-                Console.WriteLine("****KEY: {0}, PROFIT: {1}", x.Key, x.Value);
-                Ideal_route.RowCount = Ideal_route.RowCount + 1;
-                Ideal_route.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-                //ID
-                Ideal_route.Controls.Add(new Label() { Text = x.Key.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, Ideal_route.RowCount - 1);
-                Ideal_route.Controls.Add(new Label() { Text = getStoreName(x.Key), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, Ideal_route.RowCount - 1);
-                Ideal_route.Controls.Add(new Label() { Text = x.Value.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, Ideal_route.RowCount - 1);
+                for (int i = 0; i < Ideal_route.ColumnCount; i++)
+                {
+                    for (int j = 1; j < Ideal_route.RowCount; j++)
+                    {
+                        Control Control = Ideal_route.GetControlFromPosition(i, j);
+                        Ideal_route.Controls.Remove(Control);
+                    }
+                }
+                int index= 0;
+                foreach (KeyValuePair<int, double> x in storeProfits.OrderByDescending(key => key.Value))
+                {
+                    index++;
+                    Ideal_route.Controls.Add(new Label() { Text = x.Key.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, index);
+                    Ideal_route.Controls.Add(new Label() { Text = getStoreName(x.Key), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, index);
+                    Ideal_route.Controls.Add(new Label() { Text = x.Value.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, index);
+                }
             }
+            
+            
 
 
         }

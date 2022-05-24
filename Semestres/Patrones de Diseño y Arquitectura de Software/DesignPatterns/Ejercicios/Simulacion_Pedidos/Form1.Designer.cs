@@ -635,7 +635,7 @@ namespace Simulacion_Pedidos
             this.Ideal_route.Controls.Add(this.label11, 2, 0);
             this.Ideal_route.Controls.Add(this.label10, 1, 0);
             this.Ideal_route.Controls.Add(this.label9, 0, 0);
-            this.Ideal_route.Location = new System.Drawing.Point(490, 269);
+            this.Ideal_route.Location = new System.Drawing.Point(464, 265);
             this.Ideal_route.Name = "Ideal_route";
             this.Ideal_route.RowCount = 1;
             this.Ideal_route.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 53.57143F));
