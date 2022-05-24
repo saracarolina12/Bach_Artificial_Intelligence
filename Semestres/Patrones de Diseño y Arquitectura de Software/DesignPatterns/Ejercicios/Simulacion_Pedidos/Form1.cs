@@ -17,10 +17,6 @@ namespace Simulacion_Pedidos
 {
     public partial class Form1 : Form
     {
-
-        string totalVeg = 34.ToString();
-        string totalSoda = 64.ToString();
-        string totalBread = 14.ToString();
         //private ListDictionary storeProfits = new ListDictionary();   //store to order <ID, name>
         private Dictionary<int, double> storeProfits = new Dictionary<int, double>();
         private Dictionary<int, double> sortedProfits = new Dictionary<int, double>();
@@ -28,8 +24,10 @@ namespace Simulacion_Pedidos
         public Form1()
         {
             InitializeComponent();
-            //storeProfits.Clear();
-            //sortedProfits.Clear();
+
+            Nsoda_trucks.Text = Start.SODA_TRUCK.ToString();
+            Nbread_trucks.Text = Start.BREADK_TRUCK.ToString();
+            Nvegetables_trucks.Text = Start.VEGETABLES_TRUCK.ToString();
 
             var fileCount = (from file in Directory.EnumerateFiles("..\\..\\Stores-data\\QRs\\", "*.png", SearchOption.AllDirectories)
                              select file).Count();
@@ -62,30 +60,13 @@ namespace Simulacion_Pedidos
 
             showProfitsDict();
 
-            /*PANEL ARRAYS*/
-            //for (int i = 0; i < 5; i++)
-            //{
-            //    Panel pnl = new Panel();
-            //    pnl.Location = new Point(10 * i, 10 * i);
-            //    pnl.BorderStyle = panel1.BorderStyle;
-            //    pnl.BackColor = panel1.BackColor;
-            //    pnl.Size = panel1.Size;
-            //    pnl.Visible = true;
+            if (Start.TOTAL_SODA >= 360)
+            {
 
-            //    foreach (Control c in panel1.Controls)
-            //    {
-            //        Control c2 = new Control();
-            //        c2 = new Label();
-            //        c2.Location = c.Location;
-            //        c2.Size = c.Size;
-            //        c2.Text = c.Text;
-            //        pnl.Controls.Add(c2);
-            //    }
-
-            //    tabPage1.Controls.Add(pnl);
-            //}
-
-
+            }
+            Console.WriteLine("-- actual sodas: {0}", Start.TOTAL_SODA);
+            Console.WriteLine("-- actual bread: {0}", Start.TOTAL_BREAD);
+            Console.WriteLine("-- actual vegetables: {0}", Start.TOTAL_VEGETABLES);
 
             /*INTIAL PRODUCTS VALUES*/
             toStockList.RowCount = toStockList.RowCount + 1;
@@ -99,9 +80,9 @@ namespace Simulacion_Pedidos
             toStockList.Controls.Add(new Label() { Text = "Sodas", ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, 2);
             toStockList.Controls.Add(new Label() { Text = "Bread", ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, 3);
             /*quantity available*/
-            toStockList.Controls.Add(new Label() { Text = totalVeg, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, 1);
-            toStockList.Controls.Add(new Label() { Text = totalSoda, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, 2);
-            toStockList.Controls.Add(new Label() { Text = totalBread, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, 3);
+            toStockList.Controls.Add(new Label() { Text = Start.TOTAL_VEGETABLES.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, 1);
+            toStockList.Controls.Add(new Label() { Text = Start.TOTAL_SODA.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, 2);
+            toStockList.Controls.Add(new Label() { Text = Start.TOTAL_BREAD.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, 3);
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -147,17 +128,7 @@ namespace Simulacion_Pedidos
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
-            ////Form with Rounded Borders in C#
-            //Rectangle Bounds = new Rectangle(0, 0, this.Width, this.Height);
-            //int CornerRadius = 20;
-            //System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
-            //path.AddArc(Bounds.X, Bounds.Y, CornerRadius, CornerRadius, 180, 90);
-            //path.AddArc(Bounds.X + Bounds.Width - CornerRadius, Bounds.Y, CornerRadius, CornerRadius, 270, 90);
-            //path.AddArc(Bounds.X + Bounds.Width - CornerRadius, Bounds.Y + Bounds.Height - CornerRadius, CornerRadius, CornerRadius, 0, 90);
-            //path.AddArc(Bounds.X, Bounds.Y + Bounds.Height - CornerRadius, CornerRadius, CornerRadius, 90, 90);
-            //path.CloseAllFigures();
-            //this.Region = new Region(path);
-            //base.OnPaint(e);
+            
         }
 
         private void lineShape1_Click(object sender, EventArgs e)
@@ -167,7 +138,7 @@ namespace Simulacion_Pedidos
 
         private void readQR_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            Hide();
             Form2 f2 = new Form2();
             f2.Show();
 
@@ -180,6 +151,8 @@ namespace Simulacion_Pedidos
                 Console.WriteLine("thissss: {0}, otherrrr: {1}", x.Key, x.Value);
             }
         }
+
+      
         private void showProfitsDict()
         {
 
@@ -238,6 +211,104 @@ namespace Simulacion_Pedidos
         private void arrow_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+            if ((Start.VEGETABLES_TRUCK + Start.SODA_TRUCK + Start.BREADK_TRUCK) + 1 != 6)
+            {
+                if (Start.SODA_TRUCK != 3)
+                {
+                    Start.SODA_TRUCK += 1;
+                    Nsoda_trucks.Text = Start.SODA_TRUCK.ToString();
+                }
+            }
+        }
+
+        private void add_bread_Click(object sender, EventArgs e)
+        {
+            if ((Start.VEGETABLES_TRUCK + Start.SODA_TRUCK + Start.BREADK_TRUCK) + 1 != 6)
+            {
+                if (Start.BREADK_TRUCK != 3) 
+                {
+                    Start.BREADK_TRUCK += 1;
+                    Nbread_trucks.Text = Start.BREADK_TRUCK.ToString();
+                }
+            }
+        }
+
+        private void add_vegetables_Click(object sender, EventArgs e)
+        {
+            if ((Start.VEGETABLES_TRUCK + Start.SODA_TRUCK + Start.BREADK_TRUCK) + 1 != 6)
+            {
+                if (Start.VEGETABLES_TRUCK != 3) 
+                {
+                    Start.VEGETABLES_TRUCK += 1;
+                    Nvegetables_trucks.Text = Start.VEGETABLES_TRUCK.ToString();
+                }
+            }
+        }
+
+        private void sub_soda_Click(object sender, EventArgs e)
+        {
+            if ((Start.VEGETABLES_TRUCK + Start.SODA_TRUCK + Start.BREADK_TRUCK) - 1 != -1)
+            {
+                if (Start.SODA_TRUCK != 0)
+                {
+                    Start.SODA_TRUCK -= 1;
+                    Console.WriteLine("SODITAS: {0}", Start.SODA_TRUCK);
+                    Nsoda_trucks.Text = Start.SODA_TRUCK.ToString();
+                }
+            }
+        }
+
+        private void sub_bread_Click(object sender, EventArgs e)
+        {
+            if ((Start.VEGETABLES_TRUCK + Start.SODA_TRUCK + Start.BREADK_TRUCK) - 1 != -1)
+            {
+                if (Start.BREADK_TRUCK != 0)
+                {
+                    Start.BREADK_TRUCK -= 1;
+                    Nbread_trucks.Text = Start.BREADK_TRUCK.ToString();
+                }
+            }
+        }
+
+        private void sub_vegetables_Click(object sender, EventArgs e)
+        {
+            if ((Start.VEGETABLES_TRUCK + Start.SODA_TRUCK + Start.BREADK_TRUCK) - 1 != -1)
+            {
+                if (Start.VEGETABLES_TRUCK != 0)
+                {
+                    Start.VEGETABLES_TRUCK -= 1;
+                    Nvegetables_trucks.Text = Start.VEGETABLES_TRUCK.ToString();
+                }
+            }
+        }
+
+        private void Nsoda_trucks_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
