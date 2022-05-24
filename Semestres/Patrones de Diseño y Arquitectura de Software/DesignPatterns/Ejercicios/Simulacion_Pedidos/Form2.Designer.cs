@@ -96,7 +96,7 @@ namespace Simulacion_Pedidos
             this.nameStoreLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
             this.nameStoreLabel.Location = new System.Drawing.Point(24, 31);
             this.nameStoreLabel.Name = "nameStoreLabel";
-            this.nameStoreLabel.Size = new System.Drawing.Size(180, 36);
+            this.nameStoreLabel.Size = new System.Drawing.Size(178, 35);
             this.nameStoreLabel.TabIndex = 3;
             this.nameStoreLabel.Text = "Name store";
             // 
@@ -192,7 +192,7 @@ namespace Simulacion_Pedidos
             this.listToStock.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.40816F));
             this.listToStock.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 79.59184F));
             this.listToStock.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 109F));
-            this.listToStock.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 87F));
+            this.listToStock.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 89F));
             this.listToStock.Controls.Add(this.label8, 3, 0);
             this.listToStock.Controls.Add(this.label7, 2, 0);
             this.listToStock.Controls.Add(this.name_label, 1, 0);
@@ -202,19 +202,19 @@ namespace Simulacion_Pedidos
             this.listToStock.RowCount = 1;
             this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
+            this.listToStock.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.listToStock.Size = new System.Drawing.Size(414, 36);
             this.listToStock.TabIndex = 11;
             this.listToStock.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
@@ -225,7 +225,7 @@ namespace Simulacion_Pedidos
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label8.Location = new System.Drawing.Point(336, 9);
+            this.label8.Location = new System.Drawing.Point(335, 9);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(65, 18);
             this.label8.TabIndex = 3;
@@ -238,7 +238,7 @@ namespace Simulacion_Pedidos
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label7.Location = new System.Drawing.Point(246, 9);
+            this.label7.Location = new System.Drawing.Point(244, 9);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(47, 18);
             this.label7.TabIndex = 2;
@@ -251,7 +251,7 @@ namespace Simulacion_Pedidos
             this.name_label.AutoSize = true;
             this.name_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.name_label.Location = new System.Drawing.Point(73, 9);
+            this.name_label.Location = new System.Drawing.Point(72, 9);
             this.name_label.Name = "name_label";
             this.name_label.Size = new System.Drawing.Size(113, 18);
             this.name_label.TabIndex = 1;
@@ -301,11 +301,11 @@ namespace Simulacion_Pedidos
             this.save_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.save_button.Font = new System.Drawing.Font("Mongolian Baiti", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.save_button.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.save_button.Location = new System.Drawing.Point(809, 500);
+            this.save_button.Location = new System.Drawing.Point(770, 500);
             this.save_button.Name = "save_button";
-            this.save_button.Size = new System.Drawing.Size(116, 49);
+            this.save_button.Size = new System.Drawing.Size(155, 49);
             this.save_button.TabIndex = 14;
-            this.save_button.Text = "Save";
+            this.save_button.Text = "Save Image";
             this.save_button.UseVisualStyleBackColor = false;
             this.save_button.Click += new System.EventHandler(this.save_button_Click);
             // 

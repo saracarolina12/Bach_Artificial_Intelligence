@@ -21,20 +21,18 @@ namespace Simulacion_Pedidos
 {
     public partial class Form2 : Form
     {
-        private string lastQRdata;
         private int oneTimeLastQR;
-        private int QR_ID;
-        private int price_vegetables = 100;
-        private int price_sodas = 15;
-        private int price_bread = 5;
         private double profit = 0;
         private ListDictionary availableProds = new ListDictionary();   //products <ID, name>
         Root[] thisdata = Adaptee.ReadQR("..\\..\\Stores-data\\QRs\\Tienda_2.png");
+        private double local_profit;
+        private int ID_toF1;
+        private double profit_toF1;
 
 
         public Form2()
         {
-            
+
             InitializeComponent();
             idStoreLabel.Text = Adaptee.data[0].idStore.ToString();
             nameStoreLabel.Text = Adaptee.data[0].storeName.ToString();
@@ -43,12 +41,15 @@ namespace Simulacion_Pedidos
             availableProds.Add(1, "Vegetables");
             availableProds.Add(2, "Sodas");
             availableProds.Add(3, "Bread");
+            local_profit = 0;
+            profit_toF1 = 0.0;
+            ID_toF1 = 0;
         }
 
-        internal void getData(String data)
-        {
-            //ordersTableAdapter.FillByCustomerID(northwindDataSet.Orders, CustomerID);
-        }
+        //internal void getData(String data)
+        //{
+        //    //ordersTableAdapter.FillByCustomerID(northwindDataSet.Orders, CustomerID);
+        //}
 
         protected override void OnPaint(PaintEventArgs e)
         {
@@ -70,42 +71,45 @@ namespace Simulacion_Pedidos
 
         }
 
-        private double calculate_profit(Root[] data, int quantity, string prodName)
+        private double calculate_profit(double newprice)
+        {
+            //Console.WriteLine(prodName);
+            //if (prodName == "Frozen vegetables")
+            //{
+            //    profit += 100.0*quantity;
+            //}
+            //else if (prodName == "Sodas")
+            //{
+            //    profit += 15.0*quantity;
+            //}
+            //else
+            //{
+            //    profit += 5.0*quantity;
+            //}
+            //return profit;
+            return local_profit += newprice;
+        }
+
+        private double getPrice(int quantity, string prodName)
         {
             if (prodName == "Frozen vegetables")
             {
-                profit += 100.0*quantity;
+                return 100.0 * quantity;
             }
             else if (prodName == "Sodas")
             {
-                profit += 15.0*quantity;
+                return 15.0 * quantity;
             }
             else
             {
-                profit += 5.0*quantity;
-            }
-            return profit;
-        }
-
-        private double getPrice(string prodName)
-        {
-            if (prodName == "Frozen vegetables")
-            {
-                return 100.0;
-            }else if(prodName == "Sodas")
-            {
-                return 15.0;
-            }
-            else { 
-                return 5.0;
+                return 5.0 * quantity;
             }
         }
 
         private void addProductToStock(int try_id, int quantity)
         {
             var newprod = new Products();
-            int ID_newp=0;
-            string name_newp = "";
+
             bool exists = false;
             //string path = "..\\..\\Stores-data\\QRs\\Tienda_2.png";
             //Root[] thisdata = Adaptee.ReadQR(path);
@@ -113,10 +117,8 @@ namespace Simulacion_Pedidos
             IDictionaryEnumerator enumerator = availableProds.GetEnumerator();
             while (enumerator.MoveNext())
             {
-                Console.WriteLine("it moves still");
                 if (try_id == (int)enumerator.Key)
                 {
-                    Console.WriteLine("true");
                     exists = true;
                     newprod.idProduct = try_id;
                     newprod.name = (string)enumerator.Value;
@@ -124,12 +126,13 @@ namespace Simulacion_Pedidos
 
                     //Singleton.GeneratePath();
                     thisdata[0].products.Add(newprod);
-                    Console.WriteLine(thisdata[0].products.Count());
                     listToStock.RowCount = listToStock.RowCount + 1;
+                    double total_price = getPrice(quantity, (string)enumerator.Value);
+                    double profit = calculate_profit(total_price);
                     listToStock.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
                     listToStock.Controls.Add(new Label() { Text = enumerator.Key.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, listToStock.RowCount - 1);
                     listToStock.Controls.Add(new Label() { Text = (string)enumerator.Value, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, listToStock.RowCount - 1);
-                    listToStock.Controls.Add(new Label() { Text = getPrice((string)enumerator.Value).ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, listToStock.RowCount - 1);
+                    listToStock.Controls.Add(new Label() { Text = total_price.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, listToStock.RowCount - 1);
                     listToStock.Controls.Add(new Label() { Text = quantity.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 3, listToStock.RowCount - 1);
 
                     //Write QR WORKSSSS
@@ -144,7 +147,6 @@ namespace Simulacion_Pedidos
                 }
                 else
                 {
-                    Console.WriteLine("false");
                     exists = false;
                 }
             }
@@ -205,7 +207,7 @@ namespace Simulacion_Pedidos
 
         private void Add_button_Click(object sender, EventArgs e)
         {
-            if(((int)numericUpDown1.Value) != 0) addProductToStock(((int)numericUpDown2.Value), ((int)numericUpDown1.Value));
+            if (((int)numericUpDown1.Value) != 0) addProductToStock(((int)numericUpDown2.Value), ((int)numericUpDown1.Value));
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -222,18 +224,19 @@ namespace Simulacion_Pedidos
         {
             this.Hide();
             Form1 f1 = new Form1();
+            //Root[] getData = Adaptee.ReadQR("..\\..\\Stores-data\\QRs\\Tienda_2.png");
+            f1.getProfits(2, local_profit);
             f1.Show();
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void QR_container_Paint(object sender, PaintEventArgs e)
         {
-            
-            if(oneTimeLastQR==0) QR_container.BackgroundImage = Image.FromFile("..\\..\\Stores-data\\QRs\\Tienda_2.png");
+            if (oneTimeLastQR == 0) QR_container.BackgroundImage = Image.FromFile("..\\..\\Stores-data\\QRs\\Tienda_2.png");
             oneTimeLastQR++;
         }
 
@@ -241,7 +244,7 @@ namespace Simulacion_Pedidos
         {
             //Save image as png
             Image image = (Image)QR_container.BackgroundImage.Clone();
-            File.Delete("..\\..\\Stores-data\\QRs\\Tienda_2.png");
+            //File.Delete("..\\..\\Stores-data\\QRs\\Tienda_2.png");
             image.Save("..\\..\\Stores-data\\QRs\\Tienda_2.png");
 
             string message = "Your changes have been saved! :D";

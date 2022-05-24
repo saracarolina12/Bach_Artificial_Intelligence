@@ -65,11 +65,13 @@ namespace Simulacion_Pedidos
             QrEncoder qrEncoder = new QrEncoder(ErrorCorrectionLevel.H);
             QrCode qrCode = new QrCode();
             qrEncoder.TryEncode(jsontoQR, out qrCode);
-
+            Bitmap imageTemporal;
             GraphicsRenderer renderer = new GraphicsRenderer(new FixedCodeSize(400, QuietZoneModules.Zero), Brushes.Black, Brushes.White);
-            MemoryStream ms = new MemoryStream();
-            renderer.WriteToStream(qrCode.Matrix, ImageFormat.Png, ms);
-            Bitmap imageTemporal = new Bitmap(ms);
+            using (MemoryStream ms = new MemoryStream()) {
+                renderer.WriteToStream(qrCode.Matrix, ImageFormat.Png, ms);
+                imageTemporal = new Bitmap(ms);
+                ms.Close();
+            }
             mywrite = imageTemporal;
             return mywrite;
         }

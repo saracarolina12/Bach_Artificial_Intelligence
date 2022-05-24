@@ -1,4 +1,5 @@
-﻿using Gma.QrCodeNet.Encoding;
+﻿using System.Collections.Specialized;
+using Gma.QrCodeNet.Encoding;
 using Gma.QrCodeNet.Encoding.Windows.Render;
 using System;
 using System.Collections.Generic;
@@ -20,20 +21,34 @@ namespace Simulacion_Pedidos
         string totalVeg = 34.ToString();
         string totalSoda = 64.ToString();
         string totalBread = 14.ToString();
+        private ListDictionary storeProfits = new ListDictionary();   //store to order <ID, name>
+
         public Form1()
         {
             InitializeComponent();
 
+            var fileCount = (from file in Directory.EnumerateFiles("..\\..\\Stores-data\\QRs\\", "*.png", SearchOption.AllDirectories)
+                             select file).Count();
             
+
+            /*iterate over filenames*/
+            DirectoryInfo d = new DirectoryInfo("..\\..\\Stores-data\\QRs\\"); //Assuming Test is your Folder
+            FileInfo[] Files = d.GetFiles("*.png"); //Getting Text files
+            string str = "";
+            foreach (FileInfo file in Files)
+            {
+                str = str + ", " + file.Name;
+            }
+            Console.WriteLine("filenames: {0}", str);
 
             //toStockList.RowCount = toStockList.RowCount + 1;
             //toStockList.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
             //toStockList.Controls.Add(new Label() { Text = "Street, City, State" }, 1, toStockList.RowCount - 1);
             //toStockList.Controls.Add(new Label() { Text = "888888888888" }, 2, toStockList.RowCount - 1);
             //toStockList.Controls.Add(new Label() { Text = "xxxxxxx@gmail.com" }, 3, toStockList.RowCount - 1);
-           
-                toStockList.RowCount = toStockList.RowCount + 1;
-                toStockList.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
+
+            toStockList.RowCount = toStockList.RowCount + 1;
+            toStockList.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
 
             /**/
             toStockList.Controls.Add(new Label() { Text = "1", ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, 1);
@@ -100,9 +115,13 @@ namespace Simulacion_Pedidos
         {
             this.Hide();
             Form2 f2 = new Form2();
-            f2.getData("hola desde Form1");
+            //f2.getData("hola desde Form1");
             f2.Show();
-            
+
+        }
+        internal void getProfits(int storeID, double profit)
+        {
+            Console.WriteLine("id: {0}, profit: {1}", storeID, profit);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -143,6 +162,11 @@ namespace Simulacion_Pedidos
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void trucks_Paint(object sender, PaintEventArgs e)
+        {
+            
         }
     }
 }
