@@ -20,7 +20,9 @@ namespace Simulacion_Pedidos
         //private ListDictionary storeProfits = new ListDictionary();   //store to order <ID, name>
         private Dictionary<int, double> storeProfits = new Dictionary<int, double>();
         private Dictionary<int, double> sortedProfits = new Dictionary<int, double>();
+        private Dictionary<int, string> storeNames = new Dictionary<int, string>();
         private int c = 0;
+        private Root[] data;
 
         public Form1()
         {
@@ -34,7 +36,7 @@ namespace Simulacion_Pedidos
             /*iterate over filenames*/
             DirectoryInfo d = new DirectoryInfo("..\\..\\Stores-data\\QRs\\"); //Assuming Test is your Folder
             FileInfo[] Files = d.GetFiles("*.png"); //Getting Text files
-            Root[] data;
+            
             double prof = 0;
             foreach (FileInfo file in Files)
             {
@@ -85,7 +87,7 @@ namespace Simulacion_Pedidos
 
         private double getPrice(int quantity, string prodName)
         {
-            if (prodName == "Frozen vegetables")
+            if (prodName == "Frozen vegetables" || prodName == "Vegetables")
             {
                 return 100.0 * quantity;
             }
@@ -99,21 +101,7 @@ namespace Simulacion_Pedidos
             }
         }
 
-        private string getStoreName(int ID)
-        {
-            if (ID == 1)
-            {
-                return "Frozen vegetables";
-            }
-            else if (ID == 2)
-            {
-                return "Sodas";
-            }
-            else
-            {
-                return "Bread";
-            }
-        }
+        
 
         private void label3_Click(object sender, EventArgs e)
         {
@@ -319,17 +307,41 @@ namespace Simulacion_Pedidos
 
         }
 
+        private string getStoreName(int ID)
+        {
+
+            return data[0].storeName;
+        }
+
         private void generateRoute()
         {
-            if(c == 0)
+            DirectoryInfo d = new DirectoryInfo("..\\..\\Stores-data\\QRs\\"); //Assuming Test is your Folder
+            FileInfo[] Files = d.GetFiles("*.png"); //Getting Text files
+            
+            
+
+            if (c == 0)
             {
                 foreach (KeyValuePair<int, double> x in storeProfits.OrderByDescending(key => key.Value))
                 {
+                    if (Start.idx == 4)
+                    {
+                        Start.idx = 1;
+                    }
+                    else
+                    {
+                        Start.idx++;
+                    }
+                    Console.WriteLine("..\\..\\Stores-data\\QRs\\" + Files[Start.idx-1].Name);
+                    Root[] getSname = Adaptee.ReadQR("..\\..\\Stores-data\\QRs\\" + Files[Start.idx-1].Name);
+                    
+                    //var ordered = dictionary1.OrderBy(p => dictionary2[p.Value]).ToArray();
+
                     Ideal_route.RowCount = Ideal_route.RowCount + 1;
                     Ideal_route.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
                     //ID
                     Ideal_route.Controls.Add(new Label() { Text = x.Key.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, Ideal_route.RowCount - 1);
-                    Ideal_route.Controls.Add(new Label() { Text = getStoreName(x.Key), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, Ideal_route.RowCount - 1);
+                    Ideal_route.Controls.Add(new Label() { Text = getSname[0].storeName, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, Ideal_route.RowCount - 1);
                     Ideal_route.Controls.Add(new Label() { Text = x.Value.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, Ideal_route.RowCount - 1);
                 }
                 c++;

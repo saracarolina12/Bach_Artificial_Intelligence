@@ -30,11 +30,9 @@ namespace Simulacion_Pedidos
         //public static Root[] JSONdata;
         public static Root[] ReadQR(string ruta) //Decode
 		{
-            Console.WriteLine("readQR");
             if(ruta != "init")
             {
                 FileInfo fileInfo = new FileInfo(ruta);
-                Console.WriteLine(fileInfo.Length);
                 byte[] JSONdata = new byte[fileInfo.Length];
                 using (FileStream fs = fileInfo.OpenRead())
                 {
@@ -61,7 +59,6 @@ namespace Simulacion_Pedidos
 
         public static Bitmap WriteQR(Root[] JSONdata) //Encode
         {
-            Console.WriteLine("WriteQR");
 
             Root[] root = JSONdata;
             string jsontoQR = JsonConvert.SerializeObject(root);
@@ -82,9 +79,6 @@ namespace Simulacion_Pedidos
             var encoder = new QRCodeEncoder();
             encoder.QRCodeScale = 6;
             qr = encoder.Encode(jsontoQR);
-
-           
-
             return qr;
 
         }
@@ -93,13 +87,13 @@ namespace Simulacion_Pedidos
         {
             if (qr != null) 
             {
-                Image img = qr;
+                Image img = (Image)qr;
                 bool result = File.Exists(path);
                 if (result == true)
                 {
                     File.Delete(path);
                 }
-                img.Save(path, ImageFormat.Png);
+                img.Save(path);
                 img.Dispose();
             }
         }

@@ -187,7 +187,7 @@ namespace Simulacion_Pedidos
 
         private void QR_container_Paint(object sender, PaintEventArgs e)
         {
-            if (oneTimeLastQR == 0) QR_container.BackgroundImage = Image.FromFile(Start.global_route);
+            if (oneTimeLastQR == 0) QR_container.BackgroundImage = Image.FromFile("..\\..\\Stores-data\\init_image.png");
             oneTimeLastQR++;
         }
 
@@ -204,10 +204,7 @@ namespace Simulacion_Pedidos
             }
             else
             {
-                //Save image as png
-                //Image image = (Image)QR_container.BackgroundImage.Clone();
-                //File.Delete(Start.global_route);
-                //image.Save(Start.global_route);
+                /*Save image as png*/
                 Hide();
                 Form2 fn = new Form2();
                 fn.Show();
@@ -215,12 +212,6 @@ namespace Simulacion_Pedidos
                 string substring = Start.global_route;
                 Console.WriteLine( Int32.Parse(substring.Substring(substring.Length - 5, 1)) -1 );
                 Adaptee.SavePNG("..\\..\\Stores-data\\QRs\\Tienda_"+ (Int32.Parse(substring.Substring(substring.Length - 5, 1)) - 1).ToString()  + ".png");
-
-                string message = "Your changes have been saved! :D";
-                string title = "Info";
-                MessageBox.Show(message);
-
-                
             }
         }
 

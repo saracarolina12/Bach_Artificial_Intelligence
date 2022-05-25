@@ -192,7 +192,7 @@ namespace Simulacion_Pedidos
             this.listToStock.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.40816F));
             this.listToStock.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 79.59184F));
             this.listToStock.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 109F));
-            this.listToStock.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 89F));
+            this.listToStock.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 91F));
             this.listToStock.Controls.Add(this.label8, 3, 0);
             this.listToStock.Controls.Add(this.label7, 2, 0);
             this.listToStock.Controls.Add(this.name_label, 1, 0);
@@ -225,7 +225,7 @@ namespace Simulacion_Pedidos
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label8.Location = new System.Drawing.Point(335, 9);
+            this.label8.Location = new System.Drawing.Point(334, 9);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(65, 18);
             this.label8.TabIndex = 3;
@@ -238,7 +238,7 @@ namespace Simulacion_Pedidos
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label7.Location = new System.Drawing.Point(244, 9);
+            this.label7.Location = new System.Drawing.Point(242, 9);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(47, 18);
             this.label7.TabIndex = 2;
@@ -251,7 +251,7 @@ namespace Simulacion_Pedidos
             this.name_label.AutoSize = true;
             this.name_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name_label.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.name_label.Location = new System.Drawing.Point(72, 9);
+            this.name_label.Location = new System.Drawing.Point(70, 9);
             this.name_label.Name = "name_label";
             this.name_label.Size = new System.Drawing.Size(113, 18);
             this.name_label.TabIndex = 1;
@@ -305,7 +305,7 @@ namespace Simulacion_Pedidos
             this.save_button.Name = "save_button";
             this.save_button.Size = new System.Drawing.Size(155, 49);
             this.save_button.TabIndex = 14;
-            this.save_button.Text = "Save Image";
+            this.save_button.Text = "Next Store";
             this.save_button.UseVisualStyleBackColor = false;
             this.save_button.Click += new System.EventHandler(this.save_button_Click);
             // 
