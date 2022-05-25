@@ -39,12 +39,14 @@ namespace Simulacion_Pedidos
                 {
                     fs.Read(JSONdata, 0, JSONdata.Length);
                     fs.Close();
+                    fs.Dispose();
                 }
                 //fileInfo.Delete();
                 Image myimage;
                 using (MemoryStream memstr = new MemoryStream(JSONdata))
                 {
                     myimage = Image.FromStream(memstr);
+                    memstr.Dispose();
                 }
                 //QR_container.BackgroundImage = myimage;
                 QRCodeDecoder decoder = new QRCodeDecoder();

@@ -198,7 +198,7 @@ namespace Simulacion_Pedidos
         {
             //Save image as png
             Image image = (Image)QR_container.BackgroundImage.Clone();
-            //File.Delete("..\\..\\Stores-data\\QRs\\Tienda_2.png");
+            File.Delete("..\\..\\Stores-data\\QRs\\Tienda_2.png");
             image.Save("..\\..\\Stores-data\\QRs\\Tienda_2.png");
 
             string message = "Your changes have been saved! :D";
