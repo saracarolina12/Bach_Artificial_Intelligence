@@ -125,9 +125,6 @@ namespace Simulacion_Pedidos
                     double total_price = getPrice(quantity, (string)enumerator.Value);
                     double profit = calculate_profit(total_price);
                     quantityToStock(quantity, (string)enumerator.Value);
-                    Console.WriteLine("soda: {0}",local_soda);
-                    Console.WriteLine("bread: {0}", local_bread);
-                    Console.WriteLine("veget: {0}", local_vegetables);
                     listToStock.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
                     listToStock.Controls.Add(new Label() { Text = enumerator.Key.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, listToStock.RowCount - 1);
                     listToStock.Controls.Add(new Label() { Text = (string)enumerator.Value, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, listToStock.RowCount - 1);
@@ -211,14 +208,19 @@ namespace Simulacion_Pedidos
                 //Image image = (Image)QR_container.BackgroundImage.Clone();
                 //File.Delete(Start.global_route);
                 //image.Save(Start.global_route);
+                Hide();
+                Form2 fn = new Form2();
+                fn.Show();
+
+                string substring = Start.global_route;
+                Console.WriteLine( Int32.Parse(substring.Substring(substring.Length - 5, 1)) -1 );
+                Adaptee.SavePNG("..\\..\\Stores-data\\QRs\\Tienda_"+ (Int32.Parse(substring.Substring(substring.Length - 5, 1)) - 1).ToString()  + ".png");
 
                 string message = "Your changes have been saved! :D";
                 string title = "Info";
                 MessageBox.Show(message);
 
-                Hide();
-                Form2 fn = new Form2();
-                fn.Show();
+                
             }
         }
 
