@@ -199,11 +199,11 @@ namespace Simulacion_Pedidos
             Start.global_route = Singleton.GenerateRoute();
             if (Start.global_route == "returnF1")
             {
+                Start.route_index = 1;
+                Start.global_route = Singleton.GenerateRoute();
                 Hide();
                 Form1 f1 = new Form1();
                 f1.Show();
-                Start.route_index = 1;
-                Start.global_route = "..\\..\\Stores-data\\QRs\\Tienda_1.png";
             }
             else
             {

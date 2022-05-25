@@ -50,7 +50,6 @@ namespace Simulacion_Pedidos
 
 			if(Start.route_index != fileCount+1)
             {
-				Console.WriteLine("---------> index: {0}", Start.route_index);
 				Start.route_index++;
 				return "..\\..\\Stores-data\\QRs\\Tienda_" + (Start.route_index - 1) + ".png";
             }
