@@ -30,8 +30,6 @@ namespace Simulacion_Pedidos
             Nbread_trucks.Text = Start.BREADK_TRUCK.ToString();
             Nvegetables_trucks.Text = Start.VEGETABLES_TRUCK.ToString();
 
-            var fileCount = (from file in Directory.EnumerateFiles("..\\..\\Stores-data\\QRs\\", "*.png", SearchOption.AllDirectories)
-                             select file).Count();
 
             /*iterate over filenames*/
             DirectoryInfo d = new DirectoryInfo("..\\..\\Stores-data\\QRs\\"); //Assuming Test is your Folder

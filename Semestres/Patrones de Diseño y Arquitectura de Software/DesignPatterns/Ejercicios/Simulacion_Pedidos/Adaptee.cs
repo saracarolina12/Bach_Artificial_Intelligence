@@ -52,7 +52,7 @@ namespace Simulacion_Pedidos
                 QRCodeDecoder decoder = new QRCodeDecoder();
                 string json = decoder.Decode(new QRCodeBitmapImage(myimage as Bitmap));
                 data = JsonConvert.DeserializeObject<Root[]>(json);
-                //File.Delete("..\\..\\Stores-data\\QRs\\Tienda_2.png");
+                //File.Delete(Start.global_route);
                 return data;
             }
             return null;

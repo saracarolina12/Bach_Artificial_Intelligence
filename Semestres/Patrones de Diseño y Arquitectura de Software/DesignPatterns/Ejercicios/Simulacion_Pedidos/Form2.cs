@@ -23,7 +23,7 @@ namespace Simulacion_Pedidos
     {
         private int oneTimeLastQR;
         private ListDictionary availableProds = new ListDictionary();   //products <ID, name>
-        Root[] thisdata = Adaptee.ReadQR("..\\..\\Stores-data\\QRs\\Tienda_2.png");
+        Root[] thisdata = Adaptee.ReadQR(Start.global_route);
         private double local_profit;
         private int local_bread=0;
         private int local_soda=0;
@@ -178,7 +178,7 @@ namespace Simulacion_Pedidos
         {
             this.Hide();
             Form1 f1 = new Form1();
-            //Root[] getData = Adaptee.ReadQR("..\\..\\Stores-data\\QRs\\Tienda_2.png");
+            //Root[] getData = Adaptee.ReadQR(Start.global_route);
             f1.getProfits(thisdata[0].idStore, local_profit);
             f1.Show();
         }
@@ -190,20 +190,36 @@ namespace Simulacion_Pedidos
 
         private void QR_container_Paint(object sender, PaintEventArgs e)
         {
-            if (oneTimeLastQR == 0) QR_container.BackgroundImage = Image.FromFile("..\\..\\Stores-data\\QRs\\Tienda_2.png");
+            if (oneTimeLastQR == 0) QR_container.BackgroundImage = Image.FromFile(Start.global_route);
             oneTimeLastQR++;
         }
 
         private void save_button_Click(object sender, EventArgs e)
         {
-            //Save image as png
-            Image image = (Image)QR_container.BackgroundImage.Clone();
-            File.Delete("..\\..\\Stores-data\\QRs\\Tienda_2.png");
-            image.Save("..\\..\\Stores-data\\QRs\\Tienda_2.png");
+            Start.global_route = Singleton.GenerateRoute();
+            if (Start.global_route == "returnF1")
+            {
+                Hide();
+                Form1 f1 = new Form1();
+                f1.Show();
+                Start.route_index = 1;
+                Start.global_route = "..\\..\\Stores-data\\QRs\\Tienda_1.png";
+            }
+            else
+            {
+                //Save image as png
+                //Image image = (Image)QR_container.BackgroundImage.Clone();
+                //File.Delete(Start.global_route);
+                //image.Save(Start.global_route);
 
-            string message = "Your changes have been saved! :D";
-            string title = "Info";
-            MessageBox.Show(message);
+                string message = "Your changes have been saved! :D";
+                string title = "Info";
+                MessageBox.Show(message);
+
+                Hide();
+                Form2 fn = new Form2();
+                fn.Show();
+            }
         }
 
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)

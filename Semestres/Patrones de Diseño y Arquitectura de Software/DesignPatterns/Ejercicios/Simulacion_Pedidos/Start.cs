@@ -10,14 +10,18 @@ namespace Simulacion_Pedidos
     {
         public static int TOTAL_SODA = 0, TOTAL_BREAD = 0, TOTAL_VEGETABLES = 0;
         public static int SODA_TRUCK = 0, BREADK_TRUCK = 0, VEGETABLES_TRUCK = 0;
+        public static string global_route = "..\\..\\Stores-data\\QRs\\Tienda_1.png";
+        public static int route_index=1;
         public static void runCode()
         {
             /* Adapter */
             Client client = new Client();
             client.getQR();
 
-            Singleton s1 = Singleton.GeneratePath();
-
+            Singleton instance = Singleton.Instance;
+            instance = Singleton.GetInstance();
+            global_route = Singleton.GenerateRoute();
         }
     }
 }
+
