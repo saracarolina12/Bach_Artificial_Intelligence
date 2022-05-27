@@ -210,8 +210,8 @@ namespace Simulacion_Pedidos
                 fn.Show();
 
                 string substring = Start.global_route;
-                Console.WriteLine( Int32.Parse(substring.Substring(substring.Length - 5, 1)) -1 );
-                Adaptee.SavePNG("..\\..\\Stores-data\\QRs\\Tienda_"+ (Int32.Parse(substring.Substring(substring.Length - 5, 1)) - 1).ToString()  + ".png");
+                Console.WriteLine(substring);
+                Adaptee.SavePNG("..\\..\\Stores-data\\QRs\\Tienda_" + (Int32.Parse(substring.Substring(substring.Length - 5, 1)) - 1).ToString() + ".png");
             }
         }
 
