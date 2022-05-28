@@ -12,6 +12,9 @@ namespace Observer
 {
     public partial class Form1 : Form
     {
+        //Observer[] observers = new Observer[2];
+        //Dictionary<int, Label> dict = new Dictionary<int, Label>() { 0, label1}
+
         public decimal cant_value=0;
             
         public Form1()
@@ -19,6 +22,11 @@ namespace Observer
             InitializeComponent();
             radioButton2.Checked = true;
             radioButton4.Checked = true;
+
+            //for(int i = 0; i < observers.Length; i++)
+            //{
+            //    observers[i] = new Observer(name, labelX);
+            //}
         }
 
         private void Form1_Load(object sender, EventArgs e)

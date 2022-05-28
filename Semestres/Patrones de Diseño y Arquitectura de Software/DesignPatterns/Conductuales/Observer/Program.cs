@@ -15,7 +15,6 @@ namespace Observer
         static void Main()
         {
 
-            Init.runPatterns();
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
