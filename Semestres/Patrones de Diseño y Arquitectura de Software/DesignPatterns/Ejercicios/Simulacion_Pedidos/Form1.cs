@@ -324,16 +324,22 @@ namespace Simulacion_Pedidos
             int r = 0;
             //if (c != 0)
             //{
-            Console.WriteLine("colcount: {0}: ", Ideal_route.ColumnCount);
-            Console.WriteLine("ROWcoutn: {0}: ", Ideal_route.RowCount);
-                for (int i = 0; i < Ideal_route.ColumnCount; i++)
+            Console.WriteLine("colcount: {0} ", Ideal_route.ColumnCount);
+            Console.WriteLine("ROWcoutn: {0} ", Ideal_route.RowCount);
+            var removeStyle = Ideal_route.RowCount - 1;
+            for (int i = 0; i < Ideal_route.ColumnCount; i++)
                 {
                     for (int j = 1; j < Ideal_route.RowCount; j++)
                     {
                         Control Control = Ideal_route.GetControlFromPosition(i, j);
                         Ideal_route.Controls.Remove(Control);
-                    }
+                    if (j > removeStyle)
+                        Ideal_route.RowStyles.RemoveAt(removeStyle);
+                    Ideal_route.RowCount--;
                 }
+                }
+            
+            
             //}
 
             int index = 0;
