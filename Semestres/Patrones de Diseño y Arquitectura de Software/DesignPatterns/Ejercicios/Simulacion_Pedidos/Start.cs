@@ -13,6 +13,11 @@ namespace Simulacion_Pedidos
         public static string global_route = "..\\..\\Stores-data\\QRs\\Tienda_1.png";
         public static int route_index=1;
         public static int idx = 0;
+        public static string[] stringArray = new string[6];
+        public static bool CB_datagrid = false;
+        public static bool CB_texfile = false;
+        public static bool CB_textBox = false;
+
         public static void runCode()
         {
             /* Adapter */
