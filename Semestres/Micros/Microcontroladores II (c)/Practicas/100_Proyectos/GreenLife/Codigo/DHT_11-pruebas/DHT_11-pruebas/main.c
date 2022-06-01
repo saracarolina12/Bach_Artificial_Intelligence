@@ -105,8 +105,7 @@ void i2c_stop(void)
 {
 	/* send stop condition */
 	TWCR = (1<<TWINT) | (1<<TWEN) | (1<<TWSTO);
-	// wait until stop condition is executed and bus released
-	while(TWCR & (1<<TWSTO));
+	while(TWCR & (1<<TWSTO)); // wait until stop condition is executed and bus released
 }
 
 uint8_t i2c_write(uint8_t byte_data)
@@ -404,7 +403,6 @@ uint8_t DHT11_read(int *temp, int *hum){
 		}else{
 			*temp = (int)(rawtemp)/10;
 		}
-		
 		*hum = (int)(rawhum)/10;
 		return 1;
 	}	
@@ -457,33 +455,33 @@ int main(void)
 		
 	while (1)
 	{
-		ds3231_GetDateTime(&rn);
-		LCD_printTime(rn);
-		LCD_wr_instruction(LCD_Cmd_Home);
 		mycont++;
 		if(mycont>=200){				//leer cada 2000ms
+			//ds3231_GetDateTime(&rn);
+			//LCD_printTime(rn);
+			//LCD_wr_instruction(LCD_Cmd_Home);
 			uint8_t status = DHT11_read(&temp, &hum);
 			if(status){
 				if(lastTemp != temp/25){
-						//LCD_wr_instruction(LCD_Cmd_Home);
+						LCD_wr_instruction(LCD_Cmd_Home);
 					lastTemp = temp/256;
 					
 					/*muestro temperatura*/
-						//LCD_wr_string("Temp: ");
+						LCD_wr_string("Temp: ");
 					
 					itoa(temp/25, uno, 10);
-						//LCD_wr_string(uno);
-						//LCD_wr_string(" C");
+						LCD_wr_string(uno);
+						LCD_wr_string(" C");
 					/*Si excede a 32°, enciendo ventilador*/
 					if(temp/25 >= maxTemp) PORTB = 0;  //CAMBIAR 27 POR 32
 					else PORTB = 1;
 				}
 				if(lastHum != hum/25){
-						//LCD_wr_instruction(0b11000000);
-						//LCD_wr_string("Hum: ");
+						LCD_wr_instruction(0b11000000);
+						LCD_wr_string("Hum: ");
 					dtostrf(hum/25.6,2,2, dos);
-						//LCD_wr_string(dos);
-						//LCD_wr_string(" %");
+						LCD_wr_string(dos);
+						LCD_wr_string(" %");
 				}
 			}else{
 				LCD_wr_instruction(LCD_Cmd_Clear);

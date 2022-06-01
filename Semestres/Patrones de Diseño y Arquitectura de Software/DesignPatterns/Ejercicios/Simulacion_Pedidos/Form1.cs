@@ -319,73 +319,39 @@ namespace Simulacion_Pedidos
 
         private void generateRoute()
         {
-            DirectoryInfo d = new DirectoryInfo("..\\..\\Stores-data\\QRs\\"); //Assuming Test is your Folder
-            FileInfo[] Files = d.GetFiles("*.png"); //Getting Text files
-            int r = 0;
-            //if (c != 0)
-            //{
-            Console.WriteLine("colcount: {0} ", Ideal_route.ColumnCount);
-            Console.WriteLine("ROWcoutn: {0} ", Ideal_route.RowCount);
-            var removeStyle = Ideal_route.RowCount - 1;
-            for (int i = 0; i < Ideal_route.ColumnCount; i++)
+            //DirectoryInfo d = new DirectoryInfo("..\\..\\Stores-data\\QRs\\"); //Assuming Test is your Folder
+            //FileInfo[] Files = d.GetFiles("*.png"); //Getting Text files
+            Ideal_route.SuspendLayout();
+
+            while (Ideal_route.RowCount > 1)
+            {
+                int row = Ideal_route.RowCount - 1;
+                for (int i = 0; i < Ideal_route.ColumnCount; i++)
                 {
-                    for (int j = 1; j < Ideal_route.RowCount; j++)
-                    {
-                        Control Control = Ideal_route.GetControlFromPosition(i, j);
-                        Ideal_route.Controls.Remove(Control);
-                    if (j > removeStyle)
-                        Ideal_route.RowStyles.RemoveAt(removeStyle);
-                    Ideal_route.RowCount--;
+                    Control c = Ideal_route.GetControlFromPosition(i, row);
+                    Ideal_route.Controls.Remove(c);
+                    c.Dispose();
                 }
-                }
-            
-            
-            //}
+
+                Ideal_route.RowStyles.RemoveAt(row);
+                Ideal_route.RowCount--;
+            }
+
+            Ideal_route.ResumeLayout(false);
+            Ideal_route.PerformLayout();
 
             int index = 0;
             foreach (var x in finalDict.OrderByDescending(key => key.Value.thisProfit))
-                {
-                    index++;
-                    if (Start.idx == 3)
-                    {
-                        Start.idx = 1;
-                    }
-                    else
-                    {
-                        Start.idx++;
-                    }
-                    Root[] getSname = Adaptee.ReadQR("..\\..\\Stores-data\\QRs\\" + Files[Start.idx-1].Name);
-                    //storeNames.Add(Start.idx, getSname[0].storeName);
+            {
+                index++;
+                Ideal_route.RowCount = Ideal_route.RowCount + 1;
+                Ideal_route.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
 
-                    Ideal_route.RowCount = Ideal_route.RowCount + 1;
-                    Ideal_route.RowStyles.Add(new RowStyle(SizeType.Absolute, 50F));
-                    //ID
-                    Ideal_route.Controls.Add(new Label() { Text = x.Key.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, index);
-                    Ideal_route.Controls.Add(new Label() { Text = x.Value.thisName, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, index);
-                    Ideal_route.Controls.Add(new Label() { Text = x.Value.thisProfit.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2,index);
-                }
-            //}
-            //else
-            //{
-            //for (int i = 0; i < Ideal_route.ColumnCount; i++)
-            //{
-            //    for (int j = 1; j < Ideal_route.RowCount; j++)
-            //    {
-            //        Control Control = Ideal_route.GetControlFromPosition(i, j);
-            //        Ideal_route.Controls.Remove(Control);
-            //    }
-            //}
-            //    int index= 0;
-            //    foreach (KeyValuePair<int, double> x in storeProfits.OrderByDescending(key => key.Value))
-            //    {
-            //        index++;
-            //        Ideal_route.Controls.Add(new Label() { Text = x.Key.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, index);
-            //        Ideal_route.Controls.Add(new Label() { Text = getStoreName(x.Key), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, index);
-            //        Ideal_route.Controls.Add(new Label() { Text = x.Value.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, index);
-            //    }
-            //}
-
-
+                //ID
+                Ideal_route.Controls.Add(new Label() { Text = x.Key.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 0, Ideal_route.RowCount-1);
+                Ideal_route.Controls.Add(new Label() { Text = x.Value.thisName, ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 1, Ideal_route.RowCount - 1);
+                Ideal_route.Controls.Add(new Label() { Text = x.Value.thisProfit.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, Ideal_route.RowCount - 1);
+            }
         }
 
         private void start_sim_Click(object sender, EventArgs e)
