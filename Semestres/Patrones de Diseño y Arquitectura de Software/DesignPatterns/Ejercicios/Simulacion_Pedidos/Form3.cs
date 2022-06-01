@@ -39,6 +39,11 @@ namespace Simulacion_Pedidos
 
         private void bunifuCheckBox1_CheckedChanged(object sender, BunifuCheckBox.CheckedChangedEventArgs e)
         {
+            //Console.WriteLine(DateTime.Now.ToShortTimeString());
+        }
+
+        private void bunifuDataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
 
         }
     }
