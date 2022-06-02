@@ -12,8 +12,8 @@ namespace Simulacion_Pedidos
 		public string newLine { get; set; }
 		public override void AlgorithmInterface()
 		{
-			Console.WriteLine("Writing in TextFile -> {0}", newLine);
-			File.AppendAllLines(Start.report_route, new[] {"-"+newLine+ " -- " + DateTime.Now.ToShortTimeString() });
+			Console.WriteLine("2 TextFile -> {0}", newLine);
+			File.AppendAllLines(Start.report_route, new[] {"*"+newLine+ " - " + DateTime.Now.ToShortTimeString() });
 		}
 	}
 }

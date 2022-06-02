@@ -17,10 +17,18 @@ namespace Simulacion_Pedidos
         public Form3()
         {
             InitializeComponent();
-            foreach (var s in Start.textArray)
+            /* TextBox */
+            foreach (var s in Start.textArrayTB)
             {
-                textBox1.AppendText(s.Key + s.Value);
+                textBox1.AppendText("*" + s.Key + " - " + s.Value);
                 textBox1.AppendText(Environment.NewLine);
+            }
+            /* DataGrid */
+            foreach (var s in Start.textArrayDG)
+            {
+                var index = bunifuDataGridView1.Rows.Add();
+                bunifuDataGridView1.Rows[index].Cells["events"].Value = s.Key;
+                bunifuDataGridView1.Rows[index].Cells["time"].Value = s.Value;
             }
             datagrid.Checked = Start.CB_datagrid;
             textfile.Checked = Start.CB_texfile;

@@ -13,11 +13,12 @@ namespace Simulacion_Pedidos
 		public override void AlgorithmInterface()
 		{
 			//Form3._Form3.update("change text");
-			Console.WriteLine("Writing in datagrid -> {0}", newLine);
+			Console.WriteLine("1 Datagrid -> {0}", newLine);
 		}
+		
 		public void addToDataGrid(Form3 formObject)
 		{
-			formObject.textBox1.Text = "-" + newLine + " " + DateTime.Now.ToShortTimeString();
+			Start.textArrayDG.Add(new KeyValuePair<string, string>(newLine, DateTime.Now.ToShortTimeString()));
 		}
 	}
 }

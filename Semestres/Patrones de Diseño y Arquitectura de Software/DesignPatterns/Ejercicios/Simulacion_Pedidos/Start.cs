@@ -12,14 +12,15 @@ namespace Simulacion_Pedidos
         public static int TOTAL_SODA = 0, TOTAL_BREAD = 0, TOTAL_VEGETABLES = 0;
         public static int SODA_TRUCK = 0, BREADK_TRUCK = 0, VEGETABLES_TRUCK = 0;
         public static string global_route = "..\\..\\Stores-data\\QRs\\Tienda_1.png";
-        public static int route_index=1;
+        public static int route_index = 1;
         public static int idx = 0;
         public static bool CB_datagrid = false;
         public static bool CB_texfile = false;
         public static bool CB_textBox = false;
         public static string report_route = "..\\..\\report.txt";
         public static Form3 thisForm3;
-        public static List<KeyValuePair<string, string>> textArray = new List<KeyValuePair<string, string>>();
+        public static List<KeyValuePair<string, string>> textArrayTB = new List<KeyValuePair<string, string>>();
+        public static List<KeyValuePair<string, string>> textArrayDG = new List<KeyValuePair<string, string>>();
         public static void runCode()
         {
             /* Adapter */
@@ -44,10 +45,11 @@ namespace Simulacion_Pedidos
         {
             if(CB_datagrid)
             {
-                
-
                 var context = new Context(new DataGrid() { newLine = dataToWrite });
                 context.ContextInterface();
+
+                var thisDataGridModifier = new DataGrid() { newLine = dataToWrite };
+                thisDataGridModifier.addToDataGrid(thisForm3);
             }
             if (CB_texfile)
             {
@@ -60,7 +62,7 @@ namespace Simulacion_Pedidos
                 context.ContextInterface();
 
                 var thisDataGridModifier = new TextBox() { newLine = dataToWrite };
-                thisDataGridModifier.addToDataGrid(thisForm3);
+                thisDataGridModifier.addToTextBox(thisForm3);
             }
 
         }
