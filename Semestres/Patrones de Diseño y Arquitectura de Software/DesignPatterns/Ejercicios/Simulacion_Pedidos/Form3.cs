@@ -33,7 +33,6 @@ namespace Simulacion_Pedidos
             datagrid.Checked = Start.CB_datagrid;
             textfile.Checked = Start.CB_texfile;
             textbox.Checked = Start.CB_textBox;
-            Start.thisForm3 = this;
         }
         
         private void pictureBox1_Click(object sender, EventArgs e)

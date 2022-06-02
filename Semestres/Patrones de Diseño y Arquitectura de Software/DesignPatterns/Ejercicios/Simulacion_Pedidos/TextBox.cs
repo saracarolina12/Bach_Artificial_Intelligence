@@ -13,7 +13,7 @@ namespace Simulacion_Pedidos
 		{
 			Console.WriteLine("3 TextBox -> {0}", newLine);
 		}
-		public void addToTextBox(Form3 formObject)
+		public void addToTextBox()
 		{
 			Start.textArrayTB.Add(new KeyValuePair<string, string>(newLine,DateTime.Now.ToShortTimeString()));
 		}

@@ -18,7 +18,6 @@ namespace Simulacion_Pedidos
         public static bool CB_texfile = false;
         public static bool CB_textBox = false;
         public static string report_route = "..\\..\\report.txt";
-        public static Form3 thisForm3;
         public static List<KeyValuePair<string, string>> textArrayTB = new List<KeyValuePair<string, string>>();
         public static List<KeyValuePair<string, string>> textArrayDG = new List<KeyValuePair<string, string>>();
         public static void runCode()
@@ -49,7 +48,7 @@ namespace Simulacion_Pedidos
                 context.ContextInterface();
 
                 var thisDataGridModifier = new DataGrid() { newLine = dataToWrite };
-                thisDataGridModifier.addToDataGrid(thisForm3);
+                thisDataGridModifier.addToDataGrid();
             }
             if (CB_texfile)
             {
@@ -62,7 +61,7 @@ namespace Simulacion_Pedidos
                 context.ContextInterface();
 
                 var thisDataGridModifier = new TextBox() { newLine = dataToWrite };
-                thisDataGridModifier.addToTextBox(thisForm3);
+                thisDataGridModifier.addToTextBox();
             }
 
         }

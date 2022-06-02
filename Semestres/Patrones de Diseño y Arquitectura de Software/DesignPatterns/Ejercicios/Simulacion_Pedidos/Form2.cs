@@ -25,10 +25,6 @@ namespace Simulacion_Pedidos
         private ListDictionary availableProds = new ListDictionary();   //products <ID, name>
         Root[] thisdata = Adaptee.ReadQR(Start.global_route);
         private double local_profit;
-        private int local_bread=0;
-        private int local_soda=0;
-        private int local_vegetables=0;
-
 
         public Form2()
         {
