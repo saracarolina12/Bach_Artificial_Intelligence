@@ -237,6 +237,7 @@ namespace Simulacion_Pedidos
         private void pictureBox3_Click_1(object sender, EventArgs e)
         {
             Console.WriteLine("Soda truck added");
+            Start.selectStrategy();
             if ((Start.VEGETABLES_TRUCK + Start.SODA_TRUCK + Start.BREADK_TRUCK) + 1 != 6)
             {
                 if (Start.SODA_TRUCK != 3)
@@ -250,6 +251,7 @@ namespace Simulacion_Pedidos
         private void add_bread_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Bread truck added");
+            Start.selectStrategy();
             if ((Start.VEGETABLES_TRUCK + Start.SODA_TRUCK + Start.BREADK_TRUCK) + 1 != 6)
             {
                 if (Start.BREADK_TRUCK != 3) 
@@ -263,6 +265,7 @@ namespace Simulacion_Pedidos
         private void add_vegetables_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Vegetables truck added");
+            Start.selectStrategy();
             if ((Start.VEGETABLES_TRUCK + Start.SODA_TRUCK + Start.BREADK_TRUCK) + 1 != 6)
             {
                 if (Start.VEGETABLES_TRUCK != 3) 
@@ -357,6 +360,7 @@ namespace Simulacion_Pedidos
                 Ideal_route.Controls.Add(new Label() { Text = x.Value.thisProfit.ToString(), ForeColor = System.Drawing.Color.FromArgb(65, 95, 93), Font = new Font(new FontFamily("Mongolian Baiti"), 10.8f), Dock = DockStyle.None, Anchor = AnchorStyles.None, AutoSize = true }, 2, Ideal_route.RowCount - 1);
             }
             Console.WriteLine("Simulation ended");
+            Start.selectStrategy();
         }
 
         private void start_sim_Click(object sender, EventArgs e)
@@ -365,6 +369,7 @@ namespace Simulacion_Pedidos
             if( (Start.BREADK_TRUCK + Start.SODA_TRUCK + Start.VEGETABLES_TRUCK) != 0)
             {
                 Console.WriteLine("Simulation started");
+                Start.selectStrategy();
                 /* SODA */
                 if (Start.TOTAL_SODA == 0)
                 {

@@ -94,6 +94,7 @@ namespace Simulacion_Pedidos
                     File.Delete(path);
                 }
                 Console.WriteLine("QR saved");
+                Start.selectStrategy();
                 img.Save(path);
                 img.Dispose();
             }
