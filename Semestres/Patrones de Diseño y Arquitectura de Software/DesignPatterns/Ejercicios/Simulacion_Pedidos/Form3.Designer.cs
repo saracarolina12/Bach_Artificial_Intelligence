@@ -37,16 +37,16 @@ namespace Simulacion_Pedidos
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.datagridLabel = new System.Windows.Forms.Label();
             this.bunifuDataGridView1 = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.events = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.datagrid = new Bunifu.UI.WinForms.BunifuCheckBox();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
             this.textfile = new Bunifu.UI.WinForms.BunifuCheckBox();
             this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
             this.textbox = new Bunifu.UI.WinForms.BunifuCheckBox();
-            this.events = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuDataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -72,6 +72,7 @@ namespace Simulacion_Pedidos
             this.label2.Size = new System.Drawing.Size(158, 50);
             this.label2.TabIndex = 15;
             this.label2.Text = "Report";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox1
             // 
@@ -84,6 +85,7 @@ namespace Simulacion_Pedidos
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox1.Size = new System.Drawing.Size(264, 248);
             this.textBox1.TabIndex = 16;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label1
             // 
@@ -96,16 +98,17 @@ namespace Simulacion_Pedidos
             this.label1.TabIndex = 17;
             this.label1.Text = "TextBox";
             // 
-            // label3
+            // datagridLabel
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Mongolian Baiti", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label3.Location = new System.Drawing.Point(152, 233);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(124, 30);
-            this.label3.TabIndex = 18;
-            this.label3.Text = "DataGrid";
+            this.datagridLabel.AutoSize = true;
+            this.datagridLabel.Font = new System.Drawing.Font("Mongolian Baiti", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.datagridLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
+            this.datagridLabel.Location = new System.Drawing.Point(152, 233);
+            this.datagridLabel.Name = "datagridLabel";
+            this.datagridLabel.Size = new System.Drawing.Size(124, 30);
+            this.datagridLabel.TabIndex = 18;
+            this.datagridLabel.Text = "DataGrid";
+            this.datagridLabel.Click += new System.EventHandler(this.datagridLabel_Click);
             // 
             // bunifuDataGridView1
             // 
@@ -171,6 +174,18 @@ namespace Simulacion_Pedidos
             this.bunifuDataGridView1.TabIndex = 19;
             this.bunifuDataGridView1.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Teal;
             this.bunifuDataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bunifuDataGridView1_CellContentClick);
+            // 
+            // events
+            // 
+            this.events.HeaderText = "Events";
+            this.events.MinimumWidth = 6;
+            this.events.Name = "events";
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Time";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
             // 
             // datagrid
             // 
@@ -381,18 +396,6 @@ namespace Simulacion_Pedidos
             this.textbox.ThreeState = false;
             this.textbox.ToolTipText = null;
             // 
-            // events
-            // 
-            this.events.HeaderText = "Events";
-            this.events.MinimumWidth = 6;
-            this.events.Name = "events";
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Time";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -406,7 +409,7 @@ namespace Simulacion_Pedidos
             this.Controls.Add(this.bunifuLabel1);
             this.Controls.Add(this.datagrid);
             this.Controls.Add(this.bunifuDataGridView1);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.datagridLabel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
@@ -426,9 +429,9 @@ namespace Simulacion_Pedidos
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label datagridLabel;
         private Bunifu.UI.WinForms.BunifuDataGridView bunifuDataGridView1;
         private Bunifu.UI.WinForms.BunifuCheckBox datagrid;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;

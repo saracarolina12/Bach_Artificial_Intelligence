@@ -58,7 +58,7 @@ namespace Simulacion_Pedidos
             this.lineShape5 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape6 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape4 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.label2 = new System.Windows.Forms.Label();
+            this.simLabel = new System.Windows.Forms.Label();
             this.panel_trucks = new System.Windows.Forms.Panel();
             this.Nvegetables_trucks = new System.Windows.Forms.Label();
             this.Nbread_trucks = new System.Windows.Forms.Label();
@@ -335,7 +335,7 @@ namespace Simulacion_Pedidos
             this.toStockList.ColumnCount = 3;
             this.toStockList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.90173F));
             this.toStockList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.09827F));
-            this.toStockList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 117F));
+            this.toStockList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 119F));
             this.toStockList.Controls.Add(this.label8, 2, 0);
             this.toStockList.Controls.Add(this.label7, 0, 0);
             this.toStockList.Controls.Add(this.label15, 1, 0);
@@ -372,7 +372,7 @@ namespace Simulacion_Pedidos
             this.toStockList.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
             this.toStockList.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
             this.toStockList.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
-            this.toStockList.Size = new System.Drawing.Size(257, 48);
+            this.toStockList.Size = new System.Drawing.Size(259, 48);
             this.toStockList.TabIndex = 1;
             this.toStockList.Paint += new System.Windows.Forms.PaintEventHandler(this.toStockList_Paint);
             // 
@@ -382,7 +382,7 @@ namespace Simulacion_Pedidos
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label8.Location = new System.Drawing.Point(152, 13);
+            this.label8.Location = new System.Drawing.Point(153, 13);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(89, 21);
             this.label8.TabIndex = 11;
@@ -467,17 +467,17 @@ namespace Simulacion_Pedidos
             this.lineShape4.Y2 = 377;
             this.lineShape4.Click += new System.EventHandler(this.lineShape1_Click);
             // 
-            // label2
+            // simLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Mongolian Baiti", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label2.Location = new System.Drawing.Point(525, 22);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(241, 50);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Simulation";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.simLabel.AutoSize = true;
+            this.simLabel.Font = new System.Drawing.Font("Mongolian Baiti", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
+            this.simLabel.Location = new System.Drawing.Point(525, 22);
+            this.simLabel.Name = "simLabel";
+            this.simLabel.Size = new System.Drawing.Size(241, 50);
+            this.simLabel.TabIndex = 2;
+            this.simLabel.Text = "Simulation";
+            this.simLabel.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel_trucks
             // 
@@ -663,7 +663,7 @@ namespace Simulacion_Pedidos
             this.Ideal_route.ColumnCount = 3;
             this.Ideal_route.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.74074F));
             this.Ideal_route.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.25926F));
-            this.Ideal_route.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 94F));
+            this.Ideal_route.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 96F));
             this.Ideal_route.Controls.Add(this.label11, 2, 0);
             this.Ideal_route.Controls.Add(this.label10, 1, 0);
             this.Ideal_route.Controls.Add(this.label9, 0, 0);
@@ -681,7 +681,7 @@ namespace Simulacion_Pedidos
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label11.Location = new System.Drawing.Point(196, 6);
+            this.label11.Location = new System.Drawing.Point(195, 6);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(63, 21);
             this.label11.TabIndex = 13;
@@ -693,7 +693,7 @@ namespace Simulacion_Pedidos
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label10.Location = new System.Drawing.Point(95, 6);
+            this.label10.Location = new System.Drawing.Point(94, 6);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(62, 21);
             this.label10.TabIndex = 12;
@@ -751,7 +751,7 @@ namespace Simulacion_Pedidos
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.readQR);
             this.Controls.Add(this.panel_trucks);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.simLabel);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
@@ -788,7 +788,7 @@ namespace Simulacion_Pedidos
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label simLabel;
         private System.Windows.Forms.Panel panel_trucks;
         private System.Windows.Forms.Label Available_trucks;
         private System.Windows.Forms.Label soda_truck;

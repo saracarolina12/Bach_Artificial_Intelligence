@@ -19,5 +19,6 @@ namespace Simulacion_Pedidos
 		{
 			_strategy.AlgorithmInterface();
 		}
+
 	}
 }

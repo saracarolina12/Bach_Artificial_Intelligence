@@ -17,11 +17,17 @@ namespace Simulacion_Pedidos
         public Form3()
         {
             InitializeComponent();
+            foreach (var s in Start.textArray)
+            {
+                textBox1.AppendText(s);
+                textBox1.AppendText(Environment.NewLine);
+            }
             datagrid.Checked = Start.CB_datagrid;
             textfile.Checked = Start.CB_texfile;
             textbox.Checked = Start.CB_textBox;
+            Start.thisForm3 = this;
         }
-
+        
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             Start.CB_datagrid = datagrid.Checked;
@@ -42,6 +48,20 @@ namespace Simulacion_Pedidos
         }
 
         private void bunifuDataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void datagridLabel_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -15,6 +15,7 @@ using System.IO;
 
 namespace Simulacion_Pedidos
 {
+    
     public partial class Form1 : Form
     {
         //private ListDictionary storeProfits = new ListDictionary();   //store to order <ID, name>
@@ -23,7 +24,6 @@ namespace Simulacion_Pedidos
         private Dictionary<int, string> storeNames = new Dictionary<int,string>();
         private Dictionary<int, string> sortedNames = new Dictionary<int, string>();
         private Dictionary<int, NameProf> finalDict = new Dictionary<int, NameProf>();
-        private int c = 0;
         private Root[] data;
 
         struct NameProf
