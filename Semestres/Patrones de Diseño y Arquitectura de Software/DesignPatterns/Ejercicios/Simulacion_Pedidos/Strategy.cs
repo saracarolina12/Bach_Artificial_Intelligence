@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace Simulacion_Pedidos
 {
-	abstract class Strategy
+    abstract class Strategy
 	{
-		/// <summary>
-		/// The algorithm interface.
-		/// </summary>
 		public abstract void AlgorithmInterface();
 	}
 }

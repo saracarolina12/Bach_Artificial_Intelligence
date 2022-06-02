@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Simulacion_Pedidos
 {
-    class DataGrid
-    {
-    }
+	class DataGrid : Strategy
+	{
+		public override void AlgorithmInterface()
+		{
+			Console.WriteLine("Writing in datagrid");
+		}
+	}
 }

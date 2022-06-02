@@ -144,6 +144,7 @@ namespace Simulacion_Pedidos
         private void readQR_Click(object sender, EventArgs e)
         {
             Console.WriteLine("Start creating order");
+            Start.selectStrategy();
             Hide();
             Form2 f2 = new Form2();
             f2.Show();

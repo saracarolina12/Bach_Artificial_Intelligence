@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Simulacion_Pedidos
 {
@@ -24,10 +25,49 @@ namespace Simulacion_Pedidos
             Client client = new Client();
             client.getQR();
 
+            /* Singleton */
             Singleton instance = Singleton.Instance;
             instance = Singleton.GetInstance();
             global_route = Singleton.GenerateRoute();
+
+            /* Strategy */
+            string fileName = "..\\..\\report.txt";
+            if (File.Exists(fileName))
+            {
+                File.Delete(fileName);
+            }
+
+            File.Create(fileName).Dispose();
+        }
+
+        public static void selectStrategy()
+        {
+            if(CB_datagrid)
+            {
+                var context = new Context(new DataGrid());
+                context.ContextInterface();
+            }
+            if (CB_texfile)
+            {
+                var context = new Context(new TextFile());
+                context.ContextInterface();
+            }
+            if (CB_textBox)
+            {
+                var context = new Context(new TextBox());
+                context.ContextInterface();
+            }
+
         }
     }
 }
+
+        //if (action == addition) then
+        //    context.setStrategy(new ConcreteStrategyAdd())
+
+        //if (action == subtraction) then
+        //    context.setStrategy(new ConcreteStrategySubtract())
+
+        //if (action == multiplication) then
+        //    context.setStrategy(new ConcreteStrategyMultiply())
 
