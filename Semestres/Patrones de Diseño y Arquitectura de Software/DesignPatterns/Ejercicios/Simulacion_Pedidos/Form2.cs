@@ -139,8 +139,7 @@ namespace Simulacion_Pedidos
                     ////Save image as png
                     //Image image = (Image)QR_container.BackgroundImage.Clone();
                     //image.Save(path);
-                    Console.WriteLine("New product added");
-                    Start.selectStrategy();
+                    Start.selectStrategy("New product added");
                     break;
                 }
                 else
@@ -163,8 +162,7 @@ namespace Simulacion_Pedidos
             if (((int)numericUpDown1.Value) != 0)
             {
                 addProductToStock(((int)numericUpDown2.Value), ((int)numericUpDown1.Value));
-                Console.WriteLine("New QR image created (not saved until order ends)");
-                Start.selectStrategy();
+                Start.selectStrategy("New QR image created (not saved until order ends)");
             }
         }
 
@@ -180,8 +178,7 @@ namespace Simulacion_Pedidos
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("Ended creating order");
-            Start.selectStrategy();
+            Start.selectStrategy("Ended creating order");
             this.Hide();
             Form1 f1 = new Form1();
             //Root[] getData = Adaptee.ReadQR(Start.global_route);
@@ -219,7 +216,6 @@ namespace Simulacion_Pedidos
                 fn.Show();
 
                 string substring = Start.global_route;
-                //Console.WriteLine(substring);
                 Adaptee.SavePNG("..\\..\\Stores-data\\QRs\\Tienda_" + (Int32.Parse(substring.Substring(substring.Length - 5, 1)) - 1).ToString() + ".png");
             }
         }

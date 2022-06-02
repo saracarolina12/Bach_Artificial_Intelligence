@@ -14,7 +14,6 @@ namespace Simulacion_Pedidos
         public static string global_route = "..\\..\\Stores-data\\QRs\\Tienda_1.png";
         public static int route_index=1;
         public static int idx = 0;
-        public static string writeThisLine = "";
         public static bool CB_datagrid = false;
         public static bool CB_texfile = false;
         public static bool CB_textBox = false;
@@ -40,21 +39,21 @@ namespace Simulacion_Pedidos
             File.Create(report_route).Dispose();
         }
 
-        public static void selectStrategy()
+        public static void selectStrategy(string dataToWrite)
         {
             if(CB_datagrid)
             {
-                var context = new Context(new DataGrid());
+                var context = new Context(new DataGrid() { newLine = dataToWrite });
                 context.ContextInterface();
             }
             if (CB_texfile)
             {
-                var context = new Context(new TextFile());
+                var context = new Context(new TextFile() { newLine = dataToWrite });
                 context.ContextInterface();
             }
             if (CB_textBox)
             {
-                var context = new Context(new TextBox());
+                var context = new Context(new TextBox() { newLine = dataToWrite });
                 context.ContextInterface();
             }
 
