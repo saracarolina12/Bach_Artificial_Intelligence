@@ -19,7 +19,7 @@ namespace Simulacion_Pedidos
         public static bool CB_textBox = false;
         public static string report_route = "..\\..\\report.txt";
         public static Form3 thisForm3;
-        public static List<string> textArray = new List<string>();
+        public static List<KeyValuePair<string, string>> textArray = new List<KeyValuePair<string, string>>();
         public static void runCode()
         {
             /* Adapter */

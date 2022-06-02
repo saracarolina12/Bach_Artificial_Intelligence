@@ -15,9 +15,7 @@ namespace Simulacion_Pedidos
 		}
 		public void addToDataGrid(Form3 formObject)
 		{
-			//formObject.textBox1.AppendText("-" + newLine + " " + DateTime.Now.ToShortTimeString());
-			//formObject.textBox1.AppendText(Environment.NewLine);
-			Start.textArray.Add("-" + newLine + " " + DateTime.Now.ToShortTimeString());
+			Start.textArray.Add(new KeyValuePair<string, string>("-" + newLine, " ~ " + DateTime.Now.ToShortTimeString()));
 		}
 	}
 }

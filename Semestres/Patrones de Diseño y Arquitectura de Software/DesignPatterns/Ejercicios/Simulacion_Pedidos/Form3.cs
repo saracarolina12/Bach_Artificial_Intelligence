@@ -19,7 +19,7 @@ namespace Simulacion_Pedidos
             InitializeComponent();
             foreach (var s in Start.textArray)
             {
-                textBox1.AppendText(s);
+                textBox1.AppendText(s.Key + s.Value);
                 textBox1.AppendText(Environment.NewLine);
             }
             datagrid.Checked = Start.CB_datagrid;

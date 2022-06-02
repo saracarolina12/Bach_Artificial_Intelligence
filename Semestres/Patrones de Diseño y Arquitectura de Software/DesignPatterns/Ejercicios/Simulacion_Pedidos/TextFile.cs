@@ -13,7 +13,7 @@ namespace Simulacion_Pedidos
 		public override void AlgorithmInterface()
 		{
 			Console.WriteLine("Writing in TextFile -> {0}", newLine);
-			File.AppendAllLines(Start.report_route, new[] {"-"+newLine+ " " + DateTime.Now.ToShortTimeString() });
+			File.AppendAllLines(Start.report_route, new[] {"-"+newLine+ " -- " + DateTime.Now.ToShortTimeString() });
 		}
 	}
 }
