@@ -174,11 +174,11 @@ namespace Simulacion_Pedidos
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             Start.selectStrategy("Ended creating order");
-            this.Hide();
-            Form1 f1 = new Form1();
+            Hide();
+            //Form1 f1 = new Form1();
             //Root[] getData = Adaptee.ReadQR(Start.global_route);
-            f1.getProfits(thisdata[0].idStore, local_profit);
-            f1.Show();
+            Start.f1.getProfits(thisdata[0].idStore, local_profit);
+            Start.f1.Show();
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -200,8 +200,8 @@ namespace Simulacion_Pedidos
                 Start.route_index = 1;
                 Start.global_route = Singleton.GenerateRoute();
                 Hide();
-                Form1 f1 = new Form1();
-                f1.Show();
+                //Form1 f1 = new Form1();
+                Start.f1.Show();
             }
             else
             {

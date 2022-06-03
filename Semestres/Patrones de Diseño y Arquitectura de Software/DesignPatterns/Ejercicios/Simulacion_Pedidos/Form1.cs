@@ -144,8 +144,8 @@ namespace Simulacion_Pedidos
         {
             Start.selectStrategy("Start creating order");
             Hide();
-            Form2 f2 = new Form2();
-            f2.Show();
+            //Form2 f2 = new Form2();
+            Start.f2.Show();
 
         }
         internal void getProfits(int storeID, double profit)
@@ -551,8 +551,23 @@ namespace Simulacion_Pedidos
         private void button1_Click(object sender, EventArgs e)
         {
             Hide();
-            Form3 f3 = new Form3();
-            f3.Show();
+            Start.f3.textBox1.Text = String.Empty;
+            foreach (var s in Start.textArrayTB)
+            {
+                Start.f3.textBox1.AppendText("*" + s.Key + " - " + s.Value);
+                Start.f3.textBox1.AppendText(Environment.NewLine);
+            }
+            /* DataGrid */
+            //Start.f3.bunifuDataGridView1.DataSource = Start.textArrayDG;
+            Start.f3.bunifuDataGridView1.Rows.Clear();
+            foreach (var s in Start.textArrayDG)
+            {
+                var index = Start.f3.bunifuDataGridView1.Rows.Add();
+                Start.f3.bunifuDataGridView1.Rows[index].Cells["events"].Value = s.Key;
+                Start.f3.bunifuDataGridView1.Rows[index].Cells["time"].Value = s.Value;
+            }
+            Start.f3.Show();
+
         }
     }
 }

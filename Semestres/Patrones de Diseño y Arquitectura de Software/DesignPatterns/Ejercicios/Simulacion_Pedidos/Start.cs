@@ -20,6 +20,9 @@ namespace Simulacion_Pedidos
         public static string report_route = "..\\..\\report.txt";
         public static List<KeyValuePair<string, string>> textArrayTB = new List<KeyValuePair<string, string>>();
         public static List<KeyValuePair<string, string>> textArrayDG = new List<KeyValuePair<string, string>>();
+        public static Form1 f1 = new Form1();
+        public static Form2 f2 = new Form2();
+        public static Form3 f3 = new Form3();
         public static void runCode()
         {
             /* Adapter */

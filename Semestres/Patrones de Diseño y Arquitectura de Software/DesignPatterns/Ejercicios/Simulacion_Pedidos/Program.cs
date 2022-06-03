@@ -14,12 +14,12 @@ namespace Simulacion_Pedidos
         [STAThread]
         static void Main()
         {
-            //init code
-            Start.runCode();
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
+
+            //init code
+            Start.runCode();
         }
     }
 }

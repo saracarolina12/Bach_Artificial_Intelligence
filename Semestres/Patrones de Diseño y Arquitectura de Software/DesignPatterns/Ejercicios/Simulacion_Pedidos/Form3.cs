@@ -24,6 +24,7 @@ namespace Simulacion_Pedidos
                 textBox1.AppendText(Environment.NewLine);
             }
             /* DataGrid */
+            
             foreach (var s in Start.textArrayDG)
             {
                 var index = bunifuDataGridView1.Rows.Add();
@@ -40,9 +41,9 @@ namespace Simulacion_Pedidos
             Start.CB_datagrid = datagrid.Checked;
             Start.CB_texfile = textfile.Checked;
             Start.CB_textBox = textbox.Checked;
-            this.Hide();
-            Form1 f1 = new Form1();
-            f1.Show();
+            Hide();
+            //Form1 f1 = new Form1();
+            Start.f1.Show();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -69,6 +70,11 @@ namespace Simulacion_Pedidos
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
         {
 
         }

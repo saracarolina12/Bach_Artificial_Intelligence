@@ -39,14 +39,14 @@ namespace Simulacion_Pedidos
             this.label1 = new System.Windows.Forms.Label();
             this.datagridLabel = new System.Windows.Forms.Label();
             this.bunifuDataGridView1 = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.events = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.time = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.datagrid = new Bunifu.UI.WinForms.BunifuCheckBox();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
             this.textfile = new Bunifu.UI.WinForms.BunifuCheckBox();
             this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
             this.textbox = new Bunifu.UI.WinForms.BunifuCheckBox();
-            this.events = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.time = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuDataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -174,6 +174,18 @@ namespace Simulacion_Pedidos
             this.bunifuDataGridView1.TabIndex = 19;
             this.bunifuDataGridView1.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Teal;
             this.bunifuDataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bunifuDataGridView1_CellContentClick);
+            // 
+            // events
+            // 
+            this.events.HeaderText = "Events";
+            this.events.MinimumWidth = 6;
+            this.events.Name = "events";
+            // 
+            // time
+            // 
+            this.time.HeaderText = "Time";
+            this.time.MinimumWidth = 6;
+            this.time.Name = "time";
             // 
             // datagrid
             // 
@@ -384,18 +396,6 @@ namespace Simulacion_Pedidos
             this.textbox.ThreeState = false;
             this.textbox.ToolTipText = null;
             // 
-            // events
-            // 
-            this.events.HeaderText = "Events";
-            this.events.MinimumWidth = 6;
-            this.events.Name = "events";
-            // 
-            // time
-            // 
-            this.time.HeaderText = "Time";
-            this.time.MinimumWidth = 6;
-            this.time.Name = "time";
-            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -418,6 +418,7 @@ namespace Simulacion_Pedidos
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuDataGridView1)).EndInit();
             this.ResumeLayout(false);
@@ -432,7 +433,7 @@ namespace Simulacion_Pedidos
         public System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label datagridLabel;
-        private Bunifu.UI.WinForms.BunifuDataGridView bunifuDataGridView1;
+        public Bunifu.UI.WinForms.BunifuDataGridView bunifuDataGridView1;
         private Bunifu.UI.WinForms.BunifuCheckBox datagrid;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
