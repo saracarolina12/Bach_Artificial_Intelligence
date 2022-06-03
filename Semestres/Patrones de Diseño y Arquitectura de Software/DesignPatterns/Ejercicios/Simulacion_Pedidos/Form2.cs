@@ -28,7 +28,6 @@ namespace Simulacion_Pedidos
 
         public Form2()
         {
-
             InitializeComponent();
             idStoreLabel.Text = Adaptee.data[0].idStore.ToString();
             nameStoreLabel.Text = Adaptee.data[0].storeName.ToString();
@@ -206,13 +205,16 @@ namespace Simulacion_Pedidos
             }
             else
             {
-                /*Save image as png*/
+                if(numericUpDown1.Value != 0 || numericUpDown2.Value != 0)
+                {
+                    /*Save image as png*/
+                    string substring = Start.global_route;
+                    Adaptee.SavePNG("..\\..\\Stores-data\\QRs\\Tienda_" + (Int32.Parse(substring.Substring(substring.Length - 5, 1)) - 1).ToString() + ".png");
+                }
                 Hide();
                 Form2 fn = new Form2();
                 fn.Show();
 
-                string substring = Start.global_route;
-                Adaptee.SavePNG("..\\..\\Stores-data\\QRs\\Tienda_" + (Int32.Parse(substring.Substring(substring.Length - 5, 1)) - 1).ToString() + ".png");
             }
         }
 
