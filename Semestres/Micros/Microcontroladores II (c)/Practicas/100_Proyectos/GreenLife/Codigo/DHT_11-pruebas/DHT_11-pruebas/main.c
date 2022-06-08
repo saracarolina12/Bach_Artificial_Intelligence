@@ -62,7 +62,7 @@
 
 
 /** VARIABLES **/
-char uno[17], dos[17];
+char uno[17], dos[17], hume[17];
 volatile uint8_t data = 0;
 uint8_t seed = 0;
 uint16_t lastVal=-1;
@@ -466,16 +466,15 @@ void ADC_INIT(){
 	ADCSRA |= (1<<ADSC); //le digo que inicie
 }
 		
-uint16_t tempA = 0, HUMEDAD = 0;
+uint16_t tempA = 0;
+float HUMEDAD = 0;
 int main(void)
 {
 	/*App serial COMS*/
 	sei();
 	USART_Init(MYUBRR);
-	
 	int temp=0, hum=0;
 	int moist=0.0;
-	
 	uint8_t mycont = 200;
 	LCD_init();
 	DHT11_init();
@@ -490,9 +489,9 @@ int main(void)
 	//ADC_INIT();
 	while (1)
 	{
-			
 		mycont++;
 		if(mycont>=200){				//leer cada 2000ms
+			/* reloj */
 			//ds3231_GetDateTime(&rn);
 			//LCD_printTime(rn);
 			//LCD_wr_instruction(LCD_Cmd_Home);
@@ -504,36 +503,30 @@ int main(void)
 			ADCSRA |= (1 << ADSC);
 			while(isSet(ADCSRA, ADSC)){} //traba adc (mientras siga la conversión)
 			tempA = ADC;
-			HUMEDAD = (float)((tempA*10/adcRange))/10; //3.2V
-			
+			HUMEDAD = (float)((tempA*10.0/adcRange)/10.0); //3.2V
 			
 			/* Temperatura y humedad */
 			uint8_t status = DHT11_read(&temp, &hum);
 			if(status){
 				if(lastTemp != temp/25){
-						LCD_wr_instruction(LCD_Cmd_Home);
+					LCD_wr_instruction(LCD_Cmd_Home);
 					lastTemp = temp/256;
-					
 					/*muestro temperatura*/
-						LCD_wr_string("Temp: ");
-					
+					LCD_wr_string("Temp: ");
 					itoa(temp/25, uno, 10);
-						LCD_wr_string(uno);
-						LCD_wr_string(" C");
+					LCD_wr_string(uno);
+					LCD_wr_string(" C");
 					/*Si excede a 32°, enciendo ventilador*/
 					if(temp/25 >= maxTemp) PORTC |= 0b00000000;  //CAMBIAR 27 POR 32
 					else PORTC = 0b01100000;
 				}
 				//if(lastHum != hum/25){
-						//LCD_wr_instruction(0b11000000);
-						//LCD_wr_string("Hum: ");
-					//dtostrf(hum/25.6,2,2, dos);
-						//LCD_wr_string(dos);
-						//LCD_wr_string(" %");
 						LCD_wr_instruction(0b11000000);
 						LCD_wr_string("Hum: ");
-						dtostrf(HUMEDAD,2,2, dos);
-						LCD_wr_string(dos);
+						dtostrf((float)((tempA*10/adcRange)/10),2,2, dos);
+						dtostrf(HUMEDAD, 1, 2, dos);
+						sprintf(hume, "%s", dos);
+						LCD_wr_string(hume);
 						LCD_wr_string(" %");
 				//}
 			}else{
