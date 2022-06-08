@@ -448,7 +448,6 @@ ISR(ADC_vect){ //entra aqu? solito despu?s de la interrupci?n
 		uint16_t Udec = (float)(rej*10/adcRange);
 		uint16_t Ddec = (float)(rej*100/adcRange);
 		sprintf(dos, "%d.%d%d", u%10, Udec%10, Ddec%10);
-		sprintf(dos, "%d", Udec);
 		LCD_wr_lineTwo(dos);
 		ADCSRA|=(1 << ADSC);//inicia una nueva conversi?n
 	}
@@ -467,7 +466,7 @@ void ADC_INIT(){
 	ADCSRA |= (1<<ADSC); //le digo que inicie
 }
 		
-
+uint16_t tempA = 0, HUMEDAD = 0;
 int main(void)
 {
 	/*App serial COMS*/
@@ -476,6 +475,7 @@ int main(void)
 	
 	int temp=0, hum=0;
 	int moist=0.0;
+	
 	uint8_t mycont = 200;
 	LCD_init();
 	DHT11_init();
@@ -487,41 +487,58 @@ int main(void)
 	init_i2c();
 	rtc_t rn;
 	//DS3231_Set_Date_Time(15,5,22,0,11,42,0);            // Day,Month,Year,Day_Week,Hour,Minute,Second
-	ADC_INIT();
-	
+	//ADC_INIT();
 	while (1)
 	{
+			
 		mycont++;
 		if(mycont>=200){				//leer cada 2000ms
 			//ds3231_GetDateTime(&rn);
 			//LCD_printTime(rn);
 			//LCD_wr_instruction(LCD_Cmd_Home);
+			
+			/* Sólo humedad tierrita */
+			ADMUX =     0b01000000;
+			SFIOR =     0;
+			ADCSRA =	0b10010101;
+			ADCSRA |= (1 << ADSC);
+			while(isSet(ADCSRA, ADSC)){} //traba adc (mientras siga la conversión)
+			tempA = ADC;
+			HUMEDAD = (float)((tempA*10/adcRange))/10; //3.2V
+			
+			
+			/* Temperatura y humedad */
 			uint8_t status = DHT11_read(&temp, &hum);
 			if(status){
 				if(lastTemp != temp/25){
-						//LCD_wr_instruction(LCD_Cmd_Home);
+						LCD_wr_instruction(LCD_Cmd_Home);
 					lastTemp = temp/256;
 					
 					/*muestro temperatura*/
-						//LCD_wr_string("Temp: ");
+						LCD_wr_string("Temp: ");
 					
 					itoa(temp/25, uno, 10);
-						//LCD_wr_string(uno);
-						//LCD_wr_string(" C");
+						LCD_wr_string(uno);
+						LCD_wr_string(" C");
 					/*Si excede a 32°, enciendo ventilador*/
 					if(temp/25 >= maxTemp) PORTC |= 0b00000000;  //CAMBIAR 27 POR 32
 					else PORTC = 0b01100000;
 				}
-				if(lastHum != hum/25){
+				//if(lastHum != hum/25){
 						//LCD_wr_instruction(0b11000000);
 						//LCD_wr_string("Hum: ");
-					dtostrf(hum/25.6,2,2, dos);
+					//dtostrf(hum/25.6,2,2, dos);
 						//LCD_wr_string(dos);
 						//LCD_wr_string(" %");
-				}
+						LCD_wr_instruction(0b11000000);
+						LCD_wr_string("Hum: ");
+						dtostrf(HUMEDAD,2,2, dos);
+						LCD_wr_string(dos);
+						LCD_wr_string(" %");
+				//}
 			}else{
 				LCD_wr_instruction(LCD_Cmd_Clear);
-				LCD_wr_string(" ?? ");
+				LCD_wr_string(" ");
 			}
 		}
 	}
