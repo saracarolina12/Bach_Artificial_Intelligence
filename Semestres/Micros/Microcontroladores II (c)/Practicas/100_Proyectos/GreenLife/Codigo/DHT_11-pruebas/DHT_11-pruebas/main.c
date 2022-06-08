@@ -64,6 +64,10 @@
 /** VARIABLES **/
 char uno[17], dos[17];
 volatile uint8_t data = 0;
+uint8_t seed = 0;
+uint16_t lastVal=-1;
+uint16_t adcRange=204.5, rej;
+int lastTemp, lastHum;
 
 typedef struct
 {
@@ -335,13 +339,13 @@ void DHT11_init(void){
 uint8_t DHT11_read(int *temp, int *hum){
 	uint8_t bits[5];						//guardo valores que recibo
 	uint8_t cont=0;		
-	
+	//LCD_wr_string("1");
 	//MCU sends out start signal and pulls down voltage for 18ms
 	DHT_PORT &= ~(1<<PIN);					//apagado 
 	_delay_ms(18);
 	DHT_PORT |= (1<<PIN);					//encendido
 	DHT_DDR &= ~(1<<PIN);					//entrada para recibir datos
-	
+	//LCD_wr_string("2");
 	//MCU pulls up voltage and waits for DHT response (20-40us)
 	cont = 0;
 	while(DHT_PIN & (1<<PIN)){
@@ -352,7 +356,9 @@ uint8_t DHT11_read(int *temp, int *hum){
 			DHT_PORT |= (1<<PIN);			//encendido
 			return 0;
 		}
+		//LCD_wr_string("3");
 	}
+	
 	
 	//DHT sends out response signal & keeps it for 80us
 	cont = 0;
@@ -365,6 +371,7 @@ uint8_t DHT11_read(int *temp, int *hum){
 			return 0;
 		}
 	}
+	//LCD_wr_string("4");
 	
 	//DHT pulls up voltage and keeps it for 80us
 	cont = 0;
@@ -377,7 +384,7 @@ uint8_t DHT11_read(int *temp, int *hum){
 			return 0;
 		}
 	}
-	
+	//LCD_wr_string("5");
 	//Start data transmission
 	for(uint8_t j=0; j<5; j++){
 		uint8_t res = 0;
@@ -392,7 +399,7 @@ uint8_t DHT11_read(int *temp, int *hum){
 	}
 	DHT_DDR |= (1<<PIN);					//salida
 	DHT_PORT |= (1<<PIN);					//encendido
-	
+	//LCD_wr_string("6");
 	//convert temp&hum
 	if((uint8_t)(bits[0] + bits[1] + bits[2] + bits[3]) == bits[4]){ //si es igual a checksum, todo ok
 		uint16_t rawhum = bits[0]<<8 | bits[1];
@@ -404,8 +411,10 @@ uint8_t DHT11_read(int *temp, int *hum){
 			*temp = (int)(rawtemp)/10;
 		}
 		*hum = (int)(rawhum)/10;
+		//LCD_wr_string("7");
 		return 1;
 	}	
+	//LCD_wr_string("8");
 	return 1;
 }
 
@@ -430,9 +439,35 @@ ISR(USART_RXC_vect){ //Cuando se recibe el dato, entra aqui
 		//PORTB = 10;
 	//}
 }
+
+ISR(ADC_vect){ //entra aqu? solito despu?s de la interrupci?n
+	rej = ADC;
+	if(lastVal != rej){ //s?lo cambiar el n?mero en pantalla si ha cambiado
+		lastVal = rej; //respaldo
+		uint16_t u = (float)(rej/adcRange);
+		uint16_t Udec = (float)(rej*10/adcRange);
+		uint16_t Ddec = (float)(rej*100/adcRange);
+		sprintf(dos, "%d.%d%d", u%10, Udec%10, Ddec%10);
+		sprintf(dos, "%d", Udec);
+		LCD_wr_lineTwo(dos);
+		ADCSRA|=(1 << ADSC);//inicia una nueva conversi?n
+	}
+	else ADCSRA|=(1 << ADSC);//inicia una nueva conversi?n
+}
+
+
+void ADC_INIT(){
+	//ADC
+	sei();
+	ADMUX =     0b01000000;
+	SFIOR =     0b00000000;
+	ADCSRA =    0b10011101; //4 MHz, Fdiv = 32 CON INTERRUPCIONES
+	DDRA =      0;
+	PORTA =     0b00000000; //ADC doesnt need pull up
+	ADCSRA |= (1<<ADSC); //le digo que inicie
+}
 		
 
-int lastTemp, lastHum;
 int main(void)
 {
 	/*App serial COMS*/
@@ -445,14 +480,15 @@ int main(void)
 	LCD_init();
 	DHT11_init();
 	/*Ventilador*/
-	//DDRB = 0b000000001; //B0 salida
+	DDRC |= 0b011000000; //C6 y C5 salida
 	/*Bomba de agua*/
 	DDRD |= (1<<6); //D6 salida
 	/*Reloj*/
 	init_i2c();
 	rtc_t rn;
 	//DS3231_Set_Date_Time(15,5,22,0,11,42,0);            // Day,Month,Year,Day_Week,Hour,Minute,Second
-		
+	ADC_INIT();
+	
 	while (1)
 	{
 		mycont++;
@@ -463,29 +499,29 @@ int main(void)
 			uint8_t status = DHT11_read(&temp, &hum);
 			if(status){
 				if(lastTemp != temp/25){
-						LCD_wr_instruction(LCD_Cmd_Home);
+						//LCD_wr_instruction(LCD_Cmd_Home);
 					lastTemp = temp/256;
 					
 					/*muestro temperatura*/
-						LCD_wr_string("Temp: ");
+						//LCD_wr_string("Temp: ");
 					
 					itoa(temp/25, uno, 10);
-						LCD_wr_string(uno);
-						LCD_wr_string(" C");
+						//LCD_wr_string(uno);
+						//LCD_wr_string(" C");
 					/*Si excede a 32°, enciendo ventilador*/
-					//if(temp/25 >= maxTemp) PORTB = 0;  //CAMBIAR 27 POR 32
-					//else PORTB = 1;
+					if(temp/25 >= maxTemp) PORTC |= 0b00000000;  //CAMBIAR 27 POR 32
+					else PORTC = 0b01100000;
 				}
 				if(lastHum != hum/25){
-						LCD_wr_instruction(0b11000000);
-						LCD_wr_string("Hum: ");
+						//LCD_wr_instruction(0b11000000);
+						//LCD_wr_string("Hum: ");
 					dtostrf(hum/25.6,2,2, dos);
-						LCD_wr_string(dos);
-						LCD_wr_string(" %");
+						//LCD_wr_string(dos);
+						//LCD_wr_string(" %");
 				}
 			}else{
 				LCD_wr_instruction(LCD_Cmd_Clear);
-				LCD_wr_string(" ");
+				LCD_wr_string(" ?? ");
 			}
 		}
 	}
