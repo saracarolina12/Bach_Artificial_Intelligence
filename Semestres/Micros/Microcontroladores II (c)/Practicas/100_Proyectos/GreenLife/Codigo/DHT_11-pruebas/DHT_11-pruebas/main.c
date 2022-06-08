@@ -15,9 +15,9 @@
 #include <avr/interrupt.h>
 
 
-#define DDRLCD DDRA
-#define PORTLCD PORTA
-#define PINLCD PINA
+#define DDRLCD DDRB
+#define PORTLCD PORTB
+#define PINLCD PINB
 #define RS 4
 #define RW 5
 #define E 6
@@ -161,7 +161,7 @@ uint8_t DS3231_Bin_Bcd(uint8_t binary_value)
 
 void DS3231_Set_Date_Time(uint8_t dy, uint8_t mth, uint8_t yr, uint8_t dw, uint8_t hr, uint8_t mn, uint8_t sc)
 {
-	PORTB = 1;
+	//PORTB = 1;
 	sc &= 0x7F;
 	hr &= 0x3F;
 	i2c_start(0xD1);
@@ -175,7 +175,7 @@ void DS3231_Set_Date_Time(uint8_t dy, uint8_t mth, uint8_t yr, uint8_t dw, uint8
 	i2c_write(DS3231_Bin_Bcd(mth));
 	i2c_write(DS3231_Bin_Bcd(yr));
 	i2c_stop();
-	PORTB = 2;
+	//PORTB = 2;
 }
 
 void ds3231_GetDateTime(rtc_t *rtc)
@@ -424,11 +424,11 @@ void USART_Transmit(uint8_t data) {
 
 ISR(USART_RXC_vect){ //Cuando se recibe el dato, entra aqui
 	data = UDR;
-	if(data=='M'){ //comparar para transmitir
-		PORTB = 8;
-	}else if(data = 'T'){
-		PORTB = 10;
-	}
+	//if(data=='M'){ //comparar para transmitir
+		//PORTB = 8;
+	//}else if(data = 'T'){
+		//PORTB = 10;
+	//}
 }
 		
 
@@ -445,7 +445,7 @@ int main(void)
 	LCD_init();
 	DHT11_init();
 	/*Ventilador*/
-	DDRB = 0b000000001; //B0 salida
+	//DDRB = 0b000000001; //B0 salida
 	/*Bomba de agua*/
 	DDRD |= (1<<6); //D6 salida
 	/*Reloj*/
@@ -473,8 +473,8 @@ int main(void)
 						LCD_wr_string(uno);
 						LCD_wr_string(" C");
 					/*Si excede a 32°, enciendo ventilador*/
-					if(temp/25 >= maxTemp) PORTB = 0;  //CAMBIAR 27 POR 32
-					else PORTB = 1;
+					//if(temp/25 >= maxTemp) PORTB = 0;  //CAMBIAR 27 POR 32
+					//else PORTB = 1;
 				}
 				if(lastHum != hum/25){
 						LCD_wr_instruction(0b11000000);
