@@ -479,9 +479,9 @@ int main(void)
 	LCD_init();
 	DHT11_init();
 	/*Ventilador*/
-	DDRC |= 0b011000000; //C6 y C5 salida
+	DDRC = 0b011000000; //C6 y C5 salida
 	/*Bomba de agua*/
-	DDRD |= (1<<6); //D6 salida
+	DDRD = (1<<6); //D6 salida
 	/*Reloj*/
 	init_i2c();
 	rtc_t rn;
@@ -517,8 +517,10 @@ int main(void)
 					LCD_wr_string(uno);
 					LCD_wr_string(" C");
 					/*Si excede a 32°, enciendo ventilador*/
-					if(temp/25 >= maxTemp) PORTC |= 0b00000000;  //CAMBIAR 27 POR 32
-					else PORTC = 0b01100000;
+					if(temp/25 >= maxTemp){ //CAMBIAR 27 POR 32
+						PORTC &= ~(3<<5);
+					}
+					else PORTC |= 0b01100000;
 				}
 				//if(lastHum != hum/25){
 						LCD_wr_instruction(0b11000000);
