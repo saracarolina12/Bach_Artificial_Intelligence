@@ -1,8 +1,15 @@
 # 1. borrar vuelos que ya pasaron
-	create event flight_arrived
-	on schedule at (select arrival_datetime from flights where arrival_datetime > CURRENT_TIMESTAMP()) 
-    do 
-		delete from flights  where CURRENT_TIMESTAMP() > arrival_datetime;
+	DELIMITER $$
+	CREATE EVENT delete_flight_arrived
+	ON SCHEDULE
+		EVERY 1 DAY 
+        starts now() 
+        ends '2023-05-06'
+	DO 
+			delete from flights
+			where arrival_datetime < now() - interval 1 year
+	DELIMITER ;
+	
 
 # 2. cada 24 horas un vuelo nuevo de cierta compañía de aviones
 	create event new_flight

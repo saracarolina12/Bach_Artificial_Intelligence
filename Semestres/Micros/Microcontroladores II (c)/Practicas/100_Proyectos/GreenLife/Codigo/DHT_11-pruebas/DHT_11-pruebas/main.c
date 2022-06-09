@@ -42,6 +42,7 @@
 //#define LCD_Cmd_DDRAM    0b1xxxxxxx
 #define isClear(r, i) (!(r & (1 << i)))
 #define isSet(r, i) (r & (1 << i))
+#define delay(t) _delay_ms(t)
 
 //DHT-11 temphum
 #define PIN 5
@@ -530,6 +531,13 @@ int main(void)
 						sprintf(hume, "%s", dos);
 						LCD_wr_string(hume);
 						LCD_wr_string(" %");
+						if(HUMEDAD <= 3.5){ //si está seco, regamos 5 segundos
+							PORTD |= (1<<6);
+							delay(5000);
+							PORTD &= ~(1<<6);
+						}else{
+							PORTD &= ~(1<<6);
+						}
 				//}
 			}else{
 				LCD_wr_instruction(LCD_Cmd_Clear);
