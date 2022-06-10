@@ -32,7 +32,11 @@ volatile uint8_t data;
 
 uint8_t hasta_tecla(void)
 {
-	uint8_t regreso[4][4] = {{0,0,0,0},{13,3,6,9},{0,2,5,8},{10,1,4,7}};
+	uint8_t regreso[4][4] = {
+		{0,0,0,0},
+		{13,3,6,9},
+		{0,2,5,8},
+		{10,1,4,7}};
 	while(1)
 	{
 		for(int i=0;i<4;i++)
@@ -103,7 +107,7 @@ void USART_Transmit(uint8_t data)
 	UDR = data;
 }
 
-uint8_t USART_Receive(void) //Se utiliza cuando no se configura la interrupción de recepción. De preferencia siempre trabajar con interrupción.
+uint8_t USART_Receive(void) //Se utiliza cuando no se configura la interrupciï¿½n de recepciï¿½n. De preferencia siempre trabajar con interrupciï¿½n.
 {
 	while (!(UCSRA&(1<<RXC))) {}
 	return UDR;

@@ -13,6 +13,7 @@
 #include <stdio.h>
 #include <util/twi.h>
 #include <avr/interrupt.h>
+#include <string.h>
 
 
 #define DDRLCD DDRB
@@ -63,12 +64,16 @@
 
 
 /** VARIABLES **/
-char uno[17], dos[17], hume[17];
+int lastTemp, lastHum, autocare = 1;
+char uno[17], dos[17], hume[17], temphum[17], comita[1]={","};
 volatile uint8_t data = 0;
 uint8_t seed = 0;
-uint16_t lastVal=-1;
-uint16_t adcRange=204.5, rej;
-int lastTemp, lastHum;
+uint16_t lastVal=-1, tempA = 0, adcRange=204.5, rej;
+float HUMEDAD = 0;
+int temp=0, hum=0;
+int moist=0.0;
+uint8_t mycont = 200;
+
 
 typedef struct
 {
@@ -427,13 +432,38 @@ void USART_Init(uint16_t UBRR){
 	UCSRC = (1<<URSEL) | (0<<USBS) | (3<<UCSZ0);
 	
 }
-void USART_Transmit(uint8_t data) {
+void USART_Transmit(uint8_t mydata) {
 	while (!(UCSRA & (1<<UDRE)));
-	UDR = data;
+	UDR = mydata;
+}
+extern void USART_Print(const char *USART_String) {
+	uint8_t c;
+	while ((c=*USART_String++))
+	{
+		USART_Transmit(c);
+	}
+}
+
+void sendHumTemp(){
+	USART_Print(temphum); //manda temperatura y humedad actual
 }
 
 ISR(USART_RXC_vect){ //Cuando se recibe el dato, entra aqui
 	data = UDR;
+	LCD_wr_instruction(LCD_Cmd_Clear);
+	LCD_wr_string("al menos llegó");
+	if(data=='Y'){
+		autocare = 1;
+		LCD_wr_instruction(LCD_Cmd_Clear);
+		LCD_wr_string("AUTOCARE ON");
+	}else if(data == 'N'){
+		autocare = 0;
+		LCD_wr_instruction(LCD_Cmd_Clear);
+		LCD_wr_string("AUTOCARE OFF");
+	}else{
+		LCD_wr_instruction(LCD_Cmd_Clear);
+		LCD_wr_string(":o");
+	}
 	//if(data=='M'){ //comparar para transmitir
 		//PORTB = 8;
 	//}else if(data = 'T'){
@@ -466,17 +496,16 @@ void ADC_INIT(){
 	PORTA =     0b00000000; //ADC doesnt need pull up
 	ADCSRA |= (1<<ADSC); //le digo que inicie
 }
+
+
 		
-uint16_t tempA = 0;
-float HUMEDAD = 0;
+
 int main(void)
 {
 	/*App serial COMS*/
 	sei();
 	USART_Init(MYUBRR);
-	int temp=0, hum=0;
-	int moist=0.0;
-	uint8_t mycont = 200;
+	
 	LCD_init();
 	DHT11_init();
 	/*Ventilador*/
@@ -490,59 +519,67 @@ int main(void)
 	//ADC_INIT();
 	while (1)
 	{
-		mycont++;
-		if(mycont>=200){				//leer cada 2000ms
-			/* reloj */
-			//ds3231_GetDateTime(&rn);
-			//LCD_printTime(rn);
-			//LCD_wr_instruction(LCD_Cmd_Home);
-			
-			/* Sólo humedad tierrita */
-			ADMUX =     0b01000000;
-			SFIOR =     0;
-			ADCSRA =	0b10010101;
-			ADCSRA |= (1 << ADSC);
-			while(isSet(ADCSRA, ADSC)){} //traba adc (mientras siga la conversión)
-			tempA = ADC;
-			HUMEDAD = (float)((tempA*10.0/adcRange)/10.0); //3.2V
-			
-			/* Temperatura y humedad */
-			uint8_t status = DHT11_read(&temp, &hum);
-			if(status){
-				if(lastTemp != temp/25){
-					LCD_wr_instruction(LCD_Cmd_Home);
-					lastTemp = temp/256;
-					/*muestro temperatura*/
-					LCD_wr_string("Temp: ");
-					itoa(temp/25, uno, 10);
-					LCD_wr_string(uno);
-					LCD_wr_string(" C");
-					/*Si excede a 32°, enciendo ventilador*/
-					if(temp/25 >= maxTemp){ //CAMBIAR 27 POR 32
-						PORTC &= ~(3<<5);
+		if(autocare){ //MODO AUTOMÁTICO
+			mycont++;
+			if(mycont>=200){				//leer cada 2000ms
+				/* reloj */
+				//ds3231_GetDateTime(&rn);
+				//LCD_printTime(rn);
+				//LCD_wr_instruction(LCD_Cmd_Home);
+				
+				/* Sólo humedad tierrita */
+				ADMUX =     0b01000000;
+				SFIOR =     0;
+				ADCSRA =	0b10010101;
+				ADCSRA |= (1 << ADSC);
+				while(isSet(ADCSRA, ADSC)){} //traba adc (mientras siga la conversión)
+				tempA = ADC;
+				HUMEDAD = (float)((tempA*10.0/adcRange)/10.0); //3.2V
+				
+				/* Temperatura y humedad */
+				uint8_t status = DHT11_read(&temp, &hum);
+				if(status){
+					if(lastTemp != temp/25){
+						LCD_wr_instruction(LCD_Cmd_Home);
+						lastTemp = temp/256;
+						/*muestro temperatura*/
+						LCD_wr_string("Temp: ");
+						itoa(temp/25, uno, 10);
+						memset(temphum, 0, sizeof temphum);
+						strcat(temphum, uno); // añade la temperatura
+						strcat(temphum, comita); //temp+comita
+						LCD_wr_string(temphum);
+						LCD_wr_string(" C");
+						/*Si excede a 32°, enciendo ventilador*/
+						if(temp/25 >= maxTemp){ //CAMBIAR 27 POR 32
+							PORTC &= ~(3<<5);
+						}
+						else PORTC |= 0b01100000;
 					}
-					else PORTC |= 0b01100000;
+					LCD_wr_instruction(0b11000000);
+					LCD_wr_string("Hum: ");
+					dtostrf((float)((tempA*10/adcRange)/10),2,2, dos);
+					dtostrf((HUMEDAD * 100)/5, 1, 0, dos);
+					sprintf(hume, "%s", dos);
+					LCD_wr_string(hume);
+					strcat(temphum, hume); //añado la humedad
+					LCD_wr_string(" %");
+					sendHumTemp();
+					if(HUMEDAD >= 3.5){ //si está seco, regamos 8 segundos
+						PORTD &= ~(1<<6); //mando un 0 (por el relevador)- enciendo
+						delay(8000); 
+						PORTD |= (1<<6); //mando un 1 - apago
+					}else{
+						PORTD |= (1<<6); //enciendo 
+					}
+					}else{
+					LCD_wr_instruction(LCD_Cmd_Clear);
+					LCD_wr_string(" ");
 				}
-				//if(lastHum != hum/25){
-						LCD_wr_instruction(0b11000000);
-						LCD_wr_string("Hum: ");
-						dtostrf((float)((tempA*10/adcRange)/10),2,2, dos);
-						dtostrf(HUMEDAD, 1, 2, dos);
-						sprintf(hume, "%s", dos);
-						LCD_wr_string(hume);
-						LCD_wr_string(" %");
-						if(HUMEDAD >= 3.5){ //si está seco, regamos 5 segundos
-							PORTD |= (1<<6);
-							delay(5000);
-							PORTD &= ~(1<<6);
-						}else{
-							PORTD &= ~(1<<6);
-						} 
-				//}
-			}else{
-				LCD_wr_instruction(LCD_Cmd_Clear);
-				LCD_wr_string(" ");
 			}
+		}else{ //MODO MANUAL
+			LCD_wr_instruction(LCD_Cmd_Clear);
+			LCD_wr_string("manual mode");
 		}
 	}
 }
