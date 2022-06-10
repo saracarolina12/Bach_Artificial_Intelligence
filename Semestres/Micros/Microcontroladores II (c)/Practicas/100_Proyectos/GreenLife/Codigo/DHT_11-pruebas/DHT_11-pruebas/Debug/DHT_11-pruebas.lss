@@ -1267,7 +1267,7 @@ int main(void)
      99c:	8f 7b       	andi	r24, 0xBF	; 191
      99e:	82 bb       	out	0x12, r24	; 18
      9a0:	0a cf       	rjmp	.-492    	; 0x7b6 <main+0x3a>
-						}
+						} 
 				//}
 			}else{
 				LCD_wr_instruction(LCD_Cmd_Clear);
