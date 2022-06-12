@@ -73,18 +73,17 @@ float HUMEDAD = 0;
 int temp=0, hum=0;
 int moist=0.0;
 uint8_t mycont = 200;
-
-
-typedef struct
-{
-	uint8_t sec;
-	uint8_t min;
-	uint8_t hour;
-	uint8_t weekDay;
-	uint8_t date;
-	uint8_t month;
-	uint8_t year;
-}rtc_t;
+/* rn time */
+uint8_t rn_sec,
+		rn_min,
+		rn_hour,
+		rn_weekDay;
+/* app settings */
+uint8_t app_sec,
+		app_min,
+		app_hour,
+		app_weekDay[7], //días de la semana [M,T,W,J,F,S,D]
+		app_timeLapse;
 
 void init_i2c(void)
 {
@@ -99,7 +98,9 @@ uint8_t i2c_readAck(void)
 {
 	TWCR = (1<<TWINT) | (1<<TWEN) | (1<<TWEA);
 	while(!(TWCR & (1<<TWINT)));
-
+	//uint8_t hi[16];
+	//sprintf(hi, "TWDR %d", TWDR);
+	//LCD_wr_lines("",hi);
 	return TWDR;
 }
 
@@ -188,7 +189,8 @@ void DS3231_Set_Date_Time(uint8_t dy, uint8_t mth, uint8_t yr, uint8_t dw, uint8
 	//PORTB = 2;
 }
 
-void ds3231_GetDateTime(rtc_t rtc)
+//void ds3231_GetDateTime(rtc_t rtc)
+void ds3231_GetDateTime()
 {
 	i2c_start(0xD0);                            // Start I2C communication
 	i2c_write(DS3231_WriteMode_U8);        // connect to ds3231 by sending its ID on I2c Bus
@@ -198,13 +200,10 @@ void ds3231_GetDateTime(rtc_t rtc)
 	i2c_start(0xD1);                            // Start I2C communication
 	//i2c_write(DS3231_ReadMode_U8);            // connect to ds3231(Read mode) by sending its ID
 
-	rtc.sec = i2c_readAck();                // read second and return Positive ACK
-	rtc.min = i2c_readAck();                 // read minute and return Positive ACK
-	rtc.hour= i2c_readAck();               // read hour and return Negative/No ACK
-	rtc.weekDay = i2c_readAck();           // read weekDay and return Positive ACK
-	rtc.date= i2c_readAck();              // read Date and return Positive ACK
-	rtc.month=i2c_readAck();            // read Month and return Positive ACK
-	rtc.year =i2c_readNack();             // read Year and return Negative/No ACK
+	rn_sec = i2c_readAck();                // read second and return Positive ACK
+	rn_min = i2c_readAck();                 // read minute and return Positive ACK
+	rn_hour= i2c_readAck();               // read hour and return Negative/No ACK
+	rn_weekDay = i2c_readAck();           // read weekDay and return Positive ACK
 }
 
 
@@ -454,21 +453,21 @@ ISR(USART_RXC_vect){ //Cuando se recibe el dato, entra aqui
 		autocare = 0;
 		LCD_wr_string("AUTOCARE OFF");
 	}
-	if(autocare){
+	if(!autocare){
 		if(data == 'M'){
-			//LCD_wr_string("Monday");
+			app_weekDay[0] = 1;
 		}else if(data == 'T'){
-			//LCD_wr_string("Tuesday");
+			app_weekDay[1] = 1;
 		}else if(data == 'W'){
-			//LCD_wr_string("Wednesday");
+			app_weekDay[2] = 1;
 		}else if(data == 'J'){
-			//LCD_wr_string("Thursday");
+			app_weekDay[3] = 1;
 		}else if(data == 'F'){
-			//LCD_wr_string("Friday");
+			app_weekDay[4] = 1;
 		}else if(data == 'S'){
-			//LCD_wr_string("Saturday");
+			app_weekDay[5] = 1;
 		}else if(data == 'D'){
-			//LCD_wr_string("Sunday");
+			app_weekDay[6] = 1;
 		}
 	}
 	
@@ -501,6 +500,10 @@ void ADC_INIT(){
 }
 
 
+uint8_t compareDay(){
+	if(app_weekDay[rn_weekDay-1] == 1) return 1;
+	else return 0;
+}
 		
 
 int main(void)
@@ -575,22 +578,37 @@ int main(void)
 				}
 			}
 		}else{ //MODO MANUAL
-			rtc_t rn;
-			rn.hour = 10; rn.min = 5;
+			//rtc_t rn;
+			rn_hour = 10; rn_min = 5; rn_weekDay=1; //simulating rn date-time
+			app_hour=10; app_min = 5;app_timeLapse = 13;
+			app_weekDay[0]=0;
+			app_weekDay[1]=0;
+			app_weekDay[2]=0;
+			app_weekDay[3]=0;
+			app_weekDay[4]=0;
+			app_weekDay[5]=0;
+			app_weekDay[6]=1;
 			LCD_wr_instruction(LCD_Cmd_Clear);
 			/* reloj */
-			ds3231_GetDateTime(rn);
+			//ds3231_GetDateTime();
 			uint8_t c[16];
-			//sprintf(c, "%d:%d", rn.min, rn.sec);
-			//LCD_wr_lines("", c);
+				//LCD_wr_instruction(LCD_Cmd_Home);
+				//sprintf(c, "RN: %d, app: %d", rn_weekDay, app_weekDay[6]);
+				//LCD_wr_lines("",c);
 			//LCD_wr_instruction(LCD_Cmd_Home);
-			sprintf(c, "hour: %d, min: %d", rn.hour, rn.min);
-			LCD_wr_lines("",c);
-			LCD_wr_instruction(LCD_Cmd_Home);
-			//get configured hour(and minutes), time lapse and watering days 
+			/* get configured hour(and minutes), time lapse and watering days */
 			
-			//get time and compare it to this settings
-			//if(match) send 0 to D6 (water pump)
+			/* get time and compare it to this settings */
+			if(compareDay() == 1){ //si ya es día de regar
+				if(rn_hour==app_hour && rn_min==app_min){ //hora y minuto para regar
+					/* water plants */
+					LCD_wr_lineTwo("watering...");
+					PORTD &= ~(1<<6); //enciendo bomba
+					delay(13000);
+					PORTD |= (1<<6); //apago bomba
+					rn_hour++;
+				}
+			}
 		}
 	}
 }
