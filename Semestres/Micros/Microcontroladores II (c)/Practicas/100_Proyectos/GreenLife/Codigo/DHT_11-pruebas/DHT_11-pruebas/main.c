@@ -67,6 +67,7 @@
 int lastTemp, lastHum, autocare = 1;
 char uno[17], dos[17], hume[17], temphum[17], comita[1]={","};
 volatile uint8_t data = 0;
+uint8_t tempData;
 uint8_t seed = 0;
 uint16_t lastVal=-1, tempA = 0, adcRange=204.5, rej;
 float HUMEDAD = 0;
@@ -287,7 +288,7 @@ void LCD_wr_instruction(uint8_t instruccion){
 }
 
 
-void LCD_wr_string(volatile uint8_t *s){
+void LCD_wr_string(volatile char *s){
 	uint8_t c;
 	while((c=*s++)){
 		LCD_wr_char(c);
@@ -418,19 +419,29 @@ uint8_t DHT11_read(int *temp, int *hum){
 	return 1;
 }
 
-void USART_Init(uint16_t UBRR){
-	DDRD |= 0b00000010; //Pin 1: TX; Pin0: RX
-	UBRRH = (uint8_t)(UBRR >> 8); //UBRRH:UBRRL
-	UBRRL = (uint8_t)(UBRR); //UBRRH:UBRRL
+void USART_Init(uint16_t ubrr){
+	DDRD |= (1<<1);
+	UBRRH = (uint8_t)(ubrr>>8);
+	UBRRL = (uint8_t)ubrr;
 	UCSRB = (1<<RXEN) | (1<<TXEN) | (1<<RXCIE);
-	UCSRC = (1<<URSEL) | (0<<USBS) | (3<<UCSZ0);
-	
+	UCSRC = (1<<URSEL) | (1<<USBS) | (3<<UCSZ0);
 }
-void USART_Transmit(uint8_t mydata) {
-	while (!(UCSRA & (1<<UDRE)));
-	UDR = mydata;
+uint8_t USART_Receive(){
+	//
+	//LCD_wr_char("o");
+	while((UCSRA & (1<<RXC)) == 0); 
+	return UDR;
+}
+
+void USART_Transmit(uint8_t transmit_data){
+	while(!(UCSRA & (1<<UDRE))){}
+	UDR = transmit_data;
+	//LCD_wr_char(transmit_data-'A');
+	//delay(1000);
 }
 extern void USART_Print(const char *USART_String) {
+	LCD_wr_instruction(LCD_Cmd_Clear);
+	LCD_wr_instruction(LCD_Cmd_Home);
 	uint8_t c;
 	while ((c=*USART_String++))
 	{
@@ -441,17 +452,17 @@ extern void USART_Print(const char *USART_String) {
 void sendHumTemp(){
 	USART_Print(temphum); //manda temperatura y humedad actual
 }
-
 ISR(USART_RXC_vect){ //Cuando se recibe el dato, entra aqui
-	data = UDR;
-	//LCD_wr_instruction(LCD_Cmd_Clear);
-	//LCD_wr_instruction(LCD_Cmd_Home);
+	//data = UDR;
+	LCD_wr_instruction(LCD_Cmd_Clear);
+	LCD_wr_instruction(LCD_Cmd_Home);
+	LCD_wr_char(UDR);
 	if(data=='Y'){
 		autocare = 1;
 		//LCD_wr_string("AUTOCARE ON");
 	}else if(data == 'N'){
 		autocare = 0;
-		LCD_wr_string("AUTOCARE OFF");
+		//LCD_wr_string("AUTOCARE OFF");
 	}
 	if(!autocare){
 		if(data == 'M'){
@@ -517,13 +528,17 @@ int main(void)
 	/*Ventilador*/
 	DDRC = 0b011000000; //C6 y C5 salida
 	/*Bomba de agua*/
-	DDRD = (1<<6); //D6 salida
+	DDRD |= (1<<6); //D6 salida
 	/*Reloj*/
 	init_i2c();
 	//DS3231_Set_Date_Time(15,5,22,0,11,42,0);            // Day,Month,Year,Day_Week,Hour,Minute,Second
 	//ADC_INIT();
+	//LCD_wr_string("esperando dato...");
+
 	while (1)
 	{
+		//uint8_t midato = USART_Receive();
+		//LCD_wr_string(midato);
 		if(autocare){ //MODO AUTOMÁTICO
 			mycont++;
 			if(mycont>=200){				//leer cada 2000ms
@@ -532,7 +547,7 @@ int main(void)
 				SFIOR =     0;
 				ADCSRA =	0b10010101;
 				ADCSRA |= (1 << ADSC);
-				while(isSet(ADCSRA, ADSC)){} //traba adc (mientras siga la conversión)
+				while(isSet(ADCSRA, ADSC)); //traba adc (mientras siga la conversión)
 				tempA = ADC;
 				HUMEDAD = (float)((tempA*10.0/adcRange)/10.0); //3.2V
 				
@@ -564,13 +579,14 @@ int main(void)
 						//LCD_wr_string(hume);
 						//strcat(temphum, hume); //añado la humedad
 						//LCD_wr_string(" %");
-					//sendHumTemp();
-					if(HUMEDAD >= 3.5){ //si está seco, regamos 8 segundos
-						PORTD &= ~(1<<6); //mando un 0 (por el relevador)- enciendo
+						//sendHumTemp();
+					//USART_Transmit('A');
+					if(HUMEDAD >= 3){ //si está seco, regamos 8 segundos
+						PORTD |= (1<<6); //enciendo
 						delay(8000); 
-						PORTD |= (1<<6); //mando un 1 - apago
+						PORTD &= ~(1<<6); //apago
 					}else{
-						PORTD |= (1<<6); //enciendo 
+						PORTD &= ~(1<<6); //apago 
 					}
 					}else{
 						//LCD_wr_instruction(LCD_Cmd_Clear);
@@ -578,7 +594,7 @@ int main(void)
 				}
 			}
 		}else{ //MODO MANUAL
-			//rtc_t rn;
+			////rtc_t rn;
 			rn_hour = 10; rn_min = 5; rn_weekDay=1; //simulating rn date-time
 			app_hour=10; app_min = 5;app_timeLapse = 13;
 			app_weekDay[0]=0;
@@ -589,16 +605,16 @@ int main(void)
 			app_weekDay[5]=0;
 			app_weekDay[6]=1;
 			LCD_wr_instruction(LCD_Cmd_Clear);
-			/* reloj */
-			//ds3231_GetDateTime();
-			uint8_t c[16];
-				//LCD_wr_instruction(LCD_Cmd_Home);
-				//sprintf(c, "RN: %d, app: %d", rn_weekDay, app_weekDay[6]);
-				//LCD_wr_lines("",c);
-			//LCD_wr_instruction(LCD_Cmd_Home);
-			/* get configured hour(and minutes), time lapse and watering days */
-			
-			/* get time and compare it to this settings */
+						///* reloj */
+						////ds3231_GetDateTime();
+						//uint8_t c[16];
+							////LCD_wr_instruction(LCD_Cmd_Home);
+							////sprintf(c, "RN: %d, app: %d", rn_weekDay, app_weekDay[6]);
+							////LCD_wr_lines("",c);
+						////LCD_wr_instruction(LCD_Cmd_Home);
+			///* get configured hour(and minutes), time lapse and watering days */
+			//
+			///* get time and compare it to this settings */
 			if(compareDay() == 1){ //si ya es día de regar
 				if(rn_hour==app_hour && rn_min==app_min){ //hora y minuto para regar
 					/* water plants */
