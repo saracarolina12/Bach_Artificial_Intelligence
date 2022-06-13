@@ -440,8 +440,6 @@ void USART_Transmit(uint8_t transmit_data){
 	//delay(1000);
 }
 extern void USART_Print(const char *USART_String) {
-	LCD_wr_instruction(LCD_Cmd_Clear);
-	LCD_wr_instruction(LCD_Cmd_Home);
 	uint8_t c;
 	while ((c=*USART_String++))
 	{
@@ -532,8 +530,7 @@ int main(void)
 	/*Reloj*/
 	init_i2c();
 	//DS3231_Set_Date_Time(15,5,22,0,11,42,0);            // Day,Month,Year,Day_Week,Hour,Minute,Second
-	//ADC_INIT();
-	//LCD_wr_string("esperando dato...");
+	LCD_wr_string("esperando dato...");
 
 	while (1)
 	{
