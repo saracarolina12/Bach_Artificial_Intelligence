@@ -7,6 +7,7 @@
 
 #define F_CPU 1000000
 #include <avr/io.h>
+#define __DELAY_BACKWARD_COMPATIBLE__
 #include <util/delay.h>
 #include <stdint.h>
 #include <stdlib.h>
@@ -14,6 +15,9 @@
 #include <util/twi.h>
 #include <avr/interrupt.h>
 #include <string.h>
+//#include "Wire.h"
+//#include "millis.h"
+//#include "ds3231.h"
 
 
 #define DDRLCD DDRB
@@ -52,46 +56,38 @@
 #define DHT_DDR DDRD
 #define maxTemp 32
 
+//SERIAL COM
+#define BAUD 9600
+#define MYUBRR F_CPU/16/BAUD-1
+
 //DS3231 reloj
 #define DS3231_ReadMode_U8    (0xD1) /*1101 0001*/
 #define DS3231_WriteMode_U8   (0xD0) /*1101 0000*/
 #define DS3231_REG_Seconds    (0x00)
 #define SCL_CLOCK  100000
 
-//SERIAL COM
-#define BAUD 9600
-#define MYUBRR F_CPU/16/BAUD-1
-
-
-/** VARIABLES **/
-int lastTemp, lastHum, autocare = 1;
-char uno[17], dos[17], hume[17], temphum[17], comita[1]={","};
-volatile uint8_t data = 0;
-uint8_t tempData;
-uint8_t seed = 0;
-uint16_t lastVal=-1, tempA = 0, adcRange=204.5, rej;
-float HUMEDAD = 0;
-int temp=0, hum=0;
-int moist=0.0;
-uint8_t mycont = 200;
-/* rn time */
-uint8_t rn_sec,
-		rn_min,
-		rn_hour,
-		rn_weekDay;
-/* app settings */
-uint8_t app_sec,
-		app_min,
-		app_hour,
-		app_weekDay[7], //días de la semana [M,T,W,J,F,S,D]
-		app_timeLapse;
+#define MASK_SEC  0b011111111;
+#define MASK_MIN  0b011111111;
+#define MASK_HORA 0b001111111;
+/*I2C*/
+typedef struct
+{
+	uint8_t sec;
+	uint8_t min;
+	uint8_t hour;
+	uint8_t weekDay;
+	uint8_t date;
+	uint8_t month;
+	uint8_t year;
+}rtc_t;
 
 void init_i2c(void)
 {
 	/* initialize TWI clock: 100 kHz clock, TWPS = 0 => prescaler = 1 */
 	
-	TWSR = 0;                         /* no prescaler */
+	
 	TWBR = ((F_CPU/SCL_CLOCK)-16)/2;  /* must be > 10 for stable operation */
+	TWSR = 0;   /* no prescaler */
 	TWCR = (1<<TWINT) | (1<<TWSTA) | (1<<TWEN); /*master transmisor*/
 }
 
@@ -99,9 +95,7 @@ uint8_t i2c_readAck(void)
 {
 	TWCR = (1<<TWINT) | (1<<TWEN) | (1<<TWEA);
 	while(!(TWCR & (1<<TWINT)));
-	//uint8_t hi[16];
-	//sprintf(hi, "TWDR %d", TWDR);
-	//LCD_wr_lines("",hi);
+
 	return TWDR;
 }
 
@@ -152,6 +146,13 @@ uint8_t i2c_start(uint8_t addr)
 	return 0;
 }
 
+void i2c_start1()
+{
+	TWCR = (1<<TWINT) | (1<<TWSTA) | (1<<TWEN);
+	while(!(TWCR & (1<<TWINT)));
+}
+
+
 uint8_t DS3231_Bin_Bcd(uint8_t binary_value)
 {
 	uint8_t temp;
@@ -171,43 +172,69 @@ uint8_t DS3231_Bin_Bcd(uint8_t binary_value)
 	return(retval);
 }
 
-void DS3231_Set_Date_Time(uint8_t dy, uint8_t mth, uint8_t yr, uint8_t dw, uint8_t hr, uint8_t mn, uint8_t sc)
+void DS3231_Set_Date_Time(uint8_t hr, uint8_t mn, uint8_t sc, uint8_t dw)
 {
-	//PORTB = 1;
-	sc &= 0x7F;
-	hr &= 0x3F;
-	i2c_start(0xD1);
-	i2c_write(0xD0);
-	i2c_write(0x00);
-	i2c_write(DS3231_Bin_Bcd(sc));
-	i2c_write(DS3231_Bin_Bcd(mn));
-	i2c_write(DS3231_Bin_Bcd(hr));
-	i2c_write(DS3231_Bin_Bcd(dw));
-	i2c_write(DS3231_Bin_Bcd(dy));
-	i2c_write(DS3231_Bin_Bcd(mth));
-	i2c_write(DS3231_Bin_Bcd(yr));
+	i2c_start1();
+	i2c_write(DS3231_WriteMode_U8);        // connect to ds3231 by sending its ID on I2c Bus
+	i2c_write(DS3231_REG_Seconds);
+	i2c_write(sc);
+	i2c_write(mn);
+	i2c_write(hr);
+	i2c_write(dw);
 	i2c_stop();
-	//PORTB = 2;
 }
 
-//void ds3231_GetDateTime(rtc_t rtc)
-void ds3231_GetDateTime()
+void ds3231_GetDateTime(rtc_t *rtc)
 {
-	i2c_start(0xD0);                            // Start I2C communication
+	i2c_start1();                            // Start I2C communication
 	i2c_write(DS3231_WriteMode_U8);        // connect to ds3231 by sending its ID on I2c Bus
 	i2c_write(DS3231_REG_Seconds);         // Request Sec RAM address at 00H
 	i2c_stop();                            // Stop I2C communication after selecting Sec Register
 
-	i2c_start(0xD1);                            // Start I2C communication
-	//i2c_write(DS3231_ReadMode_U8);            // connect to ds3231(Read mode) by sending its ID
+	i2c_start1();                            // Start I2C communication
+	i2c_write(DS3231_ReadMode_U8);            // connect to ds3231(Read mode) by sending its ID
 
-	rn_sec = i2c_readAck();                // read second and return Positive ACK
-	rn_min = i2c_readAck();                 // read minute and return Positive ACK
-	rn_hour= i2c_readAck();               // read hour and return Negative/No ACK
-	rn_weekDay = i2c_readAck();           // read weekDay and return Positive ACK
+	rtc->sec = i2c_readAck() ;                // read second and return Positive ACK
+	rtc->min = i2c_readAck() ;                 // read minute and return Positive ACK
+	rtc->hour= i2c_readAck() ;               // read hour and return Negative/No ACK
+	rtc->weekDay = i2c_readAck();           // read weekDay and return Positive ACK
+	rtc->date= i2c_readAck();              // read Date and return Positive ACK
+	rtc->month=i2c_readAck();            // read Month and return Positive ACK
+	rtc->year =i2c_readNack();             // read Year and return Negative/No ACK
+
+	i2c_stop();                              // Stop I2C communication after reading the Date
 }
 
 
+
+
+/** VARIABLES **/
+int lastTemp, lastHum, autocare = 0;
+char uno[17], dos[17], hume[17], temphum[17], comita[1]={","};
+volatile uint8_t receiveddata = 0;
+uint8_t tempData;
+uint8_t seed = 0;
+uint16_t lastVal=-1, tempA = 0, adcRange=204.5, rej;
+float HUMEDAD = 0;
+int temp=0, hum=0;
+int moist=0.0;
+uint8_t mycont = 200;
+/* rn time */
+uint8_t rn_sec,
+		rn_min,
+		rn_hour,
+		rn_weekDay;
+/* app settings */
+uint8_t app_sec,
+		app_min,
+		app_hour,
+		app_weekDay[7], //días de la semana [M,T,W,J,F,S,D]
+		app_timeLapse;
+		
+/* DS3231 Clock */		
+
+
+/* other functions */	
 void saca_uno(volatile uint8_t *LUGAR, uint8_t BIT){
 	*LUGAR=*LUGAR|(1<<BIT);
 }
@@ -451,31 +478,40 @@ void sendHumTemp(){
 	USART_Print(temphum); //manda temperatura y humedad actual
 }
 ISR(USART_RXC_vect){ //Cuando se recibe el dato, entra aqui
-	//data = UDR;
-	LCD_wr_instruction(LCD_Cmd_Clear);
-	LCD_wr_instruction(LCD_Cmd_Home);
-	LCD_wr_char(UDR);
-	if(data=='Y'){
+	receiveddata = UDR;
+	//LCD_wr_instruction(LCD_Cmd_Clear);
+	//LCD_wr_instruction(LCD_Cmd_Home);
+	//LCD_wr_char(UDR);
+	if(receiveddata=='Y'){
+		LCD_wr_instruction(LCD_Cmd_Clear);
 		autocare = 1;
 		//LCD_wr_string("AUTOCARE ON");
-	}else if(data == 'N'){
+	}else if(receiveddata == 'N'){
 		autocare = 0;
+		LCD_wr_instruction(LCD_Cmd_Clear);
 		//LCD_wr_string("AUTOCARE OFF");
 	}
 	if(!autocare){
-		if(data == 'M'){
+		////HOUR
+		//while((UCSRA & (1<<RXC)) == 0);
+		//app_hour = UDR; //11:50 pm
+		////TIME LAPSE
+		//while((UCSRA & (1<<RXC)) == 0);
+		//app_timeLapse = UDR;
+		//Week days to water
+		if(receiveddata == 'M'){
 			app_weekDay[0] = 1;
-		}else if(data == 'T'){
+		}else if(receiveddata == 'T'){
 			app_weekDay[1] = 1;
-		}else if(data == 'W'){
+		}else if(receiveddata == 'W'){
 			app_weekDay[2] = 1;
-		}else if(data == 'J'){
+		}else if(receiveddata == 'J'){
 			app_weekDay[3] = 1;
-		}else if(data == 'F'){
+		}else if(receiveddata == 'F'){
 			app_weekDay[4] = 1;
-		}else if(data == 'S'){
+		}else if(receiveddata == 'S'){
 			app_weekDay[5] = 1;
-		}else if(data == 'D'){
+		}else if(receiveddata == 'D'){
 			app_weekDay[6] = 1;
 		}
 	}
@@ -508,9 +544,15 @@ void ADC_INIT(){
 	ADCSRA |= (1<<ADSC); //le digo que inicie
 }
 
+void LCD_printTime(rtc_t rtc){
+	uint16_t c[16];
+	sprintf(c,"hora %d:%d,%d", rtc.hour, rtc.min, rtc.sec);
+	LCD_wr_instruction(0b10000000);
+	LCD_wr_string(c);
+}
 
 uint8_t compareDay(){
-	if(app_weekDay[rn_weekDay-1] == 1) return 1;
+	if(app_weekDay[rn_weekDay] == 1) return 1;
 	else return 0;
 }
 		
@@ -528,12 +570,28 @@ int main(void)
 	/*Bomba de agua*/
 	DDRD |= (1<<6); //D6 salida
 	/*Reloj*/
-	init_i2c();
-	//DS3231_Set_Date_Time(15,5,22,0,11,42,0);            // Day,Month,Year,Day_Week,Hour,Minute,Second
 	LCD_wr_string("esperando dato...");
+	LCD_wr_instruction(LCD_Cmd_Clear);
+	/* clock */
+	init_i2c();
+	DS3231_Set_Date_Time(11,40,0,1); //11:40:00 am Martes
+	rtc_t rn;
 
 	while (1)
 	{
+		ds3231_GetDateTime(&rn);
+		if(rn.sec == 57){
+			if(rn.hour==24){
+				if(rn.weekDay == 6) DS3231_Set_Date_Time(0,0,0,0); //domingo 25:59:59
+				else DS3231_Set_Date_Time(0,0,0,rn.weekDay+1);
+			}else DS3231_Set_Date_Time(rn.hour+1,0,0, rn.weekDay);
+		}
+		rn_hour = rn.hour;
+		rn_min  = rn.min;
+		rn_sec  = rn.sec;	
+		rn_weekDay= rn.weekDay;
+		//sprintf(uno, "(%d,%d,%d), %d", rn_hour, rn_min, rn_sec,rn_weekDay);
+		//LCD_wr_string(uno);
 		//uint8_t midato = USART_Receive();
 		//LCD_wr_string(midato);
 		if(autocare){ //MODO AUTOMÁTICO
@@ -547,35 +605,34 @@ int main(void)
 				while(isSet(ADCSRA, ADSC)); //traba adc (mientras siga la conversión)
 				tempA = ADC;
 				HUMEDAD = (float)((tempA*10.0/adcRange)/10.0); //3.2V
-				
 				/* Temperatura y humedad */
 				uint8_t status = DHT11_read(&temp, &hum);
 				if(status){
 					if(lastTemp != temp/25){
-							//LCD_wr_instruction(LCD_Cmd_Home);
+							LCD_wr_instruction(LCD_Cmd_Home);
 						lastTemp = temp/256;
 						/*muestro temperatura*/
-							//LCD_wr_string("Temp: ");
-							//itoa(temp/25, uno, 10);
-							//memset(temphum, 0, sizeof temphum);
-							//strcat(temphum, uno); // añade la temperatura
-							//strcat(temphum, comita); //temp+comita
-							//LCD_wr_string(uno);
-							//LCD_wr_string(" C");
+							LCD_wr_string("Temp: ");
+							itoa(temp/25, uno, 10);
+							memset(temphum, 0, sizeof temphum);
+							strcat(temphum, uno); // añade la temperatura
+							strcat(temphum, comita); //temp+comita
+							LCD_wr_string(uno);
+							LCD_wr_string(" C");
 						/*Si excede a 32°, enciendo ventilador*/
 						if(temp/25 >= maxTemp){ //CAMBIAR 27 POR 32
 							PORTC &= ~(3<<5);
 						}
 						else PORTC |= 0b01100000;
 					}
-						//LCD_wr_instruction(0b11000000);
-						//LCD_wr_string("Hum: ");
-						//dtostrf((float)((tempA*10/adcRange)/10),2,2, dos);
-						//dtostrf((HUMEDAD * 100)/5, 1, 0, dos);
-						//sprintf(hume, "%s", dos);
-						//LCD_wr_string(hume);
-						//strcat(temphum, hume); //añado la humedad
-						//LCD_wr_string(" %");
+						LCD_wr_instruction(0b11000000);
+						LCD_wr_string("Hum: ");
+						dtostrf((float)((tempA*10/adcRange)/10),2,2, dos);
+						dtostrf((HUMEDAD * 100)/5, 1, 0, dos);
+						sprintf(hume, "%s", dos);
+						LCD_wr_string(hume);
+						strcat(temphum, hume); //añado la humedad
+						LCD_wr_string(" %");
 						//sendHumTemp();
 					//USART_Transmit('A');
 					if(HUMEDAD >= 3){ //si está seco, regamos 8 segundos
@@ -585,40 +642,35 @@ int main(void)
 					}else{
 						PORTD &= ~(1<<6); //apago 
 					}
-					}else{
-						//LCD_wr_instruction(LCD_Cmd_Clear);
-						//LCD_wr_string(" ");
+				}else{
+					LCD_wr_instruction(LCD_Cmd_Clear);
+					LCD_wr_string(" ");
 				}
 			}
 		}else{ //MODO MANUAL
 			////rtc_t rn;
-			rn_hour = 10; rn_min = 5; rn_weekDay=1; //simulating rn date-time
-			app_hour=10; app_min = 5;app_timeLapse = 13;
+			//rn_hour = 10; rn_min = 5; rn_weekDay=1; //simulating rn date-time
+			app_hour=11; app_min = 40; app_sec = 18; app_timeLapse = 5;
 			app_weekDay[0]=0;
-			app_weekDay[1]=0;
+			app_weekDay[1]=1;
 			app_weekDay[2]=0;
 			app_weekDay[3]=0;
 			app_weekDay[4]=0;
 			app_weekDay[5]=0;
 			app_weekDay[6]=1;
 			LCD_wr_instruction(LCD_Cmd_Clear);
-						///* reloj */
-						////ds3231_GetDateTime();
-						//uint8_t c[16];
-							////LCD_wr_instruction(LCD_Cmd_Home);
-							////sprintf(c, "RN: %d, app: %d", rn_weekDay, app_weekDay[6]);
-							////LCD_wr_lines("",c);
-						////LCD_wr_instruction(LCD_Cmd_Home);
+			LCD_wr_string("Manual mode");
+			LCD_wr_instruction(LCD_Cmd_Clear);
 			///* get configured hour(and minutes), time lapse and watering days */
-			//
+			
 			///* get time and compare it to this settings */
 			if(compareDay() == 1){ //si ya es día de regar
-				if(rn_hour==app_hour && rn_min==app_min){ //hora y minuto para regar
+				if(rn_hour==app_hour && rn_min==app_min && rn_sec == app_sec){ //hora y minuto para regar
 					/* water plants */
 					LCD_wr_lineTwo("watering...");
-					PORTD &= ~(1<<6); //enciendo bomba
-					delay(13000);
-					PORTD |= (1<<6); //apago bomba
+					PORTD |= (1<<6); //enciendo bomba
+					delay(app_timeLapse*1000);
+					PORTD &= ~(1<<6); //apago bomba
 					rn_hour++;
 				}
 			}
