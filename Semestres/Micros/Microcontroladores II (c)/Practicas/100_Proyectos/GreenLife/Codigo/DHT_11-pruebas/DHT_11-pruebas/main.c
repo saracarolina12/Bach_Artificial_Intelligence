@@ -1,5 +1,5 @@
 /*
- * DHT_11-pruebas.c
+ * GreenLife :D
  *
  * Created: 20/04/2022 06:23:10 p. m.
  * Author : scago
@@ -66,9 +66,6 @@
 #define DS3231_REG_Seconds    (0x00)
 #define SCL_CLOCK  100000
 
-#define MASK_SEC  0b011111111;
-#define MASK_MIN  0b011111111;
-#define MASK_HORA 0b001111111;
 /*I2C*/
 typedef struct
 {
@@ -81,11 +78,11 @@ typedef struct
 	uint8_t year;
 }rtc_t;
 
+
+/* i2c */
 void init_i2c(void)
 {
 	/* initialize TWI clock: 100 kHz clock, TWPS = 0 => prescaler = 1 */
-	
-	
 	TWBR = ((F_CPU/SCL_CLOCK)-16)/2;  /* must be > 10 for stable operation */
 	TWSR = 0;   /* no prescaler */
 	TWCR = (1<<TWINT) | (1<<TWSTA) | (1<<TWEN); /*master transmisor*/
@@ -95,7 +92,6 @@ uint8_t i2c_readAck(void)
 {
 	TWCR = (1<<TWINT) | (1<<TWEN) | (1<<TWEA);
 	while(!(TWCR & (1<<TWINT)));
-
 	return TWDR;
 }
 
@@ -200,7 +196,9 @@ void ds3231_GetDateTime(rtc_t *rtc)
 	rtc->weekDay = i2c_readAck();           // read weekDay and return Positive ACK
 	rtc->date= i2c_readAck();              // read Date and return Positive ACK
 	rtc->month=i2c_readAck();            // read Month and return Positive ACK
-	rtc->year =i2c_readNack();             // read Year and return Negative/No ACK
+	rtc->year =i2c_readNack();             // read Year and return Negative/No ACK (Acknowledge)
+	/* Each receiving device, when addressed, is obliged to generate an acknowledge after the reception of each byte. 
+	The master device must generate an extra clock pulse, which is associated with this acknowledge bit.*/
 
 	i2c_stop();                              // Stop I2C communication after reading the Date
 }
@@ -209,7 +207,7 @@ void ds3231_GetDateTime(rtc_t *rtc)
 
 
 /** VARIABLES **/
-int lastTemp, lastHum, autocare = 0;
+int lastTemp, lastHum, autocare = 1;
 char uno[17], dos[17], hume[17], temphum[17], comita[1]={","};
 volatile uint8_t receiveddata = 0;
 uint8_t tempData;
@@ -228,10 +226,13 @@ uint8_t rn_sec,
 uint8_t app_sec,
 		app_min,
 		app_hour,
-		app_weekDay[7], //días de la semana [M,T,W,J,F,S,D]
-		app_timeLapse;
+		app_timeLapse,
+		app_weekDay[7]; //días de la semana [M,T,W,J,F,S,D]
+char justnums_hour[10],
+	 temp_hour[10],
+	 temp_timelapse[10],
+	 justnums_timeLapse[10];
 		
-/* DS3231 Clock */		
 
 
 /* other functions */	
@@ -357,8 +358,15 @@ void LCD_wr_lines(uint8_t *a, uint8_t *b){
 	LCD_wr_instruction(0b11000000);
 	LCD_wr_string(b);
 }
+void LCD_printTime(rtc_t rtc){
+	uint16_t c[16];
+	sprintf(c,"hora %d:%d,%d", rtc.hour, rtc.min, rtc.sec);
+	LCD_wr_instruction(0b10000000);
+	LCD_wr_string(c);
+}
 
 
+/* DHT11 - TEMP */
 void DHT11_init(void){						
 	DHT_DDR |= (1<<PIN);					//salida
 	DHT_PORT |= (1<<PIN);					//encendido
@@ -446,78 +454,7 @@ uint8_t DHT11_read(int *temp, int *hum){
 	return 1;
 }
 
-void USART_Init(uint16_t ubrr){
-	DDRD |= (1<<1);
-	UBRRH = (uint8_t)(ubrr>>8);
-	UBRRL = (uint8_t)ubrr;
-	UCSRB = (1<<RXEN) | (1<<TXEN) | (1<<RXCIE);
-	UCSRC = (1<<URSEL) | (1<<USBS) | (3<<UCSZ0);
-}
-uint8_t USART_Receive(){
-	//
-	//LCD_wr_char("o");
-	while((UCSRA & (1<<RXC)) == 0); 
-	return UDR;
-}
-
-void USART_Transmit(uint8_t transmit_data){
-	while(!(UCSRA & (1<<UDRE))){}
-	UDR = transmit_data;
-	//LCD_wr_char(transmit_data-'A');
-	//delay(1000);
-}
-extern void USART_Print(const char *USART_String) {
-	uint8_t c;
-	while ((c=*USART_String++))
-	{
-		USART_Transmit(c);
-	}
-}
-
-void sendHumTemp(){
-	USART_Print(temphum); //manda temperatura y humedad actual
-}
-ISR(USART_RXC_vect){ //Cuando se recibe el dato, entra aqui
-	receiveddata = UDR;
-	//LCD_wr_instruction(LCD_Cmd_Clear);
-	//LCD_wr_instruction(LCD_Cmd_Home);
-	//LCD_wr_char(UDR);
-	if(receiveddata=='Y'){
-		LCD_wr_instruction(LCD_Cmd_Clear);
-		autocare = 1;
-		//LCD_wr_string("AUTOCARE ON");
-	}else if(receiveddata == 'N'){
-		autocare = 0;
-		LCD_wr_instruction(LCD_Cmd_Clear);
-		//LCD_wr_string("AUTOCARE OFF");
-	}
-	if(!autocare){
-		////HOUR
-		//while((UCSRA & (1<<RXC)) == 0);
-		//app_hour = UDR; //11:50 pm
-		////TIME LAPSE
-		//while((UCSRA & (1<<RXC)) == 0);
-		//app_timeLapse = UDR;
-		//Week days to water
-		if(receiveddata == 'M'){
-			app_weekDay[0] = 1;
-		}else if(receiveddata == 'T'){
-			app_weekDay[1] = 1;
-		}else if(receiveddata == 'W'){
-			app_weekDay[2] = 1;
-		}else if(receiveddata == 'J'){
-			app_weekDay[3] = 1;
-		}else if(receiveddata == 'F'){
-			app_weekDay[4] = 1;
-		}else if(receiveddata == 'S'){
-			app_weekDay[5] = 1;
-		}else if(receiveddata == 'D'){
-			app_weekDay[6] = 1;
-		}
-	}
-	
-}
-
+/* ADC */
 ISR(ADC_vect){ //entra aqu? solito despu?s de la interrupci?n
 	rej = ADC;
 	if(lastVal != rej){ //s?lo cambiar el n?mero en pantalla si ha cambiado
@@ -544,17 +481,221 @@ void ADC_INIT(){
 	ADCSRA |= (1<<ADSC); //le digo que inicie
 }
 
-void LCD_printTime(rtc_t rtc){
-	uint16_t c[16];
-	sprintf(c,"hora %d:%d,%d", rtc.hour, rtc.min, rtc.sec);
-	LCD_wr_instruction(0b10000000);
-	LCD_wr_string(c);
-}
+
 
 uint8_t compareDay(){
 	if(app_weekDay[rn_weekDay] == 1) return 1;
 	else return 0;
 }
+/* SERIAL COM */
+void USART_Init(uint16_t ubrr){
+	DDRD |= (1<<1);
+	UBRRH = (uint8_t)(ubrr>>8);
+	UBRRL = (uint8_t)ubrr;
+	UCSRB = (1<<RXEN) | (1<<TXEN) | (1<<RXCIE);
+	UCSRC = (1<<URSEL) | (1<<USBS) | (3<<UCSZ0);
+}
+uint8_t USART_Receive(){
+	//
+	//LCD_wr_char("o");
+	while((UCSRA & (1<<RXC)) == 0); 
+	return UDR;
+	
+	
+}
+void USART_Send_String(char *ptr)
+{
+	while(*ptr !=0x00)
+	{USART_Transmit(*ptr);
+	ptr++;}
+}
+
+void USART_Transmit(uint8_t transmit_data){
+	while(!(UCSRA & (1<<UDRE))){}
+	UDR = transmit_data;
+	//LCD_wr_char(transmit_data-'A');
+	//delay(1000);
+}
+extern void USART_Print(const char *USART_String) {
+	uint8_t c;
+	while ((c=*USART_String++))
+	{
+		USART_Transmit(c);
+	}
+}
+
+void sendHumTemp(){
+	USART_Send_String(temphum);
+	//USART_Print(temphum); //manda temperatura y humedad actual
+}
+
+void myAutocare(){
+	mycont++;
+	if(mycont>=200){				//leer cada 2000ms
+		/* Sólo humedad tierrita */
+		ADMUX =     0b01000000;
+		SFIOR =     0;
+		ADCSRA =	0b10010101;
+		ADCSRA |= (1 << ADSC);
+		while(isSet(ADCSRA, ADSC)); //traba adc (mientras siga la conversión)
+		tempA = ADC;
+		HUMEDAD = (float)((tempA*10.0/adcRange)/10.0); //3.2V
+		/* Temperatura y humedad */
+		uint8_t status = DHT11_read(&temp, &hum);
+		if(status){
+			if(lastTemp != temp/25){
+				LCD_wr_instruction(LCD_Cmd_Home);
+				lastTemp = temp/256;
+				/*muestro temperatura*/
+				LCD_wr_string("Temp: ");
+				itoa(temp/25, uno, 10);
+				memset(temphum, 0, sizeof temphum);
+				strcat(temphum, uno); // añade la temperatura
+				strcat(temphum, comita); //temp+comita
+				LCD_wr_string(uno);
+				LCD_wr_string(" C");
+				/*Si excede a 32°, enciendo ventilador*/
+				if(temp/25 >= maxTemp){ //CAMBIAR 27 POR 32
+					PORTC &= ~(3<<5);
+				}
+				else PORTC |= 0b01100000;
+			}
+			LCD_wr_instruction(0b11000000);
+			LCD_wr_string("Hum: ");
+			dtostrf((float)((tempA*10/adcRange)/10),2,2, dos);
+			dtostrf((HUMEDAD * 100)/5, 1, 0, dos);
+			sprintf(hume, "%s", dos);
+			LCD_wr_string(hume);
+			strcat(temphum, hume); //añado la humedad
+			LCD_wr_string(" %");
+			if(HUMEDAD >= 3){ //si está seco, regamos 8 segundos
+				PORTD |= (1<<6); //enciendo
+				delay(8000);
+				PORTD &= ~(1<<6); //apago
+				}else{
+				PORTD &= ~(1<<6); //apago
+			}
+			}else{
+			LCD_wr_instruction(LCD_Cmd_Clear);
+			LCD_wr_string(" ");
+		}
+	}
+}
+
+void myManual(){
+	HUMEDAD = (float)((tempA*10.0/adcRange)/10.0); //3.2V
+	/* Temperatura y humedad */
+	uint8_t status = DHT11_read(&temp, &hum);
+	if(status){
+		if(lastTemp != temp/25){
+			lastTemp = temp/256;
+			/*muestro temperatura*/
+			itoa(temp/25, uno, 10);
+			memset(temphum, 0, sizeof temphum);
+			strcat(temphum, uno); // añade la temperatura
+			strcat(temphum, comita); //temp+comita
+		}
+	}
+	dtostrf((float)((tempA*10/adcRange)/10),2,2, dos);
+	dtostrf((HUMEDAD * 100)/5, 1, 0, dos);
+	sprintf(hume, "%s", dos);
+	strcat(temphum, hume); //añado la humedad
+	sendHumTemp();
+	
+	app_hour=11; app_min = 40; app_sec = 18; app_timeLapse = 5;
+	app_weekDay[0]=0;
+	app_weekDay[1]=1;
+	app_weekDay[2]=0;
+	app_weekDay[3]=0;
+	app_weekDay[4]=0;
+	app_weekDay[5]=0;
+	app_weekDay[6]=1;
+	LCD_wr_instruction(LCD_Cmd_Clear);
+	LCD_wr_string("Manual mode");
+	LCD_wr_instruction(LCD_Cmd_Clear);
+	///* get configured hour(and minutes), time lapse and watering days */
+	
+	///* get time and compare it to this settings */
+	 ){ //si ya es día de regar
+		if(rn_hour==app_hour && rn_min==app_min && rn_sec == app_sec){ //hora y minuto para regar
+			/* water plants */
+			LCD_wr_lineTwo("watering...");
+			PORTD |= (1<<6); //enciendo bomba
+			delay(app_timeLapse*1000);
+			PORTD &= ~(1<<6); //apago bomba
+			rn_hour++;
+		}
+	}
+}
+
+ISR(USART_RXC_vect){ //Cuando se recibe el dato, entra aqui
+	receiveddata = UDR;
+	//LCD_wr_instruction(LCD_Cmd_Clear);
+	//LCD_wr_instruction(LCD_Cmd_Home);
+	//LCD_wr_char(UDR);
+	if(receiveddata=='Y'){
+		LCD_wr_instruction(LCD_Cmd_Clear);
+		autocare = 1;
+		//LCD_wr_string("AUTOCARE ON");
+		//myAutocare();
+	}else if(receiveddata == 'N'){
+		autocare = 0;
+		LCD_wr_instruction(LCD_Cmd_Clear);
+		//LCD_wr_string("AUTOCARE OFF");
+		//myManual();
+	}
+	if(!autocare){
+		//HOUR
+				//while((UCSRA & (1<<RXC)) == 0);
+				//app_hour = UDR; //11:50 pm
+		//for(uint8_t i=0; i<strlen(temp_hour); i++){
+			//while(temp_hour[i]!=":")strcat(app_hour, temp_hour);
+			//if(temp_hour!=":") app_min = temp_hour[i];
+		//}
+		//TIME LAPSE
+				//while((UCSRA & (1<<RXC)) == 0);
+				//app_timeLapse = UDR; //6 segs
+		//for(uint8_t i=0; i<strlen(temp_timelapse); i++){
+			//while(temp_timelapse[i]!=" " || temp_timelapse[i]!="s") strcat(app_timeLapse, temp_timelapse);
+			//if(temp_timelapse!="s" || temp_timelapse != "e" || temp_timelapse !="g") app_min = temp_hour[i];
+		//}
+		/*Week days to water*/
+		//selected
+		if(receiveddata == 'M'){
+			app_weekDay[0] = 1;
+		}else if(receiveddata == 'T'){
+			app_weekDay[1] = 1;
+		}else if(receiveddata == 'W'){
+			app_weekDay[2] = 1;
+		}else if(receiveddata == 'J'){
+			app_weekDay[3] = 1;
+		}else if(receiveddata == 'F'){
+			app_weekDay[4] = 1;
+		}else if(receiveddata == 'S'){
+			app_weekDay[5] = 1;
+		}else if(receiveddata == 'D'){
+			app_weekDay[6] = 1;
+		}
+		//non selected
+		if(receiveddata == 'm'){
+			app_weekDay[0] = 0;
+			}else if(receiveddata == 't'){
+			app_weekDay[1] = 0;
+			}else if(receiveddata == 'w'){
+			app_weekDay[2] = 0;
+			}else if(receiveddata == 'j'){
+			app_weekDay[3] = 0;
+			}else if(receiveddata == 'f'){
+			app_weekDay[4] = 0;
+			}else if(receiveddata == 's'){
+			app_weekDay[5] = 0;
+			}else if(receiveddata == 'd'){
+			app_weekDay[6] = 0;
+		}
+	}
+	
+}
+
 		
 
 int main(void)
@@ -562,7 +703,6 @@ int main(void)
 	/*App serial COMS*/
 	sei();
 	USART_Init(MYUBRR);
-	
 	LCD_init();
 	DHT11_init();
 	/*Ventilador*/
@@ -570,7 +710,7 @@ int main(void)
 	/*Bomba de agua*/
 	DDRD |= (1<<6); //D6 salida
 	/*Reloj*/
-	LCD_wr_string("esperando dato...");
+	//LCD_wr_string("esperando dato...");
 	LCD_wr_instruction(LCD_Cmd_Clear);
 	/* clock */
 	init_i2c();
@@ -590,90 +730,20 @@ int main(void)
 		rn_min  = rn.min;
 		rn_sec  = rn.sec;	
 		rn_weekDay= rn.weekDay;
-		//sprintf(uno, "(%d,%d,%d), %d", rn_hour, rn_min, rn_sec,rn_weekDay);
-		//LCD_wr_string(uno);
-		//uint8_t midato = USART_Receive();
-		//LCD_wr_string(midato);
+				//sprintf(uno, "(%d,%d,%d), %d", rn_hour, rn_min, rn_sec,rn_weekDay);
+				//LCD_wr_string(uno);
+				//uint8_t midato = USART_Receive();
+		//LCD_wr_string(autocare);
 		if(autocare){ //MODO AUTOMÁTICO
-			mycont++;
-			if(mycont>=200){				//leer cada 2000ms
-				/* Sólo humedad tierrita */
-				ADMUX =     0b01000000;
-				SFIOR =     0;
-				ADCSRA =	0b10010101;
-				ADCSRA |= (1 << ADSC);
-				while(isSet(ADCSRA, ADSC)); //traba adc (mientras siga la conversión)
-				tempA = ADC;
-				HUMEDAD = (float)((tempA*10.0/adcRange)/10.0); //3.2V
-				/* Temperatura y humedad */
-				uint8_t status = DHT11_read(&temp, &hum);
-				if(status){
-					if(lastTemp != temp/25){
-							LCD_wr_instruction(LCD_Cmd_Home);
-						lastTemp = temp/256;
-						/*muestro temperatura*/
-							LCD_wr_string("Temp: ");
-							itoa(temp/25, uno, 10);
-							memset(temphum, 0, sizeof temphum);
-							strcat(temphum, uno); // añade la temperatura
-							strcat(temphum, comita); //temp+comita
-							LCD_wr_string(uno);
-							LCD_wr_string(" C");
-						/*Si excede a 32°, enciendo ventilador*/
-						if(temp/25 >= maxTemp){ //CAMBIAR 27 POR 32
-							PORTC &= ~(3<<5);
-						}
-						else PORTC |= 0b01100000;
-					}
-						LCD_wr_instruction(0b11000000);
-						LCD_wr_string("Hum: ");
-						dtostrf((float)((tempA*10/adcRange)/10),2,2, dos);
-						dtostrf((HUMEDAD * 100)/5, 1, 0, dos);
-						sprintf(hume, "%s", dos);
-						LCD_wr_string(hume);
-						strcat(temphum, hume); //añado la humedad
-						LCD_wr_string(" %");
-						//sendHumTemp();
-					//USART_Transmit('A');
-					if(HUMEDAD >= 3){ //si está seco, regamos 8 segundos
-						PORTD |= (1<<6); //enciendo
-						delay(8000); 
-						PORTD &= ~(1<<6); //apago
-					}else{
-						PORTD &= ~(1<<6); //apago 
-					}
-				}else{
-					LCD_wr_instruction(LCD_Cmd_Clear);
-					LCD_wr_string(" ");
-				}
-			}
+			cli();
+			myAutocare();
+			sei();
 		}else{ //MODO MANUAL
-			////rtc_t rn;
-			//rn_hour = 10; rn_min = 5; rn_weekDay=1; //simulating rn date-time
-			app_hour=11; app_min = 40; app_sec = 18; app_timeLapse = 5;
-			app_weekDay[0]=0;
-			app_weekDay[1]=1;
-			app_weekDay[2]=0;
-			app_weekDay[3]=0;
-			app_weekDay[4]=0;
-			app_weekDay[5]=0;
-			app_weekDay[6]=1;
-			LCD_wr_instruction(LCD_Cmd_Clear);
-			LCD_wr_string("Manual mode");
-			LCD_wr_instruction(LCD_Cmd_Clear);
-			///* get configured hour(and minutes), time lapse and watering days */
-			
-			///* get time and compare it to this settings */
-			if(compareDay() == 1){ //si ya es día de regar
-				if(rn_hour==app_hour && rn_min==app_min && rn_sec == app_sec){ //hora y minuto para regar
-					/* water plants */
-					LCD_wr_lineTwo("watering...");
-					PORTD |= (1<<6); //enciendo bomba
-					delay(app_timeLapse*1000);
-					PORTD &= ~(1<<6); //apago bomba
-					rn_hour++;
-				}
-			}
+				//rtc_t rn;
+				//rn_hour = 10; rn_min = 5; rn_weekDay=1; //simulating rn date-time
+			cli();
+			myManual();
+			sei();
 		}
 	}
 }
