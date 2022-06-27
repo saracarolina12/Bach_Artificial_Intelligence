@@ -5,6 +5,7 @@ int busqueda_binaria(vector<int> v,int val){
 	int ini=0, fin=((int)v.size())-1, m=ini+(fin-ini)/2;
 	while(ini <= fin){
 		m = ini+(fin-ini)/2;
+		cout<<"m: "<<m<<endl;
 		if(v[m] == val) return m;
 		else if(val < v[m]) fin = m-1;
 		else ini = m+1;
