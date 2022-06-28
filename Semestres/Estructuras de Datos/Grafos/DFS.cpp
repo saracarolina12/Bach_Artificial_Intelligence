@@ -23,9 +23,9 @@ void DFS(int x){
 	}
 }
 int main(){
-	cin>>n>>m;
+	cin>>n>>m; //n=#nodos, m=
 	for(int i=0; i<m; i++){
-		cin>>a>>b;
+		cin>>a>>b; //conexiones entre nodos
 		mat[a][b] = mat[b][a] = 1;
 	}
 	//DFS
