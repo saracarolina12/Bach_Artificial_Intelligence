@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 
-template<class A>
 
+template<class A>
 class AVL{
     public:
     class Node{
@@ -113,7 +113,7 @@ class AVL{
 
             root = a->mbalance(root);
             root = b->mbalance(root);
-            return root; //regresa la raÃ­z
+            return root; //regresa la raíz
         }
 
         Node* mbalance(Node* root){
@@ -220,14 +220,14 @@ class AVL{
 
       void __remove(Node* parent,Node* n){
           if((n->left == nullptr) && (n->right == nullptr)){  
-             // cout<<"\tCaso 1"<<endl;
+              cout<<"\tCaso 1"<<endl;
               if(parent == nullptr) root = NULL;
               else if(parent->left == n) parent->left = NULL;
               else if(parent->right == n)parent->right = NULL;
           } 
 
           else if((n->left == nullptr && n->right != nullptr) || (n->left != nullptr && n->right == nullptr)){
-             // cout<<"\tCaso 2"<<endl;
+              cout<<"\tCaso 2"<<endl;
               if(parent == nullptr){
                   if(n->left != nullptr) root = n->left;
                   else if(n->right != nullptr) root = n->right;
@@ -242,7 +242,7 @@ class AVL{
           }
           
           else if(n->left != nullptr && n->right != nullptr){
-              //cout<<"\tCaso 3"<<endl;
+              cout<<"\tCaso 3"<<endl;
               Node* parent2 = n;
               Node* n2 = n->left;
               while(n2->right != nullptr){
@@ -281,10 +281,8 @@ class AVL{
       cout<<"\t**Delete "<<n->data<<"**"<<endl;
       delete n;
 
-      //BALANCEO DESPUÃ‰S DE ELIMINAR
-      if(this->root != nullptr){
-          this->root = this->root->mbalance(this->root);
-      }
+      //BALANCEO DESPUÉS DE ELIMINAR
+      
       
     }
 
@@ -295,31 +293,24 @@ class AVL{
 int main(){
     AVL<int> avl;
     cout<<"\n****ARBOLITO AVL****"<<"\n";
-
-
-    /*string str = "SaraCarolinaGomezDelgado";   //AVL for char
-    for(auto i:str) avl.insert(i);*/
-
-    //PARA ROTATE RIGHT
     /*avl.insert(10);
     avl.insert(5);
     avl.insert(1);
     cout<<avl.print_node()<<endl;*/
 
 
-    //PARA ROTATE LEFT
-    avl.insert(9);
+      string str = "SaraCarolinaGomezDelgado";   //BST for char
+    for(auto i:str) avl.insert(i);
+
+    /*avl.insert(9);
     avl.insert(10);
     avl.insert(1);
     avl.insert(13);
     avl.insert(14);
-    avl.insert(15);
+    avl.insert(15);*/
     cout<<"SIN REMOVE:\n"<<avl.print_node()<<endl;
 
-    //REMOVE DE ROTATE LEFT
-    avl.remove(14);
+    /*avl.remove(14);
     avl.remove(15);
-    cout<<"REMOVE:\n"<<avl.print_node()<<endl;
-
-    //for(auto i:str) avl.remove(i); //remove para char
+    cout<<"REMOVE:\n"<<avl.print_node()<<endl;*/
 }
