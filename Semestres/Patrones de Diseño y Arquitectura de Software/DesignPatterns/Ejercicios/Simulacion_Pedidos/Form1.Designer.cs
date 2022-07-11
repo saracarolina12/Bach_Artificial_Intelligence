@@ -54,10 +54,6 @@ namespace Simulacion_Pedidos
             this.label7 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.shapeContainer2 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.lineShape5 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape6 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape4 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.simLabel = new System.Windows.Forms.Label();
             this.panel_trucks = new System.Windows.Forms.Panel();
             this.Nvegetables_trucks = new System.Windows.Forms.Label();
@@ -67,10 +63,6 @@ namespace Simulacion_Pedidos
             this.vegetables_truck = new System.Windows.Forms.Label();
             this.soda_truck = new System.Windows.Forms.Label();
             this.Available_trucks = new System.Windows.Forms.Label();
-            this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.lineShape3 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.readQR = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -117,7 +109,6 @@ namespace Simulacion_Pedidos
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.toStockList);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.shapeContainer2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -335,7 +326,7 @@ namespace Simulacion_Pedidos
             this.toStockList.ColumnCount = 3;
             this.toStockList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.90173F));
             this.toStockList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.09827F));
-            this.toStockList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 119F));
+            this.toStockList.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 121F));
             this.toStockList.Controls.Add(this.label8, 2, 0);
             this.toStockList.Controls.Add(this.label7, 0, 0);
             this.toStockList.Controls.Add(this.label15, 1, 0);
@@ -372,7 +363,7 @@ namespace Simulacion_Pedidos
             this.toStockList.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
             this.toStockList.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
             this.toStockList.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 47F));
-            this.toStockList.Size = new System.Drawing.Size(259, 48);
+            this.toStockList.Size = new System.Drawing.Size(261, 48);
             this.toStockList.TabIndex = 1;
             this.toStockList.Paint += new System.Windows.Forms.PaintEventHandler(this.toStockList_Paint);
             // 
@@ -382,7 +373,7 @@ namespace Simulacion_Pedidos
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label8.Location = new System.Drawing.Point(153, 13);
+            this.label8.Location = new System.Drawing.Point(154, 13);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(89, 21);
             this.label8.TabIndex = 11;
@@ -424,49 +415,6 @@ namespace Simulacion_Pedidos
             this.label1.Text = "Products to stock";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // shapeContainer2
-            // 
-            this.shapeContainer2.Location = new System.Drawing.Point(0, 0);
-            this.shapeContainer2.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer2.Name = "shapeContainer2";
-            this.shapeContainer2.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-            this.lineShape5,
-            this.lineShape6,
-            this.lineShape4});
-            this.shapeContainer2.Size = new System.Drawing.Size(353, 577);
-            this.shapeContainer2.TabIndex = 14;
-            this.shapeContainer2.TabStop = false;
-            // 
-            // lineShape5
-            // 
-            this.lineShape5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.lineShape5.Name = "lineShape5";
-            this.lineShape5.X1 = 159;
-            this.lineShape5.X2 = 233;
-            this.lineShape5.Y1 = 413;
-            this.lineShape5.Y2 = 413;
-            this.lineShape5.Click += new System.EventHandler(this.lineShape1_Click);
-            // 
-            // lineShape6
-            // 
-            this.lineShape6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.lineShape6.Name = "lineShape6";
-            this.lineShape6.X1 = 117;
-            this.lineShape6.X2 = 282;
-            this.lineShape6.Y1 = 448;
-            this.lineShape6.Y2 = 448;
-            this.lineShape6.Click += new System.EventHandler(this.lineShape1_Click);
-            // 
-            // lineShape4
-            // 
-            this.lineShape4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.lineShape4.Name = "lineShape4";
-            this.lineShape4.X1 = 158;
-            this.lineShape4.X2 = 232;
-            this.lineShape4.Y1 = 377;
-            this.lineShape4.Y2 = 377;
-            this.lineShape4.Click += new System.EventHandler(this.lineShape1_Click);
-            // 
             // simLabel
             // 
             this.simLabel.AutoSize = true;
@@ -489,7 +437,6 @@ namespace Simulacion_Pedidos
             this.panel_trucks.Controls.Add(this.vegetables_truck);
             this.panel_trucks.Controls.Add(this.soda_truck);
             this.panel_trucks.Controls.Add(this.Available_trucks);
-            this.panel_trucks.Controls.Add(this.shapeContainer1);
             this.panel_trucks.Location = new System.Drawing.Point(382, 82);
             this.panel_trucks.Margin = new System.Windows.Forms.Padding(0);
             this.panel_trucks.Name = "panel_trucks";
@@ -576,49 +523,6 @@ namespace Simulacion_Pedidos
             this.Available_trucks.Text = "Available trucks";
             this.Available_trucks.Click += new System.EventHandler(this.label3_Click);
             // 
-            // shapeContainer1
-            // 
-            this.shapeContainer1.Location = new System.Drawing.Point(0, 0);
-            this.shapeContainer1.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer1.Name = "shapeContainer1";
-            this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-            this.lineShape3,
-            this.lineShape2,
-            this.lineShape1});
-            this.shapeContainer1.Size = new System.Drawing.Size(537, 132);
-            this.shapeContainer1.TabIndex = 9;
-            this.shapeContainer1.TabStop = false;
-            // 
-            // lineShape3
-            // 
-            this.lineShape3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.lineShape3.Name = "lineShape3";
-            this.lineShape3.X1 = 121;
-            this.lineShape3.X2 = 479;
-            this.lineShape3.Y1 = 111;
-            this.lineShape3.Y2 = 111;
-            this.lineShape3.Click += new System.EventHandler(this.lineShape1_Click);
-            // 
-            // lineShape2
-            // 
-            this.lineShape2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.lineShape2.Name = "lineShape2";
-            this.lineShape2.X1 = 120;
-            this.lineShape2.X2 = 478;
-            this.lineShape2.Y1 = 83;
-            this.lineShape2.Y2 = 83;
-            this.lineShape2.Click += new System.EventHandler(this.lineShape1_Click);
-            // 
-            // lineShape1
-            // 
-            this.lineShape1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.lineShape1.Name = "lineShape1";
-            this.lineShape1.X1 = 120;
-            this.lineShape1.X2 = 479;
-            this.lineShape1.Y1 = 55;
-            this.lineShape1.Y2 = 55;
-            this.lineShape1.Click += new System.EventHandler(this.lineShape1_Click);
-            // 
             // readQR
             // 
             this.readQR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(191)))), ((int)(((byte)(188)))));
@@ -663,7 +567,7 @@ namespace Simulacion_Pedidos
             this.Ideal_route.ColumnCount = 3;
             this.Ideal_route.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.74074F));
             this.Ideal_route.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.25926F));
-            this.Ideal_route.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 96F));
+            this.Ideal_route.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 98F));
             this.Ideal_route.Controls.Add(this.label11, 2, 0);
             this.Ideal_route.Controls.Add(this.label10, 1, 0);
             this.Ideal_route.Controls.Add(this.label9, 0, 0);
@@ -681,7 +585,7 @@ namespace Simulacion_Pedidos
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label11.Location = new System.Drawing.Point(195, 6);
+            this.label11.Location = new System.Drawing.Point(194, 6);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(63, 21);
             this.label11.TabIndex = 13;
@@ -693,7 +597,7 @@ namespace Simulacion_Pedidos
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label10.Location = new System.Drawing.Point(94, 6);
+            this.label10.Location = new System.Drawing.Point(92, 6);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(62, 21);
             this.label10.TabIndex = 12;
@@ -705,7 +609,7 @@ namespace Simulacion_Pedidos
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Mongolian Baiti", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(95)))), ((int)(((byte)(93)))));
-            this.label9.Location = new System.Drawing.Point(20, 6);
+            this.label9.Location = new System.Drawing.Point(19, 6);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(33, 21);
             this.label9.TabIndex = 11;
@@ -797,10 +701,6 @@ namespace Simulacion_Pedidos
         private System.Windows.Forms.Label Nvegetables_trucks;
         private System.Windows.Forms.Label Nbread_trucks;
         private System.Windows.Forms.Label Nsoda_trucks;
-        private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape3;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape2;
         private System.Windows.Forms.Button readQR;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label5;
@@ -821,13 +721,9 @@ namespace Simulacion_Pedidos
         private System.Windows.Forms.Label soda_demand_label;
         private System.Windows.Forms.Label vegetables_demand_label;
         private System.Windows.Forms.Label bread_demand_label;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape4;
-        private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer2;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape6;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox sub_soda;
         private System.Windows.Forms.PictureBox add_soda;
-        private Microsoft.VisualBasic.PowerPacks.LineShape lineShape5;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.PictureBox sub_vegetables;
         private System.Windows.Forms.PictureBox add_vegetables;
