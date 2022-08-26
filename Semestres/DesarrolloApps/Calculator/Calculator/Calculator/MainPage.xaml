@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator.MainPage">
+
+    <StackLayout>
+        
+        <Frame BackgroundColor="#B0A99F" Padding="24" CornerRadius="0">
+            <Label Text="Calculator" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Grid >
+            <!-- Define 2 columns -->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="160"/>
+                <ColumnDefinition Width="160"/>
+            </Grid.ColumnDefinitions>
+            <!-- Define 3 rows with height of 50 -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            
+            <!-- 2 input numbers -->
+            <Entry Grid.Column="0" Grid.Row="0" x:Name="firstNum" />
+            <Entry Grid.Column="1" Grid.Row="0" x:Name="secondNum" />
+            
+            <!-- + and - -->
+            <Button Grid.Column="0" Grid.Row="1" x:Name="sum" Text="+" Clicked="SumVals"></Button>
+            <Button Grid.Column="1" Grid.Row="1" x:Name="sub" Text="-" Clicked="SubVals"></Button>
+
+            <!-- * and / -->
+            <Button Grid.Column="0" Grid.Row="2" x:Name="mul" Text="*" Clicked="MulVals"></Button>
+            <Button Grid.Column="1" Grid.Row="2" x:Name="div" Text="/" Clicked="DivVals"></Button>
+        </Grid>
+
+
+    </StackLayout>
+
+</ContentPage>
