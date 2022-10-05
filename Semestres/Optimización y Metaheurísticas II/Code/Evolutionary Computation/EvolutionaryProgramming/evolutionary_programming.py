@@ -1,7 +1,7 @@
 import numpy as np
 
 class EvolutionaryProgramming:
-    def __init__(self, func, bounds, args = (), popsize = 1):
+    def __init__(self, func, bounds, args = (), popsize=30):
         self.func = func
         self.bounds = np.array(bounds)
         self.args = args
@@ -12,7 +12,7 @@ class EvolutionaryProgramming:
     def mutation(self):
         nPopulation = self.population.copy()
         def mutate(individual):
-            print(individual)
+            # print(individual)
             nvar = len(self.bounds)
             alpha = 0.2
             r = [v + (np.random.normal(0, individual[i + nvar])) if i < nvar else v * (1 + np.random.normal(0, alpha)) for i, v in enumerate(individual)]
@@ -20,7 +20,6 @@ class EvolutionaryProgramming:
         nPopulation = [mutate(i) for i in nPopulation]
         # print(nPopulation)
         return nPopulation
-
 
     def survivor_selection(self, mutated):
         print("survivor")
@@ -39,7 +38,6 @@ class EvolutionaryProgramming:
         for i in range(self.popsize):
             P = self.population[i, :nvar]
             self.fitness[i] = self.func(P, *self.args)
-
             print(self.population[i, :nvar], self.fitness[i])
 
         print(self.population)
@@ -53,6 +51,6 @@ class EvolutionaryProgramming:
         # nfev: numero de veces que se manda a llamar la funcion
         return
         return P, nit, fun, nfev 
-def evolutionary_programming(func, bounds, args = (), popsize = 30):
+def evolutionary_programming(func, bounds, args = (), popsize = 1):
     ep = EvolutionaryProgramming(func, bounds, args, popsize)
     return ep.solve()
