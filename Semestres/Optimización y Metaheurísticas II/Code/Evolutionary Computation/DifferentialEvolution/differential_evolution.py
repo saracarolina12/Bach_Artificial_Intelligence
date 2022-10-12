@@ -38,9 +38,7 @@ class DifferentialEvolution:
         r1 = i[rand[0]]
         r2 = i[rand[1]]
         r3 = i[rand[2]]
-
         F = np.random.uniform(0,2)
-
         p2 = F*(np.subtract(r2,r3))
         return np.subtract(r1,p2)
 
