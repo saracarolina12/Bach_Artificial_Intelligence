@@ -26,7 +26,6 @@ class DifferentialEvolution:
     def getFitness(self, i):
         self.nIt += 1
         return self.func(i, *self.args)
-
     def _mutation(self, i):
         assert isinstance(i, np.ndarray), 'i is not np.ndarray'
         r = self.mutation(i)
@@ -41,8 +40,6 @@ class DifferentialEvolution:
         F = np.random.uniform(0,2)
         p2 = F*(np.subtract(r2,r3))
         return np.subtract(r1,p2)
-
-
     def _crossover(self, pOne, pTwo):
         assert isinstance(pOne, np.ndarray), 'pOne is not np.ndarray'
         assert isinstance(pTwo, np.ndarray), 'pTwo is not np.ndarray'
@@ -59,6 +56,8 @@ class DifferentialEvolution:
         assert isinstance(r, np.ndarray), 'r is not np.ndarray'
         return r
     def selection(self, iOne, iTwo):
+        f_1 = self.getFitness(iOne)
+        f_2 = self.getFitness(iTwo)
         pass
 
     def _initPopulation(self):
