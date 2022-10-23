@@ -21,7 +21,6 @@ class DifferentialEvolution:
         self.nIt = 0        #Number of iterations
         self.fitness = None
         self.population = None
-        self.tolerance = 0.001
 
     def getFitness(self, i):
         assert isinstance(i, np.ndarray), 'individual is not np.ndarray'
@@ -82,15 +81,9 @@ class DifferentialEvolution:
             for i, individual in enumerate(self.population):
                 u = self.crossover(individual, self.mutation())
                 self.selection(i, u)
-            #if len(np.unique(self.fitness)) == 1: break
+            if len(np.unique(self.fitness)) == 1: break
         best = np.argmin(self.fitness)
         
-        """
-        #("Replaced", self.c, "de", self.t)
-        print(len(np.unique(self.population)))
-        print(self.fitness)
-        print(self.population)
-        """
         return {"P": self.population[best], "nIt": self.nIt, "fun": self.fitness[best], "nFev": self.nF}
     
 def differential_evolution(func, bounds, popSize, cR, nMax, args = ()):
