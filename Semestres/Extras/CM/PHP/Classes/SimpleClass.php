@@ -23,16 +23,5 @@
 
     $extended = new ExtendClass();
     $extended->displayVar();
-
-    // include files
-    // create functions
-    // open file as readable
-    // superglobal variable
-        // Which superglobal variable holds information about headers, paths, and script locations?
-    // add 1 to varialbe ++
-    // die and exit
-    //create cookie
-    // php array
-
 ?>
 
