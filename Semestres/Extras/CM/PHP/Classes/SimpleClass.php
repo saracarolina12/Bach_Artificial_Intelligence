@@ -10,7 +10,6 @@
         }
     }
 
-
     /* EXTEND */
     class ExtendClass extends SimpleClass
     {
@@ -25,4 +24,3 @@
     $extended = new ExtendClass();
     $extended->displayVar();
 ?>
-
