@@ -2,13 +2,27 @@
     class SimpleClass
     {
         // property declaration
-        public $var = 'Sariux :D';
+        public $var = 'Sara:D';
 
         // method declaration
         public function displayVar() {
             echo $this->var;
         }
     }
-    $myvar = new SimpleClass();
-    $myvar->displayVar();
+
+
+    /* EXTEND */
+    class ExtendClass extends SimpleClass
+    {
+        // Redefine the parent method
+        function displayVar()
+        {
+            echo "Hi, ";
+            parent::displayVar();
+        }
+    }
+
+    $extended = new ExtendClass();
+    $extended->displayVar();
 ?>
+
