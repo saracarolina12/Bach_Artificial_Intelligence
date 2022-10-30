@@ -21,9 +21,9 @@ class ParticleSwarmOptimization:
         pass
     def _getGBest(self):
         pass
-    def updateVelocity(self):
+    def _updateVelocity(self):
         pass
-    def updatePosition(self):
+    def _updatePosition(self):
         pass
     def _solve(self):
         # Initialize 𝑐1, 𝑐2, 𝑤
