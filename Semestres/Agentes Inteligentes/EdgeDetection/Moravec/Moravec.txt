@@ -1,0 +1,13 @@
+¿Cuáles son las principales fortalezas y limitaciones de este detector?
+
+Fortaleza: 
+- Resistencia al ruido.
+- Detecta esquinas y bordes.
+
+Debilidad:
+- Detecta bordes solo de angulos multiplos de 90.
+- Es subjetivo (el threshold depende de la imagen)
+
+
+Sara Carolina Gomez Delgado
+Luis Eduardo Robles Jimenez
