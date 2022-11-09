@@ -3,6 +3,9 @@
 
 # 🧬Genetic Algorithms 
 _by John Holland 1970s_
+</br>
+</br>
+## Characteristics: 
 * Inspired by people's DNA structure.
 * Solutions represented by binary arrays
 
