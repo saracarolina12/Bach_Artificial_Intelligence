@@ -66,7 +66,7 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
 ### <u>*Binary and integer representation*</u>
 * **1 point crossover**
 <p align="center">
-    <img width="60%" src="imgs/1point_crossover.jpg"> </img>
+    <img width="40%" src="imgs/1point_crossover.jpg"> </img>
 </p>
 
 
