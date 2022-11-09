@@ -18,8 +18,9 @@ _by John Holland 1970s_
 
 <h3 style="color:#00A3E7"><i><u>- Traveling Salesman Problem</u></i></h3>.
 Calculate the path (without repeating nodes) that a salesperson must follow in order to minimize the distance by ending in the same start node .
-
-<img width="50%" src="imgs/GA/TravelingSalesman.jpg"> </img>
+<p align="center">
+    <img width="50%" src="imgs/GA/TravelingSalesman.jpg"> </img>
+</p>
 
 
 <h3 style="color:#00A3E7"><i><u>- 8 Queens</u></i></h3>.
