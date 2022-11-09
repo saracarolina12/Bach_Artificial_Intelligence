@@ -31,5 +31,5 @@ Calculate the path (without repeating nodes) that a salesperson must follow in o
 ##  Representations
 The individuals' representation can be divided into **Genotype** (codified version of the solution) and **Phenotype** (the solution that represents an individual).
 
- ### • **Binary representation:** Binary array. 
+• **Binary representation:** Binary array. 
  ### • **Integer representation:** Integer array. (for example, use this integers for directions [left, right, up, down]).
