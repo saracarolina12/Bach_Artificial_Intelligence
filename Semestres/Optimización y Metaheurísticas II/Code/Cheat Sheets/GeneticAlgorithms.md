@@ -10,4 +10,9 @@ _by John Holland 1970s_
 
 ## 👉🏼Applications:
 
-### Traveling Salesman problem
+### 1. Traveling Salesman problem
+    Calculate the path a salesperson must follow in order to minimize the distance by ending in the same start node. Nodes cannot be repeated.
+<img width="50%" src="imgs/GA/TravelingSalesman.jpg"> </img>
+
+
+### 2. Sudoku
