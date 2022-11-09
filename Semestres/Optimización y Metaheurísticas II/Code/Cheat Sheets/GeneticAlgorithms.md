@@ -44,7 +44,29 @@ The individuals' representation can be divided into **Genotype** (codified versi
 
 ## Selection of parents
 • **Roulette Selection:** Each section is assigned to an individual.
+
+$$
+    p_i = \frac{f_i}{\sum_kf_k}
+$$
+where $p_i$ is the individual's proportion and $f_i$ its fitness.
+
+Calcutate the range for each individual. Select an individual by choosing a random number between 0 and 1, if the number is between x range previously calculated, select it as a parent.
 <p align="center">
     <img width="60%" src="imgs/rouletteSelection_2.jpg"> </img>
     <img width="19%" src="imgs/rouletteSelection.jpg"> </img>
 </p>
+
+• **Tournament Selection:** Very well-known. Randomly select $k$ individuals and select the fittest one. $k = $ tournament size.
+
+
+
+## Reproduction (crossover or recombination)
+The goal is to generate new individuals (called offsprings) by combinating it's parent's properties.
+
+### <u>*Binary and integer representation*</u>
+* **1 point crossover**
+<p align="center">
+    <img width="60%" src="imgs/1point_crossover.jpg"> </img>
+</p>
+
+
