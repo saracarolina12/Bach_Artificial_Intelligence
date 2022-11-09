@@ -6,12 +6,12 @@
 _by John Holland 1970s_
 </br>
 </br>
-# 👉🏼 Characteristics: 
-### * Inspired by people's DNA structure.
-### * Solutions represented by binary arrays
+## 👉🏼 Characteristics: 
+ * Inspired by people's DNA structure.
+ * Solutions represented by binary arrays
 
 </br>
-<img width="80%" src="imgs/GA/1.jpg"> </img>
+<img width="50%" src="imgs/GA/1.jpg"> </img>
 </br>
 </br>
 
