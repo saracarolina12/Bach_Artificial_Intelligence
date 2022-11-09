@@ -14,10 +14,10 @@ _by John Holland 1970s_
 ### <u> _[- Traveling Salesman](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Genetic%20Algorithms/TravelerSalesman/TravelerSalesman.ipynb)_ </u>
 Calculate the path (without repeating nodes) that a salesperson must follow in order to minimize the distance by ending in the same start node . 
 <p align="center">
-    <img width="50%" src="imgs/GA/TravelingSalesman.jpg"> </img>
+    <img width="30%" src="imgs/GA/TravelingSalesman.jpg"> </img>
 </p>
 
 ### <u> _[- 8 Queens](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Genetic%20Algorithms/8Queens/8Queens.ipynb)_ </u>
 <p align="center">
-    <img width="50%" src="imgs/GA/TravelingSalesman.jpg"> </img>
+    <img width="30%" src="imgs/GA/8Queens.png"> </img>
 </p>
