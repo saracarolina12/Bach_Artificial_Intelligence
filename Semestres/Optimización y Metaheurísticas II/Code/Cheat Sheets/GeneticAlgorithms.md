@@ -45,6 +45,6 @@ The individuals' representation can be divided into **Genotype** (codified versi
 ## Selection of parents
 • **Roulette Selection:** Each section is assigned to an individual.
 <p align="center">
-    <img width="70%" src="imgs/RouletteSelection_2.jpg"> </img>
-    <img width="22%" src="imgs/RouletteSelection.jpg"> </img>
+    <img width="70%" src="imgs/rouletteSelection_2.jpg"> </img>
+    <img width="22%" src="imgs/rouletteSelection.jpg"> </img>
 </p>
