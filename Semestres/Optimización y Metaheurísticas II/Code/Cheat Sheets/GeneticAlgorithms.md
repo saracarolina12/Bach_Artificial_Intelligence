@@ -18,5 +18,3 @@ _by John Holland 1970s_
 ## 👉🏼Applications:
 
 ### Traveling Salesman problem
-
-
