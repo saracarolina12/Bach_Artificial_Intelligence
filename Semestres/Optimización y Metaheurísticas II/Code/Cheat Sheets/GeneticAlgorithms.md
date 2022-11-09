@@ -1,9 +1,8 @@
-#  
-<h1 style="color:#0082C3">🧬<b>Genetic Algorithms</b></h1>
+# 🧬Genetic Algorithms
 
 _by John Holland 1970s_
 
-<h2 style="color:#95FFFF"><i>Characteristics:</i></h2>
+# Characteristics:
  
  * Inspired by people's DNA structure.
 
@@ -15,7 +14,7 @@ _by John Holland 1970s_
 
 
 
-<h2 style="color:#95FFFF"><i>Applications:</i></h2>
+#  Applications:
 
 <h3 style="color:#00A3E7"><i><u>* Traveling Salesman Problem</u></i></h3>.
 Calculate the path (without repeating nodes) that a salesperson must follow in order to minimize the distance by ending in the same start node .
