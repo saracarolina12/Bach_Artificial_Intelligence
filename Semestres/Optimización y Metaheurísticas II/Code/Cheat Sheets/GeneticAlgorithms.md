@@ -3,25 +3,21 @@
 _by John Holland 1970s_
 
 ## Characteristics:
- 
  * Inspired by people's DNA structure.
-
  * Solutions represented by binary arrays
 <p align="center">
     <img width="50%" src="imgs/GA/1.jpg"> </img>
 </p>
-</br>
-</br>
-
 
 
 ##  Applications:
-
-<h3 style="color:#00A3E7"><i><u>- Traveling Salesman Problem</u></i></h3>.
-Calculate the path (without repeating nodes) that a salesperson must follow in order to minimize the distance by ending in the same start node .
+### <u> _[- Traveling Salesman](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Genetic%20Algorithms/TravelerSalesman/TravelerSalesman.ipynb)_ </u>
+Calculate the path (without repeating nodes) that a salesperson must follow in order to minimize the distance by ending in the same start node . 
 <p align="center">
     <img width="50%" src="imgs/GA/TravelingSalesman.jpg"> </img>
 </p>
 
-
-<h3 style="color:#00A3E7"><i><u>- 8 Queens</u></i></h3>.
+### <u> _[- 8 Queens](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Genetic%20Algorithms/8Queens/8Queens.ipynb)_ </u>
+<p align="center">
+    <img width="50%" src="imgs/GA/TravelingSalesman.jpg"> </img>
+</p>
