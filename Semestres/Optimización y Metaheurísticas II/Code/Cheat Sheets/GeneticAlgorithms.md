@@ -11,4 +11,4 @@ _by John Holland 1970s_
 
 <!-- ![githubIcon](https://user-images.githubusercontent.com/54753356/200721556-aca75b8d-4e70-42d9-896a-1cfb6ebf9ce1.png)[1] -->
 
-[![githubIcon](https://user-images.githubusercontent.com/54753356/200721556-aca75b8d-4e70-42d9-896a-1cfb6ebf9ce1.png)][1]
+[![icons8-github-30](https://user-images.githubusercontent.com/54753356/200727643-baab3356-8649-46fd-bacf-c198e64c9f4b.png)][1]
