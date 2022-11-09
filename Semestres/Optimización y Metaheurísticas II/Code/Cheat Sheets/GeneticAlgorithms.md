@@ -2,15 +2,15 @@
 
 _by John Holland 1970s_
 
-## Characteristics:
- * Inspired by people's DNA structure.
- * Solutions represented by binary arrays
+## Characteristics
+ ### • Inspired by people's DNA structure.
+ ### • Solutions represented by binary arrays
 <p align="center">
     <img width="40%" src="imgs/GA/1.jpg"> </img>
 </p>
 
 
-##  Applications:
+##  Applications
 ### <u> _[- Traveling Salesman](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Genetic%20Algorithms/TravelerSalesman/TravelerSalesman.ipynb)_ </u>
 Calculate the path (without repeating nodes) that a salesperson must follow in order to minimize the distance by ending in the same start node . 
 <p align="center">
@@ -26,3 +26,8 @@ Calculate the path (without repeating nodes) that a salesperson must follow in o
 <p align="center">
     <img width="30%" src="imgs/GA/sudoku.png"> </img>
 </p>
+
+
+##  Individuals' Representation
+### • **Genotype**: codified version of the solution.
+### • Phenotype: the solution that represents an individual.
