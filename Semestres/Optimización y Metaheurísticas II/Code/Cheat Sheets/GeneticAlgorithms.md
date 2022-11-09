@@ -7,8 +7,9 @@ _by John Holland 1970s_
  * Inspired by people's DNA structure.
 
  * Solutions represented by binary arrays
-
-<img width="50%" src="imgs/GA/1.jpg"> </img>
+<p align="center">
+    <img width="50%" src="imgs/GA/1.jpg"> </img>
+</p>
 </br>
 </br>
 
