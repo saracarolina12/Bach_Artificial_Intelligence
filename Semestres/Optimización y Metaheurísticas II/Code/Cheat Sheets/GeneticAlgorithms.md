@@ -1,4 +1,5 @@
-# 🧬Genetic Algorithms 
+#  
+<h1 style="color:#C7543C">🧬<b>Genetic Algorithms</b></h1>.
 _by John Holland 1970s_
 
 ## 👉🏼 Characteristics: 
