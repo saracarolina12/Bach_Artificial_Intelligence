@@ -29,5 +29,5 @@ Calculate the path (without repeating nodes) that a salesperson must follow in o
 
 
 ##  Individuals' Representation
-### • **Genotype**: codified version of the solution.
+### • *Genotype*: codified version of the solution.
 ### • Phenotype: the solution that represents an individual.
