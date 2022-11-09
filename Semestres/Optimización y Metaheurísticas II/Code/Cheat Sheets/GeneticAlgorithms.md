@@ -21,3 +21,8 @@ Calculate the path (without repeating nodes) that a salesperson must follow in o
 <p align="center">
     <img width="30%" src="imgs/GA/8Queens.png"> </img>
 </p>
+
+### <u> _[- Sudoku](https://www.researchgate.net/publication/311250094/figure/fig1/AS:550057118101504@1508155244101/A-Sudoku-with-17-clues-and-its-unique-solution.png)_ </u>
+<p align="center">
+    <img width="30%" src="imgs/GA/sudoku.png"> </img>
+</p>
