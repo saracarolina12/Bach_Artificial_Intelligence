@@ -6,7 +6,7 @@ _by John Holland 1970s_
  * Inspired by people's DNA structure.
  * Solutions represented by binary arrays
 <p align="center">
-    <img width="50%" src="imgs/GA/1.jpg"> </img>
+    <img width="40%" src="imgs/GA/1.jpg"> </img>
 </p>
 
 
