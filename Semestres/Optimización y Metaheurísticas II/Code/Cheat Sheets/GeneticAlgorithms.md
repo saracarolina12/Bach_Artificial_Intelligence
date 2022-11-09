@@ -2,7 +2,7 @@
 
 _by John Holland 1970s_
 
-# Characteristics:
+## Characteristics:
  
  * Inspired by people's DNA structure.
 
@@ -14,7 +14,7 @@ _by John Holland 1970s_
 
 
 
-#  Applications:
+##  Applications:
 
 <h3 style="color:#00A3E7"><i><u>* Traveling Salesman Problem</u></i></h3>.
 Calculate the path (without repeating nodes) that a salesperson must follow in order to minimize the distance by ending in the same start node .
