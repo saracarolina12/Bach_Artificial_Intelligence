@@ -2,7 +2,7 @@
 
 _by John Holland 1970s_
 
-## Characteristics
+## **Characteristics**
  ### • Inspired by people's DNA structure.
  ### • Solutions represented by binary arrays
 <p align="center">
@@ -10,7 +10,7 @@ _by John Holland 1970s_
 </p>
 
 
-##  Applications
+##  **Applications**
 ### <u> _[- Traveling Salesman](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Genetic%20Algorithms/TravelerSalesman/TravelerSalesman.ipynb)_ </u>
 Calculate the path (without repeating nodes) that a salesperson must follow in order to minimize the distance by ending in the same start node . 
 <p align="center">
@@ -28,7 +28,7 @@ Calculate the path (without repeating nodes) that a salesperson must follow in o
 </p>
 
 
-##  Representations
+##  **Representations**
 The individuals' representation can be divided into **Genotype** (codified version of the solution) and **Phenotype** (the solution that represents an individual).
 
 • **Binary representation:** Binary array. 
@@ -42,7 +42,7 @@ The individuals' representation can be divided into **Genotype** (codified versi
 
 </br>
 
-## Selection of parents
+## **Selection of parents**
 • **Roulette Selection:** Each section is assigned to an individual.
 
 $$p_i = \frac{f_i}{\sum_kf_k}$$
@@ -58,7 +58,7 @@ Calcutate the range for each individual. Select an individual by choosing a rand
 
 
 
-## Reproduction (crossover or recombination)
+## **Reproduction (crossover or recombination)**
 The goal is to generate new individuals (called offsprings) by combinating it's parent's properties.
 
 ### <u>*Binary and integer representation*</u>
