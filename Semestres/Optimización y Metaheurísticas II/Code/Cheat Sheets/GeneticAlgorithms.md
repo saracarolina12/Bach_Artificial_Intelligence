@@ -39,7 +39,7 @@ Calculate the path (without repeating nodes) that a salesperson must follow in o
     </tr>
     <tr>
         <td>
-            <img width="80%" src="imgs/8Queens.png"> </img>
+            <img width="70%" src="imgs/8Queens.png"> </img>
         </td>
         <td>
             <!-- ### <u> _[- Traveling Salesman](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Genetic%20Algorithms/TravelerSalesman/TravelerSalesman.ipynb)_ </u> -->
@@ -48,7 +48,7 @@ Calculate the path (without repeating nodes) that a salesperson must follow in o
     </tr>
     <tr>
         <td>
-           <img width="80%" src="imgs/sudoku.png"> </img>
+           <img width="60%" src="imgs/sudoku.png"> </img>
         </td>
         <td>
             <!-- ### <u> _[- Traveling Salesman](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Genetic%20Algorithms/TravelerSalesman/TravelerSalesman.ipynb)_ </u> -->
