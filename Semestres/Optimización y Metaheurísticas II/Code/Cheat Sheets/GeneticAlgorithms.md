@@ -99,3 +99,17 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
 
 
 ## **Mutation**
+Consists on modifying the individuals in order to have more variants and check if these fit better.
+* **Bitwise mutation:** Binary representation. Randomly select one or multiple genes and change its values. (0->1, 1->0)
+* **Random resetting:** Integer representation. Randomly select one or multiple genes and reset its values.
+* **Uniform mutation:** Real-valued representation. Randomly select one or multiple genes. Then, choose a random value between [min,max].
+* **Swap mutation:** Permutation representation. Randomly select 2 elements and swap their values.
+
+
+<mark>Holland's original proposal of Genetic Arlgorithms was:</mark>
+
+* **Representation:** binary
+* **Parents' selection:** roulette
+* **Crossover:** 1 point
+* **Mutation:** bitwise
+* **Population model:** generational
