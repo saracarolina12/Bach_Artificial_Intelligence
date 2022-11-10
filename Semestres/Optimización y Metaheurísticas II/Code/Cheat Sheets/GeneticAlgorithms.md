@@ -103,7 +103,7 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
 
 ### <u>*Real-valued representation*</u>
 * **Discrete reproduction:** Same idea as uniform crossover. Randomly copy the value of parent 1 or 2 and repeat this for each children.
-* **Discrete reproduction:** $$ o = \alpha p1 + (1-\alpha p2) $$ where $0<=a<=1$
+* **Discrete reproduction:** $$o = \alpha p1 + (1-\alpha p2)$$ where $0<=a<=1$
 
 ### <u>*Permutation representation*</u>
 * **Simple permutation crossover:** 
