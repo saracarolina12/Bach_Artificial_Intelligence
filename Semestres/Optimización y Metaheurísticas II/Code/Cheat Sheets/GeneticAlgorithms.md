@@ -81,10 +81,17 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
 
 ### <u>*Permutation representation*</u>
 * **Simple permutation crossover:** 
-    1. Divide the array in two parts.
+    1. Divide the array in two parts and copy each section into offspring.
     2. Calculate the duplicated and missing elements.
     3. Randomly replace the repeated with the missing values.
 <p align="center">
     <img width="80%" src="imgs/SPC.jpg"> </img>
 </p>
 
+* **Partially mapped crossover:** 
+    1. Divide the array in 3 parts and copy the intermediate section into offspring.
+    2. Copy the first and third section of de second parent except for those who already exist in offspring.
+    3. Add the missing values of the second part of the second parent that do not already appear in offspring.
+<p align="center">
+    <img width="80%" src="imgs/PMC.jpg"> </img>
+</p>
