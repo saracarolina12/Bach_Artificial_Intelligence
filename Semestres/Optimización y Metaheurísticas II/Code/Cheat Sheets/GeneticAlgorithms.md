@@ -57,7 +57,9 @@ Must solve the traditional 9x9 sudoku.
 
 ##  **Representations**
 The individuals' representation can be divided into **Genotype** (codified version of the solution) and **Phenotype** (the solution that represents an individual).
-<center>
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 30%">
 
 |   |   |
 |---|---|
@@ -65,7 +67,8 @@ The individuals' representation can be divided into **Genotype** (codified versi
 |__Integer__| Integer array. (for example, use this integers for directions left, right, up, down) |
 |__Real__| eal arrays  [𝑥1,𝑥2,…,𝑥𝑛] where $x_i ∈ ℝ$ |
 |__Permutation__| Permutation of a set. |
-</center>
+
+</div>
 
 ## **Selection of parents**
 • **Roulette Selection:** Each section is assigned to an individual.
