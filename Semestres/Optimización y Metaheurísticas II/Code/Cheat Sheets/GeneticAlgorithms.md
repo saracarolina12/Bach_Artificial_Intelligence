@@ -130,6 +130,8 @@ _Consists on modifying the individuals in order to have more variants and check 
 * **Random resetting:** Integer representation. Randomly select one or multiple genes and reset its values.
 * **Uniform mutation:** Real-valued representation. Randomly select one or multiple genes. Then, choose a random value between [min,max].
 * **Swap mutation:** Permutation representation. Randomly select 2 elements and swap their values.
+---
+<p align="center">
 
 | *Holland's original proposal of Genetic Arlgorithms was:*        
 | --------------------------------------------------------
@@ -138,3 +140,7 @@ _Consists on modifying the individuals in order to have more variants and check 
 | * **Crossover:** 1 point
 | * **Mutation:** bitwise
 | * **Population model:** generational
+
+</p>
+
+---
