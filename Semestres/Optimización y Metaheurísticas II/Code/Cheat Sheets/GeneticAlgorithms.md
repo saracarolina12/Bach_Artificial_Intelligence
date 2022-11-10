@@ -106,7 +106,9 @@ Consists on modifying the individuals in order to have more variants and check i
 * **Swap mutation:** Permutation representation. Randomly select 2 elements and swap their values.
 
 
-<mark>Holland's original proposal of Genetic Arlgorithms was:</mark>
+<u>*Note:*</u> 
+
+*Holland's original proposal of Genetic Arlgorithms was:*
 
 * **Representation:** binary
 * **Parents' selection:** roulette
