@@ -1,62 +1,10 @@
-# Evolution Strategies
+# 🐿️ Evolution Strategies
 
-_by askdjgklsdgsdkgls_
-
-## Characteristics
- ### • 
- ### • 
-<p align="center">
-    <img width="40%" src="imgs/GA/1.jpg"> </img>
-</p>
+_by Rechenberg & Schwefel 1960_
 
 
-##  Applications
-### <u> _[- some text](some link)_ </u>
-some text
-<p align="center">
-    <img width="30%" src="imgs/GA/TravelingSalesman.jpg"> </img>
-</p>
+## **Characteristics**
+• Solves continuous multidimensional optimization problems.
 
+• Self-adaptative in relation to its parameters (some parameters might change during the execution).
 
-##  Representations
-some text
-
-<!-- 
-# Evolution Strategies
-
-_by askdjgklsdgsdkgls_
-
-## Characteristics
- ### • 
- ### • 
-<p align="center">
-    <img width="40%" src="imgs/GA/1.jpg"> </img>
-</p>
-
-
-##  Applications
-### <u> _[- some text](some link)_ </u>
-some text
-<p align="center">
-    <img width="30%" src="imgs/GA/TravelingSalesman.jpg"> </img>
-</p>
-
-
-##  Representations
-some text
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- -->

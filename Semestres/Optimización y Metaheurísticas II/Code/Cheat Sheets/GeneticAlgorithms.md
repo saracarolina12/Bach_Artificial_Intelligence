@@ -178,32 +178,32 @@ _Consists on modifying the individuals in order to have more variants and check 
 </table>
 
 ---
-## **Holland's original proposal of Genetic Arlgorithms**
-<table>
-    <tbody>
-        <tr>
-            <td rowspan=1>Representation</td>
-            <td rowspan=1>binary</td>
-        </tr>
-        <tr>
-            <td rowspan=1>Parents' selection</td>
-            <td rowspan=1> roulette</td>
-        </tr>
-        <tr>
-            <td rowspan=1>Crossover</td>
-            <td rowspan=1> 1 point</td>
-        </tr>
-        <tr>
-            <td rowspan=1>Mutation</td>
-            <td rowspan=1> bitwise</td>
-        </tr>
-        <tr>
-            <td rowspan=1>Population model</td>
-            <td rowspan=1> generational</td>
-        </tr>
-    </tbody>
-</table>
+## **Pseudocode**
+    Parameters:
+        N: population size
+        G: Max number of generations
+        Pr: Reproductio's probability
+        Pm: Mutation's probability
+    Return: elite individual
 
+    Begin
+        Create initial population
+        Calculate the population fitness
+        Get the elite
+        While numGenerations < G || haven't found a good solution:
+            Apply crossover 
+            Apply mutation
+            Calculate population fitness
+            Get elite or append the elite in the population
+        End while
+    End
+
+    ----------------------------------------------------------------
+    Recommended values:
+    N = 30
+    G = 100
+    Pr = 0.8
+    Pm = 0.3
 ---
 
 ##### _by Sara Carolina_
