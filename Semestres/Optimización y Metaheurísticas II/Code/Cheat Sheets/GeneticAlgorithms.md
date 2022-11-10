@@ -155,10 +155,6 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
 
 ## **Mutation**
 _Consists on modifying the individuals in order to have more variants and check if these fit better._
-<!-- * **Bitwise mutation:** Binary representation. Randomly select one or multiple genes and change its values. (0->1, 1->0)
-* **Random resetting:** Integer representation. Randomly select one or multiple genes and reset its values.
-* **Uniform mutation:** Real-valued representation. Randomly select one or multiple genes. Then, choose a random value between [min,max].
-* **Swap mutation:** Permutation representation. Randomly select 2 elements and swap their values. -->
 
 <table>
     <tbody>
@@ -182,17 +178,32 @@ _Consists on modifying the individuals in order to have more variants and check 
 </table>
 
 ---
-<p align="center">
+## <u>*Holland's original proposal of Genetic Arlgorithms*</u>
 
-| Holland's original proposal of Genetic Arlgorithms        
-| --------------------------------------------------------
-| * **Representation:** binary
-| * **Parents' selection:** roulette
-| * **Crossover:** 1 point
-| * **Mutation:** bitwise
-| * **Population model:** generational
-
-</p>
+<table>
+    <tbody>
+        <tr>
+            <td rowspan=1>Representation</td>
+            <td rowspan=1>binary</td>
+        </tr>
+        <tr>
+            <td rowspan=1>Parents' selection</td>
+            <td rowspan=1> roulette</td>
+        </tr>
+        <tr>
+            <td rowspan=1>Crossover</td>
+            <td rowspan=1> 1 point</td>
+        </tr>
+        <tr>
+            <td rowspan=1>Mutation</td>
+            <td rowspan=1> bitwise</td>
+        </tr>
+        <tr>
+            <td rowspan=1>Population model</td>
+            <td rowspan=1> generational</td>
+        </tr>
+    </tbody>
+</table>
 
 ---
 
