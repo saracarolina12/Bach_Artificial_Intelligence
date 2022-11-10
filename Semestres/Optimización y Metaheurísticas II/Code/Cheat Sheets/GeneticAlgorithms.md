@@ -64,12 +64,27 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
 ### <u>*Binary and integer representation*</u>
 * **1 point crossover**
 <p align="center">
-    <img width="40%" src="imgs/1point_crossover.jpg"> </img>
+    <img width="35%" src="imgs/1point_crossover.jpg"> </img>
 </p>
 
 * **n point crossover**
 <p align="center">
-    <img width="40%" src="imgs/npoint_crossover.jpg"> </img>
+    <img width="35%" src="imgs/npoint_crossover.jpg"> </img>
 </p>
 
+* **Uniform crossover:** Copy the gene of the first or the second parent randomly (uniform ditribution)
+
+
+### <u>*Real-valued representation*</u>
+* **Discrete reproduction:** Same idea as uniform crossover. Randomly copy the value of parent 1 or 2 and repeat this for each children.
+* **Discrete reproduction:** $$ o = \alpha p1 + (1-\alpha p2) $$ where $0<=a<=1$
+
+### <u>*Permutation representation*</u>
+* **Simple permutation crossover:** 
+1. Divide the array in two parts.
+2. Calculate the duplicated and missing elements.
+3. Randomly replace the repeated with the missing values.
+<p align="center">
+    <img width="50%" src="imgs/SPC.jpg"> </img>
+</p>
 
