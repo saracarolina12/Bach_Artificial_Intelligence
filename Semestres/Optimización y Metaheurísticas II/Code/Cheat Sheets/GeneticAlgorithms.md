@@ -13,7 +13,7 @@ _by John Holland 1970s_
 
 ##  **Applications**
 
-<table display: block ><tr><td>
+<table><tr><td>
 
 <p align="center">
         <img width="50%" src="imgs/TravelingSalesman.jpg"> </img>
@@ -58,16 +58,12 @@ Must solve the traditional 9x9 sudoku.
 ##  **Representations**
 The individuals' representation can be divided into **Genotype** (codified version of the solution) and **Phenotype** (the solution that represents an individual).
 
-• **Binary representation:** Binary array. 
-
-• **Integer representation:** Integer array. (for example, use this integers for directions [left, right, up, down]).
-
-• **Real representation:** Real arrays  [𝑥1,𝑥2,…,𝑥𝑛] where $x_i ∈ ℝ$
-
-• **Permutation representation:** Permutation of a set.
-
-
-</br>
+|   |   |
+|---|---|
+|__Binary__| Binary array (0,1) |
+|__Integer__| Integer array. (for example, use this integers for directions left, right, up, down) |
+|__Real__| eal arrays  [𝑥1,𝑥2,…,𝑥𝑛] where $x_i ∈ ℝ$ |
+|__Permutation__| Permutation of a set. |
 
 ## **Selection of parents**
 • **Roulette Selection:** Each section is assigned to an individual.
