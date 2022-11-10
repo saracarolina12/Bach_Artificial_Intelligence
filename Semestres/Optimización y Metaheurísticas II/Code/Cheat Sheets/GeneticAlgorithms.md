@@ -139,15 +139,15 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
         <tr>
             <td rowspan=1>Simple permutation crossover</td>
             <td rowspan=1>1. Divide the array in two parts and copy each section into offspring.
-                        </br>2. Calculate the duplicated and missing elements.
-                        </br>3. Randomly replace the repeated with the missing values.</td>
+                        </br></br>2. Calculate the duplicated and missing elements.
+                        </br></br>3. Randomly replace the repeated with the missing values.</td>
             <td rowspan=1><p align="center"><img width="95%" src="imgs/SPC.jpg"> </img></p></td>
         </tr>
         <tr>
             <td rowspan=1>Partially mapped crossover:</td>
             <td rowspan=1>1. Divide the array in 3 parts and copy the intermediate section into offspring.
-                    </br>2. Copy the first and third section of de second parent except for those who already exist in offspring.
-                    </br>3. Add the missing values of the second part of the second parent that do not already appear in offspring.</i></td>
+                    </br></br>2. Copy the first and third section of de second parent except for those who already exist in offspring.
+                    </br></br>3. Add the missing values of the second part of the second parent that do not already appear in offspring.</i></td>
             <td rowspan=1><p align="center"><img width="95%" src="imgs/PMC.jpg"> </img></p></td>
         </tr>
     </tbody>
