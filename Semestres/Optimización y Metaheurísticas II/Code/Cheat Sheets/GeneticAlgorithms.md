@@ -57,18 +57,14 @@ Must solve the traditional 9x9 sudoku.
 
 ##  **Representations**
 The individuals' representation can be divided into **Genotype** (codified version of the solution) and **Phenotype** (the solution that represents an individual).
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 30%">
 
 |   |   |
 |---|---|
 |__Binary__| Binary array (0,1) |
 |__Integer__| Integer array. (for example, use this integers for directions left, right, up, down) |
-|__Real__| eal arrays  [𝑥1,𝑥2,…,𝑥𝑛] where $x_i ∈ ℝ$ |
+|__Real__| Real arrays  [𝑥1,𝑥2,…,𝑥𝑛] where $x_i ∈ ℝ$ |
 |__Permutation__| Permutation of a set. |
 
-</div>
 
 ## **Selection of parents**
 • **Roulette Selection:** Each section is assigned to an individual.
@@ -90,7 +86,7 @@ Calcutate the range for each individual. Select an individual by choosing a rand
 The goal is to generate new individuals (called offsprings) by combinating it's parent's properties.
 
 ### <u>*Binary and integer representation*</u>
-* **1 point crossover**
+<!-- * **1 point crossover**
 <p align="center">
     <img width="35%" src="imgs/1point_crossover.jpg"> </img>
 </p>
@@ -100,7 +96,20 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
     <img width="35%" src="imgs/npoint_crossover.jpg"> </img>
 </p>
 
-* **Uniform crossover:** Copy the gene of the first or the second parent randomly (uniform ditribution)
+* **Uniform crossover:** Copy the gene of the first or the second parent randomly (uniform ditribution) -->
+
+
+|   |   |
+|---|---|
+|**1 point crossover**| <p align="center"><img width="35%" src="imgs/1point_crossover.jpg"> <img></p>
+|**Uniform crossover**| <p align="center">Permutation of a set. </p>|
+|__Integer__| <p align="center"><img width="35%" src="imgs/npoint_crossover.jpg"> </img></p>
+|**n point crossover**| Real arrays  [𝑥1,𝑥2,…,𝑥𝑛] where $x_i ∈ ℝ$ |
+|   |   |
+
+
+
+
 
 
 ### <u>*Real-valued representation*</u>
