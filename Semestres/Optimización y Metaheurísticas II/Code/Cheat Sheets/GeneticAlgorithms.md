@@ -85,7 +85,7 @@ Calcutate the range for each individual. Select an individual by choosing a rand
 ## **Reproduction (crossover or recombination)**
 The goal is to generate new individuals (called offsprings) by combinating it's parent's properties.
 
-<!-- ### <u>*Binary and integer representation*</u> -->
+### <u>*Binary and integer representation*</u>
 <!-- * **1 point crossover**
 <p align="center">
     <img width="35%" src="imgs/1point_crossover.jpg"> </img>
@@ -99,15 +99,29 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
 * **Uniform crossover:** Copy the gene of the first or the second parent randomly (uniform ditribution) -->
 
 
-
-| <u>*Binary and integer representation*</u> |
-|------|
-|**1 point crossover**| <p align="center"><img width="35%" src="imgs/1point_crossover.jpg"> <img></p>
-|**Uniform crossover**| <p align="center">Permutation of a set. </p>|
-|__Integer__| <p align="center"><img width="35%" src="imgs/npoint_crossover.jpg"> </img></p>
-|**n point crossover**| Real arrays  [𝑥1,𝑥2,…,𝑥𝑛] where $x_i ∈ ℝ$ |
-|   |   |
-
+<table>
+    <!-- <thead>
+        <tr>
+            <p align="center">
+                <th> Binary and integer representation </th>
+            </p>
+        </tr>
+    </thead> -->
+    <tbody>
+        <tr>
+            <td rowspan=1>1 point crossover</td>
+            <td rowspan=1><p align="center"><img width="35%" src="imgs/1point_crossover.jpg"><img></p></td>
+        </tr>
+        <tr>
+            <td rowspan=1>Uniform crossover</td>
+            <td rowspan=1><p align="center">Copy the gene of the first or the second parent randomly (uniform ditribution) </p></td>
+        </tr>
+        <tr>
+            <td rowspan=1>n point crossover</td>
+            <td rowspan=1><p align="center"><img width="35%" src="imgs/npoint_crossover.jpg"> </img></p></td>
+        </tr>
+    </tbody>
+</table>
 
 
 
