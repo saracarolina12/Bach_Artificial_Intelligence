@@ -13,7 +13,7 @@ _by John Holland 1970s_
 
 ##  **Applications**
 
-<table><tr><td>
+<table display: block ><tr><td>
 
 <p align="center">
         <img width="50%" src="imgs/TravelingSalesman.jpg"> </img>
