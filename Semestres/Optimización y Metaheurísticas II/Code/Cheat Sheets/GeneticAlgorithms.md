@@ -85,6 +85,6 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
 2. Calculate the duplicated and missing elements.
 3. Randomly replace the repeated with the missing values.
 <p align="center">
-    <img width="50%" src="imgs/SPC.jpg"> </img>
+    <img width="80%" src="imgs/SPC.jpg"> </img>
 </p>
 
