@@ -81,9 +81,9 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
 
 ### <u>*Permutation representation*</u>
 * **Simple permutation crossover:** 
-1. Divide the array in two parts.
-2. Calculate the duplicated and missing elements.
-3. Randomly replace the repeated with the missing values.
+    1. Divide the array in two parts.
+    2. Calculate the duplicated and missing elements.
+    3. Randomly replace the repeated with the missing values.
 <p align="center">
     <img width="80%" src="imgs/SPC.jpg"> </img>
 </p>
