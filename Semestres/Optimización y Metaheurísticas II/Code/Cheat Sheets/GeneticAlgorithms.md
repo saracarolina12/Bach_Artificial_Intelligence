@@ -69,4 +69,9 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
     <img width="40%" src="imgs/1point_crossover.jpg"> </img>
 </p>
 
+* **n point crossover**
+<p align="center">
+    <img width="40%" src="imgs/npoint_crossover.jpg"> </img>
+</p>
+
 
