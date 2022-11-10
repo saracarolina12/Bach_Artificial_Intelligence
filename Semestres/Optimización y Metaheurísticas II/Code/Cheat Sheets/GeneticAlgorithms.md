@@ -178,8 +178,7 @@ _Consists on modifying the individuals in order to have more variants and check 
 </table>
 
 ---
-## <u>*Holland's original proposal of Genetic Arlgorithms*</u>
-
+## **Holland's original proposal of Genetic Arlgorithms**
 <table>
     <tbody>
         <tr>
