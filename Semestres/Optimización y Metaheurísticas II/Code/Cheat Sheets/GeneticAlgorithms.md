@@ -58,12 +58,33 @@ Must solve the traditional 9x9 sudoku.
 ##  **Representations**
 The individuals' representation can be divided into **Genotype** (codified version of the solution) and **Phenotype** (the solution that represents an individual).
 
-|   |   |
+<!-- |   |   |
 |---|---|
 |__Binary__| Binary array (0,1) |
 |__Integer__| Integer array. (for example, use this integers for directions left, right, up, down) |
 |__Real__| Real arrays  [𝑥1,𝑥2,…,𝑥𝑛] where $x_i ∈ ℝ$ |
-|__Permutation__| Permutation of a set. |
+|__Permutation__| Permutation of a set. | -->
+
+<table>
+    <tbody>
+        <tr>
+            <td rowspan=1>Binary</td>
+            <td rowspan=1>Binary array (0,1)</td>
+        </tr>
+        <tr>
+            <td rowspan=1>Integer</td>
+            <td rowspan=1>Integer array. (for example, use this integers for directions left, right, up, down)</td>
+        </tr>
+        <tr>
+            <td rowspan=1>Real</td>
+            <td rowspan=1> Real arrays  [𝑥1,𝑥2,…,𝑥𝑛] where $x_i ∈ ℝ$ |</td>
+        </tr>
+         <tr>
+            <td rowspan=1>Permutation</td>
+            <td rowspan=1>Permutation of a set.</td>
+        </tr>
+    </tbody>
+</table>
 
 
 ## **Selection of parents**
@@ -100,13 +121,6 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
 
 
 <table>
-    <!-- <thead>
-        <tr>
-            <p align="center">
-                <th> Binary and integer representation </th>
-            </p>
-        </tr>
-    </thead> -->
     <tbody>
         <tr>
             <td rowspan=1>1 point crossover</td>
