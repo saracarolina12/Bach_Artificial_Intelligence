@@ -4,6 +4,7 @@ _by John Holland 1970s_
 
 ## **Characteristics**
 • Inspired by people's DNA structure.
+
 • Solutions represented by binary arrays
 <p align="center">
     <img width="30%" src="imgs/1.jpg"> </img>
@@ -15,7 +16,7 @@ _by John Holland 1970s_
 <table><tr><td>
 
 <p align="center">
-        <img width="60%" src="imgs/TravelingSalesman.jpg"> </img>
+        <img width="50%" src="imgs/TravelingSalesman.jpg"> </img>
 </p>
 
 </td><td>
@@ -28,7 +29,7 @@ Calculate the path (without repeating nodes) that a salesperson must follow in o
 <tr><td>
 
 <p align="center">
-        <img width="60%" src="imgs/8Queens.png"> </img>
+        <img width="50%" src="imgs/8Queens.png"> </img>
 </p>
 
 </td><td>
@@ -41,7 +42,7 @@ Place 8 queens on the 8x8 board without letting them to attack each other in dia
 <tr><td>
 
 <p align="center">
-        <img width="60%" src="imgs/sudoku.png"> </img>
+        <img width="50%" src="imgs/sudoku.png"> </img>
 </p>
 
 </td><td>
