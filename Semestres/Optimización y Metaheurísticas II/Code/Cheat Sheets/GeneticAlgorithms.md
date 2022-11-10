@@ -153,31 +153,35 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
     </tbody>
 </table>
 
-<!-- * **Simple permutation crossover:** 
-    1. Divide the array in two parts and copy each section into offspring.
-    2. Calculate the duplicated and missing elements.
-    3. Randomly replace the repeated with the missing values.
-<p align="center">
-    <img width="80%" src="imgs/SPC.jpg"> </img>
-</p> -->
-
-<!-- * **Partially mapped crossover:** 
-    1. Divide the array in 3 parts and copy the intermediate section into offspring.
-    2. Copy the first and third section of de second parent except for those who already exist in offspring.
-    3. Add the missing values of the second part of the second parent that do not already appear in offspring.
-<p align="center">
-    <img width="80%" src="imgs/PMC.jpg"> </img>
-</p> -->
-
-
-
 ## **Mutation**
 _Consists on modifying the individuals in order to have more variants and check if these fit better._
-* **Bitwise mutation:** Binary representation. Randomly select one or multiple genes and change its values. (0->1, 1->0)
+<!-- * **Bitwise mutation:** Binary representation. Randomly select one or multiple genes and change its values. (0->1, 1->0)
 * **Random resetting:** Integer representation. Randomly select one or multiple genes and reset its values.
 * **Uniform mutation:** Real-valued representation. Randomly select one or multiple genes. Then, choose a random value between [min,max].
-* **Swap mutation:** Permutation representation. Randomly select 2 elements and swap their values.
-<!-- --- -->
+* **Swap mutation:** Permutation representation. Randomly select 2 elements and swap their values. -->
+
+<table>
+    <tbody>
+        <tr>
+            <td rowspan=1>Bitwise mutation</td>
+            <td rowspan=1>Binary representation. Randomly select one or multiple genes and change its values. (0->1, 1->0)</td>
+        </tr>
+        <tr>
+            <td rowspan=1>Random resetting</td>
+            <td rowspan=1> Integer representation. Randomly select one or multiple genes and reset its values.</td>
+        </tr>
+        <tr>
+            <td rowspan=1>Uniform mutation</td>
+            <td rowspan=1>  Real-valued representation. Randomly select one or multiple genes. Then, choose a random value between [min,max].</td>
+        </tr>
+        <tr>
+            <td rowspan=1>Swap mutation</td>
+            <td rowspan=1> Permutation representation. Randomly select 2 elements and swap their values.</td>
+        </tr>
+    </tbody>
+</table>
+
+---
 <p align="center">
 
 | Holland's original proposal of Genetic Arlgorithms        
@@ -190,4 +194,6 @@ _Consists on modifying the individuals in order to have more variants and check 
 
 </p>
 
-<!-- --- -->
+---
+
+##### _by Sara Carolina_
