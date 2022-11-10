@@ -61,7 +61,7 @@ The individuals' representation can be divided into **Genotype** (codified versi
 
 • **Integer representation:** Integer array. (for example, use this integers for directions [left, right, up, down]).
 
-• **Real representation:** Real arrays [$x_1, x_2,...,x_n$] $where$ $x_i ∈ ℝ$
+• **Real representation:** Real arrays  [𝑥1,𝑥2,…,𝑥𝑛] where $x_i ∈ ℝ$
 
 • **Permutation representation:** Permutation of a set.
 
@@ -80,7 +80,7 @@ Calcutate the range for each individual. Select an individual by choosing a rand
     <img width="19%" src="imgs/rouletteSelection.jpg"> </img>
 </p>
 
-• **Tournament Selection:** Very well-known. Randomly select $k$ individuals and select the fittest one. $k = $ tournament size.
+• **Tournament Selection:** Very well-known. Randomly select $k$ individuals and select the fittest one. $k =$ tournament size.
 
 
 
@@ -125,21 +125,11 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
 
 
 ## **Mutation**
-Consists on modifying the individuals in order to have more variants and check if these fit better.
+_Consists on modifying the individuals in order to have more variants and check if these fit better._
 * **Bitwise mutation:** Binary representation. Randomly select one or multiple genes and change its values. (0->1, 1->0)
 * **Random resetting:** Integer representation. Randomly select one or multiple genes and reset its values.
 * **Uniform mutation:** Real-valued representation. Randomly select one or multiple genes. Then, choose a random value between [min,max].
 * **Swap mutation:** Permutation representation. Randomly select 2 elements and swap their values.
-
-
-*Holland's original proposal of Genetic Arlgorithms was:*
-
-* **Representation:** binary
-* **Parents' selection:** roulette
-* **Crossover:** 1 point
-* **Mutation:** bitwise
-* **Population model:** generational
-
 
 | *Holland's original proposal of Genetic Arlgorithms was:*        
 | --------------------------------------------------------
