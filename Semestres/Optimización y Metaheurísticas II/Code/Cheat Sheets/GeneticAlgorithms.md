@@ -58,13 +58,6 @@ Must solve the traditional 9x9 sudoku.
 ##  **Representations**
 The individuals' representation can be divided into **Genotype** (codified version of the solution) and **Phenotype** (the solution that represents an individual).
 
-<!-- |   |   |
-|---|---|
-|__Binary__| Binary array (0,1) |
-|__Integer__| Integer array. (for example, use this integers for directions left, right, up, down) |
-|__Real__| Real arrays  [𝑥1,𝑥2,…,𝑥𝑛] where $x_i ∈ ℝ$ |
-|__Permutation__| Permutation of a set. | -->
-
 <table>
     <tbody>
         <tr>
@@ -107,18 +100,6 @@ Calcutate the range for each individual. Select an individual by choosing a rand
 The goal is to generate new individuals (called offsprings) by combinating it's parent's properties.
 
 ### <u>*Binary and integer representation*</u>
-<!-- * **1 point crossover**
-<p align="center">
-    <img width="35%" src="imgs/1point_crossover.jpg"> </img>
-</p>
-
-* **n point crossover**
-<p align="center">
-    <img width="35%" src="imgs/npoint_crossover.jpg"> </img>
-</p>
-
-* **Uniform crossover:** Copy the gene of the first or the second parent randomly (uniform ditribution) -->
-
 
 <table>
     <tbody>
@@ -138,29 +119,55 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
 </table>
 
 
-
-
-
 ### <u>*Real-valued representation*</u>
-* **Discrete reproduction:** Same idea as uniform crossover. Randomly copy the value of parent 1 or 2 and repeat this for each children.
-* **Discrete reproduction:** $$o = \alpha p1 + (1-\alpha p2)$$ where $0<=a<=1$
+<table>
+    <tbody>
+        <tr>
+            <td rowspan=1>Discrete reproduction</td>
+            <td rowspan=1>Same idea as uniform crossover. Randomly copy the value of parent 1 or 2 and repeat this for each children.</td>
+        </tr>
+        <tr>
+            <td rowspan=1>Asymmetric reproduction</td>
+            <td rowspan=1> 𝑜=𝛼 𝑝1+(1−𝛼 𝑝2) </br><i>where 0<= 𝛼 <=1</i></td>
+        </tr>
+    </tbody>
+</table>
 
 ### <u>*Permutation representation*</u>
-* **Simple permutation crossover:** 
+<table>
+    <tbody>
+        <tr>
+            <td rowspan=1>Simple permutation crossover</td>
+            <td rowspan=1>1. Divide the array in two parts and copy each section into offspring.
+                        </br>2. Calculate the duplicated and missing elements.
+                        </br>3. Randomly replace the repeated with the missing values.</td>
+            <td rowspan=1><p align="center"><img width="95%" src="imgs/SPC.jpg"> </img></p></td>
+        </tr>
+        <tr>
+            <td rowspan=1>Partially mapped crossover:</td>
+            <td rowspan=1>1. Divide the array in 3 parts and copy the intermediate section into offspring.
+                    </br>2. Copy the first and third section of de second parent except for those who already exist in offspring.
+                    </br>3. Add the missing values of the second part of the second parent that do not already appear in offspring.</i></td>
+            <td rowspan=1><p align="center"><img width="95%" src="imgs/PMC.jpg"> </img></p></td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- * **Simple permutation crossover:** 
     1. Divide the array in two parts and copy each section into offspring.
     2. Calculate the duplicated and missing elements.
     3. Randomly replace the repeated with the missing values.
 <p align="center">
     <img width="80%" src="imgs/SPC.jpg"> </img>
-</p>
+</p> -->
 
-* **Partially mapped crossover:** 
+<!-- * **Partially mapped crossover:** 
     1. Divide the array in 3 parts and copy the intermediate section into offspring.
     2. Copy the first and third section of de second parent except for those who already exist in offspring.
     3. Add the missing values of the second part of the second parent that do not already appear in offspring.
 <p align="center">
     <img width="80%" src="imgs/PMC.jpg"> </img>
-</p>
+</p> -->
 
 
 
