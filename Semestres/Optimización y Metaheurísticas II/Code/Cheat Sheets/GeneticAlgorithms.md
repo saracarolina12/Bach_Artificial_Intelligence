@@ -59,8 +59,6 @@ Calcutate the range for each individual. Select an individual by choosing a rand
 
 
 ## Reproduction (crossover or recombination)
-<span style="color:blue">some *blue* text</span>
-
 The goal is to generate new individuals (called offsprings) by combinating it's parent's properties.
 
 ### <u>*Binary and integer representation*</u>
@@ -100,3 +98,4 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
 
 
 
+## **Mutation**
