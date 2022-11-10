@@ -14,18 +14,48 @@ _by John Holland 1970s_
 ### <u> _[- Traveling Salesman](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Genetic%20Algorithms/TravelerSalesman/TravelerSalesman.ipynb)_ </u>
 Calculate the path (without repeating nodes) that a salesperson must follow in order to minimize the distance by ending in the same start node . 
 <p align="center">
-    <img width="20%" src="imgs/TravelingSalesman.jpg"> </img>
+    <img width="25%" src="imgs/TravelingSalesman.jpg"> </img>
 </p>
 
 ### <u> _[- 8 Queens](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Genetic%20Algorithms/8Queens/8Queens.ipynb)_ </u>
 <p align="center">
-    <img width="20%" src="imgs/8Queens.png"> </img>
+    <img width="25%" src="imgs/8Queens.png"> </img>
 </p>
 
 ### <u> _[- Sudoku](https://www.researchgate.net/publication/311250094/figure/fig1/AS:550057118101504@1508155244101/A-Sudoku-with-17-clues-and-its-unique-solution.png)_ </u>
 <p align="center">
-    <img width="20%" src="imgs/sudoku.png"> </img>
+    <img width="25%" src="imgs/sudoku.png"> </img>
 </p>
+
+<table>
+    <tr>
+        <td>
+            <img width="80%" src="imgs/TravelingSalesman.jpg"> </img>
+        </td>
+        <td>
+            <!-- ### <u> _[- Traveling Salesman](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Genetic%20Algorithms/TravelerSalesman/TravelerSalesman.ipynb)_ </u> -->
+            Calculate the path (without repeating nodes) that a salesperson must follow in order to minimize the distance by ending in the same start node .
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img width="80%" src="imgs/8Queens.png"> </img>
+        </td>
+        <td>
+            <!-- ### <u> _[- Traveling Salesman](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Genetic%20Algorithms/TravelerSalesman/TravelerSalesman.ipynb)_ </u> -->
+            Calculate the path (without repeating nodes) that a salesperson must follow in order to minimize the distance by ending in the same start node .
+        </td>
+    </tr>
+    <tr>
+        <td>
+           <img width="80%" src="imgs/sudoku.png"> </img>
+        </td>
+        <td>
+            <!-- ### <u> _[- Traveling Salesman](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Genetic%20Algorithms/TravelerSalesman/TravelerSalesman.ipynb)_ </u> -->
+            Calculate the path (without repeating nodes) that a salesperson must follow in order to minimize the distance by ending in the same start node .
+        </td>
+    </tr>
+</table>
 
 
 ##  **Representations**
