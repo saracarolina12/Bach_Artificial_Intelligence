@@ -88,8 +88,8 @@ where $p_i$ is the individual's proportion and $f_i$ its fitness.
 
 Calcutate the range for each individual. Select an individual by choosing a random number between 0 and 1, if the number is between x range previously calculated, select it as a parent.
 <p align="center">
-    <img width="60%" src="imgs/rouletteSelection_2.jpg"> </img>
-    <img width="19%" src="imgs/rouletteSelection.jpg"> </img>
+    <img width="40%" src="imgs/rouletteSelection_2.jpg"> </img>
+    <img width="12.7%" src="imgs/rouletteSelection.jpg"> </img>
 </p>
 
 • **Tournament Selection:** Very well-known. Randomly select $k$ individuals and select the fittest one. $k =$ tournament size.
