@@ -17,8 +17,8 @@ _by John Holland 1970s_
 <table><tr><td>
 
 <p align="center">
+<img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Cheat%20Sheets/imgs/TravelingSalesman.jpg"> </img>
 
-![Traveling Salesman img](https://www.dropbox.com/s/sj1a8gcle27961j/TravelingSalesman.jpg?dl=0)
         
 </p>
 
