@@ -75,3 +75,10 @@ Same as [Evolution Strategies](https://github.com/saracarolina12/IA_School/blob/
 <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/EP_representation.png"> </img>
 </p>
 
+## **Mutation**
+The individuals can be seen as points in a multidimensional space, where the mutation's goal is to move them so that the position of the mutated individual is close to the positition of the individual before mutation.
+
+The specie's position $\vec{x}_i$ is modified by adding up a random number as follows:
+<p align="center">
+    <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/EP_mutation.png"> </img>
+</p>
