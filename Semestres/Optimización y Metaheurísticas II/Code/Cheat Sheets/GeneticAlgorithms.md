@@ -8,7 +8,7 @@ _by John Holland 1970s_
 
 • Solutions represented by binary arrays
 <p align="center">
-    <img width="30%" src="imgs/1.jpg"> </img>
+    <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Cheat%20Sheets/imgs/1.jpg"> </img>
 </p>
 
 
@@ -24,7 +24,7 @@ _by John Holland 1970s_
 
 </td><td>
 
-### <u> _[Traveling Salesman](https://drive.google.com/file/d/164E4E-pqui2UaEPwjXovxbz9i4p-s44i/view?usp=share_link)_ </u>
+### <u> _[Traveling Salesman](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Genetic%20Algorithms/TravelerSalesman/TravelerSalesman.ipynb)_ </u>
 Calculate the path (without repeating nodes) that a salesperson must follow in order to minimize the distance by ending in the same start node . 
 
 </td><tr>
@@ -32,7 +32,7 @@ Calculate the path (without repeating nodes) that a salesperson must follow in o
 <tr><td>
 
 <p align="center">
-        <img width="50%" src="imgs/8Queens.png"> </img>
+        <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Cheat%20Sheets/imgs/8Queens.png"> </img>
 </p>
 
 </td><td>
@@ -45,7 +45,7 @@ Place 8 queens on the 8x8 board without letting them to attack each other in dia
 <tr><td>
 
 <p align="center">
-        <img width="50%" src="imgs/sudoku.png"> </img>
+        <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Cheat%20Sheets/imgs/sudoku.png"> </img>
 </p>
 
 </td><td>
@@ -91,8 +91,8 @@ where $p_i$ is the individual's proportion and $f_i$ its fitness.
 
 Calcutate the range for each individual. Select an individual by choosing a random number between 0 and 1, if the number is between x range previously calculated, select it as a parent.
 <p align="center">
-    <img width="40%" src="imgs/rouletteSelection_2.jpg"> </img>
-    <img width="12.7%" src="imgs/rouletteSelection.jpg"> </img>
+    <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Cheat%20Sheets/imgs/rouletteSelection_2.jpg"> </img>
+    <img width="12.7%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Cheat%20Sheets/imgs/rouletteSelection.jpg"> </img>
 </p>
 
 • **Tournament Selection:** Very well-known. Randomly select $k$ individuals and select the fittest one. $k =$ tournament size.
@@ -108,7 +108,7 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
     <tbody>
         <tr>
             <td rowspan=1>1 point crossover</td>
-            <td rowspan=1><p align="center"><img width="35%" src="imgs/1point_crossover.jpg"><img></p></td>
+            <td rowspan=1><p align="center"><img width="35%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Cheat%20Sheets/imgs/1point_crossover.jpg"><img></p></td>
         </tr>
         <tr>
             <td rowspan=1>Uniform crossover</td>
@@ -116,7 +116,7 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
         </tr>
         <tr>
             <td rowspan=1>n point crossover</td>
-            <td rowspan=1><p align="center"><img width="35%" src="imgs/npoint_crossover.jpg"> </img></p></td>
+            <td rowspan=1><p align="center"><img width="35%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Cheat%20Sheets/imgs/npoint_crossover.jpg"> </img></p></td>
         </tr>
     </tbody>
 </table>
@@ -144,14 +144,14 @@ The goal is to generate new individuals (called offsprings) by combinating it's 
             <td rowspan=1>1. Divide the array in two parts and copy each section into offspring.
                         </br></br>2. Calculate the duplicated and missing elements.
                         </br></br>3. Randomly replace the repeated with the missing values.</td>
-            <td rowspan=1><p align="center"><img width="95%" src="imgs/SPC.jpg"> </img></p></td>
+            <td rowspan=1><p align="center"><img width="95%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Cheat%20Sheets/imgs/SPC.jpg"> </img></p></td>
         </tr>
         <tr>
             <td rowspan=1>Partially mapped crossover:</td>
             <td rowspan=1>1. Divide the array in 3 parts and copy the intermediate section into offspring.
                     </br></br>2. Copy the first and third section of de second parent except for those who already exist in offspring.
                     </br></br>3. Add the missing values of the second part of the second parent that do not already appear in offspring.</i></td>
-            <td rowspan=1><p align="center"><img width="95%" src="imgs/PMC.jpg"> </img></p></td>
+            <td rowspan=1><p align="center"><img width="95%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Cheat%20Sheets/imgs/PMC.jpg"> </img></p></td>
         </tr>
     </tbody>
 </table>
