@@ -24,7 +24,7 @@ _by John Holland 1970s_
 
 </td><td>
 
-### <u> _[Traveling Salesman](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Genetic%20Algorithms/TravelerSalesman/TravelerSalesman.ipynb)_ </u>
+### <u> _[Traveling Salesman](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Evolutionary%20Computation/Genetic%20Algorithms/TravelerSalesman/TravelerSalesman.ipynb)_ </u>
 Calculate the path (without repeating nodes) that a salesperson must follow in order to minimize the distance by ending in the same start node . 
 
 </td><tr>
@@ -37,7 +37,7 @@ Calculate the path (without repeating nodes) that a salesperson must follow in o
 
 </td><td>
 
-### <u> _[8 Queens](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Genetic%20Algorithms/8Queens/8Queens.ipynb)_ </u> 
+### <u> _[8 Queens](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Evolutionary%20Computation/Genetic%20Algorithms/8Queens/8Queens.ipynb)_ </u> 
 Place 8 queens on the 8x8 board without letting them to attack each other in diagonal, up or down.
 
 </td><tr>
