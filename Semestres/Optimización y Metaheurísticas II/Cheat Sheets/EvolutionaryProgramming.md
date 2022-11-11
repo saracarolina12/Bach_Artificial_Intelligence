@@ -71,4 +71,7 @@ Try to approach to the given sin.
 
 ## **Representation**
 Same as [Evolution Strategies](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/EvolutionStrategies.md) Represented as vector.
+<p align="center">
+<img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/EP_representation.png"> </img>
+</p>
 
