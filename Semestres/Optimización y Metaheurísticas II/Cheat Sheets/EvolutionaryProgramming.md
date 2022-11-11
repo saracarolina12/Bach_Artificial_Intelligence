@@ -81,4 +81,6 @@ The individuals can be seen as points in a multidimensional space, where the mut
 The specie's position $\vec{x}_i$ is modified by adding up a random number as follows:
 <p align="center">
     <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/EP_mutation.png"> </img>
+
+where $a$
 </p>
