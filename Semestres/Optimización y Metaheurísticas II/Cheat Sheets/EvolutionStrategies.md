@@ -41,5 +41,26 @@ where $\sigma$ represents the mutation parameters.
 The individuals can be seen as points in a multidimensional space, where the mutation's goal is to move them so that the position of the mutated individual is close to the positition of the individual before mutation.
 
 <p align="center">
-        <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ES_mutation.png"> </img>
+        <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ES_mutation.png"> </img>
 </p>
+
+In order to achive this, we modify $𝑥_𝑖⃗$ by adding a random number to each entry. This number follows a normal distrivution zero-centered and a standard desviation $\sigma_i$ (mutation step size -> defines how much we modify the individual).
+
+###
+
+<table><tr><td>
+
+<p align="center">
+
+**$\frac{1}{5}$ Success Rule**
+
+</p>
+
+</td><td>
+
+### <u> _[Image Transformation](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Evolutionary%20Computation/Evolutive%20Strategies/ImageTransformation.ipynb)_ </u>
+Transform an image to approach as much as possible to the original one.
+
+</td><tr>
+
+</table>
