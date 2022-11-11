@@ -1,3 +1,4 @@
+<!-- https://www.dropbox.com/sh/a7fkadjc6q8nkow/AAAIDQvur6dWvoXK60EPJD1Ya?dl=0 -->
 # 🧬Genetic Algorithms
 
 _by John Holland 1970s_
@@ -16,12 +17,14 @@ _by John Holland 1970s_
 <table><tr><td>
 
 <p align="center">
-        <img width="50%" src="imgs/TravelingSalesman.jpg"> </img>
+
+![Traveling Salesman img](https://www.dropbox.com/s/sj1a8gcle27961j/TravelingSalesman.jpg?dl=0)
+        
 </p>
 
 </td><td>
 
-### <u> _[Traveling Salesman](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Genetic%20Algorithms/TravelerSalesman/TravelerSalesman.ipynb)_ </u>
+### <u> _[Traveling Salesman](https://drive.google.com/file/d/164E4E-pqui2UaEPwjXovxbz9i4p-s44i/view?usp=share_link)_ </u>
 Calculate the path (without repeating nodes) that a salesperson must follow in order to minimize the distance by ending in the same start node . 
 
 </td><tr>
