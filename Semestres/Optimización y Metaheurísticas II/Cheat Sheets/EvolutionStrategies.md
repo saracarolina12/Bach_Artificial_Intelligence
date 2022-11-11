@@ -130,6 +130,11 @@ In this case, the mutation will be performed as follows:
 </td><td>
 
 <p align="center">
+
+
+
+</p>
+<p align="center">
         <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ES_recombination_intermediate.png"> </img>
 </p>
 
@@ -157,3 +162,82 @@ In this case, the mutation will be performed as follows:
 </td><tr>
 
 </table>
+
+
+## **Selection of Parents**
+The parent selection is random (the whole population is seen as a parent).
+
+
+## **Survivor Selection**
+<table><tr><td>
+
+<p align="center">
+
+### (𝜇,𝜆)
+
+</p>
+
+</td><td>
+
+<p align="center">
+
+
+
+</p>
+<p align="center">
+
+Only the best 𝜇 offspring are selected 
+
+</p>
+
+</td><tr>
+
+<tr><td>
+
+<p align="center">
+
+### (𝜇+𝜆)
+
+</p>
+
+</td><td>
+
+<p align="center">
+
+
+
+</p>
+<p align="center">
+The best 𝜇 individuals (Union of parents and offspring) are selected.
+</p>
+
+</td><tr>
+
+</table>
+
+
+---
+## **Pseudocode**
+        Parameters:
+                N: population size
+                𝜆: offspring size
+                G: max number of generations
+        Return: the elite individual
+
+        Begin
+                Create the initial population
+                Calculate the population fitness
+                Get the elite
+                While numGen < G || haven't found solution:
+                        Recombination (generate 𝜆 offspring)
+                        Mutation of parents and offspring
+                        Calculate population fitness
+                        Survivor Selection
+                        Get the elite or include the elite in the population
+                End while
+        End
+                        
+
+---
+
+##### _by Sara Carolina_
