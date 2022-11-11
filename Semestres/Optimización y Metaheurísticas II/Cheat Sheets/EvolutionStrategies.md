@@ -59,7 +59,7 @@ In order to achive this, we modify $𝑥_𝑖⃗$ by adding a random number to e
 </td><td>
 
 <p align="center">
-        <img width="80%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ES_successRule.png"> </img>
+        <img width="60%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ES_successRule.png"> </img>
         
 where $p$ is the relative frequency of successful mutations
 
@@ -76,7 +76,7 @@ and $c$ is the range $0.817≤c≤1$
 
 <p align="center">
 
-**Uncorrelated Mutation with One Step Size**
+**$1$ Step Size**
 
 </p>
 
@@ -89,6 +89,27 @@ In this case, the mutation will be performed as follows:
 </p>
 <p align="center">
         <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ES_mutation_onestep.png"> </img>
+</p>
+
+</td><tr>
+
+<tr><td>
+
+<p align="center">
+
+**$d$ Step Size**
+
+</p>
+
+</td><td>
+
+<p align="center">
+        <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ES_dsteps.png"> </img>
+
+In this case, the mutation will be performed as follows:
+</p>
+<p align="center">
+        <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ES_mutation_dsteps.png"> </img>
 </p>
 
 </td><tr>
