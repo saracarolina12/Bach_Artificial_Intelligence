@@ -19,7 +19,7 @@ _by Rechenberg & Schwefel 1960_
 </td><td>
 
 ### <u> _[Image Transformation](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Code/Evolutionary%20Computation/Evolutive%20Strategies/ImageTransformation.ipynb)_ </u>
-Transform image to approach as much as possible to the original one.
+Transform an image to approach as much as possible to the original one.
 
 </td><tr>
 
