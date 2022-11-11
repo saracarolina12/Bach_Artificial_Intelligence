@@ -115,3 +115,47 @@ In this case, the mutation will be performed as follows:
 </td><tr>
 
 </table>
+
+
+## **Recombination**
+
+<table><tr><td>
+
+<p align="center">
+
+**Intermediate**
+
+</p>
+
+</td><td>
+
+<p align="center">
+       Average the parent's values.
+</p>
+
+</td><tr>
+
+<tr><td>
+
+<p align="center">
+
+**Discrete**
+
+</p>
+
+</td><td>
+
+<p align="center">
+
+<p align="center">
+        <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ES_recombination_intermediate.png"> </img>
+</p>
+
+</p>
+<p align="center">
+        <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ES_recombination_discrete.png"> </img>
+</p>
+
+</td><tr>
+
+</table>
