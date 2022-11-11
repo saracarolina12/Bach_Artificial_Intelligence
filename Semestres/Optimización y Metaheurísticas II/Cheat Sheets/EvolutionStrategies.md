@@ -83,12 +83,12 @@ and $c$ is the range $0.817≤c≤1$
 </td><td>
 
 <p align="center">
-        <img width="80%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ES_oneStepSize"> </img>
+        <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ES_oneStepSize.png"> </img>
 
 In this case, the mutation will be performed as follows:
 </p>
 <p align="center">
-        <img width="80%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ES_mutation_onestep"> </img>
+        <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ES_mutation_onestep.png"> </img>
 </p>
 
 </td><tr>
