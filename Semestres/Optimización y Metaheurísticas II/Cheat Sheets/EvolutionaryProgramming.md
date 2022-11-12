@@ -59,9 +59,9 @@ Given two equations, balance them.
 
 </td><td>
 
-### <u> _[Sinusoidal Problem](https://github.com/saracarolina12/IA_School/tree/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Evolutionary%20Computation/EvolutionaryProgramming/Balancer)_ </u>
+### <u> _[Sinusoidal Problem](https://github.com/saracarolina12/IA_School/tree/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Evolutionary%20Computation/EvolutionaryProgramming/SinusoidalProblem)_ </u>
 
-Try to approach to the given sin.
+Try to approach the given sin.
 
 
 </td><tr>

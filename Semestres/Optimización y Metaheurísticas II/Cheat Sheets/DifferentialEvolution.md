@@ -3,6 +3,7 @@ _by Stom and Price 1995_
 
 ## **Characteristics**
 • Solves continuous multidimensional optimization problems.
+
 • The mutation operator uses 3 individuals instead of 2.
 
 ## **Applications**
@@ -36,9 +37,9 @@ Given two equations, balance them.
 
 </td><td>
 
-### <u> _[Sinusoidal Problem](https://github.com/saracarolina12/IA_School/tree/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Evolutionary%20Computation/EvolutionaryProgramming/Balancer)_ </u>
+### <u> _[Sinusoidal Problem](https://github.com/saracarolina12/IA_School/tree/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Evolutionary%20Computation/EvolutionaryProgramming/SinusoidalProblem)_ </u>
 
-Try to approach to the given sin.
+Try to approach the given sin.
 
 
 </td><tr>
@@ -69,4 +70,15 @@ Calculate each k of i-th individual as follows:
 
 <p align="center">
     <img width="20%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/DIF_repre_calc.png"> </img>
+</p>
+
+where $0<=r<=1$
+
+## **Mutation**
+
+1. Randomly select 3 individuals ($x^{r1}, x^{r2},x^{r3}$).
+
+2. The new vector $v^i$  will be as follows:
+<p align="center">
+    <img width="25%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/DIF_mut.png"> </img>
 </p>
