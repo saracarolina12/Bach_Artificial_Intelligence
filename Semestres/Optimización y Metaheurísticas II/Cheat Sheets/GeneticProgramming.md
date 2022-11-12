@@ -21,7 +21,7 @@ _by John Koza 1990_
 <table><tr><td>
 
 <p align="center">
-<img width="60%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_appl.png"> </img>    
+<img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_appl.png"> </img>    
 </p>
 
 </td><td>
@@ -68,7 +68,7 @@ Depends on the problem we are trying to solve.
 For example, in *Supervised Learning Problems* we need to find an individual whose function matches inputs with outputs. In this case, the fitness function must measure how similar the individual outputs are to the real outputs.
 
 <p align="center">
-<img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_fit.png"> </img>    
+<img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_fit.png"> </img>    
 </p>
 
 
@@ -123,7 +123,7 @@ For example, in *Supervised Learning Problems* we need to find an individual who
 The classical crossover consists of randomly selecting a crossover point in each parent, take the subtree from the selected point of the second parent and replace the first's parent selected node with it.
 
 <p align="center">
-<img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_crossover.png"> </img>    
+<img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_crossover.png"> </img>    
 </p>
 
 
@@ -131,7 +131,7 @@ The classical crossover consists of randomly selecting a crossover point in each
 _Subtree Mutation_: Randomly select a mutation point and substitute the subtree of it with another randomly generated.
 
 <p align="center">
-<img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_mut.png"> </img>    
+<img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_mut.png"> </img>    
 </p>
 
 
