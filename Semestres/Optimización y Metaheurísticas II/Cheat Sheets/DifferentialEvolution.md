@@ -98,7 +98,7 @@ where $0<=r<=1$
 
 ## **Crossover**
 Used to combine the original vector $x^i$ with the new one $v^i$ to create another one $u^i$.
-<p align="center"><img width="55%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/DIF_cross.png"><img></p> 
+<p align="center"><img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/DIF_cross.png"><img></p> 
 
 
 <table>
