@@ -114,3 +114,33 @@ Used to combine the original vector $x^i$ with the new one $v^i$ to create anoth
         </tr>
     </tbody>
 </table>
+
+## **Selection**
+[Tournament Selection](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/GeneticAlgorithms.md#selection-of-parents) The best individual is considered in the next generation.
+
+---
+## **Pseudocode**
+
+    Parameters:
+        N: population size
+        G: max num of generations
+        Cr: crossover probability
+    Return: the best individual
+
+    Begin
+        Create the initial population of N individuals
+        Calculate population fitness
+        While numGen < G || haven't found a good solution.
+            For each individual in x:
+                Mutation: Create a new individual (𝑣𝑖 )
+                Crossover: combine the individuals 𝑥𝑖 , 𝑣𝑖 ⟶ 𝑢𝑖
+                Calculate the fitness of 𝑢𝑖
+                Selection: select the best individual between 𝑥𝑖 = best(𝑥𝑖,𝑢𝑖)
+            End for
+        End While
+    End
+
+    Return the best individual
+---
+
+#### _By Sara Carolina_
