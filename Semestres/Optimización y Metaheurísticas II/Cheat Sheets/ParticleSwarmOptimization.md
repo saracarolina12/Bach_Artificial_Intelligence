@@ -34,7 +34,7 @@ where:
 
 •  $w,c_1, c_2$ are hyper parameters. We can initialize them at 0.9 and gradually reduce them to 0.1
 
-
+---
 ## **Pseudocode**
     Parameters:
         N: number of particles
@@ -64,6 +64,8 @@ where:
     End
 
     Return 𝐺𝑏𝑒𝑠𝑡
+---
 
+#### _by Sara Carolina_
 
 
