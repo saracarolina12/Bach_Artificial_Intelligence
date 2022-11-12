@@ -11,7 +11,7 @@ _by Stom and Price 1995_
 <table><tr><td>
 
 <p align="center">
-<img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/EP_prob_balancer.png"> </img>
+<img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/EP_prob_balancer.png"> </img>
 
         
 </p>
@@ -29,7 +29,7 @@ Given two equations, balance them.
 
 <tr><td>
 <p align="center">
-<img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/EP_prob_sinusoidal.png"> </img>
+<img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/EP_prob_sinusoidal.png"> </img>
 
         
 </p>
@@ -46,7 +46,7 @@ Try to approach to the given sin.
 <tr><td>
 
 <p align="center">
-        <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/DIF_apl.png"> </img>
+        <img width="80%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/DIF_appl.png"> </img>
 </p>
 
 </td><td>
@@ -62,11 +62,11 @@ Given an image, this project tries to make a similar one by drawing a bunch of c
 ## **Representation**
 Individuals are represented as vectors.
 <p align="center">
-    <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/DIF_repre.png"> </img>
+    <img width="20%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/DIF_repre.png"> </img>
 </p>
 
 Calculate each k of i-th individual as follows:
 
 <p align="center">
-    <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/DIF_repre_calc.png"> </img>
+    <img width="20%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/DIF_repre_calc.png"> </img>
 </p>
