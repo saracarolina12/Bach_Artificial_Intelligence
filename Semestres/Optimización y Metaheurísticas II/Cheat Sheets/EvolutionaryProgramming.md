@@ -82,5 +82,43 @@ The specie's position $\vec{x}_i$ is modified by adding up a random number as fo
 <p align="center">
     <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/EP_mutation.png"> </img>
 
-where $a$
+where $a\approx 0.2$
 </p>
+
+## **Crossover**
+Does not apply. He have species not individuals.
+
+## **Parent Selection**
+Does not apply.  
+
+## **Parent Selection**
+<p align="center">
+
+$(\mu+\mu)$
+
+</p>
+
+1. Each specie generates another by mutation. 
+2. From the set of all the species, the $\mu$ best are deterministically selected to be part of the new generation.
+
+---
+## **Pseudocode**
+    Parameters:
+        μ: population size
+        G: max number of generations.
+    Return: the elite individual
+
+    Begin
+        Create the iniatl population
+        Calculate the population fitness
+        Get the elite
+        While numGen < G || haven't find solution:
+            Mutation of all species.
+            Calculate the population fitness
+            Survivor selection
+            Get the elite or include the elite in the population
+        End while
+    End
+---
+
+#### _by Sara_
