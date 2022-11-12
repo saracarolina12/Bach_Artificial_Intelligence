@@ -50,7 +50,7 @@ Place 8 queens on the 8x8 board without letting them to attack each other in dia
 
 </td><td>
 
-### <u> _[Sudoku](https://www.researchgate.net/publication/311250094/figure/fig1/AS:550057118101504@1508155244101/A-Sudoku-with-17-clues-and-its-unique-solution.png)_ </u>
+### <u> _[Sudoku](https://github.com/saracarolina12/IA_School/tree/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Evolutionary%20Computation/Genetic%20Algorithms/sudoku)_ </u>
 Must solve the traditional 9x9 sudoku.
 </td><tr>
 
