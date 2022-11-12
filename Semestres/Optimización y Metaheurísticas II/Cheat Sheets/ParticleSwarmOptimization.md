@@ -13,7 +13,7 @@ In the time $t$, each particle has the position $x^i(t)\inℝ^d$ and a velocity 
 
 
 <p align="center">
-<img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/PSO_repr.png"> </img>    
+<img width="25%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/PSO_repr.png"> </img>    
 </p>
 
 ## **How it works**
