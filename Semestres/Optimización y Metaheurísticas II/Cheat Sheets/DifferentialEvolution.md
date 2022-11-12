@@ -76,11 +76,6 @@ where $0<=r<=1$
 
 ## **Mutation**
 
-
-
-
-
-
 <table>
     <tbody>
         <tr>
@@ -96,6 +91,25 @@ where $0<=r<=1$
             </td>
             <td rowspan=1>
                  <p align="center"><img width="55%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/DIF_mut2.png"><img></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+## **Crossover**
+Used to combine the original vector $x^i$ with the new one $v^i$ to create another one $u^i$.
+<p align="center"><img width="55%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/DIF_cross.png"><img></p> 
+
+
+<table>
+    <tbody>
+        <tr>
+            <td rowspan=1>
+                For each element of 𝑢, randomly select a value between <b>v</b> or <b>u</b>. </br>
+                If a random number between 0 and 1 < Cr, take the value from <b>v</b>
+            </td>
+            <td rowspan=1>
+                 <p align="center"><img width="55%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/DIF_cross_2.png"><img></p>
             </td>
         </tr>
     </tbody>
