@@ -91,7 +91,7 @@ For example, in *Supervised Learning Problems* we need to find an individual who
         <tr>
             <td rowspan=1><p align="center">
                     Grow</br>
-                    <img width="60%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_popFull.png"> </img>    
+                    <img width="60%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_popGrow.png"> </img>    
                 </p></td>
             <td rowspan=1>
                 Each node randomly selects an element from the function set F or the terminal set T
