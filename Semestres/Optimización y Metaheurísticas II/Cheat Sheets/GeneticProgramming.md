@@ -113,3 +113,15 @@ For example, in *Supervised Learning Problems* we need to find an individual who
         </tr>
     </tbody>
 </table>
+
+
+## **Selection**
+[Tournament Selection](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/GeneticAlgorithms.md#selection-of-parents) is commonly used. 
+
+
+## **Crossover**
+The classical crossover consists of randomly selecting a crossover point in each parent, take the subtree from the selected point of the second parent and replace the first's parent selected node with it.
+
+<p align="center">
+<img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_crossover.png"> </img>    
+</p>
