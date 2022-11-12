@@ -21,7 +21,7 @@ _by John Koza 1990_
 <table><tr><td>
 
 <p align="center">
-<img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_appl.png"> </img>    
+<img width="60%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_appl.png"> </img>    
 </p>
 
 </td><td>
@@ -80,7 +80,7 @@ For example, in *Supervised Learning Problems* we need to find an individual who
             <td rowspan=1>
                 <p align="center">
                     Full</br>
-                    <img width="60%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_popFull.png"> </img>    
+                    <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_popFull.png"> </img>    
                 </p>
             </td>
             <td rowspan=1>
@@ -91,7 +91,7 @@ For example, in *Supervised Learning Problems* we need to find an individual who
         <tr>
             <td rowspan=1><p align="center">
                     Grow</br>
-                    <img width="60%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_popGrow.png"> </img>    
+                    <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_popGrow.png"> </img>    
                 </p></td>
             <td rowspan=1>
                 Each node randomly selects an element from the function set F or the terminal set T
@@ -123,7 +123,7 @@ For example, in *Supervised Learning Problems* we need to find an individual who
 The classical crossover consists of randomly selecting a crossover point in each parent, take the subtree from the selected point of the second parent and replace the first's parent selected node with it.
 
 <p align="center">
-<img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_crossover.png"> </img>    
+<img width="25%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_crossover.png"> </img>    
 </p>
 
 
@@ -131,7 +131,7 @@ The classical crossover consists of randomly selecting a crossover point in each
 _Subtree Mutation_: Randomly select a mutation point and substitute the subtree of it with another randomly generated.
 
 <p align="center">
-<img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_mut.png"> </img>    
+<img width="25%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_mut.png"> </img>    
 </p>
 
 
