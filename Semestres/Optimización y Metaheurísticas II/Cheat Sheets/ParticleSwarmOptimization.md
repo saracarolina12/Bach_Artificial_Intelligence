@@ -9,7 +9,7 @@ _by Kennedy and Eberhart 1995_
 ## **Representation**
 Represented by a vector where each element (particle) acts for a solution of the problem. 
 
-In the time $t$, each particle has the position $x^i(t) \in \reals^d$ and a velocity $v^i\in\reals^d$.
+In the time $t$, each particle has the position $x^i(t)\inℝ^d$ and a velocity $v^i\inℝ^d$.
 
 
 <p align="center">
