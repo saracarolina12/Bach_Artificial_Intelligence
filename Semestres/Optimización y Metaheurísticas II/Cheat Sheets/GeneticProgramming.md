@@ -68,5 +68,46 @@ Depends on the problem we are trying to solve.
 For example, in *Supervised Learning Problems* we need to find an individual whose function matches inputs with outputs. In this case, the fitness function must measure how similar the individual outputs are to the real outputs.
 
 <p align="center">
-<img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_appl.png"> </img>    
+<img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_fit.png"> </img>    
 </p>
+
+
+## **Initial Population**
+
+<table>
+    <tbody>
+        <tr>
+            <td rowspan=1>
+                <p align="center">
+                    Full</br>
+                    <img width="60%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_popFull.png"> </img>    
+                </p>
+            </td>
+            <td rowspan=1>
+                <p>Randomly create the trees.</p>
+                <p>All the leaves have the same depth.</p>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan=1><p align="center">
+                    Grow</br>
+                    <img width="60%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_popFull.png"> </img>    
+                </p></td>
+            <td rowspan=1>
+                Each node randomly selects an element from the function set F or the terminal set T
+            </td>
+        </tr>
+         <tr>
+            <td rowspan=1>Ramped half-and-half
+            <p align="center">
+                <img width="60%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_popFull.png"> </img>    
+                +
+                <img width="60%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_popGrow.png"> </img>    
+            </p>
+            </td>
+            <td rowspan=1>
+                <p>Half of the population is created with the <b>full</b>technique and the other half with <b>grow</b>.</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
