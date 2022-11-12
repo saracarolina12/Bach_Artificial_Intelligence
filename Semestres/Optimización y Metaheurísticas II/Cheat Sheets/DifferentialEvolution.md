@@ -76,9 +76,27 @@ where $0<=r<=1$
 
 ## **Mutation**
 
-1. Randomly select 3 individuals ($x^{r1}, x^{r2},x^{r3}$).
 
-2. The new vector $v^i$  will be as follows:
-<p align="center">
-    <img width="25%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/DIF_mut.png"> </img>
-</p>
+
+
+
+
+<table>
+    <tbody>
+        <tr>
+            <td rowspan=1>
+                1. Randomly select 3 individuals (𝑥1, 𝑥2, 𝑥3)
+                 <p align="center"><img width="55%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/DIF_mut.png"><img></p>
+                 2. The new vector will be as follows:
+                <p align="center">
+                    <img width="55%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/DIF_mut.png"> </img>
+                    </br>
+                    <i>Where 0<=𝐹<=2</i>
+                </p>
+            </td>
+            <td rowspan=1>
+                 <p align="center"><img width="55%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/DIF_mut2.png"><img></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
