@@ -125,3 +125,38 @@ The classical crossover consists of randomly selecting a crossover point in each
 <p align="center">
 <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_crossover.png"> </img>    
 </p>
+
+
+## **Mutation**
+_Subtree Mutation_: Randomly select a mutation point and substitute the subtree of it with another randomly generated.
+
+<p align="center">
+<img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_mut.png"> </img>    
+</p>
+
+
+---
+## **Pseudocode**
+    Create an initial population P of programs
+    Calculate the fitness of all programs in P-
+    best, best_fitness <- The best program of P and its fitness
+    
+    While !termination_criterion_reached:
+        p1, p2 <- two programs selected from P based on fitness
+        new <- result of applying crossover(p1,p2) and mutation(p1,p2)
+        old <- program chosen from P using negative selection (remove the worst element)
+        Remove "old" from P
+        Add "new" to P
+        new_fit <- the fitness of "new"
+        if(new_fit > best_fitness):
+            best <- new
+            best_fitness <- new_fit
+        End
+    End While
+
+    Return best
+
+---
+
+#### _by Sara Carolina_
+
