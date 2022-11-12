@@ -100,12 +100,12 @@ For example, in *Supervised Learning Problems* we need to find an individual who
          <tr>
             <td rowspan=1>
             <p align="center">
-            Ramped half-and-half</br>   
+            <h3>Ramped half-and-half</h3></br> 
                 <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_popFull.png"></img>    
                 +
                 <img width="25%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/GP_popGrow.png"> </img>    
                 </br>
-                <h4><i>Full & Grow</i></h4>
+                <i>Full & Grow</i>
             </p>
             </td>
             <td rowspan=1>
