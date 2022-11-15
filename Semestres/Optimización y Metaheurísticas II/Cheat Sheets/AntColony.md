@@ -36,7 +36,7 @@ Calculate the shortest path between two cities.
 ##  **Representations**
 The solution is represented with graphs.
 <p align="center">
-        <img width="13%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ants_solution.png"> </img>
+        <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ants.gif"> </img>
 </p>
 
 
@@ -61,10 +61,32 @@ $\alpha$ and $\beta$ control the importance of the pheromone vs the heuristic in
 </td><tr>
 </table>
 
+
+## **Update Pheromones**
+Give more weight (pheromones) to the shortest path.
+<p align="center">
+    <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ants_update.png"> </img>
+</p>
+
+## **Evaporate Pheromones**
+When ants stop going through a specific path, gradually evaporate it.
+<p align="center">
+    <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ants_evaporate.png"> </img>
+</p>
+
+
 ---
 ## **Pseudocode**
-    
+    • First of all:
+        Initialize pheromones with a small value
 
+    • Move the ants one by one:
+        - Use the previous equation and start moving the ants around the graph (node by 
+        node).
+    
+    • When all the ants record the graph:
+        - Update pheromones 
+        - Evaporate pheromones
 ---
 
 #### _By Sara Carolina_
