@@ -45,7 +45,7 @@ The solution is represented with graphs.
 
 <table><tr><td>
     <p align="center">
-        <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ants_nextnode.png"> </img>
+        <img width="60%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ants_nextnode.png"> </img>
     </p>
 
 
