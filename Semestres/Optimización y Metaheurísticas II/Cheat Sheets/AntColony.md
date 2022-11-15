@@ -36,7 +36,7 @@ Calculate the shortest path between two cities.
 ##  **Representations**
 The solution is represented with graphs.
 <p align="center">
-        <img width="10%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ants_solution.png"> </img>
+        <img width="20%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ants_solution.png"> </img>
 </p>
 
 
