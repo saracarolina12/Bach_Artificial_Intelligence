@@ -23,21 +23,45 @@ Pheromones are organic chemical compounds secreted by the ants so that members o
 ##  **Applications**
 
 <table><tr><td>
-
-<p align="center">
-<img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ants_appl.png"> </img>
-
-        
-</p>
-
+    <p align="center">
+        <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ants_appl.png"> </img>
+    </p>
 </td><td>
 
-### <u> _[Traveling Salesman](https://github.com/saracarolina12/IA_School/blob/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Evolutionary%20Computation/Genetic%20Algorithms/TravelerSalesman/TravelerSalesman.ipynb)_ </u>
-Calculate the path (without repeating nodes) that a salesperson must follow in order to minimize the distance by ending in the same start node . 
-
-</td><tr
-
-
-
+### _[Find short paths]()_
+Calculate the shortest path between two cities.
+</td><tr>
 </table>
 
+##  **Representations**
+The solution is represented with graphs.
+<p align="center">
+        <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ants_solution.png"> </img>
+</p>
+
+
+## **Selecting the next node**
+
+
+<table><tr><td>
+    <p align="center">
+        <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ants_nextnode.png"> </img>
+    </p>
+
+$\alpha$ and $\beta$ control the importance of the pheromone vs the heuristic information. 
+</td><td>
+
+<p align="center">
+    <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/ants_formula.png"> </img>
+</p>
+Calculate the shortest path between two cities.
+</td><tr>
+</table>
+
+---
+## **Pseudocode**
+    
+
+---
+
+#### _By Sara Carolina_
