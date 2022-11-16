@@ -6,4 +6,4 @@ _CIMAT, Guanajuato, Gto. 2022_
 ## Machine Learning
 ### • [Machine Learning Introduction](https://github.com/saracarolina12/IA_School/blob/master/MUFRAMEX/MachineLearning/Introduction_ML.md)
 
-### • [Graphic Tools](https://github.com/saracarolina12/IA_School/blob/master/MUFRAMEX/MachineLearning/SomeGraphicsTools.md)
+### • [Graphic Tools](https://github.com/saracarolina12/IA_School/blob/master/MUFRAMEX/MachineLearning/GraphicsTools.md)

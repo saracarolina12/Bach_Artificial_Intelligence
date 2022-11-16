@@ -12,7 +12,7 @@ _Johan Van Horebeek_
 
 ### _<u>Application example</u>_
 Classify flower types
- <p align="center">
+<p align="center">
         <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/setosa.png"> </img>
 </p>
 
