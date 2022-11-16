@@ -14,8 +14,7 @@ Infographics give more information than graphics.
 
 
 ## **Visualization is not (only) engineering**
-
-- Scatter plot
+From 2 to higher dimensions use set of plots and try to find correlation between them.
 
 
 <table><tr><td>
@@ -23,9 +22,21 @@ Infographics give more information than graphics.
 ### _[Scatter Plot]()_
 
 </td><td>
-    <!-- <p align="center"> -->
-        <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/scatter_plot.png"> </img>
-    <!-- </p> -->
+    <p align="center">
+        <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/scatter_plot.png"> </img>
+    </p>
+
+</td><tr>
+<tr><td>
+
+### _[Box Plot]()_
+Try to draw some lines where the points are.
+
+</td><td>
+    <p align="center">
+        <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/box_plot.png"> </img>
+    </p>
 
 </td><tr>
 </table>
+
