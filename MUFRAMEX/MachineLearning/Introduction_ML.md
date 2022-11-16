@@ -97,3 +97,22 @@ Instead of summing over all data, take subsamples: _stochastic gradient method_.
 <p align="center">
     <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/3_excel.png"> </img>
 </p>
+
+Need for (implicit) dimension reduction to an informative (latent) space.
+
+[insert img neural networks]
+
+
+## **4. Challenges**
+_according to M. Jordan_
+
+1. __Uncertainty:__ How to calibrate confidence.
+2. __Robustness and adversaries:__ persons are not detected if a piece of paper is interrupting the image.
+3. __Biases and fairness:__ If your dataset does not represent the population, mistakes can be made.
+4. __Explainability and interpretability:__
+
+
+## **5. Final note**
+    Prediction is difficult but enthusiasm is important...too
+
+
