@@ -92,7 +92,7 @@ Shows better the intensity of each variable.
 
 ### Think  more
 - #### **_Dimension Reduction Techniques_**
-    principal component analysis
+    Principal component analysis
     _(e.g what if I rotate a plane and see if it works better?)_
 
 ### Think  less
@@ -102,7 +102,7 @@ Shows better the intensity of each variable.
 ## **Special cases**
 
 
-### Discrete Data
+### _Discrete Data_
 <table><tr><td>
 
 ### _[Jitter Plot]()_
