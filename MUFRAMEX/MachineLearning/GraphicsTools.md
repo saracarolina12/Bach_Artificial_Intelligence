@@ -14,8 +14,11 @@ Infographics give more information than graphics.
 
 
 ## **Visualization is not (only) engineering**
-From 2 to higher dimensions use set of plots and try to find correlation between them.
 
+Sometimes numbers are not enough.
+<p align="center">
+        <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/EquivalentGraphics.jpeg"> </img>
+</p>
 
 <table><tr><td>
 
@@ -35,6 +38,32 @@ Try to draw some lines where the points are.
 </td><td>
     <p align="center">
         <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/box_plot.png"> </img>
+    </p>
+
+</td><tr>
+</table>
+
+
+From 2 to higher dimensions use set of plots and try to find correlation between them.
+
+<table><tr><td>
+
+### _[Parallel Cordinate Plot]()_
+
+</td><td>
+    <p align="center">
+        <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/parallel_plot.png"> </img>
+    </p>
+
+</td><tr>
+<tr><td>
+
+### _[Radar Plot]()_
+Try to draw some lines where the points are.
+
+</td><td>
+    <p align="center">
+        <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/radarplot.png"> </img>
     </p>
 
 </td><tr>
