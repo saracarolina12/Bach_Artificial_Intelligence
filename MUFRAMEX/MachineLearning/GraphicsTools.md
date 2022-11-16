@@ -17,7 +17,7 @@ Infographics give more information than graphics.
 
 Sometimes numbers are not enough.
 <p align="center">
-        <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/EquivalentGraphics.jpeg"> </img>
+        <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/EquivalentGraphics.jpeg"> </img>
 </p>
 
 <table><tr><td>
@@ -46,13 +46,15 @@ Try to draw some lines where the points are.
 
 From 2 to higher dimensions use set of plots and try to find correlation between them.
 
+    If you want your variables be dependent, make them neighbors. Otherwise, separate them.
+
 <table><tr><td>
 
-### _[Parallel Cordinate Plot]()_
+### _[Parallel Cordinate Plot]()
 
 </td><td>
     <p align="center">
-        <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/parallel_plot.png"> </img>
+        <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/parallel_plot.png"> </img>
     </p>
 
 </td><tr>
