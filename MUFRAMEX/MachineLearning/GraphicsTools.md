@@ -17,7 +17,7 @@ Infographics give more information than graphics.
 
 Sometimes numbers are not enough.
 <p align="center">
-        <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/EquivalentGraphics.jpeg"> </img>
+        <img width="35%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/EquivalentGraphics.jpeg"> </img>
 </p>
 
 <table><tr><td>
@@ -50,7 +50,7 @@ From 2 to higher dimensions use set of plots and try to find correlation between
 
 <table><tr><td>
 
-### _[Parallel Cordinate Plot]()
+### _[Parallel Cordinate Plot](https://syntagmatic.github.io/parallel-coordinates/)_
 
 </td><td>
     <p align="center">
