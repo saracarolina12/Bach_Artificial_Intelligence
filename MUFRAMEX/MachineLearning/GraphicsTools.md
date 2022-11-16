@@ -110,7 +110,7 @@ Shows better the intensity of each variable.
 
 </td><td>
     <p align="center">
-        <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/jitter.png"> </img>
+        <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/jitter.png"> </img>
     </p>
 
 </td><tr>
