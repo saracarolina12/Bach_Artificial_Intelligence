@@ -23,9 +23,9 @@ Infographics give more information than graphics.
 ### _[Scatter Plot]()_
 
 </td><td>
-    <p align="center">
+    <!-- <p align="center"> -->
         <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/scatter_plot.png"> </img>
-    </p>
+    <!-- </p> -->
 
 </td><tr>
 </table>
