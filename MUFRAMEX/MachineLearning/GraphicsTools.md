@@ -24,7 +24,7 @@ Infographics give more information than graphics.
 
 </td><td>
     <p align="center">
-        <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/scatter.png"> </img>
+        <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/scatter_plot.png"> </img>
     </p>
 
 </td><tr>
