@@ -21,6 +21,8 @@ Sometimes numbers are not enough.
         <p align="center">Same correlation, different images</p>
 </p>
 
+## **Types of plots**
+
 <table><tr><td>
 
 ### _[Scatter Plot]()_
@@ -101,7 +103,7 @@ Shows better the intensity of each variable.
 ### Discrete Data
 <table><tr><td>
 
-### _[Jitter]()_
+### _[Jitter Plot]()_
 Shows better the intensity of each variable.
 
 </td><td>
