@@ -1,5 +1,6 @@
 # Machine Learning and other stories
 _Johan Van Horebeek_
+    "ML is about solving an optimization problem of a not (completely) known function"
 
 ### Books
 • Regression and other Stories - Andrew Gelman, Jennifer Hill and Aki Vehtari
@@ -38,7 +39,6 @@ $$f(x) = \sum_k\alpha_kx_k$$
 </p>
 
 ### _<u>Errors and errors</u>_
-    ML is about solving an optimization problem of a not (completely) known function.
 Work arounds:
 Add terms to reflect apriori knowledge, use probabilistic upperbounds, split data in train and test.
 
