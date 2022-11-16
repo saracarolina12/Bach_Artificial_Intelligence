@@ -8,10 +8,10 @@ _Johan Van Horebeek_
 ## 1. Introduction
 **Machine Learning:** systems that learn to solve a problem from data and experience.
 
-### Application example
+### _<u>Application example</u>_
 Classify flower types
  <p align="center">
-        <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/setosa.png"> </img>
+        <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/setosa.png"> </img>
 </p>
 
 • Calculate discriminator
@@ -21,7 +21,7 @@ $$f(x) = \sum_k\alpha_kx_k$$
 
 </p>
 
-### Notation and terminology:
+### _<u>Notation and terminology:</u>_
 <p>
 
 -$X:$ predictors
@@ -37,7 +37,8 @@ $$f(x) = \sum_k\alpha_kx_k$$
 
 </p>
 
-### Errors and errors
+### _<u>Errors and errors</u>_
+    ML is about solving an optimization problem of a not (completely) known function.
 Work arounds:
 Add terms to reflect apriori knowledge, use probabilistic upperbounds, split data in train and test.
 
