@@ -109,7 +109,7 @@ _according to M. Jordan_
 1. __Uncertainty:__ How to calibrate confidence.
 2. __Robustness and adversaries:__ persons are not detected if a piece of paper is interrupting the image.
 3. __Biases and fairness:__ If your dataset does not represent the population, mistakes can be made.
-4. __Explainability and interpretability:__
+4. __Explainability and interpretability:__ Using perturbation methods can tell the importance or not importance of a method.
 
 
 ## **5. Final note**
