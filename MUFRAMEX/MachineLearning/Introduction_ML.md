@@ -11,8 +11,8 @@ _Johan Van Horebeek_
 ### Application example
 Classify flower types
  <p align="center">
-        <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/setosa.png"> </img>
-    </p>
+        <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/setosa.png"> </img>
+</p>
 
 • Calculate discriminator
 <p align="center">
@@ -40,3 +40,15 @@ $$f(x) = \sum_k\alpha_kx_k$$
 ### Errors and errors
 Work arounds:
 Add terms to reflect apriori knowledge, use probabilistic upperbounds, split data in train and test.
+
+
+### 2. Examples of Ygorrito(x)
+**Nearest neighbour and k-NN**
+Given x, look at $N_k(x)$ the set of the $k$ closest observations to $x$.
+
+_Classification:_ decide by voting, assign $x$ to the most frequent class in ${y_i, i \in} N_k(x)$
+_Regression:_ decide by averaging. Calculate avg of ${y_i, i \in N_k(x)}$
+
+ <p align="center">
+        <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/2_examples.png"> </img>
+    </p>
