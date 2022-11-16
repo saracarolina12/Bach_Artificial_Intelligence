@@ -70,9 +70,24 @@ Take as input of a base function (neuron) the output of other base functions (ne
 
 Denote function associated with neuron $i$ as $$F(\beta_{i,0}+\sum{_j}\beta_{i,j}x_j)$$
 
-If we change the $\beta$ value of
+If we change the $\beta$ value of the yellow input, this will actually affect the red output.
+$g(z)=g_1(g_2(z)),\frac{dg(z)}{gz}=\frac{dg_1(y)}{dy}\frac{dg_2(z)}{dz}$ with $dg_1(y){dy}$
+
 <p align="center">
     <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/2_neural_networks.png"> </img>
 </p>
 
 Instead of summing over all data, take subsamples: _stochastic gradient method_.
+
+
+## **3. Data and Data**
+• From vector based to object based
+<p align="center">
+    <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/3_book.jpg"> </img>
+</p>
+
+• From tall to wide data
+
+<p align="center">
+    <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/excel.png"> </img>
+</p>
