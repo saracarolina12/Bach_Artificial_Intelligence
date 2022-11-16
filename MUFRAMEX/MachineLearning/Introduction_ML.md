@@ -1,5 +1,6 @@
 # Machine Learning and other stories
 _Johan Van Horebeek_
+    
     "ML is about solving an optimization problem of a not (completely) known function"
 
 ### Books
@@ -32,7 +33,7 @@ $$f(x) = \sum_k\alpha_kx_k$$
 • regression: $Y\in R$ </br>
 • classification: $Y$ is label
 
--$Yhead:$ prediction
+-$\hat{Y}:$ prediction
 
 -$L(.,.):$ Loss function
 
@@ -43,7 +44,7 @@ Work arounds:
 Add terms to reflect apriori knowledge, use probabilistic upperbounds, split data in train and test.
 
 
-### **2. Examples of Ygorrito(x)**
+### **2. Examples of $\hat{Y}(x)$**
 _Nearest neighbour and k-NN_
 Given x, look at $N_k(x)$ the set of the $k$ closest observations to $x$.
 
@@ -51,6 +52,24 @@ Given x, look at $N_k(x)$ the set of the $k$ closest observations to $x$.
 
 • _Regression:_ decide by averaging. Calculate avg of ${y_i, i \in N_k(x)}$
 
- <p align="center">
+<p align="center">
     <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/2_examples.png"> </img>
+</p>
+
+#### **Regression Model**
+• _Linear model:_ Parameter estimation by maximum the likelihood.
+
+
+#### **Neural network**
+    A single neuron may not do a lot, by many neurons together might do great things.
+_Step 1: The base function(=simple function)_
+
+
+_Step 2: Composition of base functions_
+Take as input of a base function (neuron) the output of other base functions (neurons)
+
+Denote function associated with neuron $i$ as $$F(\beta_{i,0} + \sum{_j}\beta_{i,j}x_j)$$
+
+<p align="center">
+    <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/2_neural_networks.png"> </img>
 </p>
