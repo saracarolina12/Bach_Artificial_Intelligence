@@ -51,5 +51,5 @@ _Classification:_ decide by voting, assign $x$ to the most frequent class in ${y
 _Regression:_ decide by averaging. Calculate avg of ${y_i, i \in N_k(x)}$
 
  <p align="center">
-        <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/2_examples.png"> </img>
+        <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/2_examples.png"> </img>
     </p>
