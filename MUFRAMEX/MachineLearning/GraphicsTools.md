@@ -21,6 +21,8 @@ Sometimes numbers are not enough.
         <p align="center">Same correlation, different images</p>
 </p>
 
+----
+
 ## **Types of plots**
 
 <table><tr><td>
