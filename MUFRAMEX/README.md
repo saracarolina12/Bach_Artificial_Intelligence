@@ -3,4 +3,4 @@
 _CIMAT, Guanajuato, Gto. 2022_
 
 
-### [Machine Learning](https://github.com/saracarolina12/IA_School/blob/master/Semestres/MUFRAMEX/MachineLearning/Introduction_ML.md)
+### [Machine Learning](https://github.com/saracarolina12/IA_School/blob/master/MUFRAMEX/MachineLearning/Introduction_ML.md)
