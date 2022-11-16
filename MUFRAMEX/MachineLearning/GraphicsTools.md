@@ -16,6 +16,16 @@ Infographics give more information than graphics.
 ## **Visualization is not (only) engineering**
 
 - Scatter plot
-<p align="center">
+
+
+<table><tr><td>
+
+### _[Scatter Plot]()_
+
+</td><td>
+    <p align="center">
         <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/scatter.png"> </img>
-</p>
+    </p>
+
+</td><tr>
+</table>
