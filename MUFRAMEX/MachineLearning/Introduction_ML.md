@@ -95,5 +95,5 @@ Instead of summing over all data, take subsamples: _stochastic gradient method_.
 • From tall to wide data
 
 <p align="center">
-    <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/excel.png"> </img>
+    <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/3_excel.png"> </img>
 </p>
