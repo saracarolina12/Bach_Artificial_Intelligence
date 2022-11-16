@@ -18,6 +18,7 @@ Infographics give more information than graphics.
 Sometimes numbers are not enough.
 <p align="center">
         <img width="35%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/EquivalentGraphics.jpeg"> </img>
+        <p align="center">Same correlation, different images</p>
 </p>
 
 <table><tr><td>
@@ -82,3 +83,31 @@ Shows better the intensity of each variable.
 </td><tr>
 </table>
 
+
+## **Alternative views**
+
+### Think  more
+- #### **_Dimension Reduction Techniques_**
+    principal component analysis
+    _(e.g what if I rotate a plane and see if it works better?)_
+
+### Think  less
+- Make it random and see what happens. 
+
+
+## **Special cases**
+
+
+### Discrete Data
+<table><tr><td>
+
+### _[Jitter]()_
+Shows better the intensity of each variable.
+
+</td><td>
+    <p align="center">
+        <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/jitter.png"> </img>
+    </p>
+
+</td><tr>
+</table>
