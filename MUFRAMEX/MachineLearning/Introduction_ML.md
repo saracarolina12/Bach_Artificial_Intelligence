@@ -68,8 +68,11 @@ _Step 1: The base function(=simple function)_
 _Step 2: Composition of base functions_
 Take as input of a base function (neuron) the output of other base functions (neurons)
 
-Denote function associated with neuron $i$ as $$F(\beta_{i,0} + \sum{_j}\beta_{i,j}x_j)$$
+Denote function associated with neuron $i$ as $$F(\beta_{i,0}+\sum{_j}\beta_{i,j}x_j)$$
 
+If we change the $\beta$ value of
 <p align="center">
     <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/2_neural_networks.png"> </img>
 </p>
+
+Instead of summing over all data, take subsamples: _stochastic gradient method_.
