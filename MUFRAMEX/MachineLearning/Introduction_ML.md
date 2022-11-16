@@ -5,8 +5,8 @@ _Johan Van Horebeek_
 • Regression and other Stories - Andrew Gelman, Jennifer Hill and Aki Vehtari
 
 
-## 1. Introduction
-**Machine Learning:** systems that learn to solve a problem from data and experience.
+## **1. Introduction**
+*Machine Learning:* systems that learn to solve a problem from data and experience.
 
 ### _<u>Application example</u>_
 Classify flower types
@@ -43,13 +43,14 @@ Work arounds:
 Add terms to reflect apriori knowledge, use probabilistic upperbounds, split data in train and test.
 
 
-### 2. Examples of Ygorrito(x)
-**Nearest neighbour and k-NN**
+### **2. Examples of Ygorrito(x)**
+_Nearest neighbour and k-NN_
 Given x, look at $N_k(x)$ the set of the $k$ closest observations to $x$.
 
-_Classification:_ decide by voting, assign $x$ to the most frequent class in ${y_i, i \in} N_k(x)$
-_Regression:_ decide by averaging. Calculate avg of ${y_i, i \in N_k(x)}$
+• _Classification:_ decide by voting, assign $x$ to the most frequent class in ${y_i, i \in} N_k(x)$
+
+• _Regression:_ decide by averaging. Calculate avg of ${y_i, i \in N_k(x)}$
 
  <p align="center">
-        <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/2_examples.png"> </img>
-    </p>
+    <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/MachineLearning/imgs/2_examples.png"> </img>
+</p>
