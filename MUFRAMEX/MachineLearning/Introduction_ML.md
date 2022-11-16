@@ -63,7 +63,13 @@ Given x, look at $N_k(x)$ the set of the $k$ closest observations to $x$.
 #### **Neural network**
     A single neuron may not do a lot, by many neurons together might do great things.
 _Step 1: The base function(=simple function)_
+We start composing functions by wrapping the notation we previously saw in the regression model ($x_i$ values multiplied by $\beta_i$).
 
+The wrapper functions can be some basic operations. Like:
+
+- Sign
+
+- Identity
 
 _Step 2: Composition of base functions_
 Take as input of a base function (neuron) the output of other base functions (neurons)
