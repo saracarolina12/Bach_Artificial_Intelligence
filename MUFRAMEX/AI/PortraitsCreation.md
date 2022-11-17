@@ -1,6 +1,8 @@
 # 👩🏽 **How to take portraits of people who do not exist?**
 _Mariano Rivera_
 
+_<u>[See more about Mariano's projects](http://personal.cimat.mx:8181/~mrivera/cursos/temas_aprendizaje.html)</u>_
+
 ## **Data Generation**
 We need to estimate the data distribution and generate samples.
 
