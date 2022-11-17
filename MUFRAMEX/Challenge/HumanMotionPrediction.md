@@ -1,9 +1,9 @@
 # 🚶🏽‍♀️ **Human Motion Prediction**
 
 <p align="center">
-    <img src=""></img>
-</p>
+    <img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/imgs/walking.gif"> </img>
 
+</p>
 
 ## **Objective**
 - Generate multiple predictions for an initial motion sequence.
