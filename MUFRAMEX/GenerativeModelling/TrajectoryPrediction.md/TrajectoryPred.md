@@ -18,3 +18,10 @@ Give the robots the ability of knowing what will happen next
 - In many situations, predictive distributions should be moltimodal.
 
 - Auto-encoders to encode the occupancy map
+
+## __Evaluation of HTP methods__
+- **Average Displacement Error (ADE):** Evaluates the error on average on the prediction horizon
+
+- **Final Displacement Error (FDE):** Evaluates the error at the last predicted point.
+
+- **Negative log-likelihood (NLL):**  Negative log-likelihood of the ground-truth data evaluated on the output distribution (obtained through KDE).
