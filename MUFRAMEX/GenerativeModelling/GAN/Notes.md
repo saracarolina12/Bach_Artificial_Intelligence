@@ -13,3 +13,6 @@ noise -> Neural Network -> gen image
 Since we are solving this problem returning a binary decision (real or fake).
 
 ## Determining the number of layers 
+For GAN, as more layers we have, the results become worst.
+
+We determine the size of layers with power of two.
