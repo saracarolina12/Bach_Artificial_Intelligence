@@ -1,7 +1,7 @@
 # 🚶🏽‍♀️ **Human Motion Prediction**
 
 <p align="center">
-    <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/Challenge/imgs/walking.gif"> </img>
+    <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/Challenge/imgs/walking.gif"> </img>
 </p>
 
 ## **Objective**
