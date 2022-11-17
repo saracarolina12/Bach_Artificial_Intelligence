@@ -73,4 +73,8 @@ Model based on triples.
 - Similar to SQL
 - Turtle syntax with "?" or "$" to mark _variables_
 
-
+## **Conclusion**
+- Ontologies help making data reusable
+- Ontologies help making some information explicit
+- Semantic weh technologies can mature and widely used.
+- Ontologies are a great solution to provide quality data for machine learning approaches.
