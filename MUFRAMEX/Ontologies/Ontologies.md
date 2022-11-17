@@ -62,3 +62,15 @@ insert info whatsapp
 ## **IRI Intenationalized Resource Identifier**
 - Unique indentification of resources on the Web.
 - Evolution of the notion of URL for internationalization.
+
+
+## **RDF**
+Model based on triples.
+
+(subject, predicate, object)
+
+## **SPARQL: triple patterns**
+- Similar to SQL
+- Turtle syntax with "?" or "$" to mark _variables_
+
+
