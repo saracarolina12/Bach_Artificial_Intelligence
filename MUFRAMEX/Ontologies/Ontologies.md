@@ -58,3 +58,7 @@ insert info whatsapp
 <p align="center">
     <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/Ontologies/imgs/SWT.png"> </img>
 </p>
+
+## **IRI Intenationalized Resource Identifier**
+- Unique indentification of resources on the Web.
+- Evolution of the notion of URL for internationalization.
