@@ -37,8 +37,24 @@ Logic models formalize common sense and reasoning mechanisms in order to study a
 
 insert info whatsapp
 
-##  Vocabularies for describing/annotating data
+##  **Vocabularies for describing/annotating data**
     How can I describe my professional Web page?
 - Ontologies define useful vocabularies to describe resources.
 
 - Ontologies are Web resources.
+
+
+## **What do we have in an ontology**
+- Labels (terms or symbols) in different languages: fog, nieba, pluie
+- Classes (notions, set of objects, event, state,...): Sensor, Location, City, Observation.
+-Relations between classes:
+    
+    - Hierarchy of classes: city is a location
+    - Properties: Sensor observes parameter
+
+-More axioms: A sensor that observes a Temperature is a Temperature Sensor.
+
+
+<p align="center">
+    <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/Ontologies/imgs/SWT.png"> </img>
+</p>
