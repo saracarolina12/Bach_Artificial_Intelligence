@@ -18,13 +18,16 @@ _Émile Mathieu_
     - Prediction of rain in the next 2 hours (nowcasting)    
     <p align="center">
         <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/GenerativeModelling/imgs/nowcasting.png"> </img>
-</p>
+    </p>
 
 - Computational Biology.
     
     - Amino-acid sequence to 3D structure
     
     - Determine the shape of the protein.
+    <p align="center">
+        <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/GenerativeModelling/imgs/protein.png"> </img>
+    </p>
 
 
 # **Variational Autoencoders**
