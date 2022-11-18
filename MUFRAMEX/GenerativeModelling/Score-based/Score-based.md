@@ -31,9 +31,11 @@ An energy-based model is a probabilistic model governed by an energy function th
 * CIFAR-10
 
 <p align="center">
-    <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/GenerativeModelling/imgs/ImageNet.png"> </img>
+    <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/GenerativeModelling/imgs/CIFAR-10.png"> </img>
 </p>
 
 * ImageNet 32x32
-
+<p align="center">
+    <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/GenerativeModelling/imgs/ImageNet.png"> </img>
+</p>
 
