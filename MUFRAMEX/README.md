@@ -17,3 +17,9 @@ _CIMAT, Guanajuato, Gto. 2022_
 
 ## Chemistry Applications
 ### • [AI-driven Peptide Design](https://github.com/saracarolina12/IA_School/blob/master/MUFRAMEX/Chemistry/AI-PeptideDesign.md)
+
+## Pytorch
+### • [Coding Tutorial](https://github.com/saracarolina12/IA_School/tree/master/MUFRAMEX/Pytorch)
+
+## Human Motion Prediction (Team Challenge)
+### • [Coding Tutorial](https://github.com/saracarolina12/IA_School/tree/master/MUFRAMEX/Challenge)
