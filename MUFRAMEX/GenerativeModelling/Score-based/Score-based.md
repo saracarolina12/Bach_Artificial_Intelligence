@@ -23,4 +23,17 @@ An energy-based model is a probabilistic model governed by an energy function th
 
 ### _Characteristics_
 - **Simplicity and stability:** EBM need to be designed and traines. Separate networks need not be trained to ensure balance.
+- **Flexibility_** In VAE and flow-based models, the generator learns a map from a continuous space to a discontinuous space containing different data modes.
+
+
+### _Experimental results_
+    An EBM model generated high-quality images relatively quickly in both examples
+* CIFAR-10
+
+<p align="center">
+    <img width="40%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/GenerativeModelling/imgs/ImageNet.png"> </img>
+</p>
+
+* ImageNet 32x32
+
 
