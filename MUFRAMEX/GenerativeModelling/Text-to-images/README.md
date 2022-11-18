@@ -7,7 +7,6 @@ Models that take text and generate images.
 
 <p align="center">
         <img width="35%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/MUFRAMEX/GenerativeModelling/imgs/astronaut.webp"> </img>
-        <p align="center">Same correlation, different images</p>
 </p>
 
 Are text-to-image models
@@ -27,3 +26,17 @@ Generate a text corresponding to an image.
 
 ## **Technical Overview: unCLIP**
 Generate an image given a text.
+
+
+## **LAION-5B**
+
+### <u>_RGPD Violations in LAION-5B_</u>
+- Your rights 
+    - Personal information published on the internet.
+- Right to confirmation
+
+
+# Github Copilot
+### AI pair programmer (generative model)
+
+#### <u>_[https://github.com/features/copilot](https://github.com/features/copilot)_</u>
