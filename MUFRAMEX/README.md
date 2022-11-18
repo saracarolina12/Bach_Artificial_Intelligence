@@ -11,8 +11,8 @@ _CIMAT, Guanajuato, Gto. 2022_
 
 ## Generative Modelling
 ### • [Code Introduction](https://github.com/saracarolina12/IA_School/blob/master/MUFRAMEX/GenerativeModelling/GAN/Notes.md)
-### • [VAEs](https://github.com/saracarolina12/IA_School/blob/master/MUFRAMEX/GenerativeModelling/VAEs/VAEs.md)
-### • [Scored-based](https://github.com/saracarolina12/IA_School/blob/master/MUFRAMEX/GenerativeModelling/Score-based.md)
+### • [VAEs](https://github.com/saracarolina12/IA_School/blob/master/MUFRAMEX/GenerativeModelling/VAEs/README.md)
+### • [Scored-based](https://github.com/saracarolina12/IA_School/blob/master/MUFRAMEX/GenerativeModelling/README.md)
 ### • [Trajectory Prediction](https://github.com/saracarolina12/IA_School/blob/master/MUFRAMEX/GenerativeModelling/TrajectoryPrediction.md/TrajectoryPred.md)
 
 ## Chemistry Applications
