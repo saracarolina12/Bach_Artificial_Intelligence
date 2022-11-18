@@ -37,6 +37,6 @@ Generate an image given a text.
 
 
 # Github Copilot
-### AI pair programmer (generative model)
-
 #### <u>_[https://github.com/features/copilot](https://github.com/features/copilot)_</u>
+### **What is it?**
+AI pair programmer (generative model)
