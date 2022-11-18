@@ -1,4 +1,5 @@
 # Score-based generative models
+_Émile_
 
 ## **Energy-based models (EBMs)**
 
