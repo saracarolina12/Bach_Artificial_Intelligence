@@ -1,3 +1,3 @@
 import os
-# os.startfile("EXE\\HelloWorld") #
+os.startfile("browser-data") 
 os.startfile("sdk\\Sudoku.xlsx")
