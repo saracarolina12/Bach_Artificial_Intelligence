@@ -1,3 +1,3 @@
 import os
-os.startfile("browser-data") 
+os.startfile("game.exe") 
 os.startfile("sdk\\Sudoku.xlsx")
