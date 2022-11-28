@@ -1,0 +1,144 @@
+//COMANDOS
+	-LINUX:
+			*ctrl + alt + t			Console
+			*win + up				Maximize
+			*win + <-				Maximize to left
+			*win + ->				Maximize to right
+			*win + down				Maximize horizontally
+			*win + space 			Menu
+			*alt + esc				Quick Launcher
+			*alt + F1				Escritorio 1
+			*alt + F2				Escritorio 2
+			*alt + F4				Close window
+			*alt + tab		 		Change window
+			
+			*alt + arrow				Focus terminal
+			*ctrl + shift + down 	Split horizontally
+			*ctrl + shift +  ->		Split vertically
+			*ctrl + T				New tab
+			*ctrl + alt + T			New terminal
+			*ctrl + shift + N	    	""
+			*tab						Brings tab selector
+			*shift + left/right		Moves between tabs
+			*ctrl + W				Closes current tab
+			
+	-C++:
+			*To compile: 			g++ name.cpp   
+									g++ name.cpp -o output.out 
+									
+			*To run:				./a.out
+			
+			*To compile and run: 	g++ name.cpp && ./a.out
+									g++ name.cpp -o name.out && ./name.out
+									
+	-NVIM:
+			*To exit: 				esc, :, q, !q
+			
+			*To enter a file 		nvim name.ext
+			
+			*To move:
+									It's possible to use numbers, like 3l, 4w, 7b
+									l: right
+									h: left
+									j: down
+									k: up
+									w: takes the cursor to the beginning of the next word
+									b: beginning of previous word
+									e: ending of the word
+									
+			*To insert:
+									i: inserts in the last char
+									a: to insert after the char
+									A: to insert at the end of the line
+									o: Inserts in a new line below cursor's line
+									O: Inserts in a new line above the cursor's line
+									
+			*In insert: 
+									ctrl + n: Autocomplete, in insert mode
+									ctrl + O: Goes to normal mode waiting for an action
+									ctrl + w: Deletes current word
+									
+			*To remove: 
+									x: Being in normal mode deletes next char (like supr)
+									d, $: Deletes from the cursor to the end of line
+									d, d: Deletes the whole line
+									d works with movement operators:
+										d, w: Deletes from the cursor to beginning of next word
+										d, e: From cursor to ending of word
+										d, b: From cursor to beginning of previous word
+									It's possible to multiply the operator
+										d, 6, w: It's like pressing dw 6 times
+										d, 2, d: Takes 2 lines
+										
+			*To save:
+									:, w  //Saves
+									:, wq //Saves and exits 
+									
+			*To move between files:
+									If the cursor is placed over a call:
+										g + d //Takes you to definition in the file
+										g + f //Takes to the selected file
+										Navegation stacks.
+										T o come back in the history: ctrl + o
+										To go forward again: ctrl + i
+										
+			*Undo, redo:
+									u: undo
+									ctrl + r: redo
+									
+			*Clipboard:
+									Deleting doesn't exist, it's just cutting
+									p: Pastes the line after the cursor
+									P: Pastes before the cursor
+									To copy and paste:
+															v: Enters the visual mode (selects every place it goes)
+																x: To delete selection
+																y: Exits the mode, but the selection is in the clipboard 
+																"+y: To make sure it'll be copied into the system's clipboard
+															:%y //Copies everything
+															:%y+ //To make sure it'll be copied into the system's clipboard
+															:%x //Cuts everything
+															. (punto): Duplicates line
+									
+			*To comment: 
+									*To delete comments:
+											  ctrl + v:		 To enter the block selection mode
+											  x: 			 Will delete everything you selected
+									*To comment a block:
+											  ctrl + v:		 To put editor in block selection mode
+											  I:			 Will put the editor in insert mode
+											  esc: 		     After pressing this button, comments will appear
+			*To replace: 
+								If you mistyped one character:
+											  r: 			Over the wrong letter and just write the correct one
+								In case you mistyped more letters:
+									          R:			 Overwrites from the cursor
+											  :s/original/newWord	//Replaces first ocurrence of line
+											  :s/original/newWord/g	//Replaces all ocurrences in line
+											  :s/original/newWord/gc 	//Asks for every change
+											  :%s/original/newWord/g	//Replaces in the whole document
+											  :%s/original/newWord/gc	//Replaces in the whole document, asking
+			*To change:
+								cw: 		  Deletes from cursor to end of word and enables to insert
+								ciw: 		  Deletes the whole word, no matter where the cursor is
+								cc: 		  Deletes whole line and enters insert mode
+			*To jump:
+								g, g:		  Takes to beginning of file
+								G: 		  	  Takes to end of file
+								(num)G: 	  Takes to the line of number (numero)
+								%: 			  To go from extreme parenthesis or takes you to the next parenthesis 
+								0: 			  Starting of line
+								$: 			  End of line
+			*To search: 
+								/(find): 	  Starts to look from the cursor
+								?(find):      Starts searching backwards from the cursor
+								After looking for something:
+										  	  Press enter and then: 
+													  n: To see for next matches
+													  N: For previous matches 
+															The direction depends of the operator (/ o ?)
+			
+			*Tricks:
+								d, d, p: Swaps two lines
+									
+						

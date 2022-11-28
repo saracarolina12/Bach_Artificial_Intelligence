@@ -6,7 +6,7 @@ _by John Holland 1970s_
 ## **Characteristics**
 • Inspired by people's DNA structure.
 
-• Solutions represented by binary arrays
+
 <p align="center">
     <img width="30%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/1.jpg"> </img>
 </p>
@@ -17,7 +17,7 @@ _by John Holland 1970s_
 <table><tr><td>
 
 <p align="center">
-<img width="50%" src="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/TravelingSalesman.jpg"> </img>
+<img width="50%" srxc="https://raw.githubusercontent.com/saracarolina12/IA_School/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Cheat%20Sheets/imgs/TravelingSalesman.jpg"> </img>
 
         
 </p>
