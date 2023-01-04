@@ -102,6 +102,7 @@ public:
 		auto d = std::find(devices.begin(), devices.end(), sOutputDevice);
 		if (d != devices.end())
 		{
+			cout << "HEEEEEEEEEEERE: " <<endl;
 			// Device is available
 			int nDeviceID = distance(devices.begin(), d);
 			WAVEFORMATEX waveFormat;
