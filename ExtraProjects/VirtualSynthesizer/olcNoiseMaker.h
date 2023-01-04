@@ -102,9 +102,9 @@ public:
 		auto d = std::find(devices.begin(), devices.end(), sOutputDevice);
 		if (d != devices.end())
 		{
-			cout << "HEEEEEEEEEEERE: " <<endl;
 			// Device is available
 			int nDeviceID = distance(devices.begin(), d);
+			
 			WAVEFORMATEX waveFormat;
 			waveFormat.wFormatTag = WAVE_FORMAT_PCM;
 			waveFormat.nSamplesPerSec = m_nSampleRate;
@@ -115,8 +115,13 @@ public:
 			waveFormat.cbSize = 0;
 
 			// Open Device if valid
-			if (waveOutOpen(&m_hwDevice, nDeviceID, &waveFormat, (DWORD_PTR)waveOutProcWrap, (DWORD_PTR)this, CALLBACK_FUNCTION) != S_OK)
+			if (waveOutOpen( & m_hwDevice, nDeviceID, &waveFormat, (DWORD_PTR)waveOutProcWrap, (DWORD_PTR)this, CALLBACK_FUNCTION) != S_OK) {
 				return Destroy();
+			}
+			else {
+				//return Destroy();
+				cout << "......................" << endl;
+			}
 		}
 
 		// Allocate Wave|Block Memory

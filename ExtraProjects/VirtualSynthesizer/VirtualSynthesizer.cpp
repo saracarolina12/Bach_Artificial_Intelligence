@@ -1,79 +1,128 @@
+/*
+	OneLoneCoder.com - Simple Audio Noisy Thing
+	"Allows you to simply listen to that waveform!" - @Javidx9
+
+	License
+	~~~~~~~
+	Copyright (C) 2018  Javidx9
+	This program comes with ABSOLUTELY NO WARRANTY.
+	This is free software, and you are welcome to redistribute it
+	under certain conditions; See license for details.
+	Original works located at:
+	https://www.github.com/onelonecoder
+	https://www.onelonecoder.com
+	https://www.youtube.com/javidx9
+
+	GNU GPLv3
+	https://github.com/OneLoneCoder/videos/blob/master/LICENSE
+
+	From Javidx9 :)
+	~~~~~~~~~~~~~~~
+	Hello! Ultimately I don't care what you use this for. It's intended to be
+	educational, and perhaps to the oddly minded - a little bit of fun.
+	Please hack this, change it and use it in any way you see fit. You acknowledge
+	that I am not responsible for anything bad that happens as a result of
+	your actions. However this code is protected by GNU GPLv3, see the license in the
+	github repo. This means you must attribute me if you use it. You can view this
+	license here: https://github.com/OneLoneCoder/videos/blob/master/LICENSE
+	Cheers!
+
+	Author
+	~~~~~~
+
+	Twitter: @javidx9
+	Blog: www.onelonecoder.com
+
+	Versions
+	~~~~~~~~
+
+	This is the first version of the software. It presents a simple keyboard and a sine
+	wave oscillator.
+
+	See video: https://youtu.be/tgamhuQnOkM
+
+*/
+
 #include <iostream>
-#include "olcNoiseMaker.h" 
-#include <windows.h>
-
-
-#define PI 3.14159265358979323846264338327950288
-#define C4 261.63	
-#define D4 293.66	
-#define E4 329.63
-#define F4 349.23
-#define G4 392.00	
-#define A4 440.00
-#define B4 493.88	
-
-atomic<double> freq = 0.0;
-
 using namespace std;
 
-TCHAR GetKey() //returns ASCII code if you press a character(a, ? , * ,j, ~ , and so on), and
-{              //returns Virtual key code if you dont press a character( VK_UP(up arrow),VK_LEFT(left arrow),VK_SPACE(space), and so on)
-    INPUT_RECORD InputRecord;
-    DWORD Writtten;
-    HANDLE hStdIn = GetStdHandle(STD_INPUT_HANDLE);
-    while (true)
-    {
-        ReadConsoleInputA(hStdIn, &InputRecord, 1, &Writtten);
-        if (InputRecord.EventType == KEY_EVENT && InputRecord.Event.KeyEvent.bKeyDown) break;
-    }
-    char ASCII = InputRecord.Event.KeyEvent.uChar.AsciiChar;
-    if (ASCII) return ASCII;
-    return InputRecord.Event.KeyEvent.wVirtualKeyCode;
-}
+#include "olcNoiseMaker.h"
 
-double MakeNoise(double dTime) {
-    
+// Global synthesizer variables
+atomic<double> dFrequencyOutput = 0.0;			// dominant output frequency of instrument, i.e. the note
+double dOctaveBaseFrequency = 110.0; // A2		// frequency of octave represented by keyboard
+double d12thRootOf2 = pow(2.0, 1.0 / 12.0);		// assuming western 12 notes per ocatve
 
-    double sinWave = 1.0 * sin(freq * 2 * PI * dTime);
-
-    return 0.3 * sin(freq * 2 * PI * dTime);
+// Function used by olcNoiseMaker to generate sound waves
+// Returns amplitude (-1.0 to +1.0) as a function of time
+double MakeNoise(double dTime)
+{
+	double dOutput = sin(dFrequencyOutput * 2.0 * 3.14159 * dTime);
+	return dOutput * 0.5; // Master Volume
 }
 
 int main()
 {
-    
-        // Get all sound hardware
-        vector<wstring> devices = olcNoiseMaker<short>::Enumerate();
-        // Display sound hardware
-        for (auto d : devices) {
-            wcout<<"New device: "<<d<<endl;
-        }
-        //Create sound machine
-        /*
-            Changing the data type received by the olcNoiseMaker will make the amplitude of the sound more accurate.
-            * char: 8 bit
-            * int: 32 bit
-            * short: 16 bits
-        */
-        
-        olcNoiseMaker<short> sound(devices[0]); 
+	// Shameless self-promotion
+	wcout << "www.OneLoneCoder.com - Synthesizer Part 1" << endl << "Single Sine Wave Oscillator, No Polyphony" << endl << endl;
 
-        //Link Noise function with hardware sound
-        //sound.SetUserFunction(MakeNoise);
-    
+	// Get all sound hardware
+	vector<wstring> devices = olcNoiseMaker<short>::Enumerate();
 
-    while (1) {
+	// Display findings
+	for (auto d : devices) wcout << "Found Output Device: " << d << endl;
+	wcout << "Using Device: " << devices[0] << endl;
 
-        char pressedKey = GetKey();
-        if (pressedKey == 'A' || pressedKey == 'a') {
-            freq = 440.0;
-            cout << "A"<<endl;
-        }
-        else {
-            freq = 0.0;
-        }
+	// Display a keyboard
+	wcout << endl <<
+		"|   |   |   |   |   | |   |   |   |   | |   | |   |   |   |" << endl <<
+		"|   | S |   |   | F | | G |   |   | J | | K | | L |   |   |" << endl <<
+		"|   |___|   |   |___| |___|   |   |___| |___| |___|   |   |__" << endl <<
+		"|     |     |     |     |     |     |     |     |     |     |" << endl <<
+		"|  Z  |  X  |  C  |  V  |  B  |  N  |  M  |  ,  |  .  |  /  |" << endl <<
+		"|_____|_____|_____|_____|_____|_____|_____|_____|_____|_____|" << endl << endl;
 
-    }
+	// Create sound machine!!
+	olcNoiseMaker<short> sound(devices[0], 44100, 1, 8, 512);
 
-    return 0;
+	// Link noise function with sound machine
+	sound.SetUserFunction(MakeNoise);
+
+	// Sit in loop, capturing keyboard state changes and modify
+	// synthesizer output accordingly
+	int nCurrentKey = -1;
+	bool bKeyPressed = false;
+	while (1)
+	{
+		/*bKeyPressed = false;
+		for (int k = 0; k < 16; k++)
+		{
+			if (GetAsyncKeyState((unsigned char)("ZSXCFVGBNJMK\xbcL\xbe\xbf"[k])) & 0x8000)
+			{
+				if (nCurrentKey != k)
+				{
+					dFrequencyOutput = dOctaveBaseFrequency * pow(d12thRootOf2, k);
+					wcout << "\rNote On : " << sound.GetTime() << "s " << dFrequencyOutput << "Hz";
+					nCurrentKey = k;
+				}
+
+				bKeyPressed = true;
+			}
+		}
+
+		if (!bKeyPressed)
+		{
+			if (nCurrentKey != -1)
+			{
+				wcout << "\rNote Off: " << sound.GetTime() << "s                        ";
+				nCurrentKey = -1;
+			}
+
+			dFrequencyOutput = 0.0;
+		}*/
+		dFrequencyOutput = 440.0;
+	}
+		
+
+	return 0;
 }
