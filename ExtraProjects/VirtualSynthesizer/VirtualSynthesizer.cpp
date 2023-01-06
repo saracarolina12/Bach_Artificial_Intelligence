@@ -1,16 +1,23 @@
 #include <iostream>
 #include "olcNoiseMaker.h" 
 #include <windows.h>
+#include <unordered_map>
 
-
+#define r 1.059463
+#define C0 16.3516
 #define PI 3.14159265358979323846264338327950288
-#define C4 261.63	
-#define D4 293.66	
-#define E4 329.63
-#define F4 349.23
-#define G4 392.00	
-#define A4 440.00
-#define B4 493.88	
+#define C 32.7032	
+#define CS 34.6479
+#define D 36.7081
+#define DS 38.8909
+#define E 41.2035	
+#define F 43.6536
+#define FS 46.2493	
+#define G 48.9995
+#define GS 51.9130	
+#define A 55.0000
+#define AS 58.2705	
+#define B 61.7354	
 
 atomic<double> freq = 0.0;
 
@@ -37,6 +44,27 @@ double MakeNoise(double dTime) {
     return 0.3 * sin(freq * 2 * PI * dTime);
 }
 
+double getFreq(int oct, char note) {
+    note = toupper(note);
+    unordered_map<char, int> mp = { 
+                                    {'C', 0},
+                                    {'CS', 1},
+                                    {'D', 2},
+                                    {'DS', 3},
+                                    {'E', 4},
+                                    {'F', 5},
+                                    {'FS', 6},
+                                    {'G', 7},
+                                    {'GS', 8},
+                                    {'A', 9},
+                                    {'AS', 10},
+                                    {'B', 11},
+                                  };
+    double f = C0 * pow(r, (12 * oct) + mp[note]);
+    cout << "freq: " << f << endl;
+    return f;
+}
+
 int main()
 {
         //// Get all sound hardware
@@ -58,42 +86,47 @@ int main()
         //sound.SetUserFunction(MakeNoise);
     
     
+   int octave = 1;
    while (1) {
         char pressedKey = GetKey();
-        switch (pressedKey) {
-            case 'C':
-                freq = C4;
-                cout << "C"<<endl;
-                Beep(C4, 40);
-                break;
-            case 'D':
-                freq = D4;
-                Beep(freq, 100);
-                break;
-            case 'E':
-                freq = E4;
-                Beep(freq, 100);
-                break;
-            case 'F':
-                freq = F4;
-                Beep(freq, 100);
-                break;
-            case 'G':
-                freq = G4;
-                Beep(freq, 100);
-                break;
-            case 'A':
-                freq = A4;
-                Beep(freq, 100);
-                break;
-            case 'B':
-                freq = B4;
-                Beep(freq, 100);
-                break;
-            default:
-                break;
+        cout << (int)pressedKey << endl;
+        if ((int)pressedKey == 39 || (int)pressedKey == 37) {
+            if ((int)pressedKey == 39) {
+                if (octave + 1 <= 8) octave++;
+            }
+            else if ((int)pressedKey == 37) {
+                if (octave - 1 >= 0) octave--;
+            }
+            cout << " ***** Current Octave: "<< octave <<" *****"  << endl;
         }
-       
+        if (pressedKey == 'C' || pressedKey == 'c') {
+            freq = getFreq(octave, pressedKey);
+            Beep(freq, 100);
+        }
+        if (pressedKey == 'D' || pressedKey == 'd') {
+            freq = getFreq(octave, pressedKey);
+            Beep(freq, 100);
+        }
+        if (pressedKey == 'E' || pressedKey == 'e') {
+            freq = getFreq(octave, pressedKey);
+            Beep(freq, 100);
+        }
+        if (pressedKey == 'F' || pressedKey == 'f') {
+            freq = getFreq(octave, pressedKey);
+            Beep(freq, 100);
+        }
+        if (pressedKey == 'G' || pressedKey == 'g') {
+            freq = getFreq(octave, pressedKey);
+            Beep(freq, 100);
+        }
+        if (pressedKey == 'A' || pressedKey == 'a') {
+            freq = getFreq(octave, pressedKey);
+            Beep(freq, 100);
+        }
+        if (pressedKey == 'B' || pressedKey == 'b') {
+            freq = getFreq(octave, pressedKey);
+            Beep(freq, 100);
+        }
 
    }
    return 0;
