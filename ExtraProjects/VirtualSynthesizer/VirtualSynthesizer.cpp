@@ -12,7 +12,7 @@
 #define A4 440.00
 #define B4 493.88	
 
-atomic<double> freq = 220.0;
+atomic<double> freq = 0.0;
 
 using namespace std;
 
@@ -32,8 +32,6 @@ TCHAR GetKey()
 }
 
 double MakeNoise(double dTime) {
-    
-
     double sinWave = 1.0 * sin(freq * 2 * PI * dTime);
 
     return 0.3 * sin(freq * 2 * PI * dTime);
@@ -41,38 +39,62 @@ double MakeNoise(double dTime) {
 
 int main()
 {
+        //// Get all sound hardware
+        //vector<wstring> devices = olcNoiseMaker<short>::Enumerate();
+        //// Display sound hardware
+        //for (auto d : devices) {
+        //    wcout<<"New device: "<<d<<endl;
+        //}
+        ////Create sound machine
+        ///*
+        //    Changing the data type received by the olcNoiseMaker will make the amplitude of the sound more accurate.
+        //    * char: 8 bit
+        //    * int: 32 bit
+        //    * short: 16 bits
+        //*/
+        //olcNoiseMaker<short> sound(devices[0],44100,1,8,512); 
+
+        ////Link Noise function with hardware sound
+        //sound.SetUserFunction(MakeNoise);
     
-        // Get all sound hardware
-        vector<wstring> devices = olcNoiseMaker<short>::Enumerate();
-        // Display sound hardware
-        for (auto d : devices) {
-            wcout<<"New device: "<<d<<endl;
-        }
-        //Create sound machine
-        /*
-            Changing the data type received by the olcNoiseMaker will make the amplitude of the sound more accurate.
-            * char: 8 bit
-            * int: 32 bit
-            * short: 16 bits
-        */
-        olcNoiseMaker<short> sound(devices[0],44100,1,8,512); 
-
-        //Link Noise function with hardware sound
-        sound.SetUserFunction(MakeNoise);
     
-
-    while (1) {
-
-       /* char pressedKey = GetKey();
-        if (pressedKey == 'A' || pressedKey == 'a') {
-            freq = 440.0;
-            cout << "A"<<endl;
+   while (1) {
+        char pressedKey = GetKey();
+        switch (pressedKey) {
+            case 'C':
+                freq = C4;
+                cout << "C"<<endl;
+                Beep(C4, 40);
+                break;
+            case 'D':
+                freq = D4;
+                Beep(freq, 100);
+                break;
+            case 'E':
+                freq = E4;
+                Beep(freq, 100);
+                break;
+            case 'F':
+                freq = F4;
+                Beep(freq, 100);
+                break;
+            case 'G':
+                freq = G4;
+                Beep(freq, 100);
+                break;
+            case 'A':
+                freq = A4;
+                Beep(freq, 100);
+                break;
+            case 'B':
+                freq = B4;
+                Beep(freq, 100);
+                break;
+            default:
+                break;
         }
-        else {
-            freq = 0.0;
-        }*/
+       
 
-    }
-
-    return 0;
+   }
+   return 0;
 }
