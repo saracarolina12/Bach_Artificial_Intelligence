@@ -48,17 +48,17 @@ double getFreq(int oct, char note) {
     note = toupper(note);
     unordered_map<char, int> mp = { 
                                     {'A', 0},
-                                    {'S', 1},
-                                    {'D', 2},
-                                    {'F', 3},
-                                    {'J', 4},
-                                    {'K', 5},
-                                    {'L', 6},
-                                    {'W', 7},
-                                    {'E', 8},
-                                    {'R', 9},
-                                    {'U', 10},
-                                    {'I', 11},
+                                        {'W', 1},
+                                    {'S', 2},
+                                        {'E', 3},
+                                    {'D', 4},
+                                    {'F', 5},
+                                        {'R', 6}, //F#
+                                    {'J', 7},
+                                        {'U', 8},
+                                    {'K', 9},
+                                        {'I', 10},
+                                    {'B', 11},
                                   };
     double f = C0 * pow(r, (12 * oct) + mp[note]);
     cout << "freq: " << f << endl;
@@ -140,7 +140,7 @@ int main()
             freq = getFreq(octave, pressedKey);
             Beep(freq, 100);
         }
-        if (pressedKey == 'R' || pressedKey == 'R') { //Fa #
+        if (pressedKey == 'R' || pressedKey == 'r') { //Fa #
             freq = getFreq(octave, pressedKey);
             Beep(freq, 100);
         }
