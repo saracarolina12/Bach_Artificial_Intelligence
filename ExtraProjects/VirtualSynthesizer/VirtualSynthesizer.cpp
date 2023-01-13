@@ -87,7 +87,7 @@ int main()
     
 
     
-   int octave = 1;
+   int octave = 4;
    while (1) {
         char pressedKey = GetKey();
         cout << (int)pressedKey << endl;
