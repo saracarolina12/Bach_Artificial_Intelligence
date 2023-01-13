@@ -100,6 +100,7 @@ int main()
             }
             cout << " ***** Current Octave: "<< octave <<" *****"  << endl;
         }
+        /*
         if (pressedKey == 'C' || pressedKey == 'c') {
             freq = getFreq(octave, pressedKey);
             Beep(freq, 100);
@@ -125,6 +126,36 @@ int main()
             Beep(freq, 100);
         }
         if (pressedKey == 'B' || pressedKey == 'b') {
+            freq = getFreq(octave, pressedKey);
+            Beep(freq, 100);
+        }
+        */
+
+        if (pressedKey == 'A' || pressedKey == 'a') { //Do 
+            freq = getFreq(octave, pressedKey);
+            Beep(freq, 100);
+        }
+        if (pressedKey == 'S' || pressedKey == 's') { //Re
+            freq = getFreq(octave, pressedKey);
+            Beep(freq, 100);
+        }
+        if (pressedKey == 'D' || pressedKey == 'd') { //Mi
+            freq = getFreq(octave, pressedKey);
+            Beep(freq, 100);
+        }
+        if (pressedKey == 'F' || pressedKey == 'f') { //Fa
+            freq = getFreq(octave, pressedKey);
+            Beep(freq, 100);
+        }
+        if (pressedKey == 'J' || pressedKey == 'j') { //Sol
+            freq = getFreq(octave, pressedKey);
+            Beep(freq, 100);
+        }
+        if (pressedKey == 'K' || pressedKey == 'k') { //La
+            freq = getFreq(octave, pressedKey);
+            Beep(freq, 100);
+        }
+        if (pressedKey == 'L' || pressedKey == 'l') { //Si
             freq = getFreq(octave, pressedKey);
             Beep(freq, 100);
         }
