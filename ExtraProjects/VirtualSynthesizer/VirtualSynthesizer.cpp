@@ -132,31 +132,23 @@ int main()
         }
 
         // Sharp (#) and flat (b)
-        if (pressedKey == 'A' || pressedKey == 'a') { //Do 
+        if (pressedKey == 'W' || pressedKey == 'w') { //Do #
             freq = getFreq(octave, pressedKey);
             Beep(freq, 100);
         }
-        if (pressedKey == 'S' || pressedKey == 's') { //Re
+        if (pressedKey == 'E' || pressedKey == 'e') { //Re #
             freq = getFreq(octave, pressedKey);
             Beep(freq, 100);
         }
-        if (pressedKey == 'D' || pressedKey == 'd') { //Mi
+        if (pressedKey == 'R' || pressedKey == 'R') { //Fa #
             freq = getFreq(octave, pressedKey);
             Beep(freq, 100);
         }
-        if (pressedKey == 'F' || pressedKey == 'f') { //Fa
+        if (pressedKey == 'U' || pressedKey == 'u') { //Sol #
             freq = getFreq(octave, pressedKey);
             Beep(freq, 100);
-        }
-        if (pressedKey == 'J' || pressedKey == 'j') { //Sol
-            freq = getFreq(octave, pressedKey);
-            Beep(freq, 100);
-        }
-        if (pressedKey == 'K' || pressedKey == 'k') { //La
-            freq = getFreq(octave, pressedKey);
-            Beep(freq, 100);
-        }
-        if (pressedKey == 'L' || pressedKey == 'l') { //Si
+        } 
+        if (pressedKey == 'I' || pressedKey == 'i') { //La #
             freq = getFreq(octave, pressedKey);
             Beep(freq, 100);
         }
