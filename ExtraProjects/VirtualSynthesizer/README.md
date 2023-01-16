@@ -1,12 +1,11 @@
 # Digital Synthesizer
-C++ based synthesizer from the scratch (no audio library).
+C++ based synthesizer.
 
 
 ## How it works?
 
 ### _The Science Behind Sound_
 Music is just perfect. 
-
 
 
 ## Credits
