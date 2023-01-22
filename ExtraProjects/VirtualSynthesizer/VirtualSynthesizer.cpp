@@ -47,19 +47,20 @@ double MakeNoise(double dTime) {
 double getFreq(int oct, char note) {
     note = toupper(note);
     unordered_map<char, int> mp = { 
-                                    {'A', 0},
+                                    {'A', 0},       //Do
                                         {'W', 1},
-                                    {'S', 2},
+                                    {'S', 2},       //Re
                                         {'E', 3},
-                                    {'D', 4},
-                                    {'F', 5},
-                                        {'R', 6}, //F#
-                                    {'J', 7},
+                                    {'D', 4},       //Mi
+                                    {'F', 5},       //Fa
+                                        {'R', 6}, 
+                                    {'J', 7},       //Sol
                                         {'U', 8},
-                                    {'K', 9},
+                                    {'K', 9},       //La
                                         {'I', 10},
-                                    {'B', 11},
+                                    {'B', 11},      //Si
                                   };
+    cout << " --------> " << note << " " << mp[note] << endl;
     double f = C0 * pow(r, (12 * oct) + mp[note]);
     cout << "freq: " << f << endl;
     return f;
