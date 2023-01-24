@@ -324,3 +324,16 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+/Semestres/Compiladores/Java/HelloWorld/nbproject/private/
+/Semestres/Compiladores/Java/Calculo/nbproject/private/
+
+
+# Netbeans
+**/nbproject/private/
+*/nbproject/Makefile-.mk
+*/nbproject/Package-.bash
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
