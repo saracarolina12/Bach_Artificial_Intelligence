@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>Versión Estenográfica &#8211; Página 62 &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Categoría Versión Estenográfica del feed" href="https://presidente.gob.mx/secciones/version-estenografica/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".post a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66g2m-f-df37600b1-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":133,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"38dcd375","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":64074,"ak.gh":"23.47.207.46","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676614476","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==IM4XetjDEvIXK3vTqoWn738Dt3cSG5hMbGhASyt5tn8uRJJfzhX8ApCE+6sf+o6LQm9c/a54UPc26rmCzoIoryVFch7hzrqQFa20ogDv2YFj68IXn+gihS1Wh8chrnOJEZqq4lEAMIF5sm9zhoC39icTx2RCDZaMVpxSI/yfoOgCiADbpnHlgWsEkqSJWKB8JU5pHI3DvwABhK9v3NSVXDyMFMSAR0d6kbJAFMitFecXWON1hg7uWXkqTyU8TXMj9jXzrtybmPIGm3uu0hER5BtIGvLRUwUGH58QAnq7qoNeM1T/DOZmzvA4rJgw2TSe0sCmY3hJUN3GvbcFy38n1FnMaq3N8I2s+K5BN04aIOIAUtyb7RQOU9RalaGAAUT2YbBCpW3UkicfAWCmTs+3rcJcDd3rnSa8fU4dgr47Aw4=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="archive paged category category-version-estenografica category-3412 custom-background paged-62 category-paged-62 header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef18bdd7dc5" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+				
+
+
+				
+													
+
+				
+					
+																					<h1>Category: <span>Versión Estenográfica</span></h1>
+													
+						
+					
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> Versión Estenográfica 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+	<div id="post-area">
+	
+		<article id="post-133548" class="post full-width slideUp2x post-133548 type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+			
+	<a href="https://presidente.gob.mx/20-08-20-version-estenografica-rescate-del-campo-y-autosuficiencia-alimentaria-desde-zacatecas-zacatecas/" class="image-post item-overlay " >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/08/20-08-2020-RESCATE-DEL-CAMPO-Y-AUTOSUFICIENCIA-ALIMENTARIA-ZACATECAS-ZACATECAS-FOTO-08-745x450.jpg" alt="20.08.20 Versión estenográfica. Rescate del campo y autosuficiencia alimentaria, desde Zacatecas, Zacatecas" />
+	</a>
+
+	
+			
+				<header class="entry-header">
+
+					<h2 class="entry-title"><a href="https://presidente.gob.mx/20-08-20-version-estenografica-rescate-del-campo-y-autosuficiencia-alimentaria-desde-zacatecas-zacatecas/">20.08.20 Versión estenográfica. Rescate del campo y autosuficiencia alimentaria, desde Zacatecas, Zacatecas</a></h2>
+
+				</header>
+
+				<div class="entry-content">
+					<p>Amigas, amigos de Zacatecas: Me da mucho gusto estar de nuevo con ustedes y poder informar desde Zacatecas sobre este importante programa, tanto de Precios de Garantía para productos básicos, como de abast ...</p>				</div>
+
+			
+			<footer class="entry-footer">
+							</footer>
+
+		</article>
+
+		
+		<article id="post-133533" class="post full-width slideUp2x post-133533 type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+			
+	<a href="https://presidente.gob.mx/20-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-desde-zacatecas/" class="image-post item-overlay " >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/08/20-08-2020-CONFERENCIA-DE-PRENSA-MATUTINA-ZACATECAS-FOTO-07-745x450.jpg" alt="20.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador, desde Zacatecas" />
+	</a>
+
+	
+			
+				<header class="entry-header">
+
+					<h2 class="entry-title"><a href="https://presidente.gob.mx/20-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-desde-zacatecas/">20.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador, desde Zacatecas</a></h2>
+
+				</header>
+
+				<div class="entry-content">
+					<p>Buenos días. Vamos a informar desde Zacatecas, no sólo la situación de seguridad en este estado, sino también en el país, como lo hacemos cada mes los días 20, que sale el informe mensual sobre la incidencia delictiva, a ...</p>				</div>
+
+			
+			<footer class="entry-footer">
+							</footer>
+
+		</article>
+
+		
+		<article id="post-133513" class="post full-width slideUp2x post-133513 type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+			
+	<a href="https://presidente.gob.mx/19-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-desde-queretaro/" class="image-post item-overlay " >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/08/19-08-2020-CONFERENCIA-DE-PRENSA-MATUTINA-QUERETARO-QUERETARO-FOTO-08-745x450.jpg" alt="19.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador, desde Querétaro" />
+	</a>
+
+	
+			
+				<header class="entry-header">
+
+					<h2 class="entry-title"><a href="https://presidente.gob.mx/19-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-desde-queretaro/">19.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador, desde Querétaro</a></h2>
+
+				</header>
+
+				<div class="entry-content">
+					<p>Buenos días. Nos da mucho gusto amanecer este día en Querétaro, ya concluyó la reunión de seguridad en este estado. Afortunadamente, hay buenos resultados en materia de seguridad; se ha avanzado, como se va a informar el ...</p>				</div>
+
+			
+			<footer class="entry-footer">
+							</footer>
+
+		</article>
+
+		
+		<article id="post-133496" class="post full-width slideUp2x post-133496 type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+			
+	<a href="https://presidente.gob.mx/18-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" class="image-post item-overlay " >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/08/18-08-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-06-745x450.jpg" alt="18.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			
+				<header class="entry-header">
+
+					<h2 class="entry-title"><a href="https://presidente.gob.mx/18-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/">18.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</a></h2>
+
+				</header>
+
+				<div class="entry-content">
+					<p>Buenos días. Nos tardamos en la reunión de seguridad, que se trataron muchos temas importantes, pero ya vamos a informar. ...</p>				</div>
+
+			
+			<footer class="entry-footer">
+							</footer>
+
+		</article>
+
+		
+		<article id="post-133484" class="post full-width slideUp2x post-133484 type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+			
+	<a href="https://presidente.gob.mx/17-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" class="image-post item-overlay " >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/08/17-08-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-02-745x450.jpg" alt="17.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			
+				<header class="entry-header">
+
+					<h2 class="entry-title"><a href="https://presidente.gob.mx/17-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/">17.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</a></h2>
+
+				</header>
+
+				<div class="entry-content">
+					<p>Buenos días. Se tardó la reunión de seguridad, pero ya estamos aquí. ...</p>				</div>
+
+			
+			<footer class="entry-footer">
+							</footer>
+
+		</article>
+
+		
+		<article id="post-133443" class="post full-width slideUp2x post-133443 type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+			
+	<a href="https://presidente.gob.mx/14-08-20-version-estenografica-programa-de-mejoramiento-urbano-desde-acapulco-guerrero/" class="image-post item-overlay " >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/08/14-08-2020-PROGRAMA-DE-MEJORAMIENTO-URBANO-ACAPULCO-GUERRERO-FOTO-02-745x450.jpg" alt="14.08.20 Versión estenográfica. Programa de Mejoramiento Urbano, desde Acapulco, Guerrero" />
+	</a>
+
+	
+			
+				<header class="entry-header">
+
+					<h2 class="entry-title"><a href="https://presidente.gob.mx/14-08-20-version-estenografica-programa-de-mejoramiento-urbano-desde-acapulco-guerrero/">14.08.20 Versión estenográfica. Programa de Mejoramiento Urbano, desde Acapulco, Guerrero</a></h2>
+
+				</header>
+
+				<div class="entry-content">
+					<p>Amigas, amigos de Acapulco: Me da mucho gusto participar en la supervisión de esta obra de rehabilitación del Parque Papagayo. ...</p>				</div>
+
+			
+			<footer class="entry-footer">
+							</footer>
+
+		</article>
+
+		
+		<article id="post-133438" class="post full-width slideUp2x post-133438 type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+			
+	<a href="https://presidente.gob.mx/14-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-desde-acapulco-guerrero/" class="image-post item-overlay " >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/08/14-08-2020-CONFERENCIA-DE-PRENSA-MATUTINA-ACAPULCO-GUERRERO-FOTO-04-745x450.jpg" alt="14.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador, desde Acapulco, Guerrero" />
+	</a>
+
+	
+			
+				<header class="entry-header">
+
+					<h2 class="entry-title"><a href="https://presidente.gob.mx/14-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-desde-acapulco-guerrero/">14.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador, desde Acapulco, Guerrero</a></h2>
+
+				</header>
+
+				<div class="entry-content">
+					<p>2020, Año de Leona Vicario, Benemérita Madre de la Patria
+&nbsp;
+
+PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: Muy buenos días. Nos da mucho gusto, como siempre, estar en Guerrero, en Acapulco, donde vamos a llevar a cabo  ...</p>				</div>
+
+			
+			<footer class="entry-footer">
+							</footer>
+
+		</article>
+
+		
+		<article id="post-133422" class="post full-width slideUp2x post-133422 type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+			
+	<a href="https://presidente.gob.mx/13-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" class="image-post item-overlay " >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/08/13-08-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-01-745x450.jpg" alt="13.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			
+				<header class="entry-header">
+
+					<h2 class="entry-title"><a href="https://presidente.gob.mx/13-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/">13.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</a></h2>
+
+				</header>
+
+				<div class="entry-content">
+					<p>Buenos días. El día de hoy vamos a informar sobre la nueva vacuna, la posibilidad de tener esta vacuna para enfrentar el COVID-19. Es una muy buena noticia para el pueblo de México. ...</p>				</div>
+
+			
+			<footer class="entry-footer">
+							</footer>
+
+		</article>
+
+		
+		<article id="post-133388" class="post full-width slideUp2x post-133388 type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+			
+	<a href="https://presidente.gob.mx/11-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" class="image-post item-overlay " >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/08/11-08-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-04-745x450.jpg" alt="11.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			
+				<header class="entry-header">
+
+					<h2 class="entry-title"><a href="https://presidente.gob.mx/11-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/">11.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</a></h2>
+
+				</header>
+
+				<div class="entry-content">
+					<p>Buenos días. El día de hoy, como todos los martes, vamos a informar sobre el estado de salud en el país, sobre todo lo relacionado con la pandemia. Nos va a informar el doctor Jorge Alcocer ...</p>				</div>
+
+			
+			<footer class="entry-footer">
+							</footer>
+
+		</article>
+
+		
+		<article id="post-133375" class="post full-width slideUp2x post-133375 type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+			
+	<a href="https://presidente.gob.mx/10-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" class="image-post item-overlay " >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/08/10-08-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-04-745x450.jpg" alt="10.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			
+				<header class="entry-header">
+
+					<h2 class="entry-title"><a href="https://presidente.gob.mx/10-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/">10.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</a></h2>
+
+				</header>
+
+				<div class="entry-content">
+					<p>Nos da mucho gusto comenzar la semana con un reconocimiento a empresarios que se dedican a la distribución de combustibles y que han actuado con responsabilidad social, manteniendo precios justos, tanto en gasolinas como ...</p>				</div>
+
+			
+			<footer class="entry-footer">
+							</footer>
+
+		</article>
+
+		
+		<article id="post-133354" class="post full-width slideUp2x post-133354 type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+			
+	<a href="https://presidente.gob.mx/07-08-20-version-estenografica-programa-de-mejoramiento-urbano-desde-los-cabos-baja-california-sur/" class="image-post item-overlay " >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/08/07-08-2020-PROGRAMA-DE-MEJORAMIENTO-URBANO-LOS-CABOS-BAJA-CALIFORNIA-SUR-FOTO-01-745x450.jpg" alt="07.08.20 Versión estenográfica. Programa de Mejoramiento Urbano, desde Los Cabos, Baja California Sur" />
+	</a>
+
+	
+			
+				<header class="entry-header">
+
+					<h2 class="entry-title"><a href="https://presidente.gob.mx/07-08-20-version-estenografica-programa-de-mejoramiento-urbano-desde-los-cabos-baja-california-sur/">07.08.20 Versión estenográfica. Programa de Mejoramiento Urbano, desde Los Cabos, Baja California Sur</a></h2>
+
+				</header>
+
+				<div class="entry-content">
+					<p>2020, Año de Leona Vicario, Benemérita Madre de la Patria
+&nbsp;
+
+PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: Nos da mucho gusto estar en Los Cabos, Baja California Sur.
+
+Aun así, cumpliendo los protocolos de salud por  ...</p>				</div>
+
+			
+			<footer class="entry-footer">
+							</footer>
+
+		</article>
+
+		
+		<article id="post-133328" class="post full-width slideUp2x post-133328 type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+			
+	<a href="https://presidente.gob.mx/07-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-desde-los-cabos-baja-california-sur/" class="image-post item-overlay " >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/08/07-08-2020-CONFERENCIA-DE-PRENSA-MATUTINA-CABO-SAN-LUCAS-BAJA-CALIFORNIA-SUR-FOTO-05-745x450.jpg" alt="07.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador, desde Los Cabos, Baja California Sur" />
+	</a>
+
+	
+			
+				<header class="entry-header">
+
+					<h2 class="entry-title"><a href="https://presidente.gob.mx/07-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-desde-los-cabos-baja-california-sur/">07.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador, desde Los Cabos, Baja California Sur</a></h2>
+
+				</header>
+
+				<div class="entry-content">
+					<p>Buenos días. Nos da mucho gusto estar aquí, en Los Cabos, Baja California Sur. Acabamos de terminar la reunión de seguridad. Como es sabido, todos los días, de lunes a viernes, nos reunimos el Gabinete de Seguridad, por  ...</p>				</div>
+
+			
+			<footer class="entry-footer">
+							</footer>
+
+		</article>
+
+		
+		<article id="post-133306" class="post full-width slideUp2x post-133306 type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+			
+	<a href="https://presidente.gob.mx/06-08-20-version-estenografica-plan-de-justicia-del-pueblo-yaqui-desde-vicam-sonora/" class="image-post item-overlay " >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/08/06-08-2020-PLAN-DE-JUSTICIA-DEL-PUEBLO-YAQUI-VICAM-SONORA-FOTO-001-745x450.jpeg" alt="06.08.20 Versión estenográfica. Plan de Justicia del Pueblo Yaqui, desde Vícam, Sonora." />
+	</a>
+
+	
+			
+				<header class="entry-header">
+
+					<h2 class="entry-title"><a href="https://presidente.gob.mx/06-08-20-version-estenografica-plan-de-justicia-del-pueblo-yaqui-desde-vicam-sonora/">06.08.20 Versión estenográfica. Plan de Justicia del Pueblo Yaqui, desde Vícam, Sonora.</a></h2>
+
+				</header>
+
+				<div class="entry-content">
+					<p>2020, Año de Leona Vicario, Benemérita Madre de la Patria
+&nbsp;
+
+PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: Me da mucho gusto estar de nuevo con ustedes, gobernadores de los pueblos yaquis.
+
+En esta ocasión es para re ...</p>				</div>
+
+			
+			<footer class="entry-footer">
+							</footer>
+
+		</article>
+
+		
+		<article id="post-133278" class="post full-width slideUp2x post-133278 type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+			
+	<a href="https://presidente.gob.mx/06-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-desde-ciudad-obregon-sonora/" class="image-post item-overlay " >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/08/06-08-2020-CONFERENCIA-DE-PRENSA-MATUTINA-CIUDAD-OBREGON-SONORA-FOTO-01-745x450.jpg" alt="06.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador, desde Ciudad Obregón, Sonora" />
+	</a>
+
+	
+			
+				<header class="entry-header">
+
+					<h2 class="entry-title"><a href="https://presidente.gob.mx/06-08-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-desde-ciudad-obregon-sonora/">06.08.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador, desde Ciudad Obregón, Sonora</a></h2>
+
+				</header>
+
+				<div class="entry-content">
+					<p>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: … una gira toda esta semana por esta región del país y acabamos de terminar la reunión de seguridad, revisamos la situación de Sonora y vamos a informar. ...</p>				</div>
+
+			
+			<footer class="entry-footer">
+							</footer>
+
+		</article>
+
+		
+		<article id="post-133244" class="post full-width slideUp2x post-133244 type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+			
+	<a href="https://presidente.gob.mx/05-08-20-version-estenografica-inauguracion-de-la-presa-bicentenario-los-pilares-desde-alamos-sonora/" class="image-post item-overlay " >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/08/05-08-2020-INAUGURACION-DE-LA-PRESA-BICENTENARIO-LOS-PILARES-ALAMOS-SONORA-FOTO-04-745x450.jpeg" alt="05.08.20 Versión estenográfica. Inauguración de la presa Bicentenario Los Pilares, desde Álamos, Sonora" />
+	</a>
+
+	
+			
+				<header class="entry-header">
+
+					<h2 class="entry-title"><a href="https://presidente.gob.mx/05-08-20-version-estenografica-inauguracion-de-la-presa-bicentenario-los-pilares-desde-alamos-sonora/">05.08.20 Versión estenográfica. Inauguración de la presa Bicentenario Los Pilares, desde Álamos, Sonora</a></h2>
+
+				</header>
+
+				<div class="entry-content">
+					<p>Amigas, amigos de Álamos: Me da mucho gusto estar de nuevo en este municipio del estado de Sonora, acompañando a la licenciada Claudia Pavlovich, gobernadora de este importante estado de la República. ...</p>				</div>
+
+			
+			<footer class="entry-footer">
+							</footer>
+
+		</article>
+
+			</div>
+	<!-- - - - - - - - - - - - Pagination - - - - - - - - - - - - - - -->
+	
+<div class="pagenavbar">
+    <div class="pagenavi " data-posts="" data-postsperpage="15">
+
+        <a class="page-numbers" href="https://presidente.gob.mx/secciones/version-estenografica/">1</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class="page-numbers" href="https://presidente.gob.mx/secciones/version-estenografica/page/58/">58</a>
+<a class="page-numbers" href="https://presidente.gob.mx/secciones/version-estenografica/page/59/">59</a>
+<a class="page-numbers" href="https://presidente.gob.mx/secciones/version-estenografica/page/60/">60</a>
+<a class="page-numbers" href="https://presidente.gob.mx/secciones/version-estenografica/page/61/">61</a>
+<span aria-current="page" class="page-numbers current">62</span>
+<a class="page-numbers" href="https://presidente.gob.mx/secciones/version-estenografica/page/63/">63</a>
+<a class="page-numbers" href="https://presidente.gob.mx/secciones/version-estenografica/page/64/">64</a>
+<a class="page-numbers" href="https://presidente.gob.mx/secciones/version-estenografica/page/65/">65</a>
+<a class="page-numbers" href="https://presidente.gob.mx/secciones/version-estenografica/page/66/">66</a>
+<span class="page-numbers dots">&hellip;</span>
+<a class="page-numbers" href="https://presidente.gob.mx/secciones/version-estenografica/page/117/">117</a>
+    </div><!--/ .pagenavi -->
+</div><!--/ .pagenavbar-->
+<!-- - - - - - - - - - - end Pagination - - - - - - - - - - - - - -->
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>
