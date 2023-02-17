@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>24.04.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-69/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=116181' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2Fversion-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-69%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2Fversion-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-69%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66iye-f-385dd09e8-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":21,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"2a78e862","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55279,"ak.gh":"23.47.207.69","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616452","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==rYDpY53Pufm3znbWmU5S02Tk1n+CGuGW6ui7ZCSKo3uZtFROvSf2+LetpLQyMP/qIn3kz0+b/u1T1kpXu/bRECi20pA8VGaZo6UFffUqJklLrGEV7Mq3TZVqf/zRYsKmBjiWpqOFCeYYyOw9KGP6CpxNa31FN/JkcOyV9ZAwMw30JdEMtYvwk9fuAzXl1M5PmQNNVSzKPSpXIE6KpHfykR2u/PM1zDhKGymaYJREi/858NQgGWbv6amAx/0RLlrxnJqIV7ibvIxKc9cN03MdYqwzLxlXCziA9tvXZCzw3X+ETmJ0c+0IgRMkdb8WDOuJ5mpepAWJx+TDkOO2ZN5oxty5Ndv3CW4eAJGoNzUL7uf0peA8nqpm4v0eyn+jqz1NhLYyMFqfiA4IikOnRsBed6LHLdaIpFIsTwSZ5alne+E=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-116181 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef2075a8265" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>24.04.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 24.04.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-116181" class="post-116181 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica tag-amlo tag-amlo-conferencia tag-amlo-hoy tag-amlo-presidente tag-andres-manuel tag-andres-manuel-lopez-obrador tag-conferencia tag-conferencia-amlo tag-conferencia-de-amlo tag-conferencia-de-amlo-hoy tag-conferencia-de-prensa tag-conferencia-de-prensa-amlo tag-conferencia-matutina tag-conferencia-presidente tag-lopez-obrador tag-obrador">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2019/04/24-04-2019-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-5.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2019/04/24-04-2019-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-5-745x450.jpg" alt="24.04.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">24.04.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><span style="font-size: 10pt;"><em>2019, Año del Caudillo del Sur, Emiliano Zapata</em></span></p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Buenos días.</p>
+<p style="text-align: justify;">El día de hoy vamos a inaugurar la feria que se ha venido llevando a cabo desde hace algún tiempo para la exhibición de aviones, de helicópteros, en la Base Aérea de Santa Lucía.</p>
+<p style="text-align: justify;">Esta feria se convoca para ofrecer aeronaves, para vender a potenciales compradores helicópteros, aviones y se va a aprovechar la celebración de esta feria en Santa Lucía para exhibir, para mostrar los aviones y los helicópteros que se están poniendo en venta del gobierno federal.</p>
+
+<figure class="wp-block-audio"><audio src="https://lopezobrador.org.mx/wp-content/uploads/2019/04/2019-04-24-Matutina.mp3" controls="controls"></audio></figure>
+
+
+
+<figure class="wp-block-embed-facebook wp-block-embed is-type-video is-provider-facebook">
+<div class="wp-block-embed__wrapper"><iframe style="border: none; overflow: hidden;" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flopezobrador.org.mx%2Fvideos%2F576314766221485%2F&amp;show_text=0&amp;width=560" width="560" height="315" frameborder="0" scrolling="no" allowfullscreen="allowfullscreen"></iframe></div>
+</figure>
+
+<p style="text-align: justify;">Les van a informar ahora sobre la feria, sus propósitos y también de esta flotilla de aviones y de helicópteros que se van a vender, porque se ha decidido no utilizar aviones y helicópteros en el traslado de funcionarios públicos. Es un compromiso que hicimos, que no íbamos a utilizar estos aviones, en mi caso que no iba a utilizar el llamado avión presidencial, que también está en venta y les van a informar cómo está la situación de este avión y de toda la flotilla.</p>
+<p style="text-align: justify;">Todos los funcionarios del gobierno, servidores públicos tenemos que trasladarnos en aviones comerciales cuando se requiera ir a algún lugar distante, cuando se trate de distancias cortas por carretera, a ras de tierra. Antes se viajaba en avión y en helicóptero, y ni siquiera se enteraban del estado en que estaban las carreteras, todo era como un mundo virtual, llegaban a un lugar remoto, incluso podían hasta hacer un acto en la Sierra de Chihuahua, en la Selva Lacandona, pero ahí preparaban como un set y se trasladaban a donde había un aeropuerto y de ahí en helicópteros a la selva o a la sierra, y llevaban hasta alimentos si se requería.</p>
+<p style="text-align: justify;">Se hacía el acto, claro que trasladaban también, esto no es un reproche, es describir como dice ahora, es la narrativa, que llevaban también en aviones y en helicópteros a los periodistas y se difundía que se iba a combatir la pobreza.</p>
+<p style="text-align: justify;">O el caso del avión presidencial, que tuvieron el atrevimiento de ponerle ‘José María Morelos y Pavón’. ¡Imagínense! Morelos, que decía que se moderara la indigencia y la opulencia, que luchó por la igualdad, que hablaba que el que estaba al servicio del pueblo era siervo de la nación, y se atreven a ponerle a un avión de lujo ‘José María Morelos y Pavón’.</p>
+<p style="text-align: justify;">Estaban las cosas muy alteradas. Ya se había llegado a extremos de incongruencias lamentables. Entonces, tenemos que dignificar el noble oficio del servidor público.</p>
+<p style="text-align: justify;">Vamos a que el general Luis Cresencio Sandoval González, secretario de la Defensa, nos exponga sobre la feria y que luego el maestro Jorge Mendoza Sánchez, que es director general de Banobras, nos explique cómo va a el proceso de la venta de los aviones y de los helicópteros.</p>
+<p style="text-align: justify;">Terminando esto abrimos la sesión de preguntas y respuestas.</p>
+<p style="text-align: justify;"><strong>LUIS CRESENCIO SANDOVAL GONZÁLEZ, SECRETARIO DE LA DEFENSA NACIONAL:</strong> Con permiso, señor presidente.</p>
+<p style="text-align: justify;">Esta Feria Aeroespacial México 2019, como ya mencionó el señor presidente, es un evento importante en nuestro país, un evento aeronáutico donde se ven aspectos de seguridad y defensa.</p>
+<p style="text-align: justify;">También aquí, en este esfuerzo para llevar a cabo esta feria, participa la Secretaría de Economía, la Secretaria del Trabajo, Relaciones Exteriores, la Secretaría de Comunicaciones y Transportes, que se unen a todo el esfuerzo que hace Sedena, el gobierno federal para poder materializar esta feria.</p>
+<p style="text-align: justify;">Esta feria favorece, con todas estas secretarías que participan, favorece el intercambio comercial, impulsa la inversión extranjera, apoya a las Pymes y genera empleos.</p>
+<p style="text-align: justify;">En esta edición de 2019 están participando 630 empresas de 39 países. Se tiene estimado desarrollar 120 conferencias de diversos tipos en este ámbito aeronáutico, más de cuatro mil encuentros de negocios entre todos los participantes; habrá un seminario de inversión extranjera.</p>
+<p style="text-align: justify;">También se está abarcando la parte educativa, habrá un foro de educación aeroespacial y esperamos alrededor de 50 mil visitantes especializados.</p>
+<p style="text-align: justify;">Este evento, que inicia el día de hoy con el evento inaugural, llegará hasta el día 277; este día 27 tendremos para el cierre de la feria un espectáculo aéreo donde estará abierto al público, entrada gratuita, esperamos unos 200 mil visitantes a este evento de cierre de la feria.</p>
+<p style="text-align: justify;">A continuación, les vamos a pasar un video donde explicamos lo que se desarrolla en la feria, los alcances de la feria, para este 2019.</p>
+<p style="text-align: justify;">Por favor.</p>
+<p style="text-align: justify;"><strong><em>(INICIA VIDEO)</em></strong></p>
+<p style="text-align: justify;"><strong><em>VOZ HOMBRE: </em></strong><em>En el 2019, la tercera edición de la Feria Aeroespacial México espera la participación de 580 empresas de 40 países, 60 aeronaves en exposición estática, la asistencia de 50 mil visitantes especializados y que se logre alcanzar los seis mil encuentros de negocios. Todo ello, con el firme propósito de convertir a la Famex 2019 como el catalizador de la industria aeroespacial mexicana y principal de América Latina.</em></p>
+<p style="text-align: justify;"><em>Con la capacidad de la Secretaría de la Defensa Nacional en la organización y promoción de nuestro potencial hacia todo el mundo, hoy comenzamos una nueva era en la Feria Aeroespacial México 2019, contribuyendo con las políticas públicas del gobierno federal en líneas de acción fundamentales como: el programa Jóvenes Construyendo el Futuro, brindando capacitación mediante el Foro de Educación Aeroespacial para que ingresen a la industria aeronáutica y de mantenimiento de aeronaves.</em></p>
+<p style="text-align: justify;"><em>Fortaleciendo las relaciones binacionales con Canadá, este año ha sido designado como invitado de honor e incrementará el comercio con el sector aeronáutico y cooperación académica, el apoyo a las pequeñas y medianas industrias a través de precios preferenciales y asesoría para su incorporación a la cadena de suministros del sector aeronáutico, incluyendo a la academia, dependencias del gobierno federal y organismos aeronáuticos sin fines de lucro mediante el otorgamiento de espacios de exposición para promover sus negocios, ampliando sus expectativas de crecimiento y desarrollo en encuentros de negocios. </em></p>
+<p style="text-align: justify;"><em>Famex promueve la innovación, diversificación e inclusión a través de seminarios de inversión extranjera y de migración al sector aeronáutico, y así contribuye con los objetivos propuestos por la Secretaría de Economía. </em></p>
+<p style="text-align: justify;"><em>México, país de oportunidades para aterrizar grandes proyectos y despegar al mundo de la industria aeronáutica y de defensa. </em></p>
+<p style="text-align: justify;"><em>La Secretaría de la Defensa Nacional abre las alas de México e invita a la comunidad aeronáutica nacional e internacional a participar en la Famex 2019.</em></p>
+<p style="text-align: justify;"><em>Bienvenidos.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ MUJER:</em></strong><em> Gobierno de México.</em></p>
+<p style="text-align: justify;"><strong><em>(FIN DEL VIDEO)</em></strong></p>
+<p style="text-align: justify;"><strong>LUIS CRESENCIO SANDOVAL GONZÁLEZ:</strong> A las 11 de la mañana será el evento inaugural. Los esperamos ahí con los abiertos y serán bienvenidos.</p>
+<p style="text-align: justify;">Muchas gracias.</p>
+<p style="text-align: justify;"><strong>JORGE MENDOZA SÁNCHEZ, TITULAR DE BANOBRAS:</strong> Señor presidente, general secretario, representantes de los medios de comunicación.</p>
+<p style="text-align: justify;">Muy buenos días a todos.</p>
+<p style="text-align: justify;">El presidente me ha pedido que les informe sobre el estado actual de la venta del avión presidencial, así como el resto de las aeronaves susceptibles a venta.</p>
+<p style="text-align: justify;">Al respecto quisiera recordarles que a principios de esta administración el presidente de la República nos instruyó identificar todas las aeronaves que pudieran ser vendidas. Asimismo, en este proceso participó la Secretaría de Comunicaciones y Transportes, así como miembros de otras dependencias que operaban y mantenían estas aeronaves.</p>
+<p style="text-align: justify;">Para identificar qué aeronaves podrían ser vendidas utilizamos principalmente dos criterios:</p>
+<p style="text-align: justify;">Primero. Quisimos identificar aquellas aeronaves cuyo uso fuera dedicado al transporte ejecutivo de los funcionarios públicos, también aquellas que no cumplieran con las funciones directamente relacionadas con los programas y acciones de las dependencias del gobierno federal, y que no tuvieran una clara vocación para el beneficio de la ciudadanía.</p>
+<p style="text-align: justify;">Y el segundo criterio fue identificar aquellas aeronaves abandonadas, que no estuvieran en servicio y que representarán un costo oneroso para el gobierno federal.</p>
+<p style="text-align: justify;">El proceso fue exhaustivo, analizamos los perfiles de todas y cada una de las aeronaves que integran la flota del gobierno federal, que son 263 en total. De estas 263, se identificaron 72 aeronaves, 33 aviones y 39 helicópteros que pueden ser vendidos sin afectar en las operaciones del gobierno.</p>
+<p style="text-align: justify;">Estas aeronaves fueron fabricadas, algunas desde 1966 y otras tan cerca como 2016. Y son de ocho dependencias, principalmente de la Presidencia de la República, también lo que había sido el Estado Mayor Presidencial, Conagua, la Sedena, Semar, Pemex, Fiscalía General, Policía Federal, entre otros.</p>
+<p style="text-align: justify;">Ahora, al igual que con el avión presidencial, vamos a estar trabajando en este proceso de enajenación con el acompañamiento de las Naciones Unidas y cabe mencionar que el día de ayer 23 de abril, logramos ya firmar el segundo convenio con este organismo internacional para iniciar el proceso de venta.</p>
+<p style="text-align: justify;">Por lo tanto, iniciaremos con el estudio de mercado, así como los respectivos avalúos finalmente, para poder llegar a la identificación de un mecanismo ideal de venta y lograr una enajenación exitosa.</p>
+<p style="text-align: justify;">Ahora, quisiera también compartirles, y como les mencionaron, que le Secretaría de la Defensa Nacional fue muy amable al invitarnos a participar en la Feria Famex que se inaugura el día de hoy y se concluye durante el fin de semana.</p>
+<p style="text-align: justify;">Estaremos presentes dentro de esta feria con el acompañamiento de las Naciones Unidas, contaremos con un módulo de información y tendremos en exposición 33 de las 72 aeronaves que estaremos ya iniciando el proceso de venta.</p>
+<p style="text-align: justify;">En términos… ahora entrando al proceso de venta del avión presidencial, quisiera recorrer algunas de las acciones principales que hemos logrado en los últimos meses.</p>
+<p style="text-align: justify;">Primero. El 2 de diciembre del año pasado logramos ya iniciar con esta intención de venta y se logró la partida del avión hacia los Estados Unidos.</p>
+<p style="text-align: justify;">El 22 de febrero del presente año firmamos el acuerdo de colaboración con las Naciones Unidas bajo el marco también de colaboración que firmó la Secretaría de Relaciones Exteriores con dicho organismo.</p>
+<p style="text-align: justify;">El 27 de marzo del presente año, las Naciones Unidas en su sitio web abrió ya el registro para los potenciales compradores, los que quisieran mostrar una intención de interés. Y finalmente mencionar que esta convocatoria que abrió las Naciones Unidas cierra el próximo 29 del presente mes.</p>
+<p style="text-align: justify;">Para mayo estaremos concluyendo ya con el análisis de mercado con los avalúos para poder proceder con la venta del avión presidencial. Quisiera recalcar que al momento nos encontramos en el estudio de mercado y en el avalúo del avión presidencial.</p>
+<p style="text-align: justify;">Ya estamos recibiendo intereses por parte de potenciales compradores. Al día de hoy tenemos 14 intenciones de compra de ocho distintos países. Por lo tanto, creemos que sí vamos a lograr una venta exitosa del avión presidencial.</p>
+<p style="text-align: justify;">Ahora, ¿qué se está logrando con este estudio de mercado y este avalúo para poder concluir la venta?</p>
+<p style="text-align: justify;">Primero. Vamos a identificar a los potenciales compradores, vamos a definir el precio de referencia, hay que estar seguros que el precio al que se venda no va en detrimento del patrimonio del gobierno federal y de la nación.</p>
+<p style="text-align: justify;">Vamos a determinar el mecanismo ideal para la enajenación, seguramente será un proceso competitivo y vamos a asegurar las mejores condiciones en este proceso.</p>
+<p style="text-align: justify;">Ahora, también en las pantallas podrán ver dos ligas de Internet donde pueden ver mayor información, la primera es el catálogo de todas las aeronaves que estaremos ya iniciando con el proceso de venta, son las 72 antes mencionadas; asimismo, podrán ver también la página de la ONU donde se encuentra la información respecto al avión presidencial.</p>
+<p style="text-align: justify;">Por último, quisiera dejarles un video donde muestra el catálogo. Este catálogo lo estaremos distribuyendo también durante la feria, en el módulo de información, y aquí podrán ver las características de cada una de las aeronaves que estaremos iniciando el proceso de venta.</p>
+<p style="text-align: justify;">Muchas gracias.</p>
+<p style="text-align: justify;"><strong><em>(PROYECCIÓN DE VIDEO)</em></strong></p>
+<p style="text-align: justify;"><strong><em>VOZ DE MUJER:</em></strong><em> Como parte de la política de austeridad el Gobierno de México, bajo los principios de responsabilidad y uso eficiente de los recursos públicos, anunció la enajenación del avión presidencial TP-01, José María Morelos y Pavón, y de todas las aeronaves que no son relevantes para su operación. </em></p>
+<p style="text-align: justify;"><em>En marzo pasado el Banco Nacional de Obras y Servicios Públicos, Banobras, formalizó el acuerdo específico de colaboración para que la Oficina de las Naciones Unidas de Servicios para Proyectos, UNOPS, brinde asistencia técnica para la preparación, análisis, valuación e identificación de alternativas para su comercialización en el proceso previo a la venta del TP-01.</em></p>
+<p style="text-align: justify;"><em>Asimismo, después de realizar un diagnóstico exhaustivo de las 263 aeronaves, 148 aviones y 115 helicópteros de la administración pública federal, se identificó que 72 de ellas son susceptibles de enajenación. </em></p>
+<p style="text-align: justify;"><em>Esto se realizó atendiendo dos criterios básicos.</em></p>
+<p style="text-align: justify;"><em>Uno. Aeronaves cuyo uso estuviera dedicado a la transportación ejecutiva de servidores públicos que no cumplieran funciones directamente relacionadas con los programas y acciones de las dependencias y que no tuvieran una vocación clara en beneficio de la ciudadanía. </em></p>
+<p style="text-align: justify;"><em>Dos. Aeronaves que por sus características no estuvieran en servicio y generaran gastos derivados de su resguardo, mantenimiento y operación.</em></p>
+<p style="text-align: justify;"><em>En esta evaluación participaron expertos de la Secretaría de Comunicaciones y Transportes y personal adscrito a las dependencias de la administración pública federal con aeronaves a su disposición.</em></p>
+<p style="text-align: justify;"><em>Los recursos obtenidos por la venta de estas aeronaves se destinarán a proyectos prioritarios en beneficio de los mexicanos.</em></p>
+<p style="text-align: justify;"><em>Es política del Gobierno de México promover el uso de vuelos comerciales para el traslado de los servidores públicos, lo que se traducirá en una reducción significativa del gasto en viáticos.</em></p>
+<p style="text-align: justify;"><strong><em>(FIN DEL VIDEO)</em></strong></p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, eso es básicamente.</p>
+<p style="text-align: justify;">Hoy vamos a participar en la inauguración de la feria a las 11 de la mañana. Están, como lo mencionó el general secretario, están todas, todos invitados a las 11 de la mañana en Santa Lucía.</p>
+<p style="text-align: justify;">Adelante, abrimos.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Buenos días, señor presidente. Daniel Blancas, de <em>Crónica</em>.</p>
+<p style="text-align: justify;">Sobre el asunto de seguridad, presidente, en el imaginario colectivo siempre ha estado esta visión de que los gobernantes pueden negociar con el crimen organizado, tener acercamientos con el crimen organizado para pacificar un territorio; como se dice, ‘tener en sosiego una plaza’.</p>
+<p style="text-align: justify;">¿Cuál es la postura del gobierno federal sobre este asunto? ¿Habrá negociación este sexenio con el crimen organizado?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, de manera categórica.</p>
+<p style="text-align: justify;">Nosotros no vamos a negociar con ninguna banda, con ninguna organización dedicada a cometer ilícitos. Se va a actuar con rectitud, con integridad; no va a haber componendas, está bien pintada la raya, la frontera entre la delincuencia y la autoridad. No va a haber mescolanza, no va a haber contubernio y vamos a avanzar de esa manera.</p>
+<p style="text-align: justify;">Esto también significa que no se va a perseguir a una banda para proteger a otra, como también se llegó a hacer.</p>
+<p style="text-align: justify;">Vamos a aplicar la ley por parejo y estoy seguro que, sin corrupción, sin proteger a nadie, no permitiendo la impunidad, vamos a resolver el problema grave de inseguridad y de violencia.</p>
+<p style="text-align: justify;">Cuando no existe vinculación entre la delincuencia y las autoridades, se avanza. Cuando no hay protección, cuando no hay impunidad, cuando se actúa con rectitud. Y la gente nos va a ayudar, nos está ayudando. Todos los mexicanos nos están ayudando para que entre todos llevemos a cabo el cambio verdadero, nos están ayudando para que entre todos llevemos a cabo la Cuarta Transformación. Entre todos vamos a hacer historia.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> ¿Sabe usted si ha habido algunos intentos de algunos grupos criminales por acercarse a su gobierno y negociar?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No. Y yo creo que se conoce cuál es la característica del nuevo gobierno, es de dominio público.</p>
+<p style="text-align: justify;">Nosotros hemos puesto por delante, durante mucho tiempo, la honestidad como forma de vida, como comportamiento ante asuntos públicos. Lo que decía el presidente Juárez: ‘El recto proceder’.</p>
+<p style="text-align: justify;">Entonces, por ahí vamos y estoy seguro de que vamos a bajar la incidencia delictiva y lo vamos a hacer pronto.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> Y sin necesidad de negociar.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Y sin necesidad de negociar.</p>
+<p style="text-align: justify;">Todo depende de acabar con la corrupción y de la impunidad. Es que esto se les olvidaba. El principal problema en muchos estados eran las autoridades. Imagínense, si la autoridad da el mal ejemplo, si se dedican a saquear, a robar, si no tienen autoridad moral, pues no pueden tener autoridad política. Eso es lo que sucedía. Ahora es distinto, en todos los casos. Se van a aclarar crímenes y se están atendiendo las causas.</p>
+<p style="text-align: justify;">Los especialistas, los expertos, los que fueron testigos silenciosos y hasta cómplices de todo el periodo de violencia que se desató en los dos últimos gobiernos, siempre cuando argumentábamos que había que atender el origen del problema, las causas, que tenía que darse opciones de trabajo, que se tenía que atender a los jóvenes, decían: ‘Sí, sí, sí, pero eso es a largo plazo’.</p>
+<p style="text-align: justify;">Y siempre se pospuso y se pospuso, porque además no les importaba, ellos estaban dedicados a saquear, a robar, pero siempre el argumento de sus expertos, de sus voceros, de sus analistas era eso: ‘Sí, sí, sí, pero eso de mediano y largo plazo’</p>
+<p style="text-align: justify;">‘Ahora en el corto plazo, ¿qué van a hacer ustedes?’, nos decían… No se va a olvidar. Entonces, ¿qué estamos haciendo?</p>
+<p style="text-align: justify;">Atendiendo las causas. No le hace que lleve tiempo, pero es ir al fondo, esto no es un asunto de policías y de ladrones, esto no se resuelve sólo con amenazas de mano dura, con leyes más severas, con cárceles. Salían a decir: ‘No me va a temblar la mano, va a haber mano dura’.</p>
+<p style="text-align: justify;">No. El ser humano no es malo por naturaleza, es producto de circunstancias. Si un joven no tiene tutela porque se desintegraron las familias por la crisis, si tiene que quedarse a la buena de Dios, si no tiene opciones de trabajo, de estudio, si se le proyecta un estilo de vida en donde lo que vale es el lujo barato, la ropa de marca, las alhajas, la troca, toda la sociedad de consumo, ‘¿y la Cheyenne, apá?’, con todas esas cosas cómo no van a caer en la tentación de tomar el camino a las conductas antisociales.</p>
+<p style="text-align: justify;">Nosotros tenemos que atender eso, que haya trabajo, que los jóvenes tengan opciones de estudio. Nunca más abandonar a los jóvenes. Atender las causas y al mismo tiempo dar el ejemplo desde el gobierno.</p>
+<p style="text-align: justify;">Ahora me están pidiendo: ‘Es que no hay nadie en la cárcel’, me están diciendo, no todos, pero sí algunos me dicen respetuosamente y de buena fe. Y les digo: Bueno, pues los que han cometido algún delito o se presume que cometieron algún delito, ya en nuestra administración todo lo que nos llega lo estamos remitiendo a la Fiscalía General y en unos días más vamos a dar a conocer todas las denuncias que hemos presentado a la Fiscalía General, denuncias que tienen que ver con el llamado huachicol, las que tienen que ver con la delincuencia y las que tienen que ver con la corrupción.</p>
+<p style="text-align: justify;">Todo lo que se ha presentado, porque todo lo que nos llega, si Inteligencia Financiera tiene informes de un presunto lavado de dinero, la instrucción del responsable, Santiago Nieto, es que de inmediato se proceda, en todos los casos.</p>
+<p style="text-align: justify;">Todavía ayer me llegó un expediente de la Función Pública sobre algunos servidores públicos que se presume estuvieron involucrados en hechos de corrupción en la pasada administración y ayer mismo le envié de regreso un memorándum, diciendo: Aplique la ley, proceda, nada más informe al titular de la secretaría, investigue y actúe. Cero tolerancia en la corrupción.</p>
+<p style="text-align: justify;">Entonces, estamos haciendo eso, por eso lo de la consulta, pero sí lo vamos a resolver. Y estén ustedes también ayudándome a recordar este asunto, que no se nos pase el tiempo.</p>
+<p style="text-align: justify;">¿El otro asunto que trataste?</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> Lo de las universidades.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ah, sí. Ojalá. Eso tiene que ver con la autonomía de las universidades, hay dos formas de hacerlo.</p>
+<p style="text-align: justify;">Una, que el Congreso, en este caso la Cámara de Diputados, que aprueba el presupuesto, pueda, en uso de sus facultades, tienen posibilidad de hacerlo, legalmente, de pedir informes, si no mensuales, trimestrales porque nosotros sí tenemos que estar informando permanente al Congreso sobre el ejercicio del presupuesto. Esa es una forma de hacerlo.</p>
+<p style="text-align: justify;">La otra sería que voluntariamente las universidades informaran sobre el ejercicio del presupuesto, que los rectores informaran. Yo voy a informar, y aprovecho para decirlo, cada tres meses aquí sobre el estado que guarda la administración pública, cada tres meses voy a estar informando.</p>
+<p style="text-align: justify;">El próximo informe va a hacer a mediados de junio y luego tengo que informar en la Cámara de Diputados, en el Congreso, en septiembre, en la apertura de sesiones; y luego tres meses después. Cada tres meses voy a estar informando, Transparencia completa.</p>
+<p style="text-align: justify;">Y aquí informamos también todos los días.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Buenos días, presidente. Soy Saúl Soltero, del canal de redes sociales <em>El Nopal Times</em>.</p>
+<p style="text-align: justify;">Hacer la siguiente pregunta. A partir de la relevación que se ha hecho que no fue un convoy el que intentó irrumpir con Vicente Fox, sino fueron dos escoltas que se están equivocando en el ingreso al evento que se dirigían y que se les otorgó estos ocho elementos de la Sedena, ha habido un reclamo, una petición de muchas personas en redes sociales para que no se les den estos privilegios a los expresidentes, justo como fue una de las promesas que mayor difusión tuvo en redes sociales, en campaña, mejor dicho.</p>
+<p style="text-align: justify;">¿Qué tanto usted se podría comprometer en ese sentido a retirar estos escoltas para que los expresidentes tengan los mismos privilegios que el resto de los ciudadanos? Esa como primera pregunta.</p>
+<p style="text-align: justify;">Y como segunda pregunta. En relación a lo que hace un momento usted respondía, que no se quiere dar estos shows o esta parte espectacular en cuanto a resultados de la Fiscalía General de la República; sin embargo, van casi cinco meses y ha habido casi, casi de desde donde se levanta una piedra se encuentra corrupción realizada por el gobierno de Peña Nieto y anteriores gobiernos, en CFE, en Pemex, como lo hemos visto en muchas ocasiones aquí en las mañaneras, y en muchos otros medios, en muchos otros lugares.</p>
+<p style="text-align: justify;">¿No cree que ha faltado igual voluntad política por parte de la Fiscalía General de la República para ir contra estos ‘peces gordos’, llámese directores, secretarios de Estado o expresidentes que hubieran participado?; si no, ¿cuánto tiempo usted cree que es razonable para que el fiscal que usted propuso pueda brindar estos resultados para acabar con la impunidad? Ojo, no como show o como espectáculo, pero sí como una muestra real de que está existiendo este fin a la impunidad.</p>
+<p style="text-align: justify;">Y finalmente. En relación al maestro Alfredo Jalife, que muchas personas pugnan o solicitan que sea incorporado en su gobierno por ser un excelente analista, un geoestratega que tiene muchas ideas de cómo podría México transitar a ser un país exitoso.</p>
+<p style="text-align: justify;">¿Qué opina usted de esa petición de que sea tomado en cuenta dentro de su gobierno para ocupar algún cargo?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, acerca de las denuncias, no prescriben; es decir, la Fiscalía tiene tiempo para proceder y vamos a estar tratando el tema para que se conozcan cuáles son la denuncias que están abiertas y no caminan, para que de esta forma respetando la autonomía de la Fiscalía se actúe.</p>
+<p style="text-align: justify;">Acerca de lo de Jalife. Es una muy buena persona. No creo yo que quiera ocupar un cargo, es un analista, un investigador; pero en el caso que hubiese algo que le interesara, como cualquier otro profesional analista, lo tomaríamos en cuenta. No hay veto para Jalife ni para nadie.</p>
+<p style="text-align: justify;">Hay muchas discrepancias, hay debate, yo lo considero sano; a veces se pasan, pero es sano eso. Ya cuando no se debate es que hay que avisarles que ya se apagó la luz y hay que cerrarles los ojos, pero tiene que haber esto con respeto, debate.</p>
+<p style="text-align: justify;">Entonces, Jalife y otros que están en contra de Jalife son nuestros amigos. No tenemos nosotros vetos para nadie.</p>
+<p style="text-align: justify;">¿La primera pregunta?</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> En relación a la seguridad o los privilegios a los expresidentes.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Miren, se redujo mucho el número de elementos para la protección del presidente Fox, sólo son cuatro elementos.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> ¿No son ocho?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Cinco en total. Ya no son ocho.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> ¿Y para Felipe Calderón?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Doce.</p>
+<p style="text-align: justify;">Pero miren, hay información suficiente sobre lo que tenían los expresidentes de personal, tenían tanto personal militar, como personal administrativo, un número muy superior a eso, además las pensiones. Entonces, todo eso se eliminó y se están haciendo estas excepciones por razones especiales.</p>
+<p style="text-align: justify;">Yo quisiera proteger a todos los mexicanos y hacia allá vamos, a que todo mundo tenga protección, pero sí les pido que nos comprendan, en estos casos es lo mínimo, estamos hablando de cinco elementos. Yo había dicho que eran 12, luego que ocho y no, son cinco.</p>
+<p style="text-align: justify;">En el caso de Felipe Calderón, 12. Y no tiene vigilancia del gobierno federal el presidente Peña, el presidente Zedillo, el presidente Salinas y ya todos no reciben pensión. Eso se terminó.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> ¿Y por qué esta diferencia de a uno cinco y a otro 12?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Porque se llegó a un acuerdo con ellos, se habló con ellos.</p>
+<p style="text-align: justify;">Yo le instruí al general secretario que platicara con ellos, para ver cuáles eran sus necesidades y se hizo un ajuste, se actuó de parte de ellos y de parte de nosotros con austeridad; lo mínimo, no el aparato.</p>
+<p style="text-align: justify;">Es que era impresionante lo de antes. Yo no sé, ¿no se acuerdan cuando pasaba un presidente, cuantas camionetas?, ¿ya no se acuerdan de eso?  A lo mejor hay alguna imagen por ahí, era una, otra, otra, otra, 10 camionetas, y luego atrás ambulancias, de veras, motos, cerraban las calles.</p>
+<p style="text-align: justify;">Ya eso ya cambió, ya no es así, ya es otra cosa. Yo estoy procurando, pero además lo saben quienes desde hace tiempo están conmigo, que se respeten los altos, que no haya prepotencia en nada, en nada absolutamente; y por eso tengo la oportunidad, hasta cuando voy a la casa, que ya ahora ya se sabe más dónde vivo, porque sacaron hasta una manta y en primera plana.</p>
+<p style="text-align: justify;">Ayer por ejemplo, iba yo en Tlalpan y se junta un carro, un señor, y me dice: ‘Ya se está preparando, hay que hacer la comisión para los festejos de la Independencia’; o sea, hasta en el carro tenemos diálogo. Le digo: Sí, andamos en eso, vamos a crear, porque vamos a crear una comisión con ese propósito para organizar los festejos, la celebración de la Independencia en el 2021.</p>
+<p style="text-align: justify;">Y dice: ‘Yo participo’. Y ahí me entrega una tarjeta. Y ya les vamos a presentar todo el plan y sí vamos a invitar a participar a muchos ciudadanos, pero esto da oportunidad de diálogo con todos.</p>
+<p style="text-align: justify;">Imagínense con camioneta blindada y con…</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> … la de Fox de 12, y la del presidente…</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Les podríamos decir, les podría comentar con datos, pero les diría que va a significar como un cinco por ciento, nada de la vigilancia que había antes, como un cinco por ciento, o sea muy poco, se redujo a lo mínimo.</p>
+<p style="text-align: justify;">Yo recuerdo que en total cada expresidente costaba alrededor de 55 millones de pesos al año, o sea, como cinco millones de pesos mensuales. Entonces, ahora cinco millones de pesos mensuales no, no es eso.</p>
+<p style="text-align: justify;">Aquí me está soplando el general. Nada más es el sueldo de los elementos, ellos ponen vehículo y combustible. Así es, ¿verdad?</p>
+<p style="text-align: justify;">Muy bien.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Buenos días, señor presidente. Carlos Montesinos de <em>La Hoguera</em>.</p>
+<p style="text-align: justify;">Para preguntarle. Hace unos minutos, antes de iniciar la conferencia, el presidente Donald Trump tuitea que el día de ayer hubo un choque entre elementos militares de México y de Estados Unidos en la frontera donde incluso las tropas mexicanas habrían apuntado a los estadounidenses y amenazó con represalias para empezar un despliegue armado en la franja fronteriza.</p>
+<p style="text-align: justify;">Preguntarle tanto a usted como al general secretario si tienen información de este percance, si hubo algún reporte o si es falso lo que está tuiteando el presidente Trump.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Conozco el texto de un tuit, pero no va en ese sentido. Habla de migrantes.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> Otro, uno después de ese.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> A ver.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Habla de siete marinos en la frontera de Chihuahua con Texas, presidente.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Nosotros no vamos a caer en ninguna provocación. Le digo al presidente Donald Trump que nosotros queremos mantener una relación respetuosa y de amistad con su gobierno. Que vamos a analizar este incidente, vamos a tomar en cuenta lo que él está señalando y se va a actuar de conformidad con la ley en el marco de nuestra soberanía.</p>
+<p style="text-align: justify;">Pero lo más importante es decirle que no vamos a pelearnos con el gobierno de Estados Unidos, lo más importante es decirle que queremos una relación de respeto mutuo y de cooperación para el desarrollo; y que, así como nos hemos venido entendiendo durante varios meses, vamos nosotros a seguir actuando para mantener relaciones cordiales y de buena vecindad con el gobierno y con el pueblo de Estados Unidos.</p>
+<p style="text-align: justify;">Aprovecho para decirlo, había visto el primero, no había visto este, pero ya por lo que estoy leyendo vamos a hacer la revisión del caso, tomar en cuenta lo que él está señalando y asegurarle de que va a haber siempre de parte nuestra una actitud responsable y de respeto al gobierno y al pueblo de Estados Unidos.</p>
+<p style="text-align: justify;">Eso es lo que puedo comentar.</p>
+<p style="text-align: justify;"><strong>PREGUNTA: </strong>Buenos días, señor presidente. Neldy San Martín, de <em>Proceso</em>.</p>
+<p style="text-align: justify;">Quiero preguntarle. El día de ayer se presentó aquí la información de que se les está dando una ayuda de 15 mil pesos a las víctimas de Tlahuelilpan; sin embargo, <em>Proceso</em> publicó este fin de semana, reveló la información de la existencia de un seguro por 250 millones de dólares que Pemex tiene con la aseguradora Mapfre.</p>
+<p style="text-align: justify;">Y quisiera preguntarle por qué no se hizo efectiva esta póliza para indemnizar a las víctimas, dado que contemplaba siniestros como el que ocurrió en Tlahuelilpan; preguntarle porque esta póliza está pagada y está vigente hasta junio de 2019. Esa como primera pregunta.</p>
+<p style="text-align: justify;">Y la segunda es que ayer se dio a conocer que la Sedena ya entregó la manifestación de impacto ambiental sobre el aeropuerto en Santa Lucía a la Semarnat; y este documento da cuenta de un aumento del 11.7 por ciento en el presupuesto que se va a destinar para la construcción de esta obra. Todavía no inicia la obra y ya se incrementó de 70 mil millones de pesos, según el plan maestro que presentaron en la transición por parte de Grupo Riobóo, a 78 mil 500 millones de pesos; y eso que todavía no inicia la obra. Esto dado que hay un cerro que no se había contemplado en el plan maestro.</p>
+<p style="text-align: justify;">Preguntarle si prevén más incrementos. Y también, ¿por qué no se tomó en cuenta este cerro, que complicaría las operaciones de una de las pistas para el aeropuerto comercial?</p>
+<p style="text-align: justify;">Y si le han también expresado información sobre la viabilidad. En esta manifestación de impacto ambiental se habla que el acuífero en el que está Santa Lucía está sobreexplotado y este abastece al Estado de México, Hidalgo y parte de la Ciudad de México.</p>
+<p style="text-align: justify;">Muchas gracias.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, acerca de lo del seguro, que no tenía conocimiento, pero que vamos a investigar. Si es así, se va a pedir a la aseguradora que cumpla y que le pague lo que corresponde a los familiares de las víctimas, nada más es cosa que se analice.</p>
+<p style="text-align: justify;">Yo creo que para mañana ya tengo yo la información y le puedo responder. Y sí es cierto no habría ningún obstáculo, porque pagaría la aseguradora, ni siquiera es el gobierno federal, pero lo vamos a analizar.</p>
+<p style="text-align: justify;">Lo otro, es parte del proyecto, se están haciendo los ajustes, lo que se tiene que tomar en cuenta es que no hay corrupción, no hay fines de lucro, nada más para que no nos confundan y deben de estarse haciendo los presupuestos más apegados a la realidad, antes eran anteproyectos, como es normal en estos casos, ahora ya se está hablando en términos de aeropuertos, ahora ya se está aterrizando. Ya se está viendo más el presupuesto.</p>
+<p style="text-align: justify;">Claro que se tomó en cuenta el cerro. ¿Saben desde cuándo? Desde hace como 50 años que se construyó el aeropuerto militar de Santa Lucía, porque es el mismo aeropuerto. Ya me imagino que el cerro existía, con todo respeto. Pero de todas maneras vamos a dar toda la información.</p>
+<p style="text-align: justify;">Les adelantamos que la semana próxima ya se presenta todo el proyecto y les adelantamos que cuando menos nos vamos a ahorrar 100 mil millones de pesos.</p>
+<p style="text-align: justify;">Y les adelantamos que vamos a resolver el problema de la saturación del actual aeropuerto en tres años, no en seis, como originalmente lo tenían contemplado.</p>
+<p style="text-align: justify;">No vamos a tener problema de falta de agua y vamos bien, y estamos acostumbrados a enfrentar obstáculos y a resolver problemas. Esto es como una carrera de obstáculos, corre uno y pone un obstáculo, hay que brincarlo, y sigue uno corriendo y otro obstáculo, hay que brincarlo. Pero la Cuarta va.</p>
+<p style="text-align: justify;">Eso es lo que puedo comentar.</p>
+<p style="text-align: justify;"><strong>PREGUNTA: </strong>Señor presidente, Jaime Hernández, del periódico digital <em>Bajo Palabra.</em></p>
+<p style="text-align: justify;">Ayer se refirió usted al asunto de los sembradores de amapola de Guerrero, donde hay una emergencia porque el Ejército fumiga los sembradíos y se quedan sin el producto que les da de comer a decenas de pueblos de la sierra.</p>
+<p style="text-align: justify;">Usted dijo que ya hay programas para apoyo alimentario, pero eso fue desmentido ayer por un diputado que preside la Comisión Especial de Regionalización de la Sierra para la Armonía y Desarrollo de sus Pueblos.</p>
+<p style="text-align: justify;">La pregunta es, si a pesar de que hay hambruna en la Sierra de Guerrero el Ejército seguirá destruyendo los plantíos de amapola.</p>
+<p style="text-align: justify;">Y la segunda pregunta es si la propuesta del gobernador de Guerrero, Héctor Astudillo, de legalizar la amapola para bajar la criminalidad es el camino correcto para pacificar ese estado.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Nosotros estamos atendiendo en todos lados y más en los pueblos apartados, marginados, pobres, se está dando apoyo a toda la población, se atiende a todos, se escucha a todos, se respeta a todos, pero se le da preferencia a los humildes. Por el bien de todos, primero los pobres. Entonces, está recibiendo apoyo y van a seguir recibiendo apoyo, sobre todo la gente más necesitada.</p>
+<p style="text-align: justify;">En este caso hubo una reunión con pobladores, servidores públicos con pobladores de esta región de Guerrero y se llegó a un acuerdo; a lo mejor el legislador no tiene la información, pero vamos a buscarlo para informarle, porque estuvo nuestro coordinador Amílcar Sandoval en una reunión y otros servidores públicos.</p>
+<p style="text-align: justify;">Acerca de la propuesta del gobernador de Guerrero. Es algo que vamos a resolver en su momento, porque necesitamos primero, lo dije ayer, el ABC, acabar con la corrupción, desterrar la corrupción. Justicia, justicia, justicia.</p>
+<p style="text-align: justify;">Con justicia garantizar la paz y la tranquilidad.</p>
+<p style="text-align: justify;">Entonces, vamos en eso, vamos avanzando. Es un cambio de fondo, es un cambio de régimen, no es un cambio de gobierno. Van a cambiar muchas cosas. En el tiempo que llevamos han cambiado muchas cosas y nos faltan otras, pero es de cambiar permanentemente hasta abandonar, esperemos que por un buen tiempo, al régimen de injusticias, de opresión, de privilegios. Ese es el propósito.</p>
+<p style="text-align: justify;">No les gusta que yo hable todos los días de los conservadores. Había un maestro que estimaba mucho, que ya falleció, el que hizo el mejor estudio sobre el PRI, Luis Javier Garrido, extraordinario, lo recuerdo y que sea esta mención un homenaje, y no dejaba de hablar en sus artículos de Salinas, no dejaba.</p>
+<p style="text-align: justify;">Pasa el tiempo y ahora puedo decir cuánta razón tenía el maestro Luis Javier Garrido. Hay a los que no les gusta que yo hable de los conservadores y los conservadores y los conservadores. Ya no puedo decir la mafia del poder, la mafia del poder, la mafia del poder, ya no puedo porque eso era antes, ya no va con mi investidura, pero conservadores, conservadores, conservadores, eso sí puedo. Está más <em>fresa</em>, está más suave, pero es cambio de régimen y vamos avanzando.</p>
+<p style="text-align: justify;">Una más, allá atrás.</p>
+<p style="text-align: justify;">El compañero, porque nos tenemos que ir a Santa Lucía.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> David Rodrigo Pérez de Tejada de <em>Informe 24</em>.</p>
+<p style="text-align: justify;">Dos preguntas.</p>
+<p style="text-align: justify;">Una. Ahorita habla del ABC de la justicia. Y la pregunta sería, ¿no sería justo que esos elementos que se les está otorgando de guardia a estos expresidentes los paguen ellos?, al final de cuentas aquí ha mostrado los negocios que han hecho. Entonces, ¿no sería justo en esa entrada de justicia que ellos paguen esos elementos, el sueldo de esos elementos? Esa es una.</p>
+<p style="text-align: justify;">Y la otra pregunta es, en estos apoyos a los jóvenes se han dado en las redes sociales a conocer muchas fotos de jóvenes que han cobrado su dinero y algunos desafortunadamente los están gastando en otras cosas. ¿El gobierno federal ha pensado en algunos candados ahora que se les entreguen las tarjetas para que no lo puedan gastar en alcohol y cigarros?</p>
+<p style="text-align: justify;">Esas serían las dos. Gracias.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Te contesto la segunda, porque la primera es muy buena, tu primera pregunta, esa sí es de una profunda reflexión, esa amerita más tiempo y la vamos a dejar para mañana, porque tienes toda la razón, no es fácil de contestar.</p>
+<p style="text-align: justify;">Si se habla de justicia, ¿por qué ellos tienen esta vigilancia especial? Podríamos contestar de que se trata de expresidentes.</p>
+<p style="text-align: justify;">Como lo expresó el expresidente Calderón en una carta que me envía. ‘Me tocó -me dice- enfrentar lo de la lucha, combate, guerra al narcotráfico y hay gente que se siente afectada y tengo preocupación por eso´. Entonces, ahí hay una justificación, es algo especial. Le tocó a él hacer algo.</p>
+<p style="text-align: justify;">En el caso del presidente Fox podría hacer otro argumento, pero de todas maneras no es convincente.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> Además es dinero de los mexicanos.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, sí.</p>
+<p style="text-align: justify;">Por eso vamos a… es más, vamos a dejarlo de tarea para todos los que nos están escuchando, que nos ayuden, por qué sí, por qué no. Es buen tema este.</p>
+<p style="text-align: justify;">¿La otra?</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> Son los candados.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> En eso yo no estoy de acuerdo.</p>
+<p style="text-align: justify;">Los jóvenes y los ciudadanos son mayores de edad, siempre se les ha querido tutelar, siempre se busca reglamentar lo que se les entrega, como si fuesen irresponsables, como si no actuaran racionalmente, hay esa tendencia.</p>
+<p style="text-align: justify;">Y lo usan mucho como pretexto para que haya intermediarios que les entreguen los fondos o para reglamentar y decirles: ‘Puedes gastar en esto, en esto no’.</p>
+<p style="text-align: justify;">Les voy a poner un caso, lo que sucede y ojalá se revise con los investigadores, los que están estudiando maestría, doctorado, que tienen becas en universidades, en la academia. Les entregan, aparte de la beca, algunos bonos para comprar materiales y les especifican qué tipo de material pueden comprar, una computadora con tales características, casi hasta les dicen a dónde la van a ir a comprar. Programas gubernamentales.</p>
+<p style="text-align: justify;">¿Cómo a alguien que está estudiando un posgrado se le va a reglamentar lo que se supone es un estímulo para que trabaje en investigación?</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> Pero esas becas se dan también a los de secundaria; y últimamente ha habido estudios donde los mayores que compran cigarros, por ejemplo, son jóvenes de secundaria.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pero hay muchos jóvenes que no actúan así; además hay que empezarle por darle la confianza a los jóvenes y a todos. ¿Por qué por adelantado vamos a desconfiar?</p>
+<p style="text-align: justify;">Es mejor que aquí y que todos les mandemos a decir respetuosamente: ‘Oigan, cuiden lo de la beca, úsenlo bien, aplíquenlo bien’, a reglamentarlo. El caso de los que están estudiando, los que tienen beca de Conacyt y en general, pregúnteles. Hay quienes en cinco años tienen hasta tres computadoras, porque sólo pueden gastar en eso sus estímulos, ¿por qué no se les da el dinero?, ¿por qué se les administra?, ¿por qué se les considera menor de edad?</p>
+<p style="text-align: justify;">Yo, una de las cosas que he planteado aquí en el gobierno y que a lo mejor lo vamos a llevar a cabo, es que un trabajador tiene su sueldo, pero además tiene prestaciones, tiene derecho a despensa, tiene derecho a lentes, tiene derecho a tener un apoyo para vacaciones aparte del sueldo.</p>
+<p style="text-align: justify;">¿Saben qué quisiera hacer? Todas esas prestaciones sumarlas al salario. ¿Por qué el gobierno le va a administrar sus prestaciones a los trabajadores? ¿Por qué no se les da en efectivo?</p>
+<p style="text-align: justify;">Pero quedó eso y ahí entra el trafique, porque si van a comprar despensas, porque es un contrato, es decir, hay la obligación del gobierno de entregar las despensas, entonces, viene el contrato y el que compra se queda con una parte. Entonces, hay una fuga, no le rinde el dinero al trabajador.</p>
+<p style="text-align: justify;">Todo lo que podamos entregar de manera directa partiendo de que el ciudadano es mayor de edad. Estamos viviendo un momento en México único de ciudadanos de primera en cuanto a conciencia. Es mucha pieza el mexicano, es lo mejor que tenemos, nuestro pueblo muy consciente.</p>
+<p style="text-align: justify;">Hubo un despertar ciudadano. Ya cambió todo esto. Cambió la mentalidad del pueblo que es lo más difícil de lograr. Siempre lo he dicho. Hay veces que hay revoluciones y no cambia la mentalidad de la gente, la gente sigue pensando igual. Ahora sin violencia, un cambio de mentalidad y cuando cambia la mentalidad del pueblo cambia todo, todo. No hay nada que detenga la posibilidad de una transformación, porque ya es una mentalidad distinta.</p>
+<p style="text-align: justify;">Y sí estoy enterado de que algunos jóvenes como son algunos, no todos, exhiben y dicen: ‘Miren lo de mi beca’’. Y esto también a los conservadores los pone, pero enojadísimos, enojadísimos, porque para ellos no hay que entregar nada, nada. Es paternalismo, es populismo.</p>
+<p style="text-align: justify;">Yo tengo una concepción distinta. Hay gobierno que dan y hay gobiernos que quitan y el gobierno de nosotros es un gobierno que da. Y si darles a los jóvenes es ser populista, que me apunten en la lista.</p>
+<p style="text-align: justify;">Muchas gracias.</p>
+<p style="text-align: justify;">+++++</p>
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

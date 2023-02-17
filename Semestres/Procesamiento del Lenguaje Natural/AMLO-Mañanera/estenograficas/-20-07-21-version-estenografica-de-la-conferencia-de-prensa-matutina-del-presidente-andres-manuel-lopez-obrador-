@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>20.07.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/20-07-21-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=142118' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F20-07-21-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F20-07-21-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66ivl-f-546dec9b2-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":19,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"38f79f96","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55189,"ak.gh":"23.47.207.46","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616363","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==8zZ/tx05LIMqLxCahhFVudY6fo1q8hTfNuh2qi7IPmDhcIaVmErHRkSVL7xem/m05dpjIbOLq8fzSiXwCbZQNALlZUGIfaepAdSNu6xCocHUM8RcXB4nuj+msxpsB2qLtVB7OKgDEtFOZVNdWQvufzqxfw/xWGPb3leL3/Fqc9u63W44K+gqyMIyVihdxbMTEN3/ijZM4duSNK+V7ojy3F4oQNiWILdgoE7zmk5qo2oXtkSahTd4S6XnsjXUh8fwl7d1r6/zeuTU67wDX2L7VXfFPp+OGsbkZtO+Ie+ZUqcsC8Ra8zG8EnDJDdJ77wSmk03g1b0L7PiJ6y1Y0iXxfpc9lWzXB5tWZXUiTbIwbKokdnAozft69u724E7LxiMUvQD0Fq4dJcbj2fsKsq378crG4/EgHCU5YdwIYRT5eT0=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-142118 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef201d2c386" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>20.07.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 20.07.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-142118" class="post-142118 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2021/07/20-07-2021-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-01.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2021/07/20-07-2021-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-01-745x450.jpg" alt="20.07.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">20.07.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><em>2021: Año de la Independencia</em></p>
+<p>&nbsp;</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Buenos días.</p>
+<p>Bueno, iniciamos enviando una felicitación al pueblo del Perú, porque el día de ayer las autoridades electorales de esa república le reconocieron su triunfo al maestro Pedro Castillo Terrones. Él va a ser el próximo presidente de la República del Perú, ayer se le reconoció como presidente electo. Le enviamos al maestro Pedro Castillo Terrones un abrazo solidario. Le deseamos que le vaya muy bien, lo merece su pueblo.</p>
+<p>Somos parte de dos naciones que tienen antecedentes culturales de mucha trascendencia histórica, son dos grandes civilizaciones, las del Perú y las de México, la gran cultura inca del Perú y nuestras culturas, desde la cultura madre, la cultura olmeca y muchas más del México prehispánico, de modo que es mucho lo que nos une y nos da muchísimo gusto este triunfo, lo celebramos.</p>
+<p><audio src="http://presidente.gob.mx/wp-content/uploads/2021/07/2021-07-20-Matutina.mp3" controls="controls"></audio></p>
+<p><iframe src="//www.youtube.com/embed/bds3vKfxOK4?t=661" width="600" height="400" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Vamos a enviar una representación, por la situación de la pandemia vamos a que nos represente sólo una persona o un alto funcionario y he decidido que asista a la toma de posesión que se va a celebrar en este mismo mes, que nos represente el canciller Marcelo Ebrard al Perú.</p>
+<p>Vamos a informar hoy martes, como siempre, sobre el Pulso de la Salud, sobre la situación de la pandemia. En esta ocasión se va a informar sobre la compra de medicamentos, algo que ha significado pues una lucha, una decisión que tomamos y que está llena de obstáculos -pero afortunadamente ya se resolvieron todos los problemas- por los intereses que existían en la compra de los medicamentos.</p>
+<p>Eran un jugoso negocio que se hacía al amparo del poder público y también a costa del sufrimiento de la gente, porque no sólo cobraban mucho por los medicamentos que se distribuían, unas cuantas empresas tenían acaparado todo lo relacionado con el abasto de medicamentos, 10 empresas distribuidoras, ni siquiera farmacéuticas, vendían 70 mil millones de pesos; y de esas 10, tres, pues como el 40 por ciento de todo los medicamentos los distribuían a precios, repito, elevadísimos y con el apoyo de políticos corruptos.</p>
+<p>No sólo se compraban caros los medicamentos, sino de mala calidad, a veces adulterados, había gente que perdía la vida por recibir medicamentos echados a perder. Entonces, era mucho el daño que se ocasionaba por la corrupción.</p>
+<p>Nos llevó tiempo avanzar en el propósito de comprar los medicamentos en el extranjero. Se compraron medicamentos en varios países y en México también, y ya se tiene abasto de medicamentos, ya se tienen los medicamentos para los centros de salud, para los hospitales, para garantizar el derecho a la salud, la atención médica y los medicamentos gratuitos, que fue un compromiso que hicimos.</p>
+<p>Entonces, vamos a empezar de esa manera, informando sobre la compra de los medicamentos y luego los informes sobre la pandemia y el programa de vacunación, de cómo vamos, y ya posteriormente abrimos para preguntas y respuestas. Entonces, le pido al doctor Jorge Alcocer.</p>
+<p><strong>JORGE ALCOCER VARELA, SECRETARIO DE SALUD:</strong> Gracias, señor presidente. Con su permiso.</p>
+<p>Muy buenos días a todas y todos ustedes, y a quienes se unen por vía remota.</p>
+<p>El pasado 27 de mayo presentamos, como ya informó el señor presidente, los problemas y distorsiones a los que nos enfrentamos por la forma como se compraban antes los medicamentos.</p>
+<p>Hicimos un recorrido por esos momentos cuando la salud se veía como una mercancía y los medicamentos como un medio para enriquecer a unos cuantos. Una historia de intereses y corrupción que enfermó a todo el sistema de salud en México, pero también permitió una nueva historia, la de las acciones que se han tomado por el señor presidente para revertir esa situación y curar al sistema.</p>
+<p>Han pasado más de siete semanas de trabajo, han pasado muchas cosas desde entonces, acciones que consideramos es un buen momento para informarlas a todos ustedes. Describiré lo que compró la Unops, lo que compramos en el sector Salud y los resultados obtenidos.</p>
+<p>En la primera lámina, por favor, aquí está lo que se compró mediante el mecanismo de las Naciones Unidas, la Unops. Hasta hoy ha adjudicado la Unops un total de mil 38 claves y ha formalizado 995 con contratos, que son 693 medicamentos y 345 de material de curación.</p>
+<p>Estas mil 38 claves representan un monto de dos mil 262 millones de dólares que equivalen a 45 mil 422 millones de pesos y representan también desde luego un volumen de 895 millones de piezas ya adquiridas.</p>
+<p>Ahora bien, ¿cómo está la entrega de estas claves por la Unops?, ¿cuándo llegarán, se preguntan muchos, estos medicamentos y el material de curación?, ¿y cómo se garantizará un abasto sin interrupciones?</p>
+<p>Hoy se encuentran en el país ya cerca de 197 millones de piezas de medicamentos, 25.8 millones ya entregadas a las instituciones del sector Salud en todo el país, que corresponden a 268 diferentes claves, casi 171 millones de piezas de las 995 claves con órdenes de suministro que se encuentran en tránsito.</p>
+<p>En esta tabla se puede observar la distribución por institución.</p>
+<p>Y en la siguiente lámina ponemos a su consideración lo que no compró la Unops. El pasado 10 de junio nos informó que no había tenido éxito en la adquisición de 710 claves de medicamentos y 286 de material de curación por diferentes razones, aquí están las más importantes: se ofrecieron proveedores que no cumplían con los requisitos mínimos de seguridad en la evaluación técnica, también precios no razonables y las que ofrecieron empresas ya inhabilitadas en México.</p>
+<p>En consecuencia, la Unops planteó al sector Salud tener una solución, pero esta solución, esta alternativa implicaba 45 días de compra más 15 días de contrato, en el mejor escenario había que esperar 60 días y no contábamos con ese tiempo.</p>
+<p>Al informarle al señor presidente Andrés Manuel López Obrador esto, nos dio una clara instrucción: ‘Salgan a comprar, háganlo rápido, háganlo bien, no descansen hasta lograrlo’. Y esa fue nuestra prioridad durante 37 días: establecer, construir y ejecutar un plan B para la compra sectorial.</p>
+<p>En la siguiente lámina vemos en qué consistió dicho plan B. Y estuvimos para ello reunidos, y doy un reconocimiento muy, muy importante a los funcionarios que no sólo fueron los de la Secretaría de Salud, como son los titulares del Insabi, el IMSS, el Issste, la coordinación de institutos y la Oficialía Mayor de la Secretaría de Hacienda, Thalía Lagunas, una mujer indómita, así como funcionarios de Sedena, Semar, la Secretaría de Seguridad Pública y en forma importante la Secretaría de Relaciones Exteriores.</p>
+<p>Nuestra meta era adquirir 996 claves de medicamentos y material de curación. Había que actuar de forma estratégica, coordinada y garantizar la operación de las instituciones de salud pública del país, pero para hacerlo responsable teníamos que hacerlo rápido, alcanzando precios justos, aumentando la participación de muchos proveedores, nacionales y extranjeros sin que eso comprometiera la calidad de los medicamentos; todo lo anterior, con un apoyo, soporte normativo, conforme a la ley, de manera transparente y sin la menor sospecha de abusos o actos de corrupción.</p>
+<p>Señor presidente.</p>
+<p>Pueblo de México:</p>
+<p>Podemos decir que lo logramos, las instituciones con servidores públicos comprometidos, dedicados, con experiencia y ¿por qué no decirlo? emocionados ante un reto de este tamaño, demostraron que sí es posible hacer una compra sectorial con las siguientes características, seis son.</p>
+<p>Primero, en la siguiente lámina, sí fue posible comprar de manera más eficiente, en 37 días el sector logró adquirir desde el gobierno federal lo que al organismo internacional le tomó 10 meses. Logramos adquirir 950 claves, 639 de medicamentos y 311 de material de curación, significa un volumen de mil 729 millones de piezas entre 816 millones de medicamentos y 912 millones de material de curación.</p>
+<p>Segundo, sí fue posible comprar sin sobreprecios y con ahorros. El presupuesto para la compra sectorial era de 38 mil 727 millones de pesos y logramos adquirir lo que necesitamos con 31 mil 547 millones de pesos, es decir, se logró en este momento un ahorro por siete mil 180 millones de pesos.</p>
+<p>Otro ejemplo, en 143 claves donde la Unops no adquirió todo el volumen de piezas, el precio conseguido por nosotros en el plan B para complementar esta demanda estuvo por abajo del precio pagado por la Unops, sólo por eso en esas 143 claves nos ahorramos 290 millones de pesos.</p>
+<p>El tercero, como parte de los resultados, es que sí fue posible aumentar la participación de proveedores, esto es muy importante por lo ya mencionado por el señor presidente. En este proceso participaron 244 empresas, no sólo unas cuantas, de las que resultaron adjudicadas 171 empresas.</p>
+<p>Un logro importante respecto a la competencia es que, como narramos en el primer informe en mayo, la compra se concentraba antes en 10 empresas que acaparaban el 80 por ciento de todo lo adjudicado, una sola de ellas, Fármacos Especializados, concentraba el 35 por ciento.</p>
+<p>Con esta compra, como pueden ver en la tabla, el proveedor que tiene el porcentaje más alto o que logró el porcentaje más alto es Gilead Sciences con el 6.78 por ciento, le sigue Birmex y así otras empresas como Pfizer, Roche y Novartis, entre otras.</p>
+<p>Las 10 empresas que más concentraron hoy suman 38.2 por ciento y no es ninguna de las 10 empresas que tradicionalmente concentraban el mercado.</p>
+<p>Participaron -y un agradecimiento a sus representantes en México, a sus embajadores, nuestros también- además de las empresas mexicanas, de Alemania, Argentina, Canadá, Corea del Sur, Cuba, Estados Unidos, Francia y la India. Un agradecimiento a todos ellos.</p>
+<p>En cuarto lugar, sí fue posible hacer procesos transparentes y abiertos.</p>
+<p>En quinto lugar, sí fue posible que la calidad de los medicamentos fuera la mejor. Para ello, participó Cofepris, este nuevo Cofepris, de manera activa en el proceso de evaluación técnica para dar seguridad en lo que se compraba.</p>
+<p>Sexto, sí fue posible avanzar hacia la optimización de la demanda. Se tomó la decisión sectorial de optimizar nuevamente la demanda por todas las instituciones ya señaladas donde participaron especialistas de ello, se analizaron las 167 claves para determinar si era necesario recurrir a alternativas terapéuticas para migrar a esos medicamentos o cancelar su compra.</p>
+<p>En esta siguiente aparece la portada de una crónica de lo que he estado hablando y lo que hicimos en las mesas de trabajo que están ahí señaladas, en lo que es la Secretaría de Salud y oficinas alternas. Y desde luego ahí se narra cada uno de los pasos, que pronto estarán activas, estamos prácticamente en un par de días afinando, lo que dio sustento al nuevo acuerdo de consolidación, firmado por 37 dependencias y entidades del gobierno federal y el programa de trabajo por todos ellos.</p>
+<p>Todos estos procedimientos y el desarrollo de mesas de trabajo de tipo técnico, económico, médicos, legales y administrativos se realizaron en estos 37 días.</p>
+<p>Quiero expresar mi más amplio reconocimiento y agradecimiento a los 116 servidores públicos especialistas de las instituciones ya mencionadas, de la Secretaría de la Función Pública y los órganos internos de control que participaron en este proceso, además ya he mencionado a los embajadores.</p>
+<p>Finalmente, los resultados globales en número están aquí señalados en las siguientes láminas.</p>
+<p>El número de claves adquiridas, mil 842, de las cuales mil 186 son de medicamentos, 656 de material de curación, lo que representa un 90.6 por ciento del avance. El 9.4 restante representan el volumen de la compra y se emigrarán a… El seis por ciento del volumen de la compra y se emigrarán a claves sustitutas del compendio nacional de insumos para la salud porque requieren ese intercambio.</p>
+<p>Así, el volumen de piezas adquiridas fue dos mil 624 millones 768 mil 642 piezas de las que ya mencioné, mil 514 millones son medicamentos y mil 110 millones son piezas de material de curación, igual de importantes.</p>
+<p>Avance total, 93.4; monto de la compra, reitero, 76 mil 969 millones de pesos; de la Unops, 45 mil 422 millones de pesos y 31 mil 547 millones de pesos del sector.</p>
+<p>Monto estimado de ahorros, 18 mil 919 millones de pesos con un ahorro de 11 mil 880 por Unops y a nivel sectorial siete mil 180 millones de pesos.</p>
+<p>Termino con los oncológicos por el interés, válido desde luego, pero exagerado y utilizado con otros fines de alguna parte de la información. Es importante, es de los medicamentos oncológicos más difíciles de conseguir, no desde ahora, sino de décadas para acá, en -particularmente, desde luego- los que se utilizan para los niños con cáncer.</p>
+<p>La Unops adquirió 132 claves de medicamentos oncológicos con un total de 11 mil 795 millones de pesos y un volumen de seis millones 929 mil 197 piezas, pero faltaban 23 claves de alto consumo y cuatro de abasto complementario.</p>
+<p>Gracias a la cancillería mexicana a través de las embajadas de México en India, Argentina, Corea, Canadá, Francia, Alemania y Cuba, se logró la consecución de 27 claves oncológicas, o sea, del total de alto consumo, dentro de las que destacan, para aquellos que tengan interés médico directo, mitoxantrona, ciclofosfamida, muy utilizada, epirubicina, idarubicina, metotrexato, doxorrubicina y vincristina.</p>
+<p>Finalmente, el calendario de entrega, como se muestra aquí, se describe en esta tabla con los volúmenes de mes con mes que estarán recibiendo las instituciones.</p>
+<p>Como señalamos, la última milla, que a veces es la más pesada, la que concluye el proceso del almacén a la farmacia y de la farmacia a las manos de los pacientes estará supervisada de manera meticulosa, ya que nada de este proceso que involucra elementos administrativos, legales, científicos, médicos, técnicos, logísticos y financieros, será útil si no se traduce en el cumplimiento cotidiano del artículo 4º de la Constitución para que los mexicanos y las mexicanas reciban cada día de manera gratuita y oportuna el medicamento que su médico le recetó.</p>
+<p>Muchas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, pues esto es lo que tiene que ver con la compra de los medicamentos. Esta es una muy buena noticia porque se rompió, se quebró el sistema de corrupción que se había establecido y que impedía contar con medicamentos y medicamentos de buena calidad. Además del abasto, esto ha significado también ahorros importantísimos para la hacienda pública.</p>
+<p>No pudo la mafia que existía en todo lo relacionado con la venta o compra-venta de medicamentos, no pudo impedir que se lograra el propósito de adquirir todos los medicamentos.</p>
+<p>Esto llevó a hacer muchísimas modificaciones legales, empezando porque no se podía comprar medicamentos en el extranjero, los proveedores nacionales con mucha influencia política tenían prohibido que se compraran medicamentos en el extranjero y se tuvieron que modificar leyes y reglamentos para que se pudiesen comprar medicamentos en el extranjero.</p>
+<p>También es importantísimo el que contamos con el apoyo de la ONU para la compra de los medicamentos. Les agradecemos mucho a este organismo de la ONU, Unops, que ayudó para comprar medicamentos. Ellos tienen una experiencia en el mundo en la compra de medicamentos.</p>
+<p>Desde luego, no podían trabajar en México, la Unops no llevaba, no participaba en la compra de medicamentos en el país. Aquí, repito, era un negocio de una minoría rapaz, políticos, dueños de medios de información y gente muy ambiciosa que eran capaces hasta de medrar con el dolor humano. Entonces, fue realmente un triunfo.</p>
+<p>Como ya se estableció este sistema de contratación, tanto en lo que corresponde a Unops como la compra con otros países, ya podemos hablar de una comprar multianual, es decir, hasta el 24, porque este abasto tiene vigencia, alcanza hasta a mediados del año próximo.</p>
+<p>Entonces, ya se inicia ahora la adquisición de lo que nos va a faltar para terminar el año próximo y hacia adelante. Ya es un proceso, ya es un mecanismo establecido que no había y esto va a facilitar mucho las cosas.</p>
+<p>Ahora también tenemos que mejorar el sistema de distribución interno para que lleguen a todos los hospitales los medicamentos, hasta los centros de salud, unidades médicas ubicadas en los pueblos marginados de la sierra, del semidesierto, de las zonas más apartadas. Así como llegan los refrescos o las bolsitas de papas, que llegan a todos lados, si ellos pueden ¿por qué nosotros no vamos a poder distribuir los medicamentos? Eso es lo que se va a mejorar mucho, la distribución.</p>
+<p>Y luego también un llamado a todos los trabajadores del sector Salud a cuidar los medicamentos, a denunciar actos de corrupción. Nada de que ingresa al almacén un lote de medicamentos, se firma y sale de nuevo para el comercio ilegal, para la clandestinidad. Que nos ayuden todos los trabajadores del sector Salud y todos los ciudadanos. Cero corrupción en el manejo de los medicamentos. Nada de que no hay medicina en el hospital, pero sí hay en las farmacias cercanas y hasta recomiendan: ‘Ve ahí, porque ahí la vas a encontrar’.</p>
+<p>Puede ser que se trate de desabasto real en el hospital que no esté el medicamento, pero también no queremos que sea porque se robaron el medicamento de los almacenes de los hospitales y se entregó a farmacias o se está distribuyendo, vendiendo en el mercado negro. Entonces, todos a cuidar los medicamentos.</p>
+<p>Con esto podemos garantizar el que no falten los medicamentos. Y es un derecho el que se puedan tener medicamentos gratuitos para todos, atención médica y medicamentos gratuitos para todos. En unidades médicas, centros de salud, hospitales, en los institutos nacionales de salud, lo mismo, medicamentos gratuitos.</p>
+<p>Y que nos ayuden todos, médicos, enfermeras, trabajadores del sector Salud y ciudadanos a cuidar y a denunciar, y portarnos bien. Ya se acabó la etapa de la corrupción, donde todo era inmoralidad y corrupción, ahora hay una etapa nueva en la vida pública, entendiendo de que toda esta compra se hace con dinero del pueblo, dinero de todos, porque el gobierno es simplemente administrador de los dineros del pueblo.</p>
+<p>Entonces, es un buen día y es una muy buena noticia.</p>
+<p>Vamos ahora con la pandemia. Hugo.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ, SUBSECRETARIO DE PREVENCIÓN Y PROMOCIÓN DE LA SALUD:</strong> Con gusto, presidente. Con su permiso.</p>
+<p>Secretario, secretarios, muy buenos días; muy buenos días tengan todas y todos ustedes.</p>
+<p>Hoy sobre la pandemia queremos dirigirnos en especial a la juventud para que tenga presente cuáles son sus riesgos, cuál es la situación que enfrenta y que no es despreciable, es importante que tomen en cuenta todos ustedes, que son jóvenes y mujeres jóvenes, que también ustedes pueden ser afectadas y afectados por la epidemia de COVID-19 en México y en el mundo.</p>
+<p>Esto es fenómeno que está ocurriendo en muchos países, en particular los países que hemos tenido programas de vacunación amplios y que hemos logrado ya una cobertura muy importante de la población mayor de 50 años y por lo tanto la epidemia se ha desplazado ahora a las personas jóvenes.</p>
+<p>No quiere decir que ha aumentado el riesgo absoluto en personas jóvenes, pero sí que del conjunto de la población quien ahora es afectada es la población joven.</p>
+<p>En México tenemos ya vacunados a 38 y medio millones de personas, esto representa el 43 por ciento de la población adulta, de la población mayor de 18 años y este avance, como hemos indicado desde que presentamos públicamente el programa de vacunación el pasado 8 de diciembre, empezó de las personas de mayor edad y se ha ido recorriendo a las personas que tienen menos años.</p>
+<p>Esta semana empezamos ya en varias entidades federativas la vacunación de 18 en adelante, por eso es que hace tres semanas abrimos el registro o el prerregistro a personas de estas edades para estar ya programando las distintas vacunas.</p>
+<p>Hemos tenido ya una recuperación importante del abastecimiento con embarques de cinco, seis o hasta siete millones en total para los seis tipos de vacuna en cada semana, estas se distribuyen de manera inmediata y se empiezan a poner.</p>
+<p>Conforme son poblaciones de mayor tamaño, el tiempo que lleva esto, el tiempo de ir vacunando cada categoría o cada grupo de edad es desde luego un poco más lento. Originalmente vacunábamos en cuatro o cinco días a poblaciones más pequeñas, ahora esto nos está llevando hasta ocho o 10 días para cubrir en cada entidad federativa el bloque de la población respectiva.</p>
+<p>Pero, regresando al mensaje a la juventud, vamos a ver una imagen que es ilustrativa. La semana pasada presentamos aquí cómo la epidemia de COVID-19 en México, país con alta cobertura de vacunación, ya no es una epidemia tan virulenta, se redujo la brecha, se amplió, más bien, la brecha entre la ocurrencia de casos, la hospitalización y las defunciones, esto quiere decir que, aunque tenemos el momento del tercer repunte en donde aumentan los casos, la proporción de personas que llegan al hospital o que tristemente pierden la vida es menor por el hecho de que son personas de menor riesgo y las personas de mayor riesgo ya han sido vacunadas en su mayoría.</p>
+<p>Pero aquí viene el mensaje a la juventud ahora con esta imagen. Lo que se ve en esta imagen son tres representaciones de la distribución de edad de los casos de COVID.</p>
+<p>En el panel de hasta arriba son los casos en general, cualquier nivel de gravedad, incluye una gran mayoría, es más del 85 por ciento, son los casos leves; en el panel de en medio son las personas con enfermedad grave, las que son hospitalizadas; y en el panel de hasta abajo las muy lamentables defunciones.</p>
+<p>Y las dos curvas lo que representan son: en rojo, cómo se distribuía por edad según la escala que se muestra en la parte baja de la diapositiva, que son los años de edad de la persona, en rojo cómo se distribuía en la primera y segunda olas, de manera muy semejante la primera ola con un pico máximo en julio de 2020, la segunda en la primera semana de enero de 2021. Esto contrasta de manera muy clara con lo que ocurre y está representado en color verde con la tercera ola, el tercer repunte.</p>
+<p>Podemos ver que se ha recorrido seis a siete años la distribución de edad, hoy está afectando predominantemente a las personas jóvenes. La mayoría de las personas que están hospitalizadas por COVID en este momento son ya personas menores a 52 años y la enorme, enorme mayoría son personas que no fueron vacunadas, la enorme mayoría, esto es más del 97 por ciento son personas que no fueron vacunadas.</p>
+<p>Esto es muy importante tomarlo en cuenta porque estos datos en conjunto lo que muestran, y es el mensaje que queremos insistir, es que la vacunación protege, sobre todo protege de enfermedad grave y del riesgo de muerte, y si tú eres una persona joven también estás en riesgo y la vacuna también te va a proteger.</p>
+<p>Tenemos seis recomendaciones específicas que damos a la juventud:</p>
+<p>La primera es considerar los síntomas. En este momento y hasta que la epidemia cambie en el mundo, que se reduzca o que desaparezca en el mundo, si presentas fiebre, tos, dolor de cabeza, dolor de garganta, fatiga súbita, fatiga que empezó bruscamente y también ciertos síntomas digestivos, diarrea inexplicada, vómito, debes pensar que tienes COVID, porque COVID-19 puede dar estos síntomas y es una de las enfermedades que en este momento más frecuentemente explica ese conjunto de síntomas, piensa que tienes COVID aun si eres una persona joven.</p>
+<p>Si piensas hacerte la prueba, considera algo muy importante: no hacerte la prueba de cajita, esta es la prueba de tira reactiva que se toma una muestra de sangre. Esto lo explicamos muchas veces durante 2020 y lo volvemos a decir, la prueba donde la muestra es una gota de sangre es una prueba de anticuerpos. Durante la fase aguda de la enfermedad, es decir, cuando tienes los síntomas va a salir negativa y el resultado negativo de la prueba te puede dar una confianza falsamente sustentada de que no tienes la prueba.</p>
+<p>La prueba correcta en la fase aguda toma el espécimen respiratorio, la hace el personal especializado en los kioscos de pruebas o en las unidades hospitalarias o en las unidades de salud y te toma una muestra de la secreción respiratoria, la otra no sirve en la fase aguda. Y si sale positiva es que ya tienes anticuerpos y quiere decir que ya pasó la enfermedad, por lo tanto tampoco sirve y tampoco es demostración alguna de que una persona está persistentemente protegida y puede acceder a lugares públicos sin riesgo.</p>
+<p>Por lo tanto, las pruebas rápidas donde la muestra es una gota de sangre no tienen utilidad epidemiológica ni médica.</p>
+<p>Acude a tu médico, no te automediques. Es común que en la farmacia de manera inapropiada o a través de algún amigo o que consigas ciertos medicamentos que te pueden llevar a una mala evolución de la enfermedad. En particular los antibióticos, los esteroides, los antinflamatorios, dosis inapropiadas o el uso inapropiado de antibióticos en esta situación sólo puede prologar el tiempo en que requieras o que recibas la atención apropiada y te puede llevar a complicar tu estado de salud. Eso es muy importante, por lo tanto, no automedicarse.</p>
+<p>Existen algunos medicamentos que hoy se usan para el manejo médico de COVID en manos de personal especializado, particularmente para el pequeño conjunto de personas con enfermedad grave; para la enfermedad leve hay que guardar reposo, hidratarse importantemente y mantenerse separado, separada, de las demás personas para evitar los contagios.</p>
+<p>Ahora, en la siguiente hay tres recomendaciones adicionales:</p>
+<p>Si resultaste positivo a la prueba de COVID, nuevamente estamos hablando de la prueba de antígenos, la prueba donde la muestra es la secreción respiratoria, deben monitorearte, debes considerar que estás en vigilancia, preferentemente con la asesoría de un profesional de la salud.</p>
+<p>El monitoreo de la oxigenación, de la saturación de oxígeno a través de un aparato relativamente de bajo costo que se pone en el dedo y en un minuto muestra el porcentaje de saturación de oxígeno es muy importante.</p>
+<p>En general, si está por debajo de 93 por ciento habla de incapacidad para oxigenar apropiadamente el cuerpo. Esto es particularmente importante porque, si empieza a bajar, si en un mismo día se recude dos puntos porcentuales, puede ser una señal importante de alerta que requiera que acudas al hospital para ser atendido.</p>
+<p>Ahora, si presentas dificultad para respirar, no esperes más, llama al 911 para que en la localidad en donde vives te indiquen a dónde puedes acudir, a qué unidad hospitalaria, a qué servicio de urgencias, no esperes más, eso es una urgencia crítica la dificultad para respirar; pero también, si bajan los niveles de oxigenación, debes recibir asesoría y atención médica.</p>
+<p>Lo último, y muy importante, la prevención primaria, vacúnate, vacúnate. Joven, vacúnate, es importante. Aunque eres una persona robusta, eres una persona posiblemente sana, también la vacuna es útil para ti y para tu familia para evitar propagar más la enfermedad y para disminuir el riesgo de complicaciones y de muerte. Vacúnate.</p>
+<p>Estaremos informando puntualmente dónde va avanzando la vacunación, ocurre en todo el territorio nacional y es para todas y todos, y en este momento el pendiente es las personas menores de 40 años. Gracias.</p>
+<p><strong>MARCELO EBRARD CASAUBON, SECRETARIO DE RELACIONES EXTERIORES:</strong> Muy buenos días. Con su permiso, señor presidente. Buenos días a todas y a todos.</p>
+<p>Para informar brevemente del avance de la estrategia para las vacunas. Esta es la evolución de diciembre hasta la fecha de lo que se tiene programado de adquisición de dosis de vacunas. La meta que habíamos anunciado es que en julio pudiéramos llegar a 70 millones de dosis, esa fue la instrucción del presidente, y vamos a estar empezando agosto en 80 millones de dosis para garantizar las metas que el sector salud ha definido en materia de vacunación, de nuestro plan de vacunación.</p>
+<p>Llevamos dos semanas con más de seis millones de dosis. Más o menos para darnos una idea, esto podría servir para dos de las entidades más pobladas del país, Estado de México y la Ciudad de México, porque a veces cuando hablamos de millones es difícil de dimensionar de qué tamaño es el esfuerzo que se está haciendo.</p>
+<p>Otra cosa que México tiene es de los países que tenemos más vacunas autorizadas por Cofepris. En diciembre de 2020 la primera autorización fue a la vacuna Pfizer, enero 21 fue AstraZeneca, febrero fue CanSino, febrero fue Sputnik V, Sinovac, en abril fue Covaxin y en mayo fue Johnson &amp; Johnson o Janssen, que así se conoce. Y eso lo ha hecho Cofepris, que es una agencia que tiene el más alto estándar de calidad a nivel mundial.</p>
+<p>Decirles que ahora se están por presentar dos:</p>
+<p>Moderna, de Estados Unidos. Alguien me decía: ‘Bueno, ¿y por qué se tardaron?’ No, no nos tardamos nosotros, nosotros no podemos suplir a Moderna, Moderna está entregando sus documentos, suponemos esta semana, porque no estaba disponible esa vacuna, pero México está muy atento a que esto ocurra pronto.</p>
+<p>Igual Sinopharm, que es una vacuna ya autorizada por la Organización Mundial de la Salud también, con lo cual tendríamos un portafolio de los más amplios del mundo.</p>
+<p>Para el G20 estamos preparando, por instrucciones del presidente, la reunión que va a tener lugar hacia el mes de octubre, se reunirán todos los responsables del G20 para ampliar la distribución global de vacunas y asegurar su acceso a todas las personas, que debe promoverse una recuperación económica justa, incluyente, sostenible y se debe fortalecer la cooperación para prevenir futuras pandemias. Estas son las causas que México va a llevar y aquí está la reunión que tuvo lugar preparatoria para el mes de octubre.</p>
+<p>Informar que nosotros hemos sido, México ha sido, por instrucciones del presidente, un actor principal para exigir cooperación, pero también para darla, porque no podemos decir una cosa, exigir una cosa y hacer otra.</p>
+<p>Entonces, México ha apoyado con diferentes tipos de cooperación a 16 países en América Latina y el Caribe, aquí algunos de los principales, ya sea enviándoles vacunas o enviándoles equipos, ventiladores, equipos de protección personal, desde Belice y el más reciente que enviamos fue a Cuba, 800 mil jeringas que van a utilizar para aplicar las vacunas en Cuba. A todos esos países les hemos enviado apoyo y vamos a seguir en esa misma línea.</p>
+<p>Por último, como ya lo mencionó el doctor Alcocer, estamos trabajando con el sector Salud para la adquisición de medicamentos con estos países, que es Alemania, Canadá, Corea del Sur, Francia, India y Japón. Afortunadamente hemos tenido buena respuesta de esos países que en mucho agradecemos.</p>
+<p>Eso sería cuanto, señor presidente.</p>
+<p><strong>LUIS CRESENCIO SANDOVAL GONZÁLEZ, SECRETARIO DE LA DEFENSA NACIONAL:</strong> Con permiso señor presidente.</p>
+<p>Vamos a informar sobre la distribución de las vacunas. Adelante, por favor.</p>
+<p>Sobre lo que arribó a nuestro país y las existencias de vacunas, tenemos la Pfizer, tenemos AstraZeneca, CanSino, Sinovac y Sputnik. Estas vacunas fueron lotificadas en Incan y Birmex en la sede de Cuautitlán y el instituto nacional ahí en Birmex, estas vacunas se lotificaron para poder ser distribuidas a partir del miércoles pasado. El lunes, el día de ayer, y el día de hoy concluimos.</p>
+<p>La cantidad a distribuirse fueron 12 millones 565 mil 350 dosis. Por vía aérea se distribuyeron dos millones 470 mil 720 dosis para atender a 11 estados. El miércoles se hicieron tres rutas, tres rutas aéreas para distribuir:</p>
+<p>La ruta 1, Coahuila, Chihuahua, Sonora y Baja California Sur.</p>
+<p>En la ruta 2 hacia Guerrero.</p>
+<p>En la ruta 3, Oaxaca, Campeche, Yucatán y Quintana Roo.</p>
+<p>El día lunes, el día de ayer, se establecieron dos rutas aéreas, se atendió Coahuila, Chihuahua, Baja California y Baja California Sur.</p>
+<p>Y en la ruta 2, Oaxaca, Chiapas, Campeche, Yucatán y Quintana Roo.</p>
+<p>El día de hoy estaremos complementando la distribución con una ruta hacia Jalisco y San Luis Potosí.</p>
+<p>En la distribución terrestre fueron 10 millones 94 mil 630 dosis. Se atendieron a nueve entidades que acudieron a Birmex a recoger sus vacunas el día miércoles, fue Ciudad de México, Estado de México, Hidalgo, Tlaxcala, Puebla, Morelos y Querétaro.</p>
+<p>Para el día de ayer lunes, nuevamente Ciudad de México, Estado de México, Hidalgo, Tlaxcala, Puebla, Morelos y Querétaro, y el día de hoy se atenderá Michoacán y Guanajuato.</p>
+<p>De las rutas que salieron hacia los estados, tomando como referencia Birmex con la seguridad correspondiente del Ejército, de la Armada y de la Guardia Nacional, el miércoles pasado se establecieron seis rutas:</p>
+<p>La número 1 cubrió Michoacán, Colima y Jalisco.</p>
+<p>La número 2, Guanajuato, Aguascalientes y San Luis Potosí.</p>
+<p>La número 3, Zacatecas y Nayarit.</p>
+<p>La 4, Durango y Sinaloa.</p>
+<p>La 5, Tamaulipas y Nuevo León.</p>
+<p>La ruta 6, Veracruz, Tabasco y Chiapas.</p>
+<p>Para el día de ayer lunes se establecieron siete rutas terrestres:</p>
+<p>La número 1, para cubrir Michoacán, Jalisco y Colima.</p>
+<p>La 2, Guanajuato, Aguascalientes, San Luis Potosí.</p>
+<p>La 3, Zacatecas, Durango, Nayarit.</p>
+<p>La 4, Sinaloa y Sonora.</p>
+<p>La 5, Nuevo León y Tamaulipas.</p>
+<p>La 6, Veracruz y Tabasco.</p>
+<p>La 7, hacia Guerrero.</p>
+<p>En un resumen, se distribuyeron 12 millones 565 mil 350 dosis, dos millones 470 mil 720 por vía aérea y por vía terrestre 10 millones 94 mil 630. Se atendieron las 32 entidades federativas del país, se establecieron 49 rutas terrestres de distribución con 86 escoltas de seguridad y, como mencioné, por parte del Ejército, la Armada y la Guardia Nacional.</p>
+<p>Se materializaron seis rutas áreas con 26 operaciones y 29 horas de vuelo de los aviones de la Fuerza Aérea.</p>
+<p>El efectivo empleado, dos mil 604 elementos, 258 vehículos y seis aeronaves.</p>
+<p>Es todo, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy bien. Vamos a comenzar, la compañera, primero.</p>
+<p><strong>PREGUNTA:</strong> Gracias, presidente. Sandra Aguilera, de <em>Grupo Larsa Comunicaciones</em>.</p>
+<p>Presidente, tenemos preguntas de varios adultos mayores acerca de que no se han ido a vacunar porque están enfermos del corazón, porque están tomando anticoagulantes o porque tienen operaciones a corazón abierto.</p>
+<p>Quiero preguntarle al doctor Gatell si se pueden vacunar estas personas ya que los médicos o algunos médicos están en contra de que se vacunen y les dicen que no se vacunen. Entonces, para que les quede claro a ellos.</p>
+<p>Y también hay jóvenes que no acuden a vacunarse porque tiene miedo a quedar estériles, porque también hay ese rumor.</p>
+<p>Por otro lado, quería preguntarle, en Cancún sigue el contagio. ¿Qué estrategia se va a tomar? porque se iban a vacunar a la mayor parte de las personas y no han sido vacunadas, además de que en los restaurantes siguen abiertos y no toman las precauciones debidas. ¿A dónde tienen que dirigirse para denunciar esto?</p>
+<p>Y también quiero preguntarle al doctor Gatell, la paroxetina la están la utilizando para prevenir el contagio del COVID. Quería preguntarle: ¿qué tanto es cierto de que exista?</p>
+<p>Y también que en niños de cuatro, tres años, ya tienen COVID. ¿Por qué?, ¿es la nueva variante o por qué les está dando a estos niños?</p>
+<p>Gracias presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy bien, pues es Hugo, todo, hasta lo de Quintana Roo.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Perfecto. Con mucho gusto, Sandra. Volvemos a comentar sobre estos temas.</p>
+<p>El primero, sobre restoranes y en general, sitios que pueden estar abiertos. La perspectiva del manejo epidémico ha ido cambiando a lo largo del proceso, no sólo en México, sino en el mundo. Lo hemos dicho ya en varias ocasiones, no es lo mismo una epidemia en el momento en que está arrancando con una sociedad todavía en posibilidades de hacer medidas más extremas de contención o de mitigación, como estas reducciones de movilidad y la necesidad de preparar las capacidades hospitalarias.</p>
+<p>Ese fue el escenario cuando empezó la epidemia en México, en España, en Francia, Inglaterra, Estados Unidos, en cualquier país. Llega la epidemia, llega la enfermedad y lo que hay que ganar es tiempo para poder poner las capacidades, particularmente las capacidades hospitalarias.</p>
+<p>En países que teníamos muy deteriorado el sistema de salud, es el caso de México, al arranque de la epidemia, lo hemos comentado también mucho, era indispensable tener una mitigación inmediata, lograr aplanar la curva, de lo que se habló muchísimo durante 2020, para que nos diera tiempo de adquirir los ventiladores, todo el material, entrenar a los médicos, que teníamos un déficit enorme, contratarlos, contratamos más de 50 mil personas, etcétera. Necesitábamos, era indispensable aplanar la curva.</p>
+<p>Dieciocho, 17 meses después del inicio de la epidemia tenemos un escenario sustancialmente diferente. En primer lugar, tenemos ya aprendido una serie de lecciones que la propia epidemia nos ha dejado:</p>
+<p>Hemos logrado tener un protocolo de reconversión hospitalaria ya muy establecido, desde julio de 2020 publicamos el lineamiento y sigue en actualización cuando es necesario.</p>
+<p>Desde luego compramos los distintos materiales, equipos, los ventiladores, se entrenaron a unidades de atención, etcétera y hoy la posibilidad de reactivar a esos hospitales, a esas unidades, es sustancialmente más eficiente.</p>
+<p>Eso no quita la necesidad de hacer medidas de mitigación, de reducir el riesgo, pero desde luego nos pone en una situación mucho más conveniente.</p>
+<p>Por el otro lado, tenemos una sociedad desde luego cansada, fatigada, de tener estos largos meses de epidemia.</p>
+<p>Lo que uno le puede pedir a la sociedad en términos de reducción de la movilidad no es lo mismo hoy a lo que era en febrero de 2020. Tratar de forzar la situación cuando ha habido importantes efectos en la vida pública, económicos, sobre todo para las familias que tienen mayor escasez de recursos -no olvidemos que más de la mitad de la población de México vive en condiciones de pobreza y no podemos forzar las cosas y que la gente siga sufriendo la adversidad social y económica- tiene consecuencias económicas generales para el país y también no es conveniente forzarlo.</p>
+<p>Hay ámbitos específicos, se han destacado, el presidente los ha mencionado, en particular el de la educación pública por las consecuencias que tiene sobre la juventud y la niñez el estar en este estado especial a nombrar de reclusión, eso tiene consecuencias emocionales, sicosociales.</p>
+<p>Por todas esas razones también el confinamiento no puede ser tan severo, tan estricto, como lo fue al inicio, cuando tuvimos la Jornada Nacional de Sana Distancia.</p>
+<p>Pongo todo esto en contexto para que usted, Sandra, y todo mundo visualice cómo el balance entre confinar para reducir los contagios y desconfinar para evitar el daño social es un equilibrio continuamente en revisión, es un equilibrio dinámico.</p>
+<p>Ahora, afortunadamente, y es lo que detallamos el martes pasado y hoy lo acabamos de mencionar, la enfermedad en los países que tenemos alta cobertura de vacunación ya no es una enfermedad que tiene un comportamiento tan virulento. Puede seguir causando enfermedad grave, que no haya duda, puede seguir causando la muerte, pero la proporción de la sociedad que se ve afectada afortunadamente ya es tan grande, precisamente porque la mortalidad y la gravedad se redujeron como producto de la vacunación y una amplia cobertura en las personas de mayor riesgo.</p>
+<p>Usted pregunta: ‘¿Hay lugares públicos que siguen abiertos?’ Sí, el confinamiento ya no va a implicar cierras absolutos como lo significó al inicio de la Jornada Nacional de Sana Distancia, esto tiene que ver con algo que ha estado en la esfera pública que es el tema del semáforo de riesgo COVID.</p>
+<p>El jueves pasado presentamos ante el Consejo Nacional de Salud la iniciativa de modificación de ciertos aspectos de la metodología del semáforo de riesgo COVID porque ya incluso en el color más alto de la escala ya no implica cierres absolutos, ya hay actividades públicas, en particular la educación, que no serán sujetas a cierre en el mismo contexto que fueron consideradas las actividades económicas esencial cuando el confinamiento fue severo.</p>
+<p>Entonces, no debe extrañar que haya espacios públicos que permanezcan abiertos aun cuando haya crecimiento de la epidemia como en Quintana Roo, pero lo que sí es muy, muy importante es que las distintas medidas de seguridad sanitaria se cumplan a cabalidad en esos espacios públicos y en la periferia.</p>
+<p>Me voy más rápidamente con las otras preguntas, porque son bastante claras, la respuesta es directa.</p>
+<p>Paroxetina es un fármaco que no previene COVID, no hay fármaco alguno que prevenga el COVID, ningún medicamento puede prevenir el COVID, excepto las vacunas, ninguna otra cosa.</p>
+<p>Sobre los riesgos de que la vacuna pudiera afectar a personas adultas mayores que tienen enfermedad cardíaca o recuperación de cirugía cardíaca o cualquier otra situación, no hay ningún sustento científico. La vacuna se puede utilizar y de hecho se debe utilizar con mayor énfasis precisamente en las personas que tienen comorbilidades: diabetes, hipertensión, obesidad, enfermedad cardíaca, enfermedad pulmonar, con mayor razón deben vacunarse.</p>
+<p>¿Que pueda causar alteraciones reproductivas?</p>
+<p>Falso totalmente. Las vacunas no causan ninguna alteración reproductiva, ni en la fertilidad ni en la función sexual o de otro tipo. Deben vacunarse las personas jóvenes, como ya mencionamos, para reducir sus riesgos.</p>
+<p><strong>INTERLOCUTORA:</strong> Muchísimas gracias.</p>
+<p>Nada más otra pregunta. ¿Van a existir, van a pedir el carnet de vacunación para poder ingresar al país los turistas o van a pedirles el examen de COVID como en otros países?</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> No, no. Hemos también comentado varias veces al respecto durante todo el 2020, lo volvemos a decir ahora en 2021, las medidas restrictivas al tránsito o comercio internacionales no tienen utilidad suficiente para reducir la transmisión entre países.</p>
+<p>Esto no viene de ahora del COVID, esto es algo que la comunidad de salud global del mundo ha analizado al menos desde 1995 y por eso en 2005 se emitió un reglamento sanitario internacional que sigue vigente y que es vinculante para todos los Estados miembros de la Organización Mundial de la Salud, por supuesto incluido México, que contempla de manera explícita que las medidas de prevención, de propagación de enfermedades, deben estar basadas en un fundamento apropiado y no ser excesivas, que interfieran con el tránsito, el comercio internacional, y esta es una de ellas.</p>
+<p>Estas restricciones, y eso se puede ver por evidencia directa, por lo que ocurre en los distintos países que sí exigen certificados de vacunación o sí exigen resultados negativos de las pruebas y también tienen repuntes de COVID. No es una medida efectiva y, en cambio, es una medida que afecta gravemente el bienestar de las sociedades por los impedimentos que pone al tránsito de personas y al comercio internacional.</p>
+<p><strong>INTERLOCUTORA:</strong> Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> El que está junto a la compañera.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, señor presidente; buenos días, miembros del gabinete.</p>
+<p>Yo quisiera preguntarles, aprovechando su estancia, sobre los hospitales APP. Hemos estado estudiando estos hospitales. Como usted bien dice, señor presidente, pues no han aliviado la carga financiera del gobierno; al contrario, la han subido, no han sido tan efectivos estos hospitales porque nomás atienden a la mitad de la gente, pero eso sí, al gobierno le cobran todo.</p>
+<p>Y mi pregunta sería: ¿no es posible renegociar estos contratos?, porque sí, lo que vemos es que el hospital de Ixtapaluca, por ejemplo, que nomás atiende a la mitad, tiene muy buenos servicios, pero pues la gente no va por alguna razón: falta de personal, porque no se planearon efectivamente, están muy lejos de las poblaciones urbanas.</p>
+<p>Y este hospital que es del cuñado, de Hipólito Gerard, del cuñado de Salinas de Gortari y cuñado también de José Antonio González, que fue secretario de Hacienda. Entonces, la pregunta sería: ¿se puede revisar esto?</p>
+<p>Vemos que también el hospital de Tapachula lo tiene el grupo de <em>Imagen</em>, que lo mismo tienen televisión, tienen radio, tienen periódicos y otro sinnúmero de negocios.</p>
+<p>Está también el grupo Marhnos, que es de la familia Servitje, de los dueños de Bimbo, que han colaborado mucho para la obesidad de este país y entonces ahora están haciendo hospitales.</p>
+<p>Tengo aquí varios datos que quisiera luego mandárselos, son muy largos, de todo lo que se paga y cómo están amañados estos contratos. Yo quisiera… Es muy largo y muy técnico, pero sí, luego, si quieren, se los mando todo este diagnóstico, que la posibilidad que estos contratos pues se renegocien, porque sí, no son bueno para el erario del país, no son buenos, no aumentan la oferta de hospitales.</p>
+<p>Entonces, esa sería mi primera pregunta.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, se están revisando contratos en la medida de lo posible.</p>
+<p>Esta fue una política totalmente dañina al interés público, fueron de esas cosas que se hicieron para beneficiar a grupos vinculados al poder, son acciones contrarias al interés público, buenos negocios para particulares, malos negocios para la hacienda pública, todas las llamadas APP. Eso lo inauguraron en el periodo neoliberal.</p>
+<p>¿En qué consisten las APP?</p>
+<p>‘Te construyo un hospital y te doy el servicio, te cobro por la construcción del hospital, te cobro por los servicios y te cobro también por el financiamiento; no necesitas más que tener la autorización de Hacienda’, porque si se trataba de gobiernos estatales se firmaba el contrato y quedaban en garantía las participaciones federales.</p>
+<p>Por ejemplo, el hospital de Zumpango, en el Estado de México, tiene el gobierno del Estado de México, mejor dicho, el pueblo del Estado de México, que pagar más de 200 millones de pesos cada año por 25 años. Al final, el hospital va a salir en siete, ocho mil millones, cuando un hospital con esas características, cuando mucho, 500 millones de pesos.</p>
+<p>Entonces, de ese tipo de cosas…</p>
+<p><strong>INTERLOCUTOR:</strong> Tienen créditos de la Banca de Desarrollo.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Además, además. Fueron financiados por Banobras, Nacional Financiera, Banco de Comercio Exterior; o sea, negocios hechos por influyentismo. Es como lo de los reclusorios, también son contratos leoninos. Y así todo.</p>
+<p>Ahora que estoy escribiendo el libro -ya lo terminé- hay un capítulo que le llamo ‘Enderezando entuertos’, de cómo estamos enfrentando toda esta herencia de contratos leoninos, en reclusorios, pongo el ejemplo de los medicamentos, ahí lo trato, de los gasoductos, pero podría utilizar muchos otros ejemplos.</p>
+<p>Entonces, sí estamos buscando acuerdos. En el caso de los reclusorios se logró un acuerdo, una reducción. Queríamos que fuera del 20 por ciento; ellos, los dueños de estos contratos, que también está Gerard, porque están en todos lados por las influencias, pues imagínese, su cuñado era secretario de Hacienda, primero subsecretario de Hacienda y luego secretario de Hacienda, pues era el que hablaba a los gobernadores, decir: ‘Hay esta posibilidad. Si aceptas, te autorizamos en Hacienda el contrato, nada más que tienen que quedar en garantía las participaciones’, y ya los gobernadores que entraron pues ahí están ahora padeciendo porque ya fueron herencias que se recibieron.</p>
+<p>Entonces, son los reclusorios, y así muchas cosas.</p>
+<p>Ahora, los gasoductos ¿qué se hace en una situación de esta, si hay un contrato legal y si argumentan de que se está violando el contrato? Entonces, pueden acudir, que esa es otra innovación que se impone en el periodo neoliberal, el que se puedan dirimir asuntos internos que tienen que ver con nuestra Constitución, con nuestras leyes, en tribunales internacionales y en general, es muy difícil que se les gane a las empresas, nacionales o extranjeras en esos tribunales, siempre ganan.</p>
+<p><strong>INTERLOCUTOR:</strong> Lo de Grupo Marhnos.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, pero además cobran todavía más. Al ganar ellos, hay que pagar todavía más todos los gastos de la asesoría legal, el pago a los despachos.</p>
+<p>Entonces, a ver, ¿qué se hace?</p>
+<p>Pues se habla con los empresarios y se les dice: Oiga, en otros tiempos se podían llevar a cabo estos atracos, se podía robar así, pero ya es distinto, además se ve mal. Ustedes son hasta religiosos, van a los templos, van a la iglesia todos los domingos, ¿cómo van a actuar de esta manera?, porque es un robo.</p>
+<p>Antes se consideraba nada más como ratero al que se robaba una gallina, al que se robaba un pavo, al que se robaba una bolsa en el mercado; y los grandes ladrones ni siquiera perdían su respetabilidad, hasta a veces se les decía a los hijos: ‘Estudia para que cuando seas grande seas como don Fulano’, un reverendo ladrón.</p>
+<p>Entonces, ya no, ahora el corrupto está mal visto y hay que seguir estigmatizando la corrupción, nada de que roban y no pierden ni siquiera su respetabilidad.</p>
+<p>Entonces, ya hay una nueva actitud también de los empresarios, ya saben que son otros tiempos y muchos se acercan o se les llama y aceptan que se revisen los contratos, y así hemos ido avanzando. En el caso, por ejemplo, de los reclusorios, a un 15 por ciento en cuatro años nos vamos a ahorrar 10 mil millones de pesos que son muy buenos, por la negociación que se hizo a razón de dos mil 500 millones por año, porque teníamos que pagar 16 mil millones de pesos por año y con la negociación quedó como en 13 mil 500, 14 mil millones.</p>
+<p>Entonces, siguen con su contrato… Ah, y también logramos, en el caso de los reclusorios, de que cuando se termine el contrato pasen a formar parte de los activos del gobierno, porque el contrato era tan favorable a los particulares que se vencía el contrato y las instalaciones seguían siendo de la empresa. Pero, así como eso fue todo. Entonces, ahora estamos haciendo todo este esfuerzo.</p>
+<p>Y sí en el caso de los hospitales estamos negociando tanto Salud como el Seguro, como el Issste, todos tienen hospitales. Y aquí también lo importante es que ya no se llevan a cabo estos contratos, que ya no hay este tipo de contratos desde que llegamos.</p>
+<p>Querían una APP para la construcción del Tren Maya en el tramo de Tulum a Cancún, que ya tenían listo el proyecto, en este caso BlackRock y otras empresas, y dijimos: no. Es que se convierte en una deuda eterna, hay que estar pagando, pagando y pagando y pagando, se pagan tres, cuatro, cinco, 10 veces lo que vale una obra en el tiempo.</p>
+<p><strong>INTERLOCUTOR:</strong> En 25 años.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí y luego se paga más, sacan más jugo por los intereses, por el financiamiento, que por lo que les pueda resultar de utilidad la construcción de la obra. Entonces, eso ya se canceló completamente.</p>
+<p><strong>INTERLOCUTOR:</strong> Muchas gracias.</p>
+<p>En una segunda pregunta, ha trascendido en varios medios de comunicación que Birmex tiene perdidos 20 millones de dosis de vacunas. Yo no lo creo. ¿Sí podrían aclarar esta…?, porque sí ha salido en varios medios.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, pues yo creo que Hugo podría aclararlo.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Gracias, presidente.</p>
+<p>Con mucho gusto, esto sí literalmente lo volvemos a explicar, porque lo hemos dicho muchas veces.</p>
+<p>Esto es una fabricación completamente sin fundamento. Hoy en uno de los diarios nacionales, en <em>Crónica</em>, aparece en primera plana. Cuando uno ya lee la nota, la nota no dice nada, cita a una fuente de salud que ni siquiera identifica y dice que Salud le echa la pelota a Birmex y Birmex de regreso a Salud.</p>
+<p>No hay ninguna pérdida de vacunas, todas las vacunas que tenemos están perfectamente identificadas y sabemos dónde están y en qué momento se están aplicando.</p>
+<p>Lo que hemos explicado varias veces es: la realidad territorial del país es compleja, no es lo mismo estar en un macrocentro, en una ciudad principal, donde tenemos acceso pleno a internet y se puede registrar en tiempo real a cada una de las personas que se vacunan; en las zonas suburbanas y más en las zonas rurales donde la operación de la brigada de vacunación Correcaminos es más difícil, no hay acceso pleno a internet y los registros nominales se desfasan, no se hacen en tiempo real.</p>
+<p>¿Qué son los registros nominales?</p>
+<p>Cuando usted se vacuna tiene una papeleta de vacunación y en papel queda impreso su nombre, su CURP y datos básicos de identificación como su domicilio.</p>
+<p>Esa papeleta, se le pone en el puesto de vacunación qué vacuna recibió, qué tipo de vacuna, Pfizer, Astra, Sputnik, etcétera, y qué lote de vacunación recibió y obviamente la fecha en que se vacunó. Eso después de tiene que capturar en el registro de vacunación nominal, y hay un registro donde hay cada persona se puede decir dónde se vacunó, cuándo se vacunó, con qué se vacunó.</p>
+<p>Eso, ese proceso de registro de la papeleta a la captura se va llevando cierto tiempo. Si fuera una sola papeleta, por supuesto no llevaría mucho tiempo, pero estamos hablando de millones de papeletas dispersas en todo el territorio nacional.</p>
+<p>Como comenté hace unos minutos, cuando los segmentos de edad eran más pequeños eso más o menos iba transcurriendo y teníamos una brecha entre vacunas llegadas y vacunas registradas aplicadas de aproximadamente dos, luego tres, luego cinco millones de dosis.</p>
+<p>Hoy, que son segmentos poblacionales más grandes y que tenemos muchos más millones por semana, la brecha ya es de cerca de 19 y medio millones de dosis, pero es una brecha de registro.</p>
+<p>Y, finalmente, hay un tránsito de las vacunas, no llegan mágicamente del aeropuerto al puesto de vacunación, sino que, como lo acaba de explicar y lo ha explicado cada semana el general secretario Luis Cresencio Sandoval, las unidades se van, entregan la vacuna, eso es relativamente rápido, 48, 72 horas, y después se empiezan a desplazar a las zonas donde se ponen.</p>
+<p>Entonces, en resumen, no hay ninguna vacuna perdida. Este tipo de calumnia, de difamación, no sé qué propósitos tenga, evidentemente no muy nobles, y hay un proceso que va más lento de registro, cuando nosotros decimos: Se han aplicado esta cantidad de vacunas es porque ya los tenemos registrados en la plataforma.</p>
+<p>Gracias.</p>
+<p><strong>INTERLOCUTOR:</strong> Muchas gracias.</p>
+<p>Nada más, perdón, no me había presentado. Eduardo Esquivel Ancona, <em>SDP Noticias</em>.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Miren, hay muchas cosas que ya no se hacen en el gobierno, que se hacían antes y ya no se llevan a cabo. Un día voy a hacer una lista de lo que se hacía y ya no se hace, porque es muy ilustrativo.</p>
+<p>Ya no viaja el presidente en avión particular, ya no se tiene al Estado Mayor Presidencial, ya no se dan estos contratos leoninos, ya no hay sueldos elevadísimos, como era antes, ya no hay atención médica privada para altos funcionarios públicos.</p>
+<p>Y voy a decir algo. De estos cambios yo puedo enumerar 100, y lo voy a hacer, porque a veces no se dan por enterados algunos y hay que estarles avisando, hay que mandarles correo electrónico de que ya cambiaron las cosas.</p>
+<p>Que tampoco hay… Bueno, no hay tortura, no hay represión, no hay masacres, no hay corrupción, no hay lujos en el gobierno, pero tampoco hay espionaje, que a eso quería llegar, porque ahora se dio a conocer que se contrataba a una empresa, creo que israelita, Pegasus, para espiar.</p>
+<p>Y esto se sabe, pero en la llamada sociedad política y yo quiero que lo sepa todo el pueblo, que se destinaba dinero del presupuesto para contratar servicios de espionaje y se espiaba a todos los dirigentes de oposición y se espiaba a periodistas, y se espiaba a muchísima gente.</p>
+<p>¿Cómo se espiaba?</p>
+<p>Tenían equipos sofisticados para escuchar todas las llamadas telefónicas, no sólo de la persona que era el blanco, sino de todo su entorno. Desde luego me espiaban durante uno, dos años, bueno, mucho más, pero ahora se da a conocer que también espiaban a mi esposa, a mis hijos, bueno, hasta al médico que me atiende, al cardiólogo. ¿No está la noticia por ahí?</p>
+<p><strong>PREGUNTA:</strong> A 50 de su círculo cercano, presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Mande?</p>
+<p><strong>INTERLOCUTORA:</strong> A 50 de su círculo cercano.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí. Pero yo quiero que esté aquí, nada más, a ver si…</p>
+<p>Cincuenta personas cercanas a mí, pero eso no sólo era en mi caso, era a periodistas, era a todos, imagínense.</p>
+<p>Pegasus, ahí está. Pero era a muchos y se hacía a nivel mundial esta empresa, entonces se convierte en una noticia mundial porque esto mismo hacían en otros países.</p>
+<p>Ahora, independientemente de que se llevaba a cabo esta labor de espionaje, imaginemos cuánto costaba, cuánto dinero se destinaba al espionaje. Y regreso a lo mismo, esto ya no se hace, no se espía a nadie, ya desapareció el llamado Cisen, porque se han hecho tantas cosas y en poco tiempo, y además no hemos alcanzado a informar de manera amplia que vamos a seguir dando a conocer estas cosas que ayudan a entender de que somos distintos, que no es lo mismo, que se está llevando a cabo en México una transformación en la vida pública del país.</p>
+<p>Entonces, ya esto no sucede, el gobierno no espía nadie, los opositores no son espiados, no hay censura para los medios de información, a nadie se le limitan sus libertades.</p>
+<p><strong>INTERLOCUTOR:</strong> Ahorita le hablo del espionaje, primero me presento, señor presidente.</p>
+<p>Ramón Flores, corresponsal de <em>El Centinela Informa.</em></p>
+<p>En <em>El Centinela</em> hicimos una investigación en materia de seguridad y aquí le voy a demostrar con documentos que se siguen robando los recursos del secretariado nacional y basta con entregarle el nuevo contrato por mil 800 millones de pesos en el Estado de México a Grupo Andrade. Esto no está dirigido de su gobierno, son los gobiernos locales.</p>
+<p>En Guanajuato van otra vez por patrullas con anexos direccionados, Capufe rentó vehículos a Jet Van, inhabilitada por la Secretaría de la Función Pública, con sobreprecios, el SAT dio contratos por 130 millones a Seguritech para seguridad en las aduanas, en el aeropuerto de la Ciudad de México están por pagar 80 millones solamente por sacar la basura, señor presidente.</p>
+<p>Presidente, la Fiscalía General de la República también está por encubrir a Jesús Orta Martínez con su contrato de patrullas por tres mil 300 millones de pesos y, para colmo, tiene ficha roja con orden de aprehensión.</p>
+<p>Por lo anterior, presidente, imagínese usted que usted presenta una denuncia con toda la documentación que acredita los delitos o corrupción, pero la fiscalía, para encubrir, le pide a usted que acredite, y así me hicieron la pregunta: ¿cómo me afectó directamente la corrupción de Jesús Orta? De verdad, es inaudito esto.</p>
+<p>Por todo esto, le solicito a usted autorice que el denunciante pueda coadyuvar en la investigación que hay en la FGR contra Jesús Orta y los funcionarios que ya se encubrieron.</p>
+<p>Mi pregunta, presidente, es: ¿le puedo presentar esta documentación directamente al nuevo titular de la Secretaría de la Función Pública y a la secretaria de Seguridad, Rosa Icela, que aquí los traigo ahorita todos los documentos.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, entrégale todo a Rosa Icela y también al secretario de la Función Pública, a Roberto Salcedo.</p>
+<p><strong>INTERLOCUTOR:</strong> Okey.</p>
+<p>Sobre el espionaje a periodistas, reporteros y youtubers como ‘el Gato Político’, que ayer le tumbaron su página de más de un millón de seguidores, aquí le voy a entregar contratos recientes de la fiscalía capitalina también a otras nuevas empresas que, como Pegasus, nos espían.</p>
+<p>¿Estaría usted de acuerdo que Alejandro Encinas atienda este tema de espionaje con la FGR y se investigue también, presidente?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí.</p>
+<p><strong>INTERLOCUTOR:</strong> Aquí traigo las pruebas, también, en esos contratos.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> También.</p>
+<p><strong>INTERLOCUTOR:</strong> Y bueno, ya, por último, esta pregunta, presidente, por último, en <em>El Centinela</em> nos gustaría saber su opinión respecto a que el gobernador de Chihuahua, Javier Corral, envió una iniciativa para tener escoltas y camionetas blindada con cargo al erario después de terminar su mandato como gobernador. Y aquí traemos la iniciativa que envió y los costos. Si se aprueba, sería un cargo al erario estatal de Chihuahua por un monto de 100 millones 694 mil 180 pesos.</p>
+<p>¿Qué opinión tiene de esta iniciativa, señor presidente, del gobernador de Chihuahua?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues no me corresponde, es un asunto que tiene que ver con el estado. Y desde luego no debe de utilizarse el presupuesto con esos propósitos.</p>
+<p><strong>INTERLOCUTOR:</strong> Pero él lo quiere, para cuando salga de su mandato, que le proporcionen escoltas, camionetas, gastos de gasolina.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí él considera que puede verse afectado, si está en riesgo, hay un mecanismo de protección. Nosotros lo apoyamos, con la Secretaría de Gobernación se protege, como a todas las personas que consideran que pueden ser víctimas de un atentado, a todos.</p>
+<p><strong>INTERLOCUTOR:</strong> Nada más que él va a ingresar, o sea, va a ingresar a ese sistema, va a ser el gobernador, va a ser el procurador del estado que se sale con él, va a ser el que le llama su secretario de seguridad.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Si tienen ellos riesgos, se les apoya, se les protege a todos, cuando se trata de personas. Estamos hablando de periodistas, estamos hablando de servidores públicos que tomaron decisiones en su momento y que consideran que pueden ser dañados, afectados, que pueden sufrir un atentado, nosotros tenemos que protegerlo, apoyarlo, pero si nos lo solicitan.</p>
+<p>También, si el Congreso del estado de Chihuahua lo resuelve así, pues es una instancia autónoma, independiente, se trata de un estado soberano y ellos tienen que resolver sobre estos casos.</p>
+<p><strong>INTERLOCUTOR:</strong> Muchas gracias, presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> La compañera.</p>
+<p><strong>PREGUNTA:</strong> Gracias, presidente. Buenos días. Dalila Escobar, de <em>A Tiempo.tv</em>.</p>
+<p>Precisamente lo que mencionaba de Pegasus y, bueno, ya que está enterado del tema de que fue espiado usted, también periodistas, su esposa, familia de usted y cercanos, ¿qué acciones va a tomar ahora sí que en lo que le corresponde a usted por este tipo de acciones que sucedieron en la administración de Enrique Peña Nieto?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>Mire, pues yo he sido víctima de espionaje desde la época de Salinas por lo menos. No, estoy mal, no, desde antes, desde la Policía Federal de Seguridad.</p>
+<p>¿No pones el oficio de…?</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS, COORDINADOR GENERAL DE COMUNICACIÓN SOCIAL Y VOCERO DE LA PRESIDENCIA:</strong> De Nazar Haro.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> De Nazar Haro. Era yo director del Instituto Nacional Indigenista y este policía político me espiaba, 1978, 79.</p>
+<p>¿Cuántos años lleva eso?</p>
+<p><strong>INTERLOCUTORA:</strong> Cuarenta y tres.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Cuarenta y tres años. Entonces, imagínense si yo voy a estar presentando denuncia por eso.</p>
+<p>Es realmente una vergüenza y es una prueba irrefutable de que imperaba un gobierno o estábamos sometidos a un gobierno autoritario, antidemocrático, que violaba los derechos humanos, el Estado era el principal violador de los derechos humanos.</p>
+<p>Entonces, si me pongo ahora a presentar denuncias, pues no termino. Hay que saber que desgraciadamente todo esto se padeció y hacer el compromiso de no repetirlo, que es lo que estamos haciendo.</p>
+<p>Nada de que tenemos opositores periodistas, imagínense cuántos, y a ver, a escuchar, qué dicen para ver qué les sacamos. Guerra sucia, una actitud inmoral completamente; entonces, eso no.</p>
+<p>La política es un imperativo ético, por eso desapareció el Cisen y lo que hay de inteligencia tiene que ver con el combate al crimen, es para proteger a los ciudadanos, no para estar espiando a opositores, a periodistas, a dirigentes políticos, a dirigentes de partido, a dueños de grandes empresas, a las iglesias. No.</p>
+<p>Y así era, a todos los espiaban. Se llegó a perfeccionar tanto de que no había necesidad de estar hablando por teléfono, nada más por el teléfono escuchaban todo. Miren:</p>
+<p>‘79, Villahermosa. De las 9:00 a las 9:45 horas de hoy del local del Partido Socialista de los Trabajadores, ubicado en el Periférico sin número colonia Curahueso de esta ciudad, se reunieron Erwin Héctor Ocaña Rivera, Georgina Castañeda -deben de estar por ahí- Velasco, Isidro Narváez Narváez, Pablo Ramírez Salazar, Lucio Camilo Cobos y María Dolores Reyes Maya, para comentar que, de México, Distrito Federal, les piden gente para el 17 del actual para que asistan a la Confederación Nacional de Pueblos Indígenas que celebra este partido.</p>
+<p>‘Se hace notar que dicho partido en esta ciudad no tiene militantes, por lo que recurrieron al licenciado Manuel López Obrador, representante del Instituto Nacional Indigenista con sede en Nacajuca, y solicitarle 20 campesinos para que sean enviados a la Ciudad de México. El licenciado López Obrador y el licenciado Nabor Cornelio Álvarez son dirigentes en esta entidad del Partido Comunista Mexicano.</p>
+<p>‘Muy respetuosamente, el director federal de Seguridad, Miguel Nazar Haro.’</p>
+<p>Fíjense desde cuándo. Y equivocado en todo, porque no era yo miembro del Partido Comunista, desde entonces soy miembro del partido humanista, desde hace muchos años.</p>
+<p>Entonces, este es una historia, pero, además, vergonzosa, porque no sólo era el espionaje, es que crearon grupos para reprimir a opositores, y fue el tiempo de la Guerra Sucia.</p>
+<p>Entonces, nunca más eso. Y sería bueno conocer más sobre el quién pagó, de dónde salió el dinero, quién lo ordenó.</p>
+<p><strong>INTERLOCUTORA:</strong> Porque se habla de que parte de los clientes, bueno, pues eran entonces la PGR, también Sedena, el Cisen, pero preguntarle si la revisión que ustedes han hecho, si continúa este contrato con NSO Group.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No.</p>
+<p><strong>INTERLOCUTORA:</strong> Que son precisamente…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No. No sé si pueda existir el contrato, lo que… Y lo voy a revisar y hoy mismo vamos a informar. De lo que estoy absolutamente seguro es que no se espía a nadie.</p>
+<p><strong>INTERLOCUTORA: </strong>Y de continuar el contrato, por supuesto me imagino que…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Habría que ver quién lo tiene.</p>
+<p><strong>INTERLOCUTORA:</strong> Y la investigación sobre quién sería ¿no?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, se hace la investigación.</p>
+<p>Si existe el contrato, hay que cancelarlo. Yo no creo que exista, pero de todas maneras hay que hacer la revisión y de lo que, repito, no tengo duda es de que nosotros no espiamos a nadie.</p>
+<p>Por eso somos distintos, porque ¿cómo, si fuimos espiados durante muchos años vamos a llegar al gobierno a hacer lo mismo?</p>
+<p>Acaban de pasar elecciones igual, siempre nos hicieron fraude, nos robaron hasta la Presidencia de la República. ¿Cómo, al llegar a la Presidencia por mandato del pueblo, que es un orgullo haber ganado de manera legítima, es decir, por voluntad el pueblo, vamos nosotros ya estando en el gobierno a hacer lo mismo, a utilizar el presupuesto para ayudar a candidatos, para ayudar a partidos? No, no somos iguales.</p>
+<p>Por eso fracasaron nuestros adversarios, los del bloque conservador, porque, como decía Juárez, el triunfo de la reacción es moralmente imposible.</p>
+<p>¡Cómo van a ganar estos!, ¡cómo van a ganar los que saquearon a México! Nada más porque hay muchos todavía desinformados, desorientados, pero poco a poco se les va a ir quitando.</p>
+<p><strong>INTERLOCUTORA:</strong> Sobre el tema de la denuncia y, como usted menciona, ha sido espiado durante años, pero le toca a usted, ahora tocaron a su familia, ¿por esa razón no estaría tampoco presentando…?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No voy a hacer ninguna denuncia. Ya esto es muy importante, esto contribuye más que ir a un tribunal, porque lo más importante de todo es el cambio de mentalidad.</p>
+<p>Primero, que se sepa, porque antes no se sabía. A lo mejor se puede estar pensando: ‘No, sí se sabía’.</p>
+<p>Como ahora, que hablé y la respuesta de ustedes fue: ‘Está en todos los periódicos’ Ah, ¿y eso ya es garantía de que lo sabe el pueblo? No, no, hay muchísimas cosas que se publican y que la gente no alcanza a saber, que no les llega la noticia.</p>
+<p>Cuando hay un escándalo grande, grande, grande, pero escándalo, para que vean cómo es el fenómeno de la comunicación, y se hace una encuesta a la semana y se le pregunta a la gente de ese gran escándalo, alrededor del 30 por ciento no se enteró.</p>
+<p>Pero estoy hablando de algo como… Bueno, ni más que todo el manejo que hicieron propagandístico con el lamentable accidente, la desgracia del tren, del Metro, se le pregunta a nivel nacional -y vaya que le metieron- cuando mucho, 70 por ciento de toda la población.</p>
+<p>Entonces, ¿por qué hay que repetir?</p>
+<p>Porque esto se tiene que saber cada vez más.</p>
+<p>Si yo quería que, cuando entramos, no se llevaran a mantenimiento tan rápido el avión presidencial porque quería yo que lo viera la gente, porque todo eso es educativo, todo eso ayuda a tomar conciencia para cambiar una realidad de privilegios, de opresión, de corrupción, por algo nuevo.</p>
+<p>Entonces, esto, así como ustedes dicen ‘ya se sabe’, pues no. ¿Ustedes creen que la mayoría de la gente, los que nos están escuchando, los que están viendo, saben que si se trae un teléfono es como traer un micrófono y que escuchan no sólo la llamada? Un teléfono prendido con esos equipos es un micrófono, se tiene el teléfono, se está hablando y ellos están grabando. No, el teléfono, sí, el teléfono es micrófono.</p>
+<p>Entonces, allá en Tabasco desde que estábamos en la lucha sabíamos. Nos reíamos en la casa porque mi finada suegra leía el rosario por teléfono para una amiga, entonces se la pasaban grabando todo eso. Y antes era por ¿cómo se llamaba? Casetes. Ahora no.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Qué hay de la Fiscalía General de la República, que con su autonomía también era parte de los clientes?, ¿exhortaría al fiscal a que haga una revisión de…?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ah, no, eso ya le corresponde al fiscal.</p>
+<p><strong>INTERLOCUTORA:</strong> Ya le corresponde al fiscal.</p>
+<p>Y en otro tema, presidente, el asunto de Pantelhó, bueno, pues ahora ya con el asunto de las autodefensas conocidas como ‘El Machete’, la población está apoyando este tipo de acciones en cuanto a armarse por el tema de la violencia que están viviendo y, de hecho, están pidiendo anular las elecciones de autoridades municipales.</p>
+<p>¿Qué es lo que han encontrado desde el Gabinete de Seguridad en torno a lo que está detrás de toda esta violencia que están viviendo los habitantes de esta zona de Chiapas?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, primero que nosotros no estamos de acuerdo con las autodefensas. Eso fue una creación también dañina de la época en que se le declaró la guerra a las bandas de la delincuencia. Trajeron hasta a un experto colombiano para enfrentar el problema de la inseguridad, la violencia, con estas llamadas autodefensas.</p>
+<p>Eso no debe de aceptarse, nosotros no estamos de acuerdo con eso porque el Estado tiene la obligación de garantizar la paz y la tranquilidad. No se puede hacer justicia por propia mano, nadie puede hacer eso, eso es ilegal y eso no debe aceptarse. Nadie debe de armarse para enfrentar una supuesta situación de inseguridad.</p>
+<p>Porque se puede esgrimir, se puede usar como excusa de que hay mucha inseguridad y no es eso, puede ser que se trate de una confrontación política.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Sería el caso de Pantelhó que ustedes han encontrado?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Habría que verlo, lo está analizando Gobernación.</p>
+<p>Pero en ningún caso se acepta el que se armen grupos llamados autodefensa, nosotros no aceptamos eso. Y es nuestra responsabilidad garantizar la paz y la tranquilidad, y lo estamos haciendo.</p>
+<p>Y que no usen eso como excusa, que no digan: ‘Es que es mucha la inseguridad, luego entonces tenemos que armarnos’, porque son dos cosas: o es una cuestión politiquera, de dominio caciquil en una región, lucha de facciones, de grupos políticos, caciquiles, sin ideales, sin principios, sin el propósito de ayudar al pueblo, sino de tener poder; o delincuencia, hay que ver de dónde obtienen las armas.</p>
+<p><strong>INTERLOCUTORA:</strong> Justo le iba a preguntar quién arma a las autodefensas.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, de dónde sacaron esas armas, en cualquier caso. ‘Y somos, nos autodeclaramos autodefensa y a cometer ilícitos’, eso no.</p>
+<p>Y luego invitamos a los medios ¿no? y hacemos una presentación.</p>
+<p>Y por cierto, ¿no fue ahora <em>El País</em> el que…?</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS: </strong>(Inaudible)</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pero había televisión y todo, ¿no?</p>
+<p><strong>INTERLOCUTORA:</strong> Finalmente, presidente, Aranza Ramos fue víctima de feminicidio por el hecho de estar buscando a su esposo en la zona de Sonora. Ella estaba junto con un grupo, un colectivo, bueno, de mujeres que buscan a sus familiares y la asesinaron.</p>
+<p>Ahora una integrante o varias integrantes de un grupo de buscadoras en Sonora denuncia que es amenazada de muerte.</p>
+<p>Preguntarle: ¿qué va a hacer el gobierno para proteger a estas mujeres que buscan a sus familiares?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Vamos a seguir protegiendo a todas las mujeres. Y condenamos estos crímenes. Y se están llevando a cabo investigaciones y vamos a seguir protegiendo a todos y combatiendo a la delincuencia.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Hay garantías?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Hay garantías, hay protección y no hay impunidad. Por ejemplo, ayer fue muy lamentable el que asesinaron en Morelia a un periodista, y es de reconocerse que la policía del estado casi al instante, con muy poco tiempo detuvo a los autores materiales, a quien disparó y a quienes lo acompañaron; o sea, no es de que se comete una fechoría, se comete un crimen y no hay castigo. Puede ser que se fuguen, que nos cueste trabajo encontrarlo, pero no hay impunidad para nadie. Entonces, vamos a seguir así.</p>
+<p>Ya nos vamos porque ahora sí se nos pasó completo, ya son más de las 9:00. Mañana nos vemos.</p>
+<p>Ah, mañana es muy interesante, porque es quién es <em>Quién en las mentiras</em>, ¿verdad? Esta de <em>La Crónica</em> está bueno para analizarlo.</p>
+<p><strong>INTERVENCIÓN:</strong> (inaudible)</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, va a estar bien mañana.</p>
+<p><strong>INTERVENCIÓN:</strong> ¿Cuándo recibe a los gobernadores?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ya poco a poco.</p>
+<p>---</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

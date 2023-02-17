@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>15.04.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-65/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=115831' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2Fversion-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-65%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2Fversion-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-65%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66iyb-f-ca779fc54-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":27,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"2a78e105","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55276,"ak.gh":"23.47.207.69","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616449","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==p3P1kegDUcPWgWQqzZgRXo1jg1ZgbAFGuN0lt+U3lm79aAtmympo9jtWw4BrzjsYQEbVS81VcbIjVk/loWiKO5nOMUYgGGpBb8KBult6q5g3jn67WSsa/okfrdCaVxZ0MPuc2C3PHj+csPfK0M0yeyyM9U7onVTbPMEPvbjj8JnpmkQNCjyp6yn5KxnJ87RJWDlmaF80L/N7soO2K72VQ7maHPRnsqx7fjA7X6xbRVED+aO3S+FTcc4m6tJhJY1aRbLi3UIwLguQP8ns3Zk5cKB5OJzmi+ehZHzJIevLPhMuvX2eKxW3FiKu1dIbNY7ZXgfEBL2Ugf/5IGL4zlKQu+oLJt5VOCE3+ZA2DNZx0zo3EXwEwxOZi3k48eHUKZig3m+uD9iuXmEsH6UVmHY9wx1Hr25vs1aZQrpgxvppXiE=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-115831 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef2072c75be" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>15.04.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 15.04.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-115831" class="post-115831 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica tag-amlo tag-amlo-conferencia tag-amlo-hoy tag-amlo-presidente tag-andres-manuel tag-andres-manuel-lopez-obrador tag-conferencia tag-conferencia-amlo tag-conferencia-de-amlo tag-conferencia-de-amlo-hoy tag-conferencia-de-prensa tag-conferencia-de-prensa-amlo tag-conferencia-matutina tag-conferencia-presidente tag-gasolinas tag-gasolineras tag-gasolinerias tag-lopez-obrador tag-nomina-gobierno tag-nomina-transparente tag-obrador tag-portal-nomina-transparente tag-precio-de-las-gasolinas tag-transparencia">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2019/04/15-04-2019-FOTO-01-CONFERENCIA-DE-PRENSA-MATUTINA.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2019/04/15-04-2019-FOTO-01-CONFERENCIA-DE-PRENSA-MATUTINA-745x450.jpg" alt="15.04.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">15.04.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><span style="font-size: 10pt;">2019, Año del Caudillo del Sur, Emiliano Zapata</span></p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Buenos días.</p>
+<p style="text-align: justify;">Hoy vamos a iniciar la semana, que es el inicio de la Semana Santa. Les doy una buena noticia.</p>
+<p style="text-align: justify;">Vamos a tener información. Nos vamos a congregar aquí hasta el miércoles y vamos a tener otras actividades jueves, viernes, sábado y domingo. De por sí los sábados y los domingos no estamos, hasta el lunes.</p>
+
+<figure class="wp-block-audio"><audio src="https://lopezobrador.org.mx/wp-content/uploads/2019/04/2019-04-15-Matutina.mp3" controls="controls"></audio></figure>
+
+
+
+<figure class="wp-block-embed-facebook wp-block-embed is-type-video is-provider-facebook">
+<div class="wp-block-embed__wrapper">
+<p><div id="fb-root"></div><script async="1" defer="1" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v3.2"></script><div class="fb-video" data-href="https://www.facebook.com/lopezobrador.org.mx/videos/846499545742710/" data-width="500"><blockquote cite="https://www.facebook.com/lopezobrador.org.mx/videos/846499545742710/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/lopezobrador.org.mx/videos/846499545742710/">Queremos que la Cuarta Transformación signifique justicia. Diálogo circular con periodistas, desde Palacio Nacional.</a><p>Hoy informamos cuáles son las estaciones de servicio que ofrecen los mejores precios de gasolina y diésel. Reiteramos el llamado a los concesionarios para que nos ayuden a mantener equilibrio de los costos en beneficio de los consumidores. En cumplimiento de nuestro compromiso con la transparencia, anunciamos el lanzamiento del portal &#039;Nómina Transparente&#039;. Las percepciones de 1.4 millones de funcionarios y maestros, se encuentran disponibles en nominatransparente.rhnet.gob.mxMás Información: http://bit.ly/2Gi3Qj3</p>Posted by <a href="https://www.facebook.com/lopezobrador.org.mx/">Andrés Manuel López Obrador</a> on Monday, April 15, 2019</blockquote></div></p>
+</div>
+</figure>
+
+<p style="text-align: justify;">El domingo vamos a estar en el aniversario de la invasión estadounidense al puerto de Veracruz, vamos a estar en Veracruz el domingo; y el lunes la reunión de seguridad la vamos a llevar a cabo en Veracruz, la reunión nacional y también la conferencia de prensa en Veracruz.</p>
+<p style="text-align: justify;">Dicho lo anterior, pasamos al tema.</p>
+<p style="text-align: justify;">Hoy vamos a informar, como se acordó, sobre el quién es quién en los precios de las gasolinas. Estamos ajustando el mecanismo para tener la información más apegada a la realidad y que ayude lo más que se pueda.</p>
+<p style="text-align: justify;">La CRE tiene un sistema de información, pero en los últimos días se suspendió, se reinició y se está actualizando. También Profeco está haciendo un levantamiento sobre el precio en las estaciones de distribución de gasolinas.</p>
+<p style="text-align: justify;">Y ahora vamos a comenzar con una información que vamos a ir mejorando poco a poco, porque todos los lunes se va a dar a conocer el quién es quién en las gasolinas.</p>
+<p style="text-align: justify;">También hoy vamos a dar a conocer un compromiso que hicimos, mejor dicho, vamos a cumplir con el compromiso que hicimos de transparentar la nómica del gobierno. Anteriormente no se sabía en realidad cuánto ganaban los servidores públicos, ahora se transparenta la nómina y en un sistema, en una plataforma sencilla se va a poder conocer cuánto ganan los servidores públicos.</p>
+<p style="text-align: justify;">Anteriormente no era posible saberlo porque, además del sueldo, había compensaciones, había otro tipo de prestaciones, no se consolidaba el ingreso de los servidores públicos; ahora ya tenemos esa nómina y se va a transparentar.</p>
+<p style="text-align: justify;">También se va a ir perfeccionando, se va a ir revisando cada 15 días para que se tenga actualizada, con la idea de que los ciudadanos puedan acceder a este sistema de información, puedan saber cuánto ganan o cuánto ganamos los servidores públicos, porque es para todos los servidores públicos.</p>
+<p style="text-align: justify;">Eso son los dos temas que vamos a informar y luego abrimos la sesión de preguntas y respuestas. Entonces, empezamos con el quién es quién en los precios de las gasolinas.</p>
+<p style="text-align: justify;">La secretaria de Energía, Rocío Nahle, va a informar y también el director de Pemex y la secretaria de la Función Pública va a informar sobre la transparencia de la nómina.</p>
+<p style="text-align: justify;"><strong>NORMA ROCÍO NAHLE GARCÍA, SECRETARIA DE ENERGÍA:</strong> Buenos días.</p>
+<p style="text-align: justify;">Con permiso, señor presidente.</p>
+<p style="text-align: justify;">De acuerdo a los datos que se reportan día a día en la Comisión Reguladora de Energía, de las más de 12 mil 500 estaciones de servicio, estas están divididas en ocho regiones: región centro, región golfo, región noroeste, noreste, norte, occidente, sur y sureste.</p>
+<p style="text-align: justify;">El comparativo a la fecha esta semana del 6 al 12 tenemos lo siguiente: para el precio regular de gasolina este fue el promedio que se manejó en esta semana de los precios que manejan en su comercialización las diferentes marcas que están en el país.</p>
+<p style="text-align: justify;">La más cara se reporta en Shell y la más económica que reportan es PetroSeven; y Pemex, que es la comercializadora más grande está en un promedio intermedio.</p>
+<p style="text-align: justify;">Para el caso de la gasolina Premium es igual, la marca.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Una sugerencia, que no sea nada más una, sino todas, o sea, menciónalas.</p>
+<p style="text-align: justify;"><strong>NORMA ROCÍO NAHLE GARCÍA:</strong> Todas, así es.</p>
+<p style="text-align: justify;">La más cara, bueno, en el precio regular: Shell a 20.23, G500 a 19.89, FullGas 19.89, ExxonMobil a 19.87 pesos el litro, total 19.86. Repsol 19.82, Walmart 19.77, Hidrosina 19.76, BP 19.75, Oxxo Gas 19.72, La Gas 19.51, Pemex 19.51, Lodemo 19.49, Chevron 19.41, Orsan 19.31, Costco 19.29, Gulf 19.24, RendiChicas 19.18, Arco 18.91 y Petro-7 18.74.</p>
+<p style="text-align: justify;">Los precios de gasolina Premium, igual: Shell 21.61. Walmart 21.24, Oxxo Gas 21.20, FullGas 21.20, G500 21.06, ExxonMobil 21.03, Total 21.02, Repsol 20.99, BP 20.97, Hidrosina 20.96, Chevron 20.94, Pemex un promedio de 20.81, La Gas 20.73, Costco 20.71, RendiChicas 20.68, Lodemo 20.64, Winstar 20.63, Orsan 20.62, Gulf 20.54, Arco 20.41 y Petro-7 20.35.</p>
+<p style="text-align: justify;">El siguiente es el diésel, en diésel tenemos menos comercializadores, sin embargo, Walmart está igual, es el más alto, 21.75; Shell, 21.68; Oxxo Gas, 21.56; Hidrosina, 21.46; Total, 21.44; G500, 21.43; Full Gas, 21.38; Repsol, 21.35; Pemex, 21.28; BP, 21.26; ExxonMobil, 21.21; Lodemo, 21.15; Petro Seven, 21.15; Orzan, 21.13; La Gas, 21.12; Gulf, 21.12; Chevron, 20.82; Arco, 20.74, y RendiChica, 21.54.</p>
+<p style="text-align: justify;">Son los datos que reporta la CRE del 6 al 12 de abril del 2019.</p>
+<p style="text-align: justify;">Va el director de Pemex a mostrar cómo se maneja el precio, cómo está soportado en México y posteriormente damos las 10 más económicas.</p>
+<p style="text-align: justify;"><strong>OCTAVIO ROMERO OROPEZA, DIRECTOR DE PEMEX:</strong> Con permiso, señor presidente.</p>
+<p style="text-align: justify;">Muy buenos días a todas y a todos.</p>
+<p style="text-align: justify;">Esta gráfica que vamos a ver es para informar el compromiso que se asumió por parte del gobierno del República de no incrementar los precios por arriba de la inflación, de manera que ahí se puede observar en la gráfica.</p>
+<p style="text-align: justify;">En la línea punteada roja de abajo se ve cuál es el precio tope inflacionario, 17.90, que es exactamente el mismo precio al cual Pemex le está vendiendo a las estaciones de servicio, de manera que se está cumpliendo con el compromiso.</p>
+<p style="text-align: justify;">La línea punteada roja o un poquito más oscura de arriba es el tope inflacionario de precio al público, que se supone que las estaciones de servicio deberían de guardar; sin embargo, podemos observar en la línea verde, que es el promedio de los precios que se dan al público, están por encima de la línea de inflación para el público.</p>
+<p style="text-align: justify;">Entonces, 19.40 es el tope inflacionario y las estaciones de servicio en promedio en todo el país se están vendiendo en 19.52, esto es 12 centavos por encima, para el caso de la gasolina regular.</p>
+<p style="text-align: justify;">El caso de la gasolina Premium, la línea punteada de abajo, la naranjita, es 19.32, y el precio que Pemex está vendiendo a las estaciones de servicio es 19.32; es decir, se está cumpliendo con el compromiso.</p>
+<p style="text-align: justify;">La línea punteada, un poquito más oscura o roja de arriba, marca el tope inflacionario al público, es de 21, y en promedio las estaciones de servicio están vendiendo 10 centavos por por debajo, es decir, están vendiendo en 20.90 y el tope inflacionario es 21. En ese caso se estaría respetando no rebasar el tope inflacionario por parte de las estaciones de servicio. Para el caso de la gasolina Premium.</p>
+<p style="text-align: justify;">Para el caso del diésel lo mismo. La línea naranja punteada indica 19.28, ese es el precio al tope inflacionario.</p>
+<p style="text-align: justify;">Nosotros estamos, Pemex está vendiendo a 19.14, esto es 14 centavos por debajo del tope inflacionario; y en el caso de las estaciones de servicio deberían de vender sobre 20.96, que es el tope inflacionario, pero están por encima, están 21.29, esto es 33 centavos por encima del tope inflacionario.</p>
+<p style="text-align: justify;">Esta es la información que les queríamos dar en el caso de gasolina regular, Premium y diésel.</p>
+<p style="text-align: justify;">Es cuanto, señor presidente.</p>
+<p style="text-align: justify;"><strong>ROCÍO NAHLE GARCÍA:</strong> A continuación, hicimos una lista de las 10 gasolineras o estaciones de servicio con los precios más altos en el país de los que se registró, de acuerdo al dato que reporta la Comisión Reguladora de Energía.</p>
+<p style="text-align: justify;">El más alto lo tuvimos en La Yesca, de gasolina regular en Nayarit, la calle es Insurgentes Sur sin número a 22.99, la razón social es Ividelisa Reyes Hernández.</p>
+<p style="text-align: justify;">La segunda fue en Guanaceví, Durango, igual, carretera Guanaceví-Tepehuanes, la señora María Teresa Ayala Alemán.</p>
+<p style="text-align: justify;">El tercero es en Rayón, Sonora, con Marcia Lizeth Antúnez Navarro en Boulevar Luis Donaldo Colosio y Boulevard Justo Vázquez.</p>
+<p style="text-align: justify;">El siguiente es en Peribán, Michoacán, Grupo Alvamo carretera Peribán-Buenavista. El siguiente es en Guadalupe y Calvo, Chihuahua, gasolinera ejidal La Trinidad en el ejido La Trinidad sin número.</p>
+<p style="text-align: justify;">El siguiente que fue a 21.98 pesos, en esta columna están los precios, fue Los Reyes, Michoacán; Mario Andrade Andrade y Victoria en la calle 16 de Septiembre número 43, a 21.98 pesos.</p>
+<p style="text-align: justify;">La siguiente también en Los Reyes, Michoacán, Superservicio María, calzada Rafael Ochoa, 21.98</p>
+<p style="text-align: justify;">Tocumbo, Michoacán, Superservicio José Luis, carretera a Jacona, a 21,98.</p>
+<p style="text-align: justify;">Y otro más en Peribán, Michoacán, Multiservicio Exprés de Peribán, a 21.97 carretera libre, en Peribán. Los Reyes, y el último en Los Reyes Michoacán, Multiservicio Sara, 21.90. Esos son los más altos.</p>
+<p style="text-align: justify;">Los más bajos: Se registró a 15.71 precio por libro en Chapultepec, Estado de México, Superservicio MyM, carretera Metzicalcingo Santiago Tianguistengo kilómetro 2.4</p>
+<p style="text-align: justify;">La siguiente en San Fernando, Tamaulipas, a 15.62, de Servicio Punta de Piedra.</p>
+<p style="text-align: justify;">La siguiente en Campeche, Campeche, ESGS, a 15.59.</p>
+<p style="text-align: justify;">La siguiente en Coatzacoalcos, Veracruz, de Cruz Elvira Martínez Mendoza, 15.57.</p>
+<p style="text-align: justify;">La siguiente en Tampico, Tamaulipas, gasolinera de Vicente Guerrero, de Ciudad Madero, a 15.53.</p>
+<p style="text-align: justify;">Otra en Puebla, Puebla, Servicio Banoe, a 15.47, avenida Reforma número 2922.</p>
+<p style="text-align: justify;">Otras cuatro. Una en Valle Hermoso, Tamaulipas, Ramai y Multiservicios; otra, Multiservicios Anáhuatl, a 15,30; Servicios Agropecuarios Unidos, a 14.53; y la más económica en Valle Hermosa, Tamaulipas, Pretogesa, a 14.28, en la carretera Río Bravo, Matamoros número 159.</p>
+<p style="text-align: justify;">Esta es de la gasolina Premium. Igual, las más altas:</p>
+<p style="text-align: justify;">En Pénjamo, Guanajuato, Servicios Pioneros, ahí presentan cuatro gasolineras de la misma ciudad, dos de Servicios Pioneros y dos de Megagasolineras, a 23.76 la más cara y a 23.59 pesos el litro.</p>
+<p style="text-align: justify;">Otra más en Sinaloa, en Gasolinera Rubios; otra más en Chicomozuelo, en Chiapas, es Culiacán, no es Sinaloa, Sinaloa es en Culiacán; otra es en Frontera Comalapa, en Chiapas Frontera Sur, a 23.31; y son cuatro en Frontera Comalapa, en Chiapas, de las más caras a 23.27 y 23.28. Esas son las más altas.</p>
+<p style="text-align: justify;">Las más bajas:</p>
+<p style="text-align: justify;">Se presentaron a 17.23 en Tampico, Tamaulipas, en Gasolinera de la Vicente Guerrero, en Ciudad Madero.</p>
+<p style="text-align: justify;">En Medellín de Bravo, Veracruz, la gasolinera Medellín, 17,21.</p>
+<p style="text-align: justify;">En Puebla, Puebla Servicio Banoe, 17.18</p>
+<p style="text-align: justify;">En Minatitlán, Veracruz, Gasolinera del Sureste, a 17.06</p>
+<p style="text-align: justify;">Manuel Benavides, Chihuahua, a 17 pesos, estación de servicio Dos Potrillos;</p>
+<p style="text-align: justify;">Iguala de la Independencia Guerrero, en Servicios Especializados Florom a 16,90;</p>
+<p style="text-align: justify;">Poza Rica de Hidalgo, Veracruz Súper Servicio Poza Rica, a 16.83; dos en Valle Hermoso, Tamaulipas a 16.81 de la misma razón social de Jesús Emilio Sanz de la Garza; y el más económico está en Cuyoaco, Puebla, de José Luis Reche Martínez, a 16.56.</p>
+<p style="text-align: justify;">Y lo mismo para el diésel. El más alto nuevamente, La Yesca, Nayarit; Ividiliza Reyes Hernández, a 23.99.</p>
+<p style="text-align: justify;">Guanaceví, Durango, a 23.89</p>
+<p style="text-align: justify;">Mariscala de Juárez, Oaxaca, a 23.57, Nacional Número 1 la dirección.</p>
+<p style="text-align: justify;">En Culiacán, Sinaloa, 23.50 Servicios Estratégicos y de Combustibles.</p>
+<p style="text-align: justify;">Peribán, Michoacán, también 23.47 pesos, Multiservicio Exprés de Peribán.</p>
+<p style="text-align: justify;">San Miguel El Grande, Oaxaca, a 23.41, de José Esqueda Pérez Sánchez.</p>
+<p style="text-align: justify;">Chalcatongo de Hidalgo, Oaxaca, Hidrocarburos de la Mixteca 23.40. Son dos estaciones de servicio en ese lugar que presentan los mismos precios.</p>
+<p style="text-align: justify;">Otra en Los Reyes, Michoacán, Multiservicios Zar a 23.40; y otra en San Miguel del Grande, Oaxaca, de Guillermo Cruz Ortiz, a 23.59.</p>
+<p style="text-align: justify;">Y los más económicos, los más bajos los presentaron en Tepache, Sonora, Juan Montayo Velarde, a 16.60.</p>
+<p style="text-align: justify;">Chapultepec, Estado de México, Superservicio MYM a 16.54.</p>
+<p style="text-align: justify;">Victoria, Tamaulipas, 16.51, Estación de Servicio Jiménez.</p>
+<p style="text-align: justify;">Los Ramones, Nuevo León, Superservicio El Cuchillo.</p>
+<p style="text-align: justify;">General Escobedo, Nuevo León, Servicios Gasolineros de México, a 16.47 litro.</p>
+<p style="text-align: justify;">El Mante, Tamaulipas, Roberto Ugalde Guillén, 16.39 pesos el litro.</p>
+<p style="text-align: justify;">Hueyotlipan, Tlaxcala, Multiservicios Poba, 16.20 el litro.</p>
+<p style="text-align: justify;">Minatitlán, Veracruz, Gasolinera del Sureste, 16.18.</p>
+<p style="text-align: justify;">Poza Rica, Veracruz, Superservicio Poza Rica, 15.95.</p>
+<p style="text-align: justify;">Y Coatzacoalcos, Veracruz, Servicio Fácil del Sureste, a 15.88 pesos el litro de diésel.</p>
+<p style="text-align: justify;">Esas son las 10 estaciones de servicio de los tres combustibles, tanto regular, Premium y Diésel.</p>
+<p style="text-align: justify;">Es todo, señor presidente.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Aquí hay que aclarar, porque es de justicia, que hay gasolineras que están vendiendo caro, que venden a precios elevados las gasolinas y el diésel porque están en lugares muy apartados, es el caso de La Yesca, es el caso de Durango, es el caso de otras estaciones en donde para llegar a La Yesca, del centro de distribución de Pemex que debe de estar, o en Mazatlán o en Vallarta a La Yesca son 10 horas llevar el combustible, y así en otros casos, pero este caso en particular.</p>
+<p style="text-align: justify;">Por eso tenemos que afinar el método para ser precisos; de todas maneras, quisimos darlo a conocer, porque son datos oficiales y es lo que cuesta.</p>
+<p style="text-align: justify;">Y también aclarar que Pemex no vende al mismo precio en todas las estaciones. Por ejemplo, en todas las estaciones del Golfo la gasolina Pemex la vende a un precio más bajo, porque la mayor parte de la gasolina importada entra por Tuxpan. En Poza Rica, en Tuxpan, en Coatzacoalcos, en Minatitlán, cuesta menos la gasolina. Cuando se habla de 17 pesos, 18 pesos, se está hablando de un promedio nacional en cuanto a la venta.</p>
+<p style="text-align: justify;">Entonces, todo esto se tiene que ir mejorando, hay que ir poniendo columnas acerca de cuál es el precio de venta al que compra el concesionario. Lo que sí es muy importante es el precio general de los corporativos.</p>
+<p style="text-align: justify;">A ver, si ponen la primera lámina, porque ahí sí estamos hablando de quienes tienen 100, 200, 300, 500 estaciones de distribución.</p>
+<p style="text-align: justify;">Es un precio, vamos a decir, global de un corporativo que, por lo general también no están en La Yesca, ni en la Tarahumara, ni en la sierra de Chiapas, están en las grandes ciudades, en las zonas metropolitanas es donde están estas estaciones.</p>
+<p style="text-align: justify;">Entonces, el llamado es fundamentalmente de manera muy especial a estos grandes distribuidores para que nos ayuden, y estoy seguro que lo van a hacer, para mantener en equilibrio los precios de los combustibles y que cumplamos con el compromiso de que no aumente el precio de las gasolinas, del diésel, del gas y de la luz.</p>
+<p style="text-align: justify;">También para el lunes siguiente agregamos el gas, y así vamos a ir agregando para conocer los precios de todos los energéticos y de la luz, porque esto es muy importante para los ciudadanos, para los mexicanos. Ahora sí le damos, si les parece, vamos a ver lo de la nómina.</p>
+<p style="text-align: justify;"><strong>IRMA ERÉNDIRA SANDOVAL, SECRETARIA DE LA FUNCIÓN PÚBLICA:</strong> Muchas gracias, señor presidente.</p>
+<p style="text-align: justify;">Bueno, ya que vimos quién es quién en los precios de las gasolinas, vamos a ver ahora quién es quién en la nómina.</p>
+<p style="text-align: justify;">Estamos muy contentos porque vamos a anunciar un nuevo acto de transparencia del gobierno federal, este es un hecho histórico.</p>
+<p style="text-align: justify;">Y si me permite, señor presidente, quisiera pedir la presencia de nuestro subsecretario de la Función Pública, que me han apoyado muchísimo en este gran proyecto de transparencia, el maestro Salcedo y la maestra De la Paz, si están por ahí para aclarar dudas si se necesitara.</p>
+<p style="text-align: justify;">Este anuncio que vamos a hacer esta mañana tiene que ver con nuestra voluntad de transparentar absolutamente todo en la vida pública de nuestro país.</p>
+<p style="text-align: justify;">Como ustedes recuerdan, modificamos el sistema DeclaraNet, a fin de eliminar las exclusiones de publicidad en la información de los datos patrimoniales.</p>
+<p style="text-align: justify;">Hoy ya -si ustedes checan- sólo hay publicidad total o reserva total de las declaraciones patrimoniales, ya no hay esas medias tintas que generaron tanta confusión en la sociedad al principio.</p>
+<p style="text-align: justify;">También lo que hicimos, ustedes lo tienen muy claro, es un hecho histórico de hacer públicas el 100 por ciento de las declaraciones patrimoniales de secretarios de Estado, subsecretarios de Estado, el gabinete ampliado y los 32 delegados estatales.</p>
+<p style="text-align: justify;">Estamos trabajando en esa lógica de la transparencia y hoy anunciamos el portal Nómina Transparente del gobierno federal en donde se transparenta más de 1.4 millones de personas servidoras públicas pertenecientes a 290 instituciones de la Administración Pública Federal; esto es además de casi dos millones de maestros en más de 200 mil escuelas de las 32 entidades federativas que están también dependiendo del presupuesto federal.</p>
+<p style="text-align: justify;">Y muy importante, para que no haya duda de la transparencia de este gobierno del licenciado Andrés Manuel López Obrador, está claro en este portal, 17 mil servidores de la nación son quienes van a estar sirviendo en todas estas cuestiones de los programas sociales y los proyectos prioritarios de desarrollo.</p>
+<p style="text-align: justify;">Todos estos datos son consultables con, como dijo el señor presidente, una actualización quincenal.</p>
+<p style="text-align: justify;">Hoy, por ejemplo, es quincena y está la información ya actualizada cada quincena después de cuatro días de que se dé de alta en nuestro servicio del RUSPAF, que es el Registro Único de Servidores Públicos de la Administración Pública Federal, que está alojado en nuestra Secretaría de la Función Pública, cuatro días después automáticamente se va a actualizar toda esta información de la nómina.</p>
+<p style="text-align: justify;">Entonces, van a ver en un pequeño video que preparamos para esta ocasión, que ustedes pueden meter el nombre del servidor público buscado. Solamente necesitan el nombre propio y el primer apellido, si es un nombre muy común, necesitarán el segundo apellido, pero de todos modos si no se puede lograr por esta forma pueden llegar por institución o por entidad federativa en el caso de las escuelas y los maestros que busquen investigar.</p>
+<p style="text-align: justify;">La nómina de todas las instituciones está reportada ahí y este portal tiene una ventaja, me parece, respecto a los portales tradicionales que están también disponibles a través de los institutos de transparencia estatales o el nacional, porque es una información en tiempo real, ya les digo, e incluye más de 10 u 11 veces la información que está contenida en el portal nacional del INAI.</p>
+<p style="text-align: justify;">Entonces, le voy a suplicar a quien nos apoyan con esto que dé a conocer este videíto para que todos los veamos y quedo a sus órdenes con información adicional.</p>
+<p style="text-align: justify;"><strong><em>(INICIA VIDEO)</em></strong></p>
+<p style="text-align: justify;"><strong><em>VOZ MUJER:</em></strong><em> Secretario de Estado.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ MUJER:</em></strong><em> Ni idea.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ HOMBRE:</em></strong><em> No, la verdad no sé.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ HOMBRE:</em></strong><em> No, la verdad desconozco.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ HOMBRE:</em></strong><em> Debe de ganar menos que el presidente.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ MUJER:</em></strong><em> ¿Sabes cuánto ganan las y los profesores de tus hijos?</em></p>
+<p style="text-align: justify;"><strong><em>VOZ HOMBRE:</em></strong><em> No, tampoco.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ MUJER:</em></strong><em> No.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ HOMBRE:</em></strong><em> No.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ MUJER:</em></strong><em> ¿Sabes cuánto ganan las personas servidoras públicas?</em></p>
+<p style="text-align: justify;"><strong><em>VOZ MUJER:</em></strong><em> Más o menos.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ MUJER:</em></strong><em> No sé.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ MUJER:</em></strong><em> No.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ MUJER:</em></strong><em> ¿Conoces algún portal con información sobre los sueldos de las personas servidoras públicas?</em></p>
+<p style="text-align: justify;"><strong><em>VOZ HOMBRE:</em></strong><em> No, no sabía que existía ese portal o algo así.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ MUJER:</em></strong><em> No.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ MUJER:</em></strong><em> Portal Nómina Transparente.</em></p>
+<p style="text-align: justify;"><em>Comprometidos con la transparencia y la austeridad republicana, el gobierno de México a través de la Secretaría de la Función Pública presenta el portal Nómina Transparente.</em></p>
+<p style="text-align: justify;"><em>Por primera vez se podrá conocer en tiempo real la remuneración de 1.4 millones de personas servidoras públicas de la Administración Pública Federal: 1.7 millones de maestros en las escuelas del país, 17 mil servidores de la nación que realizan los Censos del Bienestar.</em></p>
+<p style="text-align: justify;"><em>La ciudadanía podrá en un click conocer cuánto pagan a sus servidores públicos más de 290 instituciones del Gobierno de México y 200 mil escuelas en 32 entidades del país.</em></p>
+<p style="text-align: justify;"><em>Toda la nómina de todas estas instituciones en un solo punto.</em></p>
+<p style="text-align: justify;"><em>Actualizada de manera quincenal.</em></p>
+<p style="text-align: justify;"><em>Búscala por nombre, por institución, por entidad federativa, de manera sencilla y amigable.</em></p>
+<p style="text-align: justify;"><em>Consulta el portal ya.</em></p>
+<p style="text-align: justify;"><em>En nominatransparente.rhnet.gob.mx</em></p>
+<p style="text-align: justify;"><strong><em>VOZ MUJER:</em></strong><em> Muy sencillo, muy sencillo.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ HOMBRE:</em></strong><em> Muy clara y muy limpia la información.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ HOMBRE:</em></strong><em> Puse el nombre del funcionario y entré fácilmente, luego, luego, me apareció la información.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ MUJER:</em></strong><em> Me parece mucho mejor que en la manera en que se hacía antes que tenías que entrar el portal de transparencia, hacer tu solicitud y muchas veces la información no te llegaba y aquí es al instante.</em></p>
+<p style="text-align: justify;"><strong><em>VOZ HOMBRE:</em></strong><em> Yo recomiendo esta página para que la busque cualquier usuario en Internet y se dé cuenta cuánto gana cada funcionario de nuestra nación.</em></p>
+<p style="text-align: justify;"><strong><em>(FINALIZA VIDEO)</em></strong></p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ahí está. Esto es muy importante porque les decía, me consta que no se podía saber, no se tenía una nómina del gobierno y no se podía saber a ciencia cierta cuánto ganaban los servidores públicos.</p>
+<p style="text-align: justify;">Esto ya es un avance, el transparentar esta información y se va a ir también mejorando, actualizando, enriqueciendo en el proceso.</p>
+<p style="text-align: justify;">Esto es lo que podemos comentar.</p>
+<p style="text-align: justify;">Y ahora sí, abrimos.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Presidente, buen día. Roberto Cruz, de <em>Impacto Diario TV</em> y revista.</p>
+<p style="text-align: justify;">Hablando ahorita de los combustibles, sobre todo de las gasolinas, en las gráficas que vimos definitivamente algunos expendios parece que vendieran agua bendita, vemos ahí en la Premium, por ejemplo, que casi llega a 25 pesos.</p>
+<p style="text-align: justify;">Es cierto, desde la semana pasada justificaron ellos, lo que comentaba usted, el traslado y otras cosas; pero, ¿existe o existirá alguna revisión específica de que no se vayan a estar valiendo, precisamente de eso, de sus traslados, del costo de lo que gasten para llevar la gasolina, para elevarla?</p>
+<p style="text-align: justify;">Porque vimos también un promedio de precio, pero vimos uno muy bajo. Si una empresa gasolinera puede subsistir con los precios bastante bajos que vimos, pues yo creo que amerita una revisión a los que lo venden altísimo, altísimo. Esa sería una pregunta.</p>
+<p style="text-align: justify;">La otra sería ya de política y se la hago concretamente. Ante el partido Morena, ¿sana distancia o sana cercanía?</p>
+<p style="text-align: justify;">Se lo comento por los pleitos muy vistos personales y que se ha sumado más gente, como un suplente del senador Monreal, como un excandidato en Puebla, como Yeidckol. Esa serían las dos preguntas, presidente.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, vamos a seguir dando información que va a ayudar mucho, estoy seguro, a regular los precios, porque esta conferencia la ven muchos mexicanos de todo el país y va a llegar el momento en que, si continúan altos los precios de algunas gasolineras, después de explicar más sobre el precio en que Pemex vende y las distancias, ser más precisos, si continúan, pues van a ser mal vistos y lo que queremos es que la gente compre en donde se venda más barato, que haya una auténtica, una verdadera competencia, que no haya monopolio, y ayuda mucho el tener la información.</p>
+<p style="text-align: justify;">Tenemos que estar actualizando también la plataforma para que el usurario, el consumidor, pueda ver cerca de su casa dónde está el precio más bajo, cuando se trata de las ciudades, ahí volvemos a subrayar la necesidad de tener Internet en todo el país.</p>
+<p style="text-align: justify;">Entre otros atrasos que nos dejaron estos corruptos del neoliberalismo, es que no hay comunicación en el país por Internet, sólo el 25 por ciento del territorio nacional está comunicado por Internet.</p>
+<p style="text-align: justify;">Ayer, por ejemplo, estuvimos en Champotón y luego fuimos a Ciudad del Carmen; estamos hablando de la zona petrolera más importante de México, además a la orilla del mar, de las zonas más bellas de México, con turismo y en buena parte de la carretera sin comunicación por Internet y así en muchas partes del país.</p>
+<p style="text-align: justify;">Vamos a que haya Internet en todo México, y esto nos va a ir ayudando mucho, entre más comunicación tengamos, mejor; garantizar el derecho a la información para todo, para combatir la corrupción, para la educación, para la salud, para todo, para la seguridad pública, es muy importante el tener comunicación.</p>
+<p style="text-align: justify;">Entonces, vamos a informar, porque eso no se sabía, no existían estas ruedas de prensa. ¿Cada cuándo había rueda de prensa? ¿Cada cuándo informaba el presidente? Sé que parece que estas cosas se olvidan, nuestros adversarios, con todo respeto, a veces padecen de amnesia, se les olvidan las cosas.</p>
+<p style="text-align: justify;">Entonces, el estar informando va a ayudar mucho y la gente está muy contenta de que se esté informando todos los días.</p>
+<p style="text-align: justify;">Si no se puede sólo con la competencia vamos a actuar, ya dije, vamos a buscar que no haya abusos, vamos a fomentar más la competencia, que el Estado pueda tener también centros de distribución de gasolinas, que pueda tener gasolinerías o gasolineras para vender a buen precio litros de a litro. Hacia allá vamos.</p>
+<p style="text-align: justify;">Ayer dije precisamente en Champotón, que ahí se recuerda la batalla, según unos, de la Mala Pelea, según otros, de la buena pelea, porque ahí no pudieron, en Champotón, los invasores tuvieron que retirarse. Y de ahí viene aquello de ‘toma tu Champotón’.</p>
+<p style="text-align: justify;">Entonces, ayer acordamos, me dieron permiso por lo que tiene que ver con el derecho de autor, que yo use: ‘Si quieres corrupción, toma tu Champotón´. Entonces, cero corrupción, cero impunidad.</p>
+<p style="text-align: justify;">Acerca de lo de sana distancia o cercanía con, en este caso Morena.</p>
+<p style="text-align: justify;">Yo represento a todos los mexicanos. Siempre lo he dicho: partido, como su nombre lo indica es una parte; gobierno es la representación de todos. No quiero ser jefe de grupo, jefe de pandilla, jefe de facción, jefe de partido; yo soy el representante del Estado mexicano y el presidente de México. Entonces, no tengo por qué meterme en asuntos partidistas.</p>
+<p style="text-align: justify;">Además, aprovecho para recomendarles, qué bien que me preguntan sobre esto, a quienes están participando en elecciones, es un llamado fraterno para que entiendan que ya las cosas cambiaron, porque hay que avisarles a veces, tocarles la puerta, mandarles un telegrama, un <em>Whatsapp,</em> como se dice ahora, y decirles: cuidado con el fraude, cuidado con la manipulación, no se puede utilizar dinero del presupuesto para favorecer a partidos y a candidatos, ni dinero de los gobiernos municipales ni de los gobiernos estatales ni del gobierno federal. No se puede estar entregando migajas, dádivas a cambio de votos. Ya se acabó el tiempo del reparto de despensas, del frijol con gorgojo. Se tiene que respetar el voto libre de los ciudadanos, tiene que haber democracia.</p>
+<p style="text-align: justify;">Y les recuerdo que ya es delito grave el fraude electoral. Les aviso, ahora sí que bajo advertencia no hay engaño. Podrán ser compañeros de lucha, que vienen con nosotros desde hace muchos años, pero si hacen un fraude electoral van a ser castigados.</p>
+<p style="text-align: justify;">Y esto corresponde a la Fiscalía General, y en particular a la Fiscalía Electoral. Aprovecho para pedirle al fiscal general, con todo respeto, porque es una institución autónoma, y a la Fiscalía Electoral, que estén pendientes y que no se hagan de la vista gorda como ha sucedido durante mucho tiempo, que no haya fraude electoral, elecciones limpias y libres. Eso es lo puedo contestar.</p>
+<p style="text-align: justify;"><strong>PREGUNTA: </strong>Señor presidente, buenos días. Jaime Hernández, del periódico digital <em>Bajo Palabra.</em></p>
+<p style="text-align: justify;">Señor presidente, así como ha dado a conocer la lista de las gasolineras que venden más caro y más barata, ¿también dará a conocer la lista de los dueños que tienen 100 o 500 gasolineras?, ¿y de qué manera el gobierno enfrentará estos monopolios en caso de existir?, así como usted lo viene diciendo.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Existen, ya lo dije, consorcios que tienen hasta 500 gasolineras y es pública la información, la tiene la CRE, pero nosotros también podríamos darla a conocer.</p>
+<p style="text-align: justify;">Eso va a mantenerse porque fueron concesiones que se dieron en su momento, de conformidad con la ley. Yo dije hace unos días que los contratos son sagrados, retomando el planteamiento del presidente de la Cámara de Comercio de los Estados Unidos, porque hay que cumplir con los compromisos.</p>
+<p style="text-align: justify;">Es importante que haya un auténtico Estado de derecho, que haya confianza, pero sí se puede mostrar cuántas gasolineras tienen estos consorcios.</p>
+<p style="text-align: justify;">Lo más importante es que no haya prácticas monopólicas. Eso sí: se va a impedir, y por eso estamos viendo lo de los precios, que se pongan de acuerdo y que mantengan precios que afecten a los consumidores.</p>
+<p style="text-align: justify;">Ya hasta el instituto de la competencia nos dio la razón en ese sentido, inclusive hay investigaciones que se están haciendo para evitar prácticas monopólicas, pero sí podemos dar a conocer quiénes son los que más gasolinerías tienen concesionadas.</p>
+<p style="text-align: justify;">Lo podríamos hacer el lunes próximo, al momento de que se dé a conocer la información.</p>
+<p style="text-align: justify;"><strong>PREGUNTA: </strong>Presidente, buenos días.</p>
+<p style="text-align: justify;">El viernes pasado estuvo aquí un reportero, yo le diría cirquero, del <em>Grupo Televisa</em>, filial de <em>Univisión</em>, increpándole por el tema de la inseguridad en el país.</p>
+<p style="text-align: justify;">Yo no recuerdo, yo revisé, que el señor no haya hecho reportajes por los miles de muertos que hay en Libia, que hay en Irak, que hay en Haití, consecuencia de las invasiones ordenadas por Bush y Barack Obama.</p>
+<p style="text-align: justify;">Tampoco recuerdo que haya hecho un reportaje sobre los miles de pesos que recibió <em>Televisa</em> por publicidad cuando acallaron la violencia durante los gobiernos de Fox, Calderón y Enrique Peña Nieto.</p>
+<p style="text-align: justify;">¿Qué opinión le merece, presidente, o qué sabor de boca le deja que reporteros vengan a increparle y que acallen la violencia que existe en el país a cambio de publicidad?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Miren, lo mejor es la libertad, el que nos podamos manifestar.</p>
+<p style="text-align: justify;">Yo le tengo mucha confianza a los ciudadanos, creo en el pueblo, creo en la sensatez de los mexicanos, siempre he dicho que el verdadero cambio se ha dado porque ya cambió la mentalidad del pueblo. Esa es la transformación.</p>
+<p style="text-align: justify;">Hay veces que hay revoluciones, enfrentamientos armados y la gente sigue manteniendo la misma mentalidad. Lo extraordinario de ahora es que, sin violencia, sin una revolución armada, con una revolución de las conciencias se ha avanzado muchísimo, es otra la mentalidad del pueblo.</p>
+<p style="text-align: justify;">Entonces, esto nos ayuda mucho para que los ciudadanos sean al final de cuentas los que pongan a cada quién en su lugar, que nos pongan tanto a los ciudadanos como a las autoridades, a los medios en nuestro lugar para que todos aprendamos a respetar al pueblo, no pensar que el pueblo es menor de edad o que el pueblo es tonto. Tonto es el que piensa que el pueblo es tonto.</p>
+<p style="text-align: justify;">La gente está muy informada, muy avispada, muy consciente. Ya no es el tiempo de antes de que se tutelaba a través de los medios de información. Los conservadores siempre han apostado a eso.</p>
+<p style="text-align: justify;">Yo recuerdo que Lucas Alamán, que es el ideólogo más importante del conservadurismo en el siglo XIX, sin duda, le escribió a Santa Anna, que estaba en el extranjero; después de que por culpa de Santa Anna y por otras razones por los Polkos, es decir los fifís de entonces nos quitaron la mitad de nuestro territorio, una gran desgracia.</p>
+<p style="text-align: justify;">Ya Santa Anna había sido 10 veces presidente de México. Entonces, si se tiene que ir al exilio a Colombia y los conservadores lo traen de nuevo; y para alentarlo, convencerlo, le envía una carta Lucas Alamán, que es extraordinaria, porque describe muy bien lo que es la manipulación de la opinión pública a través de los medios como una estrategia del conservadurismo.</p>
+<p style="text-align: justify;">Estamos hablando de antes de que Goebbels dijera que una mentira que se repite muchas veces puede convertirse en verdad, estamos hablando de 1850 aproximadamente, cuando la invasión estadounidense y el gran zarpazo se consuma en 1848. Se va Santa Anna y dos años después lo vuelven a traer.</p>
+<p style="text-align: justify;">Pero regresando a la carta, le dice Lucas Alamán: ‘No se preocupe, porque nosotros -palabras más, palabras menos-, tenemos el control de la opinión pública, porque manejamos los principales diarios del país’.</p>
+<p style="text-align: justify;">Entonces, era controlar así hasta hace poco. Tenía uno que cuadrarse, bueno, los políticos tradicionales o corruptos se tenían que subordinar o cuadrarse ante los medios, porque una campaña en un periódico en contra de un político o en la televisión no la resistían. No existían las redes sociales, por eso hablo de las benditas redes sociales. Ahora es distinto, la gente está muy consciente de las cosas.</p>
+<p style="text-align: justify;">El otro día vi con motivo de esta entrevista, vi a un columnista diciendo que los que venían aquí no eran buenos periodistas, que Jorge Ramos sí era muy buen periodista. No. Yo pienso, con todo respeto discrepo, creo que ustedes no sólo son buenos periodistas, son prudentes porque aquí los están viendo y si ustedes se pasan, pues, ya saben lo que sucede.</p>
+<p style="text-align: justify;">Entonces, pero no soy yo, es la gente; no es conmigo, es con los ciudadanos, que ya no son ciudadanos imaginarios. Hay mucha inteligencia en nuestro pueblo, antes se menospreciaba a la gente.</p>
+<p style="text-align: justify;">Entonces, ¿qué digo? Pues que vamos a garantizar las libertades, diálogo circular, debate, cuestionamientos con respeto y mensajes de ida y vuelta, porque también eso es importante.</p>
+<p style="text-align: justify;">Dicen: ‘Es que el presidente no debe de desacreditar a los medios’. ¡Ah!, los medios sí pueden desacreditar al presidente y el presidente no se debe de defender, se tiene que quedar callado. Eso sí no. Voy a ejercer mi derecho réplica siempre, con respeto.</p>
+<p style="text-align: justify;">Entonces, qué bien que se dan estas cosas porque ayuda, enriquece la vida pública del país; y que, además, si nosotros damos un dato equivocado, corregirlo, que nos estén ustedes haciendo contrapeso, que nadie se sienta absoluto en ningún nivel de la escala social, que se garantice el derecho a disentir y poder rectificar. Si hay un dato equivocado, un señalamiento equivocado decirlo y si corresponde a la realidad rectificar y decir: nos equivocamos. No hay que caer en la autocomplacencia. Ese es mi punto de vista, libertad en todos los casos.</p>
+<p style="text-align: justify;">Y esa es la diferencia con las dictaduras. En una dictadura no se puede disentir, es muy difícil, en una democracia tiene que haber pluralidad y apego a la verdad siempre.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> Y con el otro tema, presidente.</p>
+<p style="text-align: justify;">Usted ha dicho que su gobierno será austero y que, incluso, podría llegar a la austeridad franciscana.</p>
+<p style="text-align: justify;">Hoy muchos médicos, o miles de médicos vendrán o harán un paro parcial porque no les han pagado durante los últimos cuatro meses. Yo creo que lo médicos merecen su pago, presidente, si lo van a hacer, porque además de que cuentan con hospitales incompletos, no hay medicamentos en los hospitales.</p>
+<p style="text-align: justify;">¿Qué va a hacer con ese pago de los médicos, presidente?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Se les va a pagar.</p>
+<p style="text-align: justify;">Miren, lo que nosotros queremos es ir resolviendo los problemas graves que heredamos del periodo neoliberal, como es el mal servicio médico en su conjunto. No se cumple con lo que establece la Constitución de garantizar el derecho a la salud al pueblo de México; no se cumple. Eso que llaman Seguro Popular ni es seguro ni es popular; no hay médicos, no hay medicinas, ya hemos hablado de cómo se robaban hasta el dinero de las medicinas. Hay alrededor de 80 mil trabajadores de la salud contratados desde hace años por honorarios o como eventuales.</p>
+<p style="text-align: justify;">Entonces ya empezamos con una reforma a todo el sistema de salud, empezamos por definir que se va a crear el Instituto de la Salud para el Bienestar, un instituto nacional, y vamos a empezar en algunos estados, porque tiene que ser un proceso, para atender el problema de manera integral, tenemos que mejorar todo el servicio de primer nivel, todo lo que tiene que ver con centros de salud, unidades médicas rurales que están en comunidades, que están en colonias; la atención primaria. Nos faltan médicos, repito, no hay medicinas.</p>
+<p style="text-align: justify;">Luego, atender al mismo tiempo el segundo nivel de atención, los hospitales, que también están muy mal, saturados, muchos con pacientes en pasillos, no hay camas, porque se construyeron hospitales, pero no se contempló el equiparlos, el mantenerlos.</p>
+<p style="text-align: justify;">Si un hospital cuesta construirlo 500 millones de pesos, requiere otros 500 millones de pesos para operarlo; y eso no les importó porque iban sobre la obra. Lo peor de todo es que hay 80 hospitales que dejaron sin terminar, con un avance del 30 por ciento. Entonces, tenemos que atender esto. Decidir qué hospitales terminar, cuándo terminarlos, qué hospitales necesitan con más urgencia ser equipados, resolver el problema del abasto de medicamentos.</p>
+<p style="text-align: justify;">Yo creo que en tres años la atención médica y los medicamentos van a ser gratuitos para todos los mexicanos y vamos a tener un servicio de salud igual que el de los países nórdicos, igual que el de Dinamarca, de Suecia, igual que el del Canadá. Ese es mi compromiso.</p>
+<p style="text-align: justify;">Pero no puedo hacerlo de la noche a la mañana, porque va a implicar mejorar las 20 mil unidades rurales de primer nivel, va a implicar que funcionen todos los servicios de salud de segundo nivel, la atención hospitalaria y va a implicar mejorar la medicina especializada y que no falten los medicamentos.</p>
+<p style="text-align: justify;">Y que no se vuelva a usar ni siquiera la palabra cuadro básico, sino que el mexicano tenga acceso a todos los medicamentos. Es seguridad social desde la cuna hasta la tumba. Desde el nacimiento hasta la muerte. Ese es mi compromiso. Ya comenzamos, pero vamos a ir poco a poco para hacerlo también de manera ordenada.</p>
+<p style="text-align: justify;">Hay quienes se van a oponer porque quisieran que siguiera la anarquía, el desorden, porque ellos sacan provecho, pero estamos poniendo orden. Ya se va a iniciar.</p>
+<p style="text-align: justify;">Y en el caso de los médicos residentes, si se les debe se les va a pagar, ya lo dije. Hoy mismo voy a ver cómo está este asunto. Y no es por la presión, es una convicción nuestra.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> Y además es un derecho.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Además. Y están ejerciendo un derecho; pero también es un asunto de principios para nosotros. Nosotros no podemos traicionarnos a nosotros mismos. Tenemos que cumplir.</p>
+<p style="text-align: justify;">Y ya he dicho no pagar o retener el salario es pecado. Y ya hasta me han ayudado a encontrarlo en la <em>Biblia</em>, en el <em>Antiguo Testamento</em> está escrito. Sería una gran hipocresía estar hablando que va a haber justicia y estar cometiendo injusticias.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Gracias, presidente, buenos días.</p>
+<p style="text-align: justify;">Quisiera preguntarle sobre tres temas.</p>
+<p style="text-align: justify;">El primero. Hay una iniciativa en la Cámara de Diputados del grupo parlamentario de Morena para establecer un mecanismo temporal de control de precios de los combustibles, y que esto estuviera a cargo de la CRE.</p>
+<p style="text-align: justify;">Quisiera conocer su opinión, si esta podría ser una salida para reducir y bajar el costo de los combustibles.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No estoy de acuerdo con eso, no creo en el control de precio, así por decreto. Creo que, si hay competencia de verdad, auténtica, puede haber control de precio, sin necesidad de imponerlo. Y vamos a caminar en ese sentido.</p>
+<p style="text-align: justify;">También lo quiero dejar muy claro, porque si no los conservadores nos acusarían de estatistas, de estar actuando de manera autoritaria. Lo que pasa con la política neoliberal, conservadora, es que hasta en eso engañaron, de veras son falsos. Hablaron de la libre competencia, de la libertad de mercado y la aplicaron en los bueyes de sus compadres. No se habló de neoliberalismo.</p>
+<p style="text-align: justify;">¿Qué es eso? Pues es la libertad económica, la libertad comercial, que no existan monopolios. ¿Y cómo dejaron al país? Lleno de monopolios, en todo. Entonces, no al control de precios. Competencia.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> Correcto.</p>
+<p style="text-align: justify;">El otro tema que le quiero consultar es si existe la posibilidad de replantear el programa que se está otorgando para apoyos al campo.</p>
+<p style="text-align: justify;">Lo que ha ocurrido en este primer bimestre es que se incrementaron las importaciones, justamente porque cambió el perfil de los beneficiarios que reciben el apoyo, ahora son productores más pequeños y, sin embargo, los que tienen la mayor oferta ya no están recibiendo los apoyos gubernamentales.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, pero se están adelantando, están adelantando vísperas.</p>
+<p style="text-align: justify;">Como cambió, en efecto, la política y se está dando atención prioritaria a los pequeños productores y antes todo el subsidio iba dirigido a los grandes productores. Así fue en los gobiernos anteriores en todo, todo el apoyo al campo era para los de mero arriba. Ahora es distinto, ahora primero los pequeños.</p>
+<p style="text-align: justify;">Entonces, como saben que ya no hay esos subsidios para los grandes, ahora de manera muy hábil, nada más que los conozco, aunque se disfracen, están diciendo de que va a bajar la producción y que vamos a importar más alimentos yo sostengo que no, porque además eso ni siquiera ha pasado, pero ya lo dan como un hecho.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> En el primer bimestre sí ya se incrementó.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, pero sembrar maíz lleva cuatro meses, son los cuatro meses que llevamos, un poco más de estar aquí.</p>
+<p style="text-align: justify;">Entonces, hay que ver todavía con más calma, sin politizar las cosas, los resultados.</p>
+<p style="text-align: justify;">Además, yo aprovecho para hacerle un llamado a los productores en general, decirles que estamos empezando. Por el bien de todos primero los pobres, si no, no podemos ir tranquilos a los templos o a la iglesia, si olvidamos los mandamientos.</p>
+<p style="text-align: justify;">Entonces, primero los pobres. Los que tienen más, tienen acceso a los créditos, los pobres no tienen acceso a los créditos.</p>
+<p style="text-align: justify;">Desgraciadamente la mayoría de los mexicanos para los bancos no son sujetos de crédito.</p>
+<p style="text-align: justify;">Ellos, los que tienen más posibilidades, tienen más agarraderas, tienen más forma de salir adelante, tienen más capital, tienen más tecnología. Es un asunto de humanismo y de racionalidad.</p>
+<p style="text-align: justify;">Entonces, primero vamos con los productores pequeños que necesitan el apoyo. Les estaban pagando la tonelada de maíz a tres mil pesos, ahora el Precio de Garantía son cinco mil 600 pesos, pero es el que produce hasta 10 toneladas, hasta ahí va a tener apoyo, 10 o 20, no tengo ahora precisado el número de toneladas; y también de acuerdo a la superficie, el que tenga menos va a recibir más apoyo en todo, en lo que era el Procampo, que ahora se llama Producción para el Bienestar y en los Precios de Garantía.</p>
+<p style="text-align: justify;">Pero terminando de resolver que se les pague bien a los pequeños, vamos a ir avanzando con los medianos hasta los grandes, porque lo que queremos es ser autosuficientes y no comprar los alimentos en el extranjero. Queremos producir en México lo que consumimos. Esa es la política.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> Es que es justo lo que está ocurriendo a la inversa.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, teníamos que empezar de abajo hacia arriba, esa es la explicación a todos. Y sí, ya millones de productores pequeños están recibiendo apoyos.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> Gracias.</p>
+<p style="text-align: justify;">Y finalmente preguntarle, presidente, si tienen en su gobierno algún plan de transformación para la Lotería Nacional, que debía ser una institución que aportara, pero que realmente ahora se ha convertido en una carga por su ineficiencia, porque su administración no ha sido y ha sido, incluso hasta la caja chica para asuntos de corrupción.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, eso termina. Ya hay una exposición preparada. Van a venir aquí a explicarles en qué va a consistir la transformación de la Lotería Nacional. Es un nuevo plan.</p>
+<p style="text-align: justify;">Y de una vez aprovecho para comentarles que estamos elaborando una iniciativa de ley para crear un instituto que devuelva de manera pronta y expedita todo lo que se le confisque a la delincuencia organizada y a los políticos corruptos, que se le devuelva pronto al pueblo todo lo robado, porque se confiscan dólares y no se sabe a dónde va ese dinero.</p>
+<p style="text-align: justify;">Entonces, va a haber un instituto, un ´Robin Hood´ o un ´Chucho el Roto’, pero contra los corruptos. Ya ven que se confisca joyas, se confiscan residencias, hay por todos lados residencias, se confiscan ranchos, vehículos, carros nuevos de los más famosos. Es tanta la burocracia que mucho de eso se echa a perder por los trámites y otras cosas desaparecen.</p>
+<p style="text-align: justify;">Entonces, estamos buscando un mecanismo para que, se confisca, le vamos a pedir a la Fiscalía que libere pronto los bienes de extinción de dominio y el instituto los asigna a un municipio para una escuela, para un hospital, para un asilo de ancianos.</p>
+<p style="text-align: justify;">Se le va a poner su placa.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Por cierto, justamente, ¿qué paso con el dinero y los bienes de ‘el Chapo’ Guzmán?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Eso, por ejemplo, hay casas que se tienen bajo custodia de la Fiscalía o de Hacienda y que, por los trámites, por lo general, esos bienes se deterioran, son saqueados o cuesta muchísimo el mantenimiento y no se hace nada con ellos.</p>
+<p style="text-align: justify;">Entonces eso se va a resolver ya estamos creando el instituto, nada más que no le vamos a poder llamar porque lo que queremos es cambiar hasta el lenguaje, no queremos nada del lenguaje tecnocrático, de la jeringonza, de la tecnocracia. Ya ven cómo nos invadieron también con esos términos.</p>
+<p style="text-align: justify;">Tenemos que hablar con claridad, con buen castellano, con buen español. Algunos fifís que dicen, de las letras, o de la intelectualidad, dicen cuando están escribiendo algo para el pueblo, dicen: ‘bájale’. No, es súbele, escribe bien, que te entiendan. Si vas a decir la molécula cuando es la gasolina, ¿quién te entiende?, ¿no es así? Y así, muchas otras cosas.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> (inaudible)</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> De Hacienda, pero va a ser autónomo, independiente y estamos buscando el nombre, no es instituto para la administración de bienes decomisados, expropiados, de procedencia ilícita, no, no; instituto para devolver al pueblo lo mal habido, lo robado.</p>
+<p style="text-align: justify;">Ustedes van allá, bueno, no lo puedo decir. Pero antes que había los tianguis, dice: ‘Ese tianguis en de puro Roberto’.</p>
+<p style="text-align: justify;">Bueno, ya terminamos nos vemos mañana.</p>
+<p style="text-align: justify;">Muchas gracias.</p>
+<p style="text-align: justify;">Adiós, adiós.</p>
+<p style="text-align: center;">+++++</p>
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

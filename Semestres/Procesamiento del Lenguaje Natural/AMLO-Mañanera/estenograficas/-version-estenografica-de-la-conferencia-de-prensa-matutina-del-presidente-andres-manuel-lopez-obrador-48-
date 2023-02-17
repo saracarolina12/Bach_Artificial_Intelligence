@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>19.02.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-48/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=113638' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2Fversion-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-48%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2Fversion-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-48%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66i2m-f-39ea5a0c0-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":20,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"38f9a15e","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55354,"ak.gh":"23.47.207.46","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616524","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==SMxt9sZC/05n3NBYnajLam0mvTAXjGcbsLEj15XDg2ViMBXHyBOzx43jcsp4Ujj2a8wcmr5u7R6gb2KU3+q1cPSnA3mRyle7kwUaXPzBlmkbg/b8dPpnY6v99hPbCRRnOH70Ue6EUqkXbQcTBf2ioSwVP3Mj8goEHX/61ALfm+dPxlO6mL3zmMMLOhqiDx6tTf+AsViRDYmbBvg99aBdzZWFLV30DY+pALXdbNCdP3aLwndh67p5l+h5aq7W9KATyEjOa5ATb3vNx+FKlJsbLwWRj9YteGkpcAxXrYMOwy9/xOFx+ATugCIjxsuMBPwofayTk5BFYYwpX3B1ezQZXrCkzIhRIl/PrgmOyc0dj/W78w9hvwf1otQ7w0eXeue7g94Q4yyWE4TQ1vcfTcDAExW8MoKC3CndipRXxaujCdE=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-113638 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef20be4b56f" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>19.02.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 19.02.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-113638" class="post-113638 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica tag-amlo tag-andres-manuel tag-andres-manuel-lopez-obrador tag-conferencia tag-conferencia-amlo tag-conferencia-de-amlo tag-conferencia-de-prensa tag-conferencia-de-prensa-amlo tag-conferencia-de-prensa-presidente tag-conferencia-matutina tag-conferencia-presidente tag-lopez-obrador tag-obrador">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2019/02/19-02-2019-FOTO-04-CONFERENCIA-DE-PRENSA-MATUTINA.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2019/02/19-02-2019-FOTO-04-CONFERENCIA-DE-PRENSA-MATUTINA-745x450.jpg" alt="19.02.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">19.02.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><span style="font-size: 10pt;"><em>2019, Año del Caudillo del Sur, Emiliano Zapata</em></span></p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Buenos días.</p>
+<p style="text-align: justify;">Hoy vamos a dar a conocer la terna que, por unanimidad, aprobó el Consejo del Instituto de las Mujeres para la dirección de este organismo, de esta institución.</p>
+
+<figure class="wp-block-audio"><audio src="https://lopezobrador.org.mx/wp-content/uploads/2019/02/19-02-2019CPM.mp3" controls="controls"></audio></figure>
+
+
+
+<figure class="wp-block-embed-facebook wp-block-embed is-type-video is-provider-facebook">
+<div class="wp-block-embed__wrapper">
+<p><div id="fb-root"></div><script async="1" defer="1" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v3.2"></script><div class="fb-video" data-href="https://www.facebook.com/lopezobrador.org.mx/videos/2347435645484519/" data-width="500"><blockquote cite="https://www.facebook.com/lopezobrador.org.mx/videos/2347435645484519/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/lopezobrador.org.mx/videos/2347435645484519/">La mayor riqueza de México es la honestidad de su pueblo. Conferencia matutina en vivo.</a><p>Dimos a conocer la terna para la dirección del Instituto Nacional de las Mujeres. Las candidatas están comprometidas con los derechos de las mujeres y sus propuestas ayudarán a lograr la equidad de género. Buscamos que las instituciones estén a cargo de servidoras públicas capacitadas, honestas y con principios. Las aspirantes son: Candelaria Ochoa Ávalos, Patricia Olamendi Torres, y Nadine Gasman. Al finalizar el día daremos a conocer quién será la nueva directora del Instituto. Tomaremos la decisión apoyados en el grupo de mujeres del Gobierno de México, encabezado por la secretaria de Gobernación, Olga Sánchez Cordero.</p>Posted by <a href="https://www.facebook.com/lopezobrador.org.mx/">Andrés Manuel López Obrador</a> on Tuesday, February 19, 2019</blockquote></div></p>
+</div>
+</figure>
+
+<p style="text-align: justify;">No sé si la licenciada les dé a conocer el procedimiento y la terna también.</p>
+<p style="text-align: justify;">El propósito de dar a conocer la terna es, como lo hicimos la vez pasada, para que el día de hoy o por la mañana, se conozcan todavía opiniones y ya en la tarde-noche ya resolvemos sobre la terna.</p>
+<p style="text-align: justify;"><strong>OLGA SÁNCHEZ CORDERO, SECRETARIA DE GOBERNACIÓN:</strong> Gracias, señor presidente.</p>
+<p style="text-align: justify;">Muy buenos días a todas, a todos ustedes.</p>
+<p style="text-align: justify;">Efectivamente, el día de ayer se tuvo la primera sesión ordinaria de la Junta de Gobierno del Instituto Nacional de las Mujeres que, como todos ustedes saben, esta Junta de Gobierno se compone del Consejo Consultivo previamente electo hace ya varios meses del Consejo Social también ya fue designado hace varios meses y de la administración pública con todos los representantes de las diversas secretarías de Estado.</p>
+<p style="text-align: justify;">Yo quisiera compartirles que, desde luego, como es la instrucción del señor presidente, esta administración prioriza los procesos transparentes y fomenta la participación de todos los actores involucrados para tener objetividad, asegurar objetividad y buscar una representación democrática en cualquier decisión.</p>
+<p style="text-align: justify;">Por eso este proceso de selección de la terna es una prueba de ello.</p>
+<p style="text-align: justify;">Y quiero agradecer la participación, en primer lugar, de todas aquellas que se animaron a participar en este proceso, en esta auscultación.</p>
+<p style="text-align: justify;">Felicitar a las integrantes del Consejo Consulito y Social por la labor que realizaron en las entrevistas, en los filtros, en las votaciones que, yo puedo atestiguar, se dotaron de imparcialidad y objetividad en esta selección.</p>
+<p style="text-align: justify;">Participaron, desde luego, mujeres de las organizaciones civiles, de la academia, del sector público, de las empresas y de otros sectores.</p>
+<p style="text-align: justify;">Y, también, yo quisiera decir que todas estas mujeres que participaron, todas, todas, lo único que demostró fue el gran capital que tenemos de mujeres comprometidas con los derechos de las mujeres y con programas que pueden llevar a cabo la igualdad entre hombres y mujeres.</p>
+<p style="text-align: justify;">Se analizó su trayectoria, sus proyectos, su estatus académico, sus credenciales y básicamente se llegó a la conclusión unánime, por consenso, de tres de las candidatas, la primera de ella:</p>
+<p style="text-align: justify;">Candelaria Ochoa Ávalos, que es una destacada académica, originaria de Jalisco, quien además de haber sido integrante del Consejo Social de Mujeres en administraciones pasadas, ha impulsado políticas para avanzar en la equidad de género en nuestro país; entre otras, desde el Poder Legislativo, cuando fue diputada federal.</p>
+<p style="text-align: justify;">Patricia Olamendi Torres, que es una abogada de gran renombre y que ha promovido el mejoramiento de la calidad de vida de las mujeres, tanto en instancias nacionales, como en instancias y organismos internacionales. Ejemplo de ello es el trabajo que ha realizado en el Sistema Interamericano para erradicar la violencia en contra de la mujer y su labor en la Procuraduría General de Justicia de la Ciudad de México.</p>
+<p style="text-align: justify;">Y, por último, la doctora Nadine Gasman, el trabajo de la doctora Nadine Gasman que ha realizado es en favor de los derechos de las mujeres, particularmente en relación a los derechos reproductivos de las mujeres y ha sido reconocida internacionalmente. Ella es médico cirujano especialista en derechos sexuales y reproductivos; además, ha estado, está ahorita, precisamente, también, desempeñándose en la Organización de Naciones Unidas, en ONU-Mujeres, en Brasil, como representante en Brasil.</p>
+<p style="text-align: justify;">Muchas gracias.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Esa es la terna y ya para la tarde-noche se toma la decisión que va a considerar la opinión del grupo de mujeres del gobierno de la República que encabeza la licenciada Olga Sánchez Cordero.</p>
+<p style="text-align: justify;">Ella va a deliberar, sí, es una decisión del presidente, pero yo voy a tomar en cuenta la opinión del grupo que nos ha estado ayudando en todo este proceso, el grupo que encabeza, coordina la licenciada Olga Sánchez Cordero.</p>
+<p style="text-align: justify;">Esto se lo queríamos informar, es muy importante, todos estos procesos que se están llevando a cabo para tener instituciones con servidores públicos, mujeres y hombres capacitados y honestos, con principios. Ese es el propósito de todos estos procesos de selección.</p>
+<p style="text-align: justify;">No hay influyentismo, no hay recomendados, se está buscando que sean los mejores, independientemente de sus posturas personales, ideológicas, políticas, es el servicio público para todos.</p>
+<p style="text-align: justify;">Siempre decimos que el gobierno tiene que atender a todos, no es un asunto de grupo, de partido, es la representación de la sociedad en su conjunto. Y eso es lo que estamos procurando.</p>
+<p style="text-align: justify;"><strong>OLGA SÁNCHEZ CORDERO: </strong>Muchas gracias, señor presidente.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Si se sienta y me espera aquí.</p>
+<p style="text-align: justify;">Ahora sí abrimos, estamos abriendo la sesión de preguntas y respuestas, porque vamos a estar hoy por la tarde en Saltillo, Coahuila, para conmemorar el aniversario de la fundación del Ejército Nacional, el nuevo ejército.</p>
+<p style="text-align: justify;">Y mañana vamos a estar en Monterrey, Nuevo León, la reunión de seguridad, por primera vez, la vamos a llevar a cabo en un estado de la República. Vamos a llevar a cabo la reunión de seguridad en Monterrey, Nuevo León.</p>
+<p style="text-align: justify;">Así lo vamos hacer en todo el país, periódicamente vamos a tener estas reuniones fuera de la Ciudad de México.</p>
+<p style="text-align: justify;">Y también terminando la reunión de seguridad, la conferencia igual que ésta, sólo que mañana en Monterrey. Ya pasado mañana regresamos aquí.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Hola, presidente. Buenos días. Rosa Elena Soto.</p>
+<p style="text-align: justify;">Preguntarle: En el Congreso se discuten dos temas, el de la Guardia Nacional, hoy posiblemente se apruebe también en la Cámara de Diputados, está el tema del aumento de los delitos graves.</p>
+<p style="text-align: justify;">Preguntarle, las organizaciones sociales están proponiendo una modificación ya sea al artículo 16 o 19 para que la previsión preventiva oficiosa sea justificada. Al parecer hay un rechazo a esta propuesta.</p>
+<p style="text-align: justify;">¿Cuál es su opinión al respecto?</p>
+<p style="text-align: justify;">Y también el rechazo en el Senado de algunas de las propuestas que están pidiendo para la Guardia Nacional. Esa es una.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Miren, he estado pendiente de las opiniones de todos los grupos sobre la creación de la Guardia Nacional y la propuesta que hicimos de convertir el delito grave el robo de combustible, la corrupción, el fraude electoral.</p>
+<p style="text-align: justify;">Y, la verdad, hay una actitud de rechazo de parte del PAN y de algunos dirigentes del PRI, hablando en plata. En bloque están actuando los senadores del PAN en contra de la creación de la Guardia Nacional.</p>
+<p style="text-align: justify;">Ojalá y modifiquen esa actitud que no ayuda, porque se requiere de la Guardia Nacional.</p>
+<p style="text-align: justify;">Tenemos un problema serio de inseguridad y de violencia que creció porque los gobiernos anteriores ni atendieron las causas que originaron la inseguridad y la violencia, es decir, no combatieron la pobreza, ni tampoco se ocuparon de garantizar la seguridad pública.</p>
+<p style="text-align: justify;">Simularon que enfrentaban el problema de la inseguridad con operativos, pero todo en el esquema de la publicidad, de la detención de líderes de organizaciones delincuenciales sin que se atendiera el problema de la inseguridad.</p>
+<p style="text-align: justify;">¿Y por qué digo esto?</p>
+<p style="text-align: justify;">Porque no se cuenta con policías ni con elementos suficientes para proteger a la población.</p>
+<p style="text-align: justify;">El presidente de la República, de acuerdo a la Constitución, solo dispone de 20 mil efectivos para enfrentar el grave problema de la inseguridad y de la violencia.</p>
+<p style="text-align: justify;">Entonces, hay una actitud partidista en el Senado, en la Cámara de Diputados, y existe esta oposición a la Guardia Nacional.</p>
+<p style="text-align: justify;">Nosotros vamos a seguir haciendo nuestra labor, pero sí quería darlo a conocer, así con toda claridad.</p>
+<p style="text-align: justify;">El PAN como partido se opone a la creación de la Guardia Nacional y un grupo de dirigentes del PRI.</p>
+<p style="text-align: justify;">Me han planteado gobernadores del PRI que ellos apoyan la Guardia Nacional, pero algunos dirigentes de ese partido están resueltos a no aprobar la reforma constitucional.</p>
+<p style="text-align: justify;">¿Por qué algunos gobernadores del PRI sostienen y apoyan?</p>
+<p style="text-align: justify;">Porque ellos tienen que enfrentar el problema de la inseguridad y de la violencia, y saben que es lo mejor para garantizar la seguridad pública.</p>
+<p style="text-align: justify;">Acerca de las modificaciones legales, lo mismo. Nosotros necesitamos que sea delito grave la corrupción, necesitamos que sea delito grave sin derecho a fianza el robo de combustible, que sea delito grave el fraude electoral.</p>
+<p style="text-align: justify;">Y desde luego que somos respetuosos de lo que decidan los legisladores, pero vamos a hablar con claridad para que los ciudadanos sepan quiénes votaron a favor, quiénes votaron en contra y podamos transparentar todos estos procesos, no tiene por qué ocultarse, no tengo por qué callarme, no tengo ningún problema de conciencia.</p>
+<p style="text-align: justify;">Ahora resulta que los que utilizaron sólo como recurso el uso de la fuerza, en tiempos pasados y que desataron la violencia y convirtieron al país en un cementerio, ahora dicen que son defensores de derechos humanos y que no quieren la militarización del país, cuando no es eso lo que se está proponiendo.</p>
+<p style="text-align: justify;">Lo que queremos es que haya seguridad pública, que podamos resolver los problemas de homicidios, de robos, que afectan a la población.</p>
+<p style="text-align: justify;">Entonces, qué bien que me pregunta, porque está por resolverse este asunto en la Cámara. También decirle, con todo respeto a los legisladores, que no acepto como titular del Ejecutivo la simulación.</p>
+<p style="text-align: justify;">Una reedición de la Policía Federal sería lo mismo, desde cuándo se tiene la Policía Federal y miren el resultado, no ha funcionado desde que se creó la Policía Federal y muchos problemas de corrupción en compras de equipos, en suministro de alimentos, todo esto que estamos ahora, desgraciadamente, heredando. Ya no queremos eso, ya no podemos seguir con la simulación de siempre.</p>
+<p style="text-align: justify;">Esto es un cambio y hemos hablado con mucha claridad de que se van a respetar los derechos humanos, de que va a haber control en el uso de la fuerza.</p>
+<p style="text-align: justify;">Hemos hablado de que existe una actitud de cambio en las prácticas que, por las características anteriores se llevaron a cabo tanto en la Marina como en el Ejército, hay una actitud muy sensible de atención a la población, de ayudarnos a resolver el problema de la inseguridad y de la violencia.</p>
+<p style="text-align: justify;">Y yo creo, en este giro que se le puede dar al Ejército, que se le puede dar a la Secretaría de Marina, para que nos ayuden en el principal problema que tenemos, que no es la defensa nacional, no es la seguridad interior, el principal problema es la seguridad pública.</p>
+<p style="text-align: justify;">Y queremos, por eso, crear esta Guardia Nacional.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> La siguiente pregunta, por último, señor, sería: El jueves de la semana pasada hubo una marcha del SME a la Secretaría de Gobernación en la que demandaban el respeto a los contratos hechos en sexenios anteriores y se hablaba de un contrato. Se habla de que el SME y la empresa Generadora Fénix, que es parte de Mota-Engil, tiene contratos por 25 años de compra.</p>
+<p style="text-align: justify;">Señor, preguntarle si hay este tipo de contratos de 25 años para comprar energía o si se van a replicar estos mismos contratos.</p>
+<p style="text-align: justify;">Y la última pregunta también es del SME. La extinción de Luz y Fuerza del Centro todavía está en secrecía este archivo, ¿en su sexenio se dará a conocer cómo fue el decreto de extinción de Luz y Fuerza?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, todo se va a transparentar.</p>
+<p style="text-align: justify;">Y miren para información, porque vamos a tener tiempo de revisar los contratos, aunque parezca increíble, hay contratos para compra de energía por 40 años.</p>
+<p style="text-align: justify;">Yo le pedí al director de la Comisión Federal de Electricidad que hiciera una revisión con la esperanza de que se vencieran en este sexenio para renegociar en beneficio de la nación. Pero no, son contratos, 30, 40 años hacia adelante. Entonces cuando dicen que les dieron un contrato de 20, de 25, así debe ser.</p>
+<p style="text-align: justify;">Entonces, legalmente no se puede revocar un contrato, sólo que hubiese alguna causa justificada. Eso sí se está haciendo básicamente.</p>
+<p style="text-align: justify;">Y la transparencia, eso sí, de todo, no vamos a ocultar absolutamente nada.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> (inaudible)</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, sobre el expediente, la transparencia del expediente de Luz y Fuerza.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Buen día, presidente. Arturo Rodríguez, de Proceso.</p>
+<p style="text-align: justify;">Hoy se cumplen 13 años del siniestro en Pasta de Conchos y va justo al estado de Coahuila, entiendo que Gobernación ayer estableció una mesa.</p>
+<p style="text-align: justify;">La cuestión sería si en este ánimo de resolver los reclamos de los deudos estaría dispuesto el Estado mexicano a desistirse en la controversia en la CIDH sobre este asunto que sigue litigando.</p>
+<p style="text-align: justify;">Ese sería el planteamiento.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, nosotros todo lo que signifique hacer justicia y dejar en libertad los procedimientos para que las autoridades competentes resuelvan, lo vamos a hacer, lo que me está preguntando.</p>
+<p style="text-align: justify;">Sí estamos en condiciones de liberar procesos, de no litigar, en hechos que obstruyan la procuración de justicia.</p>
+<p style="text-align: justify;">Qué bien que esté aquí la licenciada con ese propósito.</p>
+<p style="text-align: justify;">Yo he planteado, sobre este caso, que no se descarte, incluso, el que, mediante una decisión voluntaria, concertada, la empresa lleve a cabo una exploración para sacar los restos de los que quedaron atrapados en la mina para sacar los restos de los fallecidos.</p>
+<p style="text-align: justify;">Creo que eso ayudaría mucho en la reconciliación entre las partes y en el marco de la reconciliación nacional, que especialistas del mundo puedan opinar para que se hagan, si es posible, las excavaciones y se rescaten los cuerpos, se rescaten los restos de los fallecidos.</p>
+<p style="text-align: justify;">Es curar heridas, todo lo que hagamos en ese sentido o todo lo que podamos hacer va a ayudar en la reconciliación.</p>
+<p style="text-align: justify;">Estamos dispuestos, incluso a plantearlo a la empresa, para que profesionalmente, técnicamente, científicamente, se analice la posibilidad para la reconciliación.</p>
+<p style="text-align: justify;">Independientemente de la impartición de justicia, de la reparación de los daños, independientemente de eso, para los familiares de víctimas lo más importante son los restos de sus familiares, el tenerlos. Ese es el sentimiento general.</p>
+<p style="text-align: justify;">Entonces nosotros estamos por eso y también que bien que esté aquí la licenciada para tomar nota de que esa es nuestra postura.</p>
+<p style="text-align: justify;">A ver.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Gracias, presidente, buenos días.</p>
+<p style="text-align: justify;">Quisiera consultarle su opinión sobre esta solicitud de audiencia que hizo ayer el presidente de la Comisión Reguladora de Energía, para ver si pueden platicar personalmente sobre las acusaciones que existen sobre el presunto conflicto de interés.</p>
+<p style="text-align: justify;">Y después del INAI también solicitó una audiencia con usted para platicar, dicen ellos que quieren explicarle cuál es su trabajo y su función como órganos autónomos, si piensa recibirlos. Ese sería el primer tema.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, estoy abierto, porque es un derecho que tienen los ciudadanos, el derecho de audiencia, y los voy a atender, los voy a recibir, nada más es un asunto de agenda, a ver cuándo puedo hacerlo, para escucharlos, como lo tienen que hacer todas las autoridades.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> El presidente de la CRE asegura que hay una persecución política en su contra por haber realizado críticas a las ternas que usted propuso al Senado.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Eso no, ya teníamos, y él lo sabía, las pruebas de que hay conflicto de interés, o sea, antes de que él criticara las ternas, yo puedo probar que ya se tenía la investigación, incluso, puedo hasta pensar que por eso criticó las ternas, porque ya sabía que existía una investigación, una investigación sobre conflicto de intereses no se hace de un día para otro.</p>
+<p style="text-align: justify;">Si hacen ustedes una revisión de cuándo fue que dije yo aquí que iba a enviar las ternas, cuándo él hace el cuestionamiento a las ternas y cuándo se da a conocer que hay conflicto de intereses, pues se van a encontrar en el tiempo que ya teníamos toda la información, ya inteligencia financiera tenía el expediente.</p>
+<p style="text-align: justify;">Y yo tengo, ya se los he dicho, como criterio, que cuando me presentan un expediente sobre un presunto ilícito o un ilícito probable, ordeno de inmediato que se proceda, o sea, cuando hay pruebas de inmediato se procede. De todas maneras, yo lo recibo.</p>
+<p style="text-align: justify;">Pero no fue por eso, o sea, no actuamos así.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> También consultarle, presidente, quisiera saber su opinión sobre una iniciativa que se está procesando en la Cámara de Diputados para la reformar la Ley de Pemex.</p>
+<p style="text-align: justify;">Se plantea la posibilidad de incrementar las facultades del director de la empresa y restar facultades al consejo de administración.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No hay ninguna iniciativa de parte nuestra.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> Es de Morena.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ah, bueno, sí.</p>
+<p style="text-align: justify;">Pero nosotros no aprobamos eso, es decir, en el Ejecutivo no queremos ninguna modificación en ese sentido, porque no queremos darles pretextos, excusas, a los que han saqueado a Pemex.</p>
+<p style="text-align: justify;">Si ahora nosotros planteamos algo así qué van a decir, van a gritar como pregoneros de que ya se está actuando con arbitrariedad y ya no va a haber contrapesos en Pemex.</p>
+<p style="text-align: justify;">¿Qué decía la derecha, los conservadores?</p>
+<p style="text-align: justify;">Que había que terminar con el monopolio de Pemex para quedarse ellos con el monopolio, porque al final eso fue.</p>
+<p style="text-align: justify;">Es un doble discurso, muy hipócrita. Entonces, no, no, no.</p>
+<p style="text-align: justify;">No los tocamos ni con el pétalo de una rosa, nada, ninguna modificación, ninguna modificación.</p>
+<p style="text-align: justify;">Ahí afortunadamente, a diferencia de lo que hablaba de los contratos de Pemex de 40 y 50 años, en este caso sí se vencen los plazos.</p>
+<p style="text-align: justify;">Ahí amarraron, pero les faltó porque creo que le dieron de tiempo a estos consejeros ocho años, en otros casos, bueno, 15 años, 20 años, 40 años y luego hubo renuncias. Y ahí tenemos posibilidad de limpiar todo eso cochinero que dejaron con la reforma energética, sin necesidad de modificar ninguna ley.</p>
+<p style="text-align: justify;">Es facultad del titular del Ejecutivo presentar las ternas para los nuevos consejeros en todos estos organismos.</p>
+<p style="text-align: justify;">Entonces, van a cambiar las cosas. Además, eran tan ineficientes estos organismos que ni siquiera les daban permiso de trabajo, de exploración, de crear plantas para la generación de energía al sector privado.</p>
+<p style="text-align: justify;">Una solicitud que se hacía a un organismo de este tipo se llevaba seis meses, ocho meses, un año para que resolviera; ni a Pemex le daban permiso. No, algo totalmente absurdo, creado con la reforma energética.</p>
+<p style="text-align: justify;">Entonces, todo eso tenemos que quitar, en parte por eso la crisis en la Comisión Federal de Electricidad, ellos fueron los que autorizaron contratos para pagar cantidades estratosféricas por el gas. Imagínense los negocios.</p>
+<p style="text-align: justify;">Los gasoductos son particulares y el dueño del gasoducto obtuvo un contrato para que la Comisión Federal de Electricidad le compre el gas, a precios elevadísimos, y si en la construcción del gasoducto hay un bloqueo y se interrumpe la construcción, la Comisión Federal de Electricidad le tiene que pagar a la empresa, en ocho gasoductos, en promedio, 50 millones de dólares al año de multa, ocho gasoductos detenidos, parados.</p>
+<p style="text-align: justify;">¿Quién autorizó esto?</p>
+<p style="text-align: justify;">La CRE.</p>
+<p style="text-align: justify;">¿Cómo licitaron? ¿A qué empresa les dieron esos contratos? ¿Dónde estuvo la transparencia?</p>
+<p style="text-align: justify;">Entonces, todo esto es lo que estamos ahora revisando.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA: </strong>(Inaudible)</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No hace falta, no hace falta y sería darles un pretexto para decir: ‘Gobierno autoritario, no toma en cuenta a los expertos, a la sociedad civil’.</p>
+<p style="text-align: justify;">La sociedad civil, que antes era pueblo, nada más que ahora ya se apropiaron de la sociedad civil, yo no conozco gente de la sociedad civil, de veras, muy pocos de izquierda, con todo respeto, todo lo que es sociedad civil tiene que ver con el conservadurismo, hasta los grandes consorcios promueven a la sociedad civil, es una bandera la sociedad civil.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Buenos días, señor presidente. Buenos días secretaria, Alejandro Lelo de Larrea, Grupo Cantón.</p>
+<p style="text-align: justify;">Presidente, preguntarle:</p>
+<p style="text-align: justify;">El fin de semana vimos un muy fuerte apoyo del gobernador de Sinaloa, y del gobernador de Durango a la Guardia Nacional.</p>
+<p style="text-align: justify;">Ahí, preguntarle el detalle de qué otros gobernadores estarían apoyando esta Guardia Nacional, y si le han manifestado que ellos podrían interceder ante diputados, en un caso del PRI, en otro del PAN, diputados y senadores para que votaran a favor de la Guardia Nacional y si éste apoyo sería incluyendo el cuarto transitorio que permite a las Fuerzas Armadas a actuar por cinco años y también que la Guardia Nacional sea adscrita a la Secretaría de la Defensa Nacional y no como proponen a la Secretaría de Seguridad Pública.</p>
+<p style="text-align: justify;">Y la segunda pregunta, presidente, data de 2000.</p>
+<p style="text-align: justify;">En aquél año, para financiar la campaña de Francisco Labastida desviaron recursos de Pemex vía el sindicato petróleo; después se les sentenció a hacer ese pago, esa devolución del dinero a 31 años, van a terminar en 2031 de devolver ese dinero, son mil 580 millones de pesos.</p>
+<p style="text-align: justify;">Esos recursos, acusa la oposición del sindicato, que están saliendo de las cuotas de los trabajadores de Pemex, usted tiene conocimiento de ello y también tendría conocimiento de que sí se está pagando esta deuda.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, acerca de lo primero, la mayoría de los gobernadores del PRI ha expresado su apoyo a la Guardia Nacional.</p>
+<p style="text-align: justify;">Ayer hubo una reunión con la secretaria de Gobernación y eso expresaron.</p>
+<p style="text-align: justify;"><strong>OLGA SÁNCHEZ CORDERO:</strong> Todos, todos los gobernadores. Todos.</p>
+<p style="text-align: justify;">La única que no estaba presente era Claudia, porque estaba fuera de México.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> La gobernadora de Sonora.</p>
+<p style="text-align: justify;">Sin embargo, tengo información que algunos senadores, no voy a mencionar nombres, pero sí estoy informado, y nada más les recuerdo de que ya no está el Cisen, pero el presidente tiene información, la que recojo de la gente, recojo los sentimientos de la gente, estoy informado.</p>
+<p style="text-align: justify;">Entonces, en el caso de los gobernadores yo he podido hablar con ellos, ellos han expresado su apoyo.</p>
+<p style="text-align: justify;">El de Sinaloa de manera muy abierta, lo mismo el de Campeche, estuvieron todavía ayer aquí con nosotros en un acto con empresarios. Y así otros.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> ¿Con ese cuarto transitorio y que dependa de la Sedena?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí.</p>
+<p style="text-align: justify;">Es que, además, miren, en La Laguna había un problema serio de inseguridad y de violencia, es de dominio público.</p>
+<p style="text-align: justify;">Se creó un sistema de seguridad con la Policía Militar para La Laguna, que atiende la parte de Durango y de Coahuila y fueron muy buenos los resultados, son buenos los resultados, se redujo la incidencia delictiva.</p>
+<p style="text-align: justify;">Entonces, esto mismo me lo expresó el gobernador de Durango, que, aun perteneciendo al PAN, es que esto es lo que nosotros necesitamos.</p>
+<p style="text-align: justify;">Pero el PAN está viendo esto como un asunto político, quieren ellos utilizar esto como bandera para enfrentarnos, políticamente hablando.</p>
+<p style="text-align: justify;">Entonces es legítimo, nada más que fuera máscaras, o sea, vamos a aclarar las cosas porque estamos hablando de la seguridad de los mexicanos.</p>
+<p style="text-align: justify;">Nos podemos pelear en otras cosas, hay varios campos, además, somos distintos, diferentes, o sea, yo vengo de un movimiento liberal y yo sostengo, es mi punto de vista, lo digo con todo respeto, que ellos son conservadores y cada quien que tome su camino.</p>
+<p style="text-align: justify;">Pero en esto hay que ser muy claros, porque se trata de la seguridad pública, y considero que ellos no tienen autoridad moral para estar sosteniendo que nosotros queremos usar la fuerza para resolver el problema, cuando la estrategia que estamos aplicando es exactamente opuesta a lo que ellos llevaron a cabo y que produjo este desastre de inseguridad y de violencia, de asesinatos, de desaparecidos.</p>
+<p style="text-align: justify;">Entonces, es muy hipócrita esa postura y por eso como me lo preguntan lo explico.</p>
+<p style="text-align: justify;">Ojalá y los gobernadores, que son los que tienen que enfrentar el problema, porque son las autoridades, opinen sobre esto.</p>
+<p style="text-align: justify;">Van a solicitar el Ejército para sus estados si no puede constitucionalmente el Ejército intervenir en temas de seguridad.</p>
+<p style="text-align: justify;">¿Vamos a estar simulando?</p>
+<p style="text-align: justify;">Por qué no se revisa esto, se analiza y se resuelve legalmente. Ese es el tema.</p>
+<p style="text-align: justify;">Acerca de lo del sindicato, no tengo toda la información, la voy a solicitar para ver en qué términos está, lo de la devolución de ese dinero, a ver si tiene que ver con el gobierno o es un dinero del sindicato, que son cosas también distintas.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> Gracias.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Buenos días, Daniel Blancas de Crónica.</p>
+<p style="text-align: justify;">Primero, presidente, comprometerlo, hacerle una petición a que en los días posteriores nos pueda mostrar los nombres o detalles de los contratos que refiere de 40, 50 años para que al menos la opinión pública lo conozca y pueda hacer un contrapeso en ese sentido.</p>
+<p style="text-align: justify;">Y dos preguntas, presidente, tenemos información de que le fue presentado un reporte o tiene usted referencias respecto a las irregularidades en las que se fincó la investigación del caso Tlahuelilpan.</p>
+<p style="text-align: justify;">Se cumplió ya un mes de la tragedia, usted ha referido que es uno, quizá el momento más doloroso que ha vivido su gobierno, pero preguntarle cuál es la reflexión respecto a esto que le ha sido informado de que las investigaciones sobre el caso Tlahuelilpan fueron irregulares, no se cuidó la cadena de custodia, los indicios. Esta reflexión.</p>
+<p style="text-align: justify;">Y segundo, aprovechando que está aquí la secretaria de Gobernación, hemos estado en comunicación con integrantes del Colegio del Notariado Mexicano, es un tema que ya se ha referido de manera somera en las conferencias, la propia secretaria lo ha hecho.</p>
+<p style="text-align: justify;">Pero hay información en el sentido de que se están vendiendo, como si fueran locales de venta, las notarías en cifras millonarias, 15 millones, 20 millones de pesos, y que se están utilizando las notarías para evadir cuestiones fiscales.</p>
+<p style="text-align: justify;">Usted sabe que una de las tareas de las notarías son la retención, el cálculo de los impuestos y se están utilizando precisamente para desviar estos fondos.</p>
+<p style="text-align: justify;">¿Cuál es la estrategia?</p>
+<p style="text-align: justify;">Sabemos que también hay leyes que están en curso, pero ¿cómo se va a frenar esta situación de las notarías?, ¿hay alguna estrategia?, ¿pueden intervenir los órganos de inteligencia financieros del Estado para que esto no siga ocurriendo?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Mire, en el caso de Hidalgo, desde luego es un tema muy doloroso, aunque pase el tiempo. Esto nos afecta mucho por la pérdida de vidas humanas.</p>
+<p style="text-align: justify;">No tengo ninguna información, es decir, no me han presentado ninguna investigación.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR: </strong>Pero qué le han referido, ¿que la investigación no se hizo como se tenía que hacer?, lo que nos han dicho enviados de la Secretaría de Gobernación, precisamente.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, no es cierto. No hemos tratado este tema en las reuniones que tenemos de seguridad, o sea, es lo que se conoce y lo que tiene como investigación la Fiscalía General, nada más, o sea, no se ha presentado un informe al interior del gobierno, el Gabinete de Seguridad no tiene ningún informe sobre posibles irregularidades, omisiones o errores cometidos. No existe ningún documento sobre esto.</p>
+<p style="text-align: justify;"><strong>PREGUNTA</strong>: Ni siquiera referencias verbales, presidente.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: No, ni siquiera referencias verbales.</p>
+<p style="text-align: justify;">Se atendió todo el problema, el asunto doloroso, repito, ya se conocen las causas que originaron este grave daño, esta tragedia. Pero no hubo una investigación al interior particular sobre acusaciones de negligencia, de desatención, de errores cometidos. No, no existe eso.</p>
+<p style="text-align: justify;">Lo segundo, sí vamos a presentar aquí los contratos que se subscribieron. Esto tiene como su origen la utilización de una ley secundaria violatoria de la Constitución. Desde 1992 empezaron a entregarse los contratos para el suministro de energía eléctrica y para que empresas particulares vendieran energía eléctrica a la Comisión Federal de Electricidad, hasta llegar a la situación que nos encontramos: que la mitad de la energía eléctrica que se consume la compra la Comisión Federal de Electricidad.</p>
+<p style="text-align: justify;">Después de ser autosuficiente, después de producir toda la energía eléctrica que consumimos, pasó a ser dependiente de estas empresas que le venden energía eléctrica a la Comisión Federal de Electricidad hasta con pago de subsidio y por contratos, en donde se establece el pago de esos subsidios y con duración de 40 años, o sea, todo esto claro que lo vamos a transparentar.</p>
+<p style="text-align: justify;">Acerca de los notarios públicos, pues, aquí la licenciada les va a informar, tenemos que legislar, esa sí es una propuesta, hicimos un compromiso en ese sentido, porque independientemente de lo que esté sucediendo ahora, lo que ha pasado siempre ha sido vergonzoso, por decir lo menos, cada gobernador que termina les entrega notarías a sus allegados, cada gobernador.</p>
+<p style="text-align: justify;">Aquí, en la Ciudad de México, afortunadamente, por la Asociación de Notarios esa práctica no se realiza o al menos cuando yo estuve de jefe de gobierno no entregué ninguna notaría cuando finalicé el gobierno, porque también hay un procedimiento bien definido, existe también en los estados, pero le dan la vuelta.</p>
+<p style="text-align: justify;">Entonces, que ayude esta pregunta para que se erradiquen esas prácticas y que se modifique la ley.</p>
+<p style="text-align: justify;"><strong>OLGA SÁNCHEZ CORDERO</strong>: Gracias, señor presidente.</p>
+<p style="text-align: justify;">El entonces candidato a la presidencia Andrés Manuel López Obrador en Acapulco hizo un compromiso con los señores notarios de 10 puntos.</p>
+<p style="text-align: justify;">Uno de los más importantes era una reforma constitucional para que el Congreso de la Unión legislara sobre una ley general que estableciera los lineamientos y distribuyera las competencias en relación, precisamente, a los notarios.</p>
+<p style="text-align: justify;">Yo quiero decirles que antes de abandonar el Senado de la República yo presenté esta iniciativa de reforma constitucional para que todas las legislaciones de los notarios se homologaran a estos principios básicos y fundamentales.</p>
+<p style="text-align: justify;">Desde luego, en la Ciudad de México la Ley del Notariado es una ley que regula en forma muy estricta quienes acceden a la función notarial a través de dos tipos de examen: de aspirante, en una primera instancia, y después, en una segunda instancia, de oposición.</p>
+<p style="text-align: justify;">Y por eso el Notariado de la Ciudad de México tiene tanto prestigio en todo el mundo en relación a la capacitación, a la seriedad y a la honestidad de los notarios.</p>
+<p style="text-align: justify;">Sin embargo, si hay algunas situaciones de actos ilícitos por parte de los notarios de desviación de impuestos retenidos o cualquier otra conducta que implique la comisión de un delito, por supuesto, que las denuncias ante las diversas procuradurías, si es un impuesto federal estará a cargo de la Fiscalía General, si son impuestos locales a cargo de las fiscalías de los diversos estados, de las diversas entidades federativas, pero, desde luego, se presentarán las denuncias penales correspondientes.</p>
+<p style="text-align: justify;">Pero los compromisos que hizo el presidente, hoy presidente de la República y en ese momento candidato, con los notarios se han estado cumpliendo puntualmente, son 10 compromisos.</p>
+<p style="text-align: justify;">Ya se presentó la primera iniciativa de reforma constitucional y así se van air cumpliendo todos los compromisos.</p>
+<p style="text-align: justify;">Muchas gracias.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR</strong>: ¿Pero hay posibilidad de que intervenga la Unidad de Inteligencia Financiera para rastrear esta situación?</p>
+<p style="text-align: justify;"><strong>OLGA SÁNCHEZ CORDERO</strong>: Por supuesto, la Unidad de Inteligencia Financiera está obligada a hacerlo y desde luego los notarios como responsables de retención, porque son retenedores de impuestos, pues, lo mínimo es enterarlos puntualmente en tiempo y forma a las tesorerías.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR</strong>: Muchas gracias.</p>
+<p style="text-align: justify;"><strong>OLGA SÁNCHEZ CORDERO</strong>: Gracias.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Ustedes tres.</p>
+<p style="text-align: justify;"><strong>PREGUNTA</strong>: Rápidamente, muy buenos días. José Miguel Ávila de El Universal Deportes.</p>
+<p style="text-align: justify;">Platicar sobre la Fórmula 1, señor presidente, ¿se tomó una decisión ya acerca de la renovación del contrato? Todavía no hay ninguna información acerca de reuniones y sabemos que el plazo límite es a finales de este mes.</p>
+<p style="text-align: justify;">En segunda instancia, acerca de la NFL, también señor presidente, el contrato que ya se tiene firmado se va a respetar a cabalidad, se van a hacer los pagos que están establecidos o se piensa también renegociar esa parte.</p>
+<p style="text-align: justify;">Y también acerca de la NFL, usted cuando se reunió con el comisionado Roger Goodell, platicó acerca de creación de escuelas de fútbol americano en México, también hay un avance en este sentido.</p>
+<p style="text-align: justify;">Muchas gracias.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Mire, lo que ya está contratado se respeta, ese partido que quedó pendiente, en el caso del fútbol americano, se va a realizar. Ese fue el acuerdo, porque ya existía un contrato, si se revocaba se tenían que pagar multas, daños y se decidió llevar a cabo esta actividad en este año 2019.</p>
+<p style="text-align: justify;">No sé cómo estén los contratos de Fórmula 1, si no están firmados ya no vamos a poder, porque en algunos casos estos eventos se financiaban con el fondo del fomento al turismo y ya ese fondo está comprometido para la construcción del Tren Maya.</p>
+<p style="text-align: justify;">Entonces, no sabemos en qué situación están estos contratos. Los vamos a revisar.</p>
+<p style="text-align: justify;">Vamos, desde luego, a seguir apoyando todos los deportes, pero con austeridad, sin que haya excesos, sin derroche.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR</strong>:  Y acerca de la revisión de los contratos que usted menciona, presidente, la fecha límite para el aval del gobierno federal para que la Fórmula 1 renueve el contrato con México es el 28 de febrero.</p>
+<p style="text-align: justify;">¿Tiene alguna cita ya planteada?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>:  Pues si no implica dinero, yo avalo, estoy de acuerdo. El asunto es si tenemos que aportar, yo soy un poco cicatero en estos casos.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR</strong>:  Las escuelas de fútbol americano en México.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>:  Eso sí, facilidades para la creación de escuelas y de academias para el fútbol americano y para el fútbol soccer. Y estamos promoviendo mucho lo de la caminata y el boxeo y el béisbol.</p>
+<p style="text-align: justify;">Precisamente mañana vamos a inaugurar, en Monterrey, el Salón de la Fama del Béisbol, también a eso voy a Monterrey. Entonces, todo lo que es deporte se va a impulsar.</p>
+<p style="text-align: justify;">Y estuve muy pendiente del juego, del clásico de aquí de la capital y le estoy dando muchos abrazos y apapachos a los que le iban al América, pero así es esto, se gana, se pierde, lo importante es seguir adelante.</p>
+<p style="text-align: justify;"><strong>PREGUNTA</strong>:  Buenos días, señor presidente. Ricardo García, de Revolución 3.0</p>
+<p style="text-align: justify;">Dos temas, al principio de este mes, nuestro medio le comentó acerca de un grupo de niños, los huérfanos de Nochixtlán que, a raíz de la problemática, bueno, se encuentran en una situación muy precaria.</p>
+<p style="text-align: justify;">Pasamos esta información con su equipo y hasta el día de hoy ninguno de los niños ha sido atendido, quisiéramos saber. Inclusive, no se han comunicado con ellos, quisiéramos saber si existe un plan en atención, si usted ha conocido las historias de los niños.</p>
+<p style="text-align: justify;">Y bueno, en otro tema, aprovechando que está la secretaria, la semana pasada usted afirmó que ya no existía guerra contra el narcotráfico, que iba a replantear la lucha y la política en materia de drogas.</p>
+<p style="text-align: justify;">Entonces, quisiera ver si nos pudiese detallar un poco, cómo será esta nueva política de combate a las drogas, en el sentido en el que, cuando fue senadora la secretaria, planteó la posibilidad de tener un marco de regulación para el consumo de cannabis, dado que hay documentación que afirma que existen más de diez mil presos por portación simple de marihuana en prisiones federales.</p>
+<p style="text-align: justify;">No sé si también nos pudiera comentar algo sobre ambos temas, por favor.</p>
+<p style="text-align: justify;">Gracias.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Lo de Nochixtlán es un compromiso que tenemos y que vamos a cumplir, de justicia, de reparación del daño, por lo que sucedió en Nochixtlán, y se lo hemos encargado a la Secretaría de Gobernación, y si no se ha visto se va a atender de inmediato, de inmediato.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR</strong>: Nosotros ya hemos proporcionado la documentación y estamos abiertos.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Y como vas a estar viniendo, cada vez que puedas pides la palabra y me lo recuerdas para que se atienda.</p>
+<p style="text-align: justify;">La justicia tarda, pero llega, o sea, hay muchos asuntos que atender, pero tenemos voluntad para hacerlo. Entonces sí se va a atender eso.</p>
+<p style="text-align: justify;">Acerca de la política sobre la seguridad, nosotros, como ya lo dije, lo primero es atender las causas que han originado la inseguridad y la violencia. Y en eso estamos, atendiendo a los jóvenes.</p>
+<p style="text-align: justify;">Estuve el fin de semana en Sinaloa y en Durango, y el mensaje fue acerca de crear condiciones para el bienestar, construir caminos, universidades, sembrar, dar oportunidades a los jóvenes de trabajo, de educación. En eso estamos, eso es lo principal, eso nos va a ayudar mucho a que haya opciones, que haya alternativas.</p>
+<p style="text-align: justify;">Y también vamos a hacer toda una campaña, ya se está trabajando, de información sobre el consumo de drogas, de orientación a los jóvenes.</p>
+<p style="text-align: justify;">Una campaña amplia, creativa para conmover y crear conciencia en los jóvenes para no caer en el vicio de las drogas, sobre todo de las drogas que son fatales, drogas que destruyen, que causan la muerte de jóvenes. Algo que es muy doloroso.</p>
+<p style="text-align: justify;">Y al mismo tiempo vamos a revisar lo del consumo de drogas, vamos a decir, no dañinas, no tan adictivas, tan peligrosas, si esto nos ayuda también a conseguir la paz.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR</strong>: Entonces, sí hay cabida en su sexenio para implementar un marco de regulación para este tema de marihuana.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Sí, nada más que, primero atender las causas, o sea, primero el crear oportunidades de trabajo, de bienestar, atención a los jóvenes, que no se vean obligados los jóvenes a tomar el camino de las conductas antisociales, primero eso. Primero que haya bienestar, primero que haya oportunidades para los jóvenes para todo el pueblo, primero.</p>
+<p style="text-align: justify;">Y al mismo tiempo lo preventivo, la información, no hay una campaña en ese sentido en el país, incluso lo queremos hacer nosotros, porque le vamos a pedir respetuosamente al gobierno de Estados Unidos, para que ellos atiendan a los jóvenes de Estados Unidos de las dos formas, que los jóvenes de Estados Unidos tengan opciones, tengan alternativas, tengas oportunidades, que no sean marginados, que no sean discriminados y que al mismo tiempo haya una campaña en Estados Unidos de orientación a los jóvenes, que no existe.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> ¿Mexicanos, o jóvenes en general?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, en general.</p>
+<p style="text-align: justify;">¿Qué tiene que ver Estados Unidos con nosotros?</p>
+<p style="text-align: justify;">Mucho en este tema, porque crece el consumo en Estados Unidos y crece el tráfico.</p>
+<p style="text-align: justify;">Y lo que queremos es atender esto de manera conjunta, ir al fondo, o sea, no estar nada más nosotros atendiendo efectos, sino que nos apliquemos y se vaya a las causas, al fondo del asunto.</p>
+<p style="text-align: justify;">Eso es lo que te puedo comentar. No descartamos nada.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> Gracias, señor presidente. Secretaria.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Buenos días, presidente de México. Su servidor Carlos Pozos, Líderes Mexicanos y Petróleo y Energía.</p>
+<p style="text-align: justify;">Presidente, a unas horas de conmemorarse el Día del Ejército Mexicano quisiera saber cuál es la importancia del Ejército Mexicano para su administración y si tendrá usted un mensaje para todos los soldados mexicanos.</p>
+<p style="text-align: justify;">Y también hacerle de su conocimiento que hay un monopolio en la utilización del Kevlar por 20 años en las administraciones pasadas, lo cual va en detrimento de sus chalecos y de sus cascos balísticos. Esa es mi primera pregunta.</p>
+<p style="text-align: justify;">Y mi segunda pregunta, ayer usted tuvo una reunión en este Salón “Tesorería” con los representantes de la iniciativa privada nacional y extranjera.</p>
+<p style="text-align: justify;">¿Hay una luna de miel ya con la iniciativa privada?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Hoy vamos a hablar sobre el Ejército, yo ya en otras ocasiones he expresado lo que considero de esta institución.</p>
+<p style="text-align: justify;">Sin duda, es una institución fundamental para el Estado mexicano y es una institución que nos ayuda en circunstancias como la que estamos viviendo de inseguridad y de violencia. Es una institución que puede contribuir mucho para garantizar la seguridad pública. Ese es un punto de vista.</p>
+<p style="text-align: justify;">Hoy voy a hablar de eso, de lo que representa esta institución desde que se instituye de los tiempos modernos, los tiempos actuales, luego del golpe militar de Victoriano Huerta al presidente Madero, desde que se da ese golpe de Estado, desde que se destituye, encarcela al presidente Madero y luego es asesinado, surge el Ejército Nacional. Es un ejército que surge del pueblo, es un ejército revolucionario y de eso voy a hablar el día de hoy. </p>
+<p style="text-align: justify;">Y por eso también quiero aprovechar la oportunidad para agradecerles, porque he contado con su apoyo, con su respaldo.</p>
+<p style="text-align: justify;">Acerca de estos contratos, vamos a indagar, vamos a tener resultados.</p>
+<p style="text-align: justify;">Y el acto del día de ayer con la iniciativa privada fue muy bueno, hay el compromiso de trabajar juntos para lograr que el país tenga crecimiento económico, que no ha habido crecimiento económico en todo este periodo o ha sido muy raquítico el crecimiento económico en México.</p>
+<p style="text-align: justify;">A eso se debe también la crisis del país, porque si no hay crecimiento, no hay empleos, si no hay empleos, no hay bienestar, si no hay bienestar no puede haber paz y tranquilidad.</p>
+<p style="text-align: justify;">Entonces, queremos crecer en el sexenio a una tasa promedio anual del cuatro por ciento, no del dos por ciento.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> (Inaudible)</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Usted no se preocupe.</p>
+<p style="text-align: justify;">Entonces, crecer al cuatro por ciento.</p>
+<p style="text-align: justify;">Ya me voy. Muchas gracias.</p>
+<p style="text-align: justify;">Nos vemos mañana en Monterrey y pasado mañana aquí de nuevo.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> (inaudible)</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Mañana.</p>
+<p style="text-align: justify;">¿Cómo?</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> (inaudible)</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Mañana en Monterrey</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> (inaudible)</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Monterrey o pasado mañana, y tú empiezas, y tú empiezas.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> (inaudible)</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí. También.</p>
+<p style="text-align: center;">+++++</p>
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

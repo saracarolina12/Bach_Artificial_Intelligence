@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>21.06.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/21-06-21-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=141429' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F21-06-21-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F21-06-21-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66iz5-f-bcc3810e0-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":20,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"2a797e8b","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55337,"ak.gh":"23.47.207.69","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616509","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==gSma73/FmLytfMn0hF3V0hJzcfHqNnuWdFOhwMJVwX2omk9ESOuScW2KrtjLyuweQ33ycb4C6piXXdySbsSeEZBc2C5HXvdeAQycEbiKI/h/66YNb5Q/n+xug9cSow3X3oeki9ZtdxMK+nHtuUF9WVFxdSJ9TSW73an59mYNKov9c2KSGBofMG4cdRviTQJaKP4sDyzQl/BVTzs+pSd/hg+iGR5OlhySj/QN+u4HrRu0aud9wZwIkvEi7vzZeYTXEBRge8JC0Q3u2Bv4f1RHmrso8RzdCLqW4XWvDtzGQRBOZyAK0cYk8vznVewc7df/gxHH9FcXhAa7TBSU+4BA0POa54D9ykDjCXV88OGYd6oxVySnK+SXFz7rOfsXVBQ+1DUHwZ5b9PjjFbgic9tkH15+AeS90Yc5u1ieQNoXFtQ=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-141429 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef20af4e5e8" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>21.06.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 21.06.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-141429" class="post-141429 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2021/06/21JUN21-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-01.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2021/06/21JUN21-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-01-745x450.jpg" alt="21.06.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">21.06.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><em>2021: Año de la Independencia</em></p>
+<p>&nbsp;</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Buenos días.</p>
+<p>Vamos a informar, como todos los lunes. Se nos hizo un poco tarde porque estaba la agenda de la reunión de seguridad bastante cargada, extensa, pero bueno, ya estamos en condiciones de informar.</p>
+<p>Vamos a comenzar con el quién es quién en los precios de los combustibles, como todos los lunes. La encargada de despacho de la Procuraduría Federal de Consumidor, Berenice Romero Domínguez, nos va a dar este informe.</p>
+<p>Luego, vamos a ver los videos del avance de las obras, que es algo importante porque se continúa trabajando.</p>
+<p>También corresponde el informe mensual sobre seguridad que se va a dar a conocer el día de hoy.</p>
+<p>Vamos entonces con Berenice y comenzamos.</p>
+<p><audio src="http://presidente.gob.mx/wp-content/uploads/2021/06/2021-06-21-Matutina.mp3" controls="controls"></audio></p>
+<p><iframe src="//www.youtube.com/embed/H4ucpHpc0lc?t=1704" width="600" height="400" allowfullscreen="allowfullscreen"></iframe></p>
+<p><strong>SURIT BERENICE ROMERO DOMÍNGUEZ, SUBPROCURADORA DE SERVICIOS Y ENCARGADA DE DESPACHO DE LA PROCURADURÍA FEDERAL DE CONSUMIDOR (PROFECO):</strong> Muy buenos días a todas y todos.</p>
+<p>Con corte al 18 de junio, la gasolina regular registró un precio promedio nacional de 20 pesos con 53 centavos por litro, la Premium de 22 pesos con 26 centavos por litro y el diésel de 21 pesos con 67 centavos por litro.</p>
+<p>Al 17 de junio la mezcla mexicana de petrolero registró un precio de 67 dólares con 44 centavos por barril.</p>
+<p>Esta semana se mantienen en los primeros lugares las marcas Redco, Crevron y Windstar con los márgenes de ganancia más altos; nuevamente, Total, G500 y Orsan registran los márgenes más bajos.</p>
+<p>El margen de ganancia más alto en la gasolina regular lo encontramos en dos pesos con 81 centavos en la marca BP en el municipio de Escársega, Campeche, con un precio promedio de 21 pesos con 59 centavos por litro; por su parte, el más bajo se localizó en la marca Circle K, en Ahumada, Chihuahua, con un precio de 19 pesos con 80 centavos por litro y un margen de 28 centavos.</p>
+<p>En la gasolina Premium, el margen más alto se encontró en la marca Mobil, en Ciénega de Flores, Nuevo León, con un margen de tres pesos con 37 centavos y un precio de 23 pesos con 19 centavos; el más bajo, con un indicador de ganancia de 15 centavos, lo tuvo nuevamente la franquicia Pemex en Tuxtla Gutiérrez, Chiapas, con un precio de 21 pesos con 10 centavos por litro.</p>
+<p>En el diésel, el indicador de ganancia más alto fue de dos pesos con 55 centavos con la marca Combustibles BP en Champotón, Campeche con un precio de 22 pesos con 65 centavos por litro, mientras que el margen más bajo fue de 17 centavos y lo tuvo por segunda semana consecutiva G-500 en Tampico, Tamaulipas, con un precio de 20 pesos con 44 centavos.</p>
+<p>Respecto a las acciones de verificación realizadas a las estaciones de servicio de gasolina y diésel, se atendieron 251 denuncias recibidas a través de la app Litro por Litro, fueron practicadas 221 visitas y se inmovilizaron 17 mangueras en gasolineras que no dan litro de a litro.</p>
+<p>En el municipio de Villanueva, Zacatecas, una estación de servicios se negó a ser verificada, estación con domicilio en Carretera Federal 54 en Saltillo, Guadalajara.</p>
+<p>De los precios registrados en campo, la gasolina regular se identificaron las más baratas con la franquicia Pemex en Veracruz, Veracruz, en 18 pesos con 63 centavos y con la marca Servifácil en Centro Tabasco con 18 pesos con 69 centavos por litro.</p>
+<p>Por otra parte, las más caras las vendió la franquicia Pemex en Santa Catarina, Nuevo León, y LaGas en Escárcega, Campeche, ambas en 21 pesos con 89 centavos por litro.</p>
+<p>En la gasolina Premium las más baratas se encontraron con la franquicia Pemex en Coatzacoalcos, Veracruz, en 20 pesos con 49 centavos y Red Energy en Veracruz, Veracruz, en 20 pesos con 60 centavos por litro.</p>
+<p>Por su parte, las más caras se detectaron con la marca G-500 en Huixquilucan, Estado de México, y por la franquicia Pemex en Monterrey, Nuevo León, ambas en 23 pesos con 19 centavos por litro.</p>
+<p>En lo referente al diésel, las más baratas se mantienen con la marca G-500 en Querétaro, Querétaro, en 19 pesos con 89 centavos, sumándose BP en Veracruz, Veracruz, en 20 pesos con 19 centavos.</p>
+<p>Las más caras se ubicaron con la franquicia Pemex en Cosoleacaque, Veracruz, en 22 pesos con 97 centavos y con BP en Cotaxtla, Veracruz en 22 pesos con 84 centavos.</p>
+<p>En el gas estacionario, el margen de ganancia más alto fue de cinco pesos con 92 centavos ubicado nuevamente en la estación Servicio Duragas en Durango, Durango, con un precio de 15 pesos con 56 centavos por litro; el más bajo con un peso con 20 centavos lo tuvo Soto Gas en Pénjamo, Guanajuato, con un precio de 10 pesos con 53 centavos por litro.</p>
+<p>En el gas LP en cilindro, el margen más alto se localizó en la estación de servicio Azteca Gas, con un margen de nueve pesos con 99 centavos en Azcapotzalco, Ciudad de México, con un precio de 28 pesos con un centavo por kilo; el más bajo, con dos pesos con 37 centavos, lo tuvo Gas Pasa, en Cosalá, Sinaloa, con un precio de 22 pesos con 61 centavos por kilo.</p>
+<p>En los precios promedio diario del gas LP al 16 de junio, el gas en cilindro promedió 23 pesos con 89 centavos por kilo, mientras que el gas estacionario tuvo un precio de 12 pesos con 76 centavos por litro.</p>
+<p>Finalmente, con información al 18 de junio en las acciones de verificación a las estaciones de servicio de gas LP, se informa que se realizaron 111 visitas, cuatro de ellas resultaron con infracción, mientras que tres estaciones de servicio se negaron a ser verificadas; de las 166 básculas verificadas, tres fueron inmovilizadas; mientras que, de los 319 cilindros verificados, se inmovilizaron 14.</p>
+<p>Las gaseras que se negaron a ser verificadas son Carburaciones Nacionales, S.A. de C.V., en Quecholac, Puebla; Carburaciones Nacionales, S.A. de C.V., en Zacapoaxtla, Puebla; y Regio Gas Central, en Ixtenco, Tlaxcala. Recomendamos a los consumidores que por su seguridad no compren en estas distribuidoras hasta que podamos verificarlas.</p>
+<p>Es cuanto, señor presidente. Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Vamos con los videos.</p>
+<p><strong>(INICIA VIDEO)</strong></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> La Secretaría de la Defensa Nacional informa los avances en la construcción del Aeropuerto Internacional ‘Felipe Ángeles’ al 21 de junio de 2021.</em></p>
+<p><em>En la pista norte y central, plataforma y rodajes se realiza la conformación de terraplén, tendido de la capa de base hidráulica, de la capa de concreto magro y de concreto de alta resistencia como superficie de rodamiento, cableado eléctrico y colocación de bases y luminarias para los sistemas de luces y de mezcla asfáltica en márgenes de calles de rodaje.</em></p>
+<p><em>En la terminal de pasajeros se aplica pintura vinílica en la fachada del edificio de alimentos, aplanado rústico y fino en muros de mampostería, tendido de instalaciones sanitarias y trabajos de terracería de vialidades y muelles.</em></p>
+<p><em>En el eje troncal de circulación y obras complementarias se continúan los trabajos de terracería y pavimentos de vialidades, así como la colocación de tuberías de redes eléctricas, de voz y datos, hidráulicas y sanitarias.</em></p>
+<p><em>Asimismo, en el área de transferencia de seguridad del AIFA, se realizan el habilitado y armado de acero de estructuras.</em></p>
+<p><em>En la vialidad y barda perimetral se efectúan los trabajos de colocación de la reja galvanizada con picos de seguridad.</em></p>
+<p><em>En la interconexión vial, tramo caseta Tultepec-Santa Lucía, se trabaja en las pilas secantes, así como en la colocación de las vigas prefabricadas de concreto que conforman la estructura para el paso de las vías férreas.</em></p>
+<p><em>A la fecha se han generado 99 mil 235 empleos civiles. Faltan 280 días de construcción.</em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>(INICIA VIDEO)</strong></p>
+<p><strong><em>VOZ HOMBRE:</em></strong><em> Avance en la construcción de la refinería de Dos Bocas.</em></p>
+<p><strong><em>ROCÍO NAHLE GARCÍA, SECRETARIA DE ENERGÍA:</em></strong><em> Hoy es 18 de junio y, como ustedes verán, estamos en la planta de azufre, ya estamos terminando los marcos de rack de tuberías también de estas plantas. Va el reporte de esta semana.</em></p>
+<p><strong><em>VOZ HOMBRE:</em></strong><em> El avance en la construcción de los marcos para los racks de la tubería en el paquete 1 a cargo de ICA Flúor es de 95 por ciento, se han colocado 271 marcos en las plantas coquizadora y combinada, y ya se instala estructura metálica y tubería aérea, así como también hay un avance en los marcos de las plantas de alquilación, hidrógeno y azufre.</em></p>
+<p><em>Se realiza la construcción de cuartos de control satélite y subestaciones eléctricas, así como el vaciado de concreto en las columnas de las torres de vacío; al mismo tiempo, se colocan los sistemas enterrados.</em></p>
+<p><em>Continúa el colado de zapata para los racks de tuberías en las plantas hidrotratadoras de gasóleos, en la planta hidrotratadora de diésel y tratamiento de aguas amargas; mientras, en la planta catalítica se desarrolla la cimentación en las áreas para equipos pesados.</em></p>
+<p><em>En el área de edificios, en el de telecomunicaciones, laboratorio y contra incendio continúan los trabajos en el cimbrado de muros y losa de soporte.</em></p>
+<p><em>El cuarto de control central entra en la etapa final del vaciado de concreto en muros y losa, y en los edificios de oficinas administrativas continúa el acabo en muros interiores y exteriores.</em></p>
+<p><em>En la caseta principal de acceso peatonal a la refinería se trabaja en los acabados en muros de mampostería y en la colocación de cimbra para la losa.</em></p>
+<p><em>En el área de almacenamiento, tanques de 200 mil y 100 mil barriles están en la etapa de colocación de cúpulas y tubería de servicio.</em></p>
+<p><em>En las esferas de almacenamiento continúa el montaje de patas de soporte y gajos de ecuador mientras se realizan trabajos de obra mecánica.</em></p>
+<p><em>En el gasoducto se realizan trabajos de soladura en línea regular de pera de lanzamiento con 300 metros de tubería y soldadura de tubería para los cruces de paso.</em></p>
+<p><em>Y con respecto al acueducto, existe un avance de tubería instalada de 140 metros en el predio de la refinería.</em></p>
+<p><em>Hasta la fecha se han generado 81 mil 145 empleos directos e indirectos.</em></p>
+<p><em>En materia de sustentabilidad continúa el cultivo de plantas de ornato en el vivero para su traslado a la refinería.</em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> … la construcción del aeropuerto de Texcoco, entonces vamos a poner lo que él planteó.</p>
+<p>Porque se molestan mucho cuando hablo de que hay un sector de la clase media, aspiracionista, y yo creo que ayuda más mantener a qué me refiero cuando se ponen estos ejemplos, además de que hay que teorizar sobre estos fenómenos sociales, porque son buenos temas, de discusión, de análisis, de reflexión, de debate, en una sociedad democrática.</p>
+<p>¿No aparece? Bueno, seguimos adelante. Pero sí es interesante. Lo vi hace como unos tres, cuatro días, a lo mejor lo ampliaron.</p>
+<p>Vamos entonces.</p>
+<p><strong>(REPETICIÓN DE VIDEO)</strong></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> La Secretaría de la Defensa Nacional informa los avances en la construcción del Aeropuerto Internacional ‘Felipe Ángeles’ al 21 de junio de 2021.</em></p>
+<p><em>En la pista norte y central, plataforma y rodajes se realiza la conformación de terraplén, tendido de la capa de base hidráulica, de la capa de concreto magro y de concreto de alta resistencia como superficie de rodamiento, cableado eléctrico y colocación de bases y luminarias para los sistemas de luces y de mezcla asfáltica en márgenes de calles de rodaje.</em></p>
+<p><em>En la terminal de pasajeros se aplica pintura vinílica en la fachada del edificio de alimentos, aplanado rústico y fino en muros de mampostería, tendido de instalaciones sanitarias y trabajos de terracería de vialidades y muelles.</em></p>
+<p><em>En el eje troncal de circulación y obras complementarias se continúan los trabajos de terracería y pavimentos de vialidades, así como la colocación de tuberías de redes eléctricas, de voz y datos, hidráulicas y sanitarias.</em></p>
+<p><em>Asimismo, en el área de transferencia de seguridad del AIFA, se realizan el habilitado y armado de acero de estructuras.</em></p>
+<p><em>En la vialidad y barda perimetral se efectúan los trabajos de colocación de la reja galvanizada con picos de seguridad.</em></p>
+<p><em>En la interconexión vial, tramo caseta Tultepec-Santa Lucía, se trabaja en las pilas secantes, así como en la colocación de las vigas prefabricadas de concreto que conforman la estructura para el paso de las vías férreas.</em></p>
+<p><em>A la fecha se han generado 99 mil 235 empleos civiles. Faltan 280 días de construcción.</em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>(REPETICIÓN DE VIDEO)</strong></p>
+<p><strong><em>VOZ HOMBRE:</em></strong><em> Avance en la construcción de la refinería de Dos Bocas.</em></p>
+<p><strong><em>ROCÍO NAHLE GARCÍA, SECRETARIA DE ENERGÍA:</em></strong><em> Hoy es 18 de junio y, como ustedes verán, estamos en la planta de azufre, ya estamos terminando los marcos de rack de tuberías también de estas plantas. Va el reporte de esta semana.</em></p>
+<p><strong><em>VOZ HOMBRE:</em></strong><em> El avance en la construcción de los marcos para los racks de la tubería en el paquete 1 a cargo de ICA Flúor es de 95 por ciento, se han colocado 271 marcos en las plantas coquizadora y combinada, y ya se instala estructura metálica y tubería aérea, así como también hay un avance en los marcos de las plantas de alquilación, hidrógeno y azufre.</em></p>
+<p><em>Se realiza la construcción de cuartos de control satélite y subestaciones eléctricas, así como el vaciado de concreto en las columnas de las torres de vacío; al mismo tiempo, se colocan los sistemas enterrados.</em></p>
+<p><em>Continúa el colado de zapata para los racks de tuberías en las plantas hidrotratadoras de gasóleos, en la planta hidrotratadora de diésel y tratamiento de aguas amargas; mientras, en la planta catalítica se desarrolla la cimentación en las áreas para equipos pesados.</em></p>
+<p><em>En el área de edificios, en el de telecomunicaciones, laboratorio y contra incendio continúan los trabajos en el cimbrado de muros y losa de soporte.</em></p>
+<p><em>El cuarto de control central entra en la etapa final del vaciado de concreto en muros y losa, y en los edificios de oficinas administrativas continúa el acabo en muros interiores y exteriores.</em></p>
+<p><em>En la caseta principal de acceso peatonal a la refinería se trabaja en los acabados en muros de mampostería y en la colocación de cimbra para la losa.</em></p>
+<p><em>En el área de almacenamiento, tanques de 200 mil y 100 mil barriles están en la etapa de colocación de cúpulas y tubería de servicio.</em></p>
+<p><em>En las esferas de almacenamiento continúa el montaje de patas de soporte y gajos de ecuador mientras se realizan trabajos de obra mecánica.</em></p>
+<p><em>En el gasoducto se realizan trabajos de soladura en línea regular de pera de lanzamiento con 300 metros de tubería y soldadura de tubería para los cruces de paso.</em></p>
+<p><em>Y con respecto al acueducto, existe un avance de tubería instalada de 140 metros en el predio de la refinería.</em></p>
+<p><em>Hasta la fecha se han generado 81 mil 145 empleos directos e indirectos.</em></p>
+<p><em>En materia de sustentabilidad continúa el cultivo de plantas de ornato en el vivero para su traslado a la refinería.</em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>(INICIA VIDEO)</strong></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> El Tren Maya avanza. </em></p>
+<p><em>El Tren Maya construye paso a paso su rumbo por el sureste. </em></p>
+<p><em>En el tramo 3 continuamos los trabajos y avanzamos sin obstáculos. A lo largo de estos meses progresamos con la preparación del terreno, realizamos avances en infraestructura y armamos piezas fundamentales del proyecto.</em></p>
+<p><em>En los municipios de Kopomá, Teya, Tixkokob y Tixpéhual, del estado de Yucatán, llevamos a cabo estudios topográficos, trabajos geotécnicos, deshierbe y desplante de terreno.</em></p>
+<p><em>En Halachó avanzamos con la compactación de terraplén y otros procesos constructivos en el terreno del municipio; asimismo, en este municipio armamos las zapatas necesarias para los pasos vehiculares.</em></p>
+<p><em>Continuamos el trabajo en las plantas de prefabricados y proporcionamos los tubos para pasos de fauna. </em></p>
+<p><em>Las plantas de prefabricados son fundamentales para acelerar los procesos constructivos y asegurar la calidad de los componentes de la obra.</em></p>
+<p><em>Avanzamos en la construcción de pasos vehiculares y ganaderos. Asegurar la movilidad y facilitar el acceso es una prioridad para el proyecto.</em></p>
+<p><em>También continuamos con la construcción de muros de contención y con el colado de trabes.</em></p>
+<p><em>Por último, en el mes de mayo recibimos tres mil 655 toneladas de riel en Puerto Progreso para el tramo 3.</em></p>
+<p><em>Los empleos generados por los cinco tramos en obra del Tren Maya ascienden a 64 mil 503. </em></p>
+<p><em>El Tren Maya avanza. </em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><em> </em><strong>(INICIA VIDEO)</strong></p>
+<p><strong><em>VOZ DE MUJER:</em></strong><em> Construcción del Tren Interurbano México-Toluca, reporte semanal.</em></p>
+<p><em>Tramo 1, 36 kilómetros. Avance a la fecha: 99.8 por ciento.</em></p>
+<p><em>Acometida eléctrica. Se realizó el montaje de dos marcos metálicos sobre el viaducto 2 como parte de las instalaciones necesarias para recibir la alimentación eléctrica para el Tren Interurbano desde la primera subestación de tracción. Los trabajos se realizaron durante dos noches para minimizar la afectación al tráfico vehicular de la carretera México-Toluca.</em></p>
+<p><em>Viaducto 2. Continúa la instalación de vía y el colado de plintos de concreto en el kilómetro 28.7 sobre este viaducto.</em></p>
+<p><em>Viaducto 4. Continúa la construcción de los topes sísmicos que restringen el movimiento transversal de la superestructura en caso de sismos.</em></p>
+<p><em>Tramo 3, 17 kilómetros. Avance a la fecha: 52.8 por ciento.</em></p>
+<p><em>Frente 2, carretera federal. Continúa la construcción de diafragmas de concreto colados en sitio para rigidizar las trabes prefabricadas y colocadas por pares.</em></p>
+<p><em>Frente 4, casetas. Se instalan las últimas trabes prefabricadas de concreto en este frente, el resto de los claros serán cubiertos con trabes de acero que se fabrican en taller.</em></p>
+<p><em>PIV La Venta. Se instalaron los marcos de acero para el retiro del puente antiguo y se coló el firme previo al pavimento de concreto en la rampa de acceso al paso a desnivel por el lado de La Venta.</em></p>
+<p><em>Subestación eléctrica de tracción 2. Una vez terminada la vialidad de acceso y su conexión con la autopista México-Toluca, se instaló el primero de los dos transformadores de 40 MVA que alimentará al sistema del tren México-Toluca. Cada una de las subestaciones tiene la capacidad para abastecer la totalidad de la demanda eléctrica de trenes e instalaciones a lo largo de los 58 kilómetros de la ruta.</em></p>
+<p><em>Secretaría de Comunicaciones y Transportes.</em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>(INICIA VIDEO)</strong></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> El programa para el desarrollo del Istmo de Tehuantepec busca el bienestar económico y social de la región. Para lograrlo, se moderniza la infraestructura de la plataforma logística del Corredor Interoceánico.</em></p>
+<p><em>A continuación, se informa el avance de obras a 21 de junio de 2021.</em></p>
+<p><em>En el puerto de Coatzacoalcos continúan los trabajos de dragado de construcción para la extensión de 130 metros de muelle con un avance de 53 por ciento. Las tres dragas activas cortan y recolectan el material para ser reubicado en la zona de tiro, lo que permitirá el atraque de embarcaciones de gran calado.</em></p>
+<p><em>En el puerto de Salina Cruz se han colado tres mil 739 elementos de concreto, que representan 28 por ciento del total de elementos necesarios para la construcción de 1.6 kilómetros del rompeolas oeste.</em></p>
+<p><em>En el acopio y selección de piedras, se han clasificado 48 mil toneladas entre roca núcleo, secundaria, terma y coraza. Al día de hoy se han vertido al mar 16 mil 500 toneladas de roca núcleo.</em></p>
+<p><em>La renovación de las vías del ferrocarril del Istmo de Tehuantepec continúa en los cinco tramos con un avance global de 60 por ciento. En cada tramo el promedio de avance en suministro de materiales es de 73 por ciento y de 47 por ciento en ejecución de obra.</em></p>
+<p><em>Las principales acciones son: apertura de caminos y desmonte del derecho de vía, retiro de la vía y recobro de material en desuso y suministro del material para la nueva vía.</em></p>
+<p><em>El Corredor Interoceánico impulsará la actividad económica y social del Istmo de Tehuantepec mediante el intercambio de mercancías a otras partes de México y el mundo.</em></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> Gobierno de México.</em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Adelante. Ahora sí, vamos.</p>
+<p>¿No encontraron el…? A ver, antes de entrar... Es que es interesante esto.</p>
+<p><strong>(INICIA VIDEO)</strong></p>
+<p><strong><em>GABRIEL QUADRI DE LA TORRE, DIPUTADO FEDERAL ELECTO</em></strong><strong><em>:</em></strong><em> Yo creo que es un error.</em></p>
+<p><strong><em>INTERLOCUTOR:</em></strong><em> Prolongación del mandato de AMLO después del 2024.</em></p>
+<p><strong><em>GABRIEL QUADRI DE LA TORRE</em></strong><strong><em>:</em></strong><em> Dictadura.</em></p>
+<p><strong><em>VOZ HOMBRE:</em></strong><em> ¿Modificarán al menos el presupuesto?</em></p>
+<p><strong><em>GABRIEL QUADRI DE LA TORRE</em></strong><strong><em>:</em></strong><em> Por supuesto, hay que cancelar el Tren Maya, la refinería, el aeropuerto de Santa Lucía y el programa Sembrando Vida. </em></p>
+<p><strong><em>INTERLOCUTOR: </em></strong><em>¿Sí?</em></p>
+<p><strong><em>GABRIEL QUADRI DE LA TORRE</em></strong><strong><em>:</em></strong><em> Claro.</em></p>
+<p><strong><em>INTERLOCUTOR:</em></strong><em> Lo único exitoso.</em></p>
+<p><strong><em>GABRIEL QUADRI DE LA TORRE</em></strong><strong><em>:</em></strong><em> No, cuál exitoso, es una desgracia, es un desastre. </em></p>
+<p><strong><em>INTERLOCUTOR:</em></strong><em> ¿Qué es deliberar, don Quadri?</em></p>
+<p><strong><em>GABRIEL QUADRI DE LA TORRE</em></strong><strong><em>:</em></strong><em> ¿Qué es deliberar? </em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, sí, pero lo del aeropuerto en particular.</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS, COORDINADOR GENERAL DE COMUNICACIÓN SOCIAL Y VOCERO DE LA PRESIDENCIA:</strong> Ahí lo dice, el aeropuerto de Santa Lucía, el Tren Maya y Sembrando Vida.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Entonces, los que votaron por el señor, pues ya saben que no quiere, va a oponerse al aeropuerto de Santa Lucia, al Tren Maya, a Sembrado Vida, a Dos Bocas y lo que resulte.</p>
+<p>Bueno, porque yo sostengo que fue muy fuerte la campaña de manipulación, la guerra sucia, sobre todo en la ciudad y muchos ni supieron por lo que votaban, estaban muy alterados, obnubilados en contra de nosotros, del proyecto de transformación, porque son partidarios, al final o en el fondo, de que continúe el mismo régimen de corrupción, de injusticias, de privilegios y de salir adelante -por eso hablo de aspiracionismo- como sea, sin escrúpulos morales de ninguna índole.</p>
+<p>El neoliberalismo o neoporfirismo trajo aparejada una concepción muy individualista, muy egoísta, muy enfocada, orientada a progresar en lo material, bienestar material, sin importar el bienestar del alma. ‘Me salvo, aunque mi prójimo se siga empobreciendo, porque yo soy mejor en lo académico, incluso ya ascendí en la escala social, ya soy de otra clase, inclusive hasta me volví racista’.</p>
+<p>Eso es lo que está en el fondo del debate y lo vamos a seguir dando, porque necesitamos la transformación, no sólo mejorando condiciones de vida y de trabajo, sino fortaleciendo valores culturales, morales, espirituales.</p>
+<p>Sí queremos una clase media, desde luego, queremos sacar de la pobreza a millones de mexicanos para constituir una nueva clase media más humana, más fraterna, más solidaria, eso es lo que buscamos, sacar de la pobreza a millones de mexicanos, que mejoren en sus condiciones de vida, en sus condiciones de trabajo, pero que también no dejen de voltear a ver a los desposeídos, los necesitados, a los marginados, que no se le dé la espalda al que sufre.</p>
+<p>Y que además estén más conscientes y más politizados para que resistan campañas de manipulación, que no sean presa fácil de la manipulación que orquestan, que llevan a cabo los grupos de intereses creados, lo que no quieren que haya cambio, porque a ellos les conviene mantener el <em>statu quo</em>, les conviene mantener el régimen de corrupción, de injusticias, de opresión, de privilegios. Entonces, tiene que ser una gente muy despierta, muy inteligente.</p>
+<p>Y muchas veces esto no tiene que ver sólo con el nivel académico, hay quienes tienen nivel licenciatura, maestría, doctorado y son muy susceptibles a la manipulación. Hay eminencias, grandes escritores. No voy a tratar el tema, porque hay que ser respetuoso de los procesos internos de otros países, porque tiene que ver con los principios de nuestra política exterior, pero si ustedes indagan un poco, ustedes, que son mironas y mirones profesionales, se van a dar cuenta cómo grandes luminarias, escritores famosos, están defendiendo a candidatos, candidatas de extrema derecha, algo así, increíble. Estamos hablando de escritores famosos, no grandes escritores, buenos escritores, porque es distinto ser un buen escritor a ser un gran escritor, pero eso es otro asunto.</p>
+<p>Entonces, vamos ya con seguridad.</p>
+<p><strong>ROSA ICELA RODRÍGUEZ VELÁZQUEZ, SECRETARIA DE SEGURIDAD Y PROTECCIÓN CIUDADANA:</strong> Nada más voy a hacer una introducción. Muchas gracias, con su permiso, señor presidente.</p>
+<p>Nos toca, como cada mes, dar el informe mensual sobre los resultados de la estrategia nacional de seguridad, instruida por el presidente de México, Andrés Manuel López Obrador. Esto articula las acciones del Gobierno de México para dar tranquilidad y paz a los mexicanos.</p>
+<p>Decirles, recordarles que todos los días desde muy temprano el señor presidente de México encabeza las labores del Gabinete de Seguridad.</p>
+<p>Con la misma persistencia las Mesas de Paz y Seguridad sesionan y llegan a acuerdos en cada una de las 32 entidades federativas y 266 regiones donde se coordinan las acciones del Gobierno de México con las autoridades de los estados y municipios en materia de construcción de paz y seguridad.</p>
+<p>Este informe que se va a dar a continuación es resultado del trabajo de las instituciones integrantes del Gabinete de Seguridad como la Secretaría de Gobernación, la Secretaría de la Defensa Nacional, la Secretaría de Marina, la Consejería Jurídica de la Presidencia de México, el Centro Nacional de Inteligencia y también la Secretaría de Seguridad y Protección Ciudadana junto con la Guardia Nacional con la representación del general Bucio, que es el comandante de la Guardia Nacional, a quien le cedo el uso el palabra.</p>
+<p><strong>LUIS RODRÍGUEZ BUCIO, COMANDANTE DE LA GUARDIA NACIONAL:</strong> Muchas gracias. Con su permiso, señor presidente.</p>
+<p>Muy buenos días.</p>
+<p>Me voy a permitir dar el avance de la Guardia Nacional en el último mes.</p>
+<p>El despliegue, continuamos con una fuerza operativa de 99 mil 946 elementos ya desplegados en 214 coordinaciones regionales, solamente nos quedan 52 para cumplir con las 266 coordinaciones que debemos de tener al finalizar el año. De ese personal, desplegados 84 mil 954 y 14 mil 992 en actividades de apoyo.</p>
+<p>Los coordinadores estatales, que son los responsables de la cuestión operativa y administrativa de la Guardia Nacional en cada estado y los efectivos en cada uno de los estados, los tenemos en esta tabla.</p>
+<p>En este mes solamente tuvimos el cambio del coordinador estatal de la Guardia Nacional en el estado de Aguascalientes, ahora es el inspector general Víctor Manuel Lomelí Carrera.</p>
+<p>En cuanto a reclutamiento, los años 2019 y 2020 se cumplió la meta que se tiene prevista para los tres años de 50 mil elementos, para el 2021 nos quedan 14 mil 400, que corresponde reclutar a Sedena.</p>
+<p>Y aquí solamente quiero destacar que también hay otro tipo de reclutamiento, que es el que hace ya directamente la Guardia Nacional para cubrir vacantes que se van originando por personal que va causando baja de la Guardia Nacional. Tenemos hasta la fecha cuatro mil 358 nuevos elementos para cubrir vacantes. No tiene que ver con la meta del reclutamiento que se tiene de los tres años.</p>
+<p>En cuanto a capacitación, el día 4 de junio se concluyó con el primer escalón de adiestramiento del curso de formación inicial de la Guardia Nacional, este es personal de nuevo ingreso, su curso es de 20 semanas. Se capacitaron o concluyeron su capacitación tres mil 842 integrantes de la Guardia Nacional en siete diferentes centros de adiestramiento, distribuidos en todo el país y de ellos tres mil 84 hombres y 758 mujeres.</p>
+<p>Una vez concluido ese primer escalón de formación inicial ya nos da la oportunidad de retomar cursos de formación inicial, pero para personal veterano, es decir, personal que ingresó a la Guardia Nacional proveniente de Sedena o de Semar. Este curso solamente dura ocho semanas, iniciamos el 14 de junio este primer escalón de adiestramiento de veteranos con mil 234 elementos.</p>
+<p>El segundo escalón de adiestramiento con personal de nuevo ingreso, que dura 20 semanas, continúa desarrollándose desde el 12 de abril hasta el 27 de agosto, en que concluyan cinco mil 737 elementos.</p>
+<p>Además de este curso de capacitación inicial, el programa rector de profesionalización nos marca una capacitación ya especializada y en este caso la podemos desarrollar tanto presencial como en línea, principalmente en línea.</p>
+<p>A la fecha tenemos 20 mil 495 elementos que han tomado algún curso especializado, actualmente tenemos cuatro mil 393 principalmente en línea y el contenido temático, algunos de los temas o de las materias que se llevan en esta capacitación, son las que se muestran aquí: Ciencias Policiales, Perspectiva de Género, Sistema Nacional Anticorrupción, Derechos Humanos, Mando y Liderazgo, Feminicidio, Desarrollo Humano.</p>
+<p>Por lo que respecta a la construcción de cuarteles, las metas del 2019 y 2020, bueno, solamente nos quedan ocho en construcción de las planeadas en el 2020 que junto con las 76 programadas para este año hacen un total de 84 en construcción, más las construidas ya concluidas, son 164 para terminar el año con 248 construcciones para la Guardia Nacional distribuidas en todo el país.</p>
+<p>En esta ocasión quiero resaltar el apoyo que la Guardia Nacional brindó durante la jornada electoral. Se empeñó un total de 65 mil 775 elementos en 14 mil 720 vehículos esto principalmente porque las acciones que se implementaron fueron patrullajes tanto preventivos como de disuasión, la seguridad en el traslado de papelería electoral y la seguridad a los consejos estatales, distritales y municipales en las 32 coordinaciones estatales.</p>
+<p>Por último, un aspecto que se dio también con motivo del proceso electoral. A la Guardia Nacional le correspondió dar la seguridad a candidatos de diferentes partidos. En total, la Guardia Nacional dio seguridad a seis candidatos a gobernador, 51 candidatos a presidentes municipales, 56 candidatos a diputados; en total, 113 servicios de seguridad que implicó un total de 357 elementos de la Guardia Nacional desplegados en este tipo de servicios en 22 estados.</p>
+<p>Sería cuanto, señor presidente, y cedo la palabra a mi almirante Ojeda.</p>
+<p><strong>JOSÉ RAFAEL OJEDA DURÁN, SECRETARIO DE MARINA:</strong> Gracias. Con permiso, señor presidente.</p>
+<p>Muy buenos días.</p>
+<p>Siguiendo con el informe mensual, este es el número de elementos que se tienen desplegados en todo el territorio nacional, tanto de la Secretaría de la Defensa, la Secretaría de Marina y la Guardia Nacional, de todos estos efectivos desplegados más o menos es un 87 por ciento de esta manera.</p>
+<p>En lo que se refiere a ese despliegue estas son las operaciones que se llevan a cabo, como es la Operación para la Construcción de la Paz, con 71 mil 470 elementos.</p>
+<p>Operaciones en el Golfo y el Pacífico para el Estado de Derecho en la Mar, seis mil 141 y cuatro mil 701.</p>
+<p>Protección marítima y portuaria, mil 227.</p>
+<p>Operaciones de búsqueda y rescate, son 766 elementos.</p>
+<p>En lo que se refiere al Corredor Interoceánico del Istmo de Tehuantepec hay ahorita desplegados 831 mil elementos que aproximadamente van a ser cerca de dos mil elementos.</p>
+<p>Atención a emergencia sanitaria, se tienen desplegados 40 mil 105.</p>
+<p>En lo que se refiere a vacunación contra el COVID, 16 mil 981.</p>
+<p>Siguiendo con estas operaciones, las actividades que se realizan en donde están los 71 mil 490 elementos para la construcción de la paz hay una mesa de seguridad a nivel nacional, 32 estatales y 204 regionales. Dentro de esa estrategia de protección ciudadana hay en ocho municipios para la mayor incidencia delictiva, se tienen ahí elementos en el estado de Guanajuato, Jalisco, Michoacán, Zacatecas, Baja California y Tamaulipas; asimismo, en la operación noreste y zona metropolitana de Guadalajara.</p>
+<p>Operaciones de intercepción se han dado en cuestión terrestre, hay 59 puestos militares de seguridad; aeronaves, se han detectado 29 detecciones de aeronaves sospechosas o ilícitas.</p>
+<p>En lo que se refiere a marítimas, hay siete regiones navales permanentes para la seguridad.</p>
+<p>Y en lo que se refiere a patrullaje para la prevención de delitos de carretera se han dado tres millones 954 mil 927 kilómetros de ello.</p>
+<p>La que sigue. Y, por último, los mandos especiales en Badiraguato y La Laguna.</p>
+<p>La que sigue, por favor. En lo que se refiere a Operaciones del Golfo y el Pacífico -Operaciones del Golfo es la anterior- en las Operaciones del Golfo y el Pacífico con personal de infantería y marina se tienen desplegados seis mil 141 elementos, se han realizado 962 operaciones en funciones de guardia costera para combatir desde el luego el tráfico de armas, personas y mercancías.</p>
+<p>Se ejerce presencia en las diferentes regiones del país a través de 76 estaciones navales avanzadas, que ello nos ayuda a contribuir la vigilancia en las áreas naturales protegidas y la conservación del medio ambiente marítimo.</p>
+<p>En lo que se refiere también a las operaciones de derecho en operaciones de derecho en la mar, operaciones navales para la aplicación de la ley, se tiene la Operación en la Sonda de Campeche, Operación Camarón para ayuda a Conapesca y la interdicción marítima.</p>
+<p>En lo que se refiere a la sonda de Campeche es para garantizar la seguridad y las operaciones en las instalaciones estratégicas de Pemex y se llevan a cabo operaciones contra el mercado ilícito de combustible.</p>
+<p>Hay tres áreas de fondeo seguras en el área de la sonda de Campeche en donde se le da seguridad a los buques que se encuentran ahí fondeados.</p>
+<p>En lo que se refiere a la Operación Camarón, hay patrullaje aéreo y marítimo para verificar cumplimiento de órdenes de la veda. Se han asegurado hasta la fecha 13 mil 894 kilogramos de productos marinos en veda.</p>
+<p>En lo que se refiere a interdicción marítima, se han llevado 591 operaciones para la salvaguarda de la guardia costera para vigilancia de zonas marítimas mexicanas.</p>
+<p>En el Alto Golfo de California también se sigue ahí la vigilancia para el apoyo a la vaquita marina.</p>
+<p>El incremento de las unidades marítimas, se ha llevado a cabo ahorita un incremento de un aproximado de un 35 por ciento, se han mandado más elementos, más unidades de superficie.</p>
+<p>Los resultados que se han obtenido en la sonda de Campeche, se han llevado a cabo 152 operaciones; artes de pesca aseguradas, 41; metros de redes aseguradas, 13 mil 165.</p>
+<p>Siguiendo con la Operación de Protección Marítima en los Puertos, la seguridad en dichos puertos, hay mil 227 elementos, se han llevado a cabo 666 operaciones de vigilancia.</p>
+<p>Para neutralizar el tráfico de mercancías, a la fecha se tienen detenidos en Progreso 41 contenedores que todos traen maderas preciosas; se encuentran ahorita en el trámite de investigación todo ese tipo de cosas.</p>
+<p>Hay un contenedor que se aseguró en días recientes en Lázaro Cárdenas, que también trae productos para producción de metanfetaminas; se encuentra también en proceso de investigación.</p>
+<p>Y a la fecha de lo que va este año se han asegurado 15 contenedores y se van a sumar estos 41 cuando ya se pueda llegar a la judicialización de los casos.</p>
+<p>En lo que se refiere a salvaguarda de la vida humana en la mar, tenemos 776 elementos, se han dado 54 llamadas de atención a 54 llamadas de auxilio, se han rescatado a 48 personas y 10 evacuaciones médicas en la mar.</p>
+<p>Tenemos 33 estaciones de búsqueda y rescate distribuidas en el golfo y en el Pacífico, un centro de coordinación nacional aquí en la Secretaría de Marina, cuatro centros y 28 subcentros que se encuentran coordinados en las regiones de búsqueda y rescate aéreo.</p>
+<p>Hace poco se llevó una operación de búsqueda de personas por el Ejército Nacional vía aérea y terrestre en la reserva de la biosfera, en El Vizcaíno, en Baja California Sur.</p>
+<p>Siguiendo con las operaciones de seguridad en el Corredor Interoceánico del Istmo de Tehuantepec, hay ahorita 831 elementos, pero se van a desplegar alrededor de dos mil elementos, se instalaron cinco bases de operaciones realizando patrullajes terrestres aleatorios a todo lo largo del corredor.</p>
+<p>Se ha brindado seguridad a ocho instalaciones estratégicas, tres refinerías, tres estaciones de bombeo y dos terminales marítimas.</p>
+<p>También se realizó una reunión de coordinación entre Secretaría de Marina, la Fiscalía General del estado de Oaxaca y la vicefiscalía de las regiones del Istmo de Tehuantepec para ayudar en todo lo que se refiere a la seguridad en todo este tren interoceánico.</p>
+<p>Y desde luego también se están haciendo acciones de seguridad a empresas civiles para que puedan laborar a todo lo largo de las vías férreas.</p>
+<p>En lo que se refiere al Plan DN-III, Plan Marina y Plan de la Guardia Nacional para atención de emergencia sanitaria del COVID, se tienen desplegados 40 mil 105 elementos, se han atendido a mil 99 pacientes a todo lo largo de estas jornadas y mil 686 pacientes trasladados a instalaciones hospitalarias, y se han trasladado tres mil 90 toneladas de insumos médicos vía aérea y vía terrestre.</p>
+<p>Siguiendo con este mismo plan de emergencia para la vacunación, en donde hay 16 mil 981 elementos, estas son las vacunas que se han distribuidos alrededor de 15 millones 597 mil 100 vacunas recepcionadas.</p>
+<p>Para esas actividades logísticas a traslado de vacunas se han transportado vía aérea cinco millones 725 mil 920; traslado terrestre, nueve millones 891 mil 180; las 25 aeronaves empleadas, 96 operaciones aéreas, 117 horas de vuelo con 88 rutas terrestres.</p>
+<p>Y, por último, para esta misma atención de emergencia sanitaria, la vacunación desde el 24 de diciembre del 2020 al 20 de junio del 21, estas son las cifras de vacuna recibidas: 50 millones 266 mil 815 vacunas; y estas son las actividades logísticas para este tipo de vacunas con 29 aeronaves empleadas, 727 operaciones aéreas, 846 horas de vuelo y dos mil 281 rutas terrestres.</p>
+<p>Lee cedo la palabra al general para continuar.</p>
+<p><strong>LUIS CRESENCIO SANDOVAL GONZÁLEZ, SECRETARIO DE LA DEFENSA NACIONAL:</strong> Con su permiso, señor presidente.</p>
+<p>Bien, las misiones que ya explicó el secretario de Marina son ocho, ahorita vamos a ver otras cinco misiones que cumplen las tres fuerzas para poder explicar todo este efectivo desplegado de 191 mil 24, que corresponde al 87 por ciento del total de la fuerza, del efectivo real que tenemos. Esto es lo que está trabajando en todo el territorio nacional.</p>
+<p>Aquí tenemos las otras cinco misiones: seguridad, instalaciones estratégicas, operaciones para el combate al mercado ilícito de combustibles, el plan de migración y desarrollo en la frontera norte y sur, en la atención a desastres, la erradicación intensiva de plantíos ilícitos. En estas cinco misiones se está empleando un total de 48 mil 792 hombres de las tres fuerzas.</p>
+<p>Aquí vamos a ver cada una de ellas. Seguridad a instalaciones estratégicas, seis mil 952 hombres dándole seguridad a 342 instalaciones estratégicas; dentro de ellas, 144 de Pemex, de Comisión Federal de Electricidad 68, aeropuertos y servicios auxiliares 57 y el Sistema de Administración Tributaria 44, son a las que más se les proporciona este tipo de seguridad.</p>
+<p>La siguiente emisión, el combate al mercado ilícito de combustible, en este periodo del 21 de mayo al 20 de junio se emplearon tres mil 514 hombres. Las entidades en que se siguen registrando mayor incremento, perdón, mayor incidencia de tomas clandestinas, está Estado de México, Guanajuato, Tamaulipas, Michoacán y en primer lugar Hidalgo.</p>
+<p>Los resultados, más de dos millones de litros de combustible recuperados en este periodo, 635 tomas clandestinas identificadas e inutilizadas, 175 vehículos asegurados, personas detenidas, predios.</p>
+<p>También, dentro del plan de transporte de combustible en apoyo a Pemex, se trasladaron en este periodo 147 millones de litros de combustible en los 637 autotanques que se tienen, cubriendo 16 rutas.</p>
+<p>En cuanto al plan de migración y desarrollo de la frontera norte y sur, se continúa con un despliegue de 27 mil 562 hombres de esta manera. Este es el resumen. Del Ejército, en la frontera sur seis mil 244 hombres, en la frontera norte siete mil 419; por parte de la Armada, 341 elementos en la frontera sur, 464 en la norte; de la Guardia Nacional, cinco mil 697 hombres en la frontera sur y en la norte siete mil 397, para hacer un total en la frontera sur de 12 mil 282 hombres, 15 mil 280 en la frontera norte.</p>
+<p>Los migrantes rescatados en este periodo, 22 mil 267 migrantes. Se continúa, dentro del despliegue que se tiene con 30 puestos de revisión migratoria, 347 puntos de control migratorio y también buques y embarcaciones que hacen el control marítimo.</p>
+<p>Dentro del Plan DN-III, Plan Marina y Plan de la Guardia Nacional para la atención a desastres, en el periodo de se emplearon cinco mil 359 hombres atendiendo 116 eventos, de ellos 58 incendios, 14 accidentes, 13 eventos de lluvia y una falla geológica, también 28 fugas de hidrocarburo, una explosión y un derrumbe.</p>
+<p>En cuanto a los resultados por parte del Estado mexicano, con todo lo que se ha trabajado por todas las fuerzas, aquí tenemos en erradicación intensiva de plantíos de enervantes 38 hectáreas y lo que llevamos en el año, 429 hectáreas de marihuana.</p>
+<p>En cuanto a amapola, 630 hectáreas, haciendo un total en el año de seis mil 873 hectáreas de amapola erradicada, esto corresponde, aquí tenemos el ciclo anual de producción en donde es el comportamiento que se tiene registrado y estamos ahorita en estos meses en la parte más baja de producción de estos enervantes.</p>
+<p>De todos modos, se usaron cinco mil 405 hombres realizando esta actividad en las áreas del norte del país, en lo que es Chihuahua, Sinaloa, Durango y Guerrero.</p>
+<p>Aseguramientos de drogas. Marihuana, nueve mil 392 kilogramos de marihuana asegurada en el periodo, para hacer un total en el año de 50 mil 156 kilogramos.</p>
+<p>En cocaína, 505 kilogramos; el total que llevamos del año, ocho mil 114 kilogramos de cocaína.</p>
+<p>Heroína, tres kilogramos, un total de 222 al mes.</p>
+<p>En cuanto a laboratorios y drogas sintéticas, dos laboratorios, 17 en total; en metanfetaminas, cinco mil 572 kilógramos de metanfetaminas, para un total del año de 28 mil 990 kilógramos; de fentanilo, 85 kilógramos en el mes, en el año mil 33 kilógramos de este enervante.</p>
+<p>En cuanto a aseguramiento de dinero y armamento, dólares americanos, 109 mil 477 dólares en el periodo, un total de 8.7 millones de dólares; pesos mexicanos, seis millones 636 mil 183 pesos, para un total de 47.8 millones de pesos asegurados.</p>
+<p>Armas de fuego en el periodo, 593 armas; de esas, tenemos dos fúsiles barret calibre 50.</p>
+<p>En cuanto a vehículos, mil 738 vehículos asegurados, un total de 11 mil 252 en el año.</p>
+<p>Embarcaciones, no tuvimos en este mes, pero en el año llevamos 15 embarcaciones.</p>
+<p>Y aeronaves aseguradas, tres en el periodo, en el año 23 aeronaves.</p>
+<p>Es todo. Le cedo la palabra a la secretaria de Seguridad y Protección Ciudadana.</p>
+<p><strong>ROSA ICELA RODRÍGUEZ VELÁZQUEZ, SECRETARIA DE SEGURIDAD Y PROTECCIÓN CIUDADANA:</strong> Con su permiso, señor presidente.</p>
+<p>Todas las acciones que se han hecho por los tres órdenes de gobierno, tanto por el gobierno federal, el Gabinete de Seguridad, los gobiernos estatales y municipales, presentamos a continuación las cifras.</p>
+<p>En la incidencia delictiva del fuero federal, los delitos han disminuido 27.2 por ciento, en enero a mayo de 2021 respecto al mismo periodo de 2019, lo que representa una tendencia a la baja desde el inicio de la administración.</p>
+<p>En la incidencia delictiva del fuero federal tenemos a continuación el comparativo de enero a mayo 2021 contra el mismo periodo del 2020.</p>
+<p>En delitos fiscales, 27 por ciento menos.</p>
+<p>En delitos financieros, menos 21.3 por ciento.</p>
+<p>Delitos de la delincuencia organizada, menos 19.7 por ciento.</p>
+<p>Delitos relacionados con arma de fuego y explosivos, menos 5.5 por ciento.</p>
+<p>Delitos patrimoniales, menos 5.2 por ciento.</p>
+<p>Delitos cometidos por servidores públicos, es más 8.1 por ciento.</p>
+<p>En delitos contra la salud, ocho por ciento más.</p>
+<p>Y los delitos electorales por el, digamos, periodo electoral, subieron a 137 por ciento con respecto al 2020, cuando no había proceso electoral.</p>
+<p>En cuanto a los homicidios dolosos, se sigue conteniendo la tendencia al alza del homicidio doloso durante la presenta administración y de enero a mayo de 2021 disminuyó 2.9 por ciento respecto al mismo periodo del año anterior.</p>
+<p>En cuanto al homicidio doloso por entidad federativa hay que decir que en el acumulado de enero a mayo de 2021 seis entidades concentran el 50 por ciento de las víctimas de homicidio doloso en el país, ellos son Guanajuato, Baja California, Jalisco, Estado de México, Michoacán y Chihuahua.</p>
+<p>También hay que decir -adelante, por favor- que, aunque Guanajuato es el primer lugar de los homicidios dolosos de las 32 entidades, continúa el trabajo y los reforzamientos que han hecho los operativos de la Secretaría de la Defensa y Guardia Nacional instruido por el presidente, ha permitido contener este delito y estamos yendo hacia la baja.</p>
+<p>Adelante, por favor. En cuanto a los homicidios dolosos en los 15 municipios de atención prioritaria, en los primeros cinco meses del 2021 se registró una baja de 6.1 por ciento en homicidios dolosos respecto al mismo periodo del año pasado.</p>
+<p>Hay que decir que en los 15 municipios prioritarios se concentra el 27 por ciento de los homicidios del país, también que en nueve municipios se observa una disminución de 16.6 por ciento en promedio, en tanto que en seis municipios se incrementó este delito 19.6 por ciento en promedio.</p>
+<p>De los municipios que se incrementan, estos seis municipios que incrementan está León Guanajuato; Cajeme, Sonora; Acapulco, Guadalajara, Chihuahua y Morelia.</p>
+<p>En tanto que los municipios que han venido a la baja están Tijuana, Ciudad Juárez, Celaya, Culiacán, Benito Juárez en Quintana Roo, San Pedro Tlaquepaque, Irapuato e Iztapalapa junto con Salamanca.</p>
+<p>Como ha sido, por ejemplo, el caso de Irapuato y Salamanca e Iztapalapa, cambiaremos el próximo mes dándoles prioridad a otros municipios que van al alza.</p>
+<p>En los robos totales, de enero a mayo de 2021 se registró una disminución de 5.8 por ciento respecto al mismo periodo del 2020.</p>
+<p>Del inicio de la administración a la fecha los robos en general han disminuido 22.7 por ciento, ello contempla el robo a casa habitación, de vehículo, transportista, transporte, en fin, todos los robos que se van a dar a continuación.</p>
+<p>En el caso de robo de vehículo automotor se redujo 14.7 en comparación con los primeros cinco meses de 2020 y con esa misma tendencia se ha reducido el 34.3 respecto a 2019 y se ha logrado mantener la tendencia a la baja en lo que va de la administración de robo de vehículos.</p>
+<p>Aquí la incidencia delictiva de los delitos del fuero común, enero-mayo 2021 respecto a enero-mayo 2020.</p>
+<p>Como decíamos, robo de vehículo, menos 14.7.</p>
+<p>Robo de ganado, menos 13.1 por ciento.</p>
+<p>Robo a negocio, menos 10.6 por ciento.</p>
+<p>Robo a transportista menos 10 por ciento.</p>
+<p>Robo a casa habitación, menos 6.8 por ciento.</p>
+<p>También empieza a contenerse el robo en transporte público colectivo.</p>
+<p>En cuanto a los delitos de robo transeúnte, tenemos un alza del 6.4 por ciento, así como el robo en transporte individual, 19.3, y también en los taxis se ve un alza de 26.5 por ciento y en la violación de 30 por ciento, y de la trata de personas 47 por ciento y feminicidios siete por ciento al alza.</p>
+<p>Decir que los delitos de robo continuaron con un 5.8 por ciento a la baja en los cinco meses.</p>
+<p>En el secuestro, los primeros cinco meses del 2021, el secuestro sigue disminuyendo con 28.8 por ciento respecto al mismo periodo del 2020, continuamos con una baja del 60.4 en mayo de este año comparado con diciembre de 2018, es decir, la baja del 60 por ciento en lo que va de esta administración respecto al delito de secuestro.</p>
+<p>En cuanto al robo de hidrocarburos, la desviación de miles de barriles al día por mercado ilícito de combustible, en el mes de junio se tuvo un promedio de 4.7 miles de barriles.</p>
+<p>El ahorro estimado por el trabajo de presencia, vigilancia, investigación, lleva un ahorro estimado del 1º de diciembre de 2018 al 14 de junio del 2021 de 152 mil 274 millones de pesos aproximadamente, lo que equivale a un ahorro diario de 164 millones 265 mil pesos.</p>
+<p>Este es un trabajo que se hace de manera conjunta con todas las áreas del Gabinete de Seguridad y en conjunto con Petróleos Mexicanos.</p>
+<p>En la prevención de toma de casetas, de enero al 17 de junio de 2021 se evitó la pérdida de seis mil 237 millones de pesos y de 2020 al 2021 se evitó la pérdida de 15 mil 834 millones de pesos con los operativos que tiene la Guardia Nacional y los estados, las entidades, en evitar la toma de casetas.</p>
+<p>En cuanto a montos y cuentas bloqueadas por la Unidad de Inteligencia Financiera, en lo que va de la administración se han bloqueado 38 mil 330 cuentas vinculadas a operaciones ilícitas, tanto del crimen organizado como el crimen de cuello blanco, y se le quitaron a la delincuencia organizada 14 mil 420 millones de pesos, más del 92.5 por ciento de estos avances se dieron en el gobierno actual, de 2019 en adelante.</p>
+<p>Esto sería el informe mensual, señor presidente. Muchas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, una precisión y una información que considero importante.</p>
+<p>La precisión es que si se puso el ejemplo del candidato y ahora diputado federal electo Quadri es porque ese era el propósito de nuestros adversarios, los conservadores: el ganar la mayoría en la Cámara de Diputados para que no se aprobara el presupuesto del año próximo y no continuaran el Tren Maya, el Sembrando Vida, la refinería de Dos Bocas, el aeropuerto ‘Felipe Ángeles’ y también, y esto lo subrayo, todos los Programas de Bienestar los iban a cancelar: la pensión a los adultos mayores, la pensión a niñas, a niños con discapacidad, las becas para estudiantes de familias pobres y la atención médica y los medicamentos gratuitos, eso era lo que estaba en el fondo de la pasada elección.</p>
+<p>Afortunadamente, y por eso me da mucho gusto, no pudieron porque no alcanzaron mayoría y ya están garantizados estos programas para beneficio del pueblo y para el desarrollo del país; están garantizados porque se va a tener mayoría en la cámara, partidos que están a favor de la transformación reúnen los votos suficientes, se tiene ya la mayoría para la aprobación del presupuesto. Esto nos debe de dar mucha tranquilidad a todos, porque ya se logró ese propósito.</p>
+<p>En distritos de la ciudad votaron por la cancelación de todos estos programas, pero no les alcanzó a los conservadores.</p>
+<p>Y yo llamo también a la reflexión serena a quienes no están a favor de un cambio verdadero y apoyan al antiguo régimen de corrupción, de injusticias, de privilegios, porque puede ser que lo hagan de manera convencida, consciente o que lo hagan por desinformación. Por eso es un tema a tratar y es de sabios de cambiar de opinión, por eso vamos a seguir tratando este asunto.</p>
+<p>La información que quiero trasmitir a ustedes va en el sentido de que hechos lamentables en Reynosa, Tamaulipas, le costaron la vida a inocentes, 14 personas inocentes, porque todo indica que no fue un enfrenamiento, sino que fue un comando que disparó a gente que no estaba en plan de confrontación.</p>
+<p>Entonces, es un ataque cobarde que le quita la vida a personas inocentes, enviamos desde luego nuestro pésame a los familiares y le he pedido al consejero jurídico que haga gestiones en la Fiscalía General de la República para que se atraiga el caso y se inicie una investigación a fondo para conocer los motivos y castigar a los responsables, eso lo quería informar.</p>
+<p>Pues ahora sí vámonos con las preguntas. Quedó pendiente Ramón Flores Gutiérrez.</p>
+<p><strong>PREGUNTA:</strong> Muy buenos días, presidente y funcionarios que lo acompañan. Ramón Flores, de <em>El Centinela Informa.</em></p>
+<p>Presidente, en septiembre del año pasado le dimos a conocer que no podíamos localizar el antiguo avión presidencial y usted en la mañanera siguiente nos informó que ya lo habían localizado. A casi un año, el antiguo avión presidencial ya se vendió en 65 millones de pesos.</p>
+<p>Presidente, ¿nos puede usted informar para qué serán destinados esos recursos que se obtuvieron por la venta del antiguo avión presidencial, por favor?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues se vendieron tres aviones recientemente y, en efecto, se vendió ese avión, queda el que usaban antes del nuevo avión presidencial, y creo que sí fue esa cantidad, 68.</p>
+<p><strong>INTERLOCUTOR: </strong>Sesenta y cinco.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>Sesenta y cinco millones.</p>
+<p>Le voy a pedir al director de Banobras que me acompañe para ver cómo vamos con la venta de aviones y de helicópteros, y qué ha pasado con la venta del avión presidencial, que nos ha costado mucho venderlo.</p>
+<p>Ahora que vino la vicepresidenta Kamala Harris le comentaba yo que era tan lujoso, tan lujoso ese avión, que no teníamos quién lo comprara, porque está valuado en 120, 130 millones de dólares y, riéndose, me dice que a lo mejor de estos potentados que ahora ofrecen viajes al espacio -¿sabían ustedes que se ofrecen viajes al espacio, al que quiere ir allá, al espacio?-; que, a lo mejor a uno de ellos, con todo respeto pues, le interesaría tener este avión tan lujoso.</p>
+<p>¿Cuánto cobran por un viaje al espacio? Búsquenlo ahí, para que vean las extravagancias.</p>
+<p><strong>INTERVENCIÓN:</strong> Sesenta mil dólares.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sesenta mil dólares un viaje al espacio. No, yo creo que más. Fíjense cómo anda el mundo.</p>
+<p>Pero regresando a lo nuestro, el avión…</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> Quinientos mil dólares.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Cuánto?</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> Quinientos mil dólares.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Quinientos mil dólares un viaje al espacio.</p>
+<p>Entonces, pues vamos a seguirlo ofreciendo. Es un avión de muy buena calidad, lo que pasa que no está hecho para nuestro país, sólo para presidentes que viajan mucho al extranjero porque técnicamente ese avión debe de volar, para que sea eficiente y se justifique, en promedio cinco horas; pues de México a Tijuana es menos de cinco horas, de México a Cancún también menos de cinco horas.</p>
+<p>O sea que es un avión que se compró para ir de vuelo a Europa, porque sí se llega a Europa en 10 horas sin recarga de combustible, pero aquí para ir a Guadalajara, a Oaxaca, a Veracruz, pues apenas se está levantando y ya hay que aterrizar, y el gasto es mayor.</p>
+<p>Y luego, pues el lujo que tiene el avión. Es para 240 pasajeros en lo que es la aviación comercial, pero lo adaptaron para 80 pasajeros, entonces son espacios muy amplios, sillas muy amplias y recámaras y sala de junta.</p>
+<p>Entonces, nos ha costado bastante trabajo conseguir quién lo compre, pero no vamos a dejar de estarlo ofreciendo. Si hay un comprador, yo se lo entregaría, iría yo al hangar presidencial a entregarlo.</p>
+<p>Y es un avión que puede ser de mucha utilidad. Aunque lo tengamos parado y se le dé mantenimiento -porque se le está dando mantenimiento constante-, ahorramos, porque si lo usáramos nos costaría muchísimo dinero.</p>
+<p>Entonces, nosotros sólo gastamos lo que cuestan los boletos para ir a nuestras giras, pero es muy poco lo que gastamos en boletos de avión en comparación con el gasto de mantenimiento y el utilizar toda la flotilla área que se tenía antes en el gobierno.</p>
+<p>Entonces, le voy a pedir al director de Banobras, Jorge Mendoza, que informe cómo vamos porque, aun cuando sea lento, se va recuperando dinero que va a ser para actividades o para programas de apoyo a la gente, todo eso es para apoyar al pueblo.</p>
+<p>También estamos a punto de iniciar unos tianguis del bienestar. Ustedes saben que todo lo que se decomisa se lleva a bodegas, estamos hablando de ropa, de calzado, de ventiladores, aires acondicionados, juguetes, muchas telas, muchas telas y se rentan bodegas, pero muchas bodegas.</p>
+<p>¿Cómo cuántas?</p>
+<p>Como 200, 300 bodegas en el país y se mantiene esa mercancía. Hemos ido sacando, sacando y sacando, pero como hay que hacer trámites y hay normas, por ejemplo, para que no haya competencia desleal, se tiene que quemar o destruir todo lo que son rollos de telas y pacas de ropa. Entonces, todo eso ya va a cambiar. ¿Y qué vamos a hacer?</p>
+<p>Ah, para mantener esas bodegas pues tenemos que pagar la renta, se echan a perder las cosas, hay que pagar renta.</p>
+<p>Entonces, estamos ya por terminar de elaborar una reforma administrativa para que todo lo que se confisque, con prontitud, con rapidez, de manera expedita, se le entregue a la gente.</p>
+<p>Entonces, van a haber tianguis del bienestar en las zonas más pobres, se va a llevar todo eso para que la gente lo aproveche. Pronto vamos a informarles.</p>
+<p>Que tiene que ver lo mismo con los aviones, de cómo utilizar todo lo que ahora no tiene ninguna función como por ejemplo, las rifas de las casas, de los ranchos para la Lotería Nacional en beneficio del pueblo.</p>
+<p>En diciembre, estamos pensando que vamos a rifar un terreno a la orilla del mar en Sinaloa, un terreno como de dos mil 500 hectáreas. Era un rancho de Antonio Toledo Corro, ya finado, y en el gobierno de Calderón Fonatur lo compró, era un señor afamado, Gómez Mont, el de Fonatur, para un desarrollo turístico, y resulta que pues está un poco apartado, está en los límites de Sinaloa con Nayarit, pero pagaron 120 millones de dólares por el terreno, y no hemos podido venderlo para obtener ese dinero.</p>
+<p>Nos hace falta ese dinero porque estamos construyendo la presa de Santa María, ahí cerca, y queremos ese dinero se use para terminar de financiar la presa de Santa María, que es una obra que va a ayudar mucho al riego de alrededor de 30, 40 mil hectáreas y además va a abastecer de agua a los municipios del sur de Sinaloa y va a generar energía eléctrica.</p>
+<p>Entonces, como no hay empresa turística que quiera invertir y se les está dando facilidades para que tengan los permisos y todo, pero de todas maneras no hay quien se interese, yo personalmente le he mandado a decir a quienes tienen actividad empresarial en Sinaloa para que quede el dinero en el estado, que si se interesan pueden comprar el terreno y no, no se ha podido.</p>
+<p>Entonces ¿qué se está pensando?</p>
+<p>Pues se va a fraccionar. Entonces, como es una playa bella, se van a vender terrenos, pero no venderlos sueltos, sino rifar para diciembre, el que quiera tener su terreno de playa compra su boleto.</p>
+<p>Lo que queremos es sacar los 120 millones de dólares, cuando menos lo que en ese entonces se destinó a la compra. Malos negocios, claro, malos negocios para la hacienda pública, para el pueblo, buenos negocios para los que hicieron esta operación.</p>
+<p>Entonces, vamos a pedirle a Jorge que venga sobre los aviones.</p>
+<p><strong>INTERLOCUTOR: </strong>Okey, muchas gracias por su respuesta, presidente.</p>
+<p>En otro asunto, presidente, a pesar de que usted dio instrucciones de que se investigara a Mario Delgado y Jesús Orta por la renta sobre costo de los trenes, la Fiscalía General de la República no se ha pronunciado; a pesar de que hay recursos federales y locales involucrados con múltiples irregularidades, no han iniciado investigación en los contratos vigentes tanto en la Secretaría de la Función Pública y el contralor capitalino, no han hecho nada.</p>
+<p>Como usted nos solicitó denunciar la corrupción, aquí le voy a entregar documentación nueva. Investigamos que Mario Delgado dio cuatro pagos de 158 millones de dólares contra entrega de los 30 trenes y pagó de contado 632 millones de dólares.</p>
+<p>Maximiliano Zurita los vendió a Pobre Tren en 420 millones dólares y ésta se los rentó a Mario Delgado en mil 580 millones de dólares. Está vigente el contrato, pero no se investiga por qué se firmó en dólares, si el mantenimiento e intereses se pagan aquí en México.</p>
+<p>Los trenes de CAF de la Línea 12 resultaron 68 por ciento más caros que los trenes de llantas de hule de la Línea 1. De mantenimiento se pagó 576 millones de dólares para limpiar los vidrios y se cobra ese mantenimiento cuando están parados los trenes, y CAF les paga míseros sueldos a los trabajadores del Metro y en pesos. La empresa CAF es la misma del Tren México-Toluca.</p>
+<p>Mi pregunta, presiente, es: ¿estaría usted de acuerdo que el doctor Santiago Niego, en conjunto con el SAT, investigue a la empresa CAF, a Mario Delgado, Jesús Orta y Miguel Ángel Mancera?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, y a todos. La investigación sobre este tema corresponde a la fiscalía y hay que esperar a que la fiscalía dé una respuesta legal, formal y nada más no politizar, no seguir sacando raja, porque eso se usó mucho, eso mismo, en víspera de las elecciones.</p>
+<p>Por eso muchos se confundieron, se utilizó mucho lo del accidente lamentable, la desgracia del tren de Tláhuac, del Metro de Tláhuac, porque nuestros adversarios no tienen escrúpulos de ninguna índole, para ellos el fin justifica los medios, ellos querían derrotarnos, que no alcanzáramos la mayoría en la Cámara de Diputados y se lanzaron con todo, nada más que no pudieron.</p>
+<p>Sin embargo, la campaña fue incesante, profunda, perversa, en todos los medios de información, con honrosas excepciones; y en redes sociales, y con llamadas telefónicas, y todavía sigue. Es una prensa vendida, alquilada, una prensa corrupta la que se tiene en el país desgraciadamente, con honrosas excepciones. Nunca se había atacado tanto a un gobierno como ahora.</p>
+<p>¿Cuándo habían visto al <em>Universal</em> como ahora?, ¿al <em>Reforma</em> como ahora?</p>
+<p>Nunca.</p>
+<p>Las estaciones de radio, es un bombardeo constante de mentiras, de calumnias. Nada más para que los que estén viendo lo constaten, fíjense, hoy, las primeras columnas, la noticia principal en <em>El Universal</em> es de que jóvenes que están trabajando conmigo, que los estamos formando, están ya siendo promovidos y ocupan cargos, jóvenes preparados, honestos; pues no les gusta, lo ven mal.</p>
+<p>¿Qué quieren?, ¿que continúen los mismos funcionarios corruptos en el gobierno?</p>
+<p>No, tenemos que renovar la administración pública; si no, podemos retroceder, si no formamos cuadros nuevos, jóvenes para el relevo generacional. Pero no, les molesta, no quieren que hagamos ningún cambio.</p>
+<p>¿Cuál es la noticia en <em>El Universal</em>? A ver, ¿no la pones?</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> También el <em>Reforma</em> trae la misma.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ah, el <em>Reforma</em> también, es que se ponen de acuerdo, son iguales, nada más que <em>El Universal</em> es más genérico y el <em>Reforma</em> es para fifís, o sea que hay sus nivelitos también.</p>
+<p>Pero miren: ‘Pasan de ayudantes de AMLO a estar en puestos de alto nivel’, como si eso fuese un pecado, algo indebido. Son jóvenes universitarios que se están formando.</p>
+<p>¿Y saben cuántos ayudantes hay en la Presidencia?</p>
+<p>Quince, mujeres y hombres, jóvenes profesionales, pasan un tiempo ahí, se van a las giras, conocen más sobre la realidad del país, se van formando, recogen los sentimientos del pueblo, de la gente.</p>
+<p>El <em>Reforma</em> hace unos días saca: ‘De recibir una cachetada a manejar las becas Benito Juárez’. Sí, a un compañero joven en una gira le pegaron una cachetada, una señora, precisamente una joven simpatizante del conservadurismo y este aguantó estoicamente.</p>
+<p>Bueno, a ese que le pegaron la cachetada tiene licenciatura en Ciencia Política en la UNAM. Falleció una mujer extraordinaria que nos ayudaba en el programa de Becas, Lety Ánimas, y como a mí me importa mucho el programa de becas no puede ir cualquiera. ¿Voy a meter a Quadri ahí?</p>
+<p>Sí, porque… Hablo de Quadri porque a él lo impulsó la maestra Elba Esther Gordillo, a Quadri, a lo mejor esto no lo saben en Coyoacán, porque antes no se sabía nada, a veces por eso yo tengo que extenderme aquí para informar, informar, informar.</p>
+<p>Bueno, pues propuse a Abraham porque tiene un perfil que lo amerita, es preparado, es joven, ha estado trabajando con nosotros, es gente honesta y le tiene amor al pueblo. Entonces, no les gusta a los del <em>Reforma</em>….</p>
+<p>Ah, aquí está, la misma. Miren, esta compañera es ingeniera, joven, veracruzana. ¿Cómo no le voy a dar la oportunidad si es una mujer íntegra, honesta?</p>
+<p>¿Qué quieren los del <em>Reforma</em>?, ¿que yo ponga a un familiar de Carlos Salinas de Gortari?</p>
+<p>Todos ellos, y lo vamos a seguir haciendo, vamos a seguir llevando a cabo cambios para renovar el equipo con gente joven y con esas características.</p>
+<p>¿Qué creen?</p>
+<p>Que ahora sí yo me voy a retirar porque voy a recibir a las 9:00 -ya se me pasó- al cardenal Pietro Parolin, es secretario del Estado Vaticano, y es un desayuno que tenemos a las 9:00; entonces, ya no puedo estar más tiempo, pero mañana seguimos, continuamos. Hacemos la lista para los que quedaron pendientes, por favor, por favor.</p>
+<p><strong>ROSA ICELA RODRÍGUEZ VELÁZQUEZ:</strong> Presidente, el simulacro, por si quiere usted, si lo considera.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ah, también, les recuerdo que a las 11:30 es el Simulacro Nacional del sismo, por el sismo, a las 11:30, a las 11:30, para que nadie se alarme. Es un simulacro a las 11:30 para cuidarnos, para protegernos, para saber qué hacer en caso de que se presente una emergencia, aunque toco madera, pero, en fin.</p>
+<p>Nos vemos mañana. Muchas gracias, muchas gracias. A ver, hago el compromiso de que mañana todos, mantengan levantada la mano, por favor, nada más una foto y ya con eso, y así.</p>
+<p>---</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>12.05.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/12-05-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=131450' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F12-05-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F12-05-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66ioi-f-11c241d05-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":19,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"38f4c0f2","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":54960,"ak.gh":"23.47.207.46","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616136","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==4qptYgFldUSxnjnbo4AYYbVaZjEr8siCil5qXSONJTMIF/G/9TkHzV/d+iGvA2LR3My8y/rT8vXvrIgRSndFc+cZw/8rFjJuUEF5ydDHU7VDCTGsg6yKxbjne8F45nCDMVgReb9PgPYnHMbOOL9/plYBt3JMTs5gRIhYJRQYEIozmSqiYgru2jX1HYj703wrKt/Y4RxafB2sl5I9FrOZ/LtRee6XyEJdmTUCqM26EV9i9Wbv2coUmUfyTl/9XvXtUVIwScTmTPAHqrw9E3hIdtXZ0Mg4dUxhVRQzlKoDJe13XriMgvp5WThRD9Cf7dkyQOYHSiHOIe/jUZRIjnX5eSLstu1WMMFE3LByH7Y8AeroLwvtERw2ySmAQefEwOir+JeKVYf4IaUaRIyAtqS/6UrGWIHJfb4rJIafzLL98aI=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-131450 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef1f3a22cb7" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>12.05.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 12.05.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-131450" class="post-131450 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2020/05/12-05-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-03.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/05/12-05-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-03-745x450.jpg" alt="12.05.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">12.05.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><em>2020, Año de Leona Vicario, Benemérita Madre de la Patria</em></p>
+<p>&nbsp;</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Buenos días. Ánimo.</p>
+<p>Iniciamos esta conferencia enviando una felicitación afectuosa, cariñosa, a todas las enfermeras de nuestro país porque hoy se conmemora el Día Internacional de la Enfermera. Es un momento difícil para todos por esta pandemia que nos afecta y son las enfermeras, como les hemos llamado, nuestras heroínas, con los médicos, nuestros héroes, los que están en los hospitales salvando vidas. Por eso nuestro reconocimiento, un homenaje a todas las enfermeras, los enfermeros de México.</p>
+<p>Este día también vamos a dar a conocer un acuerdo, un convenio que celebra el gobierno con la fundación Teletón para que se utilicen sus centros de rehabilitación. Es una muestra de solidaridad de esta fundación que encabeza Fernando Landeros, que está aquí con nosotros.</p>
+<p><audio src="https://lopezobrador.org.mx/wp-content/uploads/2020/05/2020-05-12-Matutina.mp3" controls="controls"></audio></p>
+<div id="fb-root"></div>
+<p><script async="1" defer="1" crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&amp;version=v7.0"></script></p>
+<div class="fb-video" data-href="https://www.facebook.com/lopezobrador.org.mx/videos/701019547394326" data-width="500">
+<blockquote cite="https://www.facebook.com/lopezobrador.org.mx/videos/701019547394326/" class="fb-xfbml-parse-ignore"><p><a href="https://www.facebook.com/lopezobrador.org.mx/videos/701019547394326/">Conferencia de prensa matutina. Martes 12 de mayo 2020</a></p>
+<p>El comportamiento de los mexicanos ha sido ejemplar, continuemos con las medidas de sana distancia.</p>
+<p>Publicado por <a href="https://www.facebook.com/lopezobrador.org.mx/">Andrés Manuel López Obrador</a> en Martes, 12 de mayo de 2020</p></blockquote>
+</div>
+<p>Se va a explicar en qué consiste este acuerdo. Es parte de la suma de voluntades, de cómo el sector público y el sector privado, desde luego el sector social, estamos trabajando en unidad para enfrentar la pandemia y salvar vidas de esa forma, con humanismo y solidaridad.</p>
+<p>Vamos a iniciar la información. Hoy es martes que se destina a la salud pública, por lo mismo comenzamos con el doctor Jorge Alcocer, secretario de Salud, él inicia.</p>
+<p><strong>JORGE ALCOCER VARELA, SECRETARIO DE SALUD:</strong> Muchas gracias, presidente. Muy buenos días.</p>
+<p>Pues qué mejor hoy, 200 años de vida de haber nacido, de Florence Nightingale. Es el símbolo de la enfermería, pero más que en símbolo, se convirtió en ese figurativo de una lámpara, un faro y una luz en los hospitales, sin ellas un hospital se mantiene oscuro y no trabaja como debe ser.</p>
+<p>Esto no es retórica, es la realidad y por eso muchos llegamos y preguntamos por la jefa, la jefa nos dice qué, la jefa nos dice cómo van las cosas y hoy qué mejor para recordar en este Pulso de la Salud a esta gran mujer, que además curiosamente, revisando algunos de sus datos de vida, le gustaba la epidemiología, era buena en epidemiología, le entendía a la estadística, era buena en los números. Y así hay muchas, muchas enfermeras en nuestro país que tienen esa noble profesión y ese noble acompañamiento con el ser humano.</p>
+<p>Eso es lo que puedo señalar como marco general de este Pulso de la Salud de hoy y que nos va a permitir desde luego, además de la valiosa aportación del doctor Hugo López-Gatell en el informe médico-técnico de cómo va la epidemia, tanto a nivel nacional como internacional, pues vamos a tener un alto en el camino, el que hemos señalado, el ayer o el antes y el hoy.</p>
+<p>Y esto está en relación con la estructura, con la formación de recursos, la con la obtención de insumos desde enero, el 1º de enero, cómo ha cambiado al día de hoy.</p>
+<p>Y como ya anunció el presidente, es hora y tenemos ya bastantes adhesiones, sumas, articulaciones dentro de lo que es el sector salud, dentro de lo que es gobierno federal, dentro de lo que esta gran sociedad que nos ha estado apoyando y desde luego formando parte activa de la epidemia el ir sumando esfuerzos.</p>
+<p>Hoy tenemos una más, la firma de un convenio con el Teletón que todos ustedes conocen. Todos los diciembres desde hace veintitantos años, 23 años en especial, ha sido permeable en la sociedad mexicana y hoy vamos a ver este otro esfuerzo de una empresa de comunicación y sociedad en general con la capacidad, con la preocupación central de atender necesidades de niñas, niños, adolescentes con discapacidad.</p>
+<p>Esto es lo que les quería presentar como marco general y le pido al doctor Hugo López-Gatell que inicie con el informe correspondiente.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ, SUBSECRETARIO DE PREVENCIÓN Y PROMOCIÓN DE LA SALUD: </strong>Con gusto, maestro. Jefa de Gobierno, gobernadores, secretaria, secretario, canciller, estimado Fernando Landeros.</p>
+<p>Voy a ser breve, me centraré en los aspectos básicos del informe técnico, este es el que presentamos todas las tardes y, de hecho, el que presentaré es el corte más reciente, que es el de ayer por la tarde.</p>
+<p>En el panorama internacional tenemos ya 50 días de la Jornada Nacional de Sana Distancia, nos restan tres semanas para completarla. En el informe internacional tenemos que casi cuatro millones 257 mil… seis mil 257 personas han sido detectadas con infección por COVID o por el virus SARS-Cov-2 que causa COVID desde el inicio de la epidemia en enero de este año; y de ellas, tenemos que 29 por ciento han tenido en los últimos 14 días, lo que representa la parte activa de la epidemia.</p>
+<p>La tasa de letalidad global o la proporción de letalidad global se ha mantenido relativamente estable, oscilando entre 6.8 y 7.1, actualmente siete por ciento de los casos detectados.</p>
+<p>La distribución en el mundo es claramente predominante en América con más de 50 por ciento de los casos y empieza a emerger la región del Mediterráneo Oriental, en donde tenemos ya más de ocho por ciento, 8.3 por ciento de los casos; lo que se espera que es desafortunadamente en esta región y posteriormente en otras que aparecen con menor frecuencia empezará a proliferar la transmisión al tiempo que en Europa -y esta es la parte positiva- empieza a disminuir ya claramente la epidemia.</p>
+<p>En México tenemos 36 mil 327 casos confirmados desde el primer evento el 28 de febrero y de ellos ocho mil 288 son casos de los últimos 14 días, de la última quincena, que representan los casos activos de enfermedad con capacidad de transmisión principalmente.</p>
+<p>Se han estudiado 135 mil 116 personas que en su momento fueron identificadas como casos sospechosos y resultaron en los 36 mil 327 positivos o en 77 mil 798 que fueron negativos.</p>
+<p>Esta me la salto por ahora, es la información general del acumulo de casos, pero, como ya hemos dicho, es aún más trascendente, me salto también la gráfica de barras, esta es que es la carga de enfermedad activa de los últimos 14 días por ser la que contribuye a la conservación de la epidemia.</p>
+<p>Se ve en el mapa y también en la gráfica de columnas a continuación cómo la Ciudad de México y el Estado de México, específicamente la zona conurbada en el Valle de México, son los lugares donde existe prácticamente una mitad de la epidemia; le siguen Tabasco, Veracruz, Baja California y Morelos en orden de frecuencia.</p>
+<p>Si lo vemos por incidencia, para poder comparar poblaciones que tienen tamaños diferentes, encontramos que 6.5 de cada 100 mil personas en México han tenido en los últimos 14 días COVID y en la gráfica de barras o de columnas podemos ver algunas señales interesantes y estimulantes, como el hecho de que la incidencia en la Ciudad de México empieza a descender en las últimas 48 horas.</p>
+<p>Las muy desafortunadas tres mil 573 defunciones se han ido presentando, aun conservando el mismo patrón que ocurre con los casos acumulados, lo previsible es que en algún momento empezará a haber una disparidad, una diferencia entre estos lamentables eventos que desafortunadamente son irreversibles con respecto a los casos nuevos que se irán presentando.</p>
+<p>Tenemos 259 defunciones que están reconocidas por su ocurrencia clínica y que están en proceso de confirmación diagnóstica.</p>
+<p>En la siguiente vemos su distribución por entidad federativa y claramente sigue el mismo patrón, como he comentado, de los casos acumulados, Ciudad de México, Baja California, Estado de México, Tabasco, Sinaloa y Quintana Roo en los primeros lugares.</p>
+<p>En la siguiente vemos tanto los casos confirmados como los casos sospechosos que están en proceso de estudio, esta es una cifra que, aunque parece fija, en realidad va cambiando porque se reemplazan, ocurren casos sospechosos nuevos y algunos pasan a confirmación. Finalmente, lo que vemos es que todavía tiene una señal muy estable de crecimiento exponencial que corresponde con el curso de una epidemia aún muy activa.</p>
+<p>En esta diapositiva lo que vemos es la curva acumulada de casos. Esta siempre sube naturalmente porque es la suma de los casos que van ocurriendo cada día. Y lo que tenemos es un dato también en cierta manera estimulante, que es ayer tuvimos 3.7 por ciento de aumento con respecto a 24 horas antes, este es el incremento más pequeño que hemos tenido desde que empezó la fase de progresión rápida el 13 de marzo, y esto se ve por los casos nuevos que van ocurriendo y se representan en las pequeñas barritas o columnas de color anaranjado que están en la parte inferior.</p>
+<p>La ocupación hospitalaria, finalmente, tenemos que de los hospitales que han sido designados para la atención de infección respiratoria aguda grave, independientemente de que ésta sea primariamente identificada como COVID o personas que llegan con otras enfermedades, pero que también requieren hospitalización o eventualmente apoyo mecánico ventilatorio, tenemos 34 por ciento de la ocupación a nivel nacional.</p>
+<p>Lo podemos ver en las dos gráficas de columnas, en esta donde se representa la hospitalización general, es decir, son camas generales, no se necesita un tratamiento especializado más allá de los cuidados generales apropiados en muchos casos suplementación de oxígeno, pero sin intubación.</p>
+<p>En el extremo derecho de la gráfica apreciamos que 34 por ciento de las camas destinadas para infección respiratoria aguda grave a nivel nacional están ocupadas.</p>
+<p>Si nos vamos al lado izquierdo de la gráfica podemos ver el orden de ocupación por entidad federativa, empezando por la Ciudad de México, que tiene 73 por ciento de ocupación en las camas generales, seguido de Baja California, Estado de México, Sinaloa y Campeche.</p>
+<p>Y en la última, lo que vemos es la misma idea, pero para camas que tienen asignado un ventilador, un monitor y personal especializado para el tratamiento de personas críticamente enfermas de un padecimiento respiratorio grave como es COVID en su forma más grave.</p>
+<p>A nivel nacional, del lado derecho de la curva, 27 por ciento de ocupación; en el lado izquierdo de la curva… perdón de la gráfica, vemos que 64 por ciento de ocupación existe en la Ciudad de México seguida por Sinaloa, Estado de México, Baja California, Quintana Roo, con los porcentajes que ahí se indican.</p>
+<p>Resumen general: seguimos diciendo lo que hemos comentado, estamos en una etapa importantísima de la epidemia donde estamos en el punto máximo de transmisión en las ciudades que iniciaron con la epidemia, particularmente la Ciudad de México.</p>
+<p>Tenemos noticias alentadoras que hemos comentado, donde Tijuana, Villahermosa y Cancún, y en cierta manera aún ya se empieza a ver en Culiacán, Sinaloa, y empieza a bajar la intensidad de transmisión.</p>
+<p>Pero reiteramos, esto no quiere decir que sea momento oportuno para relajar las medidas de sana distancia, aún nos quedan tres semanas de la Jornada Nacional y cuanto más orden, disciplina y constancia en Quédate en Casa, vamos a lograr reducir la carga de contagios y eso va a ser benéfico cuando venga el momento de la reapertura, del desconfinamiento.</p>
+<p>Muchas gracias.</p>
+<p><strong>JORGE ALCOCER VARELA:</strong> Muchas gracias, Hugo.</p>
+<p>La siguiente información. Quiero señalarles de principio que se va a poner en la página de la secretaría, del Insabi, para que ustedes tampoco tengan una introducción de la información que se generó a raíz de una pregunta. El presidente nos dijo que hay de enero a acá en ámbitos de formación de recursos, de estructura, en atención al COVID, a la epidemia; pero no sólo es para eso, sino para consolidar lo que viene.</p>
+<p>En el siguiente camino que tenemos todavía difícil, desde luego en atención de toda la población, ya tenemos algo que se va a quedar continuo, porque la epidemia no nos va a dejar rápidamente, nos va a dejar en urgente, pero vamos a tener que regresar a algunas acciones, algunas actividades que son parte de la acción necesaria para la sociedad, para esa sociedad, para esa población que tanto nos ha apoyado y desde luego para todo el personal médico.</p>
+<p>Pero esta pregunta nos pareció no un reto, sí lo fue en parte, pero es una necesidad y les voy a presentar los datos más relevantes.</p>
+<p>En esta tabla sumaria vemos el avance de camas de terapia intensiva con recursos humanos disponibles para la epidemia y lo ponemos así porque podemos tener una cama con un ventilador, pero si no tenemos el equipo que lo maneja, es realmente no adecuado.</p>
+<p>Tenemos desde luego la necesidad de tener en cada cama con terapia intensiva un jefe médico, alguien que conduzca esto y esta es una estructura piramidal con un jefe y cinco especialistas en urgencias, en neumología, en la misma terapia intensiva, medicina interna capacitados para atención de pacientes en situación de emergencia y que desde luego llevan como pieza central el contar con el equipo de respiración.</p>
+<p>Las camas con médico general, ustedes saben, es para cubrir otra fase de la misma atención, pero no la grave, las camas con enfermeras especialistas son las de mayor demanda y de mayor necesidad, y desde luego también fueron atendidos y las camas con enfermera general.</p>
+<p>Aquí el marco general es recordarles que tenemos un déficit y esto lo teníamos desde el año pasado ya en estudio, en preparación, y había ya recursos para sustentar, subsanar este déficit de 200 mil profesionales de la salud, esto desde luego tomando en cuenta sólo médicos, médicos generales y especialistas y 300 mil, alrededor enfermeras que así fue como recibimos en un censo muy minucioso durante el año antepasado.</p>
+<p>¿Qué hemos hecho?, ¿qué avances tenemos?</p>
+<p>Aquí está la columna izquierda por las instituciones, incluyendo las que ya conocen con un total grande de 12 mil 715 como meta, como camas con jefe médico especialista tenemos ocho mil 613, camas con médico general nueve mil 256 y enfermeras, como pueden ver, cerca de siete mil 500 y ocho mil 600 camas con enfermeras.</p>
+<p>Esto desde luego es lo que se tenía de inicio, tres mil 552 el 1º de enero de 2020 y progresivamente al 5 de mayo hemos pasado de tres mil 552 a ocho mil 113.</p>
+<p>El tablero sectorial que aquí les ponemos de control de recursos está aquí ya ampliado y desde luego en lo que les señalamos para que tengan el total final de 44 mil 247 con otros personales de la salud.</p>
+<p>La siguiente, por favor. Y la capacitación médica, que es fundamental ante esta falta de especialista, sea muy meritoriamente y sorprendentemente, al menos para mí, se ha logrado, médicos generales. Y eso nos acerca a lo que en otros países y lo puntualizo, la base de la atención médica y sanitaria en general y preventiva de Inglaterra es con la mitad de sus médicos, siendo médicos generales de muy buena preparación y la otra mitad es con especialistas.</p>
+<p>Esto cambia en otros países, pero aquí tenemos que estos médicos en general han sido capacitados 36 mil 611 de una capacitación; por ejemplo, aquí está presente en hospitales como Tijuana, Mexicali y en la tabla lo pueden ustedes constatar, las 36 mil 671 total en estados, tanto en medicina como enfermería, que son los avances que se han tenido.</p>
+<p>Estos son los médicos del bienestar capacitados y cada vez mayormente contratados.</p>
+<p>Ahora, en cuanto a la infraestructura lo podemos exponer también considerando el total de obras abandonadas que se recogieron, que se tenían en el censo antes de que llegara la epidemia, 327, donde mayoritariamente son centros de salud, 217; hospitales 110 y por año terminadas en 2019, 54, en proceso 56; y suspendidas -porque no estaban adecuadamente sustentadas en lugares, en espacios y en necesidades-, 107.</p>
+<p>Los hospitales en el 2019 logramos que se terminaran, se pusieran en función 18; en proceso de seguir en 50; y suspendidas, 42.</p>
+<p>El plan de infraestructura de los 32 hospitales ha permitido, y con la atención muy importante de Sedena y de nuestra Secretaría de Marina, dar vida y terminar, ya enfocado en el 2020 a camas de terapia intensiva. Como ustedes pueden ver en el ejemplo de abajo, 10 hospitales concluidos en estos meses, como están aquí en Coahuila, Guerrero, Hidalgo, etcétera, con camas de terapia intensiva 215 y de hospitalización 150, y esto cubre 16 entidades.</p>
+<p>La reconversión de hospitales para COVID-19 también han tenido una infraestructura terminada en este año de 32 hospitales, con un rescate hospitalario en promedio de uno por mes y aquí tienen el listado de 410 de las 770 en total, camas de terapia intensiva, y 330 de las 570 camas de hospitalización, esto es el antes de enero y el después a este mes.</p>
+<p>Si hay alguna pregunta, esto es en general la presentación breve que les exponemos, pero que desde luego la pueden consultar y la podemos platicar después.</p>
+<p>Muchas gracias.</p>
+<p>Ahora le pido, por favor al canciller que nos haga la introducción de esta firma del patronato con Teletón que va a fortalecer desde luego, como ustedes saben, nuestra capacidad sanitaria.</p>
+<p><strong>MARCELO EBRARD CASAUBON, SECRETARIO DE RELCIONES EXTERIORES:</strong> Con su permiso, señor presidente.</p>
+<p>Saludar la presencia de la jefa de Gobierno de la Ciudad de México, Claudia Sheinbaum, bienvenida; del señor gobernador del Estado de México, licenciado Del Mazo, bienvenido; desde luego saludo a mis colegas, señores secretarios, funcionarios y muy señaladamente al patronato Teletón que el día de hoy nos acompaña. En un momento más vamos a escuchar a Fernando Landeros, presidente del patronato Teletón y director general de la fundación.</p>
+<p>También nos acompañan Mauricio Vázquez, Francisco Aguilera y Rosana Corona, del patronato. Muy bienvenidos, bienvenida.</p>
+<p>¿El día de hoy por qué nos acompaña la Fundación Teletón?</p>
+<p>Llevamos ya varias semanas con un esfuerzo notable de coincidencia, de convergencia de la sociedad, del sector privado y las instituciones públicas para aumentar la capacidad instalada, hospitalaria.</p>
+<p>Primero se firmó un convenio, como ustedes recordarán, con la Asociación de Hospitales Privados y el Consorcio de Hospitales Privados. A la fecha ya son más de dos mil 600 pacientes que han atendido en apoyo a las instituciones públicas.</p>
+<p>Después, se anunció otra iniciativa que se llama Juntos por la Salud, que debo decir que ya empezó a distribuir en los hospitales del Valle de México y pronto en esta semana de toda la república los kits de equipo de protección para enfermeras, paramédicos.</p>
+<p>Hoy, en el Día de la Enfermera, felicitamos a todas, pero estas acciones son para su protección, para que quienes están atendiendo al COVID tengan el respaldo de la sociedad traducida, expresada en donaciones y en equipo.</p>
+<p>Y el día de hoy damos otro paso muy relevante, porque quién en México no conoce el trabajo que ha hecho la Fundación Teletón y muy señaladamente Fernando Landeros y su equipo, que es un trabajo extraordinario, reconocido en todo el mundo.</p>
+<p>Yo tuve el privilegio, el honor de poder trabajar junto con él cuando estuve aquí en la Jefatura de Gobierno de la ciudad para construir uno en Iztapalapa.</p>
+<p>El asunto es que Fernando y su equipo se han acercado a los gobiernos de los estados, al gobierno federal, para el día de hoy suscribir un convenio que permita utilizar las instalaciones de primer nivel que tienen en toda la república mexicana, 23 de ellas se puedan convertir para atender, de conformidad con las prioridades que marque cada gobierno estatal, la jefa de gobierno en el caso de la Ciudad de México, el Instituto Mexicano del Seguro Social, cuyo director ha sido un promotor de primer orden para la firma de este convenio -gracias, Zoé, por tu apoyo- el director del Instituto de Seguridad Social al Servicio de los Trabajadores al Servicio del Estado, el Issste, el Insabi y, por supuesto, el señor secretario de Salud, que ha promovido este convenio.</p>
+<p>Entonces, con la firma del día de hoy, 23 centros que tienen la infraestructura, el equipo, el personal, para atender personas con diferentes discapacidades, especialmente menores de edad, van también a contribuir para atender esta contingencia, la pandemia COVID-19.</p>
+<p>Ya explicará ahora Fernando, le cedo el uso de la palabra, para que nos diga el gran esfuerzo que va a hacer Teletón, ya está haciendo, pero va a ser a partir de ahora en toda la república mexicana.  Muchas gracias por su trabajo. Gracias a los miembros del patronato. Muchas gracias, Teletón.</p>
+<p><strong>FERNANDO LANDEROS VERDUGO, PRESIDENTE DE FUNDACION TELETÓN MÉXICO: </strong>Con su permiso, señor presidente.</p>
+<p>La verdad es que, con mucha emoción, con mucha humildad y al mismo tiempo con toda la humanidad de millones de mexicanos que hemos construido esta obra en 23 años es que, como decía el canciller Marcelo Ebrard, queremos poner a disposición de los mexicanos que hoy más lo necesitan y de las autoridades federales, señor presidente, y estatales, estas instalaciones y esta infraestructura con tanto amor, con tanta perseverancia millones de mexicanos hemos construido.</p>
+<p>Quiero dar inicio a este informe agradeciendo, en primer lugar, a un grupo de mexicanos solidarios y generosos, quienes han destinado su tiempo, sus recursos y su cariño a la obra de la Fundación Teletón. Ellos conforman el patronato de la fundación y es gracias a ellos, a cada uno de ellos que es posible hacer este ofrecimiento.</p>
+<p>Los mencionaré de acuerdo a la antigüedad con la que fundaron o se fueron sumando a esta obra solidaria y de amor.</p>
+<p>En primer lugar, quiero mencionar al señor Emilio Azcárraga, presidente de Grupo Televisa, con quien emprendí este proyecto hace ya 23 años; también fundador Alejandro Vargas, MVS; Eduardo Ricalde Medina, Juan Francisco Ealy Ortiz, El Universal; Francisco Aguirre, Grupo Acir; Francisco Ibarra, Grupo Acir; Francisco Aguirre, Grupo Radio Centro; Adrián Aguirre, Play Telecom; Ignacio Pérez Lizaur de Nacional Monte de Piedad; Juan Diego Gutiérrez Cortina, de Gutsa Construcciones; Javier Sordo Madaleno, de Grupo Sordo; Sissi Harp Calderoni, Fundación Alfredo Harp Helú; José Francisco Aguilera de Alba, de Estudio Tres, quien hoy también nos acompaña: Andrea Hernández de Legorreta, de Fundación Legorreta, de Fundación Legorreta Hernández; Carlos Slim Domit, de Grupo Carso y Telmex; Mauricio Vázquez Ramos, editorial Ovaciones, también muchas gracias, Mauricio; Antonio Leonardo Castañón, de Farmacias del Ahorro; Ricardo Dakdu Kalif, de Dakdu Ingenieros; Javier Pérez de Anda, de Grupo Radiorama; Alejandro Ramírez, de Cinépolis; Francisco González, de Grupo Milenio y Grupo Multimedios; Olegario Vázquez Aldir, de Grupo Empresarial Ángeles; Jaime Azcárraga, de Grupo Fórmula; y Carlos Breme, de Valué Grupo Financiero.</p>
+<p>Todos los aquí mencionados estamos detrás de las decisiones más importantes que ha tomado esta obra, incluyendo por supuesto esta, incluyendo esta reconversión que, como comentábamos el viernes pasado con el señor presidente, es más que una reconversión de obras, es más que una reconversión de ladrillos, es una invitación a una reconversión a la más profunda solidaridad de todo el país.</p>
+<p>Pero sin duda, sin duda y aún más importante son quienes han estado adelante de esta obra y esos son los donadores del Teletón. Durante 23 años ininterrumpidos aproximadamente se calculó 20 millones de mexicanos han sido donadores solidarios de Teletón. Si lo pensamos a fondo ellos son los donadores quienes hacen realidad este ofrecimiento y esta aportación al país. Gracias todos y a cada uno de los donadores.</p>
+<p>A continuación, daré a conocer un informe de las actividades realizadas por la Fundación Teletón ante el COVID y por supuesto, como decía el canciller Ebrard, de lo que vamos a hacer.</p>
+<p>Vamos a ver esta presentación, por favor.</p>
+<p>Vislumbramos en primer lugar dos caminos de apoyo: el apoyo a través del gobierno federal y el apoyo a través de los gobiernos estatales. Vamos a informar.</p>
+<p>Trabajando a fondo con una gran coordinación y armonía con la Secretaría de Salud, ejecutamos cinco acciones de la mayor importancia.</p>
+<p>Primero, de la mano de muchas otras organizaciones participamos en la elaboración de la <em>Guía de la protección de la salud para las personas con discapacidad en el en el contexto del COVID</em>.</p>
+<p>Segundo, hicimos una serie de alianzas con un número telefónico, el 800 Teletón, con la línea de vida y con el 911 para derivarnos llamadas relacionadas con la discapacidad.</p>
+<p>Tercero, trabajamos en concreto en otro documento con la Secretaría de Salud para una serie de materiales y recomendaciones para personas con autismo.</p>
+<p>Y siguiente punto, compartimos contenidos de telerehabilitación que hoy se muestran en la página del gobierno federal.</p>
+<p>Hubo dos acciones:</p>
+<p>La primera, telerehabilitación. Es importante decir que tuvimos que cerrar los Centros Teletón, salvo el hospital de cáncer, porque resultaba sumamente peligroso para niños inmunodeprimidos, para ellos y para sus familias acudir o seguir acudiendo a sus terapias, por eso los tuvimos que cerrar, para salvaguardar su integridad y su vida.</p>
+<p>Sin embargo, esos niños no se podían quedar sin rehabilitación, por eso nos dimos a la tarea de crear la telerehabilitación, un servicio originalmente pensado para los pacientes, para esos más de 30 mil niños que atendemos en Teletón, pero que hoy ponemos a disposición gratuita de todo el país estos materiales en videos de telerehabilitación, dando y ofreciendo un servicio abierto a los casi seis millones de mexicanos con alguna discapacidad.</p>
+<p>La rehabilitación no se puede frenar por la pandemia, debe de seguir adelante y aquí tenemos una herramienta que puede ayudar.</p>
+<p>Sabiendo que tenemos un grupo de especialistas en el ámbito médico, en el ámbito sicológico, evidentemente en el ámbito de la discapacidad, el autismo y el cáncer, y por iniciativa de todos ellos es que desde los 24 Centros Teletón, hoy 431 especialistas de la Fundación Teletón atienden las llamadas del público en general a través de la línea telefónica 800 Teletón, al servicio de todo el país.</p>
+<p>De cara a las reconversiones, señor presidente, como mencionaba hace un momento, con mucha humildad, pero también con toda la humanidad y el amor de un país, es que ofrecimos estas reconversiones al gobierno federal y a los gobiernos estatales. Daré información de cuáles son los avances hasta este momento.</p>
+<p>Primero, el CRIT Coahuila se reconvierte en un centro ambulatorio de toma de pruebas COVID-19, en donde el gobierno del estado de Coahuila es la autoridad o será la autoridad sanitaria responsable.</p>
+<p>Segundo, el CRIT en Chiapas se reconvierte temporalmente en un centro de atención sicológica pos-COVID y la autoridad sanitaria responsable es el gobierno del estado de Chiapas.</p>
+<p>Tercero, el CRIT Durango se reconvierte temporalmente en un centro de consulta externa para diagnóstico de COVID-19. La autoridad sanitaria responsable es el gobierno del estado de Durango.</p>
+<p>Cuatro, CRIT Estado de México, concretamente el CRIT en Tlalnepantla, se reconvierte temporalmente en un hospital con 158 camas para pacientes no COVID y la autoridad sanitaria responsable es el gobierno del Estado de México. Señor gobernador, le agradezco mucho también la oportunidad de poder trabajar con usted y con su equipo y de hacerlo, de verdad, de una manera apasionada por este país. Muchas gracias, señor gobernador. Es sin duda hoy el ejemplo más avanzado, porque este hospital con las 158 camas está absolutamente listo para recibir a los pacientes.</p>
+<p>Quinto, el CRIT Hidalgo se reconvierte temporalmente en un hospital no COVID-19. La autoridad sanitaria es el gobierno del estado de Hidalgo.</p>
+<p>Sexto, el CRIT Occidente, ubicado en Guadalajara, Jalisco, se reconvierte en un hospital COVID-19 de atención respiratoria. Tanto el INER como la Fundación Teletón somos los formadores de los rehabilitadores en enfermedades pulmonares. Aquí somos nosotros mismos quienes seremos la autoridad sanitaria responsable.</p>
+<p>Séptimo, el CRIT Michoacán se reconvierte temporalmente en un centro de consulta externa ambulatoria para pacientes no COVID utilizando aproximadamente el 40 por ciento de la infraestructura y el gobierno del estado de Michoacán es la autoridad sanitaria responsable.</p>
+<p>Octavo, el CRIT Sonora se reconvierte temporalmente en un centro operativo de vigilancia epidemiológica y es el gobierno del estado de Sonora la autoridad sanitaria responsable.</p>
+<p>Noveno, el CRIT Veracruz se reconvierte temporalmente en un CAME, en un Centro de Atención Médica Extendida para pacientes no graves pos-COVID y es la Secretaría de Salud del estado de Veracruz la autoridad sanitaria responsable.</p>
+<p>En un segundo apartado, de cara a los convenios con el gobierno federal, con el IMSS y con el Issste informo lo siguiente:</p>
+<p>El CRIT Baja California Sur, ubicado en La Paz, se reconvierte temporalmente en un hospital de atención temprana para pacientes COVID con síntomas leves o moderados que presentan un factor de riesgo como hipertensión, diabetes o inmunodepresión. En este caso, y agradezco a Zoé Robledo, director general del Seguro Social. Ellos serán la autoridad operativa responsable del CRIT Baja California Sur. Muchísimas gracias, Zoé.</p>
+<p>El CRIT Ciudad de México se reconvierte temporalmente en un hospital de atención temprana para pacientes COVID-19, igualmente con síntomas leves o moderados que presentan un factor de riesgo.</p>
+<p>En este caso agradezco mucho a la jefa de gobierno de la Ciudad de México y nuevamente al director general del Seguro Social, ya que en conjunto conformarán la autoridad operativa responsable.</p>
+<p>El CRIT Guanajuato -vamos en el número 12- se reconvierte en un hospital de atención temprana, igualmente para pacientes COVID con síntomas leves o moderados que presentan un factor de riesgo, y aquí nuevamente es el Instituto Mexicano del Seguro Social la autoridad operativa responsable.</p>
+<p>Décimo tercero, el CRIT Guerrero se reconvierte temporalmente a un hospital con 60 camas para pacientes no COVID-19. El gobierno del estado de Guerrero es la autoridad sanitaria responsable. Pero además aquí hay una colaboración más, que es del Issste, quienes hacen una reconversión de la infraestructura de consultorios y le ofrecerá como consulta externa a pacientes no COVID. Agradezco también aquí a su director, Luis Antonio Ramírez por el apoyo y la colaboración.</p>
+<p>CRIT Ciudad Nezahualcóyotl se reconvierte temporalmente en un hospital de atención temprana, igualmente para pacientes COVID con síntomas leves o moderados y la autoridad operativa responsable es nuevamente el Instituto Mexicano del Seguro Social.</p>
+<p>CRIT Oaxaca -número 15- se reconvierte temporalmente en un hospital infantil no COVID y es el gobierno del estado de Oaxaca la autoridad sanitaria responsable, pero aquí nuevamente la infraestructura de nuestros consultorios será el Issste quien ofrecerá consulta externa a pacientes no COVID.</p>
+<p>Y, por último, el CRIT de Puebla se reconvierte temporalmente en un hospital de atención temprana para pacientes COVID, nuevamente con síntomas leves o moderados que presentan un factor de riesgo y nuevamente es el Instituto Mexicano del Seguro Social la autoridad operativa responsable.</p>
+<p>Querido México, nos has dado mucho y ahora va de regreso. Los que podamos hacer, no escatimemos una sola gota de esfuerzo. Los que creen que no pueden hacer algo se equivocan, hagan lo más importante: quédate en casa.</p>
+<p>La crisis de la pandemia puede tener resultados muy profundos, pero nada, nada tan profundo y tan arraigado como la solidaridad de México.</p>
+<p>Muchas gracias. Muchas gracias, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pasamos la firma del convenio, ahí viene la mesa móvil.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Que sean testigos Alfredo y Claudia.</p>
+<p><strong>(FIRMA DE CONVENIO)</strong></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muchas felicidades por este acuerdo de colaboración.</p>
+<p>Quiero aprovechar para agradecer a todos los servidores públicos del sector salud por su trabajo, ya tienen ganada la medalla de bronce, porque la de oro está ya reservada al pueblo de México por su extraordinario comportamiento, por su comportamiento ejemplar, al pueblo se debe que se vaya avanzando en el combate a esta pandemia; y como lo hemos dicho, la medalla de plata es para los médicos, las enfermeras.</p>
+<p>Ha sido muy importante el trabajar de manera coordinada el secretario de Salud, el doctor Alcocer; el subsecretario Hugo López-Gatell, un grupo de técnicos, especialistas, científicos, de lo mejor del país, que nos ha asesorado en todo este proceso.</p>
+<p>Ha sido muy importante la participación del Seguro Social, del Issste, nos ayuda mucho la nueva institución, el Insabi, que se creó antes del COVID, pero que ha sido fundamental para reforzar todas las medidas sanitarias, aumentar el número de camas, contratar especialistas, doctores, enfermeras. Miren el dato. De enero a la fecha más de 40 mil enfermeras y médicos se han contratado en todas las instituciones del sector salud, más de 40 mil.</p>
+<p>Todo esto también ha sido reforzado por la Secretaría de la Defensa con el Plan DN-III, muchos hospitales que habían quedado inconclusos los están terminando los ingenieros militares, los están equipando, personal del ejército, médicos militares. Están haciéndose cargo de estos hospitales, se está haciendo como nunca en muy poco tiempo.</p>
+<p>Siempre vamos a agradecer el que no nos haya pegado primero la pandemia, que nos dio tiempo para prepararnos y que, además, por la estrategia que se puso en práctica, no hubo una irrupción, no fue algo incontrolable, se pudo, como se ha estado observando, aplanar la famosa curva, domar la pandemia y esto nos permitió prepararnos y no fuimos rebasados.</p>
+<p>Se tienen las camas tanto de hospitalización general como las camas que se requieren con equipo, con médicos de terapia intensiva, nos preparamos.</p>
+<p>Decía yo nos reforzaron tanto la Secretaría de la Defensa como la Secretaría de Marina con el Plan Marina. Está aquí también el secretario, el almirante Ojeda y el general secretario Cresencio Sandoval. Estamos unidos.</p>
+<p>Y por si faltara algo, ahora viene el apoyo de la sociedad civil, hay que reconocer lo que hicieron los dueños de los hospitales privados. Apenas les hablamos, decidieron participar.</p>
+<p>Recuerdo cómo una tarde, en una reunión de todo el sector salud, llegamos a la conclusión que iba a ser difícil atender la demanda de contagios de personas afectadas si no destinábamos hospitales completos para la atención del COVID-19. Pero ¿qué íbamos a hacer con los otros pacientes, los derechohabientes del Seguro, del Issste o la población que no tiene seguridad social, pero que necesita ser atendida por otros padecimientos?</p>
+<p>Entonces, fue que se pensó en el convenio con los hospitales privados y de inmediato tres mil 115 camas para atender a población del Seguro Social, del Issste y a población abierta, y esto nos permitió utilizar espacios completos de estas instituciones sólo para COVID.</p>
+<p>Luego se acerca la Fundación para la Salud a ofrecer apoyo exclusivo o destinado básicamente a equipos de protección para médicos y enfermeras, y ya están cumpliendo; y ahora, la Fundación Teletón. Entonces, estamos trabajando en unidad, esto es muy importante y se va avanzando.</p>
+<p>Por eso agradecerle a Fernando Landeros, presidente del patronato, a todos los miembros del consejo de Teletón por su apoyo.</p>
+<p>Y, como Fernando lo mencionaba, el Teletón se ha ido creando, se ha ido constituyendo con la participación solidaria de millones de mexicanos que han participado a lo largo del tiempo y que incluso han aportado recursos. Ahora es el mismo pueblo ayudando al pueblo, esa es una muestra más de solidaridad.</p>
+<p>Nos da mucho gusto por eso este día, estar este Día de la Enfermera celebrando este convenio.</p>
+<p>Y vamos a continuar con nuestra conferencia. Si les parece, cerramos y abrimos en lo general ¿o nos quedamos con el tema? El tema, vamos con el tema.</p>
+<p><strong>PREGUNTA:</strong> Muy buenos días. Juan Hernández, del periodo <em>Basta,</em> del<em> Grupo Cantón</em>.</p>
+<p>Esta es una pregunta dirigida a Fernando Landeros o como se le conoce en los CRIT, como ‘Choby’ Landeros.</p>
+<p>¿Qué les motivó a ustedes precisamente aportar este esfuerzo de los CRIT?</p>
+<p>Sobre todo también me gustaría saber cómo han capacitado al personal, cómo han ustedes de alguna manera tomar las riendas en una situación tan compleja como es el coronavirus.</p>
+<p>Y también de alguna manera si nos puede comentar, en el caso del HITO, el Hospital Oncológico, ¿cómo han afrontado esta situación precisamente para que los niños no dejen de recibir sus tratamientos y también del Centro de Autismo Teletón, el CAT?</p>
+<p>Aquí, bueno, hay casos de autismo leve a severo, ahí ¿cómo están dándole el tratamiento?</p>
+<p>Y, finalmente, hablando de infraestructura, ¿cuántas camas están ustedes aportando precisamente a esto de la atención del COVID? Gracias.</p>
+<p>Y una segunda pregunta, pero al subsecretario Gatell, pero terminando el tema. Gracias.</p>
+<p><strong>FERNANDO LANDEROS VERDUGO:</strong> Muchas gracias por la pregunta.</p>
+<p>Bueno, en primer lugar, fue una decisión de todo el patronato, y fue una decisión que tenía dos sabores: un sabor triste, porque nos duele cerrar los centros porque ahí son más de 30 mil niños, 30 mil vidas las que se atienden todos los días, ahí creo que como el dolor que compartimos todos los mexicanos, era lo adecuado, era lo que teníamos que hacer.</p>
+<p>Pero, por otro lado, en cada muro, en cada ladrillo de cada centro hay mucho amor depositado de mexicanos, y esos centros, esas paredes, no se podían quedar vacías cuando en este país hoy hay tanto sufrimiento y tanto dolor.</p>
+<p>No podíamos cómodamente sentarnos, cerrar las puertas de los centros y esperar a que regresara la normalidad para regresar a nuestra labor ordinaria. Fue por eso que, agradecidos con todo lo que este país ha dado, cada mexicano que hemos donado hemos puesto de pie esta infraestructura, estas instalaciones.</p>
+<p>Si hoy no podíamos atender a los niños, para lo cual hemos hecho las donaciones, había que tratar de sumar y de complementar las labores del gobierno federal, del presidente de la República, de los gobernadores estatales y por supuesto no dejarlos solos y poner ese granito de arena en cuanto a la infraestructura que entre todos donamos. Recibimos mucho, lo estamos dando de regreso.</p>
+<p>Son 140 mil metros cuadrados los que estamos ofreciendo en todo el país en 21 estados de la república, el número de camas se va a ir definiendo, se va a ir construyendo a lo largo de estos días, prácticamente cada hora estamos teniendo avance con las diferentes autoridades, hoy hay 158 que ya están instaladas en el CRIT del Estado de México, como comentaba hace un momento.</p>
+<p>¿Cómo hemos trabajado en la capacitación?</p>
+<p>Hay una parte operativa que la va a realizar el equipo de la Fundación Teletón, pero hay una parte sanitaria que vamos a trabajar en conjunto con las autoridades que, en este caso, son los gobiernos de los estados, el IMSS o el Issste; entonces, ahí hay un trabajo de equipo.</p>
+<p>Y con respecto al HITO, al hospital de cáncer, es la única institución que no pudimos poner al servicio de todo el país por la sencilla y evidente razón de que ahí tenemos 297 niños con cáncer, con un sistema inmunodeprimido, un virus adentro de un hospital de cáncer infantil sería terrible.</p>
+<p>Continuamos con la operación, reforzamos todas las medidas de seguridad para que la promesa de salvarle la vida de esos niños sea una promesa cumplida.</p>
+<p>Ese hospital sigue funcionando, está ahí en Querétaro, y creo que es un orgullo de todos los mexicanos.</p>
+<p>El CAT, el Centro para Niños con Autismo, está disponible también. Es una infraestructura que está disponible para el gobierno federal, para los gobiernos estatales; y mientras se toma la decisión de si utilizarlo o no, ustedes lo saben, hemos trabajado con la Secretaría de Salud en la elaboración de materiales que permiten al personal sanitario saber cómo cuidar, cómo atender a las personas con discapacidad, a las personas con autismo.</p>
+<p>Las personas con autismo en un encierro representan muchos restos, las personas con autismo requieren de ciertos permisos especiales y de salidas porque su condición les genera una terrible angustia personal y familiar.</p>
+<p>Cuidar en el caso de los niños con parálisis cerebral, por ejemplo, las secreciones salivales en esto que estamos cuidando todo de contagio, es parte de esa guía que con muchas otras organizaciones de la sociedad civil hemos trabajado directamente con el doctor Ricardo Cortés, de la Dirección de Promoción de la Secretaría de Salud. Gracias.</p>
+<p><strong>INTERLOCUTOR:</strong> Buenos días. Perdón, antes que nada, agradecerles. Usted ha dicho que los túneles de sanitizantes es un desperdicio del dinero público y que se arriesga la salud de los mexicanos porque no es confiable; sin embargo, en Tabasco Evaristo Hernández, alcalde del centro de Villahermosa, acaba de instalar cuatro túneles sin informar el costo.</p>
+<p>¿Qué procede ahí en este caso?</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Muchas gracias. Le contextualizo lo que dije y lo digo consistentemente, no sólo sobre túneles, sino sobre muchas otras cosas.</p>
+<p>Existe una importante diferencia entre dos conceptos que explicaré de manera sencilla, eficacia y efectividad. Eficacia es la capacidad de un instrumento, un programa, una intervención, un medicamento, una vacuna, cualquier producto para causar un beneficio esperado en condiciones ideales, posiblemente experimentales; efectividad es lo mismo, pero en condiciones reales. Y suele existir una brecha, una separación importante entre eficacia y efectividad. Para decirlo de manera simple, todo depende de cómo se usan las cosas.</p>
+<p>Los túneles sanitizantes han sido diseñados para operar en condiciones peculiares, en condiciones controladas; por ejemplo, cuando se utiliza un equipo de protección personal que protege por un lado respecto al daño tóxico que puede causar los aerosoles de la sustancia sanitizante y además se contemplan los tiempos en los que la persona debe estar dentro del túnel sanitizante y además se utiliza en particular, protectores oculares y protectores de la vía respiratoria para evitar que los aerosoles que producen el propio túnel sanitizante pudieran causar un daño; es decir, si las cosas no se usan de acuerdo al manual de operación, pueden tener un efecto de menor capacidad o incluso un efecto indeseable.</p>
+<p>Entonces, eso es lo que he dicho respecto a túneles sanitizantes y en general lo digo respecto a cualquier intervención. Vale la pena que cuando se considera una intervención potencialmente útil exista una asesoría técnica adecuada para que se use solamente donde es posible que va a ser bien utilizado.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Después dos mujeres, dos compañeras.</p>
+<p><strong>PREGUNTA:</strong> Buenos días. Luis Méndez, de <em>Notimex</em>.</p>
+<p>Le haré los planteamientos sobre el tema, sólo entenderé que entonces el tema que le planteé ayer sobre el decreto presidencial lo abordaremos mañana o en una segunda oportunidad ¿sí? Bueno.</p>
+<p>Sobre el tema, estos recursos, ¿cuáles serán los recursos que se destinarán para esta alianza que establecen con los CRIT?, ¿cuánto se va a destinar?, ¿quién será el personal destinado para que se atienda a la población en estos espacios?, si va a ser personal de los nuevos contratos y cuántos serían los que entrarían en funciones.</p>
+<p>Una segunda pregunta que me gustaría hacerle sobre este tema del COVID, presidente. Ya se empieza a hablar del regreso, pero una vez que nos presentó el doctor Alcocer este avance de camas, de ventiladores, de mayor equipo que se ha adquirido, ¿México tendrá la capacidad hospitalaria una vez que se retomen las actividades y en caso de que haya un rebrote de esta pandemia? Esa sería como el panorama.</p>
+<p>Y preguntarle al secretario de Marina, presidente, si usted me lo permite, ¿cómo van los refugios que se habilitaron para atender a los pacientes de COVID?</p>
+<p>¿Y en el caso de la Ciudad de México qué se está haciendo para los trabajadores del Metro?</p>
+<p>Gracias, presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> En cuanto al financiamiento, yo quiero recordarles que cuando se aprobó la creación del Insabi y se decidió garantizar el derecho a la salud, atención médica y medicamentos gratuitos para todos los mexicanos se incrementó el presupuesto del sector salud en 40 mil millones de pesos, antes del COVID.</p>
+<p>Entonces, se presenta la pandemia y teníamos, y seguimos teniendo recursos suficientes, hay fondos para equipar hospitales, para la contratación de médicos, para la compra de equipos.</p>
+<p>En el caso de estos centros de rehabilitación, lo que se necesite de camas, de equipos, los médicos, pues van a estar a cargo de las instituciones que sean responsables, ya sea el Seguro Social, el Issste, el Insabi, los gobiernos estatales.</p>
+<p>Lo importante, entre otras cosas, es que la Fundación Teletón entrega estas instalaciones sin propósitos de lucro, es decir, no cobra, pone a disposición del sector salud y de los gobiernos estatales todas las instalaciones. Eso es lo que yo puedo contestar.</p>
+<p>En el informe del sector salud sobre médicos contratados, el número de camas que tenemos, los equipos, cuántos ventiladores se han adquirido, todo el abasto que ha llegado de equipos para personal médico, de China, de Estados Unidos, toda esa información y lo ejercido, lo que me preguntaba ayer la compañera de Veracruz sobre cómo están llegando, cómo se están distribuyendo los equipos médicos, todo se va a dar a conocer hoy en un anexo, porque se hizo la presentación en la mañana en la reunión de seguridad, pero es muy extenso, por eso hizo un resumen el doctor Alcocer, con el compromiso de presentar todo el anexo: cuántos hospitales se han rehabilitado, cuántos equipos se han adquirido, cuánto se ha ejercido, toda la información se va a poner a disposición de los mexicanos el día de hoy.</p>
+<p>Luego preguntaste…</p>
+<p><strong>INTERLOCUTOR:</strong> Los centros de aislamiento de Semar, ¿cómo están ahí?</p>
+<p><strong>JOSÉ RAFAEL OJEDA DURÁN, SECRETARIO DE MARINA:</strong> Con permiso.</p>
+<p>Gracias por la pregunta. Como ustedes saben, en el Plan Marina se determinaron que aquí en la Ciudad de México existen tres centros de aislamiento: dos que están en el sur muy cerca de nuestra institución y otro aquí en el aeropuerto, en la Terminal 2, y uno más en Acapulco dentro de la región naval. En total aquí en México están capacitados para atender a más o menos mil 200, mil 250 personas y en la ciudad de Acapulco a 100.</p>
+<p>Hasta el día de hoy todos los días se reúnen vía videoconferencia con personal de la Ciudad de México que está bajo el control de la doctora Claudia y ahí el comandante del cuartel general de aquí de la Ciudad de México es el que lleva ese control de los cuatro centros y se determina cómo vamos.</p>
+<p>Hasta el día de fecha no ha habido personas que se acerquen y eso de una u otra manera a nosotros nos indica que no hay todavía la necesidad, porque realmente sí saben que ahí existen y que están a disposición.</p>
+<p>Esos centros de aislamiento van a recibir a personas que tengan algún problema con la enfermedad, pero que no sean críticos. Si se recibe a alguien ahí, o de los que se reciban, si pasa una cuestión crítica tenemos al hospital ahí para atenderlos.</p>
+<p>Es un centro de aislamiento donde se les va a dar a las personas alimentación, lugar donde van a estar viviendo prácticamente la cuarentena, equipo propio, prácticamente ellos llegan con su ropa de civil y nosotros les quitamos esa ropa y les ponemos ropa adecuada para estar ahí. Pero a la fecha no tenemos hasta ahorita ninguno, pero estamos listos para recibirlos.</p>
+<p>Gracias.</p>
+<p><strong>INTERLOCUTOR:</strong> Y la otra es: doctora Sheinbaum, es sobre los trabajadores del Metro dado que se han presentado algunos brotes de los talleres de Zaragoza, por ejemplo, en donde se habla de 19 casos de trabajadores portadores del coronavirus del COVID-19.</p>
+<p>¿Qué está pasando al interior del Metro, doctora respecto al apoyo que se les da a esos trabajadores?, ¿cómo es la forma de trabajo?, ¿y cómo se evita que se den mayores contagios?</p>
+<p>Por favor, doctora.</p>
+<p><strong>CLAUDIA SHEINBAUM PARDO, JEFA DE GOBIERNO DE LA CIUDAD DE MÉXICO:</strong> Presidente, muchas gracias.</p>
+<p>Hemos tenido varios contagios en el gobierno de la ciudad y en particular en el Metro.</p>
+<p>Muchas veces o la gran mayoría de las veces pensamos en los médicos, hombres y mujeres, enfermeras -que aprovecho para dar reconocimiento y agradecimiento, el Día Internacional de la Enfermera, el día de hoy- y no contabilizamos a muchas otras personas que tienen que trabajar todos los días para el beneficio de todos y esos son, por ejemplo, los trabajadores y trabajadoras del Metro.</p>
+<p>Entonces, hay algunos de ellos que han enfermado, es un porcentaje… Normalmente lo damos públicamente, no tengo el dato ahora, pero con gusto se los damos, inclusive algunos trabajadores que han fallecido.</p>
+<p>Y lo que se hace ahí es las medidas de sana distancia, todos los protocolos para cuidarlos y darles todo el apoyo a las familias a los trabajadores que enferman.</p>
+<p>Así que hay que reconocer también toda la labor de los y las trabajadores del Metro que están ahí permanentemente para que nosotros podamos movernos en la ciudad, particularmente a todas las personas que hoy tienen que salir a trabajar en actividades sustantivas.</p>
+<p>El Metro ha reducido el número de personas que viajan en él en cerca de 75 a 80 por ciento, normalmente se mueven alrededor de entre cinco y seis millones de personas y hoy solamente es el 20, 25 por ciento, pero tienen que estar los trabajadores ahí para apoyar. Así que nuestro reconocimiento y todo el apoyo a los trabajadores del Metro.</p>
+<p><strong>INTERLOCUTOR:</strong> ¿(Inaudible) de la plantilla del Metro que está laborando en esta pandemia?</p>
+<p><strong>CLAUDIA SHEINBAUM PARDO:</strong> No tengo en este momento el dato, pero con todo gusto se lo pasamos a Jesús y a los compañeros. Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Les toca a las compañeras. Sí, las dos.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, señor presidente. Verenice Téllez, del periódico <em>UnomásUno</em>.</p>
+<p>Está muy bien la coordinación que se han realizado de la sociedad civil con el Gobierno de México en cuanto al tema de sumarse a estos esfuerzos para combatir el COVID-19.</p>
+<p>Mi pregunta es: en los pronósticos que se tienen, ayer dio un informe de que era el 70 por ciento de ocupación en el caso de la Ciudad de México. Si se pronostica realmente una saturación como para echar mano de toda esta infraestructura que se está coordinando el día de hoy, esa es mi pregunta.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Mire, hemos contado con suerte. Decía hoy, porque la suerte también cuenta en todo esto, es virtud y es fortuna, virtud y suerte, y comentaba de cómo no nos afectó primero y cómo donde afectó primero la pandemia rebasó las capacidades de hospitalización, tanto de hospitalización general como de terapia intensiva, esto en países de Europa, incluso en Estados Unidos o en algunas ciudades como Nueva York; a nosotros nos dio tiempo para prepararnos.</p>
+<p>Pero otro elemento bueno es que no se presenta la pandemia en todo el territorio parejo, sino que está regionalizada, vamos a decir, lo que es el Valle de México, Quintana Roo, en particular Cancún; Tabasco, Sinaloa, es básicamente Culiacán; y Baja California. La primera etapa de afectación.</p>
+<p>Viene una segunda. Todo esto lo vamos midiendo gracias a que son muy buenos, repito, subrayo, reitero, los especialistas, los médicos, los científicos, y también los matemáticos que nos están ayudando en las proyecciones, entonces, esto nos permite ir viendo cómo se va comportando en las distintas regiones la pandemia y así poder actuar.</p>
+<p>Yo les confieso que hace un mes y medio que estaba en Baja California, en Tijuana, recibí un informe en el sentido de que teníamos que tomar decisiones con urgencia porque podíamos ser rebasados, y a partir de ahí se le empezó a llamar a la gente.</p>
+<p>No emitimos un decreto autoritario, no se prohibió la salida de la gente de sus casas, no se decretaron toques de queda, nada; se empezó a hablar con la gente y todos a cuidarnos y por eso estos resultados.</p>
+<p>En el caso del Valle de México se pensó en una primera proyección que se podían necesitar, si mal no recuerdo, 10 mil camas de hospitalización general, 10 mil. Lo cierto es que ya hay una ocupación de cerca de seis mil en la actualidad, pero la proyección son 10 mil, por tu pregunta de por qué nos estamos preparando, porque esa fue la proyección de los especialistas.</p>
+<p>Y en el caso de terapia intensiva lo mismo, se hizo una proyección. Ahí hasta ayer la ocupación es del 75 por ciento de las camas, es decir, tenemos una disponibilidad aquí en el Valle de México del 25 por ciento de las camas para terapia intensiva.</p>
+<p>Estamos de acuerdo a las proyecciones en la meseta, en lo alto de la pandemia en el caso del Estado de México. Si resultan las proyecciones, ya pronto va a comenzar el descenso, pero no podemos confiarnos, ahora sí como se dice coloquialmente: vale más que sobre y no que falte. Por eso nos seguimos preparando.</p>
+<p>El hecho de que se haya regionalizado la pandemia nos permite concentrar recursos tanto personal médico como se está haciendo, están viniendo médicos de otros estados a capacitarse a la Ciudad de México con doble propósito: ayudan, porque aquí se necesita más que en otras regiones del país y se forman para regresar a sus estados.</p>
+<p>Entonces, se está concentrando el apoyo donde más se necesita con el propósito… ya hay hasta proyecciones en ese sentido, de que cuando, por ejemplo, aquí vaya en descenso la pandemia, los equipos médicos, ventiladores, todo lo que se requiera, pueda ir a ayudar a otras regiones del país, a todos los estados del país.</p>
+<p>Entonces, ya estamos más tranquilos, porque sí pasamos momentos difíciles, porque no había la infraestructura hospitalaria básica, necesaria, para enfrentar esta pandemia; ahora ya podemos decir que hay reservas, sin embargo, nos tenemos que seguir preparando.</p>
+<p>Por eso agradecemos a Teletón estos espacios, porque son más camas, en el caso de que se necesiten.</p>
+<p><strong>PREGUNTA:</strong> Buenos días a todos y a todas. Son Nuri Fernández, de <em>La Caracola</em>.</p>
+<p>Primero que nada, agradecerles a todos ustedes por su responsabilidad y compromiso.</p>
+<p>Yo quiero hacer referencia. Hace unos pocos días Sebastián Salgado, que es un gran fotógrafo brasileño, hizo un llamado internacional sobre la situación de las tribus del Amazonas. En el Amazonas, además de que hay una reserva muy importante de agua y de oxígeno, hay una reserva cultural importantísima porque hay tribus dispersas en la región en una cantidad muy importante y el COVID ya llegó y están siendo diezmados realmente, está empezando a ver muchas muertes. Eso creo que nos hace pensar.</p>
+<p>Ya una vez platicamos de eso aquí, del momento de concentración de la pandemia que afecta a los grandes centros urbanos, aquí, como está pasando con la ciudad, y el momento de dispersión de la pandemia en que empieza a afectar a las comunidades aisladas.</p>
+<p>Este momento, segundo momento, es muy peligroso porque en las comunidades no hay servicios hospitalarios y vemos que el COVID avanza muy rápido en días y a veces en horas en el cuerpo. Entonces, yo sé que se está haciendo un esfuerzo por parte del INPI y de Adelfo Regino, que se está haciendo esta campaña de quédate en tu comunidad y se están haciendo audios y material de difusión para informar a las comunidades.</p>
+<p>Pero la pregunta específica es: ¿cuál es la situación en este momento en las comunidades indígenas y los pueblos originarios?, ¿hasta qué punto está llegando ya la pandemia? Se habla de casos entre los rarámuris, pero no tenemos una información cierta. Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, también eso es un elemento bueno. Miren, hablaba yo o escribí hace unos días acerca de cómo la pandemia no ha afectado tanto a África, ustedes ven cómo está la pandemia en el mundo, ya lleva tiempo que África tiene pocos casos, y eso es una bendición porque es un continente pobre, sin infraestructura de salud.</p>
+<p>Si esta pandemia rebasó las instalaciones hospitalarias de países desarrollados, de potencias, en China tuvieron que hacer hospitales con urgencia, en Europa ya hablamos de la saturación, en Estados Unidos, imagínense África. Bueno, afortunadamente no ha pegado fuerte hasta ahora.</p>
+<p>Lo mismo aquí en nuestro país. Hay de los dos mil 500 municipios, hay alrededor de mil con casos, como mil o mil 100 aproximadamente que no tienen casos, pero son vecinos de los que sí tienen ya casos y hay como 400 completamente limpios, 300, 400 limpios que ni los vecinos tienen casos.</p>
+<p>Y esto coincide con las comunidades indígenas. De esos 300, 400, la mayoría son municipios de Oaxaca, les puedo decir que toda la Sierra Norte, la Sierra Juárez está prácticamente limpia de contagios, muy pocos municipios de Oaxaca, y así en otras regiones.</p>
+<p>Mañana… Qué bien que me hacen esta pregunta de cómo estamos viendo, porque la pandemia, en efecto, es ofensiva, pero nosotros también estamos muy pendientes, estamos de guardia para actuar pronto.</p>
+<p>Mañana vamos a dar a conocer ya el plan del regreso a la nueva normalidad, mañana, y se va a exponer esto que estoy mencionando de cuántos municipios están sin contagio, cuáles son los que están más afectados y a partir de eso se va a hacer una propuesta para el regreso, subrayo, a la nueva normalidad, nueva normalidad, no es el regreso a la normalidad, es el regreso a la nueva normalidad porque ya hubo cambios, cambió la realidad, es otra y tenemos que iniciar una etapa nueva con otros procedimientos, con otros métodos, con otras actitudes, con otros comportamientos, pero ya vamos a regresar a la nueva normalidad. Eso es lo que puedo comentar. Y estamos muy pendientes, muy atentos.</p>
+<p>Si les parece, ya lo dejamos hasta ahí para poder procesar toda la información, porque fue bastante, y además se va a subir a la red toda la información. Y nos vamos a seguir encontrando, hoy Hugo vuelve de 7: a 8:00 y mañana estamos aquí temprano.</p>
+<p>Mañana nos vemos. Quedan pendientes tú y tú también, tres, cuatro, a ver Jesús. Nos vemos, muchas gracias. Y un aplauso a Teletón.</p>
+<p>---</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

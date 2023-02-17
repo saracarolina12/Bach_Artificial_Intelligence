@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>30.09.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/30-09-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=134921' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F30-09-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F30-09-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66jn5-f-84a2d3b54-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":22,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"2a7f5385","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55979,"ak.gh":"23.47.207.69","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676617149","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==f3G3HTww+dYus1XS6GBB6ZHL+SjgaMvIk6t5BCPRD5chpgHUyu88hOsXSxPn6GMGwolGqWPvuc+RLO+HFH1dtC82mM6fCHl0CrhuOPW88/mKe9LZM/900Crz6AMBO+nE2ZrvSjJGzDahUyEv/dkMSOKlwKNT2PqNvapfjfv/SALdGVYpjeSTwRZhHz6bdZ7OuismpYTQXn8D24Lg/gAGs+XWqBaLT9yWK+gq2tmq53cRKu7TB3V+eIMO2R2KSFMg5vSZK9rM2gH4OfAa5+TK0lzKh53GqwAz19jDaRxcXGZU93bQ3rzSYaLsrW+H60dlN90dxy0Wr6UBahJjB0b607uRzXjhiAbdKJZUZxlJSwG5hmJEzKBzRYH/X7sREz7bH5mVHsbxRH1S5oDAS9aD+SpCmcpmDN33T31aKrqk7oQ=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-134921 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef232e859dc" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>30.09.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 30.09.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-134921" class="post-134921 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2020/09/30-09-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-11.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/09/30-09-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-11-745x450.jpg" alt="30.09.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">30.09.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><em>2020, Año de Leona Vicario, Benemérita Madre de la Patria</em></p>
+<p>&nbsp;</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Buenos días.</p>
+<p>El día de hoy vamos a dar a conocer un plan para conmemorar el año próximo la fundación de la Ciudad de México, los 500 años de la invasión de Europa, la toma de México Tenochtitlán y los 200 años de nuestra Independencia nacional. Entonces, el año próximo es el Año de la Independencia y la Grandeza de México.</p>
+<p>Hay un programa, se tiene un programa con ese propósito. Participa todo el gobierno en estas celebraciones, conmemoraciones y nos acompañan los miembros del Gabinete y también la jefa de Gobierno de la Ciudad de México. Se va a hacer una exposición de este plan para la celebración, el año próximo, de estas fechas históricas fundamentales en la historia de nuestro país.</p>
+<p><audio src="http://presidente.gob.mx/wp-content/uploads/2020/09/2020-09-30-Matutina.mp3" controls="controls"></audio></p>
+<div id="fb-root"></div>
+<p><script async="1" defer="1" crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&amp;version=v8.0" nonce="knG3NlAY"></script></p>
+<div class="fb-video" data-href="https://www.facebook.com/lopezobrador.org.mx/videos/433470744718387" data-width="500">
+<blockquote cite="https://www.facebook.com/lopezobrador.org.mx/videos/433470744718387/" class="fb-xfbml-parse-ignore"><p><a href="https://www.facebook.com/lopezobrador.org.mx/videos/433470744718387/">Mientras el pueblo nos apoye, la transformación va hacia adelante.  Conferencia de prensa matutina.</a></p>
+<p>Mientras el pueblo nos apoye, la transformación va hacia adelante.Conferencia de prensa matutina.</p>
+<p>Publicado por <a href="https://www.facebook.com/lopezobrador.org.mx/">Andrés Manuel López Obrador</a> en Miércoles, 30 de septiembre de 2020</p></blockquote>
+</div>
+<p>Vamos a comenzar con el secretario de Relaciones Exteriores, él va a explicar primero, Marcelo Ebrard; luego, el maestro Zoé Robledo y, posteriormente, también Claudia; el director del Instituto Nacional de Antropología e Historia, Diego Prieto. Ellos van a exponerles en qué consiste este plan para el año próximo. Entonces, empezamos con el secretario de Relaciones, Marcelo Ebrard.</p>
+<p><strong>MARCELO EBRARD CASAUBON, SECRETARIO DE RELACIONES EXTERIORES: </strong>Con su permiso, señor presidente; jefa de Gobierno Claudia Sheinbaum, colegas secretarias, secretarios, directores del Instituto Nacional de Antropología e Historia y del Instituto Mexicano del Seguro Social, señoras y señores, muy buenos días.</p>
+<p>Como ha dicho el señor presidente de la República, nos estamos organizando con toda anticipación para las importantes conmemoraciones que tendrán lugar en 2021.</p>
+<p>2021 será un año dedicado a la Independencia y grandeza de México y, por consiguiente, participamos muy diversas secretarías y, desde luego, participarán todas las entidades federativas.</p>
+<p>Está centrado el próximo año en tres hitos históricos: 700 años de la fundación de México Tenochtitlán, 500 años de la memoria histórica de Tenochtitlán y 200 años de la consumación de la Independencia de México.</p>
+<p>Celebramos, conmemoramos, porque también, como lo ha señalado el presidente, los pueblos que no saben de dónde vienen, pues no saben a dónde van y también vemos hacia adelante a partir de la grandeza de México, de la civilización mexicana para diseñar el futuro del país.</p>
+<p>Las actividades, ¿cómo se van a coordinar por parte de las diferentes instancias?</p>
+<p>En septiembre de 2019 se creó la Comisión Presidencial para la Conmemoración de Hechos, Procesos y Personajes Históricos de México. El titular de esta comisión es el propio presidente de la República y quien tiene las funciones de coordinación y gestión es Zoé Robledo, actual director del Instituto Mexicano del Seguro Social, quien en unos momentos hará uso de la palabra.</p>
+<p>Se establecieron también, por disposición del señor presidente, cinco comités para coordinar las acciones de diferentes dependencias federales.</p>
+<p>Primero está el comité que va a ser responsable de los desfiles y actos militares, en donde está el secretario de la Defensa Nacional, Luis Cresencio Sandoval González, aquí presente, y el almirante Ojeda, titular de la Secretaría de Marina, aquí también presente.</p>
+<p>El Comité de Cultura e Historia, evidentemente con la secretaria de Cultura, Alejandra Frausto; y el señor director del Instituto Nacional de Antropología e Historia, aquí presente también y que hará uso de la palabra en unos momentos.</p>
+<p>Se organizó un Comité de Reconocimientos, Monedas, Emisiones Especiales a cargo de la secretaria de Economía, la doctora Graciela Márquez, que también nos acompaña.</p>
+<p>Desde luego, habrá un gran esfuerzo de educación y civismo, ese es uno de los objetivos principales de todo lo que se va a realizar a cargo del señor secretario de Educación Pública, el licenciado Esteban Moctezuma Barragán, que nos hace favor de acompañarnos también el día de hoy.</p>
+<p>Y el de la voz, la Secretaría de Relaciones Exteriores a cargo de la dimensión internacional porque, como es evidente, se trata de una conmemoración única, tenemos el privilegio de poder vivir esto y de invitar a todo el mundo a que nos acompañe, proyectar la imagen de México en todo el mundo.</p>
+<p>Invitar a todos los pueblos y naciones amigas de México -que son todas, México es un país que no tiene enemigos- y a todas las civilizaciones que respetamos y con las que queremos convivir en igualdad y en aprecio por las culturas de todo el mundo.</p>
+<p>Para ese propósito, la dimensión en el mundo, contaremos con la presencia de delegaciones internacionales e invitados especiales, especialmente entre el 15 y el 27 de septiembre de 2021: 15 de septiembre, conmemoración del inicio de la lucha por la Independencia, Grito de Dolores; 27 de septiembre, la consumación de la Independencia con la entrada del Ejército Trigarante a la Ciudad de México.</p>
+<p>Contingentes de todo el mundo participarán el desfile cívico militar del 16 de septiembre, así como en el del 27 que, como ya dije, conmemora la consumación de la Independencia.</p>
+<p>Habrá actividades culturales en cada una de las 32 entidades federativas, se han incluido a más de 65 ciudades de la República mexicana para participar en combinación con nuestros invitados internacionales.</p>
+<p>A partir de hoy se convocará a todos y cada uno de los 193 miembros de las Naciones Unidas, así como de todos los organismos que son socios o compañeros de México en el ámbito internacional, y que son 252 organismos.</p>
+<p>Sin temor a equivocarme, les podría decir que será el evento más relevante de presencia de México en el mundo, en lo que va de este ciclo.</p>
+<p>En todos los eventos tendremos entonces la participación -y aquí concluyo- de las entidades federativas, de las ciudades de México, de todas las dependencias federales. Es un esfuerzo de unidad y de proyección de la grandeza mexicana y, por supuesto, de toda nuestra sociedad.</p>
+<p>Acto seguido, hará uso de la palabra el doctor Zoé Robledo. Por favor.</p>
+<p>Es cuanto, señor presidente.</p>
+<p><strong>ZOÉ ROBLEDO ABURTO, DIRECTOR GENERAL DEL INSTITUTO MEXICANO DEL SEGURO SOCIAL (IMSS):</strong> Con su permiso, presidente. Muy buenos días a todas y a todos. Señor presidente, secretarios, secretarias, jefa de Gobierno.</p>
+<p>En mi carácter de representante del presidente de la República en esta Comisión Presidencial para la Conmemoración de Hechos, Procesos y Personajes Históricos de México, como lo ha comentado el canciller, integrada por nueve secretarías de Estado y cinco comités, me permito informarle sobre los 12 eventos emblemáticos, los más importantes, que van a tomar lugar el próximo año en el 2021, Año de la Independencia y de la Grandeza de México.</p>
+<p>El primero va a ser en el municipio de Cuilápam de Guerrero, en el estado de Oaxaca. Iniciaremos el 14 de febrero con un homenaje a Vicente Guerrero, el héroe que generó la resistencia más significativa ante el Ejército Realista y el primer presidente afromexicano, quien nos enseñó que la patria es primero. Pues ahí vamos a iniciar las conmemoraciones a los 190 años de su fusilamiento.</p>
+<p>El segundo evento será el 24 de febrero, en Iguala de la Independencia, en Guerrero, a 200 años de la promulgación del Plan de Iguala. Ahí habrá una exposición de las banderas originales del movimiento de la Independencia que se encuentran actualmente en el Museo del Castillo de Chapultepec y también ahí iniciará la ruta de las banderas por 15 estados de la República y 17 ciudades a partir de donde se fueron adhiriendo diferentes estados y ciudades al Plan de Iguala y a la Independencia de México. Este recorrido histórico de las banderas terminará aquí, en la Ciudad de México, el 27 de septiembre.</p>
+<p>El tercer evento es el 25 de marzo, se celebrará el Día de la Resistencia de los Pueblos Originarios en Champotón en Campeche, el lugar donde, de acuerdo a las narraciones de Bernal Díaz del Castillo, en marzo de 1517 se llevó a cabo y ocurrió la primera victoria de un pueblo originario en tierra americana. Es una forma de resignificar también el proceso de conquista.</p>
+<p>El día 3 de mayo se celebrará, será la Ceremonia de la Cruz Parlante y el fin de la Guerra de Castas, esto en el municipio de Felipe Carrillo Puerto, en Quintana Roo. Ahí también se resignificará este proceso histórico con una Ceremonia del Perdón a los pueblos mayas y otras culturas originarias.</p>
+<p>El 12 de mayo será la conmemoración de la fundación de México Tenochtitlán. Se propone en esta recuperación de la historia también la recuperación del lago de Texcoco, es uno de los pocos legados fundacionales que aún continúa con nosotros. Creemos que, si queremos recuperar la historia, el pasado, hay que recuperar también el lago. Desde luego, en este punto la Ciudad de México, el gobierno de la ciudad, tiene también un importante programa de actividades que en un momento más comentará la doctora Claudia Sheinbaum.</p>
+<p>El 13 de agosto, los 500 años de la memoria histórica de Tenochtitlán. Es la fecha central de la resistencia mexica, también conocida como la caída de Tenochtitlán, pero hay que resignificarla, recordar este hecho histórico realizando diferentes eventos culturales, exposiciones, foros, conferencias y también la apertura de las ventanas históricas arqueológicas.</p>
+<p>El 24 de agosto se conmemorarán los 200 años de la firma de los tratados de Córdoba en Córdoba, Veracruz, con un evento conmemorativo de los 200 años de este importantísimo documento para nuestra Independencia.</p>
+<p>El 15 de septiembre, el Grito de Independencia aquí en la Ciudad de México, como ya lo ha mencionado el canciller, con la participación de delegaciones de los países invitados que acudirán previamente y a partir también de esa fecha a diferentes ciudades de la República donde también ocurrirán eventos con estas naciones en cada una de las ciudades y de los estados.</p>
+<p>Y el 16 de septiembre el desfile cívico-militar con la participación de representaciones de fuerzas armadas de diferentes países.</p>
+<p>El 27 de septiembre, pues el día quizá más importante, los 200 años de la consumación de la Independencia, se realizará aquí en la Ciudad de México una recreación de la entrada triunfal del Ejército Trigarante al Zócalo, saliendo desde el Castillo de Chapultepec y entrando por la calle de Madero, antes Plateros, para terminar el recorrido en la plancha del Zócalo con una verbena popular.</p>
+<p>El onceavo evento es el 28 de septiembre y es justamente para conmemorar la promulgación del Acta de Independencia y recordar también la lucha emprendida por los pueblos originarios, que será una Ceremonia del Perdón a las minorías culturales. Esto será en algunos de los ocho pueblos yaquis de Sonora.</p>
+<p>Y, finalmente, dentro de un año exactamente, el 30 de septiembre, concluiremos con una ceremonia para recordar a Morelos en Morelia, Michoacán, en el día de su nacimiento, en la ciudad que antes se conoció como Valladolid, ahora Morelia.</p>
+<p>Son los 12 eventos emblemáticos de este año tan importante, en donde estamos buscando revalorizar, recuperar los verdaderos motivos de hacer una celebración, la reafirmación de nuestra identidad nacional para poder voltear al futuro con ojos renovados de ciudadanas y de ciudadanos libres.</p>
+<p>Es cuanto por mi parte, señor presidente. Gracias.</p>
+<p><strong>DIEGO PRIETO HERNÁNDEZ, DIRECTOR GENERAL DEL INSTITUTO NACIONAL DE ANTROPOLOGÍA E HISTORIA (INAH):</strong> Muy buenos días tengan todas y todos ustedes.</p>
+<p>Muchas gracias, señor presidente.</p>
+<p>Para el Instituto Nacional de Antropología e Historia, que forma parte de la Secretaría de Cultura del Gobierno de México, es una enorme deferencia el que se nos hayan encomendado tareas importantes de orden académico, educativo, de difusión y de cuidado del patrimonio cultural en el contexto de estas fundamentales conmemoraciones de la patria.</p>
+<p>Por supuesto, me da gusto compartir este acto con la jefa de Gobierno de la Ciudad de México, Claudia Sheinbaum; con mi querida Alejandra Frausto, secretaria de Cultura; y con las demás secretarias, secretarios y director general del Instituto Mexicano del Seguro Social.</p>
+<p>Quisiéramos presentarle, presidente, un video que enmarca el sentido de estas conmemoraciones.</p>
+<p><strong>(INICIA VIDEO)</strong></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> México recuerda, México celebra, México vive.</em></p>
+<p><em>El 27 de septiembre de 2021 los mexicanos vamos a celebrar 200 años de vida independiente. México decidió sacudirse el yugo colonial en una gesta armada que inició en 1810, al germinar los anhelos de independencia, justicia y libertad en el extenso suelo fértil y próspero del desigual y opresivo virreinato de la Nueva España, dando lugar a la nación pluricultural que en estos dos siglos ha emprendido una marcha firme y difícil hacia la construcción de una sociedad sustentada en principios de justicia, paz, bienestar y democracia para todas y todos, y que ahora transita a la Cuarta Transformación de su vida nacional.</em></p>
+<p><em>Trescientos años atrás, en 1521, tuvo lugar el colapso que sacudía la vida de los pueblos y naciones que habitaban el actual territorio mexicano con la caída de México Tenochtitlán a manos de los conquistadores venidos de ultramar y de sus miles de aliados indígenas enemistados con la Triple Alianza y su dominio tributario.</em></p>
+<p><em>Los mexicas habían poblado un islote en medio del lago de Texcoco hace 700 años guiados por su dios, Huitzilopochtli.</em></p>
+<p><em>Con determinación y admirable esfuerzo, construyeron lo inimaginable: dos ciudades en medio de las aguas, Tenochtitlán y Tlatelolco, portentos de arquitectura y urbanismo, y en poco tiempo desarrollaron una fuerza militar que dominó gran parte del actual territorio mexicano. No imaginaban que su esplendor se vería abruptamente interrumpido.</em></p>
+<p><em>Fue el 13 de agosto Cé Ácatl del año Yei Calli cuando la cuenta de los tiempos que anunciaba la llegada del Quinto Sol se cortó de tajo. Nada sería igual, se enterraron los dioses de piedra, se derrumbaron los templos, se multiplicaron las epidemias, la gente se refugió en sus casas, en sus pueblos y en sus cerros para resistir y reconstruir sus mantas y sus enseres, sus danzas, sus sueños, sus palabras y sus creencias entremezcladas con las que venían de lejos.</em></p>
+<p><em>Nacía el tiempo de la dominación española, un largo periodo de tres siglos en que se formaría el rostro multicultural y pluriétnico, único y universal de México, país que surge de la determinación de innumerables mujeres y hombres que decidieron que el mundo colonial, de discriminación, desigualdad y esclavitud debía desaparecer, enarbolando palabras nuevas como libertad, igualdad, e independencia. </em></p>
+<p><em>El primer clamor de aquellos anhelos se escuchó el 16 de septiembre de 1810. Iniciaba la primera transformación de la historia nacional, proclamando la devolución de tierras a los pueblos, la abolición de la esclavitud, la moderación de la indigencia y la opulencia, la creación de un país de leyes y libertades.</em></p>
+<p><em>Diez años pelearon por esos principios, batallaron, mantuvieron viva la llama libertaria, hasta que llegó el momento de los acuerdos y el diálogo.</em></p>
+<p><em>El 24 de febrero de 1821 los contendientes firmaron el Plan de Iguala e iniciaron una marcha de siete meses con el Ejército Trigarante enarbolando la bandera tricolor que el 27 de septiembre entró triunfante a la Ciudad de México. Nacía México como país independiente y soberano.</em></p>
+<p><em>A 200 años de ese acontecimiento, debemos festejar, recordar, reconciliarnos y encontrarnos en la historia de este gran país que avanza con firmeza hacia un futuro de bienestar y de justicia, de democracia y paz, y que mantiene viva la esperanza en el porvenir.</em></p>
+<p><strong><em>VOZ DE MUJER:</em></strong><em> Gobierno de México.</em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>DIEGO PRIETO HERNÁNDEZ:</strong> Con este sencillo video queremos enmarcar la importancia, el tamaño de las celebraciones que vamos a conmemorar el año próximo, conmemoraciones, algunas festivas, algunas catastróficas.</p>
+<p>Y sólo quisiera referirme en particular a seis puntos que creo que encuadran el sentido de estas conmemoraciones.</p>
+<p>El primero, recuperar nuestra memoria histórica, puesto que un pueblo que no tiene memoria difícilmente sabe dónde se encuentra y hacia dónde se dirige.</p>
+<p>En segundo lugar, encontrarnos en nuestra diversidad étnica, lingüística, geográfica y cultural en su sentido más amplio. Somos un país diverso y tenemos que reconocer en ello, no un motivo de discriminación o de agresión, sino un motivo de enriquecimiento y de fortalecimiento de este gran país.</p>
+<p>En tercer lugar, comprender los momentos difíciles, a veces catastróficos, que nos han ido conformando.</p>
+<p>Hace 500 años ocurrió un hecho verdaderamente complejo para la vida de los pueblos y culturas que habitaban Mesoamérica; no solo los mexicas, había diversos pueblos, algunos confrontados entre sí y por supuesto que el territorio atravesó por un difícil momento acompañado, por cierto, de epidemias terribles que diezmaron a la población del continente americano.</p>
+<p>En cuarto lugar, refrendar los valores, anhelos y principios que han motivado la lucha de los pueblos y también la lucha de las mexicanas y los mexicanos que nos dan sentido.</p>
+<p>Hoy es el día del natalicio del generalísimo José María Morelos y Pavón, Siervo de la Nación y, de alguna manera, quien trazó el gran programa para la construcción de este país republicano.</p>
+<p>Tenemos que afirmar los valores de libertad, justicia, paz, democracia, hermandad en su sentido amplio que implica sororidad, fraternidad y solidaridad, y pluralismo por supuesto.</p>
+<p>Y, finalmente, la capacidad que debemos tener de mirar hacia un porvenir de esperanza y unidad. Por supuesto, México ha salido siempre con fuerza y determinación de las situaciones más adversas y, en esta transformación que estamos viviendo, seguramente encontraremos un destino mejor.</p>
+<p>Gracias, presidente.</p>
+<p><strong>CLAUDIA SHEINBAUM PARDO, JEFA DE GOBIERNO DE LA CIUDAD DE MÉXICO:</strong> Con su permiso, presidente. Muy buenos días a todo el gabinete, buenos días a todos y a todas.</p>
+<p>La Ciudad de México se une en el 2021, este gran Año de la Grandeza, de la Independencia de México con sus propias conmemoraciones. Voy a leer un texto y después quisiéramos pasar un video.</p>
+<p>‘La gran Ciudad de México, diversa, pluricultural, capital de todas y todos los mexicanos tiene grandes conmemoraciones en el 2021: 700 años de la fundación lunar de Tenochtitlán, 500 años de la resistencia para terminar con su conquista y 200 años de la entrada del Ejército Trigarante para consumar la Independencia de México, para un país independiente y soberano.</p>
+<p>‘La grandeza de México y la belleza y la grandeza de su capital, rescate de la memoria histórica, del conocer de dónde venimos para orgullosamente tener claro hacia dónde vamos.</p>
+<p>‘Más de siete siglos de grandeza se yerguen sobre esa antigua cuenca hídrica, llamada por los antiguos náhuatl el <em>cemanáhuatl</em>, ese anillo de agua que envolvía en sus aguas turquesas aquellas culturas milenarias, como Cuicuilco o Copilco, antecedentes de la flor más bella de esa chinampa a los que los mexicas llamaron la Huey México Tenochtitlán.</p>
+<p>‘México Tenochtitlán, binomio mítico que remite al ombligo de la luna, dualidad femenina; y a la tierra de Tenoch, numen viril vinculado con el sol, fundadas con cuatro años de diferencia a fin de cumplimentar las leyes cósmicas que regían el universo náhuatl.</p>
+<p>‘México es centro de la luna, un espacio que vincula en esta tierra <em>mixiuhca</em>, el lugar del parto de la señora Quetzalmoyohuatzin, que dio a luz a Contzallan en 1321, siendo este el primer culhua mexica de una generación libre del yugo de los culhuas dominadores de los mexicas.</p>
+<p>‘Este acontecimiento dinástico da origen a Temazcaltitlán, lugar de temazcales, ubicado a escasos metros de ese recinto, precisamente, en la Plaza Talavera, en donde un vestigio de esos baños de sanación da cuenta de la importancia de esa raza cósmica que anhela encontrarse con su contraparte masculina.</p>
+<p>‘La anhelada fundación solar ocurrirá en 1325, en el espacio que hoy conocemos como Plaza de la Aguilita, espacio sagrado que los antiguos veneraron como el sitio en donde el águila dio la buscada señal de que ahí era el lugar de la fundación solar.</p>
+<p>‘Ahí terminó el peregrinar del pueblo del sol, ahí comenzó una nueva era cósmica que permitió generar un impresionante <em>altépetl</em>, un cerro sobre el agua que, como afirman los cronistas castellanos, nadie había contemplado tal portento de ciudad.</p>
+<p>‘México Tenochtitlán, la seductora ciudad impensada por los españoles, conquistada un 13 de agosto de 1521 tras un asedio que mostró el temple y la fortaleza de las mujeres y los hombres, de niños y ancianos que defendieron su ciudad hasta la captura de su joven Huey Tlatoani Cuauhtémoc.</p>
+<p>‘México Tenochtitlán, nuestra casa lugar de encuentros, de libertades y de derechos, se apresta a celebrar sus más de siete siglos de grandeza como un ejercicio pleno del derecho a la memoria que nos forja y nos da rostro, que nos distingue y representa a todo el pueblo de México.</p>
+<p>‘En 2021 tres fechas nos recuerdan de dónde venimos y hacia dónde vamos.’</p>
+<p><strong>(INICIA VIDEO)</strong></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> Gobierno de México.</em></p>
+<p><strong><em>VOZ HOMBRE:</em></strong><em> Ciudad de México, más de siete siglos de grandeza.</em></p>
+<p><em>En 2021 conmemoramos los grandes acontecimientos que marcaron la historia y la identidad de esta, la ciudad de todas y todos los mexicanos, nuestra capital, la grandiosa Ciudad de México, 700 años de su fundación lunar, 500 años de la caída de Tenochtitlán y 200 años de la consumación de la Independencia nacional.</em></p>
+<p><em>Aquí en Mixiuhca, el lugar del parto, hace 700 años, en 1321 Quetzalmoyohuatzin dio a luz a Contzallan, el primer culhua mexica de una generación libre del yugo de Culhuacán.</em></p>
+<p><em>Ella representaba la tradición de las artes, los saberes más prestigiosos y la legitimidad política indispensable para el surgimiento de una nueva nación.</em></p>
+<p><em>Dicen las fuentes que inmediatamente después de arribar al islote construyeron temazcales, imagen de la paz del útero y de la purificación para el nacimiento para cumplir con la triada ritual: útero materno- temazcal-ojos lunares, sin la cual no habría podido manifestarse Huitzilopochtli bajo la forma del águila sobre el nopal, insignia de los mexicanos y segundo momento fundacional.</em></p>
+<p><em>Esta gran ciudad lacustre, flor de chinampas, fue la que conocieron los europeos y la que en 1521, hace 500 años, defendieron mujeres, hombres y niños en Tenochtitlán y Tlatelolco hasta su último aliento, hasta la captura de Cuauhtémoc y el inicio de una nueva etapa marcada por un complejo proceso de integración y resistencia.</em></p>
+<p><em>Trescientos años más tarde, mujeres y hombres de la Ciudad de México celebraron con júbilo haber consumado la Independencia nacional como el nacimiento de la nueva nación mexicana, la primera de las cuatro grandes transformaciones de nuestra historia.</em></p>
+<p><em>Ciudad de México, más de siete siglos de grandeza.</em></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> Gobierno de México.</em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, pues este es el bosquejo general de los actos que se van a llevar a cabo el año próximo. Vamos a estar presentando más información.</p>
+<p>Se quiere que sea, desde luego, una conmemoración nacional; van a haber actividades en todas las entidades federativas, como aquí se ha dicho. Vamos a invitar a pueblos y gobiernos del mundo a que nos acompañen.</p>
+<p>Vamos a recordar nuestra historia, llena de grandeza desde la época prehispánica, vamos a reivindicar a las comunidades, a los pueblos originarios, va a haber un día dedicado al perdón por los abusos, por las atrocidades que se cometieron con la invasión colonial y también, a partir del México independiente, vamos a estar en la región maya y vamos a estar también con los pueblos yaquis, precisamente de las culturas más ofendidas, humilladas en la historia de nuestro país.</p>
+<p>Vamos también a exponer la grandeza de México en los artístico, en lo cultural; van a haber exposiciones de códices, de piezas arqueológicas, de pintura, mucha música.</p>
+<p>Los desfiles tanto el del 16 como el del 27 de septiembre, ya se habló, con representación de ejércitos de otros países hermanos, porque México tiene una relación fraterna con todos los países del mundo, no tenemos diferencias con ningún país; al contrario, es México un país considerado como un hermano de las otras naciones, un hermano en el concierto de las naciones.</p>
+<p>Entonces, estamos trabajando de manera conjunta todos para este año que se ha denominado Año de la Independencia y de la Grandeza de México, el 2021, porque coincide, la fundación de México Tenochtitlán coincide con los 500 años de dominación, de imposición, lo que significó la Conquista y 200 años de la Independencia el año próximo, 2021. Entonces, van a haber estas conmemoraciones.</p>
+<p>Eso es lo que queríamos informarles y vamos a estar hablando más de estos eventos para que en todo el país se conozca lo que se va a llevar a cabo.</p>
+<p>No va a quedar un estado, una ciudad, sin tener un acto, quisiéramos que fuese la conmemoración de los actos centrales en todo el país, pero llevaría mucho tiempo; entonces, se hizo una selección que empieza con el fusilamiento de un gran luchador social, independentista, de origen afromexicano, Vicente Guerrero, quien sostuvo que la patria era primero, ahí comenzamos y se termina con el natalicio del Siervo de la Nación, de José María Morelos y Pavón, el de los <em>Sentimientos de la Nación</em>, el que quería que se modera la indigencia y la opulencia, el que quería que se aumentara el salario del peón, el que quería que se educara al hijo del campesino y al hijo del barretero como al hijo del más rico hacendado, el que quería que existieran tribunales que protegieran al débil de los abusos que cometía el fuerte; vamos a terminar con Morelos en su nacimiento en Morelia, Michoacán.</p>
+<p>Entonces, van a haber muchas otras actividades porque este año del 21 coincide con la fundación, por ejemplo, de la Secretaría de Educación Pública y con muchos actos más que se van a llevar a cabo.</p>
+<p>Entonces, abrimos si les parece, sobre el tema.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, presidente del Gobierno de México; buenos días a los servidores públicos; buenos días a quienes nos ven y a quienes nos escuchan.</p>
+<p>Presidente del Gobierno de México, a un año de la conmemoración de la caída de Tenochtitlán, capital de la sociedad azteca, y de una conquista que se hizo a espada y con la cruz, en el 2019 el gobierno de España rechaza con toda firmeza que el rey Felipe VI ofrezca disculpas por los crímenes cometidos durante la Conquista. Mi pregunta es, presidente, ¿usted está conforme con esta respuesta?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Miren, ya se hizo este planteamiento, ya conocen ustedes el resultado. No descartamos que haya, de parte del gobierno español, de la monarquía, un cambio de actitud, y que con humildad se ofrezca una disculpa, un perdón, pensando en dejar atrás esa confrontación y hermanarnos, ver hacia adelante, pensar en la reconciliación; pero considero que no es en vano el que esto se pueda llevar a cabo.</p>
+<p>Lo mismo en el caso de la solicitud que hemos hecho al papa Francisco, ya la Iglesia católica ha reivindicado a los pueblos originarios, lo hizo en Bolivia, estamos pidiendo que se pronuncien en el caso de México, y consideramos que el año próximo puede ser el momento, el tiempo oportuno.</p>
+<p>No queremos el debate acerca si se excomulgó o no al cura Hidalgo, es un hecho que fue juzgado y es para nosotros el padre de nuestra patria. Sería un gesto de mucha sensibilidad el que se hiciera una referencia y un reconocimiento, tanto al cura Hidalgo como al cura Morelos.</p>
+<p>Pero si esto no sucediera, no tendríamos nosotros motivo para la confrontación, el cuestionamiento. De todas formas, nosotros vamos a ofrecer disculpas, el Estado mexicano, porque las comunidades originarias no sólo padecieron de la Conquista. Ya en el México independiente hubo acciones represivas de exterminio, actos de injusticia para despojarlos de sus tierras, de sus aguas, esto fue lo que padecieron los mayas, lo que padecieron los yaquis, enfrentaron guerras, así se les conocía a las expediciones que se mandaban a la península de Yucatán y a Sonora para exterminar a mayas y a yaquis.</p>
+<p>Todos los militares más nefastos y represores, que luego se hicieron famosos por traicionar a Madero, estuvieron en estos actos represivos, se fueron entrenando en Quintana Roo, que se llegó a convertir en la Siberia de México.</p>
+<p>Lo mismo en Sonora con los yaquis. Huerta y el mismo Bernardo Reyes -y otros- estuvieron en las misiones para someter a los pueblos con el único propósito de quitarles sus tierras. Y cada vez que había un desfile militar, una parada militar, había condecoraciones a estos militares por esas acciones llevadas a cabo.</p>
+<p>También nosotros tenemos que pedir perdón al pueblo de China por las matanzas, también de chinos, en la época revolucionaria.</p>
+<p>Entonces, tenemos que ponernos al día, decir:</p>
+<p>Nunca más reprimir, nunca más el clasismo, el racismo, la discriminación, nunca más el despojo en México, para eso es la conmemoración del año próximo. Esa es la esencia de la conmemoración del año próximo.</p>
+<p>También exponer al mundo lo que ya todos los mexicanos sabemos: la fortaleza, la grandeza artística, cultural del país, hacer ya a un lado para siempre el que cuando llegan los colonizadores encuentran un pueblo atrasado, bárbaro, salvaje, todo eso que en todo proceso colonial se utiliza para justificar el despojo y las atrocidades.</p>
+<p>Es muy lamentable que todavía, cuando se habla de la historia de México y de esta etapa, en algunos países en los libros de texto se menciona que nos civilizaron, que vinieron a civilizarnos y esa es la concepción.</p>
+<p>Queremos, de manera muy respetuosa, contar la otra historia, la historia de grandeza de este pueblo y lograr que sea otra la narrativa y que ya no prevalezcan esas concepciones acerca de la historia de nuestro país. Todo esto, en el marco del respeto y de las libertades, no va a ser nada obligado, todo tiene que ser voluntario y yo estoy seguro que muchos pueblos y muchos gobiernos del mundo van a participar con nosotros.</p>
+<p><strong>INTERLOCUTOR:</strong> Presidente, ofrezco disculpas, mi nombre es Carlos Pozos, soy reportero de <em>Lord Molécula </em>y columnista para la revista <em>Petróleo y Energía</em>.</p>
+<p>Hablando de conmemoraciones, señor presidente, 52 años se cumplen de la matanza de Tlatelolco este próximo viernes 2 de octubre.</p>
+<p>Existe un plantón de Frenaaa aquí en el Zócalo capitalino, hay las manifestaciones feministas, está tomada la Comisión Nacional de los Derechos Humanos. La pregunta: ¿se permitirá la marcha conmemorativa a los 52 años de la matanza de Tlatelolco? y si habrá los cinturones de paz para permitir esa manifestación.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí.</p>
+<p><strong>CLAUDIA SHEINBAUM PARDO:</strong> El día de… Bueno, hemos estado explicando que cuando hay diálogo y previamente se concerta la entrada al Zócalo y sobre todo la no agresión entre las distintas manifestaciones que hay en el Zócalo de la Ciudad de México, pues no tiene ningún problema.</p>
+<p>El día sábado hubo una manifestación de los padres y madres de Ayotzinapa y convivieron con el plantón de Frenaaa; de igual manera, el domingo hubo una manifestación de electricistas; el día de ayer, de solicitantes de vivienda. El problema es cuando no hay diálogo, puede haber confrontación y buscamos evitarla.</p>
+<p>En este caso, estamos en comunicación con los organizadores de la manifestación del 2 de octubre, de la demostración, del recuerdo de la conmemoración; ellos aún no deciden si van a marchar o van a tener un evento en Tlatelolco y a partir de este diálogo vamos a ir informando.</p>
+<p><strong>INTERLOCUTOR:</strong> Gracias.</p>
+<p>Y, finalmente, presidente, estamos a unas horas de que se venza el plazo. Usted en este espacio exhortó a que la Suprema Corte de Justicia tome en cuenta el sentimiento del pueblo. La solicitud de consulta popular enviada por usted y por dos millones de ciudadanos tiene fecha para mañana 1º de octubre.</p>
+<p>El ministro de la Suprema Corte de Justicia, Luis María Aguilar, nominado por el expresidente Felipe Calderón, pues dice que la encuesta o la solicitud que usted tiene es un concierto de inconstitucionalidades.</p>
+<p>En caso, presidente de que esta revisión que hagan den por concluido que la consulta popular no procede para enjuiciar a los cinco presidentes, la pregunta es: ¿esto podría ser el factor, la chispa que suelte al tigre y que el pueblo pierda la confianza en la justicia y se dé una crisis de credibilidad acelerada a nuestras instituciones que imparten justicia?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, vamos a esperar, mañana es un día importante sin duda. La decisión que va a tomar la Corte es una decisión trascendente porque se va a resolver si se acepta el que en los hechos se aplica la democracia participativa, eso es lo que está en cuestión, si realmente queremos que haya democracia participativa, si nos vamos a quedar limitados a la democracia representativa o damos un paso adelante para que el pueblo en todo momento decida la forma de su gobierno, que es la esencia de la democracia, lo que establece el artículo 39 de nuestra constitución.</p>
+<p>Es muy sencillo de explicar: se quiere que el pueblo sólo vote cada tres, cada seis años para tener representantes o se quiere que además de que el pueblo elija a sus representantes cada tres, cada seis años, pueda ser consultado cuando se trate de asuntos trascendentes, de todo aquello que tiene que ver con el interés general.</p>
+<p>Esto va más allá del margen estrecho de la legalidad y no deja de ser legal. Lo aclaro porque está en la Constitución, en el artículo 35, derecho del pueblo a ser consultado, entonces ahí se establecen las condiciones.</p>
+<p>Argumentar o esgrimir que si se lleva a cabo una consulta se violan los derechos humanos de las personas en cuestión creo que es un asunto que no debe de considerarse como argumento fundamental, porque no hay violación de derechos humanos, no existe ninguna violación de derechos humanos.</p>
+<p>En la solicitud que presentamos, en la pregunta que se está solicitando se apruebe, se establece con mucha claridad que, en el caso de que el pueblo de México decida que sean juzgados los expresidentes, se actúe de conformidad con los procedimientos legales, que se aplique lo que se conoce como el debido proceso, esto es que los acusados tengan el derecho a la defensa y que no se les violen sus garantías, así de claro.</p>
+<p>Si resulta que por eso no se puede llevar a cabo la consulta, tendríamos que plantearnos dos cosas:</p>
+<p>Una ¿para qué está ese artículo en la Constitución?, es una simulación, es letra muerta y olvidarnos de eso.</p>
+<p>No, sí diríamos eso, desde luego, pero yo tengo la responsabilidad de buscar que en México -porque fue mi compromiso- se lleve a cabo la consulta ciudadana y otros métodos democráticos, el plebiscito, el referéndum, la revocación del mandato, todo lo que tiene que ver con la democracia participativa y de inmediato estaría enviando una reforma, una iniciativa de reforma al 35 para que no se cancele esta posibilidad.</p>
+<p>Fue muy vergonzoso lo que sucedió en el gobierno anterior cuando -como ha quedado de manifiesto- luego de entrega de sobornos se aprobó la llamada Reforma Energética y en ese entonces se solicitó una consulta para preguntarle al pueblo si quería que se privatizara la industria petrolera y la industria eléctrica nacional, y se reunieron todas las firmas y al final dijeron los ministros que no procedía porque se afectaban las finanzas públicas por cuestiones de ingresos, cuando lo que sucedió fue exactamente lo contrario, se aprobó la reforma y se afectaron las finanzas públicas y se arruinó la industria petrolera y la industria eléctrica. Entonces, ¿vamos a seguir con lo mismo?</p>
+<p>Yo me deslindo y que cada poder asuma su responsabilidad, y en este caso va a ser el Poder Judicial que tiene que decidir.</p>
+<p>Entonces, es muy interesante lo de mañana, porque no significa que si mañana se aprueba la consulta ya con juicios sumarios se va a castigar a los presidentes si se les encuentra culpables. Son procesos, va a intervenir la fiscalía, intervienen los jueces.</p>
+<p>Queremos que se aplique un auténtico Estado de derecho, pero que ya no haya impunidad, que se castigue por igual a todos, que no haya privilegios, esto es lo que va a ayudar a purificar la vida pública de México. Pero, en fin, esperemos mañana el resultado.</p>
+<p>Una compañera mujer.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, presidente. Shaila Rosagel, corresponsal de <em>Grupo Healy, El Imparcial</em> de Sonora; <em>La Crónica,</em> de Mexicali; <em>Frontera</em> de Tijuana.</p>
+<p>Presidente, pues preguntarle su impresión, si vio usted ayer el debate entre los candidatos de Estados Unidos. ¿Qué le pareció el debate?</p>
+<p>El presidente Donald Trump destacó que el cierre de sus fronteras para detener el avance de COVID y de las muertes. Si México en alguna ocasión consideró el cerrar las fronteras o nunca fue una consideración, esa sería la primera pregunta.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No voy a contestar, no me quiero meter en eso. Es un debate de los candidatos a la Presidencia en Estados Unidos y no quiero que se vaya a malinterpretar cualquier comentario.</p>
+<p>Nosotros vamos a ser respetuosos de la vida interna, política en Estados Unidos con apego a nuestra Constitución, a la política de principios de no intervención y de autodeterminación de los pueblos, entonces no opino nada sobre eso.</p>
+<p>Ayer también comenzó la temporada de <em>playoffs</em> de Grandes Ligas y no pude verlo tampoco. Sí lo recomiendo. Los que le van a Yanquis están muy contentos porque ganaron, pero en fin, todavía está empezando.</p>
+<p><strong>INTERLOCUTORA:</strong> Gracias, presidente.</p>
+<p>La segunda pregunta, el embajador de Estados Unidos, Landau, dijo que espera que México cumpla con el tratado de enviar agua a Estados Unidos, que cumpla con su parte.</p>
+<p>¿Cuál es el plan B o qué es lo que tiene pensado hacer el gobierno mexicano para poder cumplir con esta parte si no cede Chihuahua con su parte del agua?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Estamos evaluando diario. Hoy estuvo la directora de Conagua, nos informó sobre el avance que se lleva, los días que nos faltan. No descartamos el que podamos cumplir y yo creo que para el lunes vamos ya a informar sobre la situación que prevalece con miras al cumplimiento del convenio.</p>
+<p>Nosotros tenemos que buscar por todos los medios cumplir con este convenio, llegar a un acuerdo con el gobierno de Estados Unidos, no queremos incumplir y que haya motivos para confrontación.</p>
+<p><strong>INTERLOCUTORA:</strong> Presidente, una tercera pregunta. El secretario de Hacienda se reunió hace unos días con gobernadores para hablar sobre el paquete económico de 2021, algunos estados propusieron algunas medidas, en el caso de Sonora llevaron una propuesta de obras para municipios. ¿Qué información tiene al respecto?, o sea, si le comentaron algo sobre esto.</p>
+<p>¿Y qué opina sobre la petición de los gobernadores de canalizar a los estados una especie de compensación económica o apoyos extraordinarios para cubrir gastos por COVID-19? Esa sería la tercera pregunta.</p>
+<p>Y aprovechando que está el canciller Marcelo Ebrard, una pregunta que ya tengo tres veces haciendo sobre el motivo por el que México solicitó que se ampliara lo de los cruces fronterizos solamente esenciales en la frontera norte. ¿Y por qué se cumple más de la parte de Estados Unidos para los cruces esenciales que en México?, si tiene algún informe o alguna respuesta? Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, yo voy a estar en Sonora el sábado y el domingo, y el sábado vamos a estar en Bavispe. Bueno, voy a estar desde el viernes por la tarde-noche en Agua Prieta, Sonora; luego, vamos a estar en Bavispe, el sábado; el domingo, en Hermosillo. Vamos a entregar obras y a iniciar obras y a entregar recursos a los gobiernos locales.</p>
+<p>De manera especial vamos a entregar ya los fondos para la repavimentación de Hermosillo y el compromiso que tenemos también con Obregón, vamos a tener un acto con ese propósito. Y vamos a seguir ayudando a Sonora como a Chihuahua y a todos los estados, no vamos a dejar de apoyar y de invertir en los estados.</p>
+<p>Los apoyos adicionales, pues esos van a depender del presupuesto. No vamos, lo he dicho, a limitar nada a los gobiernos estatales, municipales, todo lo que les corresponde por ley se les está entregando; incluso, recuerdo aquí que se les entregó un fondo de contingencia por la crisis de alrededor de 60 mil millones de pesos a los estados y municipios para estabilizar sus presupuestos. Fue un compromiso que se hizo, estaba ese fondo y se está distribuyendo para que ellos puedan tener recursos adicionales.</p>
+<p>Vamos a pedirle a Marcelo que nos informe sobre… En efecto, ya has preguntado tú en otras ocasiones sobre esto</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> Es una decisión técnica derivada de las disposiciones de la Secretaría de Salud sobre los semáforos, no podemos suspender todas las restricciones hasta que no estemos en verde; entonces a eso obedece, no hay otra razón y esperamos que muy pronto se pueda regularizar.</p>
+<p>Como usted sabe, de todos los estados de la frontera, la Secretaría de Salud determinó que están en amarillo todos, salvo uno, que es Nuevo León; entonces, tenemos que esperar a que el semáforo se mueva, porque eso es lo que convenimos con Estados Unidos, o sea, no podríamos levantar esas medidas cuando nuestro propio mapa dice que tiene que haber ciertas restricciones.</p>
+<p>Y respecto a la implementación, se le pidió al Instituto Nacional de Migración que en coordinación con cada autoridad local se establecieran los filtros respectivos. Hay muy diferentes circunstancias, hay lugares donde se tienen filtros muy estrictos y otros menos estrictos. Lo que está tratando de hacer Migración, el instituto, es homologar.</p>
+<p>¿Por qué participan las autoridades locales?</p>
+<p>Porque es muy importante, por razón obvia, pero además por razones sanitarias. Ese es el esquema hasta el día de hoy.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Hombre y luego mujer.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, presidente, buenos días a la mitad del gabinete o parte del gabinete y a los invitados.</p>
+<p>Mi nombre es Héctor Tlatempa, de <em>Puntos Suspensivos Comunicación, Puntos Suspensivos Radio</em>.</p>
+<p>Con respecto a las conmemoraciones y las fiestas que están hablando, nada más reiterar. Ya le había yo comentado hace 15 días más o menos, presidente, que tenemos al maestro José Luis Basurto, el cual escribió un libro y que habla de un héroe, un héroe del que poco se ha mencionado o se sabe; trae también una réplica de un retrato de este personaje, que es un héroe que se llama Antonio Pérez de Hierro. Él acaba de escribir un libro que lo hizo en España, trajo unos obsequios aquí para usted y su esposa, ya se hizo todo el trámite, la señorita Leticia Ramírez nos ha apoyado muy bien en eso, nos ha atendido muy bien.</p>
+<p>Y él ahorita, que está siguiendo en este momento la mañanera, pide, nuevamente reitera le pudieran dar la oportunidad para que pueda hablar de su libro, para que puedan también hacerle justicia y dejar que México deje de ver o dejen de llamar que fuimos conquistados, que eso es un error, tiene los argumentos y los estudios para poder demostrarlo. Entonces, pide que si de favor usted pudiera recibirlo, apoyarlo para poder exponer este tema ampliamente.</p>
+<p>Con respecto… Ah, digo, sería bueno también hablar ahorita también de estas fiestas, sería bueno hacerle también justicia a Vicente Guerrero, realmente de Tixtla, Guerrero, de donde son los estudiantes de Ayotzinapa y que creo que gracias él… él continuó el trabajo de Morelos precisamente, entonces yo creo que sí sería bueno considerarlo y que se pudiera también hablar más acerca de todo el trabajo que ha hecho Vicente Guerrero.</p>
+<p>Presidente, dos temas nada más rapidísimo. El primero, que consideramos que es muy importante, que ya llevamos hace unos días viendo por esta situación, tiene que ver con la regidora del ayuntamiento de Cihuatlán, Jalisco, María Guadalupe Becerra Barragán. Ya tiene aproximadamente 20 días que familiares y amigos denunciaron que la regidora de la fracción de Morena en el municipio de Cihuatlán, María Guadalupe Becerra, se encuentra desaparecida desde el pasado jueves 10 de septiembre.</p>
+<p>Hace dos años Becerra Barragán tuvo que huir de Jalisco junto con su familia debido a las amenazas que recibió por parte del crimen organizado, después de que el 29 de octubre de 2018 denunció durante una sesión de cabildo compras a sobreprecio y sin licitación.</p>
+<p>El pasado mes de enero de este año la regidora declaró que en noviembre del 2018 gente armada acudió a su casa para amenazarla por parte del alcalde Fernando Martínez Guerrero y de su secretario general Fernando Medina Flores. En esa ocasión le advirtieron que tenía 24 horas para dejar su cargo y salir del municipio y en caso de negarse la matarían a ella y a toda su familia.</p>
+<p>Indicó que Medina Flores es Raúl Flores en realidad, acusado por el gobierno de Estados Unidos en agosto de 2017 de llevar dinero a través de figuras públicas como el cantante Julión Álvarez y el futbolista Rafael Márquez.</p>
+<p>La afectada presentó una denuncia ante la fiscalía general del estado, la FGE, y sostuvo que reconoció a dos de las tres personas que acudieron a su domicilio. Al principio la FGE se negó a recibirle la querella y cuando finalmente fue aceptada el abogado de la quejosa fue levantado.</p>
+<p>Además, este mismo tribunal resolvió que el gobernador Enrique Alfaro, su secretario de gobierno Enrique Ibarra y el fiscal Gerardo Solís, así como la subsecretaría de Derechos Humanos y la Unidad para la Defensa de los Derechos Humanos de la Secretaría de Gobernación deberían de otorgar medidas de protección a Guadalupe Becerra y a su familia, y realizar actos jurídicos para que se reincorporara a su cargo. Eso nunca pasó.</p>
+<p>El día de hoy la regidora se encuentra desaparecida. La última vez que se tuvo contacto con ella, como ya lo mencioné, fue el pasado 10 de septiembre sin que hasta el momento se sepa de su paradero. En un video que realizó en enero de este año termina con las siguientes palabras que quiero comentar ahorita.</p>
+<p>Dice: ‘Falta mucho trabajo aquí en el estado, no han querido ver el tema con la gravedad que es. Todavía aquí en Jalisco eso ni se escucha porque a lo mejor es parte del mismo equipo del gobernador, y yo lo entiendo políticamente, pero tenemos que salir de ese esquema de corrupción y de impunidad, si no, ¿entonces de qué sirve la batalla que damos nosotros?, ¿de qué sirven que mueran mujeres, que mueran familias, si las batallas que damos no se dan a conocer?’</p>
+<p>Señor presidente, es importante que se aclare la condición de la regidora María Guadalupe Becerra Barragán y hay antecedentes de amenazas en su contra por su labor social y su postura crítica. Me gustaría que comentara algo al respecto, presidente, y si me permite, una segunda pregunta.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, sobre esto vamos a pedirle a Alejandro Encinas, subsecretario de Gobernación, que atienda este asunto con urgencia, si te parece. Nada más con Jesús le das todos los datos, aunque ya lo expusiste, pero de todas maneras Alejandro Encinas lo va a atender hoy mismo.</p>
+<p><strong>INTERLOCUTOR:</strong> Muy bien, muchas gracias.</p>
+<p>Y una segunda pregunta, aprovechando también que está aquí el secretario del servicio exterior. Tenemos entendido que en 2019 usted mantuvo una reunión con embajadores y cónsules de México, y que en esta reunión se afirmó ya no haber más nombramientos de políticos como titulares de las embajadas y de los consulados mexicanos, tal y como se hacía en gobiernos pasados.</p>
+<p>Al parecer en lo que va de su administración se han otorgado 33 nombramientos como embajadores, cónsules y jefes de misiones en organismos internacionales. El tema toma mayor relevancia con el nombramiento que se pretendía otorgar a Luz Elena Baños como embajadora ante la SEA... OEA, perdón, y que al final fue improcedente por no cumplir con la antigüedad mínima requerida, al parecer creo que nada más estuvo cinco días con el nombramiento.</p>
+<p>En relación a esa reunión de 2019 nos pudiera decir si hasta el momento sigue vigente ese acuerdo.</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> Sí, con mucho gusto. En primer lugar, yo le diría que no fue eso lo que dije, lo que dije es que quienes estén el Servicio Exterior tengan un mérito.</p>
+<p>De hecho, ha habido grandes figuras de México y el ser político no es denigrante, lo que es denigrante es lo que son los hechos de las personas o que se actúe promoviendo personas que no tienen mérito, que no tienen carrera, que no tienen conocimientos, que no pueden representar a México adecuada. Eso es en primer lugar.</p>
+<p>En segundo, Luz Elena Baños es una destacadísima embajadora de México, ha estado en el Servicio Exterior más de casi cuatro décadas y del total… Déjeme decirle nada más una cosa para ser breve ¿cuál es la intención de su propuesta?, porque no es que se haya suspendido, simplemente no se le ha notificado para entrar en vigor, porque no se terminó el trámite.</p>
+<p>Es un tema de tiempo, porque la ley dice que tienen que ser 10 años de embajador, pero ella lleva en el Servicio Exterior casi cuatro décadas, por eso se le nombró embajadora en la Organización de los Estados Americanos.</p>
+<p>Pero ¿cuál es el fondo del tema? y ahí concluyo. La intención, esa propuesta coincidió con la propuesta de designación de Carmen Moreno Toscano, actual embajadora en Nicaragua.</p>
+<p>¿Por qué?</p>
+<p>Porque hay muy pocas mujeres, hay una gran inequidad. Si usted revisa quiénes son los embajadores eméritos o los eminentes se va dar cuenta que hay ¿cuántas mujeres?, con estos nombramientos, tres.</p>
+<p>Entonces, primero, es una persona del Servicio Exterior.</p>
+<p>Dos, en el Servicio Exterior hay un método que es desventajoso para las mujeres de manera muy obvia, ahí están los números, de 20,3, ¿dónde está la equidad de género?</p>
+<p>Y no es porque no haya mujeres destacadas en el Servicio Exterior, Luz Elena es una de ellas y se ha ganado su lugar y su mérito no porque sea amiga mía o del señor presidente -espero que cuando yo termine mi encargo me haya ganado yo su amistad y de muchas personas en el Servicio Exterior- sino por su consistente defensa de los intereses de México y su brillante papel en la Organización de los Estados Americanos.</p>
+<p>Ahora, si usted puede revisar, por ejemplo, cuando fue lo que ocurrió en Bolivia o el papel del secretario general de la OEA en varios casos, no sólo de Bolivia, ¿quién ha sido la principal vocera de lo que pensamos en América Latina? Luz Elena Baños.</p>
+<p>Se propuso, pero efectivamente ella misma nos hizo notar que se requieren 10 años.</p>
+<p>¿Por qué se requieren 10 años?</p>
+<p>Pues así está en la ley. Pero esas normas son las que han llevado a que solamente haya tres mujeres entre 20 y es lo que queremos cambiar y lo vamos a cambiar.</p>
+<p>Muchas gracias.</p>
+<p><strong>PREGUNTA:</strong> Hola a todas y a todos. Soy Nuri Fernández, de <em>La Caracola</em>.</p>
+<p>Son dos preguntas, una tiene que ver con la presentación qué acaban de hacer y es que esta práctica de pedir perdón, que por cierto llevó usted acabo frente a los familiares de Ayotzinapa hace muy poquitos días. Es una práctica muy importante porque pone a los sujetos que están en cuestión, en este caso pueblos indígenas y conquistadores, en el justo término.</p>
+<p>La conquista entonces no es un acto civilizatorio, sino es un acto que también fue un acto de opresión y humillación, el hecho de pedir perdón pone así las cosas.</p>
+<p>Entonces, mi pregunta sería: ¿ahora que se hagan los actos para pedir perdón con mayas y con yaquis se está considerando invitar delegaciones de otros pueblos indígenas del continente?, porque esta práctica puede generalizarse a otros lugares y puede hacer que los pueblos tengan un lugar más merecedor y de más reconocimiento social. Entonces, esa es la primera pregunta.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, se van a invitar a pueblos, a representantes de las distintas culturas que son los fundadores de América. En el caso, por ejemplo, de grupos étnicos culturales de Estados Unidos, en el caso particular de los yaquis, hay pueblos yaquis en Estados Unidos y una relación estrecha, y así entre otras culturas.</p>
+<p>Ahí no hay fronteras, por eso van a ser invitados, y también de otros países, se va a procurar que haya representaciones de los pueblos originarios de todos los países de nuestra América, del continente americano y también de otros continentes. Pero sí, ese es el propósito.</p>
+<p>Y tiene que tomarse en cuenta que el perdón ayuda a la reconciliación. Cuando nosotros hicimos este planteamiento se malinterpretó y algunos dijeron: ‘Eso ya está olvidado, eso pasó hace mucho tiempo’. Bueno, recientemente, no en nuestro país, en Estados Unidos, derrumbaron, echaron abajo estatuas de colonizadores; y no se trata de estar en acuerdo o en desacuerdo por ese proceder así, si se trata de buscar cerrar heridas, son asuntos que vienen de lejos.</p>
+<p>Entonces, ¿por qué darle la espalda?, ¿por qué no enfrentarlos y ofrecer disculpa, y reencontrarnos y reconciliarnos?</p>
+<p>Tengo muy presente cómo reaccionaron algunos a nuestro planteamiento y alguna consideración o lo que esgrimían tenía que ver con eso: ‘Ya eso está olvidado, ya pasó hace mucho tiempo, ya nadie se acuerda de eso, vamos a ver hacia adelante.’ Sí, desde luego que queremos ver hacia adelante, pero saber de dónde venimos, qué sucedió y si tenemos asuntos pendientes, resolverlos y hermanarnos, porque aun cuando ha pasado mucho tiempo sigue estando vigente el tema; y no es taparlo, ocultarlo, es exponerlo, ventilarlo y resolverlo en armonía, en paz.</p>
+<p>Por eso está muy bien lo que planteas, muy importante.</p>
+<p><strong>INTERLOCUTORA:</strong> La segunda pregunta es sobre la consulta. En estos días hemos visto todo tipo de expresiones callejeras, el <em>performance</em> del plantón de Frenaaa, que llega el viento y se lleva un montón de tiendas vacías, o el hecho de usar una demanda justa como el derecho de nosotras sobre nuestro cuerpo, sobre nuestro derecho a decidir, el derecho al aborto y usarlo por grupos que pretenden armar provocaciones en la ciudad.</p>
+<p>Y queda abierta la pregunta de: ¿no será el momento de hacer una convocatoria social más amplia en torno a la consulta?, porque es sorprendente los dos millones de firmas que se consiguieron en 10 días.</p>
+<p>Entonces, es obvio que la gente quiere participar y que a lo mejor los partidos y todo el mecanismo partidario no es el canal exactamente que la gente busca, precisamente por eso existe la democracia directa y la democracia participativa.</p>
+<p>Entonces, ¿no sería conveniente convocar a que se organicen comités de promoción y apoyo a la consulta en todo el país?</p>
+<p>Esto implica además respetar la sana distancia, porque serían comités de barrio, de colonia, de comunidad y que la gente tenga un mecanismo de organización, de participación previo a la consulta en que pueda comenzar a convocar a sus vecinos, vecinas para participar. Entonces, esa es como la pregunta, si ese momento habrá llegado.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, el asunto es que ya estamos, ahora sí que en víspera de la decisión, aunque yo espero que los ministros tomen en cuenta el sentimiento de los ciudadanos, de la gente, que pregunten; para no equivocarnos lo mejor es preguntar, que recojan este día, hoy, el sentimiento de la gente.</p>
+<p>Si no se puede hacer con el rigor metodológico de una encuesta, pues que lo hagan con algunas entrevistas, con gente de la calle, que tomen en cuenta también lo que tú mencionaste: cómo es que en 15 días ciudadanos reúnen dos millones de firmas, cómo le hacen, para este tema.</p>
+<p>¿Qué está indicando este hecho, si se tiene sensibilidad?</p>
+<p>Que la gente quiere ser tomada en cuenta. Independientemente del tipo de consulta, de lo que se trate, la gente quiere participar. Entonces, es algo, yo diría, inédito, el que en 15 días reúnan más de dos millones de firmas, sin dinero, sin patrocinadores, sin medios de comunicación, haciendo la promoción, sino se corrió la voz y por las redes, y todo mundo ayudando, sin la participación de partidos, sin la participación del gobierno. Entonces, sí estamos ante un hecho relevante, muy importante.</p>
+<p>Entonces, ya no se podría hacer una movilización porque no lo prohíbe…. No, no lo permite, no lo permite, no prohíbe nada la jefa de Gobierno, pero no lo permite por la sana distancia, y además ya no hay tiempo, pero yo conozco la opinión de mucha gente.</p>
+<p>Si se convocara, sería una cosa de mucha participación, de muchísima participación, porque la gente sí quiere ser tomada en cuenta, sí quiere participar, o sea, no quiere ser ciudadana, ciudadano imaginario, quiere participar. Entonces, vamos a esperar mañana, que es un día importante.</p>
+<p>Bueno, hablando de mañana, nos vemos, nos vemos mañana. Tenemos el compromiso de que un día de esta semana, y va a ser mañana, no va a haber exposiciones, puras preguntas y respuestas, ¿les parece?</p>
+<p>Bueno, nos vemos. Gracias.</p>
+<p>---</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

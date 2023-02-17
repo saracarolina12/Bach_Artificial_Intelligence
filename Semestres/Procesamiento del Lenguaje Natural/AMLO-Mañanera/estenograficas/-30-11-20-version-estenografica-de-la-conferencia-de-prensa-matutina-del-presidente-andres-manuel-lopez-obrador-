@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>30.11.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/30-11-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=136602' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F30-11-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F30-11-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66jig-f-6cf3b7be3-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":20,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"2a7daa3d","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55796,"ak.gh":"23.47.207.69","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616966","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==bUlbwPqwZv6HrD8T6HE19LK6H8sul6epdKZIpD2YRJXMQkmLBh9d0sm1CmNATw2s3x68qo5R2O9iWedLMEjcDsuUe+yrVTo7cZR13WRExtH66zikLDyzVJgKBW55rgO887JJYGZuZX0Z5L5GaeAC2Bg6Z1ZNKr589g/cLzvHMvo3sQvBuzkhzJ7++C9/cqM3GxX/PTP0Y8xIYMDp2rgkOlTCM7fbTHHPGrkT2b1nTc1/pJFaSmBxy1wNWpozi8uZ97CxCkFVVStO5vChb/nTbDOW2tDC/lT4pD0Uc8p+19DUxlETZOIfwiNU0bby4E3SByxhgcdpBbGTyI4krUpuA+hlOipV5SNZKo7Kti0vRCsvDjIvsZRsy58esmipWxnGmPxiqKYfDkelg+iajw7d7Yadg76Yrv1zqmmc7IOcrBs=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-136602 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef22778a3df" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>30.11.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 30.11.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-136602" class="post-136602 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2020/11/30-11-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-07.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/11/30-11-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-07-745x450.jpg" alt="30.11.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">30.11.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><em>2020, Año de Leona Vicario, Benemérita Madre de la Patria</em></p>
+<p>&nbsp;</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Buenos días.</p>
+<p>Bueno, pues vamos a iniciar la semana. Está terminando el mes, mañana vamos a cumplir dos años en el gobierno y vamos a informar por la tarde al pueblo, a las 5:00 de la tarde vamos a dar a conocer lo que hemos logrado en estos dos años, cómo se avanza en la transformación de México. Por eso no vamos a tener mañana la conferencia de prensa de siempre, pero hoy vamos a hablar, como todos los lunes, de quién es quién en los precios y posteriormente vamos a hablar sobre proyectos de inversión con el sector privado.</p>
+<p>Agradecemos mucho que estén aquí Carlos Salazar, presidente del Consejo Coordinador Empresarial y que estén aquí el secretario de Hacienda, que esté el secretario de Comunicaciones; Jorge Nuño, que es el encargado de inversiones de la Secretaría de Hacienda.</p>
+<p><audio src="http://presidente.gob.mx/wp-content/uploads/2020/11/2020-11-30-Matutina.mp3" controls="controls"></audio></p>
+<p><iframe src="//www.youtube.com/embed/lat8pnhCmOA?t=1012" width="600" height="400" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Se va a dar a conocer un paquete de inversiones, es el segundo que se está poniendo en práctica, se está ejecutando con la participación del sector privado del país. En eso vamos a versar esta conferencia, en estos dos temas, el de quién es quién en los precios de los energéticos con Ricardo y esta segunda etapa del plan de inversión del sector privado.</p>
+<p>Entonces, vamos, si les parece, con Ricardo.</p>
+<p><strong>RICARDO SHEFFIELD PADILLA, TITULAR DE LA PROCURADURÍA FEDERAL DEL CONSUMIDOR (PROFECO):</strong> Buenos días, señor presidente; buenos días a todas y a todos ustedes.</p>
+<p>Quién es quién en los precios de los energéticos. Para la gasolina, la gasolina regular, encontramos el precio más alto con el promedio más alto en Mobil en Río Grande, Zacatecas, 20 pesos con siete centavos por litro, un margen de cuatro pesos 37 centavos, un margen bastante alto de estos angelitos.</p>
+<p>Mientras que Chevron, en Culiacán, Sinaloa, con un precio promedio de 16 pesos 25 centavos por litro y un margen de 23 centavos es la opción más económica con el menor margen.</p>
+<p>Para la Premium Shell en Naucalpan, aquí en la Ciudad de México, 21 pesos con 14 centavos por litros, un margen de cuatro pesos 87 centavos comparado con franquicia Pemex en Veracruz, Veracruz, 15 pesos 78 centavos por litro, un margen de 35 centavos.</p>
+<p>Para el diésel Combustibles BP en Ixmiquilpan, Hidalgo, 20 pesos por litro, con un margen de tres pesos 26 centavos, mientras que Eagle Gas en Mazatlán, Sinaloa, 17 pesos con 85 centavos por litro, un margen de 18 centavos.</p>
+<p>Las tres marcas en promedio más caras en la semana: Redco, Arco y Chevron; las tres económicas: Total, Orsan y G500.</p>
+<p>Con corte al 27 de noviembre, 43 dólares con 60 centavos la mezcla mexicana de petróleo, que ha venido recuperando su precio, está casi a como inició el año en febrero-enero de este año.</p>
+<p>Y ese mismo día el corte promedio para el diésel 18 pesos con 87 centavos, 18 con 62 la Premium y 18 pesos con tres centavos la regular.</p>
+<p>Fue una semana con mucho trabajo en el tema de verificaciones, recibimos a través de la app de Litro por Litro 180 quejas o denuncias, y las atendimos a través de 137 visitas y/o verificaciones, cuatro gasolineras no se dejaron verificar, una en Morelia, Michoacán, Autoservicios El Durazno, otra más en Tijuana, Baja California, Estación de Servicios Libramiento.</p>
+<p>En Morelia, Michoacán, en carretera Morelia Pátzcuaro, de un señor Eduardo Huacuz, y Estación Pirú de Tijuana, Baja California, en el libramiento Sur 3500. Estas cuatro gasolineras obviamente están ocultando algo, y lo podemos saber porque lo acabamos descubriendo después, como fuimos acompañados de la Fiscalía General de la República a verificar una gasolinera que no se dejó verificar en Pátzcuaro, Michoacán, y encontramos siete bombas con este aparatito para robar a los consumidores, este rastrillo, que afortunadamente la Fiscalía General incorporó a la carpeta de investigación y ellos mismos hicieron el traslado de estos aditamentos que sólo sirven para robar.</p>
+<p>De acuerdo a la app, la gasolina más barata regular, 15 pesos con 32 centavos, Mobil en Metepec, Estado de México; 15.60 en franquicia Pemex en Veracruz, Veracruz; mientras las más caras, BP, 20 pesos y 75 centavos por litro en Chilapa de Álvarez, Guerrero; y franquicia Pemex, 20 pesos con 66 centavos en esa misma ciudad de Chilalpa de Álvarez; Guerrero.</p>
+<p>Para la Premium, la más barata, 15 pesos con 24 centavos, franquicia Pemex en Medellín de Bravo, Veracruz; y 15 pesos 78 centavos de franquicia Pemex en Veracruz, Veracruz.</p>
+<p>La más cara, 21.99, franquicia Pemex en Guasave, Sinaloa; y 21.99, Shell en Guanajuato capital.</p>
+<p>El diésel, el más barato, 15.79 es el Culiacán, Sinaloa, Platinum; y 15.99 franquicia Pemex, también en Culiacán, Sinaloa.</p>
+<p>La más cara, 21.30, franquicia Pemex en Álamos, Sonora; y 20.80 Gaxo en Ahome, Sinaloa. Ahí en Ahome les gusta subir mucho el precio de la gasolina, para que nos cuidemos los consumidores.</p>
+<p>Seguimos también verificando el tema de los servicios sanitarios.</p>
+<p>Y quién es quién en los precios del gas para tanque estacionario. El precio más alto es Gas Exprés Nieto, de México, en Azcapotzalco, Ciudad de México, ya lleva más de un mes siendo el más alto, 12 pesos 73 centavos por litro, con un margen nada más de cinco pesos con 39 centavos; y gas Providencia en San José Iturbide, Guanajuato, en contraste, ocho pesos con 55 centavos por litro, un margen de un peso 52 centavos.</p>
+<p>Para cilindros de gas, Servigas del Valle, a 23 pesos con 11 centavos por kilo en Cuajimalpa, Ciudad de México, con un margen de nueve pesos con cuatro centavos, es la opción más cara; la más económica, Gas Providencia en Doctor Mora, Guanajuato, con un precio al público de 16 pesos con 25 centavos por kilo y un margen de dos pesos 89 centavos.</p>
+<p>Si vemos los promedios de los precios, hay estabilidad en los precios, como ha comprometido el señor presidente, por abajo del índice inflacionario.</p>
+<p>Realizamos 55 verificaciones en la semana, estaciones de servicio del gas, dos resultaron con infracciones, uno no se dejó verificar, este fue en Martínez de la Torre, Veracruz, Gas María, que no se dejó verificar, algo está ocultando.</p>
+<p>Y los programas que están teniendo una respuesta muy importante en todo el país de construcción de vivienda es precisamente este mes cuando está bajando la mayor cantidad de recurso, que lo están recibiendo como lo instruyó el señor presidente, directamente las familias de prácticamente todo México, por eso, es muy importante que nos fijemos cuáles son los precios del paquete básico de construcción para que no abusen de nosotros los distribuidores.</p>
+<p>Si no sabemos cuánto vale un bulto de cemento, una varilla, cuánto vale todo lo que se ocupa para construir 50 metros cuadrados de construcción sea que lleve una cocina o lleve un baño, este paquete de materiales, nosotros tenemos en la página de Profeco el referente para cada uno de estos productos, incluso un referente para el precio promedio del salario de dos meses de un maestro albañil y de un peón.</p>
+<p>De esta forma, quienes reciben los apoyos cuiden el dinero, utilícenlo para lo que es, construyan el patrimonio de su familia.</p>
+<p>Y esos 50 metros cuadrados de construcción que tiene tres elementos muy importantes: el cemento que en nuestro país hay tres distribuidores principales de cemento y productos, es Cemex, Holcim Apasco y Concretos Cruz Azul; para la cal hay dos, Calidra y Mitza; y para el acero hay tres, Mittal, Ternium y de Acero o el Grupo Simec.</p>
+<p>Por eso, tenemos nosotros el precio promedio de esos 50 metros cuadrados de construcción en cada una de las ocho regiones del país: la región centro, 86 mil 645 pesos con 17 centavos es lo que vale el paquete para construir en dos meses esos 50 metros cuadrados de construcción con un baño, con una cocina; en el golfo, 96 mil pesos 356.74; en el noreste, 86 mil 416 pesos; en el noroeste, que es el precio más alto, estas son las dos bajas, Sonora y Sinaloa, 91 mil 130 pesos; en el norte 74 mil 553; en el occidente que es el más económico, 70 mil 741; en el sur 83 mil 329; en el sureste, 83 mil 829.</p>
+<p>El bulto en promedio en México de cemento de Cemex, 187 pesos; de Apasco, 180 pesos; y del Cruz Azul, 170 pesos. Para que no nos vean la cara, para que no abusen los intermediarios de nosotros y aprovecemos bien ese apoyo del gobierno federal.</p>
+<p>La calidra, el bulto 71 pesos de Calidra y de Mitza 52 pesos; la varilla de 3/8, 136 pesos por parte de Ternium; por parte de grupo Simec, 126 pesos; y por Mittal, 126 pesos.</p>
+<p>Hagan la consulta de la región en la que ustedes están construyendo en la página de Profeco en el micrositio de quién es quién en los materiales de la construcción.</p>
+<p>Muchas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ahora sí vamos a escuchar en qué consiste este paquete de inversión del sector privado. Nos informa Jorge.</p>
+<p><strong>JORGE NUÑO LARA, TITULAR DE LA UNIDAD DE INVERSIONES DE LA SECRETARÍA DE HACIENDA Y CRÉDITO PÚBLICO: </strong>Gracias. Con su permiso, presidente. Buenos días.</p>
+<p>Saludo al secretario de Hacienda, al secretario de Comunicaciones y Transportes, a Carlos Salazar, presidente del Consejo Coordinador Empresarial, a los medios de comunicación. Bienvenidos. Buenos días a todos.</p>
+<p>Como recordarán, el 5 de octubre de este año se firmó un acuerdo entre el Gobierno de México y el sector privado por medio de cual se definieron acciones y proyectos de infraestructura financiados con capital privado. Para ello, nos dimos a la tarea de definir un mecanismo por medio del cual se promueve la inversión en infraestructura para apuntalar la reactivación económica, que ya está en marcha. Por ello, el presidente me ha solicitado explicar muy brevemente en qué consiste este mecanismo.</p>
+<p>En primera instancia se establecieron cuatro criterios para seleccionar proyectos:</p>
+<p>El primero, que la inversión privada fuera mayor a 50 por ciento en cada proyecto.</p>
+<p>Segundo, en proyectos en los sectores de energía, comunicaciones, transportes, turismo, agua saneamiento y medio ambiente.</p>
+<p>Tercero, que cada proyecto tenga una definición clara respecto a los beneficios que se obtendrán, así como de su alcance, costo y tiempo de ejecución.</p>
+<p>Y cuarto, que no tengan impacto en la deuda pública.</p>
+<p>Adicionalmente, en diferentes reuniones con el sector privado definimos un proceso de maduración de proyectos con el objetivo de analizar la viabilidad de los proyectos propuestos, conocer su grado de maduración y poder establecer una ruta que garantice que el proyecto se ejecutará, el proceso se aplica a cada proyecto y se divide en cinco etapas:</p>
+<p>En la primera etapa se visualizan las oportunidades.</p>
+<p>En la segunda se define el mecanismo con el que participará la inversión privada, se identifica la secuencia de autorizaciones y se hace una evaluación inicial para verificar su viabilidad económica.</p>
+<p>En la tercera etapa, llamada ‘análisis’, comienza el desarrollo de las factibilidades que son técnica, económica, legal, ambiental y social, se define el alcance del costo y tiempo de cada proyecto y se cuenta con la evaluación socioeconómica y financiera que confirman la viabilidad del proyecto.</p>
+<p>Posteriormente, en la etapa de autorización, se concluyen las factibilidades, se emiten los permisos y autorizaciones correspondientes de cada proyecto y se define el programa de ejecución.</p>
+<p>Finalmente, ocurre la etapa de ejecución, y al final de la etapa de ejecución la puesta en servicio.</p>
+<p>De esta forma cumplimos con la instrucción que pidió el presidente de contar con un proceso que permita seleccionar los proyectos con alta probabilidad de ejecución para que los beneficios esperados de cada proyecto ocurran.</p>
+<p>Cedo la palabra al secretario de Hacienda para que comente sobre la parte más importante del anuncio, que es los proyectos.</p>
+<p>Muchas gracias. Gracias señor presidente.</p>
+<p><strong>ARTURO HERRERA GUTIÉRREZ, SECRETARIO DE HACIENDA Y CRÉDITO PÚBLICO: </strong>Presidente, buenos días.</p>
+<p>Efectivamente, como señaló Jorge Nuño, este es el segundo anuncio y estos son cómo se distribuyen geográficamente los proyectos. Y la idea como quedó explicada en la parte del proceso de maduración es ir anunciando los proyectos que se encuentran ya muy cerca de iniciar su ejecución para que sean efectivamente aquellos que pueden tener un impacto inmediato en el empleo, en la inversión, etcétera.</p>
+<p>Como pueden ver, los proyectos se encuentran a lo largo de todo el país y estos son adicionales a, por ejemplo, las tres grandes obras que nosotros estamos realizando en el sur del país: el Tren Maya, el Transístmico y refinería de Dos Bocas.</p>
+<p>Si pasamos a ver cuál es el detalle de los proyectos específicos. Nosotros para este anuncio tenemos 29 proyectos por un total de 228 mil millones de pesos y este es el listado de los proyectos.</p>
+<p>El primero, como pueden ver ustedes, está estimado iniciar en noviembre de este año y es el último día de noviembre, y efectivamente ya inició. Este es un proyecto en el Estado de México con una inversión de 20 mil millones de pesos. Como lo señaló Jorge Nuño, hemos cuidado mucho el proceso para asegurarnos que podamos iniciar en las fechas en las que se tiene previsto.</p>
+<p>Tal vez yo haría, destacaría un par de los proyectos que se encuentran aquí. Uno de ellos es el número 4, el de la terminal de licuefacción de gas natural en Ensenada, Energía Costa Azul, es un proyecto de 47 mil millones de pesos. Como ustedes saben, hubo una consulta pública hace unas semanas a través de las cuales se aprobó este proyecto. Este es uno de los más grandes, si no es que el más grande de los proyectos que van a aparecer este anuncio.</p>
+<p>Otro proyecto muy interesante, yo tuve oportunidad de recorrerlo de hecho hace un par de semanas, es el número 5, este es un libramiento hacia la ciudad de Colima. En esa zona, digamos, el motor de la economía de esa zona es por supuesto el puerto Manzanillo.</p>
+<p>Colima es un estado relativamente pequeño, con 800 mil personas, así es que una parte importante de todo lo que se descarga en Manzanillo en realidad se lleva hacia el resto del país y pasa justo por esta carretera hacia Guadalajara, esto va a permitir hacerlo de una forma mucho más eficiente.</p>
+<p>Si pasamos al siguiente. Tenemos tres láminas que marcan el detalle de los… La siguiente. Esa. Tenemos tres láminas con el detalle de todos los proyectos. Aquí tal vez solamente para destacar algunos que son de un carácter distinto, mencionaría los que están en el 12 y el 13 que son dos proyectos complementarios que tienen que ver con la construcción de desaladoras en Los Cabos para dotar de agua potable a la ciudad de Los Cabos.</p>
+<p>Estos son algunos de los proyectos en los que el presidente ha estado muy pendiente. En su conjunto tienen alrededor de mil 700 millones de pesos.</p>
+<p>Y, finalmente, si pasamos a la última lámina lo que van a poder ahí ver destacado al inicio son una serie de proyectos que tiene la Comisión Federal de Electricidad que, aun cuando estos van a ser ejecutados fundamentalmente con recursos propios de la Comisión Federal de Electricidad, tienen dos características por las cuales decidimos incluirlo: una, son complementarios a algunos de los proyectos adicionalmente que habíamos anunciado; y otra, serán por supuesto motivo de contratos importantes para los proveedores de la propia CFE.</p>
+<p>Quisiera destacar tres temas importantes, tres temas relevantes sobre el portafolio de estos proyectos.</p>
+<p>La primera, ya hay 10 proyectos que se iniciaron del primer anuncio por un monto total de 43 mil millones de pesos y algo en lo que estamos poniendo el énfasis es en asegurarnos que estos proyectos puedan iniciar a la brevedad posible.</p>
+<p>Si le das un <em>click</em> ahí en la palomita, ahí podemos ver muy rápidamente algunas de las obras que ya se están ejecutando con respecto a estos proyectos. Y esto es justo lo que queríamos, que se tradujeran en inversión, que se tradujeran en empleo, etcétera.</p>
+<p>El segundo punto a destacar -si regresamos ahora- el segundo punto a destacar es que, aun cuando esto no fue pensado como algo central de los anuncios, en realidad hay ocho proyectos por 78 mil millones de pesos -si les das <em>click,</em> vamos a ver un mapita- que están asociados a mejorar la vialidad y generar vías de acceso para el Aeropuerto Internacional ‘Felipe Ángeles’, y éstos son una combinación de concesiones, desdoblamientos, etcétera. Como pueden ver, son un monto muy, muy importante, son proyectos, algunos de los cuales están por iniciar justo antes de finalizar este año.</p>
+<p>Y, finalmente, el otro proyecto que por su monto es significativo es el del proyecto de la terminal de gas cercana a Ensenada, que son 47 mil millones de pesos. Si le damos un <em>click</em> lo que vamos a ver ahí es el <em>render</em> de cómo va a quedar la terminal.</p>
+<p>Si pasamos a la penúltima lámina lo que vamos a poder ver es el efecto acumulado de los dos anuncios. En su total son 68 por proyectos por un total de 525 mil millones de pesos, el monto esperado son 2.3 millones de pesos y ya están en ejecución un número relevante de esas operaciones y esperamos que en los próximos dos meses tendremos adicionalmente los dos anuncios se traslapan, es decir, aunque inició 1º el de octubre, hay obras que están por ejecutarse, por iniciar su ejecución en ese… al mismo tiempo que van a iniciar las del segundo anuncio.</p>
+<p>Presidente, si le parece bien, dejamos ahora a Carlos Salazar, que hará un comentario.</p>
+<p><strong>CARLOS SALAZAR LOMELÍN, PRESIDENTE DEL CONSEJO COORDINADOR EMPRESARIAL (CCE):</strong> Muy buenos a todos.</p>
+<p>Señor presidente, mil gracias por esta invitación. Siempre es un placer estar aquí y sobre todo cuando tenemos la oportunidad de un anuncio tan importante como este, que viene a ratificar un acuerdo que fue firmado el día 5 de octubre.</p>
+<p>Muchas veces la crítica es que estas cosas se quedan solamente en la lista y en el buen deseo, y aquí queremos demostrar que tenemos un proceso ya estructurado, sostenible en el tiempo y con plena y absoluta comunicación con la Presidencia de la República y con todos los funcionarios.</p>
+<p>Yo quiero agradecerle enormemente aquí al secretario de Hacienda la manera tan clara, tan estructurada con la que él ha permitido al sector privado tener un canal de comunicación a través de la unidad de inversión que dirige de una manera también eficientísima Jorge Nuño. Esto nos ha permitido estructurar un proceso del cual creo que deberíamos de darle más atención, porque ahora sí todos los proyectos caen en alguno de estos cinco pasos que nos explicaba Jorge.</p>
+<p>Cuando un proyecto llega o el sector privado lo presenta, se le denomina a este proyecto como un proyecto potencial, que eventualmente lo podamos llevar a cabo. De esta fase de potencialidad del proyecto pasamos a un análisis mucho más profundo, que es el que realiza la unidad inversión, que es cuando el proyecto se empieza a preparar y se empieza a ver las consecuencias, se empieza a medir el impacto social del proyecto, se trata de estimar sus beneficios para que una vez que esto sea claro lo podamos pasar a una tercera fase, que es la fase de análisis.</p>
+<p>Ahí es donde los proyectos ya pasan por la prueba, como dicen los contadores, la prueba del ácido, si el proyecto va a dar los beneficios sociales que se estimaban y si va a tener el sustento financiero y económico para hacerlo viable.</p>
+<p>Una vez que tenemos todo esto, pasamos a la fase también enormemente compleja y que consume mucho tiempo, que es la fase de todas las autorizaciones. Tenemos que medir que el proyecto no tenga autorizaciones no deseadas, que no tenga un impacto inadecuado cuando este se implementa, que sea aceptado por la comunidad donde va a llegar el proyecto, que no tenga un detrimento sobre el medio ambiente y sobre todo que no tenga tampoco un detrimento sobre ningún derecho adquirido, sobre todo por la parte indígena del país. Ya que tenemos todo esto, el proyecto es viable de ejecutar.</p>
+<p>Les pongo foco en esto para que ustedes vean que el anuncio que estamos haciendo hoy implica una enorme cantidad de trabajo detrás de él, un enorme apoyo por parte de los funcionarios que tienen que tener la responsabilidad de cada uno y yo creo que una enorme consciencia de que esta es la mejor forma de poder llegar a recuperar rápidamente nuestra economía y hacerla crecer a las tasas que estábamos nosotros intentando lograr desde el principio de la administración del presidente López Obrador. A nosotros nos interesa muchísimo el tratar de apoyar este tipo de iniciativas, estructurarnos de la mejor forma para poder continuar en este proceso.</p>
+<p>Esto es enormemente importante, porque ustedes se pueden imaginar la cantidad de tiempo que esto puede consumir y para nosotros esto verdaderamente es algo que se está convirtiendo, señor presidente, en una obsesión diaria de tratar de presentar inmediatamente el proyecto, llevarlo a través de todas estas fases de la forma más rápida, porque estamos conscientes de que el tiempo apremia y que tenemos que reaccionar de la mejor forma, más rápida, en beneficio de nuestro país.</p>
+<p>Fíjense la parte sustancial de esto. No es solamente la numerología, la numerología cuenta, no hay duda que ahora entre el primero y segundo anuncio tenemos 68 proyectos. No hay duda que ese acuerdo firmado por el señor presidente el 5 de octubre con la parte empresarial se está implementando y llevando a cabo. No hay duda que esta es una muestra de confianza, de credibilidad y sobre todo de este llamado que hemos hecho siempre de estar constantemente respetando las normas, las leyes y cualquier regulación a la que estemos nosotros impuestos como sector privado.</p>
+<p>Pero lo más sustancial de esto es el impacto que eso tiene sobre el empleo. Hemos comentado nosotros públicamente, y lo vuelvo a reiterar, que quizás esta sea la acción más definitiva y más importante para la recuperación del empleo en nuestro país.</p>
+<p>El cálculo que la misma Secretaría de Hacienda ha hecho del impacto que vamos a tener con estos 68 proyectos, una vez que cada uno de ellos empiece a moverse, ya nos explicó el secretario de Hacienda que 10 de ellos ya hoy están ya en operación, nos mostró algunas gráficas de algunos ejemplos, están regados materialmente por todo el país, lo cual implica que todo el país puede tener los beneficios de esto.</p>
+<p>Pero vean ustedes que nada más lo implícito en el proyecto que estamos nosotros hablando representa la creación de 400 mil nuevos empleos para el país. Esta es la cifra o cercana a la cifra de lo que nos falta, presidente, para poder recuperar completamente los empleos que habíamos perdido.</p>
+<p>Vean la importancia que eso tiene, porque al final esto se traduce, ahora sí, en las caras de las personas, en la vida de las familias, en su capacidad de tener un trabajo digno, bien pagado y que esto vaya traduciéndose en una maquinaria que ahí mismo provoca consumo.</p>
+<p>La gran importancia de la inversión es que tiene un carácter dual, provoca consumo en el cortísimo plazo, porque desde el momento en que alguien tiene trabajo, empiece a obtener un salario y ese salario lo empiece a gastar en sus necesidades básicas e incrementa el consumo, posteriormente esa inversión aumenta la capacidad de producción de bienes y servicios en nuestro país.</p>
+<p>Tendremos más gas, más electricidad, mejores carreteras, mejores puertos, agua menos contaminada o sin contaminación, fórmulas para llegar al nuevo aeropuerto donde no se consuma tiempo y seamos más eficientes todos en el uso del tiempo de nuestras vidas.</p>
+<p>Así que tendremos en el mediano y el largo plazo un efecto sobre la eficiencia y la capitalización de nuestro país, pero en el corto plazo eso se traduce en consumo. Esto es para nosotros de la máxima importancia y es una muestra de nuestro interés en que tengamos una orientación, en que todas las decisiones del sector privado, y lo vuelvo a reiterar y se reiteró en el 5 de octubre, están comprometidas a hacer cosas que incrementen la dimensión social del empresario, que a través de hacer empresa la empresa tenga un impacto positivo sobre la sociedad y todo mundo estemos buscando el objetivo más importante que se ha impuesto esta administración, que es el incrementar el bienestar de todos los mexicanos.</p>
+<p>Así que yo celebro este anuncio por el monto y la importancia que tiene, estamos hablando del 2.3 por ciento del PIB. Si esto lo sumamos a las inversiones que son financiadas 100 por ciento con recursos públicos, creo que estamos intentando alcanzar la cifra de inversión pública en infraestructura más alta que hemos alcanzado en los últimos años en la historia económica de nuestro país.</p>
+<p>Esto tendrá, sin duda, un gran impacto y, sobre todo, creo que acostumbraremos a la opinión pública a que un acuerdo como este del 5 de octubre tendrá un impacto en sus vidas en la forma de tener mayores servicios a nuestra disposición y creo que todo mundo deberemos de celebrar una noticia de este tamaño.</p>
+<p>Hemos dicho reiteradamente que, si no aumentamos la inversión, no podremos lograr el crecimiento y obviamente el impacto sobre el bienestar. Y esto es una muestra práctica, pragmática, de cómo se está intentando aumentar la inversión por parte de esta alineación, diría yo, virtuosa, entre el sector público y el sector privado.</p>
+<p>Estamos ya trabajando en el tercer anuncio. Esperamos pronto, señor presidente, poderle presentar algunas otras ideas. Creo que también es muy, y lo decía el secretario de Hacienda, muy importante ver que ya estamos en todos los sectores. El sector de energía, que tanto se ha hablado de él, ya tiene proyectos sustanciales en esto, el proyecto de la planta de Ensenada para licuar gas es un proyecto enorme, grandísimo, ustedes vieron las gráficas hace un momento, el monto económico también es sumamente importante.</p>
+<p>Estoy seguro que todos estos proyectos traerán bienestar a las regiones donde se van implementando y yo espero que sigamos trabajando con el mismo ahínco, tratando de poder inmediatamente armar un siguiente paquete y estar con ustedes lo más pronto posible anunciando un tercer paquete que vaya incrementando esta inversión, al final pública y, al ser pública, a beneficio de todos los mexicanos.</p>
+<p>Creo que esta es la manera en que el sector privado no solamente demuestra, sino trabaja y podemos, definitivamente, orientarnos para mejores y mayores objetivos en el futuro.</p>
+<p>Muchísimas gracias, presidente, por esta oportunidad. Yo le aprecio muchísimo que nos permita hacer acciones que, estamos convencidos, son en beneficio de México.</p>
+<p>Muchas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, pues este es el segundo anuncio de inversiones del sector público con el sector privado, es una alianza para la inversión, para el desarrollo, para la creación de empleos. Es algo muy importante el que se esté uniendo el sector público, el sector privado, el sector social para impulsar el crecimiento de nuestro país, crear empleos y que haya bienestar.</p>
+<p>Eso es básicamente lo que queríamos informar y si les parece… Ah sí, faltan los videos. Esto que vamos a ver ahora y que siempre se analiza porque se lleva un seguimiento todos los lunes, esto tiene que ver con más inversión pública, pero también es el mismo propósito, es crear empleos.</p>
+<p>Desde luego, también participa el sector privado, porque en estas obras están trabajando empresas del sector privado, nacional y empresas extranjeras, pero la inversión es del sector público, se contrata a empresas para llevar a cabo estas obras, se generan muchos empleos, ya se está notando.</p>
+<p>Por ejemplo, Tabasco era uno de los estados con más desempleo histórico; a partir de que se inició la construcción de la refinería, ya cada vez más gente trabajando en esa obra; lo mismo el Tren Maya, va a significar generar miles de empleos, ya están contratando trabajadores para la construcción del Tren Maya; el Istmo, igual; el aeropuerto de la Ciudad de México, también muchos empleos.</p>
+<p>Todo esto es lo que está ayudando a que salgamos de la crisis económica y que sea pronto. Yo estimo que para el próximo trimestre, los primeros tres meses del año próximo, ya regresamos a la situación en que nos encontrábamos antes de la pandemia, ese es mi pronóstico, que vamos a poder recuperarnos y vamos empezar a tener ya un mayor crecimiento económico.</p>
+<p>Bueno, pues vamos con los videos.</p>
+<p><strong>(INICIA VIDEO)</strong></p>
+<p><strong><em>MODERADORA:</em></strong><em> La Secretaría de la Defensa Nacional informa los avances en la construcción del Aeropuerto Internacional ‘Felipe Ángeles’ al 30 de noviembre de 2020.</em></p>
+<p><em>En la terminal de pasajeros se continúa con la fabricación de rampas y escaleras, colocación de acabados e instalaciones hidráulicas, sanitarias, eléctricas y aire acondicionado, aplicación de pintura en muros exteriores e interiores. </em></p>
+<p><em>En la pista norte y central, plataforma y rodajes, se realizan los trabajos de conformación de las últimas capas de terraplén, tendido de la capa de base hidráulica, de la capa de concreto magro y concreto de alta resistencia como superficie de rodamiento. </em></p>
+<p><em>En el eje troncal de circulación y obras complementarias se lleva a cabo la construcción de las losas del viaducto elevado para el acceso al nivel de salidas de la terminal de pasajeros.</em></p>
+<p><em>En la vialidad y barda perimetral se efectúan los trabajos de construcción de columnas, así como el montaje de dovelas de concreto reforzado para la conformación de la barda perimetral.</em></p>
+<p><em>En la interconexión vial tramo caseta Tultepec-Santa Lucía se continúa con el habilitado de acero para los muros de contención y armado de pilas. </em></p>
+<p><em>En las redes eléctricas, voz y datos se realizan actividades de armado de acero, relleno y compactación de material.</em></p>
+<p><em>A la fecha se han generado 56 mil 650 empleos civiles, faltan 476 días de construcción. </em></p>
+<p><strong><em>VOZ DE MUJER:</em></strong><em> Gobierno de México. </em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>(INICIA VIDEO)</strong></p>
+<p><strong><em>ROCÍO NAHLE GARCÍA, SECRETARIA DE ENERGÍA:</em></strong><em> Va el reporte del 27 de noviembre desde la planta de tratamiento de aguas amargas de Dos Bocas.</em></p>
+<p><strong><em>VOZ DE HOMBRE:</em></strong><em> En esta semana, correspondiente al paquete 2, la empresa Samsung reporta la conclusión de las pilas en la planta reformadora de naftas. Con ello, 10 plantas de proceso químico ya se encuentran en su etapa de cimentación superficial, trabajando en diversos frentes como la construcción de la superestructura en los tambores de coque y los racks de tuberías en sus respectivos sectores dentro de los paquetes 1, 2 y 3.</em></p>
+<p><em>En el paquete 4 avanza la construcción de cimentación superficial en tanques verticales de tratamientos de aguas amargas y aminas.</em></p>
+<p><em>En lo que respecta al área administrativa y de servicios, se termina la colocación del multipanel en el muro de edificio satélite y drenaje de los edificios salvaguarda, contra incendio, mantenimiento y telecomunicaciones.</em></p>
+<p><em>En el cuarto de control se trabaja en el habilitado de acero, cimbra en losa de cimentación y vaciado de concreto en muros perimetrales, así como en la construcción de ductos de Telecomm, instalación eléctrica, hidráulica y sanitaria.</em></p>
+<p><em>Respecto al paquete 5, área de almacenamiento, se concluyó la construcción de las cimentaciones profundas de 44 tanques verticales y 31 esferas de almacenamiento. </em></p>
+<p><em>En tanques verticales se trabaja cuatro en excavación, tres en obra mecánica, 17 en proceso de relleno interior de anillo, nueve en armado de acero y colocación de cimbra, y nueve en formación de capa de reparto.</em></p>
+<p><em>En tanques esféricos se trabaja cuatro en excavación, uno en cimbra y acero de cimentación, seis en descabece de pilas, cuatro en colado de plantillas y uno en proceso de relleno de la base.</em></p>
+<p><em>También se avanza en un 89 por ciento en la libranza de la reubicación del ducto de la macropera del predio 1, esto para cumplir con los estándares de seguridad.</em></p>
+<p><em>Esta semana la empresa ICA continúa con la colocación de base para pavimento asfáltico para manejo industrial en las inmediaciones donde estará el quemador de gases y la planta primaria.</em></p>
+<p><em>En materia de sustentabilidad continúa el desarrollo de plantas de ornato y forestales en el vivero, algunas ya están listas para su colocación en campo.</em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>(INICIA VIDEO)</strong></p>
+<p><strong><em>VOZ MUJER: </em></strong><em>Tren Maya, reporte de avances. Semana 15 de 157.</em></p>
+<p><em>En el tramo 1 avanzamos en las actividades de subrasante, corte y terraplén, y obras hidráulicas.</em></p>
+<p><em>En el tramo 2 la producción de durmientes ascendió a 126 mil 686. También avance el desmontaje y el acopio de vía.</em></p>
+<p><em>En el tramo 3 continuamos con las actividades y obras de drenaje transversal para construir alcantarillas tubulares y de marco.</em></p>
+<p><em>En el tramo 4 destacan las actividades de terracería y los estudios preliminares.</em></p>
+<p><em>La voz de los pueblos y comunidades indígenas es imprescindible para la toma de decisiones en la vida pública de nuestro país. Por eso, este 28 y 29 de noviembre se realizó la segunda ronda de reuniones de seguimiento del proceso de consulta indígena. Se realizaron 14 nuevas reuniones regionales con estricto apego a las recomendaciones sanitarias. </em></p>
+<p><em>Mantenemos un diálogo permanente con los pueblos y comunidades indígenas para dar seguimiento a los acuerdos y dar a conocer los avances en el diseño e implementación del proyecto de desarrollo integral.</em></p>
+<p><em>Este proceso se da de manera circular y de buena fe entre las comisiones de seguimiento y verificación, integradas por autoridades líderes comunitarios y un comité técnico interinstitucional integrado por más de 30 instituciones federales.</em></p>
+<p><em>El proceso de diálogo y planeación participativa está encabezado por la Secretaría de Gobernación, el Instituto Nacional de los Pueblos Indígenas y Fonatur.</em></p>
+<p><em>El Gobierno de México reitera su compromiso con garantizar el respeto pleno a los derechos de los pueblos indígenas. </em></p>
+<p><em>El Tren Maya Avanza.</em></p>
+<p><strong><em>VOZ DE MUJER:</em></strong><em> Gobierno de México. </em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><em> </em><strong>(INICIA VIDEO)</strong></p>
+<p><em> <strong>VOZ DE MUJER:</strong> Construcción del Tren Interurbano México-Toluca. Reporte semanal.</em></p>
+<p><em>Tramo 1, 36 kilómetros. Avance a la fecha: 99 por ciento.</em></p>
+<p><em>Talleres y cocheras, se continúa con el habilitado e instalación de estructura de acero para el torno rodero y la cabina de pintura. </em></p>
+<p><em>Terracerías 3, se trabaja en el colado de la losa de soporte para la vía y se avanza en los rellenos del estribo donde inicia el viaducto cuatro.</em></p>
+<p><em>Viaducto 4, se colocó el concreto en la primera fase del penúltimo claro del viaducto.</em></p>
+<p><em>Vía e instalaciones bitúne. Avance: 43 por ciento.</em></p>
+<p><em>Bitúnel, se instalan las ménsulas de soporte para instalaciones de señalización, telecomunicaciones y control. </em></p>
+<p><em>Tramo 3, 17 kilómetros. Avance a la fecha: 52.2 por ciento. </em></p>
+<p><em>Frente 2, carretera federal, se colocaron seis columnas prefabricadas y un capitel en este frente.</em></p>
+<p><em>Obras complementarias.</em></p>
+<p><em>Se sustituyó el paso peatonal original en la zona de casetas por la interferencia con la obra del tren y se construyó una nueva estructura metálica con 63.43 metros de longitud, 6.50 metros de altura y 48 toneladas de peso.</em></p>
+<p><em>PIV La Venta, se concluyeron los colados de losa de rodamiento y parapetos del nuevo puente. </em></p>
+<p><em>Terminal Observatorio, aquí se unen las líneas 1 y 12 del Metro, así como la terminal de autobuses del poniente y paraderos de diversas rutas de transporte público.</em></p>
+<p><em>Es así que el Tren Interurbano México-Toluca dará servicio a más de 200 mil pasajeros diarios en mejores condiciones de movilidad. </em></p>
+<p><em>Secretaría de Comunicaciones y Transportes.</em></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> Gobierno de México. </em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Adelante.</p>
+<p><strong>PREGUNTA:</strong> Gracias, presidente. Buenos días. Sara Pablo, de <em>Grupo Fórmula</em>.</p>
+<p>Aprovechando la presencia de Carlos Salazar, le quiero preguntar cómo van las negociaciones por el tema del <em>outsourcing.</em></p>
+<p>Decían en cuanto al gobierno federal que hay 500 mil trabajadores subcontratados. Si esta cifra es correcta. Decía Joel Ayala que son 500 mil. ¿Qué se haría con estos empleados?</p>
+<p>Y para Carlos Salazar, preguntarle, ¿cómo van las conversaciones?, si nos puede dar un corte. Y si lo que les preocupa está centrado en el tema de las sanciones.</p>
+<p>Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>Bueno, tenemos hoy una reunión a las 7:00 de la noche sobre este tema, ya se lleva una semana aproximadamente que se está intercambiando información. Un grupo de representantes del sector privado y también de servidores públicos está revisando la iniciativa y hoy ya tenemos las conclusiones a las 7:00 de la noche.</p>
+<p>Acerca de los trabajadores que están subcontratados en el gobierno, pues vamos a establecer un mecanismo para que tengan sus bases. Vamos a predicar con el ejemplo, como siempre lo hemos hecho, nada más que vamos a esperar a que se tenga ya completamente revisada la iniciativa y que se discuta, se analice y en su caso se apruebe en el Congreso.</p>
+<p>Entonces, tenemos tiempo para ver esto.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Sí son estos 500 mil trabajadores del gobierno?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>No tengo el dato exacto, pero sí no sé a qué se refiera, porque en el caso de los maestros, en dos años ya llevamos regularizados, basificados, a cerca de 400 mil, tenemos el compromiso de hacer lo mismo con los trabajadores de la salud, que hay un poco más de 80 mil trabajadores eventuales o por contratos, pero no tengo el dato de todo el gobierno.</p>
+<p><strong>INTERLOCUTORA: </strong>Gracias. No sé si Carlos Salazar nos pudiera decir cómo van las conversaciones. Y en el tema de las sanciones ¿qué es lo que les preocupa?</p>
+<p><strong>CARLOS SALAZAR LOMELÍN: </strong>Muchísimas gracias por su pregunta. Tal como lo refiere el señor presidente, hemos estado trabajando activamente durante los últimos días equipos dedicados a analizar todo el asunto del <em>outsourcing</em>. Hoy por la noche, a las 7:00 pm, tendremos una reunión otra vez todo este equipo que ha estado tratando de exponer puntos de vista con el presidente para llegar a una conclusión de la iniciativa.</p>
+<p>Yo agradezco una vez más la oportunidad de presentar los puntos de vista del sector privado, las preocupaciones del sector privado y esperemos llegar a un acuerdo, siempre en beneficio del trabajador.</p>
+<p>Tal como lo hemos dicho, nosotros siempre hemos estado en contra de cualquier compañía que, usando cualquier fórmula o cualquier sistema, abuse del trabajador, limite sus prestaciones y al final evite lo que nosotros estamos intentando hacer y es que los salarios suban a los mejores niveles, y las prestaciones, aunadas a sus salarios, sean totalmente pagadas de una forma adecuada. Siempre estaremos en contra de la ilegalidad y siempre estaremos en contra de cualquier empresa que haga uso inadecuado de cualquiera de nuestras libertades que tenemos en nuestro país.</p>
+<p>Así que espero yo que lleguemos a un acuerdo que a todo mundo nos beneficie y que las preocupaciones del sector privado, que es seguir contando con flexibilidad, tener competitividad contra las demás empresas de otros lugares del mundo, permitirnos tener la capacidad de modificar nuestras estructuras de trabajo de acuerdo a la demanda y a la oferta, puedan ser escuchadas, como lo están siendo, y podamos entonces conducir a una solución que evite los problemas, que le dé mejores herramientas de supervisión a la autoridad, pero que al mismo tiempo la empresa pueda seguir funcionando con competitividad y con eficiencia. Eso es lo que estamos buscando y yo espero que lo vayamos a lograr.</p>
+<p>En la pregunta sobre las pensiones, también estamos trabajando, creo que ahí sí vamos bastante más adelantados y yo espero que también en los próximos días tengamos ya una conclusión total de un paquete que se está discutiendo en la cámara, que ya quede definida la fecha en la cual la Cámara de Diputados y posteriormente la de Senadores discutirán la propuesta que fue enviada, firmada por la autoridad.</p>
+<p>Ustedes recordarán que aquí mismo, en este salón, firmamos junto con el señor presidente y el secretario de Hacienda y los organismos empresariales una propuesta. Ah, y el sector de los trabajadores, también aquí importantísimo, que estuvo don Carlos Aceves representando al Congreso del Trabajo.</p>
+<p>Y pudimos en este enfoque de tres partes, el trabajador, el empresario y el gobierno federal, hacer una propuesta que, yo estoy convencido, será en beneficio de los mexicanos y quizás es una de las acciones de reconocimiento, de poder aumentar la posición de todos los mexicanos que trabajan de una forma formal para tener una pensión digna.</p>
+<p>Esta es quizás una de las fórmulas para beneficiar socialmente a una mayor cantidad de mexicanos. Esta iniciativa tocará la vida de más de 21 millones de personas y nos parece que es sumamente importante lograrla y los beneficios implícitos que tendrá, y los efectos también colaterales de aumentar la capacidad de ahorro del país, la cantidad de recursos para inversión.</p>
+<p>En los proyectos que hoy presentamos ya aparecen algunos proyectos de energía que serán financiados con fondos que vienen originados por el Sistema de Ahorro para el Retiro. Así que yo creo que esto viene cada vez cerrando mejor el círculo para que podamos impulsar mejores medidas para el crecimiento de México.</p>
+<p>Muchas gracias.</p>
+<p><strong>INTERLOCUTORA: </strong>Me refería al tema de las sanciones, de las sanciones que vienen contempladas en la iniciativa de subcontratación, si le parecen excesivas</p>
+<p><strong>CARLOS SALAZAR LOMELÍN:</strong> Mire, yo siempre he dicho que las personas que cumplen y cumplimos con la ley no nos tenemos que preocupar de las sanciones. Sabemos que hay sanciones terribles, que podrían llevar a una persona hasta la cadena perpetua y no nos preocupamos de eso porque al final el 99.99 por ciento de los mexicanos cumplimos con lo que nos corresponde y no amenacemos pensando en la sanción.</p>
+<p>A nosotros no nos preocupa particularmente la sanción, obviamente nos preocupa qué causas pueden de alguna manera hacer uso o detonar este tipo de sanciones. Nosotros las hemos explicado y es parte de lo que intentamos que quede clarísimo para que nadie sea sujeto, ni de un abuso en el futuro ni de una interpretación inadecuada de sus acciones.</p>
+<p>Yo creo que lo que nos tenemos que asegurar son qué detona una determinada sanción y una vez… Si alguien no cumple con la ley, nosotros somos los primeros en pedir que la persona sea castigada, porque nos afecta a todos, nos afecta a la sociedad en su conjunto.</p>
+<p>Muchas gracias.</p>
+<p><strong>INTERLOCUTORA:</strong> Gracias.</p>
+<p>Presidente, sólo un segundo tema. Se decía que ya la fiscalía está solicitando arresto en contra de Genaro García Luna por el delito de enriquecimiento ilícito. Si le ha pedido la fiscalía a la cancillería de su gobierno que se pida la extradición a Estados Unidos o esto no ha ocurrido.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, no tengo información sobre eso. Es un proceso que lleva a la fiscalía y se actúa en este y en otros casos con independencia, con autonomía. Es lo que puedo comentar.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, presidente. Diana Benítez, del periódico <em>24 Horas</em>.</p>
+<p>Preguntarle, pues a dos años de su gobierno el líder del PAN dice que usted ha llevado al país a un retroceso en la salud, en la seguridad y en materia económica.</p>
+<p>Y, por otro lado, el expresidente Felipe Calderón también dice que se ha hecho un manejo torpe de la epidemia contra el coronavirus, él dice que hay hasta 300 mil fallecidos. Preguntarle si usted le exigiría pruebas a Calderón de sus comentarios.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, mire, es normal que exista oposición, en un sistema auténticamente democrático, verdaderamente democrático, pues tiene que haber oposición y es legítimo.</p>
+<p>Antes no era así, antes era una minoría que se ponía de acuerdo para medrar, para saquear y robarse lo que es del pueblo y lo que es la de la nación, era una República simulada porque en realidad lo que imperaba era una oligarquía, era el dominio, el gobierno de una minoría rapaz. Entonces, ahora hay una auténtica democracia, hay libertades plenas, se garantiza el derecho a disentir y existe una oposición.</p>
+<p>Ahora que estuve en Baja California me dio mucho gusto, lo celebré porque no deja de ser un timbre de orgullo el haber dicho hace muchos años que eran lo mismo el PRI y el PAN, que era el PRIAN; y todavía muchos pensaban que era una exageración de mi parte, que estaba yo inventando.</p>
+<p>Ahora que voy me informo que se van a aliar el PRI y el PAN en Baja California, ya van juntos en contra de nuestro proyecto. Imagínense la dicha enorme que me produce el tener la razón histórica.</p>
+<p>Y además el que se terminen de quitar las caretas, las máscaras, se haga a un lado la simulación y ya de manera abierta se presenten como lo que son: representantes de una minoría que ahora se siente desplazada, porque eran los que mandaban, se sentían los dueños de México.</p>
+<p>Pero entonces todo está muy claro; por eso, pues hay que entender al presidente del PAN, al expresidente del PAN, es normal; además, es una temporada de elecciones.</p>
+<p>Nosotros vamos a seguir respetando el derecho a disentir, no vamos a perseguir a nadie, no va a haber fabricación de delitos, como era antes, no va a haber censura a los medios, aunque estén todos los días en contra nuestra, el <em>Reforma, El Universal</em>. Llama la atención porque antes eran periódicos del régimen, totalmente alineados, el <em>Reforma</em> nació durante el gobierno de Salinas de Gortari, <em>El Universal</em> durante años se dedicó a aplaudir y a callar.</p>
+<p>También eso es una distinción, sí produce satisfacción, esto quiere decir que vamos avanzando en el propósito de transformar a México. Cuando empiecen a aplaudirnos los del <em>Reforma, </em>los de<em> El Universal</em>, otros más, muchos más, preocúpense, ahí sí que ¡ay, nanita!, quiere decir que ya se frenó el proceso de cambio, de transformación; pero mientras estén atacando quiere decir que vamos bien, considero que lo que es malo para ellos es bueno para nosotros.</p>
+<p><strong>INTERLOCUTORA:</strong> Y precisamente, presidente, ayer decía en el acto de Tijuana que no han sido fáciles estos dos años de gobierno y parte por la acción de los conservadores.</p>
+<p>¿Cuál sería la acción de la oposición que cree que más atoró a su gobierno en estos dos años?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Miren, lo más difícil, hablando de tres obstáculos, tres problemas, lo más difícil, la pandemia; además, muy doloroso, eso, sí duele mucho, eso es lo que más nos ha afectado.</p>
+<p>En segundo lugar, pero muy distante de lo primero, la crisis económica, porque eso lo estamos enfrentando bien; la pandemia lo mismo, pero es algo muy fuerte, muy doloroso. La crisis económica bastó con no seguir la fórmula neoliberal de rescatar a los arriba, como le hacían siempre, como fue el Fobaproa, empezar a rescatar al pueblo, ayudar abajo y ahí vamos saliendo. Eso sería lo segundo.</p>
+<p>Y lo tercero, pero muy allá, marginal, lo ataques en los medios de comunicación y la reacción conservadora, porque tampoco ha sido muy significativa. Aquí está el ejemplo en el Zócalo, habían creo que 200, ya quedan 50. Y le meten y le meten y le meten, y todos los medios tomando declaraciones y no se consolidan.</p>
+<p>Ahí anda Claudio X. González apuradísimo. Hay un cartel diciendo: ‘Si no nos juntamos, esto se acaba’, dicen los intelectuales orgánicos, los periódicos conservadores, los políticos corruptos de los partidos, es decir, la unidad de todos porque, si no, se acaba. Pero no el país.</p>
+<p>Yo creo que esa alianza en contra les va a afectar más. Yo ni debería de estarlo diciendo, pero un consejo no se le niega a nadie. Porque, imagínense, los que pensaban que el PRI era una cosa y el PAN otra, y el PRD otra, y ahora todos juntos, pues va a tener un efecto de bumerang, un efecto contrario, les va a perjudicar mucho.</p>
+<p>La política no es ciencia exacta, es de aproximación, no es que dos y dos son cuatro, no, no es así. ‘A ver, nos unimos y de esta manera nos fortalecemos’.</p>
+<p>Y sí es muy vergonzoso. Imagínense qué estaría diciendo Manuel Gómez Morin sin viviera, o don Jesús Reyes Heroles o Carlos Madrazo padre, finado; bueno y los fundadores del PRD.</p>
+<p>Pero así están estas cosas, por eso es muy normal que se manifiesten los dirigentes del PAN; es su derecho, además.</p>
+<p><strong>INTERLOCUTORA:</strong> Finalmente, presidente, hoy en el periódico publicamos que el Instituto para Devolver al Pueblo lo Robado tiene un acumulado de 12 mil inmuebles que le generan un gasto casi anual de 200 millones de pesos.</p>
+<p>¿A qué se debe que exista este acumulado de tantos bienes inmuebles?, ¿por qué no se han subastado?, ¿es burocracia o a qué lo atribuye?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, es un rezago de muchos años. Es que en este instituto, que se llamaba antes SAE, se enviaba todo. Desaparecía durante el periodo neoliberal los Ferrocarriles Nacionales y ahí iba; desaparecía Banrural y ahí iba; la empresa Luz y Fuerza del Centro, ahí. Entonces, fueron acumulando bienes, más los que llegan por confiscación debido al contrabando. Entonces, tenían un gran negocio ahí también de alquileres de bodegas, muchos bienes echándose a perder.</p>
+<p>Todo eso se está limpiando, todo eso lo estamos recuperando y por eso se creó el Instituto para Devolver al Pueblo lo Robado, que todo lo que el gobierno vaya recuperando de reparación de daños, todo se le entregue de inmediato al pueblo, que no se acumule porque no es garantía que se va a conservar.</p>
+<p><strong>INTERLOCUTORA: </strong>¿Y esperarían a sacarlos todos en subastas o habría donaciones?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>En subastas y entrega a comunidades pobres, todo lo que estamos haciendo, no vamos a dejar nada y máxime si tener todas estas mercancías, todos estos bienes, nos cuesta rentar bodegas; incluso, se contrataban despachos de abogados para llevar juicios, millones de pesos. Es parte del caos que heredamos y estamos limpiando, y ahí vamos, nada más que era mucho.</p>
+<p>Imagínense, 36 años de saqueo, de abandono de los bienes públicos, el gobierno era una fuente de ingresos nada más para medrar, no se cuidaban los bienes públicos, no se cuidaba el presupuesto, era sacar provecho al amparo del poder público, con las recomendaciones, con el influyentismo, todo eso que está desapareciendo, todas esas lacras de la política.</p>
+<p>Ahora estamos, por ejemplo, recuperando las casetas porque estamos limpiando Capufe, que era otra cosa, como aduanas. Querían ayudar a un amigo, a un político que necesitaban darle un cargo, ahí va a Capufe. Y estaban a punto de destruir Capufe, como estuvieron a punto de acabar con Pemex, con la Comisión Federal de Electricidad. Entonces, estamos rescatando las aduanas, rescatando a Capufe, rescatando los puertos.</p>
+<p>Acabamos de llevar a cabo, y fue exitoso, un operativo para liberar las casetas de Sinaloa, de Capufe. Ya se hizo en Nayarit, este fin de semana se liberaron todas las casetas que estaban tomadas desde hace mucho tiempo en Sinaloa y vamos hacia Sonora porque está igual. Además, no sólo toman la caseta, cobran, sino amenazan a la gente, hay violencia; entonces, estamos poniendo orden en el caos.</p>
+<p>Antes no se podía porque si robaban los de arriba, pues los de abajo sentían que podían hacerlo o decían: ‘Si roban los del gobierno, ¿por qué no nosotros?, ¿de qué vamos a vivir?’ Pero ahora ya no es así, hay autoridad moral, ese es el cambio, esa es la transformación.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, señor presidente; buenos días funcionarios que lo acompañan, medios de comunicación. Iber Alejandro, de <em>Contrapeso Digital</em>.</p>
+<p>Señor presidente, en un acto de demagogia, el gobernador de Jalisco, Enrique Alfaro, resulta que dice que el gobierno federal le ha recortado nueve mil millones de pesos a dicha entidad federativa. Lo entendemos, esa parte de que tienen miedo de que ya vienen las elecciones, están apresurados.</p>
+<p>Pero en días recientes en plena pandemia, el gobierno de Jalisco adquirió 277 unidades con valor superior al millón de pesos, camionetas blindadas, machuchonas, como dice usted, que no tiene ni Obama, en plena pandemia, cuando la gente en Jalisco está buscando un taco, cuando están esquivando las balas de la violencia, en la cual no ha puesto orden el gobernador de Jalisco. Y no ha dicho cómo es que se adquirieron dichas unidades. ¿De qué privilegio goza Enrique Alfaro?</p>
+<p>Quien lucha por la justicia, señor presidente, no tiene nada que temer, lo ha dicho usted de manera muy atinada y yo creo que este es el caso. ¿Por qué no hubo para otorgarle un cubrebocas con ínfimo valor a Giovanni? Lo mataron por no portar un cubrebocas.</p>
+<p>Yo no tengo nada que decirle, presidente, que usted no sepa, usted ha estado en esa tierra. Entonces, la pregunta sería, presidente, ¿habría manera de que se inicie una investigación por medio de la Auditoría Superior de la Federación, por medio de la Unidad de Inteligencia Financiera, para se revise el gasto? porque el pueblo bueno y sabio quiere saber por qué un gobernador tiene 277 unidades blindadas, cuando el pueblo de México, muchos en la zona del norte, me ha tocado vivirlo, yo lo viví, la violencia en Tamaulipas, sé de lo que estoy hablando, en Jalisco es la misma situación, no puede ser que un gobernador tenga este privilegio.</p>
+<p>Y usted lo ha dicho, lo revisamos el día jueves, usted lo comentaba, señor presidente, de manera muy acertada, que el pueblo tiene derecho a checar en qué se está gastando el dinero el gobernador, señor presidente. Esa es mi primera pregunta.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>Bueno, nada más decir que nosotros no hemos dejado de entregar las participaciones federales, lo que le corresponde al estado de Jalisco, que puntualmente le entregamos el dinero que por ley le corresponde al gobierno del estado de Jalisco y a los municipios, y no les debemos nada, o sea, estamos al día.</p>
+<p>Aquí está el secretario de Hacienda. No sé si te acuerdas cuánto es lo que enviamos cada año a Jalisco de participaciones.</p>
+<p><strong>ARTURO HERRERA GUTIÉRREZ:</strong> De memoria no, pero efectivamente, nosotros incluso adelantamos las participaciones federales y después se hace un ajuste para saber si nos falta un poquito más o nos falta un poquito menos.</p>
+<p>Pero no solamente eso, sino por instrucciones precisas del presidente en algunos casos hemos dado adelantos, es decir, le hemos dado lo que les corresponde y les hemos adelantado.</p>
+<p>Las participaciones federales tienen un mecanismo muy específico, que está en una fórmula en la Ley de Coordinación Fiscal, depende de la recaudación federal. Ahora bien, la recaudación federal, como en cualquier país de mundo en esta contingencia, ha disminuido porque la actividad económica ha disminuido, pero en un sentido estricto no hemos hecho ningún recorte a ninguna entidad federativa.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, mientras estamos aquí ¿por qué no pides el informe? porque no está mal, las participaciones federales, a ver cuánto es lo que se le entrega a Jalisco.</p>
+<p><strong>ARTURO HERRERA GUTIÉRREZ:</strong> Es del año pasado.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Del año pasado, a ver si tienes el 20.</p>
+<p>Es que esto parece algo irrelevante, pero la gente por lo general no lo sabe y es importante que todos sepamos, porque el presupuesto no es del gobierno, el presupuesto es del pueblo. Todos los funcionarios públicos somos simplemente, en cualquier nivel de la escala, administradores de los dineros del pueblo.</p>
+<p>No alcanzo a ver.</p>
+<p><strong>ARTURO HERRERA GUTIÉRREZ:</strong> Es el mes de octubre, son 65 mil millones de pesos por el mes de octubre nada más.</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS, COORDINADOR GENERAL DE COMUNICACIÓN SOCIAL Y VOCERO DE LA PRESIDENCIA:</strong> Cuatro mil 156 ¿no?, es el número.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Para octubre ¿así es?, cuatro mil 156 millones de pesos, es lo de octubre, cuatro mil 156, sólo de este fondo.</p>
+<p><strong>ARTURO HERRERA GUTIÉRREZ:</strong> No está de más, en el fondo de estabilización de los ingresos de las entidades federativas, prácticamente 65 mil millones de pesos para el conjunto de las entidades.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, pero eso es para todo, pero ¿cuánto sería para Jalisco en particular?</p>
+<p>Esto es nada más un mes, cuatro mil 165 este fondo más otros apoyos que se entregan tanto al estado como a los municipios.</p>
+<p><strong>ARTURO HERRERA GUTIÉRREZ:</strong> Pudieron haber sido otros cuatro mil millones de pesos.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Otros cuatro mil en total, o sea, eso no es el mes, sino en este año se destinó un fondo de contingencia de más de 60 mil millones para ayudar a estados, un fondo que les corresponde a los estados se les entregó para compensar por la crisis económica, cuatro mil millones adicionales, no en un mes, en todo el año, eso se aclara para el caso de las entidades federativas.</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> De enero a octubre son 30 mil.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Cuánto?</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> Treinta mil 931.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> De enero a…</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> De enero a octubre.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> De enero a octubre.</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> Treinta mil 931.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> A Jalisco 30 mil…</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> 931.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> 931.</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> De las participaciones.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> De participaciones federales y es lo que por ley corresponde, es lo que el secretario de Hacienda acaba de informar.</p>
+<p>Hay una fórmula que permite entregar a cada estado lo que les corresponde.</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> Pero no, fueron 46 mil.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Cuarenta?</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> Cuarenta y seis mil.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Cuarenta y seis mil, bueno si seguimos aquí va a seguir aumentando.</p>
+<p><strong>INTERLOCUTOR:</strong> Con respecto a las camionetas, mi estimado presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Es que eso si no podemos nosotros opinar.</p>
+<p><strong>INTERLOCUTOR:</strong> Entiendo, entiendo la parte en la que usted no puede opinar, no puede meterse, pero sí se podría iniciar aunque sea una investigación, digo, porque es con dinero público.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No corresponde a nosotros eso, ya es del ámbito estatal, es el Congreso local el que tiene que llevar a cabo la fiscalización sobre el ejercicio del presupuesto en los estados.</p>
+<p>Por eso es muy importante que exista división y equilibrio de poderes, no sólo en lo federal, sino también los estados, porque si el gobernador es el que controla el Congreso pues ya tiene dos poderes, y si controla también al Tribunal Superior de Justicia ya tiene tres. Entonces, el poder de los poderes es el gobernador.</p>
+<p>Eso mismo pasaba a nivel federal, Poder Ejecutivo, Poder Legislativo, el Poder Judicial, pero, la verdad, es que el presidente encarnaba a todos los poderes, era como una monarquía sexenal. Entonces, la democracia tiene que significar división, equilibro entre los poderes.</p>
+<p>Todavía en la mayoría de los estados a los presidentes de los tribunales superiores de justicia de los estados los nombran los gobernadores. Me van a decir: ‘No es cierto, los nombra el consejo de magistrados’. No, cuando yo fui jefe de Gobierno fueron los magistrados del Distrito Federal a plantearme que iba a haber cambio y que se iba nombrar al presidente del Tribunal Superior de Justicia en la Ciudad de México, que si cuál era la línea, porque así era, y les dije: Ustedes elíjanlo, si así está en la Constitución.</p>
+<p>Luego fui a ver a un presidente de la Suprema Corte… digo, del Tribunal Superior de Justicia de la Ciudad de México porque acompañé al maestro Bátiz, que estaba haciendo unas gestiones en favor de gente que estaba encarcelada injustamente, y me dice el presidente del Tribunal Superior de Justicia de la Ciudad de México: ‘Licenciado, yo tengo que agradecerle porque por usted estoy yo aquí’, le digo: No, ya usted entró cuando yo no estaba de jefe de Gobierno. ‘No, pero usted dejó establecido el mecanismo de elección y por eso me eligieron los magistrados; si no, no estaría aquí’.</p>
+<p>Entonces, eso se tiene que ir logrando en todos los estados y hay que democratizar la vida de los estados, porque la federación no puede, entonces sí sería un sistema político centralista, el que nosotros mandáramos a hacer una auditoría a un gobernador de un estado. Eso no nos corresponde, eso tiene que ver con los congresos locales.</p>
+<p>Hay algo que se hizo, considero yo, de manera indebida. En el sexenio pasado se nombraron a fiscales estatales supuestamente autónomos y se nombraron por 10 años, y estos fiscales autónomos por 10 años no están a la altura de las circunstancias. No quiero generalizar, pero sí hay algunos que no cumplen y como son 10 años, son intocables.</p>
+<p>Bueno, se crearon también las fiscalías anticorrupción y como burla los gobernadores fueron los que pusieron a los fiscales anticorrupción, y también por 10 años. Eso se puso muy de moda durante el periodo neoliberal.</p>
+<p>En la parte económica y financiera, igual. Todos esos organismos reguladores que crearon con la llamada reforma energética, todos, ocho, 10 años; acaban de nombrar o están por nombrar al del Ifetel, al presidente del Ifetel, lo mismo, ocho, 10 años. ¿Y qué hacen?</p>
+<p>Cuando se crearon todos estos organismos autónomos era porque se iban a acabar los monopolios. Le llaman al monopolio eufemísticamente preponderante, actor preponderante, y sigue lo mismo, no hay ningún cambio.</p>
+<p>Es como el instituto de la transparencia, ¿no? cuesta más de mil millones de pesos sostenerlo y lo crearon en la época de mayor corrupción y nunca vieron nada ni había transparencia. Bueno, ese instituto lo crearon durante del gobierno de Fox y la primera decisión que tomaron en el instituto de la transparencia fue mantener en secreto las listas de las grandes empresas y bancos que habían resultado beneficiados con condonación de impuestos. Pero eso lo llevó a cabo el instituto para la transparencia.</p>
+<p>Y de las últimas cosas que hicieron, después de ya un buen tiempo, fue también declarar confidencial el expediente de Odebrecht, del instituto de la transparencia, y ahí está.</p>
+<p>Porque era la apuesta a la simulación, al engaño, por eso se gastaban tanto presupuesto en crear institutos, órganos reguladores, fideicomisos, fondos. Ahora hablaba yo de eso hace dos días en Baja California, de que el presupuesto no era utilizado para el desarrollo, para beneficiar al pueblo. El gobierno estaba ensimismado, todo el presupuesto se quedaba en el mismo gobierno para pagar sueldos elevadísimos, porque todos esos institutos tenían un trato de privilegio.</p>
+<p>Los fideicomisos, todos tenían sus aparatos, sus estructuras. En el caso de los fideicomisos, como aquí se vio y vamos a seguir informando porque están saliendo otros datos, de ciencia y tecnología utilizaban el dinero para construir edificios que ahí están como elefantes blancos; y desde luego lo que les importaba era la construcción porque ahí estaba el soborno, el moche, la corrupción.</p>
+<p>Entonces, tenemos que ir limpiando, pero tiene que ser de conformidad con la Constitución, lo que a nosotros nos corresponde y lo que corresponde a los estados tienen que hacer lo propio y los ciudadanos de los estados tienen que ayudar para que haya transparencia.</p>
+<p><strong>INTERLOCUTOR:</strong> Siguiente pregunta, señor presidente. Entiendo que su imagen es pública, entiendo que las conferencias matutinas están a disposición del pueblo bueno y sabio, quien decide informarse con quien más le apetezca, lamentablemente se ha reportado una situación y creo que no se le ha dado la debida importancia porque no se ha explicado como tal, el tema <em>Univisión</em>.</p>
+<p><em>Univisión,</em> resulta que en internet, específicamente YouTube, se apropió de su imagen. ¿Sí sabe usted que los derechos de autor en YouTube le pertenecen a usted?</p>
+<p>Y ahí no acaba la cosa, lo que pasa es que nosotros pues transmitimos en redes sociales nuestra opinión con respecto a los temas que acontecen a nivel nacional, mundial, etcétera, pero resulta que cuando yo quiero opinar sobre algo de la mañanera, pues resulta que en ese pedacito me dice <em>Univisión:</em> ‘No puedes transmitirlo, te voy a bajar el video’.</p>
+<p>Entonces, esto es un acto total de censura de quienes, durante años, señor presidente, lo censuraron a usted y le decían de cosas, y ahora resulta que el pueblo bueno y sabio no se puede informar porque los medios de comunicación tradicionales, en este caso específico <em>Univisión,</em> se apropió de su imagen en internet.</p>
+<p>Si estamos actuando en conformidad con la ley, pues debería haber una sanción; pero sabemos no va a proceder porque usted no intervendría en esa situación, porque luego si lo hace van a decir que usted es un dictador, como lo dicen constantemente.</p>
+<p>Lo que sí me gustaría, señor presidente, es que se le diera un seguimiento. Traigo las pruebas; si me lo permite, al culminar la conferencia matutina se lo podría entregar al vocero, que es Jesús Ramírez Cuevas, y hacerle la petición a Jesús Ramírez Cuevas que hable con el equipo de YouTube México y le diga: ‘Oiga, ¿por qué <em>Univisión</em> se apropió de la imagen del presidente?’</p>
+<p>¿De qué privilegios gozan los que siempre callaron como momias, los que hoy son sepulcros blanqueados y que le dan cobertura a infinidad de mentiras?</p>
+<p>Que hay una campaña en contra de nosotros, los medios alternativos, pues lo entendemos porque están desesperados, han perdido <em>rating</em>. Aunque digan algunos en redes sociales: ‘No, no hay que darle, ya no le voy a dar cobertura el presidente’, por favor, si el pueblo no es tonto, tonto es aquél que piensa el pueblo es tonto, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>Sí, pues hay que verlo nada más.</p>
+<p>¿En qué consiste eso? A ver.</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> Sí, qué tal, buenos días. Con su permiso, señor presidente.</p>
+<p>Solamente aclarar. Ya se habló con las personas responsables de YouTube México. Los derechos sobre la conferencia de prensa, sobre todo las actividades del presidente, son libres, son para todos los ciudadanos de México y del mundo que quieran transmitirlas, reproducirlas, comentarlas.</p>
+<p>Por eso les pedimos que, para quienes quieran utilizar la imagen de la conferencia de prensa o de los eventos del presidente, utilicen las redes oficiales, para que no haya alusión de que se utilice algún tipo de imagen que algún medio comercial utilice y de esa manera ya se libran de este tipo de reclamos y problemas.</p>
+<p>Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy bien.</p>
+<p>Allá, vamos con la compañera.</p>
+<p><strong>PREGUNTA:</strong> Presidente, buenos días.</p>
+<p>Primero preguntarle si durante la reunión del Gabinete de Seguridad la jefa de Gobierno de la Ciudad de México le informó sobre el homicidio de los empresarios francomexicanos y si en algún momento el gobierno federal podría apoyar en este caso.</p>
+<p>Y se lo comento porque, a raíz de este caso, se están realizando investigaciones, pero muchos empresarios ya están, digamos, hartos de que están siendo extorsionados, cobro de piso, en fin.</p>
+<p>¿Qué es lo que se la ha informado sobre este tema? Esta sería mi primera pregunta.</p>
+<p>Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, informó la jefa de Gobierno en la mañana y ya están haciéndose las investigaciones. Ella va a dar a conocer sobre el avance en las investigaciones acerca de este homicidio, bueno, la pérdida de la vida de dos personas y van a informar.</p>
+<p>Y se está trabajando para hacer una investigación a fondo y se pueda aclarar todo, encontrar a los responsables, el móvil de estos asesinatos. Y hay que tener confianza de que vamos a poder avanzar en la investigación, como lo hemos hecho en otros casos.</p>
+<p>Ya se detuvo prácticamente a todos los que participaron en el atentado contra el jefe de la policía de la Ciudad de México, ya se tienen detenidos a prácticamente todos y a los jefes de los que participaron en el asesinato de mujeres y niños en Sonora, en Bavispe. Y así se está trabajando, o sea, no hay impunidad para nadie y se está actuando.</p>
+<p><strong>INTERLOCUTORA:</strong> En el caso aquí de la Ciudad de México el crimen organizado todavía sigue operando de una manera importante. ¿Aquí por parte de las autoridades ya está controlado?, ¿qué es lo que está pasando?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues aquí se heredó una situación muy difícil. La historia sobre la inseguridad en la ciudad la conozco.</p>
+<p>Antes de que se dieran los cambios en la ciudad, antes de que gobernara por primera vez el ingeniero Cárdenas en la ciudad había una situación de mucha violencia en la Ciudad de México, no predominaba el crimen organizado, pero había mucha violencia, sobre todo mucho robo, también homicidios, pero no participaban bandas, no actuaba el crimen organizado en la ciudad. A partir del ingeniero Cárdenas empezó a reducirse la violencia en la ciudad.</p>
+<p>Antes había la idea de que vivir en la ciudad era un gran riesgo, que se vivía mejor en los estados, cualquiera de los estados de la República. Todo eso cambio al grado de que cuando empezó la violencia, que se origina con la llamada guerra a las drogas, al narcotráfico, mucha gente de los estados viene a vivirse a la Ciudad de México, porque se había logrado pacificar la ciudad.</p>
+<p>Esto dura hasta, yo creo que el segundo año de Mancera; a partir del tercero, el cuarto, empiezan a descomponerse las cosas, y ya al final ya empiezan a registrarse actos relacionados con la delincuencia organizada, se introdujeron grupos de la delincuencia organizada, incluso extranjeros que robaban domicilios, aumentó el número de homicidios en la ciudad.</p>
+<p>Cuando yo terminé el gobierno no llegaba a dos homicidios diarios en la ciudad, en el caso de robo de vehículos estaba como en 120 cuando recibí; lo dejé como en 80, todavía Marcelo redujo más el número de homicidios y de robo de vehículos, que son dos delitos que se pueden medir, que no hay cifra negra porque, como lo hemos dicho, no se puede dejar sin levantar un acta o abrir una carpeta de investigación en el caso de un homicidio o robo de vehículo, porque ahí hay incluso dos maneras de medirlo:</p>
+<p>Por un lado, los afectados que tienen que ir al ministerio público porque se preocupan que utilicen los carros robados para cometer otros delitos, entonces de inmediato van y se presenta una denuncia.</p>
+<p>Por el otro lado, los carros en un porcentaje considerable están asegurados, las aseguradoras llevan también una estadística sobre robo de vehículos.</p>
+<p>Entonces, ahí se había reducido mucho en general y luego se levanta y llega a estar hasta seis homicidios diarios la ciudad, lo que nunca había pasado. Entonces, ahora Claudia está haciendo un buen trabajo enfrentando todo esto que recibió, toda esta herencia, pero sí siguen habiendo desgraciadamente actos violentos. Yo espero que se siga avanzando y se serene y se pacifique la ciudad, como todo el país.</p>
+<p><strong>INTERLOCUTORA:</strong> Presidente y también hablando en el caso de Ciudad de México, el Valle de México y en el tema del COVID, en los últimos días se ha informado de un incremento de casos, incluso ya algunos hospitales reportan saturación. ¿Qué informe le dio al respecto?</p>
+<p>Y se habla de que se puede pasar a semáforo rojo. ¿Se habló durante esta reunión?, ¿se hizo un apartado para hablar sobre esta posibilidad?, ¿se sugirió?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Tenemos hoy una reunión a las 8:00 de la noche, terminando la reunión de la subcontratación o <em>outsourcing</em> vamos a tener una reunión de salud, como todos los lunes, y hacemos una evaluación, nos reunimos todo el sector para ver qué está sucediendo en cada entidad y tomamos decisiones.</p>
+<p>No hay en el corto plazo ningún riesgo de saturación en la Ciudad de México, es decir, hay camas, hay equipos, hay médicos. Desde luego no queremos eso, no queremos que la gente se enferme y vaya a los hospitales, aunque tengamos espacio, lo que queremos es que no nos contaminemos, no nos afectemos, no haya infecciones, en fin, que no haya casos por COVID, ese es nuestro propósito y estamos trabajando en eso; pero en cuanto a la ocupación, no sé si tengan ahí para saber cómo estamos.</p>
+<p><strong>INTERLOCUTORA:</strong> Entonces ¿queda descartado el semáforo rojo?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Eso lo ven los especialistas, ellos son los que definen.</p>
+<p>Pero esto es muy importante, el que no nos rebase el número de contagios, que tengamos posibilidad de atender a los enfermos. En el caso de la ciudad es 65 por ciento de ocupación, pero tenemos 35 de disponibilidad.</p>
+<p>Esto es hospitalización general y en hospitales para terapia intensiva 61-39 de disponibilidad. Hemos llegado a estados en momentos críticos hasta de 95 por ciento y en esta reunión de los lunes decidimos fortalecer a esos estados. Fue el caso de Tabasco que llegamos al 95 por ciento, Chihuahua hace poco, Durango, Tamaulipas y ahora en la Ciudad de México estamos pendientes. Si hace falta reforzamos.</p>
+<p><strong>INTERLOCUTORA:</strong> Presidente, aprovechando que está el procurador, si nada más nos puede comentar en qué terminaron estas negociaciones para un eventual precio en el incremento del kilo de tortillas, si nos puede comentar.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues lo ve la Secretaría de Economía, pero si tú quieres plantear.</p>
+<p>Nada más yo quiero hacer un comentario sobre eso. Pedirles a los productores de harina de maíz, a las dos empresas que distribuyen la harina, que nos ayuden para que no haya aumento.</p>
+<p>Yo estoy seguro que vamos a contar con su apoyo, que dada la circunstancia por la que estamos atravesando por la pandemia, además el esfuerzo que estamos haciendo, porque no están aumentando los energéticos, no está aumentando el diésel, no está aumentando la gasolina, todos estamos ayudando, se han portado muy bien los empresarios de México, muy bien, muchos a pesar de la crisis no despidieron a sus trabajadores, eso lo tenemos que reconocer, entonces pedirle a los que producen la harina de maíz que nos esperen.</p>
+<p>No es una orden, no es un decreto, es una solicitud amigable para que esperemos unos meses, porque necesitamos también acabar con esa mala costumbre de que terminaba un año, iniciaba el otro con aumentos de precio, ahí venían los gasolinazos, ahí venían los aumentos en todo. Vamos a terminar con eso, que nos ayuden, ya va a haber tiempo para para hacer ya un análisis bien sobre sus costos.</p>
+<p>Le pedí a la secretaria de Economía que hablara con ellos, de modo que si los busca la secretaria de Economía, Graciela Márquez, sí, en efecto, es de mi parte, quiero que ella personalmente hable con estos empresarios; desde luego con libertad, porque no se trata de querer resolver las cosas por decreto, tenemos que apegarnos a lo que es la realidad del mercado, los costos, pero hacer el análisis cuidadoso y que nos esperen para ayudar a la gente.</p>
+<p>Sin maíz no hay país, la tortilla es todo, entonces que nos ayuden.</p>
+<p><strong>RICARDO SHEFFIELD PADILLA: </strong>Hemos tenido reuniones la Secretaría de Economía, Sader, Profeco, en este tema. Asimismo, la Cofece ha estado realizando trabajos importantes con relación al maíz blanco y la tortilla.</p>
+<p>Comentarles que la tortilla en tortillerías a lo largo de este año ha tenido un aumento de 1.3 por ciento acumulado en todo el año, y de autoservicios la tortilla ha tenido un aumento de 0.9 por ciento a lo largo del año.</p>
+<p>Entonces, afortunadamente es un sector que ha sido solidario con todos los que somos consumidores de este importante alimento que es la tortilla, y que está en tres segmentos: la tortilla artesanal que no es parte de este estudio y que lo hay en todo México con distintas características y distintos maíces; y el de maíz blanco, tanto el que se expende en autoservicio como el que se expende en tortillerías.</p>
+<p>Hubo un aviso de estas dos grandes empresas de harina de maíz nixtamalizado de que iban a aumentar 6.5 por ciento, que porque lo venían haciendo dos veces al año y ahora sólo una, pero ustedes han escuchado el llamado del presidente que se fundamenta que no sólo no han aumentado los precios de los energéticos, sino que la gran cosecha de maíz blanco, que es la de Sinaloa y la que viene en el Bajío y en Jalisco, no ha tenido aumentos; al contrario, una pequeña diminución en relación al año pasado.</p>
+<p>Si no ha subido el maíz, si no han subido los energéticos, si no han subido otros insumos, no habría motivo para subir la harina de maíz nixtamalizada ni la tortilla.</p>
+<p>Algunos hablan de que quieren prever los aumentos del próximo año. Pues que no le hagan al pitoniso, mejor que sean solidarios con todos nosotros como consumidores y hagan caso al llamado del señor presidente.</p>
+<p><strong>INTERLOCUTORA:</strong> Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ya quedamos, ya. Mañana no vamos a estar aquí, pero pasado mañana sí.</p>
+<p>Bueno, mañana están invitados al informe.</p>
+<p><strong>PREGUNTA:</strong> ¿Cuántos invitados vendrán?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Guardando la sana distancia van a estar creo que 80 invitados.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Empresarios?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí de todos los sectores del país se van a invitar para que estén y se va a transmitir, no en cadena nacional, eso ya no se acostumbra, ya ahora es aquí con las redes, con la señal que se transmite para que el medio que quiera difundir el mensaje lo pueda hacer. Entonces nos vemos, si les parece, pasado mañana, y mañana el informe. Muchas gracias.</p>
+<p>Muchas gracias a Carlos Salazar por su apoyo, por la manera en que estamos poniéndonos de acuerdo. Claro que hay diferencias, tiene que haber, pero lo importante es que hay diálogo y se busca siempre el acuerdo.</p>
+<p>Muchas gracias.</p>
+<p>---</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>14.07.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/14-07-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=132681' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F14-07-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F14-07-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66iol-f-016371baa-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":20,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"38f4c9e8","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":54967,"ak.gh":"23.47.207.46","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616139","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==W6g1fTckPL9UuoXcBGFPQO+s8KgR0aIw6M6xZpTVWmFkRh9uoS1h5gYaxdBL0OGqd7X4BE8cVOSSjVSzRwL/DUcyi34GDu9DFtWVOUBSgo8JWMCdGJYXnQteTtOwR4eHZCPTvkQfRVfDBC1XZzHHlWbHS9877UajDwVpAQHlBvYqoZSt4pNMZrYArEzxy8Q8yVTQns+z4fk+I6CIFntokuABvdV8gyb/esdhF8oRVik88LjDMP4cbs1v2O0ULh4YBGN1uUCfm0RBAmLC+r2aWXnJfepFWRFyemcHWqg+7HdPeyhMdUupxezWQTGIy1vaF8ZooAi1yrkgifO/3eYXfFP1nK1VXQwu082h+I+oZLnIVVPZq2wLZ7zTY+0dkPYA9szkL4/+Uyj5Cha5nm+R5QqmOfk4A8WHFYTGEyKzj/w=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-132681 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef1f3d16b4e" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>14.07.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 14.07.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-132681" class="post-132681 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2020/07/14-07-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-07.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/07/14-07-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-07-745x450.jpg" alt="14.07.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">14.07.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><em>2020, Año de Leona Vicario, Benemérita Madre de la Patria</em></p>
+<p>&nbsp;</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Buenos días.</p>
+<p>El día de hoy, martes 14 de mayo, vamos a… de julio, me pusieron ‘mayo’, bueno, de julio, martes 14 de julio, vamos a informar, como todos los martes, acerca de la situación en el país.</p>
+<p>Como es sabido, todos los martes informamos de la situación de salud, en especial lo que está sucediendo y lo que se lleva a cabo para enfrentar la pandemia del COVID-19. En esta ocasión va a informar el secretario de Salud, el doctor Jorge Alcocer, que va a introducir, como lo hace siempre la exposición colectiva.</p>
+<p><audio src="https://lopezobrador.org.mx/wp-content/uploads/2020/07/2020-07-14-Matutina.mp3" controls="controls"></audio></p>
+<div id="fb-root"></div>
+<p><script async="1" defer="1" crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&amp;version=v7.0" nonce="4ehbHHnc"></script></p>
+<div class="fb-video" data-href="https://www.facebook.com/lopezobrador.org.mx/videos/731406067644968" data-width="500">
+<blockquote cite="https://www.facebook.com/lopezobrador.org.mx/videos/731406067644968/" class="fb-xfbml-parse-ignore"><p><a href="https://www.facebook.com/lopezobrador.org.mx/videos/731406067644968/">Presentación de ventiladores desarrollados por Conacyt. Conferencia presidente AMLO</a></p>
+<p>Trabajamos para equilibrar el cuidado de la salud de los mexicanos y la recuperación de la economía. Conferencia matutina.</p>
+<p>Publicado por <a href="https://www.facebook.com/lopezobrador.org.mx/">Andrés Manuel López Obrador</a> en Martes, 14 de julio de 2020</p></blockquote>
+</div>
+<p>Va a intervenir el doctor Hugo López-Gatell, va a intervenir la directora de Conacyt, María Elena Álvarez, y el secretario de Relaciones Exteriores por lo que tiene que ver con paisanos que están siendo apoyados, auxiliados y también desgraciadamente paisanos que han fallecido en el extranjero, en Estados Unidos más que en otros países. Entonces, vamos a dedicar el día de hoy al informe de salud.</p>
+<p>Tenemos una muy buena noticia para el pueblo de México, el que ya se logró producir un ventilador con tecnología mexicana, un ventilador hecho en México, lo cual va a significar ser autosuficientes en este equipo que es básico, fundamental. No teníamos estos equipos.</p>
+<p>Gracias a la solidaridad internacional se pudieron conseguir en los momentos más difíciles y ya se tiene un equipo de estas características hecho en México. Un trabajo de los investigadores, de los científicos del Conacyt en colaboración con otros investigadores del país y también de empresas nacionales y de empresas extranjeras que están ayudando, que se están sumando, que han hecho posible que se tenga ya este equipo para que no falte en los hospitales, pero eso lo va a explicar a detalle la directora del Conacyt.</p>
+<p>Empezamos con el doctor Jorge Alcocer.</p>
+<p><strong>JORGE ALCOCER VARELA, SECRETARIO DE SALUD:</strong> Muchas gracias, señor presidente. Es un gusto estar nuevamente con ustedes. Muy buenos días.</p>
+<p>Como ya dijo el presidente, hoy queremos comunicarles en este día del Pulso de la Salud una muy buena noticia. Gracias al esfuerzo de coordinación, de consenso y de un intenso trabajo entre el Conacyt y sus centros públicos de investigación, junto con instancias del gobierno federal, el sector universitario y el empresarial, se ha logrado construir dos tipos de ventiladores de alta especialidad accesibles a todas y todos, en respuesta a las necesidades más urgentes en este escenario de la pandemia. Todo ello reduciendo gastos y aumentando eficiencia, de este modo fortalecemos nuestra independencia tecnológica y ganamos en soberanía nacional.</p>
+<p>Los nombres de los recién nacidos aquí presentes están a la altura de la hazaña tecnológica: Gätsi, ‘suspiro’ en otomí, y Ehécatl 4T o Dios del Viento en náhuatl. La doctora Elena Álvarez-Buylla, directora de Conacyt nos informará de este gran logro.</p>
+<p>Previo a ello tendremos la tradición, sí, la tradición, o sea, la comunicación de noticias del COVID-19 en su entorno nacional en voz de nuestro apreciado Hugo López-Gatell Ramírez, a quien le cedo la palabra.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ, SUBSECRETARIO DE PREVENCIÓN Y PROMOCIÓN DE LA SALUD:</strong> Con su permiso, presidente. Secretario, canciller, directora, muy buenos días; muy buenos días tengan todas y todos ustedes.</p>
+<p>Seré breve presentando la síntesis del informe técnico que presentamos ayer por la anoche. Siguiendo la instrucción del señor presidente, presentamos detalles de los 32 estados para que la población tenga una panorámica de cómo está ocurriendo la epidemia de COVID-19 en el país.</p>
+<p>Retomo algunos de los conceptos básicos para recordar estos elementos que hemos estado marcando a lo largo de esta epidemia.</p>
+<p>Primero, es recordar que esta es una epidemia que afecta a todo el mundo, afecta a toda la humanidad, a toda la especie humana y todos los países del mundo tenemos la epidemia.</p>
+<p>Segundo, es que en México tenemos una epidemia que empezó el 28 de febrero con el registro del primer caso y terminará probablemente en octubre el primer ciclo de la epidemia. Hemos dicho una y otra vez, preparémonos para una epidemia larga porque en ese sentido es muy probable que se extienda hasta octubre.</p>
+<p>Tercero, es posible que en octubre enfrentemos en el mundo entero, de manera específica en el hemisferio norte, la temporada de influenza. Esta es seguro que va a ocurrir, pero lo que es probable es que el COVID-19 o la COVID-19 pudieran incorporarse también a un nuevo ciclo de transmisión entre octubre y marzo de 2021. Esto no está garantizado que ocurra así, pero es una predicción que crecientemente consideran factible las agencias de salud públicas del mundo.</p>
+<p>Lo otro que es importante es que en la comunidad en la que usted vive se presenta COVID a una intensidad y una duración diferente de la que se presenta en otras partes del país. Esto es la información nacional que presentamos aquí, es el resumen de lo que ocurre en el país, pero no hay una sola curva epidémica, un solo ciclo epidémico, sino que van ocurriendo a distinto tiempo.</p>
+<p>Pero afortunadamente el conjunto de las curvas epidémicas del país, si las vemos estado por estado, tenemos el punto en donde empiezan a coincidir aquellas que ya van en reducción con aquellas que apenas empiezan y unas que están en la parte intermedia.</p>
+<p>Concretamente en la Ciudad de México y en la zona conurbada del Valle de México, los municipios del Estado de México, vemos ya un descenso que ya se ha ampliado por más de tres semanas. Esto es una noticia muy positiva porque es la zona de la mayor intensidad epidémica. Si en la zona de mayor intensidad epidémica empieza a descender la epidemia, desde luego el conjunto de la epidemia en el país también empieza a descender.</p>
+<p>El segundo caso de esta situación es el estado de Sinaloa donde también hay ya un descenso progresivo y sostenido, no de tan larga duración, pero ya sostenido.</p>
+<p>Veamos entonces lo que está ocurriendo a nivel del país. En esta gráfica sintetizamos la información numérica y sobre todo de manera visual usted puede ver la tendencia que tiene la epidemia.</p>
+<p>Estimamos que se han registrado 341 mil 149 casos. Hemos explicado que los casos estimados es la suma de aquellas personas enfermas en quienes ya se ha demostrado la infección por el virus que causa COVID más la mitad de las personas que están esperando el resultado de la prueba.</p>
+<p>¿Por qué decimos la mitad?</p>
+<p>Porque semanalmente y para cada estado estimamos qué porcentaje de personas que tienen los síntomas COVID y se les hace la prueba van a resultar positivos y son aproximadamente la mitad, con variaciones entre los distintos estados.</p>
+<p>Desafortunadamente han fallecido 37 mil 409 personas, que es en su mayoría personas que han fallecido directamente por las consecuencias del daño que este virus produce y las complicaciones derivadas; ocho de cada 10 personas se recuperan espontáneamente, pero dos de cada 10 pueden presentar una enfermedad importante, una enfermedad suficientemente grave como para amenazar que tengan un desenlace fatal, estas personas son en su mayoría mayores de 60 años de vida, tienen enfermedades crónicas y por eso insistimos, hay que apresurarse a acudir a los hospitales si se tienen estas situaciones.</p>
+<p>Vean ustedes, finalmente, en la gráfica la curva verde. La línea verde representa la tendencia semanal de la epidemia y podemos ver que desde la semana 25, en este momento estamos en la semana 29, es decir, en los últimos 15 días habiendo quitado las primeras semanas del mes de julio, todo junio, tuvimos ya esa fase de estabilización.</p>
+<p>La siguiente, por favor.</p>
+<p>Esto se puede ver con mayor detalle cuando representamos además que, de todos los casos, todas las personas que se han registrado y confirmado tenemos que el 14 por ciento han enfermado en los últimos 15 días.</p>
+<p>Y es importante distinguir la suma de casos que se van presentando acumulados desde el inicio de la epidemia de aquellos que han enfermado en los últimos 15 días.</p>
+<p>¿Por qué razón?</p>
+<p>Porque solamente las personas que enfermaron en los últimos 15 días son las personas que tienen enfermedad activa, representan el impulso de la epidemia. Los demás, quienes enfermaron en febrero, en marzo, en abril, en mayo algunos lamentablemente perdieron la vida, pero quienes no ya no tienen la enfermedad y, de hecho, son parte de las personas que se recuperaron y potencialmente pudieran ser inmunes, resistentes, no volverse a infectar y contribuir a que paren los contagios.</p>
+<p>La mortalidad también tiene una reducción. Vean ustedes, es la línea azul oscuro que está hasta abajo.</p>
+<p>Y recordar, también lo hemos dicho repetidamente, tanto en este foro de la mañana como en el informe técnico de la noche, la vigilancia epidemiológica registra una parte de la información para tomar decisiones en tiempo real distinto a la estadística vital que registra por otro tipo de mecanismos.</p>
+<p>Y estamos ya en avanzada fase en los procesos de trabajo tanto con el gobierno de la Ciudad de México como con el Inegi, Renapo, el Instituto de Salud Pública, la Organización Mundial de la Salud, para estimar el exceso de mortalidad que esta epidemia pudo haber traído a México. Y es un ejercicio semejante que se hace con una metodología estándar en los demás países del mundo, en todo el mundo ha habido un exceso de mortalidad derivado de esta epidemia y próximamente presentaremos esos resultados.</p>
+<p>Sigamos con las penúltimas diapositivas. Tenemos la velocidad de crecimiento de la epidemia. A algunas personas les ha inquietado dos ideas que parecieran encontradas:</p>
+<p>Una, ¿por qué decimos que la epidemia se ha hecho más lenta, que está en una fase de control, cuando vemos que hay más casos día con día?</p>
+<p>No debe sorprender que existan estas dos ideas, las dos son correctas, las dos son ciertas, las dos tienen evidencia documental muy clara.</p>
+<p>Por un lado, desde luego que existen más casos cada día, porque todavía estamos en una fase de crecimiento de la epidemia; sin embargo, la epidemia crece más lentamente, eso es la aceleración de la epidemia. Entonces todavía los casos de hoy son menos que los casos de mañana, pero el cambio entre hoy y mañana es cada vez menor. En este momento es 1.4 por ciento, como se puede ver en la diapositiva, tanto para los casos que se confirman como -en la siguiente diapositiva- para las personas que fallecen.</p>
+<p>Esto empezó en 26 y 30 por ciento respectivamente, y de esa proporción ya ha llegado a 1.4 por ciento y sigue bajando. Llegará un momento en que sea cero, pero ahí no se acaba la epidemia, ahí lo que empieza es a haber el descenso de la epidemia y después será menos uno, menos dos, menos tres, que quiere decir que los casos del día siguiente son en número menores que los del número anterior.</p>
+<p>Veamos ahora la ocupación hospitalaria y con esto terminamos. Hemos hecho un esfuerzo muy grande por suplir las limitaciones, las deficiencias de un sistema de salud que desde hace 30 o 40 años nunca creció a la velocidad que tenía que crecer para cubrir las necesidades de una población, que desde luego siempre aumenta en tamaño, particularmente en las zonas fuera de las grandes ciudades es donde existe y ha existido la mayor carencia de servicios de salud.</p>
+<p>Entonces, hicimos una reconversión hospitalaria. Gruesamente, un tercio de los hospitales del país en el sector público han sido reorientados específicamente para la atención de COVID y en general los síndromes respiratorios agudos graves. Teníamos 645 hospitales en la tercera semana de abril, tenemos en este momento más de 915 hospitales destinados a COVID.</p>
+<p>En este momento hemos logrado que no se sobreocupen y que podamos tener en cada entidad federativa una reserva de camas de hospitalización que permitan que las personas se atiendan y que los esfuerzos por protegerles, recuperar su salud y salvar la vida estén oportunamente trabajando.</p>
+<p>Desafortunadamente, la epidemia, por supuesto, que es una enfermedad letal, como lo es en todo el mundo, y esto es muy desafortunado, todas y cada una de las personas que pierden la vida es un hecho lamentable, pero lo importante es que se hagan todos los esfuerzos y que la capacidad del Estado esté disponible para darle oportunidad a todas las personas a recibir el manejo médico adecuado.</p>
+<p>Cuarenta y cinco por ciento de los hospitales dedicados a COVID están en ocupación -de las camas más correctamente, no los hospitales, sino las camas- y podemos ver en orden de izquierda a derecha las entidades federativas que en este momento tienen la mayor intensidad o proporción de ocupación.</p>
+<p>Empezamos con Nuevo León, ya no es Tabasco, Tabasco lo era hasta anteayer, pero los esfuerzos adicionales que hemos hecho por expandir la capacidad hospitalaria en Tabasco han dado resultados.</p>
+<p>En su momento, si Nuevo León solicita el apoyo, también estaremos en apoyo para Nuevo León, como lo hemos estado para cualquier entidad federativa que se acerca al límite de ocupación necesario.</p>
+<p>Y terminamos con la última, que es las personas críticamente enfermas. Necesitan un apoyo especial que hoy será comentado con esta excelente noticia sobre el desarrollo científico y tecnológico de México, y ese es el tipo de máquinas que se utilizan para salvar la vida de las personas críticamente enfermas; 39 por ciento de las camas que han sido habilitadas para este propósito están ocupadas, el resto es 61 por ciento y están libres y lo vemos en orden decreciente de las entidades federativas de izquierda a derecha, nuevamente empezando con Nuevo León, sigue Tabasco y luego otras entidades.</p>
+<p>Esto es todo, presidente.</p>
+<p><strong>MARÍA ELENA ÁLVAREZ-BUYLLA ROCES, DIRECTORA GENERAL DEL CONSEJO NACIONAL DE CIENCIA Y TECNOLOGÍA (CONACYT):</strong> Con su permiso, señor presidente. Secretario de Salud, secretario de Relaciones Exteriores, querido Hugo López-Gatell, director general del Cidesi.</p>
+<p>Ante los muchos retos de esta enfermedad, de la COVID-19, el presidente de la República nos indicó al Conacyt enfocar esfuerzos prioritarios para poder desarrollar este tipo de equipos de alta especialidad que son claves y estratégicos y que hasta este nuevo régimen México dependía del extranjero, como lo hace en muchos otros aspectos de tecnología estratégica.</p>
+<p>Para lograr esto hicimos una coordinación de sectores del gobierno mexicano muy importantes, también de empresas, del sector académico y el reto es justamente invertir esta relación entre gasto y eficiencia.</p>
+<p>En los regímenes pasados aumentaba el gasto, pero bajaba la eficiencia. En este nuevo régimen de la Cuarta Transformación, a pesar de que no aumenta el gasto, la eficiencia en innovación, el cambio tecnológico de vanguardia está aumentando.</p>
+<p>Articulamos todas las capacidades del Conacyt y también sus centros públicos de investigación, de manera sobresaliente el Cidesi. Le agradezco muchísimo al director general de este centro, el doctor José Pineda, quien nos acompaña aquí amablemente, y también a otros centros públicos de investigación del Conacyt, el Cimav, Comimsa, el CIO, que han participado de manera muy activa para lograr el tener este equipo de alta especialidad, varias instancias del gobierno federal y de manera sobresaliente empresas que estuvieron dispuestas a colaborar ante esta epidemia sin fines de lucro como Dydetec, Safran, Prettl y una universidad pública estatal, la Universidad de Guadalajara.</p>
+<p>Se hizo un comité técnico para asegurar alta especialidad, bioseguridad, etcétera.</p>
+<p>Estos son todos los pasos. Como ustedes ven, hay una cantidad de pasos muy importantes para lograr equipo de alta especialidad tan complejos como estos garantizando la seguridad biomédica, que es imprescindible en el desarrollo de estos equipos. Esto implicó grandes grupos de especialistas, de científicos.</p>
+<p>Son dos ventiladores, son dos modelos. Uno, 100 por ciento del Estado mexicano, con una patente, la primera en este tipo de equipo, de patente estatal, el Ehécatl 4T; el otro, en colaboración con la empresa Dydetec, Gätsi, también un equipo de alta especialidad. Ambos comparten un alto grado de seguridad biomédica, de calidad, de sensores de control, ventilación controlada por presión y volumen, fácil limpieza.</p>
+<p>Uno está basado en un principio isomórfico con el pulmón, basado en el uso de una bolsa ambú, físicamente muy similar a un pulmón; el otro es un ventilador. Ambos son invasivos, ventiladores mecánicos invasivos de mezcla de gases.</p>
+<p>Estos son los costos de inversión. Como ustedes verán, con un costo muchísimo más barato del que hubiera implicado comprar mil ventiladores, que son los que se están ya fabricando masivamente, son 500 y 500 de cada uno de ellos. Hubiera costado mucho más el adquirirlos en el extranjero, inclusive en alguna de las empresas nacionales.</p>
+<p>Y esta es la secuencia de maduración tecnológica. Lo más sobresaliente de esto es que logramos en cinco meses lo que generalmente dura o tarda entre tres y cinco años para desarrollarse.</p>
+<p>En resumidas cuentas, la soberanía científica y la independencia tecnológica es la forma de responder de este Gobierno de México, de la Cuarta Transformación, a los retos. En particular, estamos viviendo el nacimiento de una empresa nacional, de una industria nacional para salvar vidas.</p>
+<p>Quisiera presentarles un video que detalla y resume para ustedes todo este proceso de innovación tecnológica.</p>
+<p><strong>(INICIA VIDEO)</strong></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> En diciembre de 2019 China alertó al mundo sobre la presencia de un nuevo virus en la ciudad de Wuhan. La nueva enfermedad COVID-19 se esparció rápidamente y en marzo de 2020 la Organización Mundial de la Salud declaró la pandemia, y con ello la puesta a prueba de los gobiernos y sus sistemas de salud.</em></p>
+<p><em>De acuerdo con el doctor Hugo López-Gatell, subsecretario de Prevención y Promoción de la Salud, frente a esta alarmante situación, el Gobierno de México inició los preparativos desde los primeros días de enero.</em></p>
+<p><em>El binomio fundamental para enfrentar la contingencia sanitaria se definió desde el principio: el gobierno y el pueblo de México.</em></p>
+<p><em>La confianza del pueblo en su gobierno y la puesta en marcha de una acertada estrategia basada en evidencia científica se convirtieron en una auténtica epopeya que logró, al enfrentar la pandemia, que en México la infraestructura sanitaria no fuera desbordada, un objetivo sustancial que por desgracia no pudieron cumplir algunos de los países más ricos de la Tierra.</em></p>
+<p><em>El primer paso fue fortalecer el resquebrajado sistema de salud. Se incrementaron rápidamente el número de hospitales y de camas hospitalarias, las unidades de cuidados intensivos pasaron de tres mil 552 en enero a 10 mil 360 al 10 de julio de 2020, el personal de salud se incrementó en 47 mil 39 personas.</em></p>
+<p><em>Desde el primer momento y en coordinación con las autoridades de Salud, las acciones del Conacyt formaron parte del torrente de iniciativas para enfrentar la pandemia.</em></p>
+<p><em>El presidente Andrés Manuel López Obrador dio la instrucción precisa al Conacyt de priorizar la fabricación de ventiladores en México. Con ese fin, hemos coordinado saberes y esfuerzos en ciencia, tecnología e innovación, de integrantes de los centros públicos de investigación, de instituciones de educación superior y de empresas privadas con ética social y vocación solidaria.</em></p>
+<p><em>En medio de la pandemia y las dificultades que impuso la escasez de suministros, emprendimos el proceso de diseño, elaboración de prototipos, difícil obtención de partes y componentes, así como pruebas diversas con altos estándares de seguridad biomédica y calidad de ingeniería.</em></p>
+<p><em>Es un proceso que, en condiciones normales, se lleva de tres a cinco años y pudimos concluirlo en tanto sólo cinco meses.</em></p>
+<p><em>Es el nacimiento de una industria nacional para salvar vidas, una hazaña de la voluntad del conocimiento y de la cooperación. Tendrían que ser ventiladores mecánicos invasivos, cien por ciento mexicanos, económicos. Ahora podemos producir ventiladores de alta calidad a precios menores que los del mercado.</em></p>
+<p><em>Esta primera remesa no hubiera sido posible sin la participación del equipo del Conacyt, de las instancias de salud y otras del gobierno federal, de instituciones de educación superior y de empresas sin fines de lucro. A todas y todos expresamos reconocimiento. </em></p>
+<p><em>De manera especial, nuestro reconocimiento a la Fuerza Aérea Mexicana, que nos apoyó decididamente con el transporte de piezas.</em></p>
+<p><em>Ehécatl 4T es un ventilador que tendrá patente del Estado mexicano, un equipo médico de altos estándares de seguridad biomédica y calidad de ingeniería, 100 por ciento mexicano, diseñado en el Centro de Ingeniería y Desarrollo Industrial, Cidesi, centro público de investigación del Conacyt. Posee un microcontrolador capaz de calcular y aplicar la presión necesaria durante los ciclos de ventilación en pacientes a través de una bolsa autoinfable, conocida como ambu bag. </em></p>
+<p><em>Gätsi, este modelo fue diseñado por especialistas de la empresa Dydetec, con transferencia tecnológica y escalamiento con apoyo de Cidesi y del Conacyt. La ventilación mecánica está basada en un sistema de control por microprocesadores que son accionados neumáticamente. La unidad de control que posee este equipo tiene la capacidad de calcular y aplicar las funciones necesarias para impulsar la ventilación mecánica controlada o asistida durante los ciclos de ventilación en pacientes adultos y pediátricos.</em></p>
+<p><em>Ambos modelos fueron probados en pulmones artificiales y sistemas biológicos, cumplen con especificaciones internacionales. La creación de estos equipos médicos demuestra la capacidad científica y tecnológica del sistema estatal mexicano de humanidades, ciencias, tecnología e innovación. </em></p>
+<p><em>Los ventiladores Ehécatl 4T y Gätsi son prueba contundente de independencia y soberanía científica y tecnológica, significan el nacimiento de una industria nacional para salvar vidas.</em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>MARÍA ELENA ÁLVAREZ-BUYLLA ROCES:</strong> Es cuanto, señor presidente.</p>
+<p><strong>MARCELO EBRARD CASAUBON, SECRETARIO DE RELACIONES EXTERIORES:</strong> Con su permiso, señor presidente. Colegas, señoras, señores de los medios de comunicación, redes.</p>
+<p>Bueno, informarles respecto a la protección y atención a mexicanas y mexicanos en el exterior y las tareas a cargo de esta secretaría en relación a la pandemia del COVID-19.</p>
+<p>En primer lugar, informarles que el día de hoy recibiremos un vuelo proveniente de Emiratos Árabes Unidos con 39 personas, mexicanas, mexicanos.</p>
+<p>Y también se va a recibir por parte del gobierno de ese país una donación para el Instituto de Seguridad Social de Trabajadores al Servicio del Estado, el Issste, que son batas, cubrebocas, inmunoglobulina, guantes, cobertores y caretas protectoras, que mucho agradecemos. Ahí estaremos en la noche en el aeropuerto para recibir este vuelo.</p>
+<p>Ya está disponible -también informarles- la plataforma de transparencia de donaciones internacionales que ha recibido nuestro país por conducto de la cancillería para combatir la pandemia del COVID-19. La página es transparencia.sre.gob.mx, es una plataforma donde ustedes ya pueden consultar todas las donaciones que hemos recibido y qué destino han tenido, como la de hoy, que, como dije, va al Issste.</p>
+<p>Es sobre adquisición de insumos y equipo médico dese exterior, la función de la secretaría es facilitar eso. Nosotros no adquirimos, son diferentes instituciones, pero nuestra tarea es acercarlos y garantizar que lleguen a su destino.</p>
+<p>Hasta el día de hoy se han recibido 25 vuelos desde China, ocho vuelos desde Estados Unidos y el vuelo que recibiremos hoy en la noche de Emirato Árabes.</p>
+<p>El total de insumos desde los puentes aéreos con Estados Unidos y China es el siguiente, ahí tienen ustedes el cuadro:</p>
+<p>Cubrebocas, 16 millones 493 mil 200; guantes de exploración, un millón 228 mil; mascarillas, un millón 499 mil 800; caretas protectoras, 547 mil 500, los <em>goggles</em>, 426 mil 040; ventiladores, cuatro mil 454; pruebas PCR, 300 mil; kits de transporte de pruebas, 40 mil; trajes de protección 27 mil 200; metros cúbicos de tela especializada para fabricar cubrebocas, nueve metros cúbicos; termómetros infrarrojos, dos mil; y batas quirúrgicas, 46 mil 600.</p>
+<p>Respecto a acciones consulares, las más destacadas tienen que ver con pruebas gratuitas que se están llevando a cabo en Houston. En Houston ahora tenemos un rebrote significativo, por lo que vamos a tener que reducir la actividad directa al consulado, probablemente en otras ciudades de Estados Unidos también, en Florida, Texas y probablemente California. Pero bueno, estos son los trabajos hasta el día de ayer.</p>
+<p>Una panorámica del programa Ventillas de la Salud, que se organizó junto con la Secretaría de Salud. Al día 10 de julio se han atendido de manera remota un millón 728 mil 514 personas, compatriotas nuestros en Estados Unidos, la población que se ha beneficiado directamente para alguna atención médica son 384 mil 39 y los aliados que participan siete mil 972 entre organizaciones e instituciones.</p>
+<p>Esta es la entrega de apoyos para alimentación.</p>
+<p>Aquí están los consulados que funcionan con sana distancia y siguiendo las regulaciones en los Estados Unidos. Cerrados solamente tenemos, como dije, Houston, Austin y Portland al día de hoy, todos los demás están funcionando.</p>
+<p>Como ustedes saben, el fin de semana, y queremos agradecer muy especialmente a la Fuerza Aérea Mexicana que nos hizo favor de apoyarnos para este traslado, pues ha sido muy lamentable para familias mexicanas en Estados Unidos la pérdida de familiares y nos pidieron un apoyo. Por instrucciones del presidente de la República, se hizo este traslado de 245 urnas con cenizas de personas, de connacionales fallecidas por COVID-19 en Estados Unidos, especialmente o principalmente en Nueva York, esperamos otro vuelo similar más adelante.</p>
+<p>Y esto sería lo que tendría yo que informar el día de hoy. Muchas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, es el informe. Abrimos para preguntas.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, compañeros y compañeras de los medios, buenos días a todos los invitados aquí, buenos días, señor presidente.</p>
+<p>Primero que nada, ya había tenido la oportunidad de comentarle a usted señor presidente, pero aprovecho que está aquí el canciller Marcelo Ebrard para decirle que habíamos hecho ya la petición con respecto a los trabajadores, exjubilados del servicio exterior, habíamos pedido que si se les podía ya pagar sus sueldos atrasados, que habían recibido un aumento desde el sexenio pasado. Estos compañeros excónsules agradecen que hayan ya recibido ese apoyo.</p>
+<p>Y de alguna manera, así como venimos a hacer la petición y se nos escuchó, también reconocer que se atendió el llamado y agradecerles, simple y sencillamente porque están haciendo su trabajo, al presidente y también usted, canciller. Gracias.</p>
+<p>También por otro lado, agradecer. No tenemos la oportunidad de poder estar en las conferencias también de la Secretaría del Trabajo, pero por lo menos se nos atendió, gracias a usted también aquí, que hicimos la petición que de pudieran recibir a algunos trabajadores del, del… bueno sindicalizados del SME. Y ese día que usted dio la instrucción, la secretaria atendió también el llamado, se pudo levantar ahí un grupo de personas que estaban haciendo ahí un mitin afuera de la secretaría, se les atendió, los atendió la secretaria. Y también, nada más agradecerle que también ya platicaron y bueno, ya se hicieron las mesas de diálogo, también agradecer eso.</p>
+<p>Y ahora sí también, tengo dos temas que quiero comentar aquí.</p>
+<p>Uno, el primero es: señor presidente, yo quería comentarle en cuestión al discurso que hizo en la Casa Blanca. Ha sido considerado en diferentes medios, pero principalmente, como usted dice, en las benditas redes sociales como uno de los más emotivos de la historia de México.</p>
+<p>En ese sentido, si pudiera compartirnos, señor presidente lo que el presidente Donald Trump le comentó después de este discurso en esa conferencia. Básicamente porque desde una forma muy sutil, usted ha solicitado respeto para nuestra nación, a nuestros paisanos y nuestro pueblo. Y si me permite, ahorita una segunda pregunta.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, creo que fue un reconocimiento mutuo. Él también dio un discurso importante, respetuoso con la comunidad mexicana en Estados Unidos reconociendo, aceptando que la población de origen mexicano en Estados Unidos es de 36 millones de habitantes. Esto no se había dicho por parte del gobierno de Estados Unidos. Yo, como lo expresé, estimo que son 38 millones, pero ya al hablar de 36 millones es comprender a todos. E            se es un buen mensaje.</p>
+<p>Y el reconocerle a la comunidad mexicana los aportes, lo que ha contribuido para el desarrollo de esa gran nación. Entonces, fue un buen discurso del presidente Donald Trump y nosotros hicimos lo mismo, lo propio.</p>
+<p>Fue un buen encuentro, se dijeron las cosas con libertad, dijimos lo que sentimos y representamos a nuestro pueblo como lo merece, con decoro y con dignidad. Eso es lo que puedo comentar.</p>
+<p><strong>INTERLOCUTOR:</strong> Gracias, señor presidente. Un segundo punto. El pasado 6 de julio, ayer hizo ocho días, presidente, exactamente, un día después de la caravana motorizada del grupo antiamlo, Frenaaa, la pregunta del comunicador Hans Salazar versó sobre imágenes y mensajes distribuidos vía WhatsApp y que son por todas y todos nosotros conocidos, imágenes incitando a la violencia en su contra, presidente.</p>
+<p>Este cuestionamiento del comunicador hacia usted no le pareció a un empresario, quien días después difundió un video en donde amenaza de forma alarmante y grosera su pretensión de cacería al comunicador, diciendo, y cito textual: ‘Este reportero va a pagar caro, porque si tú te vas a atrever a hablarle al mandatario nacional en una mañanera por unas cosas que viste en las redes sociales, que tú mismo inventaste y que no tienes una sola prueba, tienes que pagar caro eso. Ayúdenme a conseguir el nombre de ese reportero, identifiquemos a esa persona. Se busca’. Fue parte de lo que dijo este señor en dicho video. Además, atribuyó la pregunta hecha por el reportero a Hans, se lo atribuyó a Epigmenio Ibarra y a Jesús Ramírez Cuevas aquí presente.</p>
+<p>Ante los comentarios del líder de Frenaaa, la organización de periodistas víctimas de desplazo interno, forzado en México solicitó que se active el mecanismo de protección a periodistas para Hans Salazar, además exigió que se garantice el respeto a la libertad de prensa y de expresión y cesen las amenazas al reportero e hizo un llamado a la Fiscalía General de la República para que investigue estos hechos.</p>
+<p>Sumado a lo anterior, presidente, el pasado sábado un usuario en Twitter, respondiendo al llamado de este líder de Frenaaa difundió datos personales y oficiales del comunicador, aunque después el mismo usuario retiró dicha información; sin embargo, los datos ya habían sido difundidos poniendo en riesgo al comunicador y a su familia.</p>
+<p>Señor presidente, independientemente de que el comunicador Hans Salazar ha acudido a las instancias correspondientes para proceder legalmente contra este tipo de amenazas y de violencia en su contra, pedimos a usted de parte de miles de mexicanos que se pida, si es posible, a Twitter México, ya que usted ha dicho que van a presentar, si es posible a YouTube México, se investigue quién está detrás de esta cuenta en especial titulada o el usuario <em>Lectomano1</em> y de estos ataques masivos que están recibiendo varios youtubers, medios independientes y personajes como el mismo Epigmenio Ibarra, que ha sido culpado de esta situación.</p>
+<p>Pedimos que se investigue esta situación y también que pudieran ser canceladas estas cuentas.</p>
+<p>Es todo, presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, son tres aspectos ¿no?, sobre este caso:</p>
+<p>Primero, que se tiene el derecho a acudir a la autoridad competente cuando hay amenazas, se puede ir a una autoridad, al ministerio público y se puede presentar una denuncia.</p>
+<p>Esto se ha venido haciendo en algunos países, de manera especial en España, donde actos de provocación, de amenaza, se manifiestan públicamente en las redes. Hace poco pusieron de blanco a unos dirigentes de un partido liberal, progresista, los pusieron de blanco y les tiraron, o sea, a sus imágenes. Se presentó una denuncia y se castigó a los responsables, inclusive toda la comunidad política de España expresó su repudio a este hecho reprobable. Entonces, sí es posible, de acuerdo a la ley.</p>
+<p>Lo segundo es la obligación que tenemos para dar protección a periodistas y a cualquier dirigente social amenazado. Existe un protocolo sobre este asunto, en el caso de Hans Salazar se ofrece este protocolo.</p>
+<p>Y lo tercero, que es por lo que yo más me inclino, es buscar la conciliación, no llevar las diferencias que son consustanciales a la democracia a niveles de agresión, de amenaza, de odio, de violencia.</p>
+<p>Yo creo que eso es lo que todos debemos procurar, el que no haya violencia, que haya respeto. Ya lo he dicho muchas veces, tenemos que tener diferencias, no podemos pensar todos de la misma manera. En una democracia hay pluralidad, se tiene que garantizar el derecho a la libre manifestación de las ideas, sólo en las dictaduras hay silencio, no se puede protestar, hay represalias, hay censura, hay represión; pero eso es en las dictaduras, en las democracias es la libertad lo que prevalece.</p>
+<p>Entonces, busquemos que no haya violencia, que no haya odios y que también se reflexione que los ciudadanos mexicanos, mujeres, hombres libres muy conscientes no ven bien esos desplantes de prepotencia, no le ayudan al que se lanza de esa manera, que insulta, que falte al respeto, que amenaza, se les revierte, eso no está bien visto.</p>
+<p>Por ejemplo, en algunas protestas están saliendo cartulinas clasistas, racistas, de pena ajena. Es muy lamentable que exista tanto atraso, afortunadamente es una minoría, porque la mayoría de nuestro pueblo tiene una mentalidad distinta, respetuosa.</p>
+<p>Salió ahora una cartulina que decía: ‘Quiero vivir en un lugar donde no me gobierne mi sirvienta’, algo así, de lo más clasista que puede haber. Y Lo constatamos en un comentario de un intelectual graduado en el extranjero que habló de un pueblo con tradición, con cultura, como pocos en el país y en el mundo, habló de Putla, Oaxaca, con una actitud despectiva, racista. Estamos hablando de un académico, graduado en universidad extranjera, fue secretario de Relaciones Exteriores de México.</p>
+<p>Porque no en todo el pueblo de México, sino en una minoría, y esto no tiene nada que ver con la clase social a la que se pertenece, yo les diría que en los sectores populares hay más respeto, pero existe una franja de la población que son muy clasistas, muy racistas.</p>
+<p>Yo recuerdo que cuando ese comentario de Jorge Castañeda en las redes una persona que escribió: ‘Si esto dicen en público, si así se expresan en público, imagen cómo se expresan en lo privado, en las pláticas en lo privado’. Entonces, esto está saliendo, brota, existía, pero no se manifestaba por la hipocresía, entonces ahora se está mostrando el cobre. Hasta cierto punto es bueno porque se hace a un lado la simulación, fuera máscaras.</p>
+<p>Pero bueno, que se garanticen las libertades nada más que estoy seguro que esas expresiones, esas manifestaciones, esa forma de protestar no les ayuda, no lo ve bien el pueblo de México.</p>
+<p>Entonces, vamos a garantizar protección a Hans. No creo también, y lo deseo, que no pase a mayores, pero todos debemos serenarnos, todos serenos.</p>
+<p><strong>PREGUNTA:</strong> Gracias, señor presidente. Sandra Aguilera, de <em>Grupo Larsa Comunicaciones</em>.</p>
+<p>Aprovechando que está la directora de Conacyt, quisiera hacerle una pregunta. Hay fabricantes de ventiladores que se han acercado a nosotros para informarnos que no les han entregado los permisos de Cofepris, porque Conacyt es el encargado de supervisar estos ventiladores técnicamente.</p>
+<p>Yo quisiera saber: ¿cuánto tiempo se tardan en poder entregar estos permisos que ustedes tienen que dar o la validación que tienen que darle para que Cofepris pueda entregar estos permisos? Si me puede responder.</p>
+<p>Y sobre todo si se pueden acercar también a ustedes para que les expliquen, porque se encuentran muy desinformados, no saben qué va a pasar, a lo mejor ustedes estaban con estos ventiladores.</p>
+<p>Muchas gracias.</p>
+<p><strong>MARÍA ELENA ÁLVAREZ-BUYLLLA ROCES:</strong> Claro que sí. Una aclaración, no es Conacyt quien aprueba los equipos, es Cofepris. Cofepris ha hecho en este nuevo régimen un gran esfuerzo por acercarse de expertos y de expertas en todas las áreas que les toca calificar, ellos son la entidad dentro del sector salud encargada de asegurar que no se causen el riesgo sanitario con medicamentos, con implementos médicos, con equipo de alta especialidad. Entonces, primero esa aclaración.</p>
+<p>Lo que Conacyt han hecho en colaboración con otras instancias del sector salud, del sector académico es coadyuvar a establecer estándares altos de calidad de ingeniería y de seguridad biomédica, pero es Cofepris la instancia pertinente a la cual tienen que acudir.</p>
+<p>Y bueno, yo quiero aprovechar su pregunta para hacerles un amplio reconocimiento porque han hecho un trabajo excelente.</p>
+<p>Y obviamente Cofepris está abierto para recibir solicitudes de desarrollos de cualquier instancia pública o privada y se aplicarán exactamente los mismos criterios y la misma secuencia de evaluación de los expedientes que tienen que contener las mismas pruebas que aquí se detallaron y que con mucho gusto damos información. Lo que sí hemos hecho es hacer una amplia convocatoria.</p>
+<p>Y cuando decimos que están haciendo una industria nacional para salvar vidas están haciendo un verdadero ecosistema de cambio tecnológico de vanguardia, porque en México hay muchísimo, muchísimo talento en universidades públicas, en otras empresas y se irán canalizando estratégicamente hacia las necesidades del Estado, claro, ahora con esta preminencia de favorecer el bienestar social y, en su caso, el cuidado ambiental.</p>
+<p><strong>INTERLOCUTORA:</strong> Aprovechando, quiero preguntarle: hay muchas empresas mexicanas de ventiladores que están aplicando para poder conseguir los permisos de Cofepris. ¿Usted lo sabe?</p>
+<p><strong>MARÍA ELENA ÁLVAREZ-BUYLLA ROCES: </strong>Hicimos una convocatoria para justamente tener un diagnóstico de la capacidad instalada en empresas nacionales y en universidades públicas. Recibimos más de 70 solicitudes, alrededor del 50 por ciento de ventiladores invasivos, como son los que se han requerido por parte de la Secretaría de Salud. Estos se han evaluado, los más avanzados se han inclusive apoyado por parte del Conacyt para que sigan haciendo sus desarrollos, estos están en diferentes niveles de maduración. Repito, varios son de universidades públicas y otros de empresas y algunos mixtos.</p>
+<p>Con mucho gusto en Conacyt en pocos días vamos a dar a conocer este panorama, todos los datos acerca del ecosistema nacional de innovación tecnológica en este tipo de equipo, pero no había ninguno tan avanzado como el de esta microempresa que, de hecho, había competido ya en Inglaterra, estaba muy cerca de ceder este desarrollo y todo este talento mexicano a empresas en Inglaterra, en el Reino Unido, y afortunadamente, gracias a justamente el doctor José Pineda, que nos acompaña, logramos platicar con ellos y convencerlos que comprometieran su desarrollo y en las últimas fase de transferencia tecnológica pues el Conacyt con sus centros públicos hizo posible este desarrollo cien por ciento mexicano.</p>
+<p><strong>INTERLOCUTORA:</strong> Muchas gracias.</p>
+<p>Señor presidente, yo también quería preguntarle a usted acerca de la invitación que les hizo a los directivos de Twitter. ¿Ya tiene alguna respuesta o alguna fecha que ellos vayan a venir?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, yo creo que la semana próxima, a ver si ellos aceptan, que no sea ni lunes ni martes, porque el lunes es lo de los precios y el martes es salud, pero miércoles, jueves, viernes que van a estar con nosotros, ahora no.</p>
+<p>Yo aprovecho para comentarles que mañana vamos a hacer la reunión de seguridad en Guanajuato, el jueves en Jalisco y el viernes en Colima; entonces, no vamos a estar aquí estos tres días, regresamos el viernes por la noche y de nuevo el lunes nos encontramos aquí.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, presidente. Judith Sánchez Reyes, corresponsal de <em>Imagen del Golfo, </em>de Veracruz.</p>
+<p>La primera pregunta va en el sentido de… Bueno, sabemos que su línea es combatir la corrupción y la impunidad. En Veracruz hay algunos casos de corrupción que se dieron en el Issste, específicamente en el gobierno del exgobernador Miguel Ángel Yunes y hasta el momento no ha habido ninguna acción al respecto. ¿Qué comentario nos puede dar en este sentido?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No tengo información que existan denuncias.</p>
+<p><strong>INTERLOCUTORA:</strong> De hecho, ya hay denuncias ante la fiscalía.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, pues va a corresponder a la fiscalía informar sobre el estado que guarda esta denuncia. Eso podría responderlo el fiscal, el doctor Alejandro Gertz Manero, él puede informar sobre esto.</p>
+<p>Nosotros no tenemos elementos, o sea, no hay ningún dato del gobierno federal en contra del exgobernador. Es posible que el gobierno actual de Veracruz haya presentado denuncia y otras que se hayan presentado o que vengan de tiempo atrás. Nosotros no hemos presentado en especial ninguna denuncia.</p>
+<p><strong>INTERLOCUTORA:</strong> La siguiente pregunta sería para el canciller. No sé si nos pudiera comentar cómo se dio la selección de estos cuatro proyectos con los cuales México se suma precisamente a lo que tiene que ver con la investigación para la creación de la vacuna contra el COVID-19. Si la convocatoria fue abierta, cuántas universidades o científicos participaron.</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> Es una selección en la que participan muchas instituciones y la verdad es que tener esos cuatro pues son los que se consideraron más avanzados o más acabados, porque no podemos presentar en la CEPI proyectos que no reúnan ciertas características.</p>
+<p>Entonces, son cuatro de muchas instituciones: está la UNAM, está el Cinvestav, está una empresa que se llama Birmex, varios laboratorios, está la Universidad Autónoma de Querétaro, está la Universidad Autónoma de Baja California y el Tecnológico de Monterrey.</p>
+<p><strong>INTERLOCUTORA:</strong> Pero, por ejemplo, características, no sé si nos pudiera a lo mejor detallar algunas.</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> Bueno, hay requisitos que tienes que llenar, cada uno de los equipos presentó su descripción. Lo que nosotros hicimos, nuestra función es simplemente que esté completo el proyecto, es decir, que tenga todas las características que pide la CEPI y estamos a dos semanas más o menos de saber qué resuelve.</p>
+<p>Lo que estamos buscando es participar en el financiamiento internacional de desarrollo de… Esto es para la vacuna, no son tratamientos, sino para la vacuna, los cuatro que se presentaron.</p>
+<p><strong>INTERLOCUTORA:</strong> Y la última, no sé, para alguien de las autoridades sanitarias. Se tiene información obviamente de ahorita la saturación que hay en un hospital de Juchitán, allá en Oaxaca, ya de hecho ahí se está evitando tener pacientes.</p>
+<p>¿Cuál es la estrategia que van a emprender las autoridades del sector precisamente para darle atención a las personas que lo requieran en esa parte del Istmo de Tehuantepec?</p>
+<p><strong>JORGE ALCOCER VARELA:</strong> No venía preparado, pero aquí tengo una ocupación de camas con ventilador, que es lo que es más emergente, más necesario y que está en mayor atención, y no figura en el Istmo, pero sí en Oaxaca, y en particular le puedo decir que son Huautla de Jiménez y San Jorge, en Nuchita en Oaxaca, son dos lugares que tienen al cien por ciento la ocupación, la necesidad ya saturada -usan esa palabra, yo no la uso- de ventiladores, pero curiosamente no se ha anunciado.</p>
+<p>Estos ventiladores que ya se cuentan en el día de hoy van para allá, para Córdoba, algunos también en otra parte contigua a Córdoba y para estos lugares para poder en Veracruz completar las necesidades.</p>
+<p>Esto es nada más en el punto de ventiladores y ahí van a debutar alrededor de 100 ventiladores de estos que ya están en transporte hacia el estadio de Veracruz en términos generales.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sobre la ocupación de las camas, es un seguimiento diario, se reúne todos los días un equipo de todas las instituciones de salud y se hace un recuento de cómo estamos en ocupación. Se tienen dos, tres canales de información: lo que informan las autoridades de salud, pero también la Secretaría de la Defensa nos está ayudando a saber cómo están los hospitales, esto también cuenta con la participación de David León, que el director de Protección Civil, y es un seguimiento permanente, incluye sábado y domingo. Por eso, los datos que damos son los más apegados a la realidad.</p>
+<p>Si vemos en el caso de Oaxaca en general, aunque puede haber regiones como aquí se ha dicho, en hospitalización general… Si ponen la gráfica, 40 por ciento de ocupación en hospitalización general, o sea, que un 60 por ciento de camas disponible.</p>
+<p>En Juchitán se adaptó un hospital. Quiero recordar que se iniciaron trabajos para terminar hospitales que estaban inconclusos, que no estaban equipados, que no tenían personal. En el caso de Juchitán desde el temblor del 2017 se empezó a construir un hospital privado de Grupo México; entonces, cuando inició la pandemia le solicitamos que se entregara el hospital, que lo concluyeran y ese hospital a la vez lo tomó para terminar de equiparlo, para ponerlo en condiciones, el Ejército, la Secretaría de la Defensa.</p>
+<p>Recuerden que desde que empezó la pandemia dijimos: nos va a ayudar el Ejército y nos va a ayudar la Marina. Por primera vez el Plan DN-III se ocupa de la atención de una pandemia. Tenemos que agradecer mucho a la Secretaría de la Defensa y a la Secretaría de Marina porque se metieron, ellos se ocuparon en terminar 32 hospitales y equiparlos, y también procurar que tengan personal médico.</p>
+<p>En el caso de Oaxaca, esto sucede en el istmo y en la capital en Oaxaca, que estaba terminado un hospital del niño, de la mujer, pero no tenía equipos ni tenía personal y todo esto se ha venido haciendo en el país.</p>
+<p>Les puedo también decir que cuando comienza la pandemia nos reunimos y doy la instrucción de que se entregaran cinco mil millones de pesos a la Secretaría de la Defensa con este propósito, de terminar hospitales y equiparlos y que no faltara personal; y yo creo que nunca en la historia del gobierno se había cumplido una orden tan pronto, porque dije que se entregara el dinero a la Defensa y ese mismo día… no se pudo ese día, pero al día siguiente se entregaron los cinco mil millones de pesos.</p>
+<p>Entonces, por eso estamos preparados, por eso no hubo saturación. Desde luego aquí la clave fue el aplanar la curva, lo que hicimos con el apoyo de la gente, que la gente se guardara. Eso nos permitió, nos dio tiempo para llevar a cabo esto que les estoy comentando, levantar el sistema de salud, que estaba en el suelo, tener las camas, tener los ventiladores, tener los médicos.</p>
+<p>Bueno, en el caso de los especialistas fue algo extraordinario porque se inició un proceso de formación de médicos generales, porque no se contaba con los especialistas, porque se puede tener el ventilador, que es importante, pero ¿quién lo opera?, ¿quién hace el proceso de intubación? No es cualquier cosa, requiere de experiencia y de especialidad. Bueno, hemos formado a miles de médicos generales en el manejo de estos equipos. Entonces, todo esto se ha hecho.</p>
+<p>En el caso de Oaxaca para terapia intensiva aquí está, 38 por ciento de ocupación. Esto fue muy importante, pero, repito, se logró porque la gente ayudó. Si se nos hubiese salido de control la pandemia, no nos hubiese servido la infraestructura de salud, no hubiese respondido, no hubiese sido suficiente. Entonces, ya ahí vamos.</p>
+<p>Y muchas gracias. Estos ventiladores es parte de lo mismo, es para hacer un gran reconocimiento a los que participaron porque ya son hechos en México, es talento mexicano, ya es disponer en el país de estos equipos.</p>
+<p>Nada más en los costos, en promedio llegaron a costar hasta un millón de pesos, millón y medio. ¿Ahora cuánto se estima?</p>
+<p><strong>MARÍA ELENA ÁLVAREZ-BUYLLA ROCES:</strong> Este menos de 200 mil y aquel un poquito más de 200 mil pesos.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, 200, 300 mil pesos. Entonces, ya tenemos estos equipos.</p>
+<p>Muy bien. Una más. A ver, compañera.</p>
+<p><strong>PREGUNTA: </strong>Gracias, presidente. Buenos días. Mi primera pregunta es saber si es cierto que el empresario Carlos Cabal Peniche está interesado en participar en la instalación de los cajeros automáticos del Banco de Bienestar.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No tengo información sobre eso.</p>
+<p>Nosotros cuidamos que todos estos procesos se hagan de manera transparente y cuando vemos que hay algo extraño, que no se puede explicar, se revisa y se rectifica; es decir, puede haber contratos, convenios, ya cuando se detecta de que no son las mejores empresas o hay pagos indebidos o hay posibilidad de corrupción, se interviene y se cancela cualquier operación. Tenemos que evitar la corrupción, que no nos pase lo que sucedía en los gobiernos anteriores.</p>
+<p>Miren ahora ¿no?, según la fiscalía general, va a traer el señor Lozoya. Todo lo que se va a saber, porque él era director de Pemex cuando se aprobó la Reforma Energética.</p>
+<p>¿Quiénes aprobaron esa reforma?, ¿qué partidos? Ahí se los dejo de tarea. ¿Cómo la aprobaron?, ¿por qué se obtuvieron los votos?, ¿cómo se obtuvieron los votos? Esto va a ayudar mucho a esclarecer cosas, porque fue un gran engaño, un gran fraude la llamada Reforma Energética.</p>
+<p>Nos vendieron la idea, o así lo plantearon, de que se iba a producir más petróleo, que iba a llegar la inversión extranjera a raudales, que se iban a generar muchísimos empleos, que iba a bajar el precio de las gasolinas, de la luz, que era la panacea y fue todo lo contrario, se dedicaron a saquear al sector energético, a destruir a Pemex y a la Comisión Federal de Electricidad.</p>
+<p>Entonces, como decía mi finado paisano, Chicoche, ¿quién <em>pompó</em>?, ¿quién <em>pompó</em> reformita?, ¿quién <em>pompó</em>? Entonces, eso nunca jamás se debe de repetir.</p>
+<p><strong>INTERLOCUTORA:</strong> Presidente, entonces este señor en particular no se sabe y sería extraño que quisiera participar.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, no tiene nada que ver con nosotros. Da la casualidad que es mi paisano, pero eso no significa ningún tipo de relación. Yo no protejo a nadie. Yo tengo relaciones de amistad, pero no de complicidad con nadie. No llegué aquí con el apoyo de grupos de intereses creados, no llegué aquí porque recibí dinero de hombres de negocios; llegué aquí con el apoyo del pueblo, mi único amo es el pueblo de México. Por eso soy libre, no hay compromiso con ningún grupo de interés creado y sostengo que se tiene que acabar por completo con la corrupción.</p>
+<p><strong>INTERLOCUTORA:</strong> Presidente, mi segunda pregunta si me lo permite es: ¿qué reporte tiene sobre el programa Sembrando Vida?</p>
+<p>Entiendo que con la pandemia ha sido difícil de operar y en los últimos días la secretaria María Albores ha reconocido que hay faltantes y que no se ha llegado a la meta.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, está bien el programa. Lo que sucede es que el periódico <em>Reforma</em> está buscando cualquier noticia para afectar la imagen de nuestro gobierno, el periódico <em>Reforma</em> está dedicado a eso, pero no dice que es el programa de reforestación más importante en el mundo.</p>
+<p>Entonces, siempre es estar buscando el defecto y seguirá, esa es la función de la prensa. Desde luego la prensa tiene que ser crítica y tiene que ser objetiva, y tiene que estar lo más distante que se pueda del poder y lo más cercano al pueblo; pero en el caso del <em>Reforma</em> es hasta ahora, esta metamorfosis. Antes callaban todo, era el periódico que defendía las privatizaciones, el periódico que defendió el saqueo que se llevó a cabo durante el periodo neoliberal y ahora muy crítico de nosotros.</p>
+<p>Pero está muy bien ese programa. Es extraordinario, es sembrar un millón de hectáreas de árboles maderables frutales, se le da trabajo a más de 400 mil campesinos, es un gran programa. Y debe de tener dificultades porque todo el que se dedica a sembrar sabe que hay que hacer resiembras, porque a veces lo que se siembra no se logra y hay que estar resembrando, tiene que ver si llueve o no llueve, a veces llueve mucho, hay encharcamiento y se echan a perder las siembras, a veces es mucha la sequía. El campo es muy difícil, requiere de mucho esfuerzo.</p>
+<p>Lo importante es que este programa va a permanecer, si así lo decide el pueblo, mientras estemos nosotros aquí en el gobierno. Entonces, ese millón de hectáreas se va a estar trabajando siempre y la idea es que cuando terminemos el gobierno, el 24, si así lo decide la gente, si ganamos en la revocación del mandato del 22, si la gente quiere que después del 22 continuemos y lleguemos al 24, hasta entonces ya vamos a poder evaluar y yo espero que ya los árboles, los cedros, las caobas, estén de cinco, ocho, 10 metros, y que ya estemos cosechando cacao, cosechando café, que llueva café.</p>
+<p><strong>INTERLOCUTORA:</strong> Y finalmente, presidente, aprovechando que tengo el micrófono también, organizaciones sociales han alertado sobre los recortes en los estados a los programas de alerta de género en estados con altos niveles de feminicidios como Veracruz, Nuevo León, Estado de México. ¿Esto no es una austeridad mal entendida, que afecta?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Nosotros no tenemos ningún ajuste en el programa federal para lo que tiene que ver con la defensa de los derechos humanos. Sí hay austeridad, por ejemplo, en que ya no destinamos los recursos que se destinaban a la publicidad en medios de información, ahora están ajustados y ya no hay lujos en el gobierno.</p>
+<p>Además, imagínense, si el<em> Reforma</em> hubiese hecho un reportaje de mi viaje a Estados Unidos comparando lo que costaba un viaje en la época de Calderón o de Peña, un viaje al extranjero, que iban los aviones llenos, se llevaban hasta el perico, ¿cuánto gastaban?, pero pues como llevaban a los del <em>Reforma,</em> ahí también los trepaban y los colmaban de atenciones, pues ahora no lo ve el<em> Reforma</em> eso, el ir a un viaje con escala, en avión comercial un día, un día estar en las actividades y al día siguiente temprano para atrás, de regreso y una comitiva de cinco servidores públicos, sin más; pero no, es las ocho columnas… A ver, ¿no tienes el periódico hoy? Ponlo porque… Nada más, la verdad que es así, al azar. Ponlo.</p>
+<p><strong>PREGUNTA: </strong>¿Y cuánto gastó y cenó?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues yo me quedé a dormir en la casa de la embajada y ahí comí, luego me invitaron a cenar ahí en la… Pero es que esto es muy interesante, les prometo que no he visto la primera página o primera plana. A ver, pero ponlo grandote. Les juro que no lo había visto, pero son tan obvios, o sea, son predecibles. Ya cuando el periodismo, cuando la política se vuelve predecible, ya perdió su valor.</p>
+<p>Esa es la primera: ‘Da pocos frutos Sembrando Vida’. Bueno, ¿cómo va a dar frutos?, a ver, ¿cómo va a dar frutos si apenas comenzó a sembrarse el año pasado?</p>
+<p><strong>PREGUNTA:</strong> Ni la mitad de los árboles que se sembraron sobrevivió,</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, porque así es la agricultura, puede ser así. Y yo les diría ¿cómo recorrieron…? Ahora no es que esté el millón de hectáreas, pero deben de estar ya trabajadas como 600, 600 mil. Entonces, ¿cómo le hicieron?, ¿con drones?, o sea, ¿cómo fueron a los ejidos?</p>
+<p><strong>INTERLOCUTORA:</strong> Lo dijo la secretaria.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ah, bueno, sí, totalmente fuera de contexto, sí, sacado de contexto.</p>
+<p>O sea, no es nada personal, es que yo creo que les ayuda al <em>Reforma</em> el que le hagamos una crítica constructiva, porque ya es mucho. Está bien pues, que estén enojados, pero ese estado de ánimo, esa excitación, los lleva a lo irracional. Entonces, vamos a serenarnos, todos tranquilos.</p>
+<p>Bueno, nos venos mañana en Guanajuato. Bueno quedaste pendiente tú, porque ibas a hacer una pregunta de salud, ibas a hacer una pregunta de salud.</p>
+<p><strong>PREGUNTA:</strong> Gracias, presidente. Justamente sobre lo que mencionaba usted sobre de las camas disponibles para con ventiladores y con… Tengo más o menos unos 10 días solicitando al gobierno de Sonora cuántas camas hay disponibles para que la gente sepa en qué hospitales están y a dónde puedan acudir y no me han podido dar ese dato. No sé si a nivel federal se los están pasando, si puede hacerse una información de dónde, qué hospitales y cuántas camas tienen.</p>
+<p>Entonces, ellos hablan ahí del 57 por ciento ocupadas y los que a mí me han dicho, tienen 950 más o menos, y hablan de que ya están ocupadas más de 700, entonces está como raro el asunto ahí. No sé si hay ahí algún…</p>
+<p>Saber, para que la gente sepa en qué… cuántas camas hay disponibles realmente por hospitales, porque la gente está yendo y la regresan a su casa.</p>
+<p>También es cierto que mucha gente va y no se quiere quedar en el hospital porque tiene miedo, pero sí hay gente que necesita hospitalización y las están regresando o las están mandando de hospital en hospital.</p>
+<p>Es algo que pasa en Sonora, que está pasando ahorita, que está tan en rojo el semáforo y en otros estados del país.</p>
+<p>Y la otra sería quizá para Alcocer o para usted, presidente. Hicieron ustedes en mayo un convenio con los hospitales privados para dar atención a la gente, pero este convenio se acabó el 23. Bueno, era para un mes, se amplió hasta junio y en el caso de algunos estados que están en rojo, pues este mes ya no está funcionando ese convenio.</p>
+<p>La semana pasada hubo un caso en Sonora donde una persona falleció en un hospital privado, era una familia de escasos recursos y tuvieron que pagar la atención que les dieron, que fue una hora, que ya en realidad la persona iba mal.</p>
+<p>Entonces, ¿qué va a pasar? Si va a haber una ampliación de ese convenio o qué… En el caso de los estados que están en semáforo rojo, si podría haber ahí una ampliación o no sé qué planes tiene usted.</p>
+<p>Y también en el caso que pudiera atenderse en estos hospitales, si dará algún informe de cuánta gente se atendió en este plazo que hubo de convenio.</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> Muy brevemente. El convenio fue renovado, sí está vigente, el convenio con los hospitales privados, es parte de una iniciativa…</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Al día de hoy está vigente?</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> Sí, que se denominó o se denomina Juntos por la Salud.</p>
+<p>El señor presidente invitó a los hospitales privados, bueno, ya tiene tiempo, para que atendieran diferentes padecimientos, son seis en total, y pudiesen de esa manera coadyuvar para que las instituciones públicas, especialmente el Instituto Mexicano del Seguro Social, el Insabi y el Issste pudieran enviar pacientes a esos hospitales.</p>
+<p>Tenemos el reporte al día y con mucho gusto -son varios miles ya los atendidos- con mucho gusto lo doy concluyendo esta conferencia.</p>
+<p><strong>INTERLOCUTORA:</strong> Entonces, ¿las personas que han acudido a hospitales privados y les han dicho que no hay convenio y que sí están en el registro nacional que hicieron convenios y que tuvieron que pagar la atención qué tienen que hacer?</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> Es que no puedes ir, funciona de otra manera, tienes que hablar por teléfono con la institución, sea Insabi, Issste o Seguro Social, la Fundación Mexicana para la Salud te dice a qué hospital tienes que ir.</p>
+<p>Si tú llegas por ti mismo a un hospital privado te van a cobrar, tiene que ser a través de alguna de las instituciones. Hay un teléfono para eso y ahora se lo paso con mucho gusto.</p>
+<p><strong>INTERLOCUTORA:</strong> Aquí el presidente había dicho que incluso invitó a la gente que fuera atenderse a los hospitales privados.</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> Sí, se han atendido varios miles, pero tienes que pasar por ese procedimiento, porque si no, no habría manera de que se fuese un proceso ordenado.</p>
+<p>Es decir, tú vas -por teléfono es Fundación Mexicana para la Salud- si eres derechohabiente del Seguro Social preguntas en la clínica que te corresponda, igualmente en el Issste, y en el Insabi que incluye, como tú sabes, a los hospitales y sistemas de salud estatales, entonces te dan o te dicen a qué hospital debes de ir y ahí te atienden, y entonces el gobierno cubre los servicios correspondientes. Si vas por tu lado, entonces eres un particular y tienes que pagar lo que sería el caso en esos hospitales.</p>
+<p>Entonces, esto ha permitido, como ya dije, varios miles, fácilmente estamos ya arriba de siete mil pacientes atendidos más o menos en promedio al mes.</p>
+<p><strong>INTERLOCUTORA:</strong> Entonces, son sólo -nada más para que quede claro- son sólo para derechohabientes del IMSS, del Issste.</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> No, no. Si tú no eres derechohabiente, hablas al teléfono que dimos de la Fundación Mexicana para la Salud, no sé si la tienen ahí. O sea, no tienes que ser derechohabiente, el que es derechohabiente pregunta en el Seguro Social porque tú sabes dónde te atienden normalmente, en el Issste igual, en el caso del Insabi es población que no tiene derechohabiencia, es cualquiera, lo único que tienes que hacer es llamar al teléfono, sí lo tenemos, y si no, te lo paso, ahorita te lo paso.</p>
+<p><strong>INTERLOCUTORA:</strong> Pero sí sería… Pues no tanto que me lo pase a mí, sino que se entere la gente porque en la emergencia...</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> Bueno, para darlo a conocer, para que lo des a conocer.</p>
+<p><strong>INTERLOCUTORA:</strong> Ándele, en una emergencia, o sea, un número nacional, supongo que es.</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> Hay un número nacional funcionando.</p>
+<p><strong>INTERLOCUTORA:</strong> Y ante una emergencia no sé si, los doctores deben de saber, pues que la gente en una emergencia lo último que haces…</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> Bueno, en urgencias si también se han atendido personas. Mira ahorita te lo voy a decir.</p>
+<p><strong>INTERLOCUTORA:</strong> O sea, una persona que tiene una urgencia no puede ir directo al hospital. Bueno puede ir, pero le va a costar.</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> No, si puede ir, pero tienes que hablar por teléfono, tienes que avisar para que el gobierno lo pueda cubrir, si no ¿cómo lo cubrimos?, ¿me explico? Es nada más eso, es llamar para avisar: oye, voy a urgencias porque me siento muy mal, o tengo esto y necesito que me atiendas, voy al hospital público o voy al hospital privado, es lo que necesitas tú saber y que te lo resuelvan pronto, por eso se tiene un sistema nacional con un solo teléfono.</p>
+<p><strong>INTERLOCUTORA:</strong> O sea que la persona cuando va en la emergencia, que en el trayecto al hospital llame.</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> Nada más que avise para que podamos participar</p>
+<p><strong>INTERLOCUTORA:</strong> Pero las emergencias no se pueden prever, secretario.</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> En el trayecto puedes avisar o algún paciente tuyo puede avisar, porque si no ¿cómo te cubre el gobierno?</p>
+<p><strong>INTERLOCUTORA: </strong>Si no avisan, no se puede cubrir.</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> Es muy difícil, porque luego tienes que discutir con el hospital. Si avisas en el traslado o antes, incluso para tomar decisiones respecto al tratamiento que necesites… Entonces, es algo que lo que hace es protegerte, por eso… Ahí está, ese es el teléfono.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Ese funciona para todo el país?</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> Sí, es Fundación Mexicana para la Salud la que recibe y te canaliza.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Es un solo número o es un conmutador?</p>
+<p><strong>MARCELO EBRARD CASAUBON:</strong> Un solo número, es este número que está aquí.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Gracias por su pregunta. Y ayer estuve atento también a lo que preguntó.</p>
+<p>Sólo para que no haya confusión. Lo que explicó el señor canciller es un programa de apoyo por parte de instituciones privadas, el Consorcio Mexicano de Hospitales Privados y la Asociación Mexicana de Hospitales Privados, que fue canalizado a través de la Fundación Mexicana para la Salud.</p>
+<p>Efectivamente, como bien señala el canciller, el convenio originalmente fue por un mes y luego fue renovado y sigue vigente.</p>
+<p>El número de contacto telefónico es el que aparece en la pantalla, pero éste no es para atender urgencias COVID, que entiendo que es lo que usted está preguntando.</p>
+<p><strong>INTERLOCUTORA:</strong> Bueno, no se sabe si…</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Espéreme, se lo explico todito. Sólo para que no se confunda nadie, este no es el número de emergencias COVID, no para atender a COVID.</p>
+<p>Este convenio con las Asociaciones de Hospitales Privados, el Consorcio Mexicano y la asociación, se hizo para atender lo no COVID, específicamente seis entidades… seis problemas de salud que están bien definidos y que fueron cuidadosamente seleccionados, principalmente por el Instituto Mexicano del Seguro Social, considerando los padecimientos de mayor frecuencia que requieren hospitalizaciones, son seis.</p>
+<p>Pero insisto, no es para una emergencia, porque lo que me interesa -y les pediría si ya lo quitamos de pantalla- para que no haya confusión, este no es un número para emergencias COVID, no es un número para emergencias COVID, es un número para atención programada, electiva de seis condiciones médicas en donde hospitales privados que han sido seleccionados, atienden a personas y se tiene que concertar la cita a través de ese número para que pueda ser elegible y que entonces el sector público pague lo convino pagar a una tarifa reducida.</p>
+<p>Y ojo con esto, porque si no se hace ese procedimiento y se llega a un hospital privado, pues efectivamente, tal como usted lo relata, es una atención privada de una ciudadana, un ciudadano que llegó a pedir atención privada. Entonces, nadie se vaya a confundir y que después tenga que incurrir en un gasto.</p>
+<p>Ahora, punto y aparte la urgencia COVID. La urgencia COVID puede ocurrir en una persona que tiene los síntomas, que tiene enfermedad crónica, que tiene mayor de 60 años o en cualquier otra persona, no importa la edad, no hay límite. Toda persona en México que tenga una urgencia tiene derecho a la atención de la salud y el mecanismo más efectivo para recibir la atención por supuesto puede ser acudir directamente al hospital que esté más cercano a su domicilio, pero para facilitar el proceso y que no estén buscando dónde atenderse, 911, 9-1-1, 911 es el número universal de atención de emergencias en todo México, no importa dónde viva, 911.</p>
+<p>El sistema de 911 que se estableció para todo el país tiene un conmutador localizado en cada una de las entidades federativas y ahí el personal especializado de 911 se vincula con una cosa que se llama el Centro Regulador de Urgencias Médicas, CRUM, que es un centro de atención especializado que todos los días varias veces al día verifica la ocupación hospitalaria y entonces se establecen los contactos y se dice: este es el hospital en donde está disponible una cama, 911, para usted que es un ciudadano, ciudadana, en cualquier parte del país si tiene una urgencia de COVID, 911, en el caso de la Ciudad de México, desde luego también Locatel.</p>
+<p>Y puede ocurrir lo que usted relata, efectivamente, que un hospital en concreto llegue a su máxima capacidad, lo que se acaba de comentar respecto al hospital Juchitán que señaló la colega, pero la utilidad de este sistema, del Centro Regulador de Urgencias Médicas, es precisamente identificar con el tiempo razonable. Y depende de que no se espere, por favor no se esperen, si tienen enfermedades crónicas, son mayores de 60 años, no se esperen a que estén gravemente enfermas o enfermos. Entonces, permite que se haga la canalización al servicio que esté más disponible.</p>
+<p><strong>INTERLOCUTORA:</strong> En el caso de Sonora, el 911 no fue anunciado de esta manera y hay alguna gente que ha intentado marcar y no funciona así, no sé si pase en otros estados, pero en el caso de Sonora sí se ha intentado, dieron un número que no era el 911 y que también ha tenido fallas según algunos reportes de personas que han tenido que ocupar este servicio. Entonces, ¿qué pasa ahí?</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Vamos a trabajar, gracias por la alerta, vamos a trabajar con el gobierno del estado de Sonora. Efectivamente, además del 911, y lo decimos porque es un número nacional, todo el país tiene 911, pero además en la página coronavirus.gob.mx, que es la página única del Gobierno de México donde tenemos toda la información sobre coronavirus, está el listado de puntos de contacto, de teléfonos de contacto para cada estado.</p>
+<p>Esto los puso a disposición el gobierno de cada estado. Así como la Ciudad de México puso el Locatel, cada estado tiene también otros sistemas en su operación de emergencias que puso a disposición. Y hoy mismo voy a ver que ese listado esté en la portada principal de la página coronavirus.gob.mx, para que podamos tener pronta referencia.</p>
+<p><strong>INTERLOCUTORA:</strong> Gracias. Nada más, doctor, si puede repetir por favor las seis enfermedades que se atienden en los hospitales privados, por favor, para que las personas…</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> No las dije, sería decirlas por primera vez, pero son -no me acuerdo en este momento de todas- pero son la atención de hernias que tienen una urgencia quirúrgica, el sangrado del tubo digestivo, los partos y la atención obstétrica.</p>
+<p>Aquí están. Qué amable, muchas gracias, canciller. Aquí están: cesáreas, apendicitis, hernias, úlceras gástricas y duodenales complicadas, procedimiento de endoscopia y la colecistectomía, esto es el procedimiento de quitar la vesícula biliar cuando está o hay una indicación quirúrgica de ello. Entonces, cesáreas, apendicitis, hernias, úlceras gástricas y duodenales, endoscopías y colecistectomías para atención privada.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ya para mañana los que van a Guanajuato; si no, a Jalisco, a Colima y si no, el lunes aquí.</p>
+<p>Nada más para terminar de aclarar, cuando se tomó esta decisión… Lo que pasa es que, en efecto, no se ha repetido, pero se informó que se firmó este acuerdo, que agradecemos mucho con hospitales privados para liberar espacios, camas en las instituciones públicas de salud, para que, en el Issste, en el Seguro, los hospitales de la Secretaría de Salud no se atendieran estos padecimientos y se dedicaran a COVID, esa fue la estrategia original. Pero qué bien que estás preguntando, porque se aclara, se refresca toda la información.</p>
+<p>Entonces, nos vemos, nos vamos a seguir viendo. Lista, una lista para el lunes, lista para el lunes. Es que tenemos otras actividades. Igual que ustedes, que tienen que ir todavía a hacer la nota, tenemos nosotros que ir a tener reuniones, hay una reunión muy importante con nuestro representante en la ONU, el doctor De la Fuente, porque vamos a hacer compras consolidadas de medicamentos en el extranjero con supervisión de la ONU para resolver en definitiva el problema del abasto de medicinas.</p>
+<p>Se nos ha dificultado porque era mucha la corrupción en la compra-venta de medicamentos, pero algo escandaloso, de miles de millones de pesos. Y los que se beneficiaban con la venta de medicamentos están molestos, hay hasta campañas en medios hablando de la escasez de los medicamentos porque ellos saben que ya se termina la corrupción.</p>
+<p>Ya hemos tomado esta decisión y vamos a que no falten los medicamentos en los hospitales, y para eso es la reunión que vamos a tener ahora.</p>
+<p><strong>PREGUNTA:</strong> ¿Es virtual?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, presencial.</p>
+<p><strong>INTERLOCUTOR:</strong> (Inaudible)</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí.</p>
+<p>Cuando se regeneren los que se dedicaban a la venta de los medicamentos, que entiendan de que ya se acabó la corrupción, entonces vamos a poder adquirir los medicamentos en el país, porque no vamos a estar como rehenes de grupos que hacían su agosto, que lucraban, que vendían hasta medicamentos adulterados, caducos, que acaparaban todas las compras del gobierno de medicamentos, laboratorios muy famosos que pensaban que por tener buenas relaciones con los medios de información y con campañas de desprestigio al gobierno, que nos iban a doblegar.</p>
+<p>Se termina eso y tenemos que garantizar, es un compromiso que a nadie le falten los medicamentos, y es atención médica y medicamentos gratuitos para todo el pueblo de México.</p>
+<p>Entonces, para eso es la reunión, viene Juan Ramón de la Fuente, va a estar el secretario de Salud, el director del Issste, el director del Seguro, el de Insabi, también el subsecretario Hugo López-Gatell, que aprovecho para decir que lo respaldamos, porque se le están lanzando con todo, ya nada más le recuerdo a Hugo para que resista: Hugo, aguanta, el pueblo se levanta.</p>
+<p>Le recuerdo lo que decía Ponciano Arriaga, un liberal extraordinario que participó en la promulgación, aprobación, promulgación de la Constitución de 1857, decía: ‘Entre más me golpean, más digno me siento’, ‘entre más me golpean más digno me siento’. Entonces, así Hugo.</p>
+<p><strong>PREGUNTA:</strong> Por favor, venimos de Inglaterra para preguntarle a usted.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Le damos la oportunidad a ella?</p>
+<p><strong>INTERLOCUTORA:</strong> (pregunta en inglés)</p>
+<p><strong>PREGUNTA:</strong> Bueno, yo voy a traducir para México compañera, que es Isobel Yeung, que viene del medio de <em>Vice</em>, que es un medio internacional.</p>
+<p>Y ella también preguntó la misma de la compañera: ¿por qué hubo este recorte al presupuesto de la alerta de género y más en los estados donde hay mucha violencia, más que en un momento cuando 10 mujeres están haciendo asesinadas cada día, y además que hubo un incremento de violencia de género en los últimos meses durante la pandemia?</p>
+<p>Y también, reconociendo que menos de cinco por ciento de los casos de feminicidio terminan en una sentencia, ¿por qué su gobierno ha fallado a las mujeres para vivir una vida libre de violencia?, ¿y que están haciendo para cambiarlo?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No estamos abandonando a las mujeres, estamos protegiendo a las mujeres, se está castigando a los que asesinan mujeres, el feminicidio.</p>
+<p>No hay disminución del presupuesto, nunca se había protegido tanto a las mujeres de México como ahora. En México no se violan derechos humanos, antes el Estado mexicano era el principal violador de los derechos humanos, ya no es el México de antes.</p>
+<p>En México no hay tortura, no se permite, en México no hay masacres, en México estamos construyendo la paz con justicia.</p>
+<p>Nosotros consideramos que si hay justicia, hay paz, y nunca los pobres y las mujeres vulnerables habían tenido tanto apoyo como ahora. Y no olvidar, y esto aplica para México y aplica para el Reino Unido y para todos los países del mundo, la paz es fruto de la justicia.</p>
+<p>Este gobierno lo que está procurando es que no haya desigualdad económica y social.</p>
+<p><strong>INTERLOCUTORA (interpretación del inglés al español):</strong> Hace pocos días cinco mujeres, incluyendo niñas, fueron asesinadas en el Estado de México, Nicolás Romero. No sabe que usted sabe del caso, porque había muy poca prensa.</p>
+<p>Ella viajó al lugar y preguntó a los familiares sobrevivientes de esos asesinatos y las mujeres dicen que ellas temen por sus mismas vidas y que no tienen fe que habrá justicia y que los que las asesinaron serán castigados porque hay un nivel de impunidad donde menos de cinco por ciento terminan sentenciados.</p>
+<p>Entonces, ¿cómo puede garantizar que habrá justicia para este caso y todas las mujeres que están asesinadas en casos parecidos?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Hay en México, como nunca, un combate permanente a la corrupción y a la impunidad. No se protege a delincuentes, ni a delincuentes comunes ni a la delincuencia organizada, ni a los delincuentes de cuello blanco.</p>
+<p>Lo que debes de tomar en consideración, para tener los antecedentes, contextualizar lo que está sucediendo en México, es que en nuestro país con el apoyo de organismos financieros internacionales se impuso una política de sometimiento, de empobrecimiento a la mayoría del pueblo, se abandonó al pueblo, porque se dedicaron a saquear, a robar a México las autoridades anteriores.</p>
+<p>Y esto llevó a una grave crisis económica de bienestar social, a una grave crisis de inseguridad y de violencia, que nosotros heredamos y que estamos ahora enfrentando, y tenemos confianza de que vamos a conseguir la paz y la tranquilidad. O sea, para que te quede más claro, no somos iguales a los anteriores gobiernos.</p>
+<p><strong>INTERLOCUTORA (Interpretación del inglés al español):</strong> Ella entiende que sí es un problema de administraciones anteriores, pero sigue existiendo ese problema y sigue en aumento; entonces, que ella entiende que muchas mujeres están muy frustradas, que no ha cambiado, que no ha bajado la violencia de género ni feminicidio.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues una visión distinta. Nosotros pensamos que se avanza, que la gente tiene confianza en el gobierno, ya no es lo mismo de antes. Desde luego son problemas complejos, grandes, graves problemas nacionales, pero los estamos enfrentando.</p>
+<p>Ahora manda el pueblo, hay justicia. No son los grupos de intereses creados, no es la mafia, no es el poder económico el que domina en México. Hay un cambio sustancial, una transformación en marcha y te podría decir con mucho orgullo que es el movimiento de transformación más importante hoy día en el mundo lo que se está llevando a cabo en México.</p>
+<p><strong>INTERLOCUTORA (Interpretación del inglés al español):</strong> Suena muy bien, pero realmente ¿cuáles son las cosas concretas que su administración está tomando para combatir la violencia de género?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Atender el origen del problema.</p>
+<p>¿Por qué es la violencia?, ¿por qué se origina la violencia?</p>
+<p>Porque no hay justicia, porque no son atendidos los jóvenes, porque se desintegran las familias, porque se va imponiendo un estilo de vida en donde lo importante es triunfar a toda costa sin escrúpulos morales, se van perdiendo valores, no hay oportunidades de trabajo, de estudio, de bienestar.</p>
+<p>Si se atiende eso, se reduce la violencia. No se puede resolver el problema de violencia sólo con medidas coercitivas.</p>
+<p><strong>INTERLOCUTORA:</strong> Gracias, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muchas gracias.</p>
+<p><strong>PREGUNTA:</strong> Una foto, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Eso sí. Un aplauso a María Elena y a los investigadores. Es algo impresionante.</p>
+<p><strong>INTERLOCUTOR:</strong> Gatell no se ve. Gatell, disculpa, ¿te podrías poner junto al presidente para que te veas más? Mil gracias.</p>
+<p><strong>(TOMA DE FOTOGRAFÍA)</strong></p>
+<p><strong>PREGUNTA:</strong> ¿Presidente a qué hora se va a Irapuato?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> A mediodía.</p>
+<p>---</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

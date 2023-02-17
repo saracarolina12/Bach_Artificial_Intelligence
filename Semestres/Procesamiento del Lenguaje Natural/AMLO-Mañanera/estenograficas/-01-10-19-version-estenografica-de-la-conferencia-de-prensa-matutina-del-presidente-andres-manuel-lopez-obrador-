@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>01.10.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/01-10-19-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=124837' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F01-10-19-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F01-10-19-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66iyt-f-70494e37d-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":24,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"2a7911bf","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55296,"ak.gh":"23.47.207.69","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616467","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==2hVeBT3U111j0lfSCoSaCooUE5wx0DalVDNoonfoONQu4ndEEMPPrhJJUWTiivpgG0zeEMvPc6OW2idMt+vYIIRQL0t9lUzhVlEGszuSyIV9I8f5Lx93iIbGBFYG8wGUwp1eG5Bcf9wEMwtT64zOtbChRqzVZ6kos6/iG6BVunac/OnmU6PNSO2aADpmbM7HTGoxPAH10zlUGpJCHEeTQwAWeR9egnM9M1qCt4STCg92z5k6wMAF4MkZH9Br6V2sqNDqW4BeA1NSp2U7jPe9hS/TdgOoR+CNzShrzfvtVOyNxdNMHwHHyg8UeiCRyhJPTTHVIIRrIlLh1a0uwdVELYmpigxOiGFGoVFGqXffGNV7japr7JGN6bZ+81VQUz9IPJYMzSoQMHCKkKkspARx7COa/b0LJd7STw825f5nac4=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-124837 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef208533310" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>01.10.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 01.10.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-124837" class="post-124837 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2019/10/01-10-2019-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-016.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2019/10/01-10-2019-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-016-745x450.jpg" alt="01.10.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">01.10.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><em>2019, Año del Caudillo del Sur, Emiliano Zapata</em></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy buenos días.</p>
+<p>Vamos el día de hoy a utilizar este tiempo, este espacio de la conferencia para llevar a cabo un acto relacionado con la Cepal, que tiene que ver con la política de desarrollo social que se aplica en nuestro país y en otros países de América Latina, del Caribe.</p>
+<p>Y nos da mucho gusto tener a personalidades que van a ser presentadas ahora, tener representantes de estos organismos, sobre todo de Cepal.</p>
+<p>Pedirles que luego de terminada la conferencia, la ceremonia, este acto, podamos con los medios de información llevar a cabo la segunda parte, la sesión de preguntas y respuestas, teniendo de invitados a personajes tan importantes, mujeres y hombres de esta organización, para que también sean testigos de cómo se garantiza en nuestro país, en México, el derecho a la información.</p>
+<p>Entonces, comenzamos. Yo tomo mi lugar.</p>
+<p><audio src="https://lopezobrador.org.mx/wp-content/uploads/2019/10/2019-10-01-Matutina.mp3" controls="controls"></audio></p>
+<div id="fb-root"></div>
+<p><script async="1" defer="1" crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&amp;version=v4.0"></script></p>
+<div class="fb-video" data-href="https://www.facebook.com/lopezobrador.org.mx/videos/2617506058492788/" data-width="500">
+<blockquote cite="https://www.facebook.com/lopezobrador.org.mx/videos/2617506058492788/" class="fb-xfbml-parse-ignore"><p><a href="https://www.facebook.com/lopezobrador.org.mx/videos/2617506058492788/">Tercera Reunión de la Conferencia Regional sobre Desarrollo Social de América Latina y el Caribe.</a></p>
+<p>Tercera Reunión de la Conferencia Regional sobre Desarrollo Social de América Latina y el Caribe.</p>
+<p>Publicado por <a href="https://www.facebook.com/lopezobrador.org.mx/">Andrés Manuel López Obrador</a> en Martes, 1 de octubre de 2019</p></blockquote>
+</div>
+<p>&nbsp;</p>
+<p><strong>MODERADOR:</strong> Tiene la palabra la doctora Alicia Bárcena, secretaria ejecutiva de la Comisión Económica para América Latina y el Caribe de la Organización de las Naciones Unidas.</p>
+<p><strong>ALICIA BÁRCENA IBARRA, SECRETARIA EJECUTIVA DE LA COMISIÓN ECONÓMICA PARA AMÉRICA LATINA Y EL CARIBE (CEPAL):</strong> Muy buenos días a todos, a todos.</p>
+<p>Señor presidente Andrés Manuel López Obrador; secretaria María Luis Albores, querida Marina Arismendi, Luis Felipe López Calva, señor Marcelo Ebrard, canciller; ministras, ministros, altas autoridades, representantes del cuerpo diplomático, querido Antonio Molpeceres, representante residente del Sistema de Naciones Unidas; colegas de Naciones Unidas, amigas y amigos, amigas todos.</p>
+<p>Nos reunimos hoy en este edificio centenario que es pieza enorme de la historia de este país y de la patria que compartimos. Estas paredes monumentales han sido testigos de casi 500 años de trayecto, a veces luminoso, a veces trágico, de este pueblo generoso y cálido: mi pueblo.</p>
+<p>Gracias, señor presidente, por abrirnos las puertas. Esta historia viva de México, porque en este majestuoso Palacio Nacional nos damos cita para compartir entre 28 naciones de América Latina y el Caribe que vienen a escuchar la voluntad transformadora de este tiempo mexicano y la nueva relevancia que México está dando a la política de bienestar, con programas integrales que convierten a las personas en sujeto de derecho que son participativos, integrales, progresivos que alcanzan a 23 millones de personas, como nos dijo ayer nuestra querida secretaria.</p>
+<p>Agradezco a su pueblo, al Gobierno de México, por el trabajo vertido por esta secretaría y su equipo en la organización de esta Tercera Conferencia Regional de Desarrollo Social, que hacemos en conjunto con el PNUD, que aquí nos acompaña.</p>
+<p>México toma la presidencia, señor presidente, por dos años más. Y yo quiero agradecerle a Marina Arismendi porque hizo dos años de un gran liderazgo, el Uruguay, bajo la coordinación de Marina.</p>
+<p>Quiero extender nuestra gratitud a todas las delegaciones que viajaron largamente y quiero en verdad reconocer, sobre todo a las del Caribe, porque les cuesta mucho llegar en medio de tanto huracán, esa es la verdad, digo, no es por nada.</p>
+<p>Veintiocho países han dicho hoy: ‘presente’. Una muestra emocionante de la pertinencia y voluntad colectiva por acelerar el paso hacia el logro del bienestar social, universal e igualitario, porque hay una urgencia, hay urgencia de sacar a 184 millones de latinoamericanos y caribeños de la pobreza y de la desigualdad, y todos los que estamos aquí estamos buscando, señor presidente, una nueva generación de políticas sociales, que sean más transversal, que sea más universal, que sea garante de derechos y que además se funda en un principio que compartimos y que le hemos escuchado a usted varias veces: Por el bien de todos, primero los pobres.</p>
+<p>Amigas y amigos:</p>
+<p>México cambió con voluntad humanista que empeña creatividad, búsquedas originales, y que no se limita a repetir y que se atreve, porque entiende que la pobreza y la desigualdad no es un problema de aritmética. Porque por el bien de todos, primero los pobres, tenemos que reconocer la dura realidad de nuestra región; porque en nuestra región la pobreza tiene cara de niño, tiene cara de mujer, de joven, de pueblo indígena, de trabajadores. Entonces, por el bien de todos, primero ellos.</p>
+<p>En un país multicultural como este, como usted lo ha puesto en alto, la lista siempre es abundante de prioridades, es cierto, pero hay que poner primero a los pueblos indígenas. Y el reconocimiento del derecho a su autodeterminación, a la preservación de sus territorios, de sus saberes, de su cultura, su biodiversidad.</p>
+<p>¿Cómo no decir que nuestros esfuerzos tienen que reconocer también el ciclo de vida, comenzando por los niños, pero también los adultos mayores?</p>
+<p>¿Cómo no subrayar con la misma urgencia las necesidades de nuestros jóvenes, que han sido un hilo conductor de sus programas, señor presidente? Y ahí yo felicito a Luisa María Alcalde por la implementación de Jóvenes Construyendo Futuro.</p>
+<p>Estamos convenidos y su gobierno ha dado testimonio concreto de ello, que la igualdad, que situar a la igualdad en el centro implica una ruptura con el paradigma económico que ha prevalecido en las últimas décadas; y hay que romper con una herencia de cinco siglos de privilegios y este cambio tiene una sincronía con una acumulación de demandas que lleva a recomponer el mapa político.</p>
+<p>Seamos claros, hablar de igualdad implica difundir a lo ancho y a lo largo de la estructura productiva las plenas oportunidades laborales y el acceso universal a la protección social.</p>
+<p>Ustedes lo han dicho, el empleo con derechos es la llave maestra para superar la desigualdad. Una nueva generación de políticas sociales que ustedes han puesto en marcha ha dicho que se requiere la transversalización de las acciones.</p>
+<p>Ayer analizábamos los 12 programas que ustedes han puesto en marcha y que trascienden fronteras y territorios, y que realmente hoy alcanzan a todos.</p>
+<p>La igualdad social y el dinamismo económico no están reñidos entre sí. La desigualdad es ineficiente, conspira, traba el desarrollo y es una barrera a la erradicación de la pobreza, al ejercicio de la libertad y la emancipación de las personas. La igualdad es una condición necesaria para desmantelar privilegios.</p>
+<p>Lo que pasa es que los indicadores de nuestra región la verdad es que no son muy auspiciosos. Se logró disminuir la desigualdad y la pobreza entre 2012 y 2015 a un ritmo muy importante, gracias a políticas laborales y sociales progresistas, ¿verdad, Marina?, y Brasil así lo demuestra también.</p>
+<p>Y, sin embargo, desde el 2015 esto se detuvo, esto se estancó y, por lo tanto, hoy en el 2019 estamos ante el 30 por ciento de las personas en situación de pobreza y 10 por ciento en pobreza extrema, o sea, 62 millones de personas en pobreza extrema. Esa es nuestra tarea por delante.</p>
+<p>Amigos y amigas.</p>
+<p>El que ha caminado los pueblos conoce la huella social del modelo neoliberal, en términos de vulneración de derechos, persistencia de pobreza y desigualdad.</p>
+<p>Por eso es tan importante acercar las acciones al territorio e invertir en mujeres, en jóvenes, en pueblos indígenas sin abandonar, por cierto, a las personas con discapacidad, ni a los adultos mayores.</p>
+<p>Pero, por otra parte, también es necesario y se vuelve más evidente porque nuestros pueblos lo entienden muy bien, los necesarios vínculos entre las políticas ambientales y las sociales. La evidencia es contundente, basta observar la ocurrencia de desastres y el cambio climático que ha ocurrido en los países del Caribe, Bahamas prácticamente destruido recientemente.</p>
+<p>Por eso decimos con convicción: el Caribe primero, son nuestros hermanos menores y los que más apoyo necesitan en la región.</p>
+<p>Presidente:</p>
+<p>Sé que la dimensión ambiental y ecológica no le es ajena, valoramos que en ella se encuentra el impulso que ha dado a usted a programas como Sembrando Vida, lo vemos como un corredor forestal urgente para proteger el trópico, para proteger a nuestras selvas y regenerar esa fantástica diversidad del sureste mexicano, programas que ahora están alcanzando a Centroamérica, también.</p>
+<p>Y, por cierto, actuar sobre la huella social y ambiental demanda un fortalecimiento del multilateralismo, y esto, señor presidente, lo dijo el propio canciller la semana pasada en Nueva York, un multilateralismo eficaz, como el que estamos tratando de aplicar gracias a usted y a los países de Centroamérica en el Plan de Desarrollo Integral para Salvador, Guatemala, Honduras y México, con la convicción de que la consolidación de sociedades más justas, igualitarias y sostenibles es un imperativo para que la migración sea una opción y no una obligación.</p>
+<p>Pero necesitamos cambiar la conversación, necesitamos combatir el enojo, el desencanto, la vulnerabilidad de los jóvenes ante la seducción del delito, la ilegalidad y la migración. Necesitamos apoyar la igualdad de género.</p>
+<p>Esto requiere de un mejor Estado, se trata de traer a la política de vuelta, que responda a los desafíos de la continuidad y la ruptura; de ahí la importancia de recolocar el desarrollo de otra manera, desde la periferia, con rebelión contra el pensamiento céntrico.</p>
+<p>Señor presidente:</p>
+<p>El esfuerzo por construir el bienestar, por apuntalar el desarrollo social, es un esfuerzo que tiene rostros concretos, personas, y la historia nos lo ha demostrado tantas veces, cómo reconocer la potencia transformadora de algunas personas que han sabido ser los rostros del cambio.</p>
+<p>Permítanme ilustrar con una breve historia, muy breve historia. Y es que hace 166 años, un hombre sencillo, con marcados rasgos indígenas, tributo de su estirpe zapoteca, desembarcaba penosamente de un buque mercante en el puerto de Acapulco.</p>
+<p>Su estado era penoso, durante las últimas semanas de su periplo había sobrevivido gracias a la generosidad de los marinos conmovidos por la dignidad de este pobre pasajero.</p>
+<p>Al llegar a Acapulco, nuestro viajero llega al cuartel general de la rebelión que intentaba terminar con el gobierno de Santa Anna, el que a estas alturas ya había perdido la mitad del territorio. Sucio y en harapos, se presentó con el coronel Diego Álvarez y le dijo: ‘Sabiendo que aquí se pelea por la libertad, he venido a ver en qué puedo ser útil’.</p>
+<p>Diego Álvarez le presentó a su padre, cacique de Guerrero, que al escucharlo le dijo: ‘¿Este indio de mediana edad sabe leer y escribir?’. Dijo: ‘Sí’. Entonces, lo utilizó en la Secretaría del Movimiento.</p>
+<p>Varios días después llegó una carta dirigida al licenciado Benito Juárez y entonces aquí dijo el señor este, Diego Álvarez, al secretario vestido de calzón de manta:</p>
+<p>- ¿Oiga, es usted licenciado?</p>
+<p>-Sí, señor.</p>
+<p>- ¿No fue acaso usted el gobernador de Oaxaca?</p>
+<p>- Sí, señor.</p>
+<p>- ¿Y por qué no me lo había dicho?, exclamo Álvarez, sofocado de vergüenza.</p>
+<p>- ¿Para qué? ¿Qué tiene de particular?, respondió con transparencia este hombre excepcional.</p>
+<p>Este Juárez, el mismo que aprendió el castellano en su adolescencia, el que fue el primer abogado titulado en su estado y luego gobernador, el que en 1858 sería el primer presidente indígena de América Latina y el mejor mandatario que registra la historia de la patria.</p>
+<p>Modestia, austeridad, coherencia, convicción y voluntad son esos atributos de Juárez que imprimió el carácter de la República que ayudó a parir.</p>
+<p>Esta es la casa, señor presidente, que hoy usted nos abre generosamente, porque fue la casa de este coloso de la historia. Y en estos pasillos, hombres y mujeres de esta estatura han imaginado caminos a una sociedad de progreso.</p>
+<p>Y ahí está Juárez, cuando entramos, recordándonos que, en nuestro origen, en nuestra semilla, no está inscrito el destino de la miseria y la desigualdad, que podemos cambiar el presente, que podemos cambiar el futuro, y eso es a lo que yo los convoco.</p>
+<p>Muchas gracias.</p>
+<p><strong>MODERADOR:</strong> A continuación, toma la palabra la ingeniera María Luisa Albores González, secretaria de Bienestar y nueva presidenta de la Conferencia Regional sobre Desarrollo Social de América Latina y el Caribe.</p>
+<p><strong>MARÍA LUISA ALBORES GONZÁLEZ, SECRETARIA DE BIENESTAR Y NUEVA PRESIDENTA DE LA CONFERENCIA REGIONAL SOBRE DESARROLLO SOCIAL DE AMÉRICA LATINA Y EL CARIBE:</strong> Buenos días.</p>
+<p>Con su permiso, señor presidente, licenciado Andrés Manuel López Obrador.</p>
+<p>Sé que algunos nos preguntaban que si era el horario correcto a la siete de la mañana. Decirles que tenemos un presidente que desde las cinco y media de la mañana está listo para empezar su día; entonces, a eso se debe que el día que hoy estemos acá reunidas y reunidos.</p>
+<p>Con su permiso.</p>
+<p>Señora Alicia Bárcenas Ibarra, secretaria ejecutiva de la Comisión Económica para América Latina y el Caribe, (Cepal); al señor Luis Felipe López Calva, director regional para América Latina y el Caribe del Programa de las Naciones Unidas para el Desarrollo.</p>
+<p>A la señora Marina Arismendi, ministra de Desarrollo Social de Uruguay; al señor Marcelo Ebrard, secretario de Relaciones Exteriores de México; y a todas y todos ustedes que hoy se dan cita, muchas gracias; compañeras y compañeros, ministras y ministros de Desarrollo Social de los diversos países de nuestro continente.</p>
+<p>El día de hoy inauguramos formalmente la Tercera Reunión de la Mesa Directiva de la Conferencia Regional sobre el Desarrollo de América Latina y el Caribe. Queremos que estos días nos sirvan para conocernos y reconocernos en las experiencias de América Latina para construir países más justos, fronteras más humanas que permitan a sus habitantes tener una vida digna, una vida buena.</p>
+<p>Porque necesitamos realizar alianzas con los países amigos de la región para que, además de lograr construir menos desigual y más justo para todas y todos los mexicanos, también podamos consagrar la igualdad como un principio en toda la región.</p>
+<p>Queremos que esta conferencia sea un espacio de diálogo y encuentro entre los gobiernos de la región para construir modelos alternativos de desarrollo para los pueblos de nuestros países, y que juntos logremos superar los principales retos de la región: la pobreza, la desigualdad, las brechas en el desarrollo, la falta de salud y seguridad social, el déficit en infraestructura, la violencia y los efectos de la degradación ambiental.</p>
+<p>Hemos aceptado la presidencia de esta conferencia porque estamos convencidas y convencidos que para lograr que las y los mexicanos puedan tener una vida digna con bienestar y tranquilidad, debemos adoptar modelos de desarrollo que tengan en el centro a las personas, que tengan una mirada distinta de las obligaciones que los gobiernos tienen con las personas adultas mayores, con las personas con alguna discapacidad, las madres que trabajan, las y los jóvenes que quieren incorporarse en algún trabajo.</p>
+<p>Y también que de manera valiente reconozcan y comiencen a saldar la deuda histórica de los gobiernos latinoamericanos y caribeños que tenemos con nuestros pueblos indígenas.</p>
+<p>La región necesita que el reclamo de justicia social se escuche en la región de América Latina y el Caribe, que los gobiernos latinoamericanos construyan Estados de bienestar y dejen atrás las políticas que agotaron nuestras economías y marginaron a los más vulnerables y degradaron a nuestro medio ambiente.</p>
+<p>México está de vuelta, México regresa al sur, y de la mano de los países de América y Latina y el Caribe impulsaremos una agenda de desarrollo sostenible donde las políticas se hagan derechos, que la ruta sea la igualdad y donde no dejemos a nadie afuera ni a nadie atrás, porque, por el bien de México, por el bien de nuestros pueblos, primero los pobres, como lo dice nuestro presidente.</p>
+<p>Gracias.</p>
+<p><strong>MODERADOR:</strong> Ahora escuchemos a la señora Marina Arismendi Dubinsky, ministra de Desarrollo Rural de la República Oriental del Uruguay.</p>
+<p><strong>MARINA ARISMENDI DUBINSKY, MINISTRA DE DESARROLLO RURAL DE LA REPÚBLICA ORIENTAL DEL URUGUAY:</strong> Estimado ciudadano presidente, queridos amigos y amigas, colegas, compañeros y compañeras:</p>
+<p>Nunca pensé que iba a tener la oportunidad desde un micrófono en México de agradecer a todo el pueblo mexicano que fue asilo, que fue familia, que fue hogar y protección para miles y miles de uruguayos en la época negra de la dictadura.</p>
+<p>México, desde su embajada en aquel momento, con un inolvidable embajador que tuvo el coraje de abrir las puertas de la embajada para todos los que eran perseguidos por defender la libertad, por defender la democracia y la justicia social, y luego el país recogió y acogió, como decíamos, a miles y miles de nuestros compatriotas, muchos están hoy todavía aquí con su doble corazón, su doble nacionalidad.</p>
+<p>Muchas gracias.</p>
+<p>Por lo tanto, es un honor muy grande tener la posibilidad en esta instancia de partir del momento en el cual nosotros durante dos años, Uruguay estuvo presidiendo la Conferencia de Desarrollo Social, instancia importantísima dentro de la Cepal, esa Cepal que para nosotros también tiene una huella histórica, porque muchos y muchas de nuestros hoy destacados economistas y otros quienes ya no están, les decíamos los cepalinos, fueron muchos de los que trazaron en su momento ideas transformadoras, nuevas propuestas que también hoy son compañeros de ruta, son compañeras que trabajan junto con nosotros.</p>
+<p>Por lo tanto, el pasarle la presidencia a México es un doble honor y es un compromiso. Es el compromiso de todo el apoyo, estimada María Luisa, es el compromiso de que todo aquello que hemos podido acumular en experiencia está a disposición, que todo lo que pudimos hacer bien y todo lo que podemos hacer mal, por lo menos para que humildemente no cometas los mismos errores que nosotros, cometerán otros, quizá.</p>
+<p>Nosotros realmente el poder trabajar con esta agenda regional que tiene sus logros, que tiene sus nuevas oportunidades y sus nuevas transformaciones, pero que tiene también, como lo plantea el material, sus nudos críticos, aquellas cosas que hoy tenemos la posibilidad de plantearnos como nudos críticos, porque antes hicimos otras cosas.</p>
+<p>Yo quiero contarles, yo estoy aquí como presidenta de la conferencia, pronto expresidenta de la conferencia, pero en realidad también no dejo de hacer de lado mi condición uruguaya y mi condición de ministra de Desarrollo Social.</p>
+<p>Y en el año 2005 empezamos un camino, empezamos un camino en ese momento con lo que nosotros llamamos el primer gobierno, y ese primer gobierno fue a su vez para nosotros como Ministerio de Desarrollo Social el nacimiento del Ministerio de Desarrollo Social, fue parte de la transformación del Estado, de este Estado y de ese gobierno que necesitaba cambiar la mirada, necesitaba cambiar el objeto y el sujeto de sus acciones, y para eso nace el Ministerio de Desarrollo Social.</p>
+<p>Pero nace en un conjunto de informaciones profundas, nace en medio de una reforma tributaria. Y siempre digo cuando me dicen: ‘Las políticas sociales del Mides’, digo, ¿cuáles son las políticas sociales?, y empiezo por la reforma tributaria, porque como decía nuestro presidente en aquél entonces y nuestro actual presidente: ‘Que paguen más los que tienen más y que paguen menos los que tienen menos’. Eso fue lo que orientó el sistema nacional integrado de salud, el sistema educativo, la transformación, los consejos de salario y la negociación colectiva, el hecho de que trabajadores, gobierno y empresarios se sienten a discutir no sólo salario, salario, condiciones de trabajo, cláusulas de género; y tengo la alegría de poder decir que el viernes firmamos para mandar al parlamento la aprobación del Convenio 190 de OIT contra el Acoso la Violencia en el Trabajo.</p>
+<p>Lamentablemente -y tenemos que decirlo porque es parte de los vientos viejos, de los vientos viejos que están viniendo a la región- los empresarios no firmaron. Fue por una abrumadora mayoría que en la OIT se votó el Convenio 190; pero los empresarios uruguayos llamados a la tripartita, como manda la OIT… se reunieron los sindicatos, la Central Única de Trabajadores, el gobierno y los empresarios. Firmaron los trabajadores y el gobierno el convenio contra el acoso y las violencias en el mundo del trabajo, que es de una maravillosa precisión, diría yo, es realmente un avance enorme en esta concepción de que nadie quede atrás.</p>
+<p>Por otro lado, podemos decir que así como en el 2005, cuando nace el Mides, teníamos -como tienen ustedes hoy, México- el desafío, teníamos uno de cada tres uruguayos bajo la línea de pobreza y teníamos cuatro por ciento de indigencia, ambos medidos por ingresos; cosa que sabemos hoy, porque hoy no medimos así, sabemos que si hay una discapacidad, que si hay una persona mayor, un niñito, una niñita de primera infancia, que hay una cantidad innumerable de problemas que hacen a que no sólo por ingreso tenemos que medir la exclusión social.</p>
+<p>Pero de ese cuatro por ciento de indigencia, de ese uno cada tres, hoy decimos: tenemos un digito, estamos en ocho, y tenemos algo que quizá estadísticamente… acá hay grandes economistas y gente que sabe, yo soy maestra de escuela, un 0.1 parece que no es nada, que es un más-menos de error, a veces 0.1 tiene nombre, tiene rostro, es niña, es niño, es mujer, como decía Alicia, como decía María Luisa, son personas, son familias y por lo tanto seguimos trabajando para terminar también con esto.</p>
+<p>Pero como pudimos, y se puede pasar, de esa concepción que Cepal también define, lo define de una manera estupenda de la cultura de privilegio, aquella que nos decía que la torta tenía que crecer y que cuando creciera, las migajas que cayeran al borde del mantel a lo mejor algún pobre podría atraparlo -porque en el fondo era eso lo que nos decían- el poder resolver un plato de comida por lo menos una vez por día para cada uno y cada una de los uruguayos y las uruguayas. Es la transformación que hicimos en este tiempo.</p>
+<p>Y porque pusimos el plato de comida sobre la mesa, hoy podemos plantearnos medidas mucho más transformadoras, como puede ser el sistema nacional integrado de cuidados. Lo planteamos no porque esté de moda, lo planteamos no porque hayamos reconocido que es excelente reconocer que el trabajo no remunerado de las mujeres y la incapacidad de las mujeres para el mundo del trabajo, del estudio, tienen que ver con el cuidado.</p>
+<p>Sin embargo, pudimos llegar a esto luego de tres periodos de gobierno, porque en el primero pusimos el plato de comida; si no, no hubiéramos podido, y se puede transformar. Lo decimos con humildad, ciudadano presidente, ¿por qué?, porque somos un pequeño país.</p>
+<p>Cuando escuchábamos las exposiciones excelentes ayer… claro, somos tres millones de habitantes, en ese sentido, la dimensión de la tarea que ustedes tienen por delante es enorme, la geografía es enorme, nosotros podemos recorrer el punto más lejano del país en un día.</p>
+<p>Pero lo queremos decir es que cuando hay una decisión política, cuando hay convicción, cuando hay compromiso con la justicia social, se puede transformar de fondo, y va a haber muchos que no van a estar contentos, eso es la verdad.</p>
+<p>Por lo tanto, nos ponemos a disposición, ponemos nuestras capacidades, nuestra cooperación, las investigaciones que hemos sido haciendo porque pueden ser parte de una investigación comparada con los demás países que integramos la conferencia, y seguiremos peleando por esto que Cepal define también cuando dice: ‘Universalismo sensible a las diferencias’, nuestro lema como mide, que atravesó todos estos años es todos los derechos para todas las personas.</p>
+<p>Pero yo quiero decir… Alicia traía a Benito Juárez, y no es por casualidad que yo anoche pensando, decía: ‘¿Qué puedo decir al final? ¿y qué mejor que las palabras de nuestro prócer José Artigas, de los libertadores?, del que soñó una patria para todas las familias, para todas las personas, del que murió en el exilio abandonado por la derrota, la derrota, como decía él mismo, de los malos extranjeros y peores americanos, y Artigas decía que los más infelices, sean los más privilegiados. Por eso estamos acá y por eso estamos a las órdenes.</p>
+<p>Muchas gracias.</p>
+<p><strong>MODERADOR:</strong> Tiene la palabra el señor Luis Felipe López Calva, director regional para América Latina y el Caribe del Programa de las Naciones Unidas para el Desarrollo.</p>
+<p><strong>LUIS FELIPE LÓPEZ CALVA, DIRECTOR REGIONAL PARA AMÉRICA LATINA Y EL CARIBE DEL PROGRAMA DE LAS NACIONES UNIDAS PARA EL DESARROLLO (PNUD):</strong> Qué tal. Muy buenos días a todos.</p>
+<p>Señor presidente Andrés Manuel López Obrador; señora secretaria de Bienestar, María Luisa Albores.</p>
+<p>Quiero decir que es un país pequeño de tres millones de personas, pero producen alimentos para 27 millones de personas. Realmente son un país grande en muchos sentidos.</p>
+<p>Señor secretario de Relaciones Exteriores, Marcelo Ebrard; secretaria María Luisa Albores y querida Alicia, y muchos colegas, veo muchos rostros conocidos.</p>
+<p>Es un gran honor estar hoy aquí como director del Programa de Naciones Unidas para el Desarrollo presentando esta Conferencia Regional sobre Desarrollo Social en América Latina y el Caribe, que empezó hace ya más de 10 años y desde 2015 es que lo estamos haciendo en conjunto con la Cepal; y es un espacio realmente para compartir y debatir experiencias entre todos los países para poder hacer mejor política pública.</p>
+<p>Mucho ha pasado en estos 10 años desde que se inició el foro. Un logro muy importante fue la firma de la Agenda 2030 en el año 2015, más de 190 países firmaron esta agenda; y esta agenda es una manifestación y de alguna manera una consolidación de esta lógica, como decía la ministra, todos los derechos para todas las personas.</p>
+<p>Ha sido una época también, una década de mucho progreso: hemos reducido la pobreza en la región alrededor de 30 millones de personas salieron de la pobreza durante esta época, pero como bien dijo Alicia, esta tendencia se detuvo y de hecho se revirtió a partir del año 2015. Entonces, estamos también aquí hoy para entender qué es lo que está detrás de ese deterioro reciente.</p>
+<p>El crecimiento en la región ha sido insuficiente y ha sido muy volátil. La región, además -hay que decirlo- es la región más violenta del mundo, tenemos tasas de homicidio muy altas en la región y las desigualdades territoriales también siguen siendo un reto muy grande y un foco de inestabilidad.</p>
+<p>Entonces, hay muchos retos y realmente en este contexto es que tenemos que hacer que el crecimiento económico sea más incluyente y también que podamos ser más resilientes a los choques externos.</p>
+<p>En el Caribe cada vez que hay un choque, un evento climático extremo, los países pierden alrededor del 17 por ciento de su Producto Interno Bruto; entonces, tenemos que tratar de reducir esa exposición a los riesgos.</p>
+<p>Entonces, para avanzar en esta agenda y en lo que llamamos la pavimentación de esta carretera de más productividad, más inclusión y más resiliencia, necesitamos aprender todos unos de otros. Veo por ejemplo aquí a Gabriela Agosto, gran amiga, mucho que aprender también de lo que se ha hecho en Argentina.</p>
+<p>Entonces, realmente este es un espacio de intercambio, un espacio que, con la Cepal, el PNUD ha conformado para intercambiar experiencias, para tratar de aprender unos de otros y tratar de enfrentar los retos colectivamente.</p>
+<p>Muchas gracias, señor presidente, por esta oportunidad.</p>
+<p><strong>MODERADOR:</strong> A continuación hace uso de la palabra el licenciado Marcelo Ebrard Casaubon, secretario de Relaciones Exteriores.</p>
+<p><strong>MARCELO EBRARD CASAUBON, SECRETARIO DE RELACIONES EXTERIORES (SRE):</strong> Con su permiso, señor presidente.</p>
+<p>Muy distinguidas, distinguidos integrantes el día de hoy de nuestro presídium; a todas y a todos muy distinguidas, distinguidos invitados.</p>
+<p>Muy brevemente decir que me sumo, me adhiero por completo a lo aquí ya expuesto.</p>
+<p>¿Qué es lo que nos une el día de hoy?, ¿qué nos congrega?</p>
+<p>México les quiere dar la bienvenida. México, como ha propuesto el presidente López Obrador está, viendo al sur, quiere ser parte activa, resuelta, comprometida de las causas de América Latina y el Caribe.</p>
+<p>Recién la semana pasada tuvimos el honor de que nos hayan encomendado a partir de enero del 2020 la Presidencia pro tempore de la Comunidad de Estados Latinoamericanos y Caribeños, y nos congrega el día de hoy -además de eso, que es muy relevante para México y por eso estamos muy complacidos de recibirles- nos congrega la voluntad de avanzar hacia la igualdad de nuestras sociedades, de poner en el centro de nuestras reflexiones y ocupaciones la igualdad, y, como aquí ya se dijo, de revelarnos contra lo que hemos venido escuchando hace muchos años: que no se puede, que es muy difícil, que es peligroso, que se puede retrasar el desarrollo si se toman medidas de carácter social, si aumentan los salarios va a haber inflación, que lo que hay que hacer es esperar, que después de que haya largos periodos de crecimiento tal vez se pueda aspirar a tener una sociedad más igualitaria.</p>
+<p>Incluso en algunos ámbitos, con ese predominio del pensamiento conservador durante muchos años, se dejó hablar de igualdad, casi era una palabra proscrita, porque no tenía sentido -se decía- era inalcanzable. Entonces, lo primero que hay que hacer cuando se quiere combatir algo es hacerlo inalcanzable para persuadir y convencer de que no es posible.</p>
+<p>Entonces, el día de hoy les damos la más cordial bienvenida a México, a este que es el Palacio Nacional, como aquí ya se explicó, y se quiere manifestar con esto -ya lo hará el propio presidente de la República, ¿quién mejor que él para hacerlo? - se quiere manifestar que estamos en una rebelión, estamos en un planteamiento en el que la igualdad es el centro de nuestras ocupaciones y preocupaciones.</p>
+<p>Y para culminar diría… estaba escuchando la muy interesante intervención de Marina. Sí, Uruguay es un país que tiene una población pequeña, pero demostró algo que tiene un gran impacto, que es: se puede crecer y se debe crecer distribuyendo, lo que demostró Uruguay, porque le ha ido muy bien en su economía; eso que nos dijeron durante 30 años es falso, por eso es muy relevante, es uno de los países a los que mejor les ha ido en América Latina; y si lo comparamos con México, les fue muchísimo mejor en crecimiento económico.</p>
+<p>¿Por qué? Por lo que aquí ya se dijo, porque se puso la igualdad en el centro de la estrategia del desarrollo. Y esa idea es la que nos permite decir: Pues sí, estamos pensando distinto y para muestra un botón, Uruguay ya lo demostró, y aquí está toda América Latina y el Caribe, porque queremos también hacerlo.</p>
+<p>Muchas gracias por estar aquí y bienvenidas, bienvenidos.</p>
+<p><strong>MODERADOR:</strong> Ahora escuchemos el mensaje del licenciado Andrés Manuel López Obrador, presidente de los Estados Unidos Mexicanos.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Agradecerles por acompañarnos en México para conocer la experiencia de lo que nosotros denominamos la Cuarta Transformación de la vida pública de nuestro país.</p>
+<p>De manera así muy breve, para tener los antecedentes, les comento que ha habido tres grandes transformaciones en la historia de nuestro país: el movimiento de Independencia nacional que fue toda una transformación, no sólo porque se logró la independencia de México después de tres siglos de dominación colonial, sino porque se inició la lucha por la justicia.</p>
+<p>Miguel Hidalgo, el padre de nuestra patria, fue el primero en proclamar la abolición de la esclavitud; y otro cura rebelde, extraordinario, José María Morelos, también independentista, dictó un documento que es como una constitución de política social, un documento que se conoce como los<em> Sentimientos de la nación.</em></p>
+<p>De manera muy sencilla nos invitó a llevar cabo cambios en favor de la igualdad. Él, cuando dictó estos sentimientos, le dijo a quien estaba escribiendo, un abogado ilustre, Andrés Quintana Roo, le decía: ‘Usted, licenciado, que es un hombre de letras, ponga ahí –fíjense la sencillez y la profundidad- ponga de que se modere la indigencia y la opulencia; ponga, licenciado, usted que escribe bien, que se eleve el salario del peón’. Es una frase, es un tratado de política laboral: que se eleve el salario del peón. Es tan difícil que un economista, un politólogo, un sociólogo, un filosofó, pueda acuñar así, en una frase, todo lo que significa la justicia en lo laboral.</p>
+<p>Le seguía diciendo: ‘Que se eduque al hijo del campesino y al hijo del barretero -al que trabajaba de peón en las minas se le llamaba barretero- como al hijo del más rico hacendado’, y le dictaba: ‘Que haya tribunales que protejan al débil de los abusos que comete el fuerte’. Eso era Morelos. Esa fue una transformación importantísima la que se logró.</p>
+<p>La segunda fue la encabezó, como aquí se dijo, el mejor presidente que ha habido en la historia de nuestro país, un indígena zapoteco, Benito Juárez García, que enfrentó a los que en ese entonces no querían los cambios, a los conservadores, que cuando ya estaban derrotados política, militar y moralmente, se atrevieron a ir al extranjero a traer a un príncipe, a una emperatriz para que nos dominaran.</p>
+<p>Y Juárez y los liberales, que eran hombres de ideales, de principios, pero además perseverantes, resistieron y se logró vencer al ejército, en ese entonces, más poderoso del mundo, al ejército francés, se les expulsó de nuestro país y se restauró nuestra República.</p>
+<p>La tercera transformación fue la Revolución, en 1910, la primera revolución social del mundo, con dirigentes extraordinarios, como ‘el Apóstol de la Democracia’, Francisco I. Madero, y como dirigentes sociales, como los hermanos Flores Magón, precursores de la Revolución; como el dirigente campesino, leal, Emiliano Zapata; y el dirigente del norte, Francisco Villa.</p>
+<p>Y un presidente revolucionario que es el que consuma todas las demandas, es el que lleva a la práctica lo que había llevado al pueblo de México a la lucha armada, el que le entrega la tierra a los campesinos, el que mejora las condiciones de los trabajadores, el que impulsa la educación pública y el que rescata el petróleo, que Porfirio Díaz, un dictador que se mantuvo 34 años en la Presidencia, les había entregado a extranjeros, el general Lázaro Cárdenas expropia el petróleo en 1938.</p>
+<p>Entonces, tres transformaciones y nosotros estamos llevando a cabo la Cuarta Transformación de la vida pública del país. Tenemos la dicha enorme, algo que es como una bendición, que se presentaron las circunstancias para llevar a cabo esta transformación sin violencia, de manera pacífica.</p>
+<p>Pero no por ser una transformación pacífica va a quedarse en la superficie, por encima; esta es una transformación igual de profunda como lo fue la Independencia, la Reforma y la Revolución, porque nos hemos propuesto arrancar de raíz al régimen corrupto de injusticias y de privilegios.</p>
+<p>Nosotros hemos llegado a la conclusión de que nada ha dañado más a México que la corrupción política, la deshonestidad de los gobernantes.</p>
+<p>Cuando se estudia ciencia social, por lo general en América Latina, en el Caribe, en el mundo, se enseña que la acumulación de capital se produce porque el burgués o el dueño de los medios de producción se va apropiando de una plusvalía que se genera por la explotación a los trabajadores, a los proletarios y que así se va acumulando el capital, y esto es lo que lleva a la desigualdad, a la pobreza, al sometimiento y a la opresión.</p>
+<p>Bueno, eso para el caso de México cuando menos no aplica del todo. Aquí el fenómeno de acumulación de capital en unas cuantas manos se produjo al amparo del poder público, del poder político y mediante la corrupción.</p>
+<p>Aquí, sobre todo en el último periodo, en el periodo que nosotros llamamos de neoporfirismo o neoliberalismo, se llevó a cabo el saqueo más grande que se haya registrado en la historia de México, en eso consistió la llamada política neoliberal en esencia: en trasladar los bienes del pueblo de México y de la nación a particulares; y eso produjo una desigualdad económica y social como nunca se había visto.</p>
+<p>Lo que decía Morelos hace 200 años, de que se moderara la indigencia y la opulencia, lo que recomendaban, se les olvidó; y en este periodo se ahondó, se profundizó la desigualdad económica y social. Cuando empezó esta política a aplicarse la revista <em>Forbes</em>, que registra a quienes poseen más dinero en el mundo, publica listas de los hombres más ricos del mundo, 1988, cuando se intensifica la política neoliberal en México, había en esa lista de los hombres más ricos del mundo sólo una familia mexicana; empiezan a entregar los bienes del pueblo y de la nación, bancos, empresas, todo, la piñata, y al final de ese gobierno, en el 94, ya hay 22 multimillonarios en la lista de los más ricos del mundo.</p>
+<p>En el 88 una familia, repito, con dos mil millones de dólares; en el 94, 22 con 48 mil millones de dólares en seis años; y ya México está en esa revista en el cuarto lugar en el mundo en multimillonarios, sólo superado por Estados Unidos, por Japón y Alemania.</p>
+<p>Y, al mismo tiempo, con cifras oficiales del Banco Mundial y del Fondo Monetario Internacional, que impulsaron mucho esta política, se amplía la brecha entre ricos y pobres en el país. Es el periodo de más desigualdad en la historia de México. Por eso he bautizado al que era presidente en ese entonces como el padre de la desigualdad moderna.</p>
+<p>Ya no queremos esa política, ya estamos en el periodo posneoliberal, posneoporfirista. Hemos dicho: Basta a la política neoliberal y estamos llevando a la práctica una política nueva; porque también como aquí se mencionó, después de todos los sofismas, de toda la retacería de enunciados que impusieron como parapeto para saquear a México y a otros países, después de todo esto se pensaba que era como un destino manifiesto el tener que aplicar la política neoliberal, que no había de otra.</p>
+<p>Yo recuerdo que estábamos en la oposición y siempre nos decían: ‘Sí, sí, sí, está muy bien el diagnóstico, pero, ¿y los cómos?’ Era parte del discurso del conservadurismo, de la réplica conservadora.</p>
+<p>Ahora estamos llevando a la práctica los cómos en México y van a tener ustedes oportunidad de conocer lo que se está llevando a cabo. Es sencilla la fórmula, muy importante para nuestro país, tampoco se puede extrapolar, porque cada país tiene su propia historia, que ese fue uno de los errores y es algo que debemos de rechazar: el que se imponga una agenda para todos los pueblos, para todos los países y rechazar también el que esa agenda se dicte desde el extranjero y que no se tome en cuenta la realidad de cada pueblo.</p>
+<p>Pero bueno, lo que estamos haciendo, considero, puede ayudar a interpretar cómo pueden cambiar las cosas, cómo una política distinta, una política nueva. Nosotros, de acuerdo a nuestra realidad, estamos aplicando una política que consiste en desterrar la corrupción.</p>
+<p>Si me preguntan: ‘¿Cuál es el plan?, ¿cuál es la esencia?, dígalo en una frase, ¿qué es lo que se propone?’ Acabar con la corrupción, y ya le podemos poner el añadido: Y con la impunidad y le sumamos hacer un gobierno austero.</p>
+<p>Que también esto hay que analizarlo y no malinterpretarlo, porque para el neoliberalismo, la austeridad es una cosa distinta a lo que nosotros entendemos por austeridad. Nosotros aplicamos la austeridad juarista, el presidente Juárez decía que el funcionario, el servidor público tenía que aprender a vivir en la justa medianía, que no podía haber gobierno rico con pueblo pobre.</p>
+<p>La austeridad para nosotros es que no le cueste tanto el gobierno al pueblo, que se reduzca el costo del gobierno a la sociedad y que podamos, con el combate a la corrupción y con la austeridad, liberar fondos para el desarrollo y el bienestar, sin aumentar impuestos, sin crear impuestos nuevos, sin aumentar los precios de los combustibles, sin endeudar al país, combatiendo la corrupción y con austeridad republicana. Ese es esencia el modelo.</p>
+<p>Y todo lo que se libera para el desarrollo de nuestro pueblo, atendiendo a todos, escuchando a todos, respetando a todos, pero dándole preferencia a los humildes, porque como aquí se ha dicho, por el bien de todos, primero los pobres.</p>
+<p>Ese en esencia es el nuevo modelo, como decían muy pomposamente los tecnócratas, neoliberales, corruptos, ese es el nuevo paradigma. Ya no es la misma política pública, ya es completamente algo nuevo lo que estamos llevando a cabo, y nos llena de orgullo.</p>
+<p>Y no sólo es el discurso, lo teórico, lo conceptual, estamos destinando como nunca recursos, presupuesto, para el bienestar del pueblo.</p>
+<p>Ya seguramente ustedes saben que todos los adultos mayores del país, ocho millones, tienen una pensión, es universal el apoyo.</p>
+<p>Todas las niñas, niños pobres con discapacidad reciben una pensión.</p>
+<p>Estamos otorgando 10 millones de becas a estudiantes; sólo este programa significa una inversión, que no gasto, de 60 mil millones de pesos.</p>
+<p>El programa Jóvenes Construyendo el Futuro significa que ahora, a 10 meses del gobierno, estén trabajando como aprendices 900 mil jóvenes, que antes sólo se les etiquetaba, se les llamaba de manera despectiva, ninis, que ni estudian ni trabajan. Ahora se les está atendiendo, nunca más se les va a dar la espalda a los jóvenes; y estos 900 mil jóvenes están capacitándose en talleres, en empresas, están recibiendo tres mil 600 pesos mensuales, formándose, porque lo que queremos es que todos los jóvenes tengan garantizado el derecho al estudio y el derecho al trabajo para alejarlos de la tentación, que no sean enganchados por la delincuencia.</p>
+<p>Y María Luisa les va a hablar seguramente de un programa extraordinario que se llama Sembrando Vida, este año estamos sembrando 500 mil hectáreas y se le está dando trabajo a 200 mil campesinos.</p>
+<p>No es empleo temporal, es permanente, para que cultiven, para que siembren sus parcelas, sean comuneros, ejidatarios o pequeños propietarios.</p>
+<p>El año próximo van a ser otras 500 mil hectáreas, 400 mil empleos, porque hemos llegado también a la conclusión de que el campo es la fábrica más importante del país, tenemos que regresar al campo, que se abandonó, por eso creció tanto la migración.</p>
+<p>En el campo de México tenemos muchos recursos naturales, suelos, agua, bosques, tenemos una experiencia milenaria en el trabajo de la tierra y tenemos mucha cultura en el campo, una forma de vida sana, una gran reserva de valores culturales, morales, espirituales; entonces, por eso la importancia del campo.</p>
+<p>Muy contrario a lo que hicieron los neoliberales, que de manera sencilla, más que nada simple, superficial e irresponsable, decretaron de que no había que producir en México lo que consumimos, porque en un mundo globalizado se podía comprar en el extranjero lo que se necesitara, y se abandonó por completo al campo y eso produjo problemas sociales, desintegración en las familias.</p>
+<p>Bueno, el fenómeno migratorio. Esta contradicción, paradoja, de que estamos ahora recibiendo apoyo de los migrantes mexicanos, de nuestros paisanos, que son como nuestros héroes vivientes porque nos envían, calculamos que este año las remesas van a llegar a 35 mil millones de dólares, es la fuente de ingresos más importante del país; pero al mismo tiempo ese fenómeno migratorio nos produjo mucha descomposición social, y entre otras causas, esto fue lo que nos alentó mucho la inseguridad y la violencia en el país. Entonces, no queremos ya seguir con ese modelo.</p>
+<p>En la época del neoliberalismo se decía que había que capacitar a los campesinos para que se fueran de jardineros o que, como iba a crecer mucho la población adulta en Estados Unidos, que se prepararan para que fuesen a atender a los adultos mayores en Estados Unidos.</p>
+<p>Nosotros no queremos eso, nosotros queremos que el mexicano pueda trabajar y pueda ser feliz donde nació, donde están sus familiares, donde están sus costumbres, donde están sus culturas. Y lo vamos a lograr.</p>
+<p>Y como aquí se dijo, la migración va a ser opcional, no forzada; el que se quiera ir que se vaya por gusto, no por necesidad. Por eso estamos regresando al campo, impulsando actividades productivas.</p>
+<p>Yo tengo el sueño que quiero convertir en realidad de que pronto, muy pronto, no tengan los mexicanos que ir por necesidad a trabajar a Estados Unidos, que todos puedan trabajar, tener buenos ingresos y bienestar en el país, en nuestra patria.</p>
+<p>Nos da mucho gusto contar con la presencia de ustedes en este encuentro, van a estar varios días, esta es la casa de todas y de todos ustedes.</p>
+<p>Bienvenidos.</p>
+<p>Muchas gracias.</p>
+<p><strong>MODERADOR:</strong> A continuación, el licenciado Andrés Manuel López Obrador, presidente de los Estados Unidos Mexicanos, realizará la declaración de inauguración de la Tercera Reunión de la Conferencia Regional sobre Desarrollo Social de América Latina y el Caribe, y el Décimo Primer Foro Ministerial para el Desarrollo en América Latina y el Caribe del PNUD.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Nos ponemos de pie, de favor.</p>
+<p>Siendo las ocho horas del día 1º de octubre de 2019, doy por inaugurada la reunión de la Mesa Directiva de la Conferencia Regional sobre Desarrollo Social de América Latina y el Caribe.</p>
+<p>Deseo, de todo corazón, que este encuentro se transforme, se convierta en justicia y en igualdad para nuestros pueblos.</p>
+<p>Gracias.</p>
+<p><strong>MODERADOR:</strong> De esta manera damos por finalizada la primera parte de este acto.</p>
+<p>Los invitamos a permanecer en sus lugares para continuar con la conferencia de prensa.</p>
+<p>Buenos días.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Cómo ven si nada más unas cinco preguntas? Y mañana damos…Ayer fueron como hora y media, nos pasamos; entonces, ahora cinco preguntas.</p>
+<p><strong>PREGUNTA:</strong> Gracias, presidente; señores ministros. Arturo Páramo, <em>Grupo Imagen</em>.</p>
+<p>Presidente, dos preguntas. Publicamos hoy entrevistas con los aspirantes a dirigir la Universidad Nacional Autónoma de México, están en proceso de renovación de la rectoría.</p>
+<p>Ellos señalan que se debe mantener el examen de ingreso a la universidad, algo que usted ha comentado que debería de eliminarse de las universidades públicas.</p>
+<p>Me gustaría saber su opinión al respecto.</p>
+<p>Ellos obviamente tienen su postura cada uno de cómo asumirían la rectoría, pero coinciden en que se debe de mantener ese filtro del examen de ingreso a la universidad.</p>
+<p>Y otra pregunta, presidente. Hoy también publicamos que, de acuerdo con el índice que maneja el Inegi acerca de la gente que se siente insegura y también de corrupción, México sigue siendo un país muy corrupto.</p>
+<p>Y el primer contacto que tiene la población con la autoridad es la policía y sigue habiendo la percepción de que las policías son extremadamente corruptas, sobre todo las policías estatales.</p>
+<p>Si nos pudiera también hacer un comentario acerca de para cuándo podríamos tener ya una percepción distinta de la población hacia las policías, que es el primer contacto que tiene con el Estado.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Acerca de lo primero. Lo ideal es que todos los que quieran ingresar a la universidad puedan hacerlo y que se supriman los exámenes los exámenes de admisión, que se garantice el derecho a la educación. La educación no es un privilegio, es un derecho del pueblo.</p>
+<p>Y en el periodo neoliberal precisamente se utilizó como pretexto el que los jóvenes no pasaban el examen de admisión y se les rechazaba, eso fue una constante; y no es cierto, fue una mentira, no es que no pasaran el examen de admisión, es que no había espacios porque no había presupuesto en las universidades, porque el propósito era poner la educación al mercado como si fuese una mercancía, privatizar la educación.</p>
+<p>¿Qué sucedió?</p>
+<p>Que se dejó de invertir en educación pública. Se hacían los exámenes, hasta en la UNAM. Si solicitaban su ingreso 10 mil para entrar a medicina, decidían que iban a aceptar 500; entonces aplicaban un examen con 120 preguntas y resolvían que iban a ingresar los que contestaran bien 118, el que contestaba bien 117 preguntas no pasaba.</p>
+<p>Entonces, no es que reprobara el examen, es que no había espacio, no había cupo. Entonces, eso fue lo que prevaleció por tres décadas, se rechazaban 300 mil jóvenes por año de universidades públicas y creció de esta manera la matrícula en escuelas privadas; pero llegó también un momento en que dejó de crecer la matrícula porque por muy poco que se pague de colegiatura en una escuela privada, la mayoría de los mexicanos tiene para pagar colegiatura, es decir, los padres no tienen para pagar la colegiatura de sus hijos.</p>
+<p>El salario de un trabajador promedio es de cuatro, cinco mil pesos, y una colegiatura, por muy barata, son tres mil pesos mensuales; entonces, se excluye a los jóvenes y no pueden estudiar, y esto afecta a los que tienen menos ingresos.</p>
+<p>Hace poco, precisamente el rector de la UNAM me visitó, me trajo una tabla sobre el nivel económico de los estudiantes de la UNAM, que son como 250 mil estudiantes, y me decía con mucha satisfacción que el 60 por ciento de los que estudian en la UNAM -que es una gran universidad, considerada la universidad pública más importante en América Latina- que el 60 por ciento eran estudiantes de familias pobres, mientras en el resto de las universidades públicas del país sólo el 35 por ciento eran estudiantes de familias pobres.</p>
+<p>Y entonces le dije: Esto es posible porque se mantiene el pase automático, porque la UNAM tiene escuelas de nivel medio superior y el que estudia en esas escuelas tienen entrada automática a la UNAM, no tiene que presentar el examen. Entonces, yo sí estoy a favor de que se abran los espacios.</p>
+<p>Engañaron también mucho con lo de la excelencia, eso fue también otra constante en el periodo neoliberal. Tenían que estudiar los aptos, los más inteligentes, teníamos que procurar mejorar la calidad de la enseñanza y se olvidaron interesadamente, de forma deliberada, del acceso, de la cobertura. Y fíjense el daño que causan con una política así, porque dejan sin opciones a los jóvenes al rechazarlos.</p>
+<p>¿Qué es la escuela en países como el nuestro, donde hay tanta pobreza y donde hay problemas de desintegración familias, de descomposición social?</p>
+<p>La escuela se convierte en el segundo hogar. Cuando hay problemas en la familia el joven, si tiene posibilidades de estar en la escuela, se forma, se puede educar, tiene otra enseñanza, es abrazado, es protegido por los maestros, por sus mismos alumnos.</p>
+<p>Cuando no tiene esa opción ¿dónde se forma?, en la calle y puede tomar el camino de las conductas antisociales.</p>
+<p>Entonces, por eso mi planteamiento. Y el propósito de la Cuarta Transformación es garantizar a todos los jóvenes el derecho a la educación. Estamos estableciendo 1000 universidades públicas, ya se inició la constitución de 100 universidades públicas en las regiones más pobres de México, educación pública y gratuita, que el Estado asuma su responsabilidad.</p>
+<p>El que tenga para pagar una escuela privada está en su derecho de hacerlo, pero el Estado está obligado a garantizar la educación pública, gratuita y de calidad en todos los niveles escolares.</p>
+<p>Ese es el tema. Es un planteamiento nuevo, distinto y yo respeto la opinión de los rectores o de los aspirantes a la rectoría. Nosotros vamos a garantizar la autonomía de las universidades.</p>
+<p>Acerca de la percepción de corrupción en las policías. Se tiene que ir cambiando poco a poco, como ya está cambiado la percepción sobre la corrupción en México.</p>
+<p>Acaba de darse a conocer hace unos días una encuesta de Transparencia Internacional y ya es otra la percepción sobre la corrupción en nuestro país, porque no se permite la corrupción en México, cero corrupción, estamos limpiando de corrupción al país, empezando por el gobierno, de arriba para abajo, como se barren las escaleras. Entonces, esto va a ir poco a poco aplicándose en todo el gobierno.</p>
+<p>Al mismo tiempo estamos fortaleciendo valores y convenciendo de poner por delante la honestidad como forma de vida y como forma de gobierno, es un proceso. No sólo es buscar el bienestar material, sino buscar también el bienestar del alma.</p>
+<p><strong>INTERLOCUTOR:</strong> Una precisión nada más, presidente. Sí hay un examen de ingreso a la UNAM, es al bachillerato y ya quien aprueba el bachillerato ingresa a la escuela superior.</p>
+<p>¿Usted estaría planteando, entonces, eliminar el examen de ingreso al bachillerato, que es la puerta de entrada a la UNAM? ¿sería un planteamiento diferente?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, yo no estoy por los exámenes de admisión, yo pienso que todos tienen que tener la oportunidad de estudiar y que incluso si llegan con rezagos, que haya un periodo de actualización, de mejora educativa para que puedan estudiar; pero no rechazar, no estoy por esa política de rechazo. Es mil veces mejor tener a un joven estudiando que tenerlos en la calle.</p>
+<p>Adelante.</p>
+<p><strong>PREGUNTA:</strong> (Inaudible) ministro secretario de Política Nacional de la Presidencia de Nicaragua. Usted tiene una estrategia clara y, yo diría genial, para lograr la igualdad y aumentar la capacidad productiva del país al mismo tiempo con énfasis en la juventud basado en valores.</p>
+<p>Quisiera preguntar acerca de dos grupos históricamente excluidos: los indígenas y las mujeres.</p>
+<p>¿Dentro de esa estrategia hay programas para las necesidades específicas particulares de estos dos grupos históricamente excluidos, señor presidente?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí. Mire, todos los programas de bienestar -esto lo van a constatar en el tiempo que estén trabajando, haciendo reflexiones, análisis en las mesas de este congreso- en todos los programas, lo primero son los pobres.</p>
+<p>Le pongo un ejemplo. La pensión para personas con discapacidad o capacidades diferentes es en beneficio de un millón de personas, es un millón de beneficiarios, de cero a 29 años, pero en el caso de la población indígena es a todos, de todas las edades, hasta 64 años.</p>
+<p>¿Por qué hasta 64?</p>
+<p>Porque a partir de 65 ya tienen la pensión de adultos mayores. También ahí hay una diferencia. Para todos es a partir de los 68 años, para adultos mayores indígenas a partir de los 65; o sea, todo el apoyo va primero a las comunidades indígenas.</p>
+<p>Otro dato que es importante: hoy 20, 22 millones de mexicanos están recibiendo un apoyo de manera directa, esto significa que de cada 10 hogares, en cinco hay cuando menos un apoyo en general; pero en el caso de comunidades indígenas hasta ahora -porque llevamos 10 meses y se están desplegando todas las acciones- de cada 10 hogares, nueve están recibiendo un apoyo. En lo general, repito, cinco de cada 10; en lo que tiene que ver con los indígenas, en nueve de cada 10 y van a ser 10 de 10. Esa es una protección.</p>
+<p>Lo mismo en el caso de mujeres. En todos los programas participan mujeres. En Sembrando Vida, que es el cultivo de la tierra, ¿qué porcentaje de mujeres hay?</p>
+<p><strong>MARÍA LUISA ALBORES GONZÁLEZ:</strong> De cada tres, una.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> De cada tres, una mujer en la siembra; en becas estoy seguro que son más las mujeres.</p>
+<p><strong>MARÍA LUISA ALBORES GONZÁLEZ:</strong> Setenta y cuatro por ciento.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Setenta y cuatro por ciento; y en jóvenes también. Entonces, sí procuramos que se atienda a los más pobre y hay una política también de apoyo a mujeres.</p>
+<p>Vamos, precisamente mujeres, vamos a darle la palabra a una mujer, allá.</p>
+<p><strong>PREGUNTA:</strong> Muy buenos días, qué tal, muy buenos días, señor presidente. Soy Cynthia Alvarado, de portal<em> Revolución Chiapas</em>.</p>
+<p>La cultura del agua, el acceso al agua como un eje transversal, un eje importantísimo en el desarrollo y en el acceso al desarrollo y también en que los pueblos se dejen de esa pobreza.</p>
+<p>El problema del agua en Chiapas en la cuestión de la cuenca del Suchiate y del Soconusco.</p>
+<p>Hablando con Colegio de Ingenieros Agrónomos y Ecosur me dicen que no hay protección de la cuenca, hay problemas de captación en la zona alta por deforestación, no hay un programa de retensores de agua, no hay disminución de basura ni contaminantes, los que tomamos el agua en el área urbana, en el área agrícola, en el área industrial, no hay una cultura real, no hay una sola planta de tratamiento en la zona del Suchiate y en la zona del Soconusco, no se le está protegiendo a la cuenca, no hay una medición real del acuífero.</p>
+<p>Me dicen que en el 2014 prohibieron perforar para sacar agua para riego, porque faltaba la medición. Conagua prohibió el uso de la perforación para tomar agua para riego desde entonces; sin embargo, no ha habido un nuevo estudio para calificar cuánta agua tenemos en el subsuelo.</p>
+<p>El Instituto Geológico Mexicano es el único que puede llevar a cabo ese trabajo, pero Conagua hasta el momento no lo promueve, tampoco está acelerando el censo o registro de productores agrícolas, les niega su título de explotación de agua de riego; con este título de explotación ellos pueden acceder a mejores tarifas con Comisión Federal de Electricidad y también pueden acceder a préstamos para seguir produciendo.</p>
+<p>Estamos hablando, señor presidente, que además o paralelo al programa que está dando de Sembrando Vida, estamos hablando de un sector agrícola con un andamiaje ya encarrilado.</p>
+<p>El Soconusco ocupa el séptimo lugar de producción agrícola nacional, tenemos más de 15 mil hectáreas de mango, más de ocho mil hectáreas de banano, es la región de mayor exportación en estos cultivos, 75 mil hectáreas de café -que por cierto le enviaron café, ¿me va a permitir entregarle personalmente el café de nuestros productores? - rambután, tres mil hectáreas también, y son los punteros de exportación; sin embargo, sin agua no se puede.</p>
+<p>Estos productores… en el país hay 171 mil productores que están fuera del censo, que no tienen su título para poder tener acceso a la explotación del agua. De esta manera se requiere también mayor inversión.</p>
+<p>En la zona alta hay mucha agua, pero no se retiene, la zona industrial de la ciudad se contamina y todo se tira a los ríos, todo llega a los manglares. En el Suchiate, los manglares, los esteros, son primer lugar de huevecillos de camarón, es donde ahí se produce el camarón; sin embargo, se necesita desazolvar y esa zona no se ha desazolvado.</p>
+<p>Se sufrió con el Stan un grave asolvamiento, con Bárbara, estos grandes huracanes dejaron azolvados más de tres mil hectáreas que ya no son productivas porque se necesitan desazolvar.</p>
+<p>La zona de dragado de Puerto Chiapas también es un asunto muy importante, que le hacen un llamado los productores agrícolas, el Colegio de Producción Agrícola en Chiapas, en Tapachula, porque ellos son los que exportan, somos una zona multimodal, pero se ha dejado a un lado.</p>
+<p>No se está tomando en cuenta la zona económica especial que se estaba proyectando, por ahí es donde estamos sacando el banano, el plátano, el mango, el café y necesitamos muchísimo el apoyo porque somos eminentemente agrícolas y es ahí en donde se tiene el acceso al trabajo, paralelo a las inversiones que se están llevando a cabo para el asunto del desarrollo de los más rezagados.</p>
+<p>En ese sentido, le pregunto, señor presidente, ¿cómo se va a llevar a cabo el acercamiento?</p>
+<p>Ellos están buscando por muchos medios en Conagua, pero no han sido escuchados para desatorar esta situación de acceso al agua profunda.</p>
+<p>Están solicitando que llegue también gente de Relaciones Exteriores, porque tenemos aguas internacionales que compartimos con Guatemala y hay por ahí unas situaciones que se tienen que tratar con Relaciones Exteriores.</p>
+<p>Ellos solicitan que se reúnan, por favor, los especialistas de Conagua, pero gente que tome decisiones y gente que esté enterada de lo que está pasando, gente que sea sensible a los productores agrícolas que son quienes nos dan trabajo, que son quienes hacen esa área más productiva.</p>
+<p>Muchísimas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy bien. Mira, tomamos en cuenta tu planteamiento, y le voy a pedir a la secretaria de Bienestar, a María Luisa Albores, y también a Marcelo Ebrard, que se pongan de acuerdo contigo y se busque una reunión con Conagua para recoger estas peticiones, estos planteamientos, y atenderlos. Entonces, ahora mismo se ponen de acuerdo para que platiquen.</p>
+<p><strong>INTERLOCUTORA:</strong> Gracias, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy bien. Y gracias por el café.</p>
+<p><strong>INTERLOCUTORA:</strong> De corazón.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Una más. A ver, adelante. Ya te paraste.</p>
+<p>Vamos a una gira a Oaxaca, a la costa de Oaxaca, a Jamiltepec. También es otra información para quienes nos visitan: ya no hay aviones ni helicópteros para trasladar a los funcionarios públicos, ya no hay avión presidencial, ya todo se tiene que hacer en aviones de línea y por tierra, ya está en venta en avión presidencial que iba a costar, por el financiamiento, siete mil millones de pesos, un avión que no lo tiene ni Donald Trump.</p>
+<p>Y se están vendiendo 73 aviones y helicópteros, porque se había llegado al extremo de utilizar los aviones para ir de compras y los helicópteros para ir a jugar golf. Todo eso ya se termina. Era lo que decías sobre cómo entendemos nosotros lo de austeridad, este es un ejemplo.</p>
+<p>Entonces, como tengo que estar puntual en el aeropuerto, porque si no, no llego...</p>
+<p><strong>INTERLOCUTOR:</strong> Lo van a dejar.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí.</p>
+<p><strong>INTERLOCUTOR:</strong> Gracias, presidente.</p>
+<p>Muy buenos días, Rodolfo Ortiz, de <em>Grupo Siete Comunicación</em> del Estado de Hidalgo.</p>
+<p>Traemos una investigación. En el año 2009, en el sexenio de Felipe Calderón se crean los Centros de Atención para Estudiantes con Discapacidad. Estos centros de atención tienen una matrícula aproximada de 24 mil a 25 mil alumnos.</p>
+<p>Presidente ¿usted sabía que la Secretaría de Educación Pública ordenó en estos planteles que se llevara a cabo un recorte masivo de su personal docente? Esto estaría afectando a un aproximado de 24 mil alumnos.</p>
+<p>En el último año del sexenio de Enrique Peña Nieto, en el presupuesto les dieron el 0.012 por ciento de lo que recibía Educación Pública, una miseria; 2019 se recorta todavía la mitad, el 0.0048 por ciento; para el 2020 y con la nueva Reforma Educativa, estos centros que atienden a jóvenes con discapacidad ya ni siquiera están contemplados.</p>
+<p>¿Qué va a suceder con estos centros?, ¿dónde se les atendería a los jóvenes?</p>
+<p>Esto va a causar revuelo, son más de 25 mil alumnos en todo el país. Eso en la primera parte.</p>
+<p>En la segunda parte. En el Estado de Hidalgo… y esta es una pregunta muy, no personal pero sí también periodística, señor presidente, ¿Se va a seguir apoyando por parte de Movimiento de Regeneración Nacional al famoso Grupo Universidad?</p>
+<p>El 8 de mayo pasado en el C-5i yo le preguntaba a usted acerca de las cuentas congeladas de la máxima casa de estudios de Hidalgo.</p>
+<p>¿Qué avance lleva este proceso?, y si van a seguir apoyando de esa misma forma a este grupo que se entrometió en Morena y que hoy en día se han estado dando hasta con sartén y con los tubos a través de redes sociales en el congreso local militantes del partido que están en desacuerdo a que este grupo se haya apoderado tanto de la mitad del Congreso como también en el Congreso federal, pero bueno, adelante, presidente.</p>
+<p>Muchas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No se va a dejar de apoyar ningún programa; y si tiene que ver con personas con discapacidad, es prioritario.</p>
+<p>Vamos a pedir información sobre este programa en particular y estoy seguro que la Secretaría de Educación Pública lo va a mantener. Pronto te vamos a informar aquí sobre esta preocupación.</p>
+<p>Acerca de lo segundo. Es una denuncia, es una investigación que tiene la Fiscalía General y va la fiscalía a informar sobre cómo se desenvuelven estas indagatorias. Nosotros somos respetuosos de la autonomía de la fiscalía, pero también el hecho de que tú lo plantees aquí – que puede ser que no tengamos toda la respuesta a sus planteamientos- pero ya lo están viendo en el país y lo están viendo quienes deben de dar respuesta a estas peticiones, a estas demandas.</p>
+<p>Y también aquí Jesús, que es el director de Comunicación Social, toma nota, habla con ustedes y les pone en comunicación con los responsables para que tengan una mejor respuesta, una respuesta satisfactoria completa.</p>
+<p>Ahora sí me tengo que ir, ya no llego, se apuntan para mañana…bueno, ¿tienen algunas preguntas sobre el tema?, ¿sí?, ¿sobre el tema?</p>
+<p>Bueno, les propongo algo, un receso, me tengo que ir yo, pero Alicia, que es extraordinaria, de primera, directora de Cepal, va a contestarles todas las preguntas.</p>
+<p>Y le pido también a Marcelo y a María Luisa si se quedan -bueno, a todos- y yo me paso a retirar.</p>
+<p>Muchas gracias.</p>
+<p>---</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

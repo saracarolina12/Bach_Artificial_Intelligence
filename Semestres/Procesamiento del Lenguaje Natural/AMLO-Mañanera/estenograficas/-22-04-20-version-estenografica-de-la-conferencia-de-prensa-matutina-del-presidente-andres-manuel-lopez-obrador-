@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>22.04.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/22-04-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=131216' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F22-04-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F22-04-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66ivd-f-3035f2fc3-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":18,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"38f78499","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55181,"ak.gh":"23.47.207.46","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616355","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==V6Xwm9Rg0CF7yG/5xRT2vPd4pYJ+PCbsaayOMrll8wg1gakIu5SboFJhIIKmhNOXqyagfNqTbHoBTlC8cQo/r06l3NhZ3dfMbFF88HfKSGrOPTR8Gf9NWESgz3qAgIQoHDxZpXXJYTkh9yHY+7Z9VHORHe6kzuiflNuFe8O0uBdeYt2dEUn1Nh4mUMCu/+zU5XPKacgCfwY1vp1O3eTvFrpfDeVKQmQ5rT55NilN2gOvEkPMJoSjIbXSRdujIVir9e2tT5VZn7nBH8En0YIx0JwiwBKDOcI39sWD51vUfANAFV0p3tIVGcjDV+TwyxPpBTM+sXcLzRNr1cMAa+t+AoGhQRhOl6+biNDv+AIB/qL/RDVVgwnqDV8GSnOwrl8yn/BVKCADNjVFooaASjYtsup/JAk97UA8vI2WTMtYyOI=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-131216 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef2014e9177" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>22.04.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 22.04.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-131216" class="post-131216 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2020/04/22-04-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-04.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/04/22-04-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-04-745x450.jpg" alt="22.04.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">22.04.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><em>2020, Año de Leona Vicario, Benemérita Madre de la Patria</em></p>
+<p>&nbsp;</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>Buenos días. Ánimo.</p>
+<p>Hoy vamos a informar al pueblo de México sobre el plan que aplicaremos en lo general para enfrentar la crisis económica que estamos ya padeciendo en México y en el mundo.</p>
+<p>El planteamiento que se hace en México tiene que ver con nuestra concepción sobre el desarrollo y se aleja de lo que se ha hecho siempre cuando se presentan crisis económicas o lo que se llevaba a cabo, lo que se hacía durante el periodo neoliberal; esto es distinto, completamente.</p>
+<p>Son lineamientos generales, vamos a detallar en estos días sobre cada medida. Se está haciendo un trabajo minucioso. El decreto que se publicará el día de hoy en lo sustancial sostiene lo siguiente:</p>
+<p><audio src="https://lopezobrador.org.mx/wp-content/uploads/2020/04/2020-04-22-Matutina.mp3" controls="controls"></audio></p>
+<div id="fb-root"></div>
+<p><script async="1" defer="1" crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&amp;version=v6.0"></script></p>
+<div class="fb-video" data-href="https://www.facebook.com/lopezobrador.org.mx/videos/636305846948589" data-width="500">
+<blockquote cite="https://www.facebook.com/lopezobrador.org.mx/videos/636305846948589/" class="fb-xfbml-parse-ignore"><p><a href="https://www.facebook.com/lopezobrador.org.mx/videos/636305846948589/">Plan para enfrentar crisis económica por COVID-19. Conferencia presidente AMLO</a></p>
+<p>Hoy expusimos el plan para enfrentar la crisis económica derivada de la pandemia de #COVID19 y la caída del precio del petróleo. Este día se publicará en el DOF el Decreto que establece la aplicación rigurosa de la Ley de Austeridad Republicana en el gobierno federal, el fortalecimiento de programas sociales y la continuidad de proyectos estratégicos. Vamos a demostrar que hay otra forma de enfrentar cualquier tipo de crisis: sin corrupción, con humanismo y gobernando para el pueblo.Más información: https://bit.ly/2KmRHfp</p>
+<p>Publicado por <a href="https://www.facebook.com/lopezobrador.org.mx/">Andrés Manuel López Obrador</a> en Miércoles, 22 de abril de 2020</p></blockquote>
+</div>
+<p>De conformidad con los criterios que nos rigen de eficiencia, honestidad, austeridad y justicia, y dadas las circunstancias ocasionadas por la crisis mundial del modelo neoliberal, que sin duda nos afectan, propongo la aplicación urgente y categórica de las siguientes medidas:</p>
+<p>Uno. No será despedido ningún trabajador, pero no habrá incremento de personal, se reducirá el salario de los altos funcionarios públicos hasta en 25 por ciento de manera progresiva, es decir, el que obtenga más ingresos aportará más y será menos el descuento para los niveles inferiores. De igual forma, los altos funcionarios públicos no tendrán aguinaldos ni ninguna otra prestación de fin de año. El concepto de alto funcionario público aplica de subdirector hasta presidente de la República.</p>
+<p>Dos. No se ejercerá el 75 por ciento del presupuesto disponible de las partidas de servicios generales y materiales y suministros, esto también incluye a lo supuestamente comprometido.</p>
+<p>Se cancelan 10 subsecretarías y al mismo tiempo se garantiza el empleo con el mismo rango y los mismos ingresos a quienes dejarán dichos cargos.</p>
+<p>Tres. Se extenderá la suspensión de labores con goce de sueldo a quienes ya se encuentran en esta situación, debido a la pandemia de coronavirus, hasta el 1º de agosto.</p>
+<p>Cuatro. Deberán de permanecer cerradas la mitad de las oficinas con excepción de las que atiendan de manera directa al público y aquellas que se consideren esenciales para el beneficio de la gente.</p>
+<p>En este periodo se hará un esfuerzo de reubicación de servidores públicos en función de lo prioritario, con el fin de dejar de rentar edificios, vehículos, bodegas, inmuebles, entre otros ahorros.</p>
+<p>Cinco. Se posponen las acciones y el gasto del gobierno, con excepción de los siguientes programas prioritarios:</p>
+<ol>
+<li>Pensión para el Bienestar de los Adultos Mayores.</li>
+<li>Pensión para el Bienestar de las Personas con Discapacidad.</li>
+<li>Sembrando Vida.</li>
+<li>Programa de Apoyo para el Bienestar de las Niñas y Niños, hijos de Madres Trabajadoras.</li>
+<li>Becas para el Bienestar Benito Juárez.</li>
+<li>Construcción de 100 universidades públicas.</li>
+<li>La Escuela es Nuestra.</li>
+<li>Jóvenes Construyendo el Futuro.</li>
+<li>Tandas para el Bienestar.</li>
+<li>Banco del Bienestar.</li>
+<li>Atención médica y medicamentos gratuitos.</li>
+<li>Producción para el Bienestar.</li>
+<li>Precios de Garantía.</li>
+<li>Distribución de fertilizantes.</li>
+<li>Apoyo a pescadores.</li>
+<li>Guardia Nacional.</li>
+<li>Aeropuerto ‘General Felipe Ángeles’.</li>
+<li>Producción petrolera.</li>
+<li>Rehabilitación de las seis refinerías existentes.</li>
+<li>Construcción de la refinería de Dos Bicas.</li>
+<li>Generación de energía eléctrica con la modernización de plantas e hidroeléctricas.</li>
+<li>Mantenimiento y conservación de carreteras.</li>
+<li>Caminos de mano de obra.</li>
+<li>Caminos rurales.</li>
+<li>Carreteras en proceso de construcción.</li>
+<li>Sistema Aeroportuario de la Ciudad de México.</li>
+<li>Terminación del Tren interurbano México-Toluca.</li>
+<li>Terminación de presas y canales.</li>
+<li>Parque Ecológico Lago de Texcoco.</li>
+<li>Programa de Mejoramiento Urbano.</li>
+<li>Programa Nacional de Reconstrucción.</li>
+<li>Tren Maya.</li>
+<li>Tren de Guadalajara.</li>
+<li>Internet para todos.</li>
+<li>Desarrollo del Istmo de Tehuantepec.</li>
+<li>Zona Libre de la Frontera Norte.</li>
+<li>Espacio cultural de Los Pinos y Bosque de Chapultepec.</li>
+<li>Defensa de los derechos humanos.</li>
+</ol>
+<p>Seis. La Secretaría de Hacienda dispondrá de los recursos necesarios para cumplir cabalmente con la entrega de participaciones federales a los estados, el pago de nómina, de pensiones y la amortización y servicio de la deuda pública.</p>
+<p>No se podrá utilizar sin autorización de la Secretaría de Hacienda recursos de fondos o fideicomisos creados por acuerdo o decreto del Poder Ejecutivo.</p>
+<p>Siete. Tendrán trato excepcional la Secretaría de Salud, la Guardia Nacional y las secretarías de Marina y Defensa Nacional.</p>
+<p>Ocho. Se aplicará la Ley de Austeridad Republicana de manera rigurosa.</p>
+<p>Nueve. La eficiencia, la honestidad y la austeridad nos permitirán aumentar el presupuesto para fortalecer el blindaje de los programas sociales y de los proyectos prioritarios en 622 mil 565 millones de pesos, 622 mil 565 millones de pesos; al mismo tiempo, se otorgarán tres millones de créditos dirigidos a la población más necesitada y a la clase media.</p>
+<p>Lo mismo, se crearán dos millones de nuevos empleos. Todo lo cual hará posible proteger al 70 por ciento de las familias mexicanas, equivalente a 25 millones de hogares, sobre todo a los pobres y a los integrantes de las clases medias. Todo ello, sin aumentar el precio de los combustibles, sin aumentar impuestos o crear impuestos nuevos y sin endeudar al país.</p>
+<p>Vamos a demostrar que hay otra forma de enfrentar la crisis sanitaria, la crisis económica o de cualquier índole, cualquier tipo de crisis, siempre y cuando no se permita la corrupción, se fortalezcan valor y principios como el del humanismo y se gobierne para y con el pueblo.</p>
+<p>Once. Estas medidas aplican para todo el Poder Ejecutivo federal, es decir, incluyen a organismos descentralizados, órganos desconcentrados, empresas de participación estatal mayoritaria y fideicomisos públicos.</p>
+<p>La responsabilidad de la aplicación de este ordenamiento corresponderá a los secretarios, a los directores de dichos organismos y a la Secretaría de la Función Pública.</p>
+<p>El presente decreto entrará en vigor el día de su publicación en el <em>Diario Oficial de la Federación</em>, es decir, el día de hoy y cesará en su vigencia el 31 de diciembre del 2020.</p>
+<p>Segundo. La Secretaría de Hacienda y Crédito Público, en un plazo no mayor de 180 días contados a partir de la entrada en vigor del presente decreto, llevará a cabo las adecuaciones de carácter presupuestal que en su caso se requieran.</p>
+<p>Este es el decreto que voy a enviar a la Consejería Jurídica de la Presidencia y a la Secretaría de Gobernación para que se le dé el completo fundamento legal y se publique hoy mismo. Esto es lo que vamos a llevar a la práctica, repito, en lo general.</p>
+<p>El caso que corresponde a la política energética por la caída de los precios del petróleo, eso lo vamos a tratar aquí.</p>
+<p>Habíamos quedado que mañana, pero lo vamos a hacer hasta el viernes porque estamos haciendo un análisis, todo está muy alterado, ya ustedes han visto cómo se desplomó a menos cero el precio del petróleo, la mezcla mexicana y cómo ya levantó ayer; poco, pero ya subió a seis, siete pesos… seis, siete dólares el barril. Es todavía una situación muy inestable.</p>
+<p>Hay también que considerar que, a finales de este mes, inicia el recorte de producción que se acordó en el mundo y eso tiene que ter algún efecto. De todas maneras, nosotros estamos ya elaborando una estrategia, se los comentaba ayer, que va a consistir en refinar más petróleo crudo en nuestro país para comprar menos gasolinas en el extranjero.</p>
+<p>Tuvimos dos aciertos, entre otros, que nos ayudan en esta circunstancia:</p>
+<p>Uno es que se inició el trabajo de exploración y producción en 19 campos nuevos el año pasado. Tenía tiempo que no se abrían nuevos campos para la explotación de petróleo y logramos perforar más de 200 pozos nuevos que ya están prácticamente terminados. Esto nos permite cerrar la válvula de esos pozos sin que se pierda presión, porque son pozos nuevos, eso no se podría hacer con pozos ya muy explotados de campos maduros, porque no se podría cerrar, costaría mucho reactivarlos, intervenirlos, inyectarles gas, agua, nitrógeno para levantar el petróleo que les queda y extraerlo; cuando son pozos nuevos, traen presión natural. Eso es algo que nos está ayudando ahora que vamos a recortar la producción de crudo.</p>
+<p>Lo segundo que fue también un acierto es que desde que llegamos decidimos rehabilitar las seis refinerías y el año pasado se invirtieron 12 mil millones de pesos del presupuesto federal, que no se hacía, llevaba mucho tiempo.</p>
+<p>Y ya está en proceso ese plan de rehabilitación de las refinerías. Tenemos ya herramientas, equipos, se autorizó un presupuesto para este año de 10 mil millones de pesos adicionales y esto nos va a permitir ir avanzando en el volumen de refinación de las plantas.</p>
+<p>Ya hace dos días ya logramos procesar en las seis refinerías 800 mil barriles de crudo. Si estamos produciendo un millón 700 mil barriles diarios, quiere decir que ya vamos a tener capacidad de procesar hasta el 60 por ciento de toda nuestra producción. Esto también nos ayuda.</p>
+<p>Y se protegió Hacienda, también fue otra buena decisión. Todos los derechos que paga Pemex a Hacienda, que no son pocos, se aseguraron considerando un precio por barril de petróleo de 49 dólares. Esa cobertura nos permite tener alrededor de 150 mil millones de pesos; o sea, no se pierde ese ingreso por la caída en el precio del petróleo. Pero eso a detalle pasado mañana.</p>
+<p>Y así en otros temas que van a ir requiriendo una explicación puntual y estamos dispuestos a informar a toda la población.</p>
+<p>Si les parece, abrimos sobre el tema. A ver.</p>
+<p><strong>PREGUNTA:</strong> Jefe del Estado mexicano. Carlos Pozos, reportero de <em>Lord Molécula Oficial</em>.</p>
+<p>Señor, sin duda este ordenamiento de decreto rompe con las medidas anticíclicas que antes se adoptaban. Este ordenamiento con estas once acciones, desde mi punto de vista muy acertadas, mandan una buena señal para todos los ciudadanos mexicanos.</p>
+<p>Pero yo quisiera saber, además de este ordenamiento, ayer el Banco de México en una junta extraordinaria decidió inyectar 750 mil millones de pesos para paliar la crisis y reducir al seis por ciento la tasa de referencia.</p>
+<p>Este ordenamiento y este rescate inyección de liquidez del Banco de México ¿qué fortaleza nos da como país, presidente?</p>
+<p>Esa es mi primera pregunta y, si me permite, una segunda más.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Primero, aclarar que nosotros somos respetuosos de la autonomía del Banco de México. Es una institución autónoma del Estado mexicano; no es autónoma del Estado mexicano, es una institución autónoma que pertenece al Estado mexicano, para decirlo mejor, y respetamos las decisiones que tome.</p>
+<p>Creo que el reducir la tasa de interés, ayuda; es una opinión en mi parte, porque abarata el crédito en general.</p>
+<p>En lo que debemos de tener cuidado es en el uso correcto, moderado, cuidadoso de las reservas de la nación, ahí sí no son del Banco de México, son las reservas de la nación.</p>
+<p>Entonces, cuidar ese tesoro, para decirlo con claridad, y no disponer de esos recursos sin necesidad, tiene que justificarse muy bien. Nosotros no estamos pidiendo recursos del Banco de México ni de ninguna institución financiera porque pensamos que podemos salir adelante sin endeudar al país y sin perder reservas del Banco de México; pero respetamos las decisiones que tomen, desde luego.</p>
+<p>Pensamos que ya es tiempo de cambiar el modelo. Lo que está pasando en el mundo es una crisis de ese modelo, lo hemos estado diciendo, y es un error volver a lo mismo cuando es un modelo fracasado, especulativo, que no piensa en la gente.</p>
+<p>Hay que replantearnos hasta los parámetros en que se mide el supuesto crecimiento porque ¿cómo es posible que hay crecimiento y es cuando se produce más desigualdad? Entonces, el crecimiento ¿en beneficio de quiénes o cómo se concentró lo que creció la economía?, ¿a quiénes benefició?</p>
+<p>Todo esto ya se ha empezado a debatir en el mundo. Nos sentimos orgullosos, pero fuimos de los primeros que planteamos que no íbamos a someternos a la política neoliberal. Tuve una discrepancia, yo diría sana, con el anterior secretario de Hacienda, porque cuando teníamos que presentar el Plan de Desarrollo…</p>
+<p><strong>INTERLOCUTOR:</strong> ¿Con Carlos Urzúa?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, me llevó el proyecto que se iba a enviar a la Cámara de Diputados y lo leí y era el mismo de siempre, el mismo esquema, como si lo hubiese hecho Aspe o Carstens o Gil Díaz, o cualquier secretario de Hacienda del periodo neoliberal, y le dije: No, esto yo no lo puedo enviar, danos oportunidad unos días ¿cuándo se vence el plazo?, y ya me dijo que se vencía en una semana, y me puse con un equipo que me ayudó a elaborar el plan que al final enviamos al Congreso. Pero son dos visiones distintas completamente.</p>
+<p>Eso también lo estamos enfrentando ahora, por eso hay protestas o inconformidades, porque ya no seguimos el mismo esquema, ya no nos sometemos a la agenda que se dictaba, y era hasta vergonzoso, desde el extranjero. Esas llamadas reformas estructurales no surgieron de México, no parten de las necesidades de nuestro país, sino fue una receta que aplicaron desde los centros financieros del mundo para todos los países, igual para todos, además con el mismo nombre:  Reforma Energética, Reforma Fiscal, Reforma Laboral, Reforma Educativa, reforma a la seguridad social. Lo mismo, y en los congresos de todos los países se ajustaron las constituciones y las leyes a ese mandato del extranjero.</p>
+<p>Cuando había una crisis, cuando la crisis de finales del presidente López Portillo, del final López Portillo, que hay hasta una anécdota:</p>
+<p>Va al Tesoro el entonces secretario de Hacienda, Jesús Silva-Herzog, finado también, una gente buena, desesperados porque viene un desplome en la economía; esto, al final del gobierno de López Portillo, al inicio ya, o estaba por iniciar el gobierno de Miguel de la Madrid, y nos castigan en el precio del petróleo para darnos los créditos, desde luego con carta de intención.</p>
+<p>Lo que teníamos que hacer -y ya hemos hablado de qué eran las cartas de intención- era despedir trabajadores, reducir salario, aumentar tarifas, privatizar. Y ese mismo funcionario del Tesoro, cuando escribe sus memorias, habla de esos momentos y dice que cuando va con el presidente Reagan, le dice el presidente Reagan: ‘Qué duro eres –riéndose- maltrataste mucho a los mexicanos’.</p>
+<p>Esa es una de tantas anécdotas de cómo se humillaba a los servidores públicos del país.</p>
+<p>Acuérdense de la crisis del final del gobierno de Salinas y la entrada de Zedillo, lo que hicieron a Serra, lo insultaban, así, de manera discriminatoria. Entonces eso ya no.</p>
+<p>En ese tiempo nos dieron 20 mil millones de dólares, pero quedó hipotecado todo el ingreso petrolero. En ese tiempo recuerden que fue lo del Fobaproa, el que convirtieron las deudas de los de arriba, de unos cuantos, en deuda pública, o sea que todavía estamos pagando todos. Entonces, ya no esos modelos.</p>
+<p>Y esto ha producido alguna inconformidad y apuestan a que no vamos a salir, a que nos vamos a rendir. Nosotros vamos a hacer todo lo que esté de nuestra parte. Aunque nos quedemos con lo indispensable, no va a faltar apoyo para la mayoría del pueblo, sin endeudarnos. Ese el desafío.</p>
+<p><strong>INTERLOCUTOR:</strong> Presidente de México, mi segunda pregunta.</p>
+<p>Toda vez que ayer usted informó que va a haber Pulso en la Salud, va a haber el pulso de los energéticos, el pulso de los prestadores de servicio, yo quisiera preguntarle si es viable o precedente el que los lunes el vocero Jesús Ramírez o usted pudiéramos también tener el pulso de las noticias para conocer qué noticias son falsas o qué noticias son verdaderas, tanto en la prensa escrita, tanto en la radio y la televisión. Si pudiera ser viable, esa sería mi pregunta. Le agradezco.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pero se cae eso por su propio peso, eso no está teniendo éxito; incluso, no sé si ustedes lo han notado, pero veo que le han bajado, a lo mejor yo no estoy tan al tanto, pero ya no hay tantas noticias falsas porque como que se les está revirtiendo, como que tienen un efecto de búmeran, ya no hay tantas, y eso hay que agradecerlo. Además, a lo mejor ya se les está acabando el dinero o ya no quieren seguir pagando <em>bots</em>, porque eso cuesta, pero si lo están haciendo porque quieren actuar de manera responsable, bienvenido, qué bueno ese cambio de actitud.</p>
+<p>Pero no, no creo que haga falta. Poco a poco, esos excesos se van a ir haciendo a un lado, ya la gente no les cree a quienes mienten, a quienes exageran. ¿Ustedes creen que no aburre abrir un periódico, <em>El Universal</em>, por ejemplo, o el <em>Reforma,</em> y no encontraran nada bueno del gobierno? Todo malo, todo malo; pero no sólo las notas, los articulistas supuestamente independientes, todos.</p>
+<p>Antes, en <em>El Universal</em> se presumía de que tenían una línea editorial gobiernista, pero sus articulistas eran independientes, había pluralidad en los editoriales, porque escribía un dirigente de oposición, algún escritor destacado verdaderamente independiente, los moneros. Ya no queda nada, solo los moneros, creo que todavía está Helio Flores, sí está, pero los articulistas, los que escriben la editorial, puro conservador.</p>
+<p>Y del <em>Reforma</em> ya ni hablamos, lo mismo <em>TV Azteca</em> y lo mismo <em>Televisa</em> y ¿cómo se llama, <em>Excélsior</em>, el director de <em>Excélsior?, </em>como el director de <em>Milenio</em>, no sé si todavía es director de <em>Milenio,</em> Marín.</p>
+<p><strong>INTERLOCUTOR:</strong> Ya no.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Ya no. Ah, bueno. Porque esos vienen de la escuela de <em>Proceso.</em></p>
+<p>Y lamentable el director de <em>Excélsior</em>, su concepción, su conservadurismo. A lo mejor desde que estaba en <em>Proceso</em> pensaba así.</p>
+<p>Pero los mejores medios escritos durante mucho tiempo, <em>La Jornada, </em>antes <em>UnomásUno</em>, una muy buena época de <em>UnomásUno</em> del golpe de <em>Excélsior,</em> y el <em>Proceso</em>. Y ahí se formaron muchos, pero la mayoría se echó a perder.</p>
+<p>Entonces, no hay en México un periodismo profesional, independiente, no digo objetivo porque eso es muy difícil, la objetividad es algo muy relativo; pero ético, estamos muy lejos de eso. Es parte de la decadencia que se produjo.</p>
+<p>Y lo mismo la radio, lo mismo la televisión. No generalizo, pero sí, no supieron entender la nueva realidad, le siguieron con lo mismo. Y, desesperados, optaron muchos por la mentira. Ciro Gómez Leyva venía de un periodismo profesional, nuevo, independiente. Y se fueron volviendo conservadores, se cansaron de ser como eran. Es que siempre hay tentaciones. Pero ¿qué ha sido el periodismo en la historia de México?</p>
+<p>Zarco, Francisco Zarco y no solo él, los periodistas que actuaron en el periodo de la Reforma y de la República restaurada es la prensa más libre, más inteligente, más patriota que se haya tenido en toda la historia.</p>
+<p>Luego, en la Revolución, Filomeno Mata, Daniel Cabrera, los hermanos Flores Magón y muchos más en la clandestinidad, en la cárcel, Paulino Martínez.</p>
+<p>Y posteriormente un periodismo, aún durante el tiempo de más autoritarismo en México existían… Por ejemplo, la revista <em>Siempre,</em> con buenos articulistas a pesar de que estamos hablando de los años más difíciles del autoritarismo.</p>
+<p>Recientemente, Manuel Buendía, un buen periodista independiente, Miguel Ángel Granados Chapa, pero ya queda muy poco.</p>
+<p>A nosotros nos defienden creo que tres, y estoy hablando de periodistas. Nos defiende muchísima gente, por eso puedo estar tranquilo, porque hay millones en las redes sociales que nos defienden.</p>
+<p>Pero les digo quiénes defienden en estos últimos días: Federico Arriola, que nos defiende, enfrenta a todos de esta campaña de calumnias; Enrique Galván, de <em>La Jornada</em>; Pedro…</p>
+<p><strong>PREGUNTA:</strong> Presidente, pero…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ya estoy terminando. Yo sé que desespera, pero despacio, es que yo no puedo hablar de corrido, por eso me llevo tiempo.</p>
+<p>Pedro Miguel. Estoy tratando de recordar quiénes, estoy hablando de la prensa escrita. Ya mencioné tres, ¿no?</p>
+<p>Hay un articulista inteligente también, incluso no podría decir que de izquierda, pero sí buen analista político, que se mete más a entender lo que está pasando y lo que somos, uno que escribe en <em>El País</em>, Jorge Zepeda Patterson, pero hasta ahí. Yo creo que los voy a perjudicar porque los estoy mencionando.</p>
+<p>Pero en general, ¿cuántos editorialistas hay?</p>
+<p>Cientos. Por eso comentaristas de radio, de televisión, por eso es importantísimo el fenómeno de las redes sociales, porque en redes sociales, aún con textos cortos, siguiendo aquella consigna o proclama o criterio de que ‘bueno y breve, doblemente bueno’, a veces con muy pocos caracteres, con muy pocas palabras se dice muchísimo.</p>
+<p>Ah, también incluyo a los que nos defienden, caricaturistas. De por sí la caricatura en México siempre ha estado hacia adelante y una buena caricatura es una editorial, lo dice todo, pero bueno.</p>
+<p><strong>PREGUNTA:</strong> Sobre lo que acaba de mencionar, presidente, nada más quería preguntarle, ¿entonces usted considera que el buen periodismo es el que defiende a su gobierno?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, no, el buen periodismo es el que defiende al pueblo y que está distante del poder, el que no defiende al poder, el que defiende al pueblo.</p>
+<p><strong>INTERLOCUTORA:</strong> El buen periodismo no es el que aplaude.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Claro que no. Lo que tenemos ahora es un periodismo muy cercano al poder, sobre todo al poder económico, y muy distante del pueblo. Es un periodismo de la élite, que no defiende al pueblo raso; cuando mucho, a la clase media y de ahí para arriba. Y a la clase media la utilizan nada más como parapeto. Es como las pymes, que las usan de bandera, las ponen por delante para sacar provecho los de mero arriba.</p>
+<p>Entonces, eso es lo que está sucediendo. Tampoco es para pelearnos, es amor y paz. Pero es buena la polémica, el debate, es parte de la democracia.</p>
+<p>Entonces, nosotros estamos muy agradecidos con la gente, muy agradecidos con los que nos ayudan en las redes sociales, son millones. Lo único que pedimos, en mi caso y con todo respeto, es que no se agreda, que se digan las cosas, pero que no haya insultos, que no se apueste a los linchamientos políticos, que se argumente porque eso es mucho mejor en la réplica, el argumento.</p>
+<p>Por ejemplo, los opositores nuestros ya olvidaron la historia, tienen como amnesia, y esto también se ve en los medios, no hay análisis de lo que pasaba antes, no. Se habla… Antier comentaba yo de lo de la detención de Genaro García Luna. Apenas vi un artículo de Dolia Estévez de ayer, pero aquí no se trata el tema, está vedado.</p>
+<p>Y el juez que le negó el amparo o la libertad dice que no se le otorga el derecho de libertad bajo fianza porque puede escapar a México, donde tiene un grupo que lo protege. Ese es el argumento por el que no le dieron la libertad.</p>
+<p>Entonces, cuando uno ve que en los medios no se trata el tema, -no sé si <em>Reforma</em> lo trata, si ha hecho editoriales sobre este tema o los escritores del <em>Reforma</em> han tratado este asunto- cuando uno ve que el tema no se trata… Y es un asunto de fondo, porque estamos hablando del secretario de Seguridad Pública en un sexenio acusado de proteger a una banda y de recibir sobornos millonarios, hasta para vivir en el extranjero con gran lujo, relacionado con agencias internacionales, la CIA, la DEA, que también deberían de ser llamados a declarar todos ellos.</p>
+<p>Acuérdense de estos operativos que se permitían para introducir armas a México, acuerdos entre gobiernos, fue en ese mismo tiempo, luego se demuestra que con esas armas cometieron homicidios en el país y ¿dónde quedó la investigación?</p>
+<p>Ah, pero si yo aquí, en vez de gimnasia digo magnesia, mañana…. no, hoy mismo me tunden. No me estoy quejando, es nada más tratando de analizar lo que está sucediendo.</p>
+<p><strong>INTERLOCUTORA:</strong> Y bueno, es que justo a veces se confunde. El papel de la prensa no es aplaudir, de hecho, es más bien cuestionar cuando algo no está claro y muchas veces confunden el cuestionar con el atacar.</p>
+<p>Entonces, bueno, nada más esa precisión. El tema de García Luna sí ha sido tocado a nivel nacional, es un asunto de interés.</p>
+<p>Y precisamente, lo que mencionaba en el tema de seguridad, México todavía, como usted ya lo había reconocido anteriormente, pues está registrando días históricamente con mayor número de homicidios dolosos.</p>
+<p>¿Cómo han tratado el tema y qué estrategia están…? Sabemos que por supuesto es prioritario el tema del COVID-19, pero ¿qué estrategia van a aplicar en el país para combatir esta situación?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> <strong> </strong>Pues estamos trabajando todos los días. Ese es un problema muy grave, heredado de la época de la corrupción, desde la época de García Luna y todos los posteriores.</p>
+<p>Y es un asunto, en efecto, muy lamentable, grave, pierden la vida muchos mexicanos diariamente.  Estamos atendiendo eso todos los días, haciendo todo nuestro mejor esfuerzo, evitando la corrupción, que no haya esas protecciones que se daban antes, que se atiendan las causas que llevaban a muchos jóvenes a tomar ese camino de las conductas antisociales.</p>
+<p>Estamos desplegando toda la estrategia para tener presencia con la Guardia Nacional en todo el país. Hoy precisamente hicimos una evaluación de cómo va la Guardia Nacional, ya vamos a tener este año 200 centros o coordinaciones de la Guardia Nacional en el país de las 266 que programamos.</p>
+<p><strong>INTERLOCUTORA:</strong> (inaudible)</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> A finales de este año. Ya llevamos, ya tenemos 160, empezamos con 150 este año, ya se crearon 10 más, 160, y se van a tener 40 más, vamos a tener 200, se está incrementando el número de elementos de la Guardia Nacional.</p>
+<p>Aquí en este acuerdo se establece que continúa el programa de Guardia Nacional, no tiene ninguna limitación presupuestal; al contrario, van a tener como tres mil millones de pesos adicionales este año.</p>
+<p>Entonces, estamos atendiendo eso que en efecto es un asunto muy grave. Nos duele mucho, porque aun en este tiempo de la pandemia no cesa la violencia, nada más que estamos atendiendo lo de la pandemia y también lo de la seguridad y todo, todo, todo.</p>
+<p>Pero esto se descompuso, yo lo he escrito y lo he dicho, desde el fraude del 2000, del 2006, ahí se agravó la situación, porque el haiga sido como haiga sido llevó a que se buscara la legitimidad con medidas antipopulares. Ahí fue donde se le pegó un garrotazo a lo tonto al avispero. No se atendieron las causas y se pensó que se podía enfrentar la violencia con la violencia y no se puede, como no se puede enfrentar al mal con el mal; al mal hay que enfrentarlo haciendo el bien.</p>
+<p>Se abandonó al pueblo, se le dio la espalda a los jóvenes, creció la descomposición social. Fíjense porque esto es interesante, ¿por qué está en crisis el modelo neoliberal?</p>
+<p>Porque en ese tiempo llegó a valer el barril de petróleo 100 dólares y fue en el sexenio en toda la historia que se ha recibido más dinero por venta de petróleo al extranjero; sin embargo, es cuando hubo más violencia.</p>
+<p>Otro caso, otro ejemplo del porqué hay que replantearnos las cosas, sin que nadie se ofenda, Guanajuato. Crecimiento económico, plantas ensambladoras, maquiladoras, industria automotriz, industria de autopartes, crecimiento económico promedio en los últimos años del cinco, del seis por ciento anual y es el estado con más violencia.</p>
+<p>Entonces, ¿de qué sirvió el crecimiento? Lo lógico sería que si hay crecimiento y hay generación de empleo y hay buenos salarios, tiene que haber menos delincuencia.</p>
+<p>Entonces, el crecimiento económico no es un factor decisivo para el bienestar del pueblo.</p>
+<p>Esto tiene que verse de manera integral, eficiencia, honestidad, que es más que la honradez, como la cultura es más que la educación, austeridad, que no es un asunto administrativo, sino de principios.</p>
+<p>Si un funcionario ve hasta normal ir a jugar golf en un helicóptero, imagínense, austeridad.</p>
+<p>Y lo otro, justicia, humanismo, el derecho a la educación, el no concebir -como lo pensaban- que la educación era un privilegio y no un derecho del pueblo.</p>
+<p>Hay estados en Guanajuato en donde el crecimiento de la educación privada fue mayor que en otras entidades porque prevaleció esa idea, todo es pago de colegiatura. No estoy en contra de la educación privada, el que tiene para pagar una escuela privada está en su derecho, pero el Estado está obligado a garantizar la educación pública, gratuita, de calidad en todos los niveles escolares.</p>
+<p>Una vez en una gira llegué a un municipio en Guanajuato en donde no había una preparatoria pública, a la cabecera municipal, porque era poner al mercado la educación como si fuese una mercancía. Eso es neoliberalismo, eso es a lo que me refiero, eso es lo que está fracasando, eso es lo que llevó a la crisis de México.</p>
+<p>Entonces, qué bien que están pasando todas estas cosas para replantearnos las formas de gobierno y no dejarnos apantallar y perder nuestra soberanía aceptando recetas del extranjero o una política antipopular, entreguista, que perjudique, como ha sucedido, a nuestro pueblo.</p>
+<p>Pero es muy interesante el momento que estamos viviendo. Y yo pronto quiero decir que va a ser un momento estelar de la historia de México el que nos está tocando vivir.</p>
+<p><strong>PREGUNTA: </strong>Buenos días, señor presidente. Verenice Téllez, del diario nacional <em>UnomásUno.</em></p>
+<p>Mi pregunta va con respecto a esto que viene mencionando, que estamos viviendo todos, el nuevo orden mundial y que además su postura la verdad es que se aplaude porque, ante los organismos internacionales porque hacía tiempo que hace que México no tenía, digamos, este liderazgo al frente al respecto de esta representación a nivel internacional.</p>
+<p>Y usted habla mucho de la cultura. México es un país multicultural y evidentemente para bajar estos índices delictivos se requiere inversión en este tema justamente en la multiculturalidad de nuestro país, señor presidente.</p>
+<p>Quisiera que me pudiera decir qué está haciendo su gobierno con respecto a esto.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Mucho, porque se está atendiendo a los habitantes de México, que son poseedores de cultura.</p>
+<p>Es que la cultura no sólo es lo intangible, la cultura es lo que llevamos dentro cada uno de nosotros. Por ejemplo, decía el maestro Fernando Benítez que se veneraban, se alababa, se admiraba los centros arqueológicos, pero se despreciaba al indígena; entonces, ahora las poblaciones indígenas tienen trato preferente. Eso es cultura, eso es apoyo a la cultura, pero también se tiene que apoyar a los creadores, a los artistas, a los músicos, pintores, escultores.</p>
+<p>Ahora con lo del Fonca hubo un debate. Lo que estamos haciendo es poner orden, porque había como 400 fideicomisos; les comentaba yo lo del Conacyt, como 60 fideicomisos, y así muchísimos organismos manejados sin supervisión, sin rendición de cuentas. No estoy hablando de que había malversación de fondos en todos los casos, pero sí no había la transparencia suficiente.</p>
+<p>Entonces, por eso se decide concentrar todos esos recursos, pero se van a seguir entregando las becas a los creadores. Es otra forma de actuar, guardadas las proporciones. Es lo que se hizo de ya no seguir entregando recursos a intermediarios, a organizaciones sociales, organizaciones de la llamada sociedad civil, organizaciones gubernamentales, que recibían dinero y ellos distribuían; ahora todo es directo al beneficiario. Entonces, quitar intermediación para que le llegue al beneficiario de manera directa. Ese programa, por ejemplo, continúa.</p>
+<p>Estamos apoyando desde luego a Antropología, acabo de dar una instrucción para que se apoye a los que trabajan en mantenimiento, los que trabajan en la vigilancia de las zonas arqueológicas del país.</p>
+<p>Muchos están trabajando como eventuales, no tienen servicio médico. Ordené que se les regularizara. Ya ahora que lo estoy diciendo seguramente el director de Antropología, Diego Prieto, me va a buscar para ver si le hicieron caso en Hacienda, porque lo hice por escrito.</p>
+<p>Acabamos de tener una reunión, porque estamos trabajando en la rehabilitación de templos, de edificios públicos dañados por los sismos y también por el abandono. Ya empezamos de nuevo la reconstrucción de templos en Oaxaca, ya se autorizó y en esto está ayudando mucho el gobierno de la ciudad.</p>
+<p>Un programa de rehabilitación de la catedral.</p>
+<p>Se está trabajando en resolver el problema eléctrico, evitando un incendio, para evitar la posibilidad de un incendio, en Bellas Artes. Nos entregaron un proyecto de esos que se hacían antes en donde iba a costar el resolver el problema eléctrico creo que 250 millones de pesos. Le pedí al licenciado Bartlett que, con los técnicos de la Comisión Federal de Electricidad, se hiciera el trabajo y creo que lo están haciendo y va a costar como 20 millones.</p>
+<p>Le entregamos ya el presupuesto, mil millones de pesos para el desarrollo del Centro Artístico Cultural del Bosque de Chapultepec, que es algo de primer orden, todo el proyecto, que por cierto ya se los vamos a traer a presentar porque ya empezó a trabajarse, ya tienen presupuesto.</p>
+<p>Entonces, la cultura en todas sus dimensiones se apoya, la promoción de la lectura. Millones de libros se han impreso que se venden a precios muy bajos, 10, 5, 20 pesos por libro, millones de libros del Fondo de Cultura Económica.</p>
+<p>Entonces, sí se está trabajando con todo lo que tiene que ver con la cultura. Y es fundamental, es prioritario.</p>
+<p><strong>PREGUNTA:</strong> Había comentado que iba a dar los nombres o las cifras de la inversión privada en ciencia y tecnología hace, creo que fue la semana pasada.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues vamos a pedirle a la directora de Conacyt que nos entregue esa información que, dicho sea de paso, están haciendo un trabajo espléndido.</p>
+<p>Me gustaría que viniera la directora del Conacyt, que venga aquí para que les explique sobre esto y lo que están haciendo. Por ejemplo, están ya a punto de terminar un prototipo de ventilador que nos va a ayudar mucho; se piensa que lo van a tener en la segunda semana de mayo. Se va ya a producir este ventilador en México y la segunda semana ya se van a tener los primeros 500 ventiladores.</p>
+<p>Me gustaría que viniera para que les explicara sobre esto. Puede ser en la noche con Hugo, puede ser hoy mismo, si están preparados, porque Conacyt está ayudando mucho, el grupo de Conacyt, en todo lo relacionado con el combate a la epidemia. Entonces, a ver si puede ser hoy o mañana.</p>
+<p>Muy bien. Ah, pero ya te había dado la palabra. Tú y luego tú.</p>
+<p><strong>PREGUNTA:</strong> Gracias, señor presidente. Buenos días. Juan Carlos Machorro, del portal <em>Expok.</em></p>
+<p>Señor presidente, diversos gobiernos y empresas a nivel internacional están registrando, aunque estamos en un contexto de coronavirus, avances en sus objetivos de desarrollo sostenible y agenda 20-30.</p>
+<p>¿Al momento usted cómo califica que está haciendo el trabajo de la oficina del señor Alfonso Romo, que está encargado de estas políticas aquí en México?</p>
+<p>Y en instante una segunda pregunta, si me lo permite.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Está trabajando bien la oficina de Alfonso Romo, me ayuda mucho esa oficina.</p>
+<p>Y México es un ejemplo en acatar las decisiones de los organismos defensores del medio ambiente, hay constancia de ello. Se han cancelado proyectos mineros, lo que se hizo recientemente con la planta de cerveza, que se sometió a una consulta de los ciudadanos en Mexicali, Baja California; el que no se permita la introducción de maíz transgénico, el que no se utilice la práctica del <em>fracking</em> para la explotación del petróleo y muchas otras cosas.</p>
+<p>Ahora que se empieza a debatir sobre el nuevo modelo alternativo o distinto la neoliberal, uno de los temas que se están discutiendo es el del equilibrio entre crecimiento y medio ambiente, lo que antes se llamaba desarrollo sustentable, pero ahora se está considerando más el que no debemos apostar a crecer por crecer destruyendo la naturaleza, incluso contaminando lo visual, afectando nuestra belleza natural.</p>
+<p>Hace poco fui a Baja California, a La Rumorosa, y se molestaron porque dije que era un error, por decir lo menos, el que se haya permitido en La Rumorosa -es una de las zonas más bellas del mundo- un parque natural, que instalaran ventiladores para generar energía eólica. Imagínense, en La Rumorosa, que es para admirar eso, que es producto de la naturaleza, meten los ventiladores. ¿Qué?, ¿no los pudieron poner en otro lado?, pero qué falta de sensibilidad.</p>
+<p>Ah, pero nada más están pensando, en el mejor de los casos, en el crecimiento económico. En el mejor de los casos, porque también lo que están pensando es en hacer negocios a costa de lo que sea. Esa mentalidad retrógrada debe desaparecer.</p>
+<p>Lo mismo, hicieron un acueducto hace 20 años, porque llevo andando el país ya bastante tiempo, para llevar agua de Mexicali a Tijuana. Entonces, por La Rumorosa los tubos, así de diámetro y pintados de azul los tubos, porque esa era otra cosa, llegaba un partido al gobierno las escuelas, las bardas, todos los edificios públicos, los palacios, llegaba uno a un municipio y no hacía falta preguntar qué partido gobernaba, bastaba ver cómo estaba pintado el palacio, si era de rojo, de amarillo o de azul.</p>
+<p>Ahora yo le sugerí, ojalá y me haya hecho caso, pero es libre, es soberano, le dije al gobernador de Baja California: Pinta el acueducto del color de las piedras, a lo mejor no te va a costar mucho y sirve para darle mantenimiento, para que se confunda un poco.</p>
+<p>Entonces, es tu pregunta.</p>
+<p>Acabo de leer un manifiesto de como 200 intelectuales, académicos de Holanda, en donde están planteando -se los voy a conseguir- cómo debe de ser el nuevo modelo y por qué entró en crisis a partir del coronavirus todo el sistema económico financiero mundial y qué proponen; y es algo parecido a lo que nosotros hemos venido aplicando, pero ya hay en varias partes del mundo propuestas alternativas.</p>
+<p><strong>INTERLOCUTOR:</strong> Señor presidente, gracias.</p>
+<p>La segunda pregunta. La cena que tuvo hace un par de meses con empresarios, si bien el recurso que se captó ahí en ese instante y las donaciones que ellos hicieron, se habló que iba a ser para salud, independientemente de eso, por la crisis del coronavirus ¿ha pensado destinar tanto esos recursos exclusivamente para atender esta pandemia?, o no sé si hasta pueda usted analizar regresar ese recurso para que no se despidan a empleados en todas estas empresas que, sabemos y usted mismo lo ha dicho, se están despidiendo a personas.</p>
+<p>Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, va a ser para salud, aunque tenemos recursos suficientes para salud.</p>
+<p>Yo les recuerdo que se amplió el presupuesto de salud, porque ya desde antes del coronavirus teníamos el propósito de levantar el Sistema de Salud Pública, que quedó en ruinas, y ya estábamos tomando decisiones. Por eso se creó el Insabi, por eso se aumentó el presupuesto en 40 mil millones de pesos al sector salud. Vino la epidemia y nos agarró al inicio de todo este plan, de toda esta reforma. Y se tienen los recursos, pero de todas maneras falta, porque estamos equipando hospitales, estamos contratando médicos, enfermeras.</p>
+<p>A propósito, vuelvo a hacer el llamado a los médicos, a especialistas que se siguen apuntando, ya llevamos contratados sólo en Insabi más de cuatro mil médicos y enfermeras, pero nos falta, necesitamos más. Está respondiendo muy bien la gente, los médicos, me mandan cartas apoyando.</p>
+<p>Un día de estos… A ver si no está Svarch, Alejandro Svarch, a ver si les manda una de las cartas que me envió de un médico de 60 a 65 años, que ya está de retiro, porque con las medidas sanitarias todos los trabajadores de 60, 65 años tienen que irse a sus casas, se nos fueron muchos médicos, especialistas.</p>
+<p>Una de las que me mandó, en donde es un médico que manda a decir que está disponible. Bueno, puede ser que en la noche pongan las cartas, porque es muy conmovedor de cómo están respondiendo, diciendo ‘voy, porque se trata de proteger a la gente de la salud de nuestro pueblo’.</p>
+<p>Entonces, pedirles a los médicos…</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS, COORDINADOR GENERAL DE COMUNICACIÓN SOCIAL Y VOCERO DE LA PRESIDENCIA:</strong> Una en Ciudad Juárez.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> A ver, ponla si puedes…La lees, de favor.</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> Buenos días.</p>
+<p>Es una carta de un médico de Ciudad Juárez fechada el 17 de abril de 2020.</p>
+<p>‘A las autoridades correspondientes:’</p>
+<p>‘Me dirijo a ustedes para exponer los motivos que me mueven a querer participar en esta convocatoria que se ha hecho pública. Tengo experiencia profesional como médico especialista, cirujano general, así como experiencia administrativa adquirida en los diferentes puestos que tuve la oportunidad de ejercer durante los 28 años de trabajo en el IMSS.’</p>
+<p>‘Me considero útil para que, con mi experiencia y conocimientos, pueda contribuir en estos momentos de crisis sanitaria, además de ser partícipe de esa transformación donde se está buscando ejercer el derecho a la salud de toda la población que el gobierno está llevando a cabo y que es tan necesaria para el desarrollo de México que todos queremos.’</p>
+<p>‘Lamentablemente en nuestro país el personal que tiene la experiencia y el conocimiento en el sector salud ya estamos jubilados y, por consiguiente, somos relegados y toda nuestra experiencia acumulada es desperdiciada.’</p>
+<p>‘Esta crisis, como lo ha dicho el presidente, nos ha servido para que salga a flote el déficit que durante años ha habido en el sector salud, ya sea por falta de personal y de insumos o de infraestructura, por lo que nuevamente mi sentir es que puedo contribuir con mi experiencia y conocimientos a la transformación del servicio de salud de nuestro país.’</p>
+<p>‘Atentamente, doctor Armando Tomás Castillo Peña’.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Así están respondiendo, pero nos faltan más.</p>
+<p>No que estén saturados los hospitales, no que no tengamos camas, no que no haya ventiladores, no que no tengamos médicos especialistas; sí hay, sí tenemos, pero queremos estar bien preparados, incluso para el peor de los escenarios, mejor que sobre y no que falte.</p>
+<p>Entonces, estamos todas las noches, ayer lo hicimos, haciendo la revisión de camas, ventiladores, personal médico. Y nos falta, no para ahora, sino para cuando se está pensando que vamos a tener el tiempo más difícil, más crítico, que se piensa del 8 al 10 de mayo en lo que corresponde a la proyección en la Ciudad de México, puede cambiar por regiones.</p>
+<p>Ahora tenemos más incidencia desde luego aquí, pero también estamos muy atentos a Baja California, a Tijuana, Mexicali, atentos también a Tabasco, que está siendo muy afectado. Quintana Roo también, Guadalajara, Monterrey.</p>
+<p>En la adquisición de ventiladores, por ejemplo, la distribución va en función de dónde se van a necesitar primero, y lo mismo en el caso de los especialistas.</p>
+<p>En el caso de las camas sabemos, ayer se presentó ya un primer proyecto, de cuántas camas por entidad federativa ocupadas, cuántas disponibles sólo para la atención de coronavirus, todo esto con el apoyo de los especialistas, de los médicos, de los científicos.</p>
+<p>Entonces, lo del avión es para equipo. Desde antes del coronavirus ya se había decidido que los dos mil 500 millones de pesos aproximadamente que se van a obtener es para la compra de equipos médicos, seguir avanzando, aunque baje la incidencia de enfermos o el porcentaje de enfermos o decline la epidemia, nosotros no vamos a dejar de atender la salud.</p>
+<p>Aprovechar de que estamos ya mejorando instalaciones médicas, hospitales, equipándolos, contratando personal, seguimos, porque el propósito es garantizar el derecho a la salud.</p>
+<p>Una de las cosas mal del modelo neoliberal, entre muchas cosas malas, es que abandonaron los sistemas de salud pública y donde más les pegó es donde privatizaron sus sistemas de salud.</p>
+<p>Entonces, la lección es fortalecer al Sistema de Salud Pública, no apostar a privatizar a la subrogación de servicios, ¿se acuerdan cómo se puso de moda?, hasta las guarderías se subrogaban, todo era negocio. Entonces, vamos a cambiar eso, ya está cambiando.</p>
+<p>Muy bien.</p>
+<p>Nada más con la compañera. Sí, ahora me fui a la derecha, mañana es la izquierda</p>
+<p><strong>INTERLOCUTORA:</strong> De este lado es izquierda</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, pero es izquierda de allá para acá…</p>
+<p><strong>INTERLOCUTORA: </strong>De nuestra perspectiva es izquierda de este lado.</p>
+<p>Presidente, gracias. Reyna Haydee Ramírez, <em>Pie de Página</em> y muchos otros del noroeste del país.</p>
+<p>Mi primera pregunta tiene… las dos tienen que ver con los temas que usted está tratando.</p>
+<p>El primero es sobre los periodistas, hay muchos periodistas honestos, aplicados en su labor, que no se venden en todo el país, nada más que usted no los conoce y como se cicla en los grandes medios, incluso en los grandes medios, hay gente que trata de hacer su trabajo a pesar de las indicaciones que dan a veces los jefes o los dueños de los medios.</p>
+<p>De este ejemplo hay muchos como <em>Pie de Página</em>, como <em>Libera Radio</em>, en Sonora, y uno de ellos como los del <em>Quinto Elemento Lab</em>, que hacen… en el 2018 hicieron un reportaje sobre la falsa filantropía de Salinas Pliego.</p>
+<p>En este trabajo, obviamente como el señor se hace caravana con sombrero ajeno con los recursos públicos para mantener a las orquestas, para decir que es el que él apoya a ciertas orquestas de Oaxaca, entonces, en este punto pareciera que usted también hace… mide con doble vara a los medios porque acabamos de ver cómo un conductor de <em>Tv Azteca</em> llama a no hacer caso y usted dice que hizo daño, pero poquito; ya casi me recordó aquél que dijo que robo poquito.</p>
+<p>Si usted pudiera explicar un poco en este sentido. Porque esta empresa además tiene sueldos muy malos para su gente, no sólo los reporteros, sino para la gente en la tienda, y aparte quiso meterse, está esperando meter una mina en Baja California Sur, o sea, tiene contratos en… o sea, ¿de qué se trata pues?</p>
+<p>Si usted puede explicar un poco cuál es esta relación con <em>Tv Azteca</em> o con esos que usted también cuando era candidato hizo varias referencias a que grandes empresas; o sea, hacían mucho daño al país, y esta es una de ellas, y hoy parece que ha cambiado usted un poco.</p>
+<p>Si puede explicar eso o dar una explicación más amplia a quienes hoy dicen: ‘¿Pero cómo?, ¿que no alcanzan a comprender?, ¿cómo es posible que se le estén dando contratos, que se les esté ayudando de una o de otra manera cuando tienen tantas deudas con la sociedad?’</p>
+<p>Y el otro, ¿o me espero a que me conteste para que…?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, de una vez.</p>
+<p><strong>INTERLOCUTORA:</strong> No, porque luego se enreda usted y me enreda a mí, y ni una ni otra.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, ahí va. Sí, mire, sí, en general, en todos los medios hay gente consecuente y honesta, en todos los medios, hasta en estos que se mencionan, los grandes.</p>
+<p>Hay incluso periodistas que hacen bien su trabajo, hacen buenas notas, pero en todos estos medios hay como una oficina, como un departamento de corte y confección, para no hablar de censura, y entonces ahí seleccionan. Entonces, no es culpa del periodista, es de la política que se sigue arriba; pero yo no voy a entrar a detalle, ya esto es un asunto que lo tenemos que analizar todos, todas y todos.</p>
+<p>Pero sí existe ese periodismo o esos medios y es muy notorio, o sea, que nunca… ya llevaba años que no se atacaba tanto al gobierno como ahora. Díganme si así fue en el sexenio pasado. ¿Así fue con Calderón?, ¿así fue con Fox?, ¿así fue con Zedillo?, ¿así fue con Salinas? Nada y para atrás, hasta atrás en la historia.</p>
+<p>Entonces algo está pasando.</p>
+<p><strong>INTERLOCUTORA:</strong> Pues la relación de <em>Azteca</em> sí es la misma que en otros sexenios.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ayúdenme primero a desentrañar eso. ¿A qué se debe? Es un buen tema de análisis para la ciencia social no solo para el periodismo.</p>
+<p>Acerca de lo que planteas de <em>TV Azteca</em>, pues sí hicimos nosotros nuestro planteamiento y yo mencioné que fue un error el de Alatorre y que lo consideraba mi amigo y que fue irreflexivo y que todos cometemos errores, porque así es, y yo espero que cambien esa conducta.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿En <em>Reforma</em> no son sus amigos?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Por qué los otros son distintos?</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Por qué?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Porque es consigna. Vean los otros medios, es un día sí y el otro también, se han convertido en voceros del conservadurismo, y cuando hablo de conservadurismo hablo de dos cosas: del pensamiento conservador, de lo ideológico; y, también, del conservadurismo por mantener intereses creados, por mantener privilegios. Entonces, así son las cosas.</p>
+<p>Ahora que me tocó decir qué periódicos, o mejor dicho, qué periodistas son los que yo he estado viendo de la prensa, vamos a decir convencional, que nos defienden o son objetivos según nuestra apreciación, porque también no tenemos verdad absoluta, no somos dueños de la verdad, todo es relativo, pero de acuerdo a nosotros hablé de ellos, no hablé de Azteca, no hablé de Alatorre, hablé de cuatro personas y de muchos, muchos, muchos ciudadanos que nos defienden, millones en redes sociales y que les agradezco infinitamente.</p>
+<p>Porque ¿yo qué puedo significar sin el apoyo de los ciudadanos si estoy encabezando un movimiento de transformación?</p>
+<p>Imagínense cómo se sienten los que actuaban como dueños de México, que hacían jugosos negocios al amparo del poder público, que ellos decidían, ellos mandaban, imagínense lo raro para estos grupos. No estoy hablando de todos los empresarios, pero sí había una élite que no pagaba impuestos.</p>
+<p>Entonces ahora hay que pagar, como pagan todos, todos.</p>
+<p>Entonces no les gusta, pero imagínense, ¿cómo voy a andar yo persiguiendo -como lo hacemos, porque consideramos que es ilegal- a huachicoleros, a delincuentes comunes y los delincuentes de cuello blanco que gocen de impunidad? Me daría vergüenza.</p>
+<p>Claro que tengo relación con todos y me llevo muy bien. Y no odio y no tengo enemigos ni quiero tenerlos, tengo adversarios, y además tengo una responsabilidad, tengo que representar a todos, es un gobierno para ricos y para pobres.</p>
+<p>Y sí me pueden estar presionando de un sector, de un gremio, pero eso no es todo México, esa no es la toda la sociedad. México somos todos y es el más humilde, el indígena, el campesino, el que está allá viviendo en una comunidad marginada y el potentado más exitoso, todos.</p>
+<p>Pero no voy a estar nada más escuchando y atendiendo a un solo sector, a un solo gremio, tengo que representar a todos, si no ¿qué soy? un empleado de una minoría que es el gobierno, como siempre lo digo, un comité al servicio de unos cuantos.</p>
+<p>No, es la doctrina del migrante de San Quintín, separar poder económico del poder político y que el gobierno represente a todos los mexicanos.</p>
+<p>Y no se me hace justo -porque no quiero ser encubridor, no quiero ser cómplice- no se me hace justo que el campesino pague impuesto, que el obrero pague impuesto, que el trabajador pague impuesto y que el que tiene más no pague impuesto, y que yo lo esté viendo, y que diga: ‘Se va a enojar, tiene muchas influencias, se nos van a venir encima los medios’ Mejor…</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Y sí están pagando los grandes medios, las grandes empresas?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ya mencioné que 15 deben 50 mil millones, y se está buscando arreglos. Y no saben, llegan al SAT y unos dicen: ‘Estamos muy fuertes, nos dicen nuestros abogados que estamos muy fuertes’, y uno se atrevió a decir: ‘Denúncienos, vamos a estar en litigio hasta el año 3000’, o sea, así, y otras propuestas de ese tipo.</p>
+<p>Entonces, hay gente que conozco, que tengo relaciones con ellos, pero si hay deudas no puedo solaparlo. Además, esto yo siempre lo he dicho a todos, yo ya no me pertenezco, yo no puedo permitir ni ser cómplice de la corrupción, de la impunidad, y tengo muy buena relación con todos.</p>
+<p>También hay que decirlo, eran otras circunstancias. Mucha gente está cumpliendo con su responsabilidad. Ahora les mostraba yo hace poco cómo se están inscribiendo para para pagar impuestos, creció el número de registros casi en 30 por ciento a pesar de la crisis y es muy probable que terminemos el mes con un incremento en la recaudación en términos reales; o sea que, en el cuatrimestre, enero, febrero, marzo, abril, a pesar de la parálisis económica, vamos a estar arriba en la recaudación en términos reales. Y si estamos abajo, va a ser mínimo. Aquí les voy a traer el dato a finales de mes. Son declaraciones anuales. Dije 30, no; sí 29.</p>
+<p>O sea, esto es responsabilidad ciudadana. Por eso hablo de que esta es nuestra fortaleza, la mayoría, inmensa mayoría de la gente, los mal portados son muy pocos, pero ya van a ir entendiendo que ya cambiaron las cosas.</p>
+<p><strong>INTERLOCUTORA:</strong> Entonces no hay privilegios para <em>TV Azteca</em> o para el <em>Grupo Salinas</em>.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Para nadie. Lo que pasa que también… Es   como dar a conocer los nombres de los 15. No, no sólo es un asunto legal, es un asunto que tiene que ver con no humillar a nadie, porque podrán ser muy fuertes económicamente, pero los ponemos aquí y les afecta, les afecta no sólo en su prestigio, les afecta en la bolsa, no en la bolsa del pantalón, que también, sino la mayoría de estas empresas participan en las bolsas de valores, porque hay empresas extranjeras, en estas 15 hay como más de cinco extranjeras grandes; entonces, ponemos los nombres y les puede ir mal en sus acciones. Eso no lo podemos hacer, o sea, es ilegal, es humillante y además no conviene económicamente.</p>
+<p><strong>INTERLOCUTORA:</strong> Si estaría bien que explicara la relación con <em>Tv Azteca</em>, porque pues, entonces…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues ya las he explicado. Te voy un dar un dato más, tú hablaste de la mina.</p>
+<p><strong>INTERLOCUTORA:</strong> De la falsa filantropía, de la mina. Ah, bueno, ya esa sí la echó para atrás.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ah, ¿entonces?</p>
+<p><strong>INTERLOCUTORA:</strong> Eso sí lo sabemos, pero, por ejemplo, lo de la falsa filantropía viene del otro… fue una gestión anterior, pero…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Por eso, pero no voy a estar de pleitisto, respeto a todas las personas. Me tengo que defender porque además hay quienes no quieren que se transforme el país porque quieren mantener el <em>statu quo</em>, quiere mantener el régimen de corrupción, a esos me les enfrento.</p>
+<p>Todo aquél que quiera impedir el cambio, respetando su derecho a disentir, pues debe de tener una respuesta respetuosa. En esos casos voy a seguir haciendo uso de mi derecho de réplica, porque una cosa es el movimiento feminista, que se montaron en el movimiento feminista, se volvieron feministas, lo estaba yo viendo, ya no hay Cisen, ya no hay oficina de inteligencia, o mejor dicho de espionaje, pero me llega todo, la gente me informa.</p>
+<p>Además, ahí en las redes sale todo, ahí. Antes eran los periódicos, quería uno enterarse de las cosas, ahora las redes, ahí se sabe; así como salen noticias falsas, también sale mucha información buena. Entonces, estamos muy pendientes.</p>
+<p>Lo del feminismo, que es un movimiento legítimo que merece respeto, ah, pero resulta que quienes están inconformes con la transformación, porque se sienten afectados en sus intereses se suben al movimiento, lo promueven, lo difunden, manipulan. Entonces, yo tengo que decir lo que estoy viendo, lo que estoy sintiendo, mi pecho no es bodega y siempre digo lo que pienso.</p>
+<p>Luego viene el coronavirus y lo mismo ¿no?, empiezan a desesperarse. Me pasó dos o tres veces de manera directa, que venía yo de una gira de la Costa Chica y sale el informe que ya había el primer muerto de coronavirus. Llego al aeropuerto y un grupo de reporteros con luces y cámaras me empiezan a acosar: ‘¿Qué opina que ya murió la primera persona de coronavirus?, ¿le va a ofrecer disculpas a sus familias?, ¿le va a dar el pésame?’, así como se los estoy planteando; voy caminando callado, callado. ‘¿Entonces no le importa?’ Me subí al carro, me vengo para acá.</p>
+<p>Luego se sabe que afortunadamente el señor no murió, pero se lanzan con todo.</p>
+<p>Imagínense si yo contesto de manera ingenua o de buena fe y digo: Pues sí, lo lamento mucho, le transmito mi más sentido pésame a sus familiares, y llegó aquí y también, como todos, nos enteramos de que no murió el señor, ¿cómo queda el presidente?  Y es trampa tras trampa, una tras otra.</p>
+<p>Luego, voy en el avión me dice un señor, sale su tabla, dice: ‘Usted dijo esto’, yo iba a Sonora, le digo, sí, yo lo dije. ‘Pues yo no estoy de acuerdo con usted’.</p>
+<p>Resulta que lo que yo había dicho ahí, lo dije aquí como 10 días antes o 15 días antes, también del coronavirus, y lo actualizan y lo ponen. Le digo:</p>
+<p>-Sí, señor, sí.</p>
+<p>-Ah, pues, yo no estoy de acuerdo.</p>
+<p>-Pero le digo, pero no está mal lo que estoy diciendo ahí, es lo que yo pienso.</p>
+<p>-Ah, pero es que yo no creo en usted.</p>
+<p>-Ah, señor, pues tiene todo su derecho, además es sincero.</p>
+<p>Y ya. Pero es evidente de que hay una campaña orquestadísima y que reproducen los medios, a veces surge de alguna nota y se encargan de hacerla extensiva en todos los medios, y tienen estos robots en las redes; pero no les ha funcionado, no les ha funcionado. Ahora ya, no es para presumir, pero nos ven aquí bastante.</p>
+<p>¿Cuál es tu otra pregunta?</p>
+<p><strong>INTERLOCUTORA:</strong> La otra pregunta es sobre justamente de algo que está pasando en Sonora y supongo que también en muchas partes del país. Hay preocupación de los mexicanos que están acudiendo a los hospitales, no por el coronavirus, sino por otras enfermedades.</p>
+<p>Entonces, ya ahorita hay muchos hospitales saturados y la gente tiene temor que… hay ya denuncias de que no los están atendiendo, de que los traen vueltas para acá, que vayan para allá o, si no, que tienen temor también de que les digan que su familia está muriendo por coronavirus cuando su familiar o cuando está por muriendo por otra causa y no hay un diagnóstico bien hecho.</p>
+<p>Entonces en este sentido, ¿cuál sería la información que usted tiene sobre la atención a los mexicanos que acuden por otras causas a los hospitales?</p>
+<p>Ya lo ha explicado un poco el doctor en las conferencias de la 7:00, pero sí, si usted tiene un mensaje para estas personas que tienen una enfermedad de otro tipo que no es esta, que están llevando a su gente a las mujeres embarazadas.</p>
+<p>Incluso hay preocupación en muchos mexicanos que están acudiendo a los hospitales y no están encontrando, justamente por la pandemia, no están encontrando una… ya de por sí no hay una atención adecuada, imagínese ahorita cómo está el asunto.</p>
+<p>Y nada más decirle también que en Sonora están muchos muertos, hay muchos muertos y por violencia y pareciera que no se está atendiendo bien este asunto o qué está pasando ahí, porque…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Estamos trabajando. Mira, acerca de lo primero que preguntas, yo creo que por la tarde-noche se puede dar un informe.</p>
+<p>En lo que a mí corresponde, decirle a la gente que vamos a garantizar la atención médica, los medicamentos gratuitos en todos los casos, es decir, sea el padecimiento que sea, la enfermedad que sea, a nadie le va a faltar. Eso es lo que estamos haciendo, trabajando en ese sentido.</p>
+<p>Lo mismo en las edades, todo esto que manejaron de manera también malintencionada, tendenciosa. ¿Cómo es que un analista llega a adelantar vísperas, ya a decir que las camas y los ventiladores van a ser para los jóvenes o se les va a dar preferencia a los jóvenes y no a los adultos mayores si todavía ni siquiera, afortunadamente, tenemos ocupadas el 30 por ciento de las camas que se disponen para esto?, y ya haciendo ese planteamiento, o sea, con esas conjeturas. Eso no es serio, eso es infundir temor, miedo, incertidumbre. Lo voy a decir, es perverso eso, es canallesco.</p>
+<p>Lo mismo para el caso de los habitantes de Sonora y de todo el país, que tengan confianza, que estamos trabajando para que nadie padezca de atención médica y que entiendan que hay un ambiente enrarecido porque los que se sentían dueños de México están molestos porque ya no se permite la corrupción.</p>
+<p>Entonces, por eso los rumores y las noticias falsas y la falta de ética en el manejo de la información, y el alarmismo y el amarillismo.</p>
+<p>Pero que la gente tenga confianza que nosotros siempre vamos a actuar con responsabilidad y con apego a la verdad, que no vamos a ocultar nada, que vamos a saber reconocer nuestros errores, que tenemos capacidad para rectificar, que no vamos a caer en autocomplacencia, que no llegamos aquí por el cargo, llegamos aquí para cambiar las cosas, para transformar, para que se destierre de México la mentira, la manipulación, la corrupción, todas esas calamidades. Para eso llegamos, eso es la transformación.</p>
+<p>Entonces, que tengan confianza y que no es nada más quejarnos por lo que nos dejaron, que claro que quedó en ruina, quedó en el suelo el Sistema de Salud Pública, pero lo estamos levantando con un gran esfuerzo.</p>
+<p>Y aquí destaco la solidaridad de los hospitales privados, fíjense, porque no se puede cuestionar a tabla rasa a todos los empresarios, no todo el que tiene es malvado. Miren la actitud de estos empresarios de los hospitales privados.</p>
+<p>No es poca cosa contar, ahora que estás hablando de los embarazos o de la atención a las mujeres que van a dar a luz, tener tres mil 150 camas adicionales, disponibles. Eso es un acto de generosidad. Aun cuando se está pagando lo mínimo, no están lucrando.</p>
+<p>Entonces hay mucha gente, mucha, mucha de todas las clases sociales, de todos los sectores que están ayudando. Ya les digo, son muchísimos, más los que ayudan.</p>
+<p>Les diría, por ejemplo, los conservadores no con dinero, sino conservadores de pensamiento, que los hay, gente de clase media, media o de clase media que tienen una manera de pensar así, pues ellos están respetando las medidas de guardarse, de la sana distancia.</p>
+<p>Que también aprovecho para llamar a que no se relajen las medidas, hay que quedarnos en la casa, porque si no se ha desbordado el problema de la epidemia ha sido por la participación de todas, de todos, el apoyo de la gente.</p>
+<p>Tenemos estudios sobre movilidad y es preocupante en algunos casos en donde… y se van a mostrar los datos científicos de cómo hay municipios en donde la movilidad desgraciadamente es la misma antes y en algunos casos hasta ha aumentado, pero no es general, no es general, en la mayoría de los casos la gente sigue ayudando, cumpliendo.</p>
+<p>Sí vamos a dar a conocer la información esta -no sé si la tienes ahí- de los municipios, porque esto sí afecta si no hacemos caso, pues hay más contagio. A lo mejor está, si no, se la dejamos a Hugo por la tarde-noche. ¿Ya la tienes? De municipios, estados y municipios. La de municipios. Miren. ¿La explicas?</p>
+<p><strong>JÉSUS RAMÍREZ CUEVAS:</strong> Es de la movilidad. Lo que se está haciendo ahora es un estudio municipal de cuáles son los municipios que están cumpliendo las medidas sanitarias de permanecer en casa y cuáles son las de menor cumplimiento.</p>
+<p>Se tiene la lista que la Ciudad de México, la alcaldía Benito Juárez, Coyoacán, Miguel Hidalgo, la ciudad de Mexicali, Baja California, así como San Nicolás de los Garza, Nuevo León, son los que más o mejor han cumplido las medidas de no movilidad o la gente está en su casa.</p>
+<p>En cambio, las de menor cumplimiento y donde por lo tanto podría haber problemas en el futuro es: Río Bravo, Tamaulipas; Pénjamo, Guanajuato; Palenque, Chiapas; San Felipe del Progreso, México; y Macuspana, Tabasco.</p>
+<p>Este estudio se está haciendo cruzando varias fuentes, este lo hizo Funsalud tomando en cuenta tanto fuentes de Google, de iOS, como de otras mediciones que hay de las ciudades.</p>
+<p>El análisis es el del 20 de abril del 2020 y se dice que el número de porcentaje de municipios que están cumpliendo el programa quédate en casa es del 97 por ciento, y porcentajes de municipios que mejoraron su cumplimiento respecto a la semana última es el 51 por ciento de los municipios que están tomando las medidas.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ya ven cómo es la mayoría.</p>
+<p><strong>PREGUNTA:</strong> Su municipio es de los…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong>  Sí, esto sí calienta, bueno, pero hago un llamado ahí, paisanos. No me gustó eso.</p>
+<p>Pero miren el dato, 97por ciento, hasta los que estaban más relajados ya están mejorando en cuanto a su comportamiento.</p>
+<p>A ver si en la tarde-noche lo explican más, porque hay una estatal.</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> Ahí está la otra…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ese es por estado.</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> Aquí está por estado, estados en cumplimiento del programa Quédate en casa de los 32, estados que mejoraron su cumplimiento en la última semana, o sea, antes del 20 de abril, son los que están en verde, que es Baja California, Baja California Sur, Sonora, Quintana Roo y las que tienen menor cumplimiento es Durango, Colima, Oaxaca, Querétaro y creo que es…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Hidalgo, Colima…</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> Hidalgo y Querétaro son las otras dos, Colima junto con Durango y Oaxaca son las que menos cumplimiento tienen.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Entonces, en la noche vamos también a estar pasando esto, porque esto ayuda a que no se propague la epidemia.</p>
+<p>Vamos a seguir respetuosamente pidiéndoles que ayuden, lo mismo en el caso de las empresas.</p>
+<p>El lunes -y hay tiempo como para que corrijan- el lunes damos a conocer el quién es quién en las empresas que cumplen y que retiraron a sus trabajadores con sus salarios, a sus casas para protegerlos y quiénes no están cumpliendo. Y no es nada personal.</p>
+<p>Miren cómo me pusieron a mí ahí, ahora sí que doble, porque es Macuspana y es Palenque.</p>
+<p>Bueno, nos vemos mañana.</p>
+<p><strong>PREGUNTA:</strong> … de regular las cadenas de producción en el norte.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Mañana hablamos.</p>
+<p>---</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

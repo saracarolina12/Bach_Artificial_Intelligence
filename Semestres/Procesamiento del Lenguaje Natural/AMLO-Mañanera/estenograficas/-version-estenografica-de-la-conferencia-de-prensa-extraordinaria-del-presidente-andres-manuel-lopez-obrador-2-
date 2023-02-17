@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>19.01.19 Versión estenográfica de la conferencia de prensa extraordinaria del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/version-estenografica-de-la-conferencia-de-prensa-extraordinaria-del-presidente-andres-manuel-lopez-obrador-2/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=112220' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2Fversion-estenografica-de-la-conferencia-de-prensa-extraordinaria-del-presidente-andres-manuel-lopez-obrador-2%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2Fversion-estenografica-de-la-conferencia-de-prensa-extraordinaria-del-presidente-andres-manuel-lopez-obrador-2%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66iv2-f-e30b0177e-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":26,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"2a782168","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55206,"ak.gh":"23.47.207.69","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616378","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==cTmYl+yJG/GZBsX2vuOgrT0tZLx5sCwYvNV/k0AL2UWQd+VPR3/tocH9IAheWs374NDvTaVfIB5xmBYRr9323cKVQLO2UrlnlFvPSE3k5uilws/6QG4KG+ZGaFSidU6M18YJntvpTStQk4BGohHo4cEqb3Rz92ROsJQbHFxE13YQVQ53LvNajm2HoqA7zZLIXojMR2DTVF4jOfi7AcsRgUUDnlP9pyvdHbG5BRmECKRKGM96wWcRwO/UQDfZTA1dxG3wSh/lG/rKlBfIo2VchRcFm+vF0FbPHdOUqru6wbiWaJAC6CIQVOKhOVcw8t2C2v7CjMfJ3I+GzWErpszx4O75aQxDrt2FVsLYFoQm9v/Z4ppfBJMDWF1MvBd/EImyIoNdb6JaIvMKhmuP51RP+GkhQHtWI3f1/PdqSR0F00U=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-112220 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef202c24217" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>19.01.19 Versión estenográfica de la conferencia de prensa extraordinaria del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 19.01.19 Versión estenográfica de la conferencia de prensa extraordinaria del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-112220" class="post-112220 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica tag-conferencia-extraordinaria tag-hidalgo tag-omar-fayad">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2019/02/Versión-estenográfica-Conferencia-extraordinaria-caso-Hidalgo.jpeg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2019/02/Versión-estenográfica-Conferencia-extraordinaria-caso-Hidalgo-745x450.jpeg" alt="19.01.19 Versión estenográfica de la conferencia de prensa extraordinaria del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">19.01.19 Versión estenográfica de la conferencia de prensa extraordinaria del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p><strong>Versión estenográfica</strong></p>
+<p><strong>Palacio Nacional, sábado 19 de enero de 2019</strong></p>
+<p><strong>Conferencia de prensa encabezada por el presidente de los Estados Unidos Mexicanos, Andrés Manuel López Obrador</strong></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Buenas tardes.</p>
+<p>Como lo decidimos, dada la situación tan lamentable que estamos enfrentando, vamos a informar permanentemente sobre esta tragedia que duele al pueblo de México, a los mexicanos, y también debo decirlo, ha conmovido a pueblos y gobiernos del extranjero, que han manifestado su solidaridad, su apoyo en estos momentos difíciles para nosotros.</p>
+<p>Vamos a informarles de la siguiente manera:</p>
+<p>Primero, el ciudadano gobernador, como lo hizo por la mañana, va a dar un informe general de lo acontecido en las últimas horas.</p>
+<p>También, y es algo que nos importa mucho, va a informarnos el doctor Jorge Alcocer sobre los heridos, porque el propósito es salvar vidas, en estos momentos es lo más importante de todo.</p>
+<p>Y posteriormente va a haber un informe de las procuradurías o de la Procuraduría General, en el caso de Hidalgo, y de la Fiscalía General de la República; los dos procuradores, Raúl Arroyo, de Hidalgo, y el fiscal Alejandro Gertz.</p>
+<p>Vamos a proceder de esta manera y, al final, la sesión de preguntas y respuestas.</p>
+<p><audio src="http://10.15.4.98/wp-content/uploads/2019/02/19-01-2019-Audio-Conferencia-de-prensa-extraordinaria-vespertina.mp3" controls="controls"></audio></p>
+<p><iframe src="//www.youtube.com/embed/BW0otqLxES0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>&nbsp;</p>
+<p><strong>GOBERNADOR OMAR FAYAD MENESES</strong>: Con su permiso, señor presidente.</p>
+<p>Señoras y señores secretarios, compañeras y compañeros de los medios de comunicación:</p>
+<p>Ante estos hechos lamentables, en una coordinación muy estrecha entre los tres órdenes de gobierno se ha procedido a llevar a cabo todas y cada una de las tareas que el presidente de la República instruyó esta mañana en las diversas reuniones de trabajo y de los anuncios que hicieran ante ustedes, los compañeros de los medios de comunicación.</p>
+<p>Con lo cual cada una de las dependencias competentes, como lo es la Secretaría de Seguridad Pública, el Ejército, la Marina, Pemex, la Secretaría de Energía, la Fiscalía General, así como el gobierno del estado de Hidalgo y todas sus dependencias, acudieron en la división de tareas que hicimos para cada una de ellas a cumplir cabalmente con las responsabilidades.</p>
+<p>Y me permito poner en conocimiento de las y los mexicanos, a través de ustedes, los medios de comunicación, que se iniciaron trabajos de reapertura de zanja allá, en el municipio de Tlahuelilpan y se continuó con la búsqueda de víctimas; desde las 14:00 horas arrancaron estos trabajos puntualmente con la asesoría de Pemex y el trabajo de las áreas de Protección Civil federal y estatal.</p>
+<p>Asimismo, creemos que las condiciones en la comunidad son de calma, se ha dado certidumbre. Creemos que estamos haciendo las cosas por el camino correcto y hemos pedido a la comunidad mucha tranquilidad ante obras que ve que vamos a hacer, por ejemplo, la introducción de maquinaria y equipo, que no sientan la pena de que no hay la consideración de que ninguna de esa maquinaria va a llegar a levantar tierra o a arrasar algo que pudiera afectar con la búsqueda de los restos de sus seres queridos. Por eso les pedimos mucha calma y tranquilidad.</p>
+<p>Los trabajos se realizaron priorizando en todo momento la atención y el apoyo a los heridos y a las familias de las víctimas, como lo acordamos en la mañana y como lo instruyó el presidente López Obrador.</p>
+<p>Al corte de hoy sábado 19 de enero a las 17:00 horas, el conteo es ya de 73 personas fallecidas, de las cuales cinco perdieron la vida en el lugar y fueron hallados ahí sus restos y las otras cinco han perdido la vida ya en la atención médica y en el esfuerzo de la acción que se ha realizado para poderles atender en esta acción coordinada.</p>
+<p>Y hemos informado oportunamente a las familias, a los seres queridos, para que conozcan sobre la situación de sus familiares.</p>
+<p>A manera de apoyo, el gobierno ha llevado féretros al sitio para resguardar los cuerpos y trasladarlos al lugar donde serán velados. Para agilizar este proceso, en coordinación con los presidentes municipales de la región, se expiden a la brevedad las actas de defunción correspondientes.</p>
+<p>El número de personas heridas es de 74, de las cuales 24 se atienden en los hospitales de Hidalgo y 50 han sido trasladados a hospitales de la Ciudad de México, Estado de México, Querétaro y Guanajuato, aunque cada caso se toma de manera particular, y todos tienen un diagnóstico médico. La principal tarea ha sido estabilizar a las personas para continuar con los tratamientos correspondientes.</p>
+<p>Hemos realizado un recorrido a lo largo de muchas instituciones médicas, hospitales de la Ciudad de México y del Estado de México, donde se encuentran las personas afectadas por los trágicos hechos del día de ayer, para ver en qué condiciones se encuentran los heridos y en qué condiciones se encuentran las familias y poderles brindar el apoyo necesario.</p>
+<p>En compañía de la señora Beatriz Gutiérrez Müller, esposa del nuestro señor presidente, y de Claudia Sheinbaum, jefa de gobierno de la Ciudad de México, hicimos algunos recorridos para garantizar la mejor atención médica, el medicamento, los gastos y todo el apoyo, tal como lo pidió el presidente, sin escatimar el apoyo para que los familiares de las víctimas puedan responder a esta situación. El apoyo para que puedan pernoctar, si es necesario, el tiempo que deban hacerlo, mientras sus familiares están en tratamiento.</p>
+<p>Hoy se cuenta ya con 59 carpetas de investigación iniciadas en las agencias del Ministerio Público para asentar los datos de las víctimas. Y es importante resaltar la participación y compromiso de servidores públicos y funcionarios de los tres órdenes de gobierno, mismos con los que hemos logrado atender en la comunidad a más de 300 personas familiares de los afectados, quienes buscan a sus seres queridos y están atentos de los hallazgos de los restos humanos que van apareciendo en la medida en que la búsqueda avanza.</p>
+<p>Son muchas las vertientes de atención que se han puesto a disposición de las personas envueltas en esta gran tragedia.</p>
+<p>Desde un inicio que se activó el Plan DN-III y los Comités Nacional y Estatal de Seguridad, se han coordinado con los directivos de los hospitales, las jurisdicciones de salud, las áreas de protección y las coordinaciones médicas.</p>
+<p>Se han acondicionado espacios para la atención de las víctimas, particularmente en el Centro Cultural de Tlahuelilpan, a un costado de la presidencia municipal, como punto de atención para mantener informada a la ciudadanía, a los familiares de las víctimas, tanto de las que han fallecido, de las que están heridas o de las que aún permanecen como desaparecidas.</p>
+<p>El accionar del gobierno ha sido constante, pero hay muchas cosas incuantificables, como la solidaridad de todo un país, el apoyo y buenos deseos manifestados en las redes sociales y en los mismos lugares de los hechos dejan en cada hidalguense un sentimiento de gratitud y de esperanza.</p>
+<p>Muchas gracias a todas estas personas por ser el pilar de apoyo ante esta terrible tragedia.</p>
+<p>Finalmente, de las personas hospitalizadas, siete son menores de 18 años y uno tiene 12 años, que permanecen internados en los distintos hospitales de la región metropolitana del Valle de México; 30 víctimas tienen entre 18 y 29 años, 36 tienen entre 30 y 54 años, y una víctima tiene 63 años.</p>
+<p>La verdad de las cosas es que el panorama se ha ido endureciendo para todos nosotros, para las y los mexicanos, a medida que han pasado las horas la expectativa de encontrar más personas vivas prácticamente va desapareciendo, de las que se encuentran heridas se ha ido, en muchos de los casos, agravando la situación.</p>
+<p>Ya vamos a comenzar con el traslado de algunos de los pacientes, sobre todo de los menores de edad al hospital Shriners, en Galveston, Texas. Ya hemos llamado a la Fundación Michou y Mau para que active los mecanismos y los protocolos para atender a pacientes quemados para comenzar ese traslado.</p>
+<p>Y hemos tratado de que, en todo momento, ustedes los medios de comunicación y todos los mexicanos cuenten con la información oportuna ante esta terrible situación, ante esta gran tragedia que enlutó a Hidalgo y enlutó a México.</p>
+<p>Por mi parte, señor presidente, sería todo.</p>
+<p>Muchas gracias.</p>
+<p><strong>JORGE ALCOCER VARELA</strong>: Muchas gracias, señor presidente, por permitir que me comunique con los mexicanos que van a contener y a desarrollar todo lo que estamos nosotros presentando.</p>
+<p>Para todos ustedes el informe de 24 horas, de 24 horas del dolor de los mexicanos y el dolor, en muchos de estos casos, como es esta tragedia, llega al alma.</p>
+<p>Referente a esto y, desde luego, con una coordinación muy particular que quisiera resaltar, donde en forma armónica las instituciones sin ninguna, pero de ello están atendiendo a los lesionados, a las víctimas de esta tragedia; en una forma muy integral de atención al máximo y, desde luego, con calidad y con atención también a sus familiares, puesto que la familia es la parte central de nuestra sociedad y se pone de manifiesto hoy en día ante esta tragedia.</p>
+<p>En esta integración, desde luego, coordinadas por el que aquí les llama, les habla, está el Instituto Mexicano del Seguro Social, participa el Issste; participan las instancias estatales, que mantienen con una calidad en el Estado de México, en la Ciudad de México y, desde luego, en el estado de Hidalgo, una atención de primera intención muy importante.</p>
+<p>Y en los casos que ustedes saben, hasta hoy hay 80 lesionados, 80 afectados por esta explosión y no sólo por la explosión, desde antes de la explosión todos los minutos que se encontraron con estos tóxicos para la salud ya estaban haciendo su labor y por eso hoy su condición de salud está todavía más afectada.</p>
+<p>Sin embargo, estas 80 personas lesionadas, la mayoría hombres, como ustedes saben, tienen una peculiaridad muy importante, 49 de los 80 son jóvenes; 49 jóvenes de 15 a 34 años han tenido esta agresión a una acción totalmente fuera de control.</p>
+<p>Esto, desde luego, se ha contenido en los estados, como ya les señalé. Y vale la pena considerar en particular, que han participado, desde luego, cinco hospitalizados en Ixmiquilpan y siguiendo el estado de Hidalgo están 26 en este estado; la Ciudad de México lidera con 30, son de los más graves y están aquí en las instituciones de esta ciudad.</p>
+<p>En el Estado de México 17; y tenemos en esta, como ya se adelantó, en esta suma de 73, los restantes que han fallecido.</p>
+<p>Quiero mencionarles que, desde el punto de vista médico, tenemos el día de hoy, implementamos en esta coordinación, tres objetivos:</p>
+<p>Uno: Visitar, lo hicimos en prácticamente todos los hospitales que están ya mencionados. Lo hicimos viendo el estado crítico de los pacientes, medicamente viendo su devenir, su perspectiva, su pronóstico.</p>
+<p>Y aunque es esto reservado y en muchos de estos casos será en las primeras 48 horas el devenir más importante, hay esperanzas, hay acciones que se están consolidando para darle, como se los expuse en el segundo objetivo de esta visita, a sus familiares en un acto de contención, de acompañamiento, de intercambio de ideas muy necesarias y en las cuales expresaron notablemente los familiares, entre otras cosas, su agradecimiento a cómo están siendo tratados.</p>
+<p>¿Y cómo están siendo tratados?  Como debe ser tratado un ser humano, independientemente de que si pertenece a la institución donde fue llevado por sus familiares, independientemente si es Pemex, que ha participado también puntualmente; el Issste, el IMSS o el estado que los ha acogido en sus hospitales.</p>
+<p>El otro punto de visita fue ver los insumos, lo que cuentan estos hospitales. Y quiero decirles, con toda transparencia, que están estos hospitales, donde están ubicados estos lesionados, están sin falta de recursos y tienen, lo enfatizo, tienen lo mismo que se puede hacer en otras instancias del extranjero inclusive, en protocolos que se siguen puntualmente.</p>
+<p>Y que inclusive, como una muestra más de lo inédito de nuestras acciones en este nuevo gobierno, vamos a tener, si ustedes lo conocen, un particular vuelco a lo que se llama la atención en las unidades de emergencia, lo que se conoce como el famoso triaje, que en este caso va a ser reforzado para dar todavía con más posibilidades que algunos de estos pacientes logren salvar la vida y mejorar su futuro con una capacidad adecuada.</p>
+<p>Como ustedes saben, hay que tener en este caso, de este manejo de especialistas, la pretensión, la perspectiva de que son salvables estos individuos, estos seres humanos, a pesar de que biológicamente pareciera que no.</p>
+<p>Pero basado en su juventud y en el apoyo de su familia y de los médicos mencionados, vamos a trabajar y en forma inédita hemos propuesto hacer dos grupos, dos grupos de especialistas, los más importantes especialistas que en el país tienen experiencia en estas acciones, donde emergencia y desastre se suman, de siete a 10 de estos médicos en la Ciudad de México, uno de estos grupos y, desde luego, el otro en Hidalgo.</p>
+<p>Y así en esta estrategia, que es obligada desde el punto de vista ético y médico vamos a tener mayores posibilidades de vida e inclusive de reubicación de algunos pacientes del estado de Hidalgo, como se está haciendo progresivamente si fuese necesario para esto.</p>
+<p>Este es una nota que les quería yo dar, que les quiero decir, lo continuamos en una forma integral, como ya les mencioné, coordinada y con orgullo para México que se puede hacer, porque está apoyado por no sólo por las secretarías de Salud, sino por la población que siempre están a la vanguardia de estas acciones donde el corazón y la solidaridad son importantes.</p>
+<p>Muchas gracias.</p>
+<p><strong>PROCURADOR RAÚL ARROYO GONZÁLEZ</strong>: Con su permiso, señor presidente.</p>
+<p>Soy Raúl Arroyo, procurador general de justicia del estado de Hidalgo.</p>
+<p>Como ya refirió el señor gobernador Omar Fayad, la instrucción fue desde el primer momento de este trágico evento el organizar un trabajo que permitiera ofrecer soluciones en todos los aspectos que se vieron afectados por los hechos que son de todas y de todos ustedes conocidos.</p>
+<p>De tal suerte que, a partir del día de ayer a las 20:00 horas con un equipo de 60 peritos, 80 agentes de la Policía de Investigación y 25 agentes del Ministerio Público, más fiscales especializados y funcionarios de la procuraduría, se formó un equipo que se trasladó al municipio de Tlahuelilpan, a efecto de resolver todas las necesidades que se planteaban desde el punto de la procuración de justicia.</p>
+<p>Una vez que se tuvo la autorización de los organismos de Protección Civil y de Pemex, nuestros peritos, personal especializado, pudo entrar al predio alrededor de las 4:15 de la mañana. Se ingresó con cuatro grupos de ocho peritos cada uno en materias de criminalística, antropología, genética, topografía y química para que se pudiera dar cobertura a toda el área del siniestro.</p>
+<p>Una vez hecho el recorrido de estos peritos, se encontraron seis cuerpos completos y 57 restos de personas que presentaban quemaduras en grado de carbonización y parcialmente calcinados.</p>
+<p>La búsqueda concluyó en una primera fase a las 11:15 del día de hoy, y a partir de ese momento se concentraron los restos humanos para empezar el trabajo de identificación.</p>
+<p>Estos restos, 63 en total, conforme al protocolo de actuación aplicable, se evaluaron. Se logró identificar de manera inmediata, porque las condiciones lo permitían, a nueve personas. Tres fueron reconocidas de inmediato y entregadas a sus familiares y, en otros casos, se ha iniciado el contacto con las diferentes familias para lograr el reconocimiento de los otros que así lo permiten.</p>
+<p>Los 54 restantes han sido evaluados, no son identificables por las condiciones en que se encontraron y requerirán de la aplicación de técnicas de antropología, odontología y genética, para lo cual se dará seguimiento a las carpetas que cada una de las familias de las víctimas han iniciado.</p>
+<p>Lamentablemente, la degradación del tejido hará complicado determinar los perfiles genéticos y advertimos que nos encontraremos frente a procesos de identificación que pueden tomar un tiempo considerable.</p>
+<p>También hemos tenido mucho cuidado en atender a la familia de cada una de estas personas que se han acercado con nosotros, les hemos dado atención psicológica también con nuestros expertos y les hemos dado orientación acerca de las carpetas de investigación que han iniciado.</p>
+<p>En las últimas horas lamentablemente la numeraria ha ido variando, hay lamentablemente también pérdida de personas que fueron trasladadas a los diversos hospitales, tanto en la Ciudad de México, a donde fueron trasladadas 28 y a hospitales del propio estado de Hidalgo y del Estado de México.</p>
+<p>Hasta este momento tenemos 21 horas de trabajo ininterrumpidas, que afortunadamente se han visto reforzadas, y lo tengo que decir públicamente, con apoyos muy significativos de la procuradora de Justicia de la Ciudad de México y del fiscal de justicia del Estado de México, así como de la Secretaría de Seguridad a cargo del secretario Durazo, que hace un hora aproximadamente, nos allegó a un grupo de expertos que nos ayudarán a la toma de pruebas para los análisis de genética, tanto de los restos como de las familias para que al final crucemos la información y permitamos identificar el ADN.</p>
+<p>Muchas gracias.</p>
+<p>Gracias, señor presidente.</p>
+<p><strong>FISCAL ALEJANDRO GERTZ MANERO</strong>: Queremos informar a ustedes que la procuraduría del estado está dedicada a la identificación de los restos de las personas que se encontraban en esa área.</p>
+<p>El Ministerio Público Federal está haciendo el análisis de la secuencia de los hechos. Tanto los agentes del Ministerio Público, como la policía, como los peritos, están estableciendo las primeras hipótesis de lo que ocurrió en el momento del siniestro.</p>
+<p>Estas primeras diligencias quiero que ustedes las tomen como lo que son: información preliminar que se va a ir configurando conforme vayamos avanzando.</p>
+<p>¿Qué es lo que nos dicen los datos que hemos obtenido? En el momento del siniestro ese ducto estaba cargado con gasolina de muy alto octanaje.</p>
+<p>Eso genera una serie de gases de una gran letalidad y, por tal razón, en el momento en que eso se da y las personas empiezan a acercarse y a moverse de una manera multitudinaria alrededor de esa zona que estaba cargada de gases, muchas de las personas usan ropa de contenido sintético, que tiene también la posibilidad de generar reacciones eléctricas.</p>
+<p>Ese es un principio de investigación, no es una contundencia, ni un resultado final. Ese movimiento de tantas personas en un área cargada de gases y que además de los contenidos líquidos pudo haber generado esa explosión.</p>
+<p>Esa es la primera información de carácter pericial que tenemos que se puede ratificar o rectificar conforme vayamos avanzando, estas son las primeras horas.</p>
+<p>Nosotros tenemos la intención, y eso ha sido el criterio del gobierno de la República, del señor presidente, de ir informando todo lo que se vaya avanzando, sin que esto signifique que sea contundente.</p>
+<p>Esa es la primera impresión que tenemos de carácter pericial. Mañana vamos a comenzar con las testimoniales y conforme vayamos avanzando, lo vamos a ir dando a conocer a todos ustedes.</p>
+<p>Hasta ahorita eso es lo que tenemos.</p>
+<p>Muchas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Muy bien.</p>
+<p>Hemos decidido transparentar todo el proceso para llegar a la verdad, sin ocultar absolutamente nada. Por eso, vamos a estar informando a través de ustedes a los mexicanos, a los ciudadanos de nuestro país.</p>
+<p>Abrimos, si les parece, la sesión de preguntas y respuestas.</p>
+<p><strong>PREGUNTA</strong>: Presidente, en las últimas horas, y entendiendo que la investigación está en asunto preliminar, mañana empiezan las pruebas testimoniales, hay una duda que ha surgido en redes sociales de si hay alguna persona detenida, alguna persona que esté en un hospital, tal vez recuperándose, que esté detenida o esté en calidad de presentada, ¿hay alguna de todas estas decenas de personas que están en el hospital que tenga esta calidad jurídica?</p>
+<p>Y una pregunta más, sería la segunda pregunta: ¿Se va a reforzar esta zona Hidalgo?, ¿habrá un operativo especial en Hidalgo, más allá de lo que ya venía anunciando la semana pasada, de reforzar toda esta zona? ¿Habrá algún despliegue más, algún despliegue con policía estatal, con policía federal, en esta zona?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Vamos a que los procuradores, en este caso el fiscal…</p>
+<p><strong>PREGUNTA</strong>: Es que tenemos un problemita en el audio, porque varios estamos en vivo.</p>
+<p><strong>FISCAL ALEJANDRO GERTZ MANERO</strong>: No, no hay ninguna persona, ni detenida, ni indiciada. Si lo hubiera, como ya quedamos, nosotros lo vamos a informar.</p>
+<p>No va a haber ninguna actuación que no sea compartida con toda la población, eso es lo que merece un asunto tan grave como el que tenemos. Ninguna persona hasta este momento tiene calidad de indiciado, ni hay una detención previa, ni hay ninguna diligencia de esa naturaleza.</p>
+<p>De eso pueden estar ustedes seguros.</p>
+<p>PREGUNTA: Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Acerca del reforzamiento de la vigilancia de los ductos.</p>
+<p><strong>PREGUNTA</strong>: En esa localidad.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: En todos los estados donde se dan estas prácticas hay desplegada una acción de vigilancia, ya ustedes conocen sobre este plan, que es la base para soportar el desabasto que se origina con las tomas clandestinas.</p>
+<p>Si no se contara con la vigilancia no podríamos garantizar el abasto de combustibles, porque tendríamos que mantener abiertos los ductos, a sabiendas de que se roban diariamente, como lo hemos dado a conocer, hasta mil 100 pipas diarias, el equivalente a mil 100 pipas diarias.</p>
+<p>Es esta disyuntiva es optar entre seguir igual tolerando, permitiendo que se sigan robando bienes de la nación y ahora, con mucho dolor decir, provocando este tipo de desgracias.</p>
+<p>Por eso decidimos enfrentar el flagelo del robo de combustibles con las tomas clandestinas en todos los ductos.</p>
+<p>Para poder garantizar que no falte el abasto, ha sido fundamental la participación de las Fuerzas Armadas, del Ejército, de la Marina, de la Policía Federal y hay un despliegue en los ductos principales del país. Si es necesario vamos a reforzar esta estrategia de vigilancia.</p>
+<p>Lo segundo, entre otras cosas que se están haciendo, es aumentar la capacidad de transportación de combustibles, porque hay combustible, hay gasolinas, hay diésel, tenemos buenos inventarios, pero en los puertos, porque no se puede transportar ese combustible por los ductos dada la situación crítica de las tomas clandestinas, que son tomas clandestinas y tomas de ductos completos por parte de quienes han llevado a cabo estas acciones de robo de combustible y de la tolerancia, por decir algo, que se ha venido dando en los últimos tiempos.</p>
+<p>Entonces, ¿cómo aumentar la capacidad de transporte de combustibles? Estamos por adquirir carros tanques para adicionar, para aumentar la capacidad de transporte de combustibles en un 25 por ciento. Nada más en el caso de las gasolinas, para tener siempre ese referente, consumimos 800 mil barriles diarios y queremos comprar carros tanques para transportar 200 mil barriles, esto va a significar un incremento de alrededor del 25 por ciento de la capacidad actual para el transporte.</p>
+<p>No es el momento, pero vamos a hablar de todo. Sólo adelanto que la mayor parte de los ductos tienen más de 30 años y en los últimos tiempos, en las últimas tres décadas, prácticamente no se construyeron nuevos ductos para gasolinas, para diésel, a pesar de que creció la demanda.</p>
+<p>Este ducto donde se dio esta desgracia, es de los años 70, el ducto principal que transporta 160 mil barriles diarios de Tuxpan a Azcapotzalco, también, de 1974; el ducto de Salamanca a León es de 1952, empezó a operar en el 52 y así está. Pero, además, remendados, parchados, por estas perforaciones que se hacen para las tomas clandestinas.</p>
+<p>Y, lo tercero, en general hablé de la vigilancia, hablé de aumentar la capacidad de transportación que, les digo, estamos capacitando a conductores, porque ya se tienen las primeras pipas. Las primeras unidades contratadas, van a empezar a llegar para que resolvamos problemas de abasto.</p>
+<p>En la Ciudad de México hemos ido avanzando en la normalización del abasto, pero tenemos problemas en el Bajío, tenemos problemas en Jalisco y en otras partes.</p>
+<p>Entonces, por eso la necesidad de empezar a transportar gasolinas y diésel con las nuevas unidades.</p>
+<p>Yo espero que para la semana próxima ya estemos transportando en estas nuevas unidades, en carros tanques, en cisternas; vamos a estar ya ayudando a aliviar el problema del desabasto en algunas partes. Esto es lo segundo.</p>
+<p>Y lo tercero es el cambiar estas prácticas ofreciendo oportunidades de trabajo y de bienestar a la gente. Porque esto se ha presentado, se ha originado por el abandono de la gente.</p>
+<p>Muchas veces lo que queremos es saber quién es el culpable y nada más pensamos en personas, desde luego, que son responsables directos, culpables, pero no vemos lo que significa la adopción de políticas para beneficio de minorías que han empobrecido a la gente, que han empobrecido al pueblo.</p>
+<p>Durante mucho tiempo se dejó sin oportunidades de trabajo, de bienestar a la gente. Duele mucho que fallecidos, que heridos, sean jóvenes.</p>
+<p>¿Pero qué se ha hecho por los jóvenes? Lo único que se hizo fue etiquetarlos de ninis, que ni estudian ni trabajan, como si fuese culpa de ellos; no han tenido oportunidades.</p>
+<p>Se ha llegado al extremo de rechazar a los jóvenes que quieren ingresar a las universidades, con la mentira, el pretexto que no pasan el examen de admisión, miles de jóvenes rechazados durante el periodo llamado neoliberal en los últimos 36 años. Eso tiene que cambiar.</p>
+<p>Por eso, vamos a seguir dando oportunidades de trabajo, que la gente no tenga necesidad de dedicarse a estas actividades ilícitas, peligrosas y que puedan salir adelante con trabajo y con bienestar.</p>
+<p>Esas son las tres acciones que tu pregunta me permite dar contexto a todo lo que se está haciendo.</p>
+<p><strong>PREGUNTA</strong>: Sí, presidente.</p>
+<p>Adán Juárez, de <em>Vanguardia</em>.</p>
+<p>Quería comentarle a propósito de lo que usted dice de ayudar a la gente.</p>
+<p>Muchas familias que han sido afectadas por esta situación trágica se preguntan si usted y su gobierno les ayudará económicamente, no solamente con las medicinas, sino económicamente, algo más sustancial, a manera de enfrentar su situación en la que se encuentran, que normalmente es muy humilde y vemos ahí que es mucha gente que lleva sus bidones, pero se llevan unos cuantos litros y con eso obviamente no superan su pobreza.</p>
+<p>Y el segundo. Usted dice que los ductos los va a cerrar, yo quisiera preguntarle si esto va a ser definitivamente, los ductos ya abur, como dicen.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: No. No se pueden cerrar los ductos porque no podríamos distribuir los combustibles.</p>
+<p>Además, hay algo también que no es lo más importante, pero que se tiene que tomar en cuenta. Transportar combustibles por ductos es lo más económico y luego son los ferrocarriles y luego los buquetanques y luego las pipas en costo.</p>
+<p>Nosotros estamos optando por las pipas, porque consideramos que hay que normalizar la situación lo más pronto posible, pero no se puede dejar de utilizar los ductos.</p>
+<p>Hay que reforzarlos, ya se está analizando la posibilidad de fortalecerlos con una tecnología que se está probando del Instituto Mexicano del Petróleo; una nueva tecnología para que resistan las agresiones, para que, si se pincha, no se pueda tener éxito y que no sea fácil de poner esa válvula que permite tener esta toma clandestina y extraer combustible.</p>
+<p>Ya estamos en eso, pero esta acción es de mediano plazo, desde luego que tenemos que darle mantenimiento, reforzar los ductos, pero en el corto plazo necesitamos normalizar la situación y esto es comprando las pipas, los carrotanques de 30 mil, 40 mil, 60 mil litros cada uno hasta llegar a mover una cantidad adicional, repito, de 200 mil barriles.</p>
+<p>Las víctimas y sus familiares van a tener todo nuestro apoyo, todo nuestro apoyo los familiares de las víctimas porque es muy doloroso. Estamos hablando de pérdidas de hijos, de esposos; quedan viudas, quedan huérfanos y es gente, como tú lo dices, muy pobre, esa es la desdicha de esto, es la gente más pobre.</p>
+<p>Por eso, no se trata de señalar, de acusar así, a la ligera. Hay que ver las circunstancias en las que se dan las cosas y por eso repito lo de la mañana: nosotros vamos a enfrentar estos problemas atendiendo las causas.</p>
+<p>Si hay trabajo, si hay bienestar, va a haber paz, va a haber tranquilidad en el país.</p>
+<p><strong>PREGUNTA</strong>: ¿Hay una cantidad, perdón, hay una cantidad?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Lo que se necesite.</p>
+<p><strong>PREGUNTA</strong>: Gracias, presidente. Erick Pinto, de <em>Capital 21</em>.</p>
+<p>Yo quisiera hacerle dos preguntas. La primera de ellas es si cabría la posibilidad de pensar que estos hechos que ocurrieron ayer en Hidalgo y uno más en Querétaro pudieran ser provocados para desestabilizar la estrategia que su gobierno está implementando de combate al combustible.</p>
+<p>Y la segunda es, preguntarle si podrían contemplar también ustedes, como lo ha propuesto el sector empresarial, vigilar todos los ductos con drones. Básicamente eso. Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: La primera pregunta acerca de si es acto de sabotaje porque se les está enfrentando a los que se dedican a estas actividades ilícitas, nosotros no descartamos ninguna posibilidad, sólo que corresponde a la Fiscalía General la investigación, también con absoluta libertad e independencia. Vamos a que se sepa la verdad y se castigue a los responsables.</p>
+<p>En cuanto a que nos hagan cambiar de estrategia, no, no, porque no queremos relaciones de complicidad. El gobierno no va a establecer componendas, ni relaciones de complicidad con nadie. El gobierno va a actuar con rectitud y con honestidad, cero tolerancia en cuanto a la corrupción y a la impunidad.</p>
+<p>No vamos a permitir, en las circunstancias más dolorosas y difíciles no vamos a ceder. Tenemos que limpiar al país de corrupción, si no, no vamos a salir adelante, nos lo van a reclamar nuestros hijos, nuestros nietos. No va a haber Cuarta Transformación si damos marcha atrás.</p>
+<p>Ya inició este proceso de cambio y va a continuar, y vamos a lograr el propósito. Estoy seguro que se va a acabar la corrupción en el país. Y estoy optimista por dos razones, primero, porque el pueblo de México es un pueblo honesto, un pueblo bueno, trabajador, primero eso.</p>
+<p>Y, segundo, porque la corrupción se ha extendido en México, ha proliferado porque se ha promovido de arriba hacia abajo. Entonces, si ya no hay corrupción arriba, vamos a poder limpiar por completo el gobierno de corrupción.</p>
+<p>Acerca de los drones, se tiene tecnología, ya en su momento vamos a informar, porque ya hemos hablado de esto, de lo que se gastó en la compra de tecnología en Pemex para supuestamente garantizar la seguridad de ductos.</p>
+<p>Se compraron hasta aviones, helicópteros, lanchas. Y mucho de ese equipo no fue utilizado o a pesar de que se detectaban las fugas, como ya lo hemos dado a conocer, se mantenían abiertos los ductos, sonaba la alarma y no era atendida.</p>
+<p>No es nada más un asunto de tecnología, es un asunto de voluntad, de que las cosas cambien.</p>
+<p><strong> PREGUNTA</strong>: Sí, buenas tardes. Gracias, presidente.</p>
+<p>Preguntarle en cuanto a la actuación del Ejército, porque hay un poco de duda sobre si el Ejército hubiera o no podido acordonar la zona. En fin.</p>
+<p>En qué momento -decían que en una primera etapa había poca gente-, ¿en qué momento se vieron rebasados por la cantidad de gente que llegó? Que dicen que eran como 800 personas. Y si ese tiempo no les dio margen de pedir refuerzos o los tomó por sorpresa, ¿qué fue lo que pasó?</p>
+<p>Y si nos pudiera también precisar, en el caso de los heridos, si son 80 heridos, son 74, y cuál es la gravedad de estos heridos.</p>
+<p>Y si hay también familiares buscando desaparecidos, si se tiene algún número de personas que estén siendo buscadas.</p>
+<p>Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Acerca de lo primero, ya se habló en la mañana. El general secretario explicó la circunstancia en que se presentaron los hechos.</p>
+<p>La información que yo tengo, que coincide con el reporte que ha presentado la Secretaría de la Defensa, el general Luis Cresencio Sandoval, es que no era posible detener a las personas, eran muchos y se actuó con prudencia.</p>
+<p>En el caso de que se hubiese pedido auxilio, no se hubiese logrado mucho, porque todo esto se da también de repente, llega muchísima gente y hay el antecedente que cuando se dan estos casos no se respeta ni siquiera a los elementos del Ejército, se enfrenta la población. Hay otros casos sobre esto.</p>
+<p>Sé que existe esta polémica, respeto ese punto de vista de que por qué el Ejército no enfrentó a la población.</p>
+<p>Yo estoy más por la postura que asumió el Ejército, porque nosotros no podemos enfrentar estos actos con medidas coercitivas. No podemos reprimir, porque el detener significa en un momento dado, desatar una represión.</p>
+<p><strong>PREGUNTA</strong>: (inaudible).</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Además, además muy riesgoso y no se tenían todos los elementos. Es que un caso de estos, hay imágenes en donde es muy difícil poder controlar a la gente.</p>
+<p>Ahora hay una versión, hay muchas versiones, hay quienes dicen que se anunció que iban a regalar gasolinas. He estado escuchando esa versión, con todo respeto pienso que ya es una práctica establecida, me duele decir que esto se daba con frecuencia, cuando menos de cinco años a la fecha.</p>
+<p>Por eso los recipientes y sucede lo mismo en otras partes, eso no se puede ocultar, eso no significa condenar a la gente.</p>
+<p>Hay que explicar las circunstancias en que se dan estos hechos, lo que lleva a la gente, lo que empuja a la gente a actuar de esta manera. Pero no es que de repente se corrió la voz: “Van a regalar gasolina’, como si fuese la primera vez. No.</p>
+<p>Toda esa zona y no sólo ahí, porque tampoco se trata de estigmatizar un municipio, una región, un estado. Es un problema general.</p>
+<p>Hay vestigios de tomas clandestinas a lo largo de todos los ductos, o sea, siempre se encuentran. Y eso corresponde investigarlo a la Fiscalía General, pero ahí mismo donde se dio el siniestro, ahí seguramente hay vestigios de tomas clandestinas.</p>
+<p>Entonces, actuó bien el Ejército. Nosotros hemos dicho siempre que queremos el apoyo del Ejército, lo necesitamos, con el giro que el propio Ejército está dando de atender asuntos de seguridad nacional, pero también asuntos de seguridad interior y de seguridad pública, respetando derechos humanos y con el uso adecuado, correcto, prudente de la fuerza.</p>
+<p>Yo estoy en eso de acuerdo con la actuación del Ejército, de la Marina, de las Fuerzas Armadas. Siempre he sostenido que el soldado es pueblo uniformado, que no se debe de estigmatizar y ya el que está portando un uniforme es un represor, no. No es así.</p>
+<p>Me gustó mucho, lo digo la exposición de hoy del general secretario ante esta pregunta, que por qué no se usó la fuerza o por qué no se enfrentó a la gente. Y la manera en que él lo respondió fue muy claro: No se trata de confrontarse con los ciudadanos, menos en las circunstancias en que se presentaron los hechos y esto es lo que vamos a seguir haciendo.</p>
+<p><strong>PREGUNTA</strong>: Hola, señor.</p>
+<p>Precisar la cifra de heridos y si hay desaparecidos.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Sí, aquí tú advertiste que se habló de 74 heridos y el doctor habló de 80.</p>
+<p>Esto es lo que tú advertiste, yo también. Le vamos a pedir al doctor que nos explique por qué se tiene esta cifra.</p>
+<p><strong>JORGE ALCOCER VARELA</strong>: Muchas gracias, presidente.</p>
+<p>Es muy sencillo, 80 son los heridos, los que han llegado a hospitales y 73 son los que siguen vivos, la diferencia, siete han muerto en este proceso. Esa es una.</p>
+<p>La otra, de la gravedad, sé que están con todo el derecho de preguntar, pero los médicos hay cosas que no podemos responder.</p>
+<p>Si yo tomo en cuenta nada más los 26 heridos, 26 jóvenes que están en Hidalgo, hay que tomar para su análisis, señalar que están en Hidalgo porque están en una condición de salud mejor: grave, pero mejor que los que han requerido ser trasladados a la Ciudad de México.</p>
+<p>Esa es una diferencia que no nos permite, hablando de transparencia y de claridad decir: la mitad o el 60 o números porcentuales que nunca dicen mucho, en términos generales, que digan la mitad de los pacientes están graves. La otra mitad, ¿la mitad de cuáles?</p>
+<p>Y, en este sentido, sí, los de la Ciudad de México que han venido por razones entendibles de mayor gravedad tienen más riesgo, tan sólo por estar en una unidad de cuidados especiales, que ya marca su dificultad de enfrentar ciertas cosas, que se hace todo lo posible.</p>
+<p>Y que ahora, repito, lo vamos a hacer con un manejo inédito, como deben de ser las cosas cuando se toma una transformación, con la participación de los mejores terapistas o especialistas en este tema de México y van a ser coordinados por alguien que procede de una institución que está en una institución sólida en ello, como es el Instituto Nacional de Nutrición.</p>
+<p>En este contexto los dos grupos van a trabajar y van a movilizar a pacientes que requieran venir o ya pasar a otra instancia.</p>
+<p>Esa es la diferencia en los números.</p>
+<p><strong>PREGUNTA</strong>: (Inaudible).</p>
+<p><strong>JORGE ALCOCER VARELA</strong>: En el corte que tenemos de las cuatro de la tarde, sólo uno fue trasladado en esos momentos, pero esto desde luego es dinámico y en este momento estoy seguro que no va a quedar ninguno con esa potencialidad de ser trasladado, si lo necesita. Pero no hay una cifra en el momento.</p>
+<p><strong>PREGUNTA</strong>: (…) desaparecidos, si hay alguna cantidad de personas buscando familiares.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Sería importante que el procurador de Hidalgo…</p>
+<p><strong>PROCURADOR RAÚL ARROYO GONZÁLEZ</strong>: Voy a precisar el término.</p>
+<p>En este momento tenemos personas no identificadas. Quizá venga posteriormente alguien que denuncie o que dé aviso de que no aparece un familiar en los hospitales, que no aparece entre las personas identificadas o que venga alguna otra causa.</p>
+<p>Pero en este momento tenemos personas no identificadas.</p>
+<p>Gracias.</p>
+<p><strong>PREGUNTA</strong>: (inaudible).</p>
+<p><strong>PROCURADOR RAÚL ARROYO GONZÁLEZ</strong>: Voy a reiterar las cifras.</p>
+<p>Tenemos 63 restos, de los cuales fue posible identificar a tres; y tenemos 54 restos que van a ser procesados como personas no identificadas.</p>
+<p><strong>PREGUNTA</strong>: ¿Esas 54 son adicionales…?</p>
+<p><strong>PROCURADOR RAÚL ARROYO</strong>: No, es la cifra global.</p>
+<p>Los 54 corresponden a los restos que se encontraron dentro del predio. Hoy tenemos otras personas que han fallecido, pero que, como ha quedado explicado, fue posteriormente en hospitales.</p>
+<p>Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Si les parece, una más porque mañana vamos a estar aquí a las 7 y además porque sí tenemos trabajo.</p>
+<p><strong>PREGUNTA</strong>: Daniela Barragán, de <em>Sin Embargo</em>. Seré breve.</p>
+<p>Hace unos días vimos unas imágenes de personas destazando vacas robadas de un camión en una carretera y también en 2017 también tuvimos este asunto de la gente saqueando tiendas, también por el caso de la gasolina.</p>
+<p>Preguntarle, ¿a qué atribuye usted estos fenómenos colectivos?, ¿si es fragilidad de un estado de Derecho? ¿y qué le puede decir a la gente que participa en estos actos?</p>
+<p>Y, por otro lado, el director ejecutivo del Coneval ha señalado el día de hoy que no es suficiente abordar ese tipo de problemas con programas de transferencias, sino que él lo atribuye un poco más a un asunto de una impunidad histórica en este tipo de casos. Preguntarle, ¿qué opina al respecto?</p>
+<p>Y una más para el gobernador de Hidalgo. Tenemos datos también del Coneval de que en el municipio de Tlahuelilpan el 65 por ciento de la población es pobre, entonces preguntarle:</p>
+<p>Bajo su gobierno, ¿qué es lo que se ha hecho al respecto para atacar estas condiciones de pobreza?</p>
+<p>Muchas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Es un asunto de criterio, yo no sólo he estudiado las causas que llevan a la pobreza, sino lo he constatado, porque he hecho trabajo de campo desde hace muchos años.</p>
+<p>Yo inicié como director del Instituto Nacional Indigenista en Tabasco en 1977, estuve seis años viviendo en comunidades indígenas trabajando ahí. Sé la importancia que tiene el atender las necesidades de la gente y cómo se logra mejorar si hay esta intervención del Estado; si hay un Estado con dimensión social, cómo se logran mejorar las condiciones de vida y de trabajo.</p>
+<p>Cómo la gente, a pesar de la pobreza, no pierde la esperanza, no cae en la frustración, porque está esperanzada, está esperando algo.</p>
+<p>Lo que sucedió con la política neoliberal, que para mí es una política de pillaje, de saqueo es que se afectó a la gente en la esperanza de poder salir adelante.</p>
+<p>Antes se hablaba de la movilidad social, que el hijo del campesino, el hijo del obrero, el hijo del comerciante, del maestro podía con el trabajo, con el estudio ascender en la escala social. Muchos profesionistas se levantaron de esa manera, desde abajo.</p>
+<p>¿Qué pasó con esta política antisocial? Frenó, paró la movilidad social. Llegó el momento en que para poder salir adelante sólo había dos opciones: la ilegalidad o la migración. Eso fue lo que sucedió.</p>
+<p>Y el gobierno no estaba preparado para atender al pueblo. El gobierno era un facilitador del saqueo, de la corrupción. Entonces, hay muchas interpretaciones, yo las respeto, pero yo sostengo que, si hay trabajo, hay bienestar, va a haber paz, va a haber tranquilidad, va a haber felicidad en nuestro pueblo. Y eso es lo que vamos a hacer.</p>
+<p>Y la opinión de los expertos acerca de que no basta con los programas de bienestar, yo sostengo, con todo respeto, lo contrario.</p>
+<p>Desde luego, lo mejor es que tengamos crecimiento económico, que haya empleos, pero en una sociedad tan desigual como la nuestra es indispensable la participación del Estado para apoyar a los humildes, a los pobres y eso no es paternalismo, populismo, esto es justicia social.</p>
+<p>Entonces, es una concepción distinta. Yo respeto la otra, pero no comparto ese punto de vista.</p>
+<p>Acerca de la pobreza en Hidalgo y no es que quiera hablar por el gobernador, él lo va a hacer, esto es un asunto que se debe a la política económica que se ha aplicado, también vamos a hablar con claridad, un gobierno estatal tiene muchas limitaciones, no maneja la política económica.</p>
+<p>Por ejemplo, el experto que dice que no bastan los programas de bienestar para que la gente salga de la pobreza, no es nada más eso lo que estamos haciendo.</p>
+<p>Se llevaba 30 años sin aumentar el salario mínimo, como se hizo, 30 años; o sea, a partir del modelo neoliberal el salario mínimo en México no había aumentado, al contrario. En todo ese periodo se perdieron, se perdió el 70 por ciento de la capacidad de compra del salario mínimo, del poder adquisitivo del salario mínimo, 70 por ciento.</p>
+<p>Yo lo ejemplifico de manera sencilla. Hace 30 años un salario mínimo alcanzaba para comprar 50 kilos de tortilla y ahora, a pesar de que se aumentó en un 16 por ciento, el salario alcanza para seis kilos de tortilla, de 50, 52 kilos hace 30 años, a seis. Ese es el deterioro.</p>
+<p>¿Qué estamos haciendo? Recuperar el poder adquisitivo del salario, es un proceso gradual, pero todo esto va a ayudar.</p>
+<p>Y que se entienda: La paz, la tranquilidad, la felicidad, son frutos de la justicia, además de que se dedicaban a saquear era tanta la enajenación que ni siquiera atendían las causas que originaban la inseguridad, la violencia y estas prácticas.</p>
+<p>Todo esto, que lleva años tolerándose, porque esto viene desde hace cuando menos tres sexenios, esto que estamos ahora sufriendo, padeciendo, se desconocía, no se transparentaba, se ocultaba. Nada más se tenía contabilizado en Hacienda las pérdidas.</p>
+<p>Ya en su momento vamos a hablar de otras prácticas, porque es esto, pero es también lo que tiene que ver con el crudo, lo que tiene que ver con el petróleo crudo, lo que tiene que ver con la energía eléctrica, lo que tiene que ver con el abasto de medicamentos.</p>
+<p>Hace dos días hablábamos de la contratación de las 700 pipas, que se entrega el anticipo y no se entregan las pipas, ni se devuelve el anticipo y Pemex no presenta querella. Estamos hablando de 400 millones de pesos, ahí es una investigación abierta. En todo. Es una corrupción generalizada.</p>
+<p>Por eso tenemos que seguir adelante en el combate a la corrupción.</p>
+<p>Yo quiero darle la palabra al gobernador de Hidalgo, para que terminemos la conferencia.</p>
+<p><strong>GOBERNADOR OMAR FAYAD MENESES</strong>: Gracias, señor presidente.</p>
+<p>Para combatir la pobreza día a día hacemos muchas cosas y una combinación de programas y acciones que van concatenados y persiguen un mismo fin.</p>
+<p>Promovemos la inversión en el estado. En los dos años que llevo en que rendí protesta como gobernador, llevamos más de 46 mil millones de pesos de inversión nacional, extranjera.</p>
+<p>Diversificamos la inversión. No sólo atendimos la inversión con los Estados Unidos, nos fuimos a Canadá, atraer capitales de Asia, de China, de Japón, de Europa, de Sudamérica. Esa diversificación fue muy útil.</p>
+<p>Esto genera empleos, empleos formales. Si ustedes ven las cifras que el país ha presentado de empleo, en el cierre del año pasado, ustedes verán que estamos por encima de la media nacional, al alza; mientras había cifras de empleo que caían, las de Hidalgo van al alza, porque estamos creando fuentes de empleo y oportunidades.</p>
+<p>Pero los combinamos con los programas sociales. Nosotros tenemos un programa para jóvenes, que se llama: Mi primer empleo, mi primer salario, en donde vinculamos a los jóvenes universitarios de las universidades públicas, que tengan un promedio, los enlazamos con las empresas que están invirtiendo para que trabajen y les pagamos durante seis meses ese empleo.</p>
+<p>Y tenemos un programa que se llama: Pon tu negocio, yo te apoyo, para meterle recursos a los emprendedores, al emprendedurismo, para que nuestros jóvenes, nuestras mujeres, madres, jefas de familia y los adultos mayores, que les cuesta tanto trabajo conseguir un empleo, tengan una oportunidad para poder iniciar su propio negocio.</p>
+<p>Entonces, combinamos una serie de cosas. Hemos tenido que tomar medidas muy drásticas, yo se las platiqué en su primera visita a Pachuca al presidente López Obrador.</p>
+<p>Nos tuvimos que amarrar fuerte el cinturón, muy duro, tuvimos que suprimir oficinas completas, secretarías completas.</p>
+<p>El gobierno de Hidalgo no tiene oficinas de representación en el Distrito Federal, estamos a 90 kilómetros.</p>
+<p>Para qué necesitamos una oficina de representación en el Distrito Federal que tiene una estructura como si fuera una secretaría. Eliminamos una oficina de representación que se tenía en el extranjero, que tampoco le dejaba absolutamente nada positivo al estado.</p>
+<p>Desaparecimos la Secretaría de Planeación como tal, desaparecimos muchas áreas de apoyo, las secretarías privadas, las coordinaciones de asesores y todas estas plazas y estructuras.</p>
+<p>Suprimimos mil 700 plazas de la nómina del gobierno de Hidalgo para que esto nos permitiera, además, por la planeación y por el buen ejercicio de las finanzas del estado, subir la calificación durante toda la historia, cuando menos lo que yo recuerdo, Hidalgo siempre estuvo con signo negativo, y en estos dos años hoy Hidalgo tiene una calificación de estable.</p>
+<p>Es una combinación entre…</p>
+<p><strong>PREGUNTA</strong>: En específico de este municipio ¿qué es lo que ha pasado? ¿Qué es lo que, desde el gobierno y esta implementación de esta política económica, qué es lo que ha pasado con este municipio?</p>
+<p><strong>GOBERNADOR OMAR FAYAD</strong>: El municipio está en una zona muy singular en la región de Tula y digo muy singular, porque es una región que se ha visto modificada sustancialmente por el establecimiento hace 40 años de una refinería de Pemex allí en esa región.</p>
+<p>¿Qué es lo que le hace falta a los municipios? Fuentes de empleo y donde no se pueden llevar las inversiones, les hace falta aplicar programas sociales, tiene que ser una combinación.</p>
+<p>No puede ser estrictamente verlo con un sentido económico, sino hay que verlo, es un sentido económico con un fundamental sentido social para que ambos puedan generar oportunidades.</p>
+<p>Y apenas llevamos 24 meses, ahí vamos.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR</strong>: Entonces mañana a las 7:00 de la mañana y a las 6:00 de la tarde.</p>
+<p>Y ya el lunes sólo a las 7:00 si les parece.</p>
+<p>Muchas gracias, la verdad, porque es fin de semana para ustedes y agradecerles que estén aquí cubriendo.</p>
+<p>Muchas gracias.</p>
+<p>++++++</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

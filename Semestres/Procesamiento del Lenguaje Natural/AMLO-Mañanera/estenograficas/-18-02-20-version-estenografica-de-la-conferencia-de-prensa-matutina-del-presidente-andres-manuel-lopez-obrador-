@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>18.02.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/18-02-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=129340' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F18-02-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F18-02-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66jac-f-6a715030a-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":29,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"38fbc623","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55535,"ak.gh":"23.47.207.46","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616706","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==CSWTclLaa+kwLbMcPHhXcZ/kp/m70hd0ZIXLzkt1HjZhbT8jigQp++FHH/KFfyICA6yMEAKsTATme6G0bJpQ0JVGydSeA/cn4l0i9/vK3hjt0kpvS4ytkK3qk3lb4faulGq9rYVOECGVmAeSRzP504wJWRMIFlwhX+zXdCVpQ8yGAdIr6skg8UCokgoV9tXfAdyxq6TK2v82zFxT/GUlzvHE2j0Mctwi//AhP413XleCRIuGIKoeKH08JDDaA3cpxPDO7e9VDhyUb2H1X2HN4Oh1w4lHRXUiQYavR5gIf+yH6fwqqXa6A+Z50DXGdA/qU7mSLEfqXGskaQXA2WzH0MOY85aDxj9q0QtV5rV0Lk4gL0sRrfEPfHhoCKZzmwDpZnC7pmpNTa8RgZgJ3mG82/EiqwhdSAavNsdZwCGJ4BM=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-129340 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef217403db6" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>18.02.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 18.02.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-129340" class="post-129340 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2020/02/18-02-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-06.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/02/18-02-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-06-745x450.jpg" alt="18.02.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">18.02.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><em>2020, Año de Leona Vicario, Benemérita Madre de la Patria</em></p>
+<p>&nbsp;</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong> Buenos días. Ánimo.</p>
+<p>Vamos el día de hoy a informar sobre el plan de salud. Es martes y se le da seguimiento a este propósito de mejorar la atención médica, que no falten los medicamentos, que no falten los médicos, los especialistas. Quedamos en que vamos a ir evaluando, vamos a dar seguimiento hasta lograr que funcione al 100 el sistema de salud pública, porque está muy mal el sistema de salud pública y lo tenemos que levantar, ya se ha ido avanzando, pero falta todavía y no podemos dejarlo.</p>
+<p>También vamos a transmitir un video que es importante de los cuarteles que se están construyendo de la Guardia Nacional. Nos acompaña aquí el general Luis Cresencio Sandoval, por si hace falta explicar algo; y también el general comandante de la Guardia Nacional, Luis Rodríguez Bucio.</p>
+<p>Estos son los dos temas, luego abrimos para preguntas y respuestas. Entonces, vamos con el doctor Hugo para ver cómo se ha avanzado en materia de salud.</p>
+<p><audio src="https://lopezobrador.org.mx/wp-content/uploads/2020/02/2020-02-18-Matutina.mp3" controls="controls"></audio></p>
+<div id="fb-root"></div>
+<p><script async="1" defer="1" crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&amp;version=v6.0"></script></p>
+<div class="fb-video" data-href="https://www.facebook.com/lopezobrador.org.mx/videos/719031575167416" data-width="500">
+<blockquote cite="https://www.facebook.com/lopezobrador.org.mx/videos/719031575167416/" class="fb-xfbml-parse-ignore"><p><a href="https://www.facebook.com/lopezobrador.org.mx/videos/719031575167416/">Conferencia de prensa matutina. Martes 18 de febrero 2020</a></p>
+<p>Sin cuotas de recuperación, vamos a que se acepte el derecho a la salud.Conferencia de prensa matutina.</p>
+<p>Publicado por <a href="https://www.facebook.com/lopezobrador.org.mx/">Andrés Manuel López Obrador</a> en Martes, 18 de febrero de 2020</p></blockquote>
+</div>
+<p>&nbsp;</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ, SUBSECRETARIO DE PREVENCIÓN Y PROMOCIÓN DE LA SALUD: </strong>Gracias, presidente, muy buenos días; secretarios, buenos días; directores compañeros, muy buenos días tengan todas y todos ustedes.</p>
+<p>Hoy es martes del Pulso de la Salud y, como dice el presidente, vamos a compartirles algunos de los avances de la semana en dos elementos: las atribuciones, las funciones fundamentales del Instituto de Salud para el Bienestar; y algunos logros institucionales específicos que revelan el trabajo continuo que se hace, particularmente en las instituciones de seguridad social para el alcance las poblaciones no aseguradas también.</p>
+<p>Tenemos el programa de Médicos del Bienestar. Este, como hemos explicado en otras ocasiones, pero lo retomo, es un programa que está encaminado a integrar más de 40 mil personas, médicas, médicos, enfermeras, sicólogas, sicólogos, odontólogos, que integran los equipos de salud para el bienestar.</p>
+<p>Lo que interesa aquí es tener personal especializado en general de salud en poblaciones que han estado largamente abandonadas y, por lo tanto, se ha tenido que acudir a una nueva fase de reclutamiento para garantizar que estas poblaciones tengan a los especialistas.</p>
+<p>Estamos abriendo algunas convocatorias específicas, esto lo coordina el doctor Alejandro Svarch, y las convocatorias específicas de hoy son en Amatán, Chiapas; Metztitlán, Hidalgo; y Fresnillo, Zacatecas, y es personal que será integrado a las unidades de salud, principalmente en comunidades rurales.</p>
+<p>Tenemos un pequeño video, si nos lo pueden pasar, por favor, que revela el espíritu de este programa. Ahorita comento sobre él.</p>
+<p><strong>(PROYECCIÓN DE VIDEO)</strong></p>
+<p><strong><em>VOZ MUJER: </em></strong><em>Somos los Médicos del Bienestar, personas comprometidas y con altos valores de ética médica, capaces de llevar salud a las comunidades más marginadas del país y escuchar la historia de cada persona como si fuese la primera vez.</em></p>
+<p><em>Vamos a garantizar el derecho a la salud gratuita de todas las personas sin seguridad social en todos los lugares y en el Instituto de Salud para el Bienestar necesitamos de su sensibilidad, vocación y humanismo.</em></p>
+<p><em>Esto es más que un simple trabajo, es una oportunidad de servir, es la sonrisa de los niños, el alivio de muchas familias, la construcción de un país sano y de una sociedad feliz. </em></p>
+<p><em>Si tienes título y cédula de medicina, enfermería o alguna especialidad regístrate en: </em><a href="http://www.gob.mx/insabi"><em>www.gob.mx/insabi</em></a><em>. La convocatoria está abierta. </em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Como se puede ver, este es un grupo de personal de salud, personal médico, que está orientado a un propósito de las comunidades que han sido largamente abandonadas; por más de 30 años el modelo de desarrollo del personal médico ha estado orientado a privilegiar la especialidad, la atención en zonas urbanas, en centros hospitalarios, que obviamente también es importante, pero se dejó sin capacidad de resolución en las comunidades rurales y tenemos una carencia importante que ahora estamos empeñados en cubrir.</p>
+<p>De la misma manera, en la reconversión que estamos haciendo del viejo modelo de financiamiento de la salud, ahora para el modelo de salud para el bienestar estamos reorientando al personal, son más de siete mil 500 personas, hombres y mujeres que tenían funciones básicamente administrativas, principalmente de afiliación, en el antiguo régimen de salud; y ahora los estamos reorientando, desde luego son bienvenidas y bienvenidos, para las funciones sustantivas, en particular de la prevención, y están en un proceso de entrenamiento para hacer actividades de prevención y promoción de la salud.</p>
+<p>Tenemos ya mil 100 personas formadas de estos siete mil 500 y se integrarán a los equipos de promoción de la salud en los estados estas siete mil 500 personas.</p>
+<p>Posteriormente, tenemos el plan de infraestructura. Como hemos comentado también en múltiples ocasiones, recibimos múltiples obras abandonadas, 307 hospitales y otros centros de salud de mediano tamaño que quedaron simplemente abandonadas y quedaron estancadas.</p>
+<p>En la siguiente diapositiva vemos lo que quedó suspendido, las obras suspendidas en 2018 y son los que arrancamos, 42 hospitales, 107 centros de salud y ahora en 2019 trabajamos en 18 hospitales y 54 centros de salud que fueron terminados.</p>
+<p>Aquí hemos ido anunciando los que entraron en operación, también que estaban prácticamente listos, pero les faltaba personal, como el de Tekax o de Mazatlán y los iremos comentando conforme entren en operación.</p>
+<p>Durante 2020, tenemos también la construcción, remodelación o ampliación de 50 hospitales y 56 centros de salud.</p>
+<p>Pueden ver en el mapa las 24 entidades federativas, de modo que queremos ir cubriendo todos los rincones del país para que tengan estas capacidades, aprovechando lo que quedó interrumpido y lo que requiere una inversión específica para echarlos a andar. Nos parece que sería un total despropósito teniendo carencia no aprovechar infraestructura que quedó en desuso o sencillamente que no entró en operación.</p>
+<p>En las instituciones de seguridad social también tenemos el IMSS-Bienestar. Es este programa específico que tiene 40 años de existencia destinado a población no asegurada, a pesar de que lo administra el Instituto Mexicano del Seguro Social, y tiene un programa de jornadas médico-quirúrgicas.</p>
+<p>Lo que interesa aquí es que personal quirúrgico, médicos, médicas, cirujanas especializadas en los distintos campos como la urología, la cirugía de ortopedia o la ginecología y la oncología que son de las especialidades con mayor carencia en la periferia de las zonas urbanas o las zonas rurales pueda ser atendida.</p>
+<p>Entonces, se lleva al personal especializado en forma intensiva, particularmente durante los fines de semana trabaja para atender a todo este rezago de atención y esto el IMSS-Bienestar nos permite llegar más rápidamente a estos rincones del país en lo que se va a desarrollando capacidad instalada a través de la coordinación del Instituto de Salud para el Bienestar.</p>
+<p>Otra muy buena noticia. El maestro Zoé Robledo nos había comentado hace algunas semanas de este proceso muy novedoso y muy robusto de contratación de los titulares y las titulares de las oficinas de representación institucional en los estados, esto para el IMSS en su régimen general, su régimen ordinario.</p>
+<p>Este fue un proceso sumamente transparente, orientado para privilegiar el mérito, la lealtad institucional, la capacidad, en contraposición de lo que históricamente eran asignaciones discrecionales que hacían los titulares del Instituto Mexicano del Seguro Social.</p>
+<p>Aquí una convocatoria muy bien organizada, muy robusta. Se seleccionaron mitad hombres, mitad mujeres de este grupo de 35 titulares y ya fueron instalados precisamente en esta semana, el maestro Robledo y su equipo estuvieron recorriendo todo el país dejando ya instalados a estos nuevos líderes del Seguro Social en los estados.</p>
+<p>El Issste por su parte también tiene acciones que son muy importantes para cumplimentar toda esta figura de un sistema de salud articulado y capaz, que además privilegie los aspectos de prevención. Durante todo 2019 el Issste echó a andar este programa que se llama Ecos para el Bienestar en donde incorporando personal voluntario, trabajadores de salud, líderes comunitarios, docentes, jubilados, etcétera, se ha orientado a hacer prevención, una actividad que el Issste hacía, pero no de manera muy extensiva, y lo está continuando ahorita durante 2020.</p>
+<p>Un aspecto adicional, el Issste, dado que es una institución para los trabajadores al servicio del Estado hemos articulado conjuntamente con la Secretaría de Salud un programa de prevención para las oficinas públicas. Vamos a empezar próximamente, la siguiente semana, en la Secretaría de Economía, es un programa de promoción de la salud, cambios de hábitos para tener hábitos saludables y lo iremos extendiendo a las distintas dependencias de la Administración Pública Federal y luego en coordinación con la administración pública estatal para los trabajadores al servicio del Estado.</p>
+<p>La siguiente es el informe breve de la más reciente visita que hizo el secretario de Salud con la secretaria de la Función Pública y el comisionado coordinador de los institutos. Esto forma parte de un programa ya de supervisiones que comentamos desde la semana pasada, en este caso tocó la oportunidad al Hospital Juárez de México.</p>
+<p>Se verificó que las cosas están marchando bien, que hay suficiencia de medicamentos esenciales en el hospital. No obstante, hay un programa de auditorías para todas las instalaciones federales de salud en el tercer nivel de atención; esto estará a cargo de la Secretaría de la Función Pública, con la doctora Irma Eréndira Sandoval con quien tenemos una coordinación muy estrecha y muy vigorosa.</p>
+<p>El hospital tiene -eso hay que dejarlo claro, y así lo verán para los 23 institutos y hospitales federales que atienden pacientes-, tienen contratos plurianuales sobre farmacia especializada, ahí se ven las fechas de vigencia hasta el 31 de diciembre de 2020. No obstante, este hospital federal ha logrado mantener el abastecimiento, lo cual es una revelación importante para nosotros dado que otros hospitales con farmacias subrogadas habían tenido problemas de desabasto, no es el caso del Hospital Juárez de México.</p>
+<p>Muchas gracias, presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, pues vamos a… general, ¿no quiere dar una introducción al video sobre lo de la Guardia?</p>
+<p><strong>LUIS CRESENCIO SANDOVAL GONZÁLEZ, SECRETARIO DE LA DEFENSA NACIONAL:</strong> Sí, cómo no, señor presidente.</p>
+<p>Bien, ustedes van a observar en el video lo que son las instalaciones de la Guardia Nacional. Hay instalaciones en las que el modelo es similar en todas, pero lo que buscamos fue que tuvieran las condiciones para poder trabajar.</p>
+<p>Ustedes lo van a observar, hay áreas de salud para poder atender ahí al personal en caso de que tenga algún requerimiento, hay áreas deportivas, hay áreas de descanso, tenemos el comedor para que ahí puedan tomar sus alimentos, donde puedan tener sus vehículos.</p>
+<p>En el ámbito de los alojamientos para descansar, tenemos para hombres y para mujeres, y también cuentan con aulas para una capacitación constante, tiene su lugar ahí con capacidades tecnológicas que le va permitir a la Guardia estar en un constante adiestramiento, en una constante capacitación.</p>
+<p>Tiene también, ustedes lo verán, un sistema para darse su propia seguridad, un sistema de cámaras para que estén atentos de lo que pueda estar sucediendo fuera de sus instalaciones y que en algún momento se podría conectar con las capacidades tecnológicas que tengan en el municipio o en el estado.</p>
+<p>Son compañías de la Guardia que estarán desplegadas en las coordinaciones, como ya se había establecido, y la intención es tener este despliegue para tener una presencia importante en todo el territorio nacional.</p>
+<p>Con la presencia podemos atender a la ciudadanía, con la presencia podemos generar condiciones de seguridad en todos los ciudadanos en las áreas donde estamos. Va a haber una comunicación obviamente entre las compañías que están desplegadas.</p>
+<p>La prioridad, como se dijo hace algunos días, se les dio a los estados de Michoacán, de Guanajuato y de Jalisco, que son las que inauguró el señor presidente.</p>
+<p>Para este año se proyectaron 81, tenemos 69 concluidas, 12 en proceso. Este retraso que tuvimos fue porque no se tuvieron a tiempo los terrenos que necesitábamos, había terrenos que tenían alguna problemática, que nos llevó tiempo el poder ya disponer de él para poder construir, pero el mes que entra ya estaremos concluyendo esas 81 que corresponden al 2019; y en el 2020 nos corresponde construir 79 más para poder ir avanzando en el programa y en el tercer año también hay otra cantidad, todos estos trabajos a cargo de personal de ingenieros militares.</p>
+<p>Entonces, van a ver ustedes el video de estas capacidades que les generamos a la Guardia para poder desarrollar su actividad.</p>
+<p><strong>(PROYECCIÓN DE VIDEO <em>INAUGURACIÓN DE INSTALACIONES DE LA GUARDIA NACIONAL</em>)</strong></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues esa son las dos exposiciones para hoy y abrimos para preguntas.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, presidente. Si me permite una pregunta para el general secretario de la Defensa. No sé si se la haga.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí.</p>
+<p><strong>INTERLOCUTOR:</strong> Sí, gracias.</p>
+<p>Secretario, el día de ayer tres mujeres se acercaron al programa de <em>Contrapeso Digital… </em>Bueno, primero me presento, discúlpenme, Ramón Flores, corresponsal del periódico <em>Contrapeso Digital.</em></p>
+<p>Nos enseñaron documentos, general, donde les decía que en el Hospital Central Militar no tenían el medicamento para la enfermedad de la diabetes, el cual es la insulina.</p>
+<p>Sólo preguntarle, señor secretario, si usted tiene conocimiento de este tema y si nos podría dar más adelante un informe más detallado de este tema, por favor, porque son tres mujeres que son afiliadas de militares y me están diciendo que no tenían ese medicamento.</p>
+<p>Nada más saber si las están engañando, porque nos enseñaron un documento donde ellas fueron a comprar el medicamento a una farmacia y se gastaron cinco mil pesos.</p>
+<p>Nada más saber si tiene usted conocimiento de este tema, señor secretario.</p>
+<p><strong>LUIS CRESENCIO SANDOVAL GONZÁLEZ:</strong> Con permiso, señor.</p>
+<p>Mire, no tengo el detalle, pero ahorita lo pregunto de inmediato. Pero sí les comentaré que tenemos un sistema en el Hospital Central Militar y en todos nuestros hospitales, que si por alguna situación, alguna circunstancia de abastecimiento de medicamento no lo tenemos en el momento, los derechohabientes pueden comprar el medicamento en el lugar que ellos lo deseen y tenemos un sistema donde ellos piden el rembolso de ese medicamento que lo necesitan, que no lo tuvimos y que hubo la necesidad de adquirirlo. De esta manera cubrimos la necesidad imperante de que tenga un medicamento la persona que lo requiera.</p>
+<p>Sobre el detalle no lo sé, pero si me da una oportunidad ahorita giramos la instrucción ahí para que nos den la información, si en realidad tenemos algún desabasto en cuestiones de medicamento sobre diabetes en el Hospital Central Militar.</p>
+<p><strong>INTERLOCUTOR:</strong> Muchas gracias.</p>
+<p>Presidente, mi segunda pregunta sería: presidente, en días pasados Arturo Nahle García, que es el magistrado presidente del Tribunal Superior de Justicia del estado de Zacatecas, desmintió a las autoridades del gobierno estatal que habían señalado que una jueza había tardado tres semanas en autorizar el traslado de una detenida ingresada a la cárcel distrital de Calera donde fue violada por un custodio.</p>
+<p>El pasado jueves la fiscalía y la Secretaría de Seguridad Pública estatales informaron que el 21 de agosto del 2018 la mujer, cuya identidad se reserva, fue detenida y remitida a la cárcel distrital de Calera donde permaneció hasta el 14 de septiembre, fecha en la que concluyó la audiencia pública oral, en la que la juez ordenó su traslado al penal femenil de Cieneguillas. Durante ese tiempo la mujer sufrió abuso sexual de un custodio.</p>
+<p>Presidente, el secretario de Seguridad de Zacatecas indicó también que el ataque no fue una violación sexual en sí, sino una violación equiparada, pues la penetración fue con los dedos y no con el miembro viril del agresor.</p>
+<p>Mi pregunta, presidente, es si este secretario de Seguridad Pública, con estas declaraciones, se le podría enviar con los colectivos en defensa de las mujeres para tome un taller o capacitación y pueda saber que con estas declaraciones está revictimizando y violentando a la interna, porque ahora resulta que las violaciones son de diferentes estatus.</p>
+<p>Entonces, la verdad es que es muy triste este caso y me gustaría saber su opinión, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, pues se debe de investigar, castigar al responsable y aplicar la ley, y también la formación que tú propones en la instancia correspondiente, quienes se hacen cargo de atender estos asuntos.</p>
+<p><strong>INTERLOCUTOR:</strong> Pero, ¿el secretario de Seguridad Pública de Zacatecas podría recibir a los colectivos feministas?, porque él está renuente, no quiere recibir absolutamente a nadie.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, sí, sí, aunque es un asunto estatal. De todas maneras, siempre hay buena relación con los gobiernos de los estados. Y le vamos a pedir a la licenciada Olga Sánchez Cordero que hable con el gobernador para que se den estas facilidades y se lleve a cabo esta capacitación, esta formación.</p>
+<p><strong>PREGUNTA:</strong> Señor presidente, buenos días. Jaime Hernández, del periódico digital <em>Bajo Palabra</em>.</p>
+<p>En seguimiento al programa de adicciones y contra la inseguridad y violencia donde usted subraya la importancia del bienestar del alma para evitar la desintegración familiar y buscar la felicidad, la pregunta es si usted considera que la salud emocional pase a ser un eje transversal en las políticas públicas, como la equidad de género, la austeridad y la anticorrupción, dado que la salud emocional es clave para sustentar la integración familiar.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, es importante. Tenemos que mejorar las condiciones de vida, las condiciones de trabajo y siempre insisto en que no sólo es ver lo material, no es conformarnos con lograr que haya crecimiento económico, que haya empleos, incluso que se tengan los satisfactores básicos, el derecho a la salud, el derecho a la educación; hace falta, también voy a estarlo repitiendo, fortalecer valores culturales, morales, espirituales.</p>
+<p>Es muy importante la unidad en las familias, afecta mucho la desintegración familiar. La familia es la institución de seguridad social, seguridad social en el sentido amplio, es la familia, repito, la principal institución de seguridad social en nuestro país; y los afectos y la atención a todos los miembros de la familia resulta algo fundamental, y desde luego el que se puedan atender todas estas necesidades. No sólo de pan vive el hombre.</p>
+<p>Y yo voy a seguir planteando… Es que son enfoques distintos. Yo a veces entiendo quienes ven defectos y no las causas, por eso hablo de que se ve el árbol y no el bosque, no es ver un asunto aislado, hay que ver qué origina el problema.</p>
+<p>Si se establece un régimen de saqueo en nuestro país, como sucedió, una política de pillaje, que se mantiene 36 años, más que el porfiriato, pues tienen que producirse efectos totalmente nocivos. Si no pasó a mayores, aún en la decadencia, fue por los valores de nuestro pueblo, de nuestras familias, porque no se pudo desintegrar por completo a la familia, resistió la familia, pero se les socavó mucho con el modelo neoliberal. Y no pasó a mayores porque nuestro pueblo es luchón, es trabajador.</p>
+<p>Se quejaban de la economía informal. La gente, ante la falta de opciones mientras estaba el saqueo, se buscó la vida como pudo.</p>
+<p>Y lo mismo la migración. Imagínense, si no hubiesen salido millones de mexicanos a buscarse la vida, ¿qué hubiese pasado en México?, se hubiese agravado aún más, hubiese habido un estallido social, político, estaba a punto de explotar el país si hubiesen continuado con la misma política de saqueo, de corrupción.</p>
+<p>Entonces, ¿qué estamos haciendo?</p>
+<p>Cambiando, transformando, enfrentando el principal problema: la corrupción. Estoy absolutamente convencido que eso es lo que ha dado al traste con todo, eso produjo la monstruosa desigualdad económica y social que hay en nuestro país, en donde una minoría lo tiene todo y la mayoría carece hasta de lo más indispensable. Eso produjo la inseguridad y la violencia; entonces, estamos atendiendo las causas.</p>
+<p>Claro, quienes apoyaron al régimen de corrupción, de injusticias, de privilegios ahora están inconformes, no les gusta.</p>
+<p>Estaba yo leyendo una editorial del periódico <em>El País,</em> de España, cuestionándonos. ¿Y por qué no dijeron nada cuando las empresas españolas eran las favoritas y con el apoyo de los gobiernos obtenían jugosísimas ganancias? Bancos, Iberdrola, que hasta se llevó a un expresidente de consejero, OHL, Repsol. ¿Cuándo en <em>El País</em> se hizo un cuestionamiento sobre el comportamiento inmoral de estas empresas? Lo que estamos padeciendo es el fruto prohibido de esa política de saqueo.</p>
+<p>Y yo entiendo que haya inconformidad, que haya oposición y vamos nosotros siempre a respetar el derecho a disentir y desde luego el sagrado derecho a la manifestación, a la protesta, pero vamos a defender también nuestra postura, porque ni modo que nos vamos a quedar callados.</p>
+<p>Y ofrecemos disculpas por anticipado, pero va a continuar el proceso de transformación. Imagínense que cambiemos, que modifiquemos nuestro plan, que aminoremos el paso para la transformación de México.  No vamos a detenernos, vamos a desterrar la corrupción, la impunidad.</p>
+<p>Y se va a respetar a todos, siempre se va a atender a todos, se va a escuchar a todos, pero la preferencia se le va a dar a la gente humilde, a la gente pobre. Por el bien de todos primero los pobres.</p>
+<p>Entonces lo que tú planteas es válido, hay que atender las causas.</p>
+<p><strong>INTERLOCUTOR:</strong> (inaudible…) salud emocional.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, hay un plan con ese propósito.</p>
+<p>Yo espero que pronto, bueno, el doctor Hugo puede adelantar algo sobre esto, pero estamos insistiendo mucho en este plan, en todo lo preventivo se está dándole mucha importancia a lo preventivo.</p>
+<p>¿No puedes, doctor, explicar? Pásale.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Gracias, presidente.</p>
+<p>Sí, con mucho gusto. Efectivamente, la educación emocional o la formación emocional juega un papel crucial en el desarrollo de los individuos, de sus familias, de las comunidades y de la sociedad en su conjunto.</p>
+<p>Para esto hay extensa evidencia científica que ha sido tomada en cuenta y menciono dos elementos o dos espacios programáticos en donde lo estamos trabajando.</p>
+<p>Por un lado, está la Estrategia Nacional de Prevención de Adicciones, de la que hemos ya hablado y que seguiremos comentando. Nos interesa mucho que el tema de las adicciones esté presente en la consciencia social.</p>
+<p>Este problema de adicciones empezó desde los años 80, como ya lo habíamos relatado, en donde México se transformó de ser un país de tránsito del tráfico de estupefacientes a ser un país ya propiamente de consumo, se expandió exponencialmente durante los años 90 y en la última década proliferó con cambios, incluso en los patrones de consumo hacia las drogas de más alto impacto que hoy están teniendo un efecto muy devastador sobre todos los ámbitos de la vida: la seguridad pública, la violencia doméstica, la violencia de género, obviamente la descomposición social y la pérdida de oportunidades también en la juventud.</p>
+<p>Entonces, relato lo que también ya hemos explicado, pero seguiremos diciendo, la Estrategia Nacional de Prevención de Adicciones está centrada en cuatro pilares fundamentales:</p>
+<p>Uno es recuperar el espacio público. Los fenómenos criminales tienen marginada completamente a la población, entonces no hay espacios donde tener recreación, integración social, vinculación significativa. Esta vinculación es no solamente platicar o conservar, sino finalmente está en un aspecto de conexión emocional entre las personas, entre distintas generaciones, lo cual es fundamental.</p>
+<p>Entonces, estamos recuperando el espacio público, no solamente con cambios de la calidad de la infraestructura física. Aquí en la Ciudad de México hay ejemplos notables del trabajo que está haciendo la doctora Sheinbaum en recuperar realmente el espacio público en parques, en jardines, en deportivos, en la vía pública, etcétera, eso nos permite poder convocar la vinculación social. Hay otros elementos, la recuperación del espacio público a través de la cultura, del deporte, etcétera.</p>
+<p>Y el otro pilar importantísimo es la reconstrucción del tejido social y es motivar estos intercambios significativos, sobre todo entre las juventudes, el Instituto Mexicano de la Juventud, Guillermo Santiago al frente. También nos ayuda muchísimo a que esta conexión se vuelva significativa, se vuelva duradera y se vuelva un mecanismo de solidaridad social entre pares, como insisto, entre distintas generaciones.</p>
+<p>El tercer elemento obviamente es el tener espacios especializados de atención clínica en salud mental y adicciones. En la Secretaría de Salud estamos integrando estos campos de salud mental y adicciones para que sean mucho más eficientes.</p>
+<p>Las instituciones del sector, en particular la seguridad social, precisamente IMSS-Bienestar tiene su programa de atención rural a los adolescentes y esto nos permite también vincular.</p>
+<p>Y el cuarto elemento, que es muy importante, es este de la conciencia pública. Estamos revisando ahorita lo que se hizo con Juntos por la Paz y su componente de difusión y de invitación al diálogo, porque queremos reposicionarlo durante 2020 para que continuamente todos y todas las personas estén conscientes que ese es un problema a atender y a resolver.</p>
+<p>Y en términos de desarrollo emocional también tenemos, con la reforma al artículo 3º constitucional, a la Secretaría de Educación Pública. Se le estableció el mandato de coordinar la Estrategia Nacional de Primera Infancia; y esta estrategia se junta con distintas políticas y programas que tenemos en los distintos sectores: salud, procuración, impartición de justicia, desarrollo social y otros.</p>
+<p>Y estamos trabajando para que, con este cambio, esta transformación en lo que se llama ahora la Nueva Escuela Mexicana tengamos educación emocional y una crianza respetuosa y emocionalmente significativa desde la primera infancia, esto obviamente está antes de la educación formal, empieza en el hogar y es importantísimo.</p>
+<p>Hay evidencia científica de que el desarrollo cerebral de los seres humanos está fomentado cuando hay una crianza significativa. Parece casi, para quien no está familiarizado con el neurodesarrollo y las neurociencias, casi un fenómeno mágico, pero es impresionante. La anatomía del cerebro y el funcionamiento del cerebro se fomentan muy positivamente cuando hay un trato cariñoso, respetuoso desde la primera infancia, obviamente la lactancia materna es uno de los componentes embebidos en esto.</p>
+<p>Entonces, como se puede ver y retomando lo que decía el presidente, todo lo vemos de manera integral, no se puede aislar, no puede haber programas que sean simplemente parches o chispas en el espacio, tenemos que vincularlo todo para que sea aprovechado y tenga a lo largo del curso de vida este fenómeno de construcción de la sociedad a partir de los individuos, las familias, las comunidades.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> A ver.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, señor presidente. Juan Carlos Machorro, del portal <em>Expok</em>.</p>
+<p>Señor presidente, ¿a quién se le puede señalar como el responsable de la falta de medicamentos?, y más ahora que su gobierno tiene la responsabilidad de atender la salud de los mexicanos.</p>
+<p>A este respecto no sé si su gobierno ha analizado coordinarse con las diferentes industrias farmacéuticas para aprovechar mucho del medicamento que ellos no comercializan por sus canales adecuados. No sé si tengan un estilo o un tipo de convenio de trabajo al respecto.</p>
+<p>Y en un instante una segunda pregunta, si me lo permite.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, se están haciendo compras consolidadas y están participando fabricantes, laboratorios nacionales y también son compras internacionales.</p>
+<p>El propósito es que no falten las medicinas, que se compren todas las medicinas, le llaman los técnicos las claves, todas las claves, y se va a lograr.</p>
+<p>Hay resistencias, pero no está tan complicado porque estamos hablando de alrededor de dos mil claves, imagínense ustedes comprar dos mil medicinas. Es posible hacerlo y tener los espacios, la refrigeración para mantener esos medicamentos, el sistema de distribución.</p>
+<p>No se hacía porque se veía como un negocio, se impedía, por ejemplo, comprar las medicinas en el extranjero, se cerraba el mercado para favorecer a un proveedor; y desde luego, como sabemos, todos los monopolios son malos porque hacen lo que quieren, venden al precio que quieren, pueden ser ineficientes.  Por eso es buena la competencia, que no haya uno, sino muchos, el que ofrezca mejores condiciones, la medicina de más calidad, de mejor precio, esté donde esté, porque se trata de la medicina, se trata de algo vital.</p>
+<p>Entonces, ya se está resolviendo. Lleva trabajo, porque el esquema no era el que estamos desde luego implantando, era otro. Ya les hemos dicho que, si compraba el gobierno 80 mil millones de pesos en medicamentos, 60 mil los vendían tres empresas, así como lo están escuchando.</p>
+<p>Entonces, por eso hemos tenido resistencias, porque se hacía un jugoso negocio con las medicinas y además no había, no se garantizaban los medicamentos, se robaban el dinero de las medicinas.</p>
+<p>Entonces, ahora estamos resolviendo, por eso estas reuniones de los martes, para informar; esto que se le pidió al general, informar sobre el hospital militar, que ya se respondió y se tiene que revisar a fondo. Hacer la vida pública cada vez más pública, no ocultar nada.</p>
+<p><strong>INTERLOCUTOR:</strong> Si me permite. ¿Su gobierno tiene algunas acciones o tiene planeado llevar a cabo acciones a futuro con organizaciones ciudadanas o con la iniciativa privada por medio de sus fundaciones y actuar o permitirles que trabajen en conjunto con su administración en el tema de feminicidios?</p>
+<p>Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí. Nosotros estamos trabajando y desde luego todo el que quiera ayudar para enfrentar los problemas sociales, ayudar en enfrentar problemas de violencia, feminicidios, todo, estamos en la mejor disposición de trabajar de manera conjunta.</p>
+<p>El enfoque que estamos imprimiéndole a todos los problemas sociales, repito, es atender las causas, es ir al fondo, es bienestar y fortalecimiento de valores, evitar la desintegración de las familias, la familia es fundamental, a lo mejor en otros países no tanto, pero en México la familia es el pilar principal de la convivencia.</p>
+<p>No sé si les comenté de una investigación reciente que consistió en hacer entrevistas a sicarios. Es un buen trabajo de investigación, porque no hay investigación sobre estos temas, el periodo neoliberal borró todo, las ciencias sociales, bueno, quitaron el civismo, la filosofía, querían desaparecer la historia y predominó lo material, y esto influyó en las ciencias sociales. Hablábamos la vez pasada que el tema de la corrupción no se trataba, no se trató durante el periodo neoliberal, era un tema vedado.</p>
+<p>Esta investigación que tuvo que ver con entrevistas a sicarios es muy buena, es un trabajo con mucho rigor, que demuestra que la mayoría de los que toman ese camino de las conductas antisociales, la mayoría de los entrevistados expresó que su decisión de dedicarse a la delincuencia tuvo mucho que ver con los problemas familiares, en su familia, al grado que la mayoría de ellos coincide en que lo que más los volvió duros de corazón fue el maltrato de los padres a sus mamás, del maltrato a sus madres y que cuando ya eran jefes, una de las cosas que deseaban o cuando aspiraban a ser los jefes de los grupos, de las bandas, una de las cosas que más deseaban era ajusticiar a sus padres.</p>
+<p>Que cuando llegaban a ser jefes, que tenían todo para ejecutar ese deseo, al final -y fíjense lo que es el ser humano- desistían, pero les mandaban a hablar o les decían a los papás: ‘vete lejos, no te quiero volver a ver, porque si te vuelvo a ver…’</p>
+<p>Eso es lo que tenemos que atender, las causas.</p>
+<p>¿Qué hicieron estos gobernantes, simuladores?</p>
+<p>Se ponían enfrente de la televisión a decir: ‘No me va a temblar la mano, la ley es la ley’. ¿Se acuerdan?</p>
+<p>Tenemos que atender las causas. La paz, la tranquilidad son frutos de la justicia. Claro que es importante que haya vigilancia, que se profesionalice a la policía, que se cuente con el apoyo, como ahora del Ejército, de la Marina, todo eso es necesario, pero lo más importante es lograr una sociedad mejor, eso es lo más importante, es lo más eficaz, lo más humano. Entonces, no vamos a cambiar, tenemos que seguir en eso.</p>
+<p>Claro, lleva tiempo. Imagínense, después de 36 años de una política individualista, egoísta, que le dio la espalda a la gente, como lo decía ayer, no es nada más una crisis, es una decadencia, fue un proceso de degradación progresivo, algo que afecto todos los órdenes de la vida pública: lo económico, lo político, lo social, la pérdida de valores.</p>
+<p>¿Cómo enfrentar eso?</p>
+<p>Con una transformación, no hay más, un cambio radical, arrancar de raíz al régimen corrupto. Y no hay que tenerle miedo a la palabra radical, viene de raíz, radical es de raíz y es arrancar de raíz al régimen corrupto de injusticias, de privilegios y todo lo que lo envuelve y todo lo que lo reproduce.</p>
+<p>Por eso es interesante también el tiempo que estamos viviendo, es todo un replanteamiento, son reacomodos, son concepciones nuevas, es un cambio de régimen.</p>
+<p>Muy bien. Salud. ¿Es salud lo tuyo??</p>
+<p><strong>PREGUNTA:</strong> Salud.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bien.</p>
+<p><strong>INTERLOCUTOR:</strong> Gracias, presidente. Daniel Blancas, de <em>Crónica</em>.</p>
+<p>Presidente, estuve revisando la… bueno, documentos y hemerografía respeto a cuando fue creado el Seguro Popular, lo que decían los que lo estaban impulsando, el doctor Frenk y otros; y ellos aducían para, digamos, sobre las bondades de este programa, que habría por parte de los empresarios inversión en cobertura donde no había servicios médicos, esta era una de sus principales argumentos para decir que el Seguro Popular era lo máximo en ese sentido.</p>
+<p>Estuvimos revisando cuál fue la inversión de los empresarios en este campo, en servicios médicos y usted debe saber cuál es el resultado: fue nulo, fue nula la inversión de los empresarios en servicios médicos, principalmente en las zonas del centro y del sur del país.</p>
+<p>Yo creo que aquí usted tiene una gran oportunidad, presidente. Se reunió hace unos días con los empresarios para tocar un avión… perdón, para tocar un tema relacionado con el avión.</p>
+<p>Y yo le pregunto si este gobierno cometerá el mismo error que cometieron los gobiernos anteriores de permitir esta simulación por parte de los empresarios. Recuerde que está pendiente el acuerdo de infraestructura en salud, no se nos ha presentado, se nos dijo que, en enero, luego que en febrero y al parecer todavía no va a presentarse.</p>
+<p>Entonces, la pregunta es, presidente, si usted se va a reunir con los empresarios. Si ya lo hizo para un tema que, para muchos, digamos, para no entrar en polémica, para muchos es intrascendente como una rifa, si lo va a hacer para asuntos tan serios y que tienen que ver con el impacto, con un impacto del bienestar de la gente, que es el asunto de la salud, para que ellos en este gobierno, en este sexenio sí inviertan en la cuestión de salud. Ese es un tema.</p>
+<p>También estuve revisando la constitución, o lo que tenemos de material disponible de la constitución del Insabi y nos dimos cuenta que prácticamente el Insabi es un cascarón sin patrimonio, no tiene patrimonio, no tiene infraestructura.</p>
+<p>¿Qué va a pasar? Que nos explique, a ver si alguno de los funcionarios aquí presentes nos puede explicar, porque si bien es cierto, el Insabi tiene figura jurídica muy sólida, ¿qué va a pasar con la infraestructura o con el patrimonio de los estados? ¿cuál es el estándar legal o cuál es la situación legal puntual que tiene que ver con la infraestructura y el patrimonio de los estados, partiendo de que el Insabi prácticamente no tiene nada?</p>
+<p>Esos son los temas de salud.</p>
+<p>Tengo un tema adicional, presidente, que de una vez se los planteo, que tiene que ver con aduanas. Estuve recientemente con el director de Aduanas, me presentó algún adelanto de lo que es un proyecto modernizador de las aduanas, de las 49 aduanas del país. El documento está ahí, se llama Proyecto de Modernización de Aduanas 2020-2024, pero está parado, presidente.</p>
+<p>Está parado porque se requiere dinero para impulsarlo, para echarlo a andar y no está claro si su gobierno, así como hubo un aumento del 15 por ciento en lo que es el dinero o el presupuesto para los programas sociales, si también hay el dinero suficiente para impulsar estos proyectos en tema tan trascendentales como el de aduanas donde hay tanta corrupción.</p>
+<p>Lo dejo sobre la mesa, presidente, para que pueda contestar.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Mira, sobre esto último existe ese proyecto, lo vamos a revisar porque significa la compra de equipos, significa tener tecnología en las aduanas para llevar a cabo la revisión, que sea más automatizado todo, y suena bien, o sea, entre menos participación haya de personas y se puedan automatizar estos sistemas hay menos corrupción, o sea, está comprobado o teóricamente así se expresan estas cosas.</p>
+<p>Sin embargo, hay una mala experiencia también en que todo se quiso resolver comprando equipo, cámaras, sistemas de cómputo y se invirtió muchísimo, mejor dicho, se gastó en este tipo de tecnología que quedó inservible, porque el propósito era compra el equipo.</p>
+<p>Hay muchos proveedores, muchos interesados en vender equipos, hasta políticos vendían equipos de estos y otros. Entonces, una de las decisiones que tomamos desde el principio fue no comprar equipos de cómputo, estos equipos de vigilancia hasta no tener claridad sobre su utilidad.</p>
+<p>Nada más piensen en educación, acuérdense de los pizarrones electrónicos, acuérdense de los sistemas de cómputo en las escuelas, todo eso quedó tirado y desde luego fue motivo de corrupción. Entonces estamos viendo eso.</p>
+<p>Los técnicos nuestros que vinieron aquí -aquí vino Emiliano Calderón, les expuso de cuánto se había gastado en estos sistemas y demás, cuánto estamos gastando ahora- son los que van a decidir sobre los sistemas para las aduanas.</p>
+<p><strong>INTERLOCUTOR:</strong> Sí, porque aquí estamos hablando de un sistema que otorga el país, creo que mil millones de pesos en todo…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, pero en todos los casos, en todos los casos así te venden el producto. O sea, si aduanas te dice, te genera, te produce 500 mil millones de pesos al año, ¿cómo no se va a justificar tener un sistema de vigilancia moderno? Sí, pero tenemos que ver si realmente es de utilidad para que no se nos convierta en chatarra, para que no haya corrupción.</p>
+<p>Y que conste que Ahued es una gente honesta, el director de Aduanas, por eso lo nombré director de Aduanas, de todas maneras tenemos que cuidar lo de los equipos, porque se ha abusado mucho y ha sido fuente de corrupción.</p>
+<p><strong>INTERLOCUTOR:</strong> Entonces, está en estudio el proyecto, no va a ser cuestión de dinero.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, no, no. Repito, aduanas permite muchos ingresos y entre menos corrupción más ingresos y si se tiene que invertir para que no haya corrupción y que se tengan ingresos desde luego que es viable que se tiene que hacer, pero de todas maneras estamos cuidando las cosas.</p>
+<p>Lo de salud.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Gracias, con gusto, presidente.</p>
+<p>La pregunta nos parece muy importante, si el presidente nos permite la siguiente semana podríamos traer una pequeña animación gráfica para ilustrar y dar a entender a la población qué es el Instituto de Salud para el Bienestar, qué papel juega en este momento y hacia dónde va a llegar, porque hemos percibido que existe esta inquietud de decir: ‘El Instituto de Salud para el Bienestar es simplemente un cascaron’, como usted lo dijo.</p>
+<p>Entendamos las fases. El Instituto de Salud para el Bienestar es el mecanismo que hoy se estableció, hoy ya, desde el inicio del 2020, como coordinador de este proceso de incorporación de la infraestructura de los sistemas estatales de salud.</p>
+<p>Hoy obviamente no tiene infraestructura, acaba de nacer, hoy simplemente nació por un acto de ley que fue la reforma a la Ley General de Salud en su artículo 77 Bis, desapareció el régimen de protección social en salud, que era un mecanismo de pago de los servicios de salud y nació un sistema de salud para el bienestar, el elemento uno es el Instituto de Salud para el Bienestar.</p>
+<p>Se han adherido ya, esto hace un par de semanas, los estados, los gobiernos estatales se adhirieron al Insabi, al Instituto de Salud para el Bienestar, y ahora se procederá a la firma de convenios específicos con cada uno de los estados para que se transfiera la infraestructura de salud, los centros de salud, los hospitales de segundo, quizá algunos de tercer nivel, en la nómina, es decir, la administración de los servicios humanos, el equipamiento que está en las instalaciones.</p>
+<p>Eso nos va a permitir tener un modelo único nacional de salud para el bienestar que está basado en este modelo de atención primaria de la salud y que tengamos coordinación entre las distintas instituciones para atender a la población no asegurada, donde el IMSS-Bienestar seguirá siendo IMSS-Bienestar, pero va a complementar las capacidades del sistema para atender a la población no asegurada.</p>
+<p>Ahora, me interesa también abordar lo que dijo respecto a este tema de inversión privada y la carencia de servicios en el país, porque efectivamente es notorio.</p>
+<p>Cuando estuvimos recibiendo críticas de esta transformación del régimen de salud, enfatizábamos que el modelo previo, el modelo de Seguro Popular que privó durante 15 años, era tan sólo un mecanismo de pagar, no era tampoco infraestructura de salud, es decir, no era como el IMSS o el Issste, que es una institución completa, que tiene hospitales, clínicas, personal, equipo, etcétera.</p>
+<p>Pero aquí una cosa es importante, porque efectivamente durante esos 15 años teóricamente se pensó que, al separar el financiamiento, el pago de la provisión de servicios de salud iban a surgir empresarios que pusieran hospitales y clínicas y equipamiento, y que se iba a cubrir las necesidades de la población.</p>
+<p>Esto desde luego que no ocurrió así y no tenía por qué ocurrir así, porque los incentivos, las motivaciones estaban orientadas hacia el dinero, hacia la rentabilidad, hacia la ganancia, no hacia proteger la salud de las personas y mucho menos en las poblaciones más desfavorecidas económica y socialmente.</p>
+<p>Entonces, ¿qué tenemos después de 15 años de lo que fue y ya no existe el Seguro Popular?</p>
+<p>Lo que tenemos es que proliferaron una cosa que se le llama servicios integrales, que son distintas aventuras comerciales en donde se dan servicios en su mayoría no esenciales de intermediarios que concentran, hacen compras, por ejemplo, de servicios como la hemodiálisis, compran máquinas de hemodiálisis, las ponen al servicio del sistema de salud, las rentan a un sobreprecio impresionante y el sistema lo que hace es pagar; es decir, el gobierno, el dinero público que es de todas y todos nosotros que pagamos impuestos se va a pagar a pequeños grupos empresariales que, usando distintas maniobras en varios casos de corrupción, se enriquecieron con servicios que no resolvieron la capacidad del sistema, no llegaron a las poblaciones más desfavorecidas.</p>
+<p>Por eso es un giro de 180 grados y ahora estamos pensando en salud para el bienestar y estamos pensando en que la prioridad indiscutible es el derecho constitucional y humano de protección de la salud para que sea real, no sea nada más referencial, de simulación o de pagos.</p>
+<p><strong>INTERLOCUTOR:</strong> Entonces, toda la infraestructura, perdón, toda la infraestructura o el patrimonio de los estados pasará a formar parte de la federación.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Es correcto. Una vez culminado este proceso de adhesión, del que estuvimos hablando las últimas dos semanas, ahora cada estado pasará a hacer convenios específicos con el Instituto de Salud para el Bienestar para traspasarle su patrimonio, sus instalaciones, la nómina, los equipos, etcétera, y al final esto nos va a permitir integrar un solo servicio nacional de salud para el bienestar.</p>
+<p><strong>INTERLOCUTOR:</strong> Yo solamente le preguntaría al presidente lo de los empresarios, presidente. Si usted está abierto a negociar o a platicar con los empresarios para que haya esta inversión.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, pero mire, lo que aquí comentó el doctor Hugo es cierto, es un asunto que tiene que ver con los negocios y al servidor público sólo le deben de interesar los negocios públicos.</p>
+<p>¿Qué pasa si se apuesta a un modelo económico privatizador en todo, que eso fue lo que hicieron?</p>
+<p>Pues se da el servicio al que tiene para pagar el servicio, por eso tenemos internet sólo donde hay más ingresos, en el 25 por ciento del territorio, en el 75 por ciento no hay internet porque no es rentable.</p>
+<p>Es lo que sucedía cuando sólo había energía eléctrica en las ciudades, por eso fue la nacionalización de la industria eléctrica para electrificar a todos los pueblos, porque el concepto no es de la renta. El Estado tiene que cumplir su función social y tiene que dar servicio, eso es lo que no hacía ni el gobierno ni la política neoliberal.</p>
+<p>Los bancos, el servicio bancario, lo mismo. ¿Dónde están los bancos?</p>
+<p>Pues donde está el dinero, donde están los clientes que tienen dinero, pero resulta que hay millones de mexicanos en comunidades apartadas que también necesitan ese servicio y por eso se está ampliando el Banco de Bienestar, las dos mil 700 sucursales del Banco de Bienestar.</p>
+<p>Lo mismo el Internet para Todos. Va a haber internet en todos los pueblos.</p>
+<p>En el caso de la salud igual, ni modo que va a ir un hospital privado a establecerse en Benemérito de las Américas o en Morelos, Chihuahua, o en la Mixteca. Pues no, porque ¿de dónde va a sacar la gente para pagar una intervención quirúrgica de 100 mil pesos? No.</p>
+<p>Y lo mismo querían hacer con las escuelas. En el fondo, la mal llamada reforma educativa era privatizar la educación, que estudiaran los que tenían para pagar colegiatura, por eso los rechazos en las universidades; se llegó al extremo de que hasta los mismos rectores de universidades públicas tenían sus universidades privadas, rechazaban a los estudiantes en las públicas para cobrarles cuotas en las universidades privadas.</p>
+<p>Claro, todo eso tiene un límite. Eso no funciona, eso es un fracaso.</p>
+<p>En el caso de la educación, ¿qué sucedió?</p>
+<p>Pues dejaron de invertir en educación pública, es más, reformaron el artículo 3º, con Zedillo, para que el Estado no fuese responsable de garantizar la educación pública gratuita en todos los niveles de escolaridad, acotaron la gratuidad a la educación básica, pusieron al mercado la educación media superior y la educación superior.</p>
+<p>¿Y qué sucedió?</p>
+<p>Bueno, al principio creció la matrícula de escuelas privadas, hubo mercado; entonces, llegó el momento que se estancó, porque ¿de dónde saca la gente para pagar escuelas privadas para sus hijos? Una colegiatura, por muy barata son tres, cuatro mil pesos mensuales. Entonces, eso tiene su límite.</p>
+<p>Y lo mismo sucedió en el caso de la salud, abandono completo. Bueno, las subrogaciones, el contratar los análisis clínicos, contratar estudios, incluso intervenciones quirúrgicas mediante contrato, contratar guarderías, o sea, privatizar.</p>
+<p>Bueno, aún con todo, nosotros no nos oponemos a que el que tenga para pagar una escuela privada, un hospital privado lo haga, está en su derecho, pero el Estado está obligado a garantizar la educación y la salud pública gratuita de calidad a todos.</p>
+<p>Entonces, si la iniciativa privada quiere construir un hospital moderno para que el que tiene recursos no tenga que irse a Houston a curar o a otras partes y se cure aquí en México -que además hay muy buenos médicos especialistas que van a operar allá a Houston, mexicanos- claro que lo vemos bien, o sea, que se den todas las facilidades, pero tenemos nosotros la responsabilidad de garantizar que la gente humilde, la gente pobre pueda curarse y que no les cueste.</p>
+<p>Y vuelvo también a recordar, así es en Dinamarca, así es, es gratuita la atención médica. Y no me vayan a salir que los daneses son populistas.</p>
+<p><strong>INTERLOCUTOR:</strong> Gracias, presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Compañera, compañera, compañera. A ver.</p>
+<p><strong>PREGUNTA:</strong> Buen día, presidente. Dalila Escobar, corresponsal de <em>Atiempo.tv.</em></p>
+<p>Precisamente el tema allá afuera es…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>¿De dónde eres?</p>
+<p><strong>INTERLOCUTORA:</strong> Corresponsal de <em>Atiempo.tv</em>, Dalila Escobar.</p>
+<p>Allá afuera hay mujeres manifestándose de nuevo por este tema de los feminicidios. Pareciera que no hay empatía con el asunto. No es tema que se trate de usted o de los adversarios, no es un tema que se trate como de las críticas; se trata de mujeres que son asesinadas, que son violentadas en muchas ocasiones, sí, por sus parejas y en este sentido en muchas ocasiones sí, la razón es el simple hecho de ser mujer.</p>
+<p>¿Por qué? Porque en algunas ocasiones acuden a los ministerios a denunciar a sus propias parejas, no les hacen caso, meses después son asesinadas.</p>
+<p>El caso de Fátima es un caso injustificable. Ha habido una serie de omisiones por parte de las autoridades anteriormente y en la actualidad. Se reportó a la menor desde el 11 de febrero, en cuanto se supo del tema tardaron horas en encontrar presuntos responsables, en difundir videos; sin embargo, tardaron días en poder localizar, es más, la localizaron sin vida.</p>
+<p>Preguntarle: ¿Cómo deberán actuar los ministerios públicos?, sobre todo cuando tenemos una fiscalía que cree que es más importante reformar la ley para adecuarla a lo que los ministerios entienden y no enfocarse en entender por qué debe de atenderse la perspectiva de género en este tipo de delitos.</p>
+<p>¿Cómo deberá ser la actuación de las autoridades en este sentido?</p>
+<p>Y bueno, más allá de paredes o puertas pintadas, pues estamos hablando de vidas.</p>
+<p>Es ese el planteamiento. Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues ya se está atendiendo por parte del gobierno de la ciudad, Claudia Sheinbaum está atendiendo esto de manera personal, lo mismo la fiscal Ernestina Godoy.</p>
+<p>Y son casos, repito, muy lamentables, no lo deseamos y estamos trabajando para que esto no suceda.</p>
+<p><strong>INTERLOCUTORA:</strong> Pero, ¿qué van a hacer para…?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Estamos atendiendo las causas, ya lo expliqué, para tener una sociedad mejor, para que se fortalezcan los valores, que haya bienestar material y bienestar del alma. Entonces, sí estamos trabajando; además, no hay impunidad, el que comete un delito es castigado.</p>
+<p>Y tienen, quienes protestan, todas las garantías para hacerlo, es un derecho, es una libertad que nosotros garantizamos.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Su gobierno cuándo presentaría un plan puntual para atender el tema de feminicidios como tal, que se les atienda como tal? Un plan que no sea sólo un decálogo, sino que vaya puntualmente a ese tipo de delitos.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Es que estamos atendiendo las causas. Y nosotros pensamos que en la medida que tengamos una sociedad más justa, más igualitaria, fraterna, con valores, en donde el individualismo no sea lo que prevalezca, sino el amor al prójimo, el que haya mucho cariño, que no haya odios, así vamos a ir enfrentando todos los desafíos, todos los retos.</p>
+<p><strong>PREGUNTA:</strong> (inaudible) una fiscalía especializada.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, también, también, todo lo que haga falta.</p>
+<p><strong>PREGUNTA:</strong> Pero, ¿sí estaría usted entonces por la creación de una fiscalía especializada para atender el feminicidio?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, claro que sí, eso corresponde a los congresos estatales, los congresos federales, el Congreso federal, corresponde a los gobiernos de los estados, a la Fiscalía General. Yo lo veo muy bien y todo lo que se haga para conseguir la paz y la tranquilidad, lo vemos muy bien y vamos a seguir ayudando en todo.</p>
+<p><strong>INTERLOCUTORA:</strong> Porque finalmente, ¿cómo considera usted que ha sido la actuación de los ministerios públicos? Le digo, la han denunciado y veces no se atiende.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Es que tenemos que ir cambiando y ya inició la transformación, y todos estamos haciendo un esfuerzo, nada más que se solapó por mucho tiempo la corrupción y problema que se soslaya, estalla.</p>
+<p>Todo esto que está sucediendo es el fruto podrido, repito, de un régimen de corrupción, de injusticias, de privilegios.</p>
+<p>Entonces hay que cambiar al régimen y lo tenemos que lograr, ese es el propósito principal.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Les enviaría un mensaje a las mujeres que están afuera? Sobre todo cuando ellas piden que se pueda reunir con grupos de mujeres, que puedan hablarle para sensibilizar sobre este tema. ¿Qué es lo que usted les diría?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Los está atendiendo Claudia y aquí está también atendiendo este caso la secretaria de Gobernación, Olga Sánchez Cordero.</p>
+<p>Y todo nuestro respeto y garantías para manifestarse. La única recomendación, también respetuosa, que no se vaya a malinterpretar, es que sean manifestaciones pacíficas.</p>
+<p><strong>INTERLOCUTORA:</strong> Es que ante feminicidios, presidente, no podría haber manifestaciones pacíficas cuando sigue habiendo mujeres asesinadas.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Es que sí, yo entiendo que son cuestiones muy graves, nosotros enfrentamos un régimen que desaparecía a personas, un régimen que desgració a muchos y nunca rompimos un vidrio; o sea, es posible protestar sin violencia, la no violencia es una opción.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Cómo manifestar el dolor que están viendo ante el asesinato en esas características de una niña?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Yo lo entiendo muy bien, lo entiendo, pero creo que no se puede enfrentar la violencia con la violencia.</p>
+<p><strong>PREGUNTA:</strong> Gracias, señor presidente, señores secretarios, subsecretarios, funcionarios.</p>
+<p>Brevemente, señor presidente, una mención. Buscan mesa intersecretarial los trabajadores de Pemex, 80 mil. Usted les abrió el espacio, han venido avanzando, quieren seguir en el diálogo, diálogo, diálogo para que no se les parta la empresa. Este es un comentario por lo que está aquí afuera.</p>
+<p>Durante el gobierno de Felipe Calderón sucedieron situaciones desastrosas en el sector salud y una de ellas fue mencionada en este diálogo circular hace casi un año que tiene que ver con crímenes de lesa humanidad y tortura médica en el Instituto Nacional de Neurología y Neurocirugía. Guardo mi teléfono porque llevo 10 años investigando este tema.</p>
+<p>El doctor Julio Everardo Sotelo Morales era el director del Instituto Nacional de Neurología, es neurólogo, no es neurocirujano, y desarrolló una investigación patentada por él, que es un tubo que, aquí lo exhibimos, que se implantó en el cerebro de niños, bebés y también de personas adultas.</p>
+<p>Estas prácticas se celebraron con cerca de 500 pacientes y la presión de la Cámara de Diputados y de Senadores fue muy fuerte para tratar de establecer cuáles habían sido los criterios de investigación, los protocolos científicos, los bioéticos y si hubo o no carta de consentimiento o carta de información a las víctimas, porque son víctimas.</p>
+<p>El proceso fue llevado con una negligencia absoluta por parte del gobierno de Calderón y de Peña Nieto, y estamos hablando de una proporción mucho mayor en cuanto a otros crímenes y delitos que han sucedido directamente dentro del instituto.</p>
+<p>El presidente de la República instruyó al subsecretario Encinas para que se atendiera este tema y se le diera respuesta a la Comisión Interamericana de los Derechos Humanos. Había un tiempo de tres meses para dar respuesta y esto desagraciadamente se extendió.</p>
+<p>La Comisión Interamericana de los Derechos Humanos vuelve a emitir una solicitud al Estado mexicano para que dé respuesta puntual a esta situación. De lo que estamos hablando no solamente es de esta crisis terrible en donde los pacientes no se pueden recostar de forma horizontal, viven torturados parados, y esto fue una situación desastrosa, casi genocida por llamarlo de esa manera, crimen de lesa humanidad y tortura médica.</p>
+<p>Para no terminar este drama, ustedes han sido testigos de todas las subrogaciones por 622 millones de pesos del instituto a la empresa Phoenix, montos de dos millones 300 mil pesos para teléfonos celulares, no tienen jabón. Es insostenible la presencia de Miguel Ángel Celis.</p>
+<p>Quien salió en su defensa, la doctora Teresita Corona, que es miembra de un instituto médico importante, fue la subdirectora de enseñanza durante el periodo de Julio Everardo Sotelo Morales, y ella era la encargada naturalmente de tratar con los médicos residentes quienes realizaron estas cirugías en ocho unidades neuroquirúrgicas en el país, ciudades como Aguascalientes. Debido a la presión tuvo que ‘soltar la sopa’, y me tengo que expresar de esa manera, Celis, diciendo que fueron 477 pacientes.</p>
+<p>Creo que la situación del instituto, la negligencia de Calderón, la negligencia de Peña Nieto requeriría quizás la contribución del secretario, el subsecretario, de las autoridades para apoyar a Alejandro Encinas, porque es urgente dar respuesta a la Comisión Interamericana de los Derechos Humanos. Esto en primera instancia.</p>
+<p>Y después brevemente, señor director del IMSS, un medicamento oncológico -aquí se debo recurrir a la lectura- Epirubicina, laboratorio Pfizer, clínica 72 del IMSS. Si hubiese posibilidad de darle atención, tengo el nombre de la paciente, tuvo que hacer quimioterapia de manera privada.</p>
+<p>Muchas gracias a todos.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> A ver, Hugo y Zoé.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Con gusto, presidente. Gracias por el señalamiento.</p>
+<p>Efectivamente, hace un año casi o un poquito menos usted mismo trajo el modelo de la válvula y explicó esto de manera directa.</p>
+<p>Tenemos conocimiento que la Comisión Interamericana de Derechos Humanos había hecho ya una recomendación al Estado mexicano al considerarse ya un asunto que va más allá del aspecto técnico de salud y tenía consecuencias importantes sobre los derechos humanos.</p>
+<p>Vamos a retomar, si así lo considera el presidente, estoy seguro que él nos dará todo el respaldo, para retomar sobre el expediente, la recomendación más reciente y en anticipación de lo que sabemos va a ser próximamente una renovación o ratificación o un nuevo señalamiento por parte de la Comisión Interamericana, nos vamos a anticipar a responder lo que corresponde.</p>
+<p>Son varios aspectos. Efectivamente estamos hablando a lo largo de varios años, aquí hay que considerar algunos asuntos. No quiero dar ningún posicionamiento como de justificación o cosa semejante, pero sí, a lo largo de la revisión técnica de estos expedientes por distintas instancias de la Secretaría de Salud y del gobierno mexicano, incluyendo la Conbioética, la Comisión Nacional Bioética, se han integrado elementos, incluso cambios de estándares y prácticas regulatorias en el tema de investigación en sujetos humanos.</p>
+<p>Entonces, se está poniendo en la justa dimensión cada uno de los elementos. Es un asunto que nos ocupa y que consideramos importante de atender dada la trascendencia potencial y sobre todo las consecuencias que puede tener el establecer nuevos estándares.</p>
+<p>El desarrollo de la ética en investigación en sujetos humanos tiene una larga historia, aquí quisiera para compenetrar a la población que nos escucha sobre el contexto de esto, de manera un poco dramática a lo largo de la historia, sobre todo de los últimos, un par de siglos, ha habido casos emblemáticos de investigación que se hace involucrando a sujetos humanos.</p>
+<p>Esta investigación es fundamental, es siempre importante no obtener una visión de que hay que pararla o hay que evitarla porque eso permitiría el tener esta investigación en donde se involucran sujetos humanos permite el progreso de las ciencias de salud, de las ciencias médicas, de otras ciencias.</p>
+<p>Ahora lo que sí es fundamental es que cualquier proceso de investigación que involucra a sujetos humanos debe estar regido por los más altos estándares y salvaguardas de cuidado de las personas, particularmente cuando hablamos de poblaciones vulnerables. Están bien definidas las poblaciones vulnerables, la niñez es una de ellas, las personas privadas de la libertad son otra, pero hay varias, a veces minorías éticas que pueden estar en desventaja respecto a la procuración de la justicia y de asuntos semejantes.</p>
+<p>Entonces, sí nos interesa mucho que cada experiencia sea revisada con un cuidado muy amplio, con una visión de Estado que nos permita avanzar en México también a tener cada vez mejores estándares y mejores prácticas en la investigación que involucra sujetos humanos.</p>
+<p>Gracias.</p>
+<p><strong>ZOÉ ROBLEDO ABURTO, DIRECTOR DEL INSTITUTO MEXICANO DEL SEGURO SOCIAL (IMSS):</strong> Muchas gracias. Con su permiso, señor presidente.</p>
+<p>Agradecerle la pregunta, porque como lo hemos comentado aquí, la mejor forma en que adquiere una utilidad para las instituciones este tipo de cuestiones es justamente poderlas precisar, poder hablar de un medicamento en específico en un lugar en particular, porque esto nos permite centrar nuestra atención y entonces ir superando esta idea de un desbasto generalizado en todos los medicamentos y en todas las clínicas para todos los padecimientos, cosa que no es así.</p>
+<p>Desde luego, que hoy mismo vamos a revisar el caso. Son, y si me lo permiten, es el tema de oncológicos y, particularmente, en el Seguro Social es de grandes dimensiones, son cerca de cinco mil niños en particular, en el caso de niños con cáncer son cerca de cinco mil niños que cada año se van incorporando y se les da algún tipo de tratamiento.</p>
+<p>Entonces, con esa precisión en unos minutos más podemos dar una respuesta muy particular.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> A ver, el IMSS.</p>
+<p><strong>ZOÉ ROBLEDO ABURTO:</strong> Perdón ¿cuál?</p>
+<p><strong>INTERLOCUTORA:</strong> Hay varias enfermeras tituladas que nos escriben en redes sociales y nos dicen que no les han llamado, que qué ha pasado, en el caso de las enfermeras, sé que es paramédicos, personal administrativo, pero ¿cómo es el procedimiento?, si nos puede decir, por favor.</p>
+<p>Y después para el presidente preguntarle nada más: ¿cuál va a ser la sanción que van a tener las autoridades educativas de la Ciudad de México que dejaron en el desamparo a Fátima?</p>
+<p>Y qué opina en el caso de ‘el Lunares’, del Poder Judicial de la Ciudad de México, que lo ha liberado en tres ocasiones.</p>
+<p>Gracias por su respuesta.</p>
+<p><strong>ZOÉ ROBLEDO ABURTO:</strong> En el caso de la convocatoria para nuevas plazas que se abrió el año pasado, junto con el sindicato, primero, destacar que antes no se hacía así, digamos que había en cada una de los hospitales o en cada una de una de las anteriores delegaciones, subdelegaciones, se iban buscando los perfiles cuando se abría alguna nueva plaza no se hacía de manera abierta.</p>
+<p>¿Qué es lo que hicimos junto con el Sindicato Nacional de Trabajadores del Seguro Social?</p>
+<p>Primero, abrir la convocatoria por internet. Entonces, cualquier persona que cubriera los perfiles, ya fuera de enfermería o personal médico podía buscar si su especialidad o si sus estudios, digamos, su desarrollo profesional era el que estábamos buscando y después buscarlo también por el lugar donde necesitábamos a esa persona.</p>
+<p>Una vez que se hizo todo este proceso, hay que decirlo, son cerca de nueve mil plazas de nueva creación de enfermería y de… en el caso de médicos se inscribieron cerca de 70 mil personas, fue una convocatoria enorme. De esos, se van filtrando a partir de que sean los que necesitamos en donde los necesitamos y con el perfil requerido.</p>
+<p>Posteriormente a eso, se empiezan a hacer una serie de entrevistas ya en cada uno de los lugares. Hay lugares, un caso fue Chiapas, por ejemplo, en donde hubo una saturación, producto que hay mucho personal, particularmente de enfermería que estaba desempleado.</p>
+<p>Y en ese sentido, el proceso posterior, digamos, de las entrevistas que se llevan a cabo tiene su tiempo, porque sí son muchísimas. Y en cada caso se están llamando o se comunica, por ejemplo, si alguien no completó su información se le pide la información, no se le descarta de saque, digamos, pero se le dice: ‘Oiga, usted necesitaba mandarnos algún certificado sobre sus estudios técnicos en enfermería’, se le pide que lo haga; hay casos donde no se tienen, otros se pueden solventar, pero es un proceso que, digamos, sí lleva algo de tiempo.</p>
+<p>No estamos dejando a una sola persona sin una respuesta, ya sea para que se lleve a cabo la entrevista o para que se le explique por qué no cumple con el perfil.</p>
+<p>Pero yo lo único que pediría y aprovecho esta oportunidad para pedirles paciencia. A todo mundo se le tiene que escuchar, convocar, explicar si hay alguna cuestión en el llenado de su formato.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, está -lo dije- el gobierno de la ciudad, Claudia Sheinbaum, a cargo la investigación sobre este caso lamentable de la niña que fue asesinada cruelmente. Claudia está a cargo de esto y nos van a estar informando y se va a estar informando a los ciudadanos.</p>
+<p><strong>INTERLOCUTORA:</strong> Pero, ¿sí va a haber sanciones a las autoridades educativas que fueron…?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ellos van a decidir, quienes llevan a cabo la investigación van a decidir lo que corresponde en estos casos. Y desde luego pues no puede haber impunidad, porque no debe haber impunidad en ningún caso, menos en estas situaciones tan lamentables, graves.</p>
+<p>Yo lo único que pido es que la autoridad encargada lleve a cabo la investigación y se resuelva de conformidad con la ley sobre las responsabilidades.</p>
+<p><strong>INTERLOCUTORA:</strong> El DIF revictimizó a la niña y a la familia de la niña exhibiendo la situación de dolencia que vivía. ¿Esto qué nombre merece?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Hay que esperar a que…</p>
+<p><strong>INTERLOCUTORA:</strong> Porque dar a conocer cómo vivía la familia, cuando el crimen que se investiga no es cómo vivía la familia, sino el crimen.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, hay que esperar el resultado de la investigación y tener confianza en que se va a esclarecer lo sucedido, que se va a castigar a los responsables.</p>
+<p>Y sobre todo a los conservadores, decirles, recordarles que no somos iguales, porque ahora en medios, no en todos desde luego, en casi todos, hay sobre estos lamentables hechos mucho oportunismo, ‘zopilotean’.</p>
+<p>Vi hasta un cuestionamiento del que fue secretario particular de Zedillo, Liébano Sáenz, muy preocupado, supuestamente; nada más es cosa de recordarle a Liébano que cuando él estaba en la Presidencia se convirtieron las deudas privadas de unos cuantos en deuda pública.</p>
+<p>¿Y saben cuánto le ha costado al país?</p>
+<p>Dos billones de pesos. ¿Cuántos empleos, cuántas escuelas, cuántos hospitales, cuánto bienestar?</p>
+<p>Entonces, yo entiendo que en una circunstancia de estas haya una exigencia de justicia, además es lo que se debe de hacer, es lo mínimo, pero no debe de actuarse con oportunismo, o sea, es un asunto muy serio, no se puede utilizar el dolor de la gente, no se puede medrar.</p>
+<p>Entonces, esto no significa de ninguna manera censura, es nada más poner las cosas en su lugar, que de repente nos salen paladines de la justicia quienes formaron parte del régimen opresor, el régimen de corrupción, el régimen de pillaje.</p>
+<p>Lo mismo los intelectuales orgánicos, que gritaban como pregoneros cuando se privatizaba el sector público, gritaban, y callaban como momia cuando se saqueaba al país. Entonces, esa amnesia…</p>
+<p>Nos deben una explicación, nos deben el ofrecer disculpas, no lo hacen; y como si no hubiese sucedido nada, como si todo esto que está pasando hubiese surgido de la nada, de la nada, de repente surgió, desde que llegó Andrés Manuel se agravaron todos los males, todo se agravó, él es el culpable.</p>
+<p>No estoy evadiendo mi responsabilidad, quiero nada más que seamos lo más objetivos posible y que actuemos con integridad y se hable con la verdad, o sea, no aprovechar estas circunstancias.</p>
+<p>humano para expresar nuestras fobias políticas! No, no es así. De todas maneras, libertad completa, absoluta.</p>
+<p><strong>INTERLOCUTORA:</strong> Al Poder Judicial, al Poder Judicial, de ‘el Lunares’…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Es lo mismo, se está buscando que el Poder Judicial…</p>
+<p><strong>INTERLOCUTORA:</strong> De la Ciudad de México.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, local y federal, en general, es un problema generalizado de jueces, de magistrados, es la pudrición que dejó el modelo neoliberal.</p>
+<p><strong>INTERLOCUTORA:</strong> (Inaudible)</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues sí. Imagínense, si estábamos en el lugar 136 de corrupción en el mundo, pasamos sólo en 12 años del nivel 60 a 136, pues ni modo que eso no iba a impactar.</p>
+<p>Tenemos problemas de corrupción aceptados por el presidente de la Corte, cosa que es de celebrarse porque antes ni siquiera se reconocía que había corrupción, no se reconocía.</p>
+<p>Y ahora el presidente de la Corte, su informe último versó sobre eso y sobre el nepotismo, y desde luego la corrupción de jueces, de magistrados, no todos, pero sí avanzó mucho el mal y hay que limpiar, hay que acabar por completo con la corrupción.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, presidente. Hans Salazar, de <em>ZMG, Gurú Político y Zócalo Virtual</em>.</p>
+<p>Quisiera preguntar por el tema del IMSS al director aquí presente. Aquí ha presentado sobre sus metas para este año con respecto a ampliar horarios de atención de consultas, operaciones en quirófano, aumento en el número de médicos, enfermeras, incluso ahorita ya ha citado el tema del reclutamiento, pero quisiera saber si también en este caso de enfermeras, sicólogos, psiquiatras y odontólogos, cuál ha sido el avance a esta fecha, cuál sería el punto donde se encuentra el IMSS para poder cumplir estas metas, si tiene fechas precisas, si tiene datos precisos.</p>
+<p>Y también, aprovechando la presentación que se ha hecho aquí el día de hoy en el Pulso de la Salud con respecto a los delegados que ya han sido asignados, ¿cuál va a ser la rotación de estos?, incluso usted mencionaba, parece ser que iba a haber una rotación, si no mal recuerdo.</p>
+<p>Si habrá esta… ¿cuál sería el mecanismo para poder evitar la corrupción, el tema de todo lo que se ha tocado aquí que ha padecido el país.</p>
+<p>Y, por último, aprovechando también el IMSS, el tema de la clínica, perdón, el Hospital General Regional Número 25, que está sobre Zaragoza. Se anunció el año pasado, a finales, la demolición porque fue afectado por el sismo del 2017.</p>
+<p>Quisiera yo preguntar: ¿cuál es la situación?, porque uno pasa y sigue ahí pendiente este tema de la demolición y obviamente de la construcción de este mismo. Si el proyecto ya se ha presentado, cuáles son los detalles, si se pudiera presentar más a fondo este tema del Hospital General Regional del IMSS.</p>
+<p>Muchas gracias, presidente.</p>
+<p><strong>ZOÉ ROBLEDO ABURTO:</strong> Sí, muchas gracias. Con su permiso presidente.</p>
+<p>Sobre el tema de tiempo completo, la intención -y que tenía mucho que ver con lo que se preguntaba hace un momento de la infraestructura y demás- porque la primera intención para nosotros es que nuestra infraestructura ya instalada, que ya está operando, mejore en tres dimensiones:</p>
+<p>Por un lado, en las unidades de Medicina Familiar que podamos incrementar el número de consultas de Medicina Familiar, la consulta regular del médico familiar, para pasar de cerca de 450 mil a 900 mil este año. Para eso son esas nuevas plazas de las que se hablaba. Estas nuevas plazas son específicas para el programa de tiempo completo.</p>
+<p>Adicionalmente, y en el mismo monto de pasar, crecer cerca del 100 por ciento en consultas de especialidad, también en las unidades médicas familiares.</p>
+<p>Por el otro lado, en el caso de cirugías programadas, la intención es crecer de cerca de 17 mil que se llevaron a cabo solamente en fin de semana, a cerca de 70 mil. El programa ya está avanzando, ya está, digamos, en marcha.</p>
+<p>Sí hay que decirlo, es por etapas, no es en todas las unidades de medicina familiar ni es en absolutamente todos los hospitales de segundo nivel. Si el presidente está de acuerdo, podríamos traer justo cómo vamos y cuál es el avance, porque ya empezó el programa de tiempo completo.</p>
+<p>Adicionalmente a eso hay una parte más que es la admisión continúa, es decir, que en una unidad de medicina familiar se puedan atender durante las 24 horas urgencias no quirúrgicas, urgencias que se pueden resolver en la unidad.</p>
+<p>¿Por qué es esto mejor?</p>
+<p>Por un lado, porque hay más unidades que hospitales, entonces, es más probable que la población esté cerca de una unidad de medicina familiar en donde pueda llevar desde un niño con laringitis o con la temperatura muy alta o alguien que se dobló un tobillo y no tenga que llegar necesariamente el segundo y al tercer nivel.</p>
+<p>Todas las imágenes que vemos de urgencias saturadas en el tercer nivel o en el segundo nivel parten de que no tenemos la capacidad de atenderlos en el primer nivel donde sí se puede resolver ahí.</p>
+<p>Hay casos en donde tienen que ser derivados de inmediato, porque muchas veces en cuestión de horas tienen que entrar a un quirófano, pero otros tantos pueden resolverse en el primer nivel, y esa es la intención de tener e ir ampliando en que todas las unidades de medicina familiar, son cerca de mil 500, tengan atención médica continua, atención continua las 24 horas.</p>
+<p>Sobre el tema de la rotación, y agradezco la pregunta porque nos permite explicar. Después del concurso, todas las etapas del concurso, el examen, el ensayo que se presentó ahí mismo, todas las entrevistas estructuradas, nos dio al final una calificación, nosotros lo único que podíamos ver era un folio y una calificación.</p>
+<p>Ya que tuvimos todo eso fue que se les invitó a participar como titulares de las oficinas de representación del IMSS en los estados. Eso se hizo en el consejo técnico, ahí estuvo la secretaria Irma Eréndira Sandoval, la secretaria del Trabajo, los integrantes del consejo técnico.</p>
+<p>Lo digo porque en el momento que ellos llegaron ahí, ni ellos ni nosotros sabíamos a dónde se iban a ir; no es tanto una rotación, sino que fue un sorteo para decidir a qué estados se iba a ir cada persona.</p>
+<p>Les pongo un ejemplo. En Villahermosa, donde tuve oportunidad, junto con el gobernador Adán Augusto, darle posesión a la nueva titular, ella era de Jalisco, toda su vida profesional la había desarrollado en Jalisco, en grandes hospitales, en unidades médicas de alta especialidad, había sido jefa de enfermería en aquel estado y era jubilada.</p>
+<p>Por cierto, hay 16 que tomaron la decisión de que a pesar que ya estaban jubilados, estaban, digamos, disfrutando el esfuerzo del trabajo de toda su vida, al ver la convocatoria dijeron: ‘Esto es lo que yo esperé durante tanto tiempo, voy a participar’.</p>
+<p>Y pongo este ejemplo porque ahora está en un estado con totalmente diferentes características demográficas, de salud pública, pero estamos seguros que con el conocimiento que tienen de la institución, de los programas y demás, y la lealtad que manifiestan de decir: ‘Dejo mi casa en Guadalajara y ahora me voy a Villahermosa’, es porque están realmente comprometidas con esta transformación.</p>
+<p>Lo mismo pasó en Veracruz, que las dos personas que asistirán ahí eran de aquí, de la Ciudad de México, una había sido jefa de servicios médicos de la Ciudad de México, tiene una dimensión enorme, ahora enfrenta retos igual de complicados, pero en un estado como Veracruz. Entonces, no es tanto que vaya a haber una rotación.</p>
+<p>Sin duda lo que sí establecimos desde el principio de la convocatoria y del concurso, y lo saben todos y todas, es que va a haber procedimientos de evaluación permanente. Vamos a estar evaluando de manera muy constante para poder corregir cuando alguien o alguna de las funciones de una de una oficina de representación, no solamente la parte de atención médica, sino también de la recaudación o de las otras prestaciones y los seguros, se esté cayendo, poderla apoyar a esa persona para que mejore; y si vemos que alguien de plano no funciona o tiene algún problema se inicia, porque también es parte del proceso.</p>
+<p>Todos los… digamos que participaron cerca de 174 personas que hicieron el examen nos dio una reserva de cerca del 15 por ciento justamente para hacer sustituciones si son necesarias.</p>
+<p>Perdón que me extienda. Pongo un ejemplo, hubo una persona que participó, tuvo una extraordinaria calificación, pero al final nos mandó una carta diciendo que por un tema propio de salud no podía moverse a la entidad que le había tocado. Y en ese momento el mecanismo que teníamos que era el siguiente mejor o la siguiente mejor pudiera ocupar ese lugar. Entonces no hay tanto como una rotación.</p>
+<p>Ahora, sobre el tema de Zaragoza y además es una feliz coincidencia que esté aquí el general secretario, porque justamente lo que se hizo en ese hospital que lleva tanto tiempo, pues desde el 7 de septiembre del 2017 que ya no se pudo utilizar, fue un recorrido largo entre dictaminaciones, entre puntos de vista, entre quienes decían que sí se podía utilizar, que no, en fin.</p>
+<p>Tomamos el tema el año pasado y lo debo de decir, el año pasado por ahí de junio estábamos en cero, como si hubiera sido el 8 de septiembre del 2017, no había pasado nada, no teníamos ni siquiera el permiso de demolición.</p>
+<p>Se estaba ya corriendo un proceso en ese momento de una licitación solamente para la demolición, se llevó a cabo la licitación. Salieron ofertas demasiado dispares entre algunos que sabíamos que ello iba a ser imposible que llevaran a cabo la demolición u otros que simplemente están viendo la oportunidad de un negocio.</p>
+<p>Hicimos una… se declaró desierta y justamente en una conversación con el general secretario le pedimos el apoyo para hacer una asignación directa a los ingenieros militares.</p>
+<p>De hecho, en estos días se hizo ya el depósito y en estos días justamente entre hoy, mañana empieza la demolición.</p>
+<p>Lo digo porque, además, con el Ejército tenemos dos garantías, una que los tiempos que se establecieron en el contrato, pues son los que se van a cumplir, ahí no tenemos duda alguna.</p>
+<p>Pero la otra es que son procesos complicados, no es una demolición de repente como las que vemos en las películas, que bajan una bomba y cae el edificio, es muy complicado, sobre todo en un lugar altamente poblado, que va a generar ruido, movimiento de material, polvo y demás.</p>
+<p>Y tenemos que hacer un trabajo con la comunidad porque saben y además exigen ya la sustitución del hospital, pero va a ser un proceso que si bien es corto y que vamos a cumplir los tiempos, pues tendrá momentos difíciles, pero que estamos en un trabajo social de diálogo y que además el Ejército tiene esa enorme sensibilidad para hacerlo.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Mañana, ya nos pasamos. Dos horas.</p>
+<p>Mañana seguimos, mañana continuamos.</p>
+<p>&nbsp;</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

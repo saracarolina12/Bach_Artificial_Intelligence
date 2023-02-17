@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>03.03.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-59/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=115330' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2Fversion-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-59%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2Fversion-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador-59%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66i5v-f-85ad5af2c-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":20,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"38fad674","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55458,"ak.gh":"23.47.207.46","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616629","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==xlTTHZbeVqH17W48FwvFFRJumBq1qqJ+5viA1QhQj6ED2EHxm9a5JlnI0zjyFYYwNaYU+c9XjzRqVnfpZKn4N0t8FCGORWICVaU2CPKwuAvPAE7zeahVJZlOip3R2U6diHUCn7lsl4PukLum8HZyv2iATD/n66MJMYna/krFzu7f/wUA1eNlotUlKgAbsW8Yu/LqbQHcgCbxqkiFvoV/5NyPW9GUy2CmX5usRgZ/UvTC8yK3YN8OuXwAE/IR6lhc+hnFNC+wZU5vJRg47ayUEZvJgGpU9p6DCxXAy1uFaJ6GxMcp7DjINJWZTG4MQ3ajkR6tPbRYS8uYZbZHWeTmAOs+v3nCR17wPpKVD/2ETN0ttS+hNEih6sDSgeR6pf7Raxdp8VSik2MMK/hIu/mP6VEFhzUKeRAdcI7ObAaDLds=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-115330 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef21269f480" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>03.03.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 03.03.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-115330" class="post-115330 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica tag-amlo tag-amlo-conferencia tag-amlo-hoy tag-amlo-presidente tag-andres-manuel tag-andres-manuel-lopez-obrador tag-ariadna-montiel tag-beca-para-ninas-y-ninos-de-madres-trabajadoras tag-bienestar tag-conferencia tag-conferencia-amlo tag-conferencia-de-amlo tag-conferencia-de-amlo-hoy tag-conferencia-de-prensa tag-conferencia-de-prensa-amlo tag-conferencia-matutina tag-conferencia-presidente tag-guarderias tag-lopez-obrador tag-maria-luisa-albores tag-obrador tag-secretaria-del-bienestar">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2019/04/03-04-2019-FOTO-08-CONFERENCIA-DE-PRENSA-MATUTINA.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2019/04/03-04-2019-FOTO-08-CONFERENCIA-DE-PRENSA-MATUTINA-745x450.jpg" alt="03.03.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">03.03.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><span style="font-size: 10pt;">2019, Año del Caudillo del Sur, Emiliano Zapata</span></p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Buenos días.</p>
+<p style="text-align: justify;">El día de hoy vamos a ponernos al corriente, vamos a cumplir con el compromiso que hicimos de informales sobre la situación de las estancias infantiles.</p>
+<p style="text-align: justify;">Si ponemos en contexto este tema, debe de decirse que ha generado bastante polémica. Se llegó a mencionar de manera reiterada, como campaña, que estábamos cancelando lo de las estancias infantiles y así se quedó en el imaginario colectivo, que se cancelaban las instancias infantiles, cosa que no es cierto; pero una mentira que se dice muchas veces puede convertirse en verdad, eso decía Goebbels el propagandista de Hitler.</p>
+
+<figure class="wp-block-audio"><audio src="https://lopezobrador.org.mx/wp-content/uploads/2019/04/Matutina-2019-04-03-.mp3" controls="controls"></audio></figure>
+
+
+
+<figure class="wp-block-embed-facebook wp-block-embed is-type-video is-provider-facebook">
+<div class="wp-block-embed__wrapper">
+<p><div id="fb-root"></div><script async="1" defer="1" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v3.2"></script><div class="fb-video" data-href="https://www.facebook.com/lopezobrador.org.mx/videos/410357469513524/" data-width="500"><blockquote cite="https://www.facebook.com/lopezobrador.org.mx/videos/410357469513524/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/lopezobrador.org.mx/videos/410357469513524/">Entre todos seguiremos construyendo la bella utopía. Conferencia de prensa en vivo.</a><p>Desmentimos las versiones sobre la desaparición de las estancias infantiles. Sólo podrán operar si garantizan servicios de calidad y seguridad a los menores.Presentamos los resultados del censo para conformar el padrón de beneficiarios del programa &#039;Becas para niñas y niños de madres trabajadoras&#039;. Mañana comenzaremos la entrega de recursos a las madres y padres de familia.Más Información: http://bit.ly/2uIR87F</p>Posted by <a href="https://www.facebook.com/lopezobrador.org.mx/">Andrés Manuel López Obrador</a> on Wednesday, April 3, 2019</blockquote></div></p>
+</div>
+</figure>
+
+<p style="text-align: justify;">Lo que se planteó desde el principio es que todo el apoyo del gobierno se iba a personalizar, se iba a entregar de manera directa, sin intermediarios, porque era mucho el abuso y la corrupción. Se usaba a la gente y, sobre todo, a la gente humilde.</p>
+<p style="text-align: justify;">Supuestamente se destinaban recursos para apoyar a la gente y ese dinero, esos apoyos no llegaban, se quedaban en el camino o cuando llegaban se entregaba poco, porque había <em>moche</em>, había <em>piquete de ojo</em>.</p>
+<p style="text-align: justify;">Entonces, se decidió que todo el apoyo del gobierno se entregue de manera directa, sin intermediarios; había organizaciones que recibían muchísimo dinero y los dirigentes de esas organizaciones se quedaban con una buena cantidad de ese dinero.</p>
+<p style="text-align: justify;">Ahora se está avanzando para que el adulto mayor, la persona con discapacidad, el joven que recibe una beca, el que está como aprendiz, obtenga su apoyo con una tarjeta. Por eso se hizo un censo general.</p>
+<p style="text-align: justify;">Y aprovecho para seguir informando sobre este tema, con la idea de que los que no han sido censados lo planteen y busquen a quienes hacen este trabajo y se movilicen con ese propósito, que los censen porque puede haber adultos mayores que no estén recibiendo la pensión, porque no están en el censo.</p>
+<p style="text-align: justify;">En este caso de los adultos mayores tenemos una meta de ocho millones y se están atendiendo cerca de siete millones; es decir, falta un millón de adultos mayores que podrían ser beneficiados, pero que no han sido censados o no se les ha encontrado, o no tenemos la manera de identificarlos.</p>
+<p style="text-align: justify;">Cuando se decidió que los adultos mayores pensionados del Issste y del Seguro también recibieran el apoyo, se solicitó al Issste y al Seguro los padrones que utilizan para pagar las pensiones, y tuvimos un porcentaje de esos padrones con nombres o direcciones incompletas, un porcentaje menor, pero ahí está todavía sin que se aclare. Y no podemos dispersar recursos si no estamos convencidos de que existen las personas para no caer en errores, en simulación.</p>
+<p style="text-align: justify;">Todo esto lo digo para que los que no han sido censados, no son atendidos, que sepan que existen los programas y que todos debemos también ayudar, los que podamos hacerlo, porque un adulto mayor no puede estarse movilizando tanto, pero sus familiares que ayuden.</p>
+<p style="text-align: justify;">Yo estoy hablando en todos los actos que el gobierno que se heredó es como un elefante reumático, es un cuerpo de avance lento, que lo tenemos que empujar entre todos para que camine, porque no estaba hecho para beneficiar a la gente, sino estaba hecho para facilitar el saqueo en beneficio de una minoría, para hacer negocios, <em>business</em>.</p>
+<p style="text-align: justify;">Era como el puerquito, era espoliar al gobierno con la idea de: ‘Qué te va a importar a ti estar defendiendo al gobierno o estar defendiendo el presupuesto si no es dinero tuyo’, esa mentalidad que prevaleció durante mucho tiempo.</p>
+<p style="text-align: justify;">Ahora se requiere de la participación de todos para que las cosas se hagan bien y se beneficie a la gente que lo necesita, y que todos ayudemos con este propósito.</p>
+<p style="text-align: justify;">Ya se están entregando de manera directa apoyos a más de 13 millones de personas, adultos mayores, personas con discapacidad, jóvenes, becarios, campesinos que están recibiendo sus apoyos de manera directa, pero pensamos que van a pasar de 20 millones los beneficiarios y llevamos hasta ahora, repito, más de 13 millones.</p>
+<p style="text-align: justify;">Todo esto lo planteo porque es el contexto para entender lo de las estancias infantiles. Era un programa en donde una persona, dos, mujer u hombre, organizaban en sus domicilios, en algún sitio, dar atención a niños de madres trabajadoras. Ese fue el concepto original para que los niños quedaran en resguardo de maestras o de estas personas encargadas de las estancias infantiles.</p>
+<p style="text-align: justify;">No se trata de instituciones o de instalaciones hechas con ese propósito, sino lugares adaptados. Un poco -guardadas las proporciones y no quiero que se malinterprete- la subrogación que se llevó a cabo durante mucho tiempo en el Seguro Social de las guarderías con la idea de privatizar una función del Seguro; y así suele suceder o así pasaba, se subrogaba.</p>
+<p style="text-align: justify;">Entonces, ya no atendía de manera directa el Seguro Social la estancia o la guardería, sino daba el dinero para que una asociación civil se hiciera cargo de dar el servicio. Eso fue lo de la ABC. Nosotros no compartimos ese punto de vista, esa concepción, porque no sólo es el manejo del dinero o las irregularidades que pueda haber en el manejo del dinero, sino la seguridad.</p>
+<p style="text-align: justify;">¡Imagínense, miles de sitios donde están los niños! ¿Quién supervisa? ¿Cómo garantizamos el cuidado de los niños, la corresponsabilidad que tenemos?</p>
+<p style="text-align: justify;">Por eso se decidió, como en otros programas, lo hicimos también en las becas que se entregaban del Prospera y lo mismo, encontramos que había listados y eso está pendiente, porque se los vamos a presentar también y no existían las familias, o se decía que les daban una cantidad y en realidad recibían mucho menos, porque era dinero, la mayor parte, entregado en efectivo. Entonces, todo esto es lo que se está corriendo.</p>
+<p style="text-align: justify;">En el caso de las estancias se hizo un censo porque hubo protestas, y ya tenemos los resultados de qué es lo que hay en realidad, cuántos padres de familia y cuántos niños. Independientemente del diagnóstico, estamos asumiendo el compromiso de entregar los apoyos, pero de manera directa a las madres y a los padres de familia.</p>
+<p style="text-align: justify;">Si ellos deciden por su voluntad entregar esos recursos a quienes manejaban las estancias infantiles, nosotros no tenemos ningún inconveniente, pero tiene que ser por decisión de ellos, voluntaria; porque también hay que aclarar, no todas, ni todos los que estaban manejando este programa lo hacían mal, no se puede generalizar, había personas que sí actuaban de manera correcta, con integridad, por eso también hay algunas molestias. Pero tenemos que corregir y no podemos hacer excepciones, nos llevaría muchísimo más tiempo.</p>
+<p style="text-align: justify;">Además, consideramos que debe de cambiar el método, que tiene que ser entrega directa en todo. Esto me lo han recomendado mucho, la misma gente. Me dicen: ‘No nos dé el apoyo a través del gobierno, no sólo no nos dé el apoyo a través de las organizaciones sociales, civiles, no nos lo dé a través del gobierno, que no pase por las oficinas de gobierno’. Eso es lo que me plantean: ‘Entregue el apoyo de manera directa a la gente’. Y eso es lo que estamos haciendo. De la Tesorería de la Federación al beneficiario.</p>
+<p style="text-align: justify;">No sólo es no entregarle a la organización campesina o la organización de la sociedad civil, o a la fundación el apoyo para que ellos lo entreguen. La gente no quiere que pase por las oficinas de gobierno, por las secretarías, por los gobiernos estatales, por los gobiernos municipales, porque tienen la idea y hay pruebas de que así ha sucedido, de que no llega el apoyo completo o no llega.</p>
+<p style="text-align: justify;">Esto lo vemos por ejemplo en el programa de Apoyo a Comunidades Mineras. Se logró que una parte de los derechos cobrados por la explotación minera llegaran a las comunidades donde se lleva a cabo la extracción del mineral y donde se necesita por los efectos de la explotación minera, inclusive daños o falta de arreglo de caminos, falta de agua.</p>
+<p style="text-align: justify;">Estamos hablando de hace cinco años que se aprobó esa ley; y si se hace una auditoría técnico-administrativa, lo que ha bajado a las comunidades ha sido muy poco, porque se ha quedado en las instancias gubernamentales y ha sido desviado para otras actividades, ha sido transferido el recurso. Entonces, ya no queremos eso, queremos que el apoyo sea lo más personalizado que se pueda.</p>
+<p style="text-align: justify;">Vamos a explicarles, vamos a informarles cuál fue el resultado del censo que se hizo.</p>
+<p style="text-align: justify;">Les estoy pidiendo a María Luisa Albores, a Ariadna Montiel, que es la secretaria de Bienestar y la subsecretaria encargada de este programa y de otros, les estoy pidiendo que toda esta información la envíen al instituto de transparencia, toda la información, para que de acuerdo a los procedimientos legales se pueda entregar a quien la solicite, es decir, a padres de familia, a los interesados en lo de las estancias infantiles, a los diputados, a los senadores, a todo el pueblo que se transparente por completo.</p>
+<p style="text-align: justify;">Entonces, por favor.</p>
+<p style="text-align: justify;"><strong>MARÍA LUISA ALBORES GONZÁLEZ, SECRETARIA DE BIENESTAR:</strong> Con su permiso, señor presidente.</p>
+<p style="text-align: justify;">Buenos días. Quisiera comentarles seis puntos y después le voy a dar la palabra a la compañera Ariadna Montiel, subsecretaria, y que tiene a su cargo este programa.</p>
+<p style="text-align: justify;">Primero, comentarles que, como dijo nuestro presidente, lo que intentamos hacer es, en los programas que ya se tenían antes como Secretaría de Desarrollo, Sedesol, es buscar y tratar de poner orden. A mí sí me gustaría comentarles que el programa de Estancias Infantiles, lo que nos encontramos fue que el mecanismo para la supervisión del cuidado de los niños lo hace el DIF.</p>
+<p style="text-align: justify;">El mecanismo del cuidado en el sentido del espacio y que tuviera los requerimientos para que las niñas y los niños estuvieran bien, lo hacía Protección Civil del municipio, porque se veía como un establecimiento comercial.</p>
+<p style="text-align: justify;">Y en el caso de lo que era Sedesol era quien otorgaba el recurso directamente a las encargadas o responsables de estancia por niño cuidado en esa estancia. Entonces, había tres elementos.</p>
+<p style="text-align: justify;">¿Por qué lo comento? Porque en el caso de la secretaría de Sedesol, aunque hubiera una supervisión y hubiera irregularidades, jamás se le permitía que pudiera cerrar o cancelar determinada estancia.</p>
+<p style="text-align: justify;">¿Qué tratamos nosotros ahora al recibir este programa? Pues poner orden en un sentido de quién es la responsabilidad del cuidado de las niñas y de los niños. Si me gustaría aclarar seis puntos y después ya pasamos a la parte estadística de lo que nos encontramos en el censo y esa validación del censo.</p>
+<p style="text-align: justify;">La primera es comentarles que el programa de Apoyo para Bienestar de Niñas y Niños hijos de madres trabajadoras busca el cuidado infantil. Se cambia el nombre, pero lo que estamos buscando es el cuidado de la primera infancia.</p>
+<p style="text-align: justify;">Dos. Vamos a apoyar a todas las niñas y niños que se encuentren validados en el padrón, a todas las vamos a apoyar.</p>
+<p style="text-align: justify;">Tres. Y en el caso del apoyo, sí me gustaría comentarlo, se está planteando el apoyo de 800 pesos mensuales en entregas bimensuales, eso nos da mil 600 pesos. Si me gustaría aclarar que el caso enero, febrero, marzo, abril, correspondería a tres mil 200 pesos que se les va a estar ya entregando a quienes son responsables de la niña o niña, madre o padre. Esa dispersión se empieza mañana, mañana 4 de abril ya en los diferentes lugares de la República.</p>
+<p style="text-align: justify;">Y en el caso de niños con alguna discapacidad, el monto es de tres mil 600 bimensual. Entonces, sería siete mil 200 la entrega que correspondería enero, febrero, marzo y abril.</p>
+<p style="text-align: justify;">No dejaremos sin apoyo a ningún niño que lo necesite y que esté dentro de la validación.</p>
+<p style="text-align: justify;">Comentarles que los cambios en el programa no implican el cierre de estancias infantiles; podrán seguir funcionando siempre y cuando brinden un servicio de calidad y garanticen la seguridad de infantes, porque no nos corresponde a nosotros, como aclaró nuestro presidente; o sea, a nosotros como programa el cierre o el funcionamiento de una estancia no nos implica a nosotros. Lo que nosotros haremos es que le llegue el recurso a la madre o al padre para que esa niña y ese niño tengan los cuidados.</p>
+<p style="text-align: justify;">No se excluirá a ningún niño en caso de que haya fallado el proceso de validación; o sea, si hay un padrón y de repente alguien nos está viendo y por alguna cuestión no fue validado, se puede validar. Es un proceso, no está cerrado.</p>
+<p style="text-align: justify;">Habrá un periodo para que las madres o padres de familia soliciten el acceso a los apoyos y podrán hacerlo en las delegaciones estatales de la Secretaría de Bienestar.</p>
+<p style="text-align: justify;">Y seis. Los apoyos ya van a ser entregados de manera directa, porque esos son de los cambios, ya lo explicó el presidente, como es los cambios para todos los programas y sobre todo los Programas Integrales de Bienestar, donde su objetivo es que llegue de manera directa a quienes están dentro del programa.</p>
+<p style="text-align: justify;">Y doy paso y la palabra a la compañera Ariadna.</p>
+<p style="text-align: justify;"><strong>ARIADNA MONTIEL REYES. SUBSECRETARIA DE BIENESTAR:</strong> Con su permiso, señor presidente.</p>
+<p style="text-align: justify;">Bueno, vamos a explicar la metodología del censo.</p>
+<p style="text-align: justify;">Como ya explicó el presidente, en general todos los programas tienen que ser verificados antes de que pasemos a la entrega de los recursos, porque ha sido una constante que nos hemos encontrado inconsistencias, por lo cual, aunque hemos invertido tiempo en esto, decir que este es el motivo del retraso, hacer una validación física en las viviendas a través de los servidores de la nación, a quienes le agradecemos mucho el esfuerzo que realizan todos los días.</p>
+<p style="text-align: justify;">Si avanzamos la lámina. Gracias.</p>
+<p style="text-align: justify;">Aquí tenemos el dato. En el mes de diciembre del 2018 tuvimos un padrón de 313 mil madres o padres tutores, de 329 mil niñas y niños.</p>
+<p style="text-align: justify;">Para el mes de enero 16 mil madres ya no tendrían acceso al programa inclusive como estaba en antaño, porque el programa sólo abarca hasta niños con cuatro años cumplidos, de tal manera que 19 mil niños para enero ya no serían beneficiarios del programa bajo ningún esquema.</p>
+<p style="text-align: justify;">Entonces, bajo el padrón de enero de 2019, estamos hablando de 296 mil madres de familia y 310 mil niños, porque hay madres de familia que tienen dos niños que estaban dentro del programa.</p>
+<p style="text-align: justify;">En el recorrido que se hizo casa por casa, pudimos incorporar al programa 203 mil mamás y 213 mil niños; el resto que son 93 mil, poco más de 93 mil madres de familia y padres, representa 97 mil niños que no localizamos, y hay un catálogo de motivos por los cuales no fueron localizados e incorporados al padrón, principalmente porque los domicilios son inexistentes, las personas no son localizadas en el domicilio que está registrado; es decir que 93 mil madres de familia no pudieron ser verificadas, algunas son de cambio de domicilio en la misma colonia, y al enterarse que estaba haciéndose el censo se pudo recuperar la incorporación de ellas, de los niños y las niñas también a este padrón. Y 874 madres de familia no aceptaron el programa que representa el 0.3 por ciento.</p>
+<p style="text-align: justify;">Decir que, de estos 203 mil padres, madres o tutores, todos han aceptado por escrito, con su firma, que el modelo que se les está plantando del programa es correcto y lo aceptan.</p>
+<p style="text-align: justify;">Ya tenemos la aceptación, insisto, con firma autógrafa de cada una de las cédulas que se les presentó para validar sus datos, que sean correctos sus domicilios y demás, para poder pasar al proceso de bancarización y entregarles una tarjeta para que, como todos los programas del Gobierno de México, pueda hacerse a través de este mecanismo y no haya nadie en la intermediación de la entrega del apoyo.</p>
+<p style="text-align: justify;">Como ya lo explicó la secretaria, ha habido inconsistencias. Aquí colocamos en esta lámina los puntos que encontramos con mayor inconsistencia, o sea, se presentaron de manera permanente, domicilios inconsistentes, calles que no corresponden a las colonias. Esto pasó en los 32 estados.</p>
+<p style="text-align: justify;">Este mecanismo de que las calles no corresponden a las colonias pasó en los 32 estados y es la gran parte de los 93 mil registros que no están localizados.</p>
+<p style="text-align: justify;">Registros de personas en un municipio con datos de otro estado, personas que no viven en los domicilios registrados, titulares con registros de hijos en estados diferentes; encontramos a algunas madres que tienen registrado un hijo en Michoacán y otro en Zacatecas; o sea, una inconsistencia ilógica.</p>
+<p style="text-align: justify;">Niñas y niños que no asisten a la estancia, que nunca asistieron o que dejaron de asistir antes de diciembre de 2018.</p>
+<p style="text-align: justify;">Estancias sin funcionamiento desde el 2018. Cuando se les preguntaba si acudían a determinada estancia referían que esas estancias no existían ya desde el 2018.</p>
+<p style="text-align: justify;">Y cambios de domicilio no reportados. Tratamos de hacer un esfuerzo en campo de localizar a las que hubieran tenido un cambio de domicilio en la misma zona, pero algunas refieren que hace algunos meses o años ya no viven en ese lugar.</p>
+<p style="text-align: justify;">De tal manera que eso es de manera general el contexto que encontramos en el censo.</p>
+<p style="text-align: justify;">Como ya lo indicó el presidente, vamos a mandar la información bajo el marco legal de protección de datos, sobre todo de los niños y las niñas, a los órganos de transparencia para que esta información esté a disposición de quien guste consultarlo.</p>
+<p style="text-align: justify;">Tenemos todas y cada una de las cédulas, insisto, con la firma autógrafa de los padres de familia que nos va a permitir pasar al tema del pago.</p>
+<p style="text-align: justify;">En conclusión, lo que vamos a hacer ya como va a arrancar el programa, insistir, son 203 mil madres y padres de familia, que a ellos se les entregará este apoyo.</p>
+<p style="text-align: justify;">Niños, 210 mil que tendrán un apoyo de mil 600 pesos bimestrales.</p>
+<p style="text-align: justify;">Niñas y niños con discapacidad:  Casi encontramos a la totalidad de los que estaban registrados, son arriba de tres mil, tres mil 372; tendrán un apoyo de tres mil 600 pesos bimestrales y los niños beneficiados serán 213 mil.</p>
+<p style="text-align: justify;">De tal manera que para este cuatrimestre digamos, porque vamos a pagar los dos bimestres juntos, son 666.7 millones de pesos, que se entregarán por única vez con una orden de pago a través de Telecom, y a la vez vamos a entregar las tarjetas para que los siguientes pagos podamos tener ya el proceso de bancarización.</p>
+<p style="text-align: justify;">Pero debido al retraso quisimos ya sacar la orden de pago, van a recibir su apoyo de manera inmediata y haremos durante este mes la bancarización; de tal manera que ya en el siguiente bimestre puedan cobrar a través de la tarjeta.</p>
+<p style="text-align: justify;">Este es el informe.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues esto es lo que queríamos informarles.</p>
+<p style="text-align: justify;">Como complemento, porque es interesante el tema, decirles que se ejercieron el año pasado alrededor de tres mil millones en este programa. Ahora nosotros calculamos que se van a ejercer dos mil. Esto implica un ahorro aun cuando supuestamente se entregaba más de los 800 pesos, se entregaban 900 aparentemente. De todas formas, estamos hablando de un ahorro considerable que es para ayudar a más gente necesitada y evitar la corrupción, que no haya corrupción ni arriba ni abajo.</p>
+<p style="text-align: justify;">Entonces, todo esto genera molestias, a veces por la desinformación se piensa que estamos dejando de apoyar a quien lo necesita. Este gobierno, como nunca se ha visto en la historia, está destinando recursos en favor de la gente humilde, de la gente pobre y lo podemos demostrar.</p>
+<p style="text-align: justify;">Pero no queremos la corrupción, no queremos que continué lo mismo. Políticamente se manejó este asunto hasta por personas que en el anterior gobierno recibieron dinero así para apoyar causas, para apoyar a migrantes y el dinero no le llegó a los migrantes, y eso nunca se ha aclarado.</p>
+<p style="text-align: justify;">Entonces, aunque haya protestas, además lo he dicho muchas veces, lo creo, es una convicción, tiene que haber críticas, tiene que haber discrepancia, tiene que haber oposición al gobierno, porque eso es consustancial a la democracia; pero si no tienen razón nosotros vamos a estar poniendo al descubierto todo, no nos vamos a quedar callados. Vamos a ejercer nuestro derecho de réplica.</p>
+<p style="text-align: justify;">Y bienvenida la crítica, bienvenido el cuestionamiento siempre. Vamos a ser respetuosos, pero tenemos el derecho de aclarar, de argumentar del porqué hacemos las cosas de una forma o de otra.</p>
+<p style="text-align: justify;">Entonces, toda la información que se requiera está disponible. Lo mismo para el caso de otros programas aplica también para éste. Si hay madres que no fueron censadas que falta de censar, está abierto el programa, pero el porcentaje no encontrado es considerable.</p>
+<p style="text-align: justify;">Y esto se repite en todos los programas que se aplicaban anteriormente, los programas de la llamada Secretaría de Desarrollo Social, que está pendiente, que les vamos a presentar igual el reporte de lo que se encontró y de lo se ejercía y no llegaba a los beneficiarios.</p>
+<p style="text-align: justify;">Muy bien. Eso es básicamente.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Buenos días, presidente. Alberto Rodríguez, de <em>SDP Noticias</em>.</p>
+<p style="text-align: justify;">Le quiero hacer una pregunta, es un tema de obvio interés general que tiene muchas aristas muy delicadas. Pido una disculpa, yo sé que esta pregunta la tiene que hacer una mujer, pero ya me toca a mí.</p>
+<p style="text-align: justify;">Le quiero hablar sobre las denuncias del Movimiento #MeToo. Pese a que la mayoría de las denuncias formales no son atendidas, pues en México hay niveles muy altos de impunidad y pese a que señalara un abusador supone un riesgo para la víctima, muchas voces desestimaron las acusaciones anónimas y ahora hasta están culpando a las denunciantes por la muerte de Armando Vega-Gil, el músico que se suicidó hace unos días.</p>
+<p style="text-align: justify;">¿Qué puede hacer el gobierno federal para atender las legítimas denuncias y sobre todo para generar confianza en el sistema y que las mujeres puedan acudir a las instituciones que corresponden para obtener justicia?</p>
+<p style="text-align: justify;">Gracias.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Es un tema que debe de atenderse. Yo considero que esto puede corresponder y se debe estar haciendo, pero debe de darse más atención en el Instituto de las Mujeres.</p>
+<p style="text-align: justify;">Qué bien que lo planteas, porque sí es un tema que se está debatiendo sobre cómo actuar, cómo evitar, cómo prevenir y cómo también salvaguardar la dignidad de las personas, tanto del que acusa como el acusado.</p>
+<p style="text-align: justify;">Eso se puede ver, es un buen tema a tratar de lo que estás planteando.  Es delicado, pero no podemos ocultar nada, hay que ventilar todo.</p>
+<p style="text-align: justify;">A ver, ustedes dos.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Buenos días. Oscar López de la Fundación Thomson Reuters.</p>
+<p style="text-align: justify;">El retiro de recursos federales a asociaciones civiles ha dejado a muchas organizaciones que trabajan con el tema de VIH sin los fondos adecuados para brindar servicios de detección y prevención. Al mismo tiempo, el cambio de la manera en hacer licitaciones de medicamentos ha dejado un desabasto de medicinas para tratar esta enfermedad.</p>
+<p style="text-align: justify;">En una época cuando la tasa de esta enfermedad está creciendo en el país, ¿qué hará el gobierno para asegurar que las poblaciones más vulnerables, los pobres, las mujeres transgénero, los hombres gays, entre otros, tengan acceso a las medidas de prevención y tratamiento que podrán salvar sus vidas?</p>
+<p style="text-align: justify;">Gracias.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Todo el apoyo para quienes necesiten medicamentos; no se trata de dejarlos sin protección, al contrario, es atenderlos mejor y que no falten los medicamentos, hay que buscar la forma. Estoy seguro que lo está haciendo la Secretaría de Salud.</p>
+<p style="text-align: justify;">Lo que queremos es acabar con la corrupción, en general, porque ese es el cáncer que destruye a México. Les explicaba la vez pasada que se compran cuatro mil millones de dólares de medicamentos, una sola empresa vendió al gobierno mil 300 millones de dólares el año pasado. Tres empresas el 60 por ciento de todos los medicamentos. Y en efecto, no hay medicamentos en centros de salud, en hospitales, con todo ese gasto. Entonces, ahora se están haciendo compras consolidadas y está participando la ONU para que sean compras transparentes y que no haya corrupción, porque es un crimen robarse el dinero de los medicamentos. Eso es lo que ya no queremos que suceda, pero no dejar de atender a quienes lo necesitan.</p>
+<p style="text-align: justify;">Ya lo acabo de decir y lo repito, este gobierno tiene como misión fundamental atender a los desposeídos, a los necesitados, a los enfermos, a los pobres, a los humillados, a los marginados. Lo he dicho muchas veces, lo repito ahora, vamos a atender a todos, a escuchar a todos, a respetar a todos, eso es muy importante, respetar a los adversarios, respetar el derecho a disentir, pero le vamos a dar preferencia a la gente humilde. Por el bien de todos, primero los pobres.</p>
+<p style="text-align: justify;">¿Por qué se produjo esta desigualdad monstruosa, en donde unos cuanto lo tienen todos y millones carecen hasta de lo más indispensable? Pocos tienen mucho y muchos tienen poco, casi nada. ¿Por qué? Por la corrupción.</p>
+<p style="text-align: justify;">Aquí no aplica del todo que hay una clase, la burguesía, que se queda con las ganancias por la explotación de la clase trabajadora, lo que se conoce como teoría marxsista, que se va acumulando el capital por la explotación que se lleva a cabo por parte de una clase en contra del proletariado. No es del todo cierto en el caso de México, o no aplica de manera estricta esta teoría que estudiamos cuando estábamos en la preparatoria o en la universidad, sobre todo en ciencias sociales. En México, la desigualdad se ha producido fundamentalmente por la corrupción, por el saqueo, por la utilización del gobierno para beneficio de una minoría rapaz a costa del sufrimiento de la mayoría de la gente.</p>
+<p style="text-align: justify;">Entonces, lo que ya no queremos es eso. No queremos un gobierno convertido en un comité al servicio de una banda de malhechores, de rufianes, de maleantes, de malandrines. Ya no queremos eso.</p>
+<p style="text-align: justify;">Entonces, cuesta trabajo la aplicación de esta nueva política después de tantos años, sobre todo después de 36 años del modelo neoliberal. Es cosa, repito, de ver qué significa privatizar -búsquenlo en el diccionario-, es convertir lo público en privado. En eso consistió la política en 36 años. Ya eso no aplica.</p>
+<p style="text-align: justify;">Entonces, lleva trabajo, lleva tiempo, causa molestias, hay protestas, hay resistencia, pero va la transformación, pero de ninguna manera es para perjudicar a quien lo necesita, a un enfermo, a una gente humilde, a un necesitado; al contrario, es para ellos, es para aminorar la monstruosa desigualdad que existe, es llevar a la práctica lo que decía Morelos: ‘Que se modere la indigencia y la opulencia’, que haya igualdad.</p>
+<p style="text-align: justify;">Para eso es que estamos acabando con la corrupción. Ese es el propósito y tiene muchísimos beneficios; no hace falta más que eso: Acabar con la corrupción y se logra el renacimiento de México, porque rinde el presupuesto, pues aquí lo vemos, en este programa.</p>
+<p style="text-align: justify;">¡Imagínense lo que hicieron de entregar, por ejemplo, los contratos para los gasoductos, que eso me trae molesto! Entregan contratos para construir gasoductos y la empresa que recibe el contrato autorizado por la CRE, estos organismos que crearon para legitimar el saqueo.</p>
+<p style="text-align: justify;">Si un gasoducto cuesta mil millones de dólares se va a terminar pagando ocho mil millones de dólares. Pero eso no es todo, el gasoducto no pasa a ser parte de la Comisión Federal de Electricidad, no se convierte en propiedad de la nación, sigue siendo de la empresa.</p>
+<p style="text-align: justify;">Eso es más que corrupción, eso es robo, es saqueo, ese tipo de contratos, estoy seguro que no se otorga en ninguna parte del mundo, en ningún lugar de la tierra, sólo en México. Abusaron, se pasaron. Entonces, eso es lo que ya no queremos.</p>
+<p style="text-align: justify;">Yo entiendo que puede haber preocupación y de buena fe, bien intencionada, de quienes piensan que con estas medidas que estamos tomando se va a afectar los derechos de los ciudadanos y de la gente que necesita apoyos, de ninguna manera, de ninguna forma.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Señor presidente. Demián Duarte, de <em>Pasión por los Negocios, Proyecto Puente, Política Rock n Roll Radio</em>. Vengo de Sonora, presidente.</p>
+<p style="text-align: justify;">Primero, le quiero agradecer a nombre de todos los sonorenses las dos visitas que nos hizo en el mes de marzo, lo esperamos más seguido por allá.</p>
+<p style="text-align: justify;">Como vengo de Sonora le quiero plantear temas que son de interés de los sonorenses en particular.</p>
+<p style="text-align: justify;">Usted sabe, Sonora es el principal estado minero del país, ahorita abordó usted el tema del fondo de minero, y tenemos la inquietud en Sonora -creo que también se ha planteado en Chihuahua en particular- de cómo va a ser las reglas de operación para la entrega de los recursos del fondo minero, que ya más o menos estamos en tiempo, y se asume que a Sonora le corresponden alrededor de mil 200 millones de pesos; sin embargo no ha habido una claridad respecto a cómo se va a orientar estos recursos.</p>
+<p style="text-align: justify;">Quisiéramos conocer su perspectiva al respecto.</p>
+<p style="text-align: justify;">El otro tema también se relaciona con minería. En particular, usted sabe porque yo lo vi en Ures, en específico en la campaña, tenemos un problema con los derrames que ya van a cumplir cinco años este agosto que viene. El asunto es que hubo un fideicomiso al que Grupo México aportó dos mil millones de pesos. Y sabemos que se aplicó una parte del fideicomiso, estuvo al frente del fideicomiso Rodolfo Lassi Tamayo; pero hay una opacidad por alrededor de 800 millones de pesos.</p>
+<p style="text-align: justify;">Se ha reclamado que se audite y se informe cómo se aplicaron esos recursos. Y quisiéramos saber si hay una perspectiva para que haya una remediación total de los daños ambientales que provocaron estos derrames.</p>
+<p style="text-align: justify;">El otro tema, señor presidente, tiene que ver con su presencia en San Luis Río Colorado, recientemente. Usted habló y refirió el tema de los combustibles en la frontera. En Sonora tenemos 11 municipios que son beneficiarios; sin embargo, no ha llegado el tema de la baja en los precios de la gasolina como se ha esperado. Tenemos tres meses con la zona libre. Se entiende que es un elefante, un cuerpo de lento desplazamiento, sin embargo, los sonorenses esperan una respuesta al respecto.</p>
+<p style="text-align: justify;">Y el tercero, en términos temáticos, estamos preocupados porque tenemos una reserva de la biósfera, incluso es la reserva más grande de América Latina, se llama El Pinacate. Está tomada desde inicios del mes de marzo por ejidatarios que reclaman derechos de propiedad. No dejan entrar ni siquiera al personal de control de la Semarnat, mucho menos a visitantes; y esto provoca una preocupación fuerte porque se trata de una reserva que es incluso más grande que estados completos, como Tlaxcala, Colima o Aguascalientes.</p>
+<p style="text-align: justify;">Quisiéramos saber si existe la posibilidad que el gobierno federal intervenga al respecto.</p>
+<p style="text-align: justify;">Muchas gracias, señor presidente.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy bien. Muy buenas tus preguntas, ahora me vas a estar recordando una por una, pero vamos a darle respuesta.</p>
+<p style="text-align: justify;">Y qué bien que estás aquí, y esto que también sirva para invitar a periodistas de los estados para que hagan sus planteamientos, porque esta conferencia la ven muchos ciudadanos de Sonora y de todo el país. Entonces, sí contestarte.</p>
+<p style="text-align: justify;">Primero, decirte que hay el compromiso y a mí me sirve mucho para empujar al elefante, hay el compromiso de terminar la carretera que atraviesa Sonora para abril o para mayo, que no se puede pasar de ese tiempo.  O sea, informo a los sonorenses. Se ha comprometido el ingeniero Cedric Escalante que se termina la carretera hasta Nogales. No voy a ir a inaugurarla porque no ese es el propósito, seguramente va a estar el secretario de Comunicaciones. Yo voy a estar pendiente de que se terminen las obras más que de ir a inauguraciones. Es también un cambio.</p>
+<p style="text-align: justify;">A veces voy a estar más en inicios de obra, porque eso sí me importa y supervisión de obra, pero la inauguración, desde luego la gobernadora de Sonora y el secretario de Comunicación.</p>
+<p style="text-align: justify;">En el caso de la minería es parecido, son cosas diferentes a lo de las estancias infantiles. Hablaba yo aquí de que se autoriza el dinero y la gente en donde se lleva a cabo la explotación minera ni siquiera sabe que le corresponde un apoyo.</p>
+<p style="text-align: justify;">Yo puedo aquí hacer el llamado, la convocatoria para que quienes viven en municipios en donde hay explotación minera, me digan o ellos se queden con esta interrogante, si saben que existía un impuesto que se cobra a las mineras y que tiene que ir a las localidades, a los pueblos donde se lleva cabo la extracción minera.</p>
+<p style="text-align: justify;">Les puedo garantizar que el 75, el 80 por ciento de la población de las zonas mineras no lo sabía, porque esto no se decía, se quedaba nada más arriba. Lo sabían los gobernadores y los presidentes municipales. No informaban. Y lo digo, porque yo estoy constantemente recorriendo los pueblos y le pregunto a la gente. Y no solo no lo sabían, sino no llegaba el dinero, no se aplicaba.</p>
+<p style="text-align: justify;">Entonces, ahora en las nuevas reglas de operación queremos que se apoye de manera directa a la población con esos fondos. En Sonora son más de mil millones que se entreguen de manera directa.</p>
+<p style="text-align: justify;">Y una de las formas que se está contemplando es de que se entregue como créditos son intereses para que los que tengan un pequeño negocio, una pequeña empresa, un taller tengan un crédito sin interés, les llamamos Tandas para el Bienestar y que puedan ir pagando mensualmente.</p>
+<p style="text-align: justify;">Vamos a empezar con una cantidad de seis mil pesos; terminan de pagar esos seis mil y se les entregan en automático 10 mil; terminan de los 10 mil y 15 mil; terminan de pagar los 15 mil y 20 mil y el dinero se mantiene. Si acaso va a haber una merma por el pago de intereses que lo absorbe el fondo y por una posible pérdida que calculamos puede ser cuando mucho del 10 por ciento del no pago, porque la mayor parte de la gente en México cumple con sus compromisos. La mayor riqueza de México es la honestidad de su pueblo.</p>
+<p style="text-align: justify;">Entonces, pensamos que de esta manera se puede ayudar a las poblaciones mineras y se reactiva la economía. Eso por lo que estás planteando sobre la minería.</p>
+<p style="text-align: justify;">Desde luego algunas autoridades sin tener todos los elementos, o por querer manejar los fondos como era antes, sin transparencia, se inconformaron y presentaron una controversia constitucional, diciendo que nosotros no podemos decidir sobre las reglas de operación de este programa.</p>
+<p style="text-align: justify;">Nosotros sostenemos, el gobierno federal, que sí podemos tener injerencia para decidir sobre cómo se aplican los fondos. Esto ya está en el Poder Judicial, vamos a esperar que el Poder Judicial resuelva sobre esta controversia.</p>
+<p style="text-align: justify;">Acerca de los daños que causó el derrame de deshechos de las minas, o de la mina del Grupo México en Sonora. En efecto, se creó un fideicomiso para hay inconformidad acerca del funcionamiento de las plantas de tratamiento, algunas se instalaron, otras no y se está revisando este proceso.</p>
+<p style="text-align: justify;">Decirle a la gente que se va a revisar cómo se aplicaron los fondos y qué se invirtió, qué no se invirtió y vamos a informar acerca de ese evento.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> El tema de la gasolina en la frontera, presidente.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> El tema de la gasolina, tienes razón. Es lo mismo, es empujar el elefante. Estuve por allá, fui a San Luis Río Colorado y ahí sí se está aplicando, pero no en Caborca ni en Nogales. Entonces, ya tiene instrucciones la secretaria de Economía, Graciela Márquez, para que sea uniforme, que sea en toda la frontera.</p>
+<p style="text-align: justify;">Lo mismo quitar trabas para la disminución del Impuesto Sobre la Renta y para la disminución del IVA del 16 al ocho por ciento.</p>
+<p style="text-align: justify;">Lo que sí se está aplicando bien, me consta, es lo del aumento al salario mínimo, pero falta el complemento o no se está aplicando del todo el programa de Zona Libre en la frontera, pero ya estamos trabajando sobre eso.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> Tenemos problemas en Agua Prieta y en Puerto Peñasco también, presidente, en el tema de la gasolina, en particular. Se lo comento porque me tocó recorrer directo.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, pero en el caso de Peñasco, sería Sonoyta, porque son las poblaciones fronterizas; ya Puerto Peñasco ya no está en la zona fronteriza, acuérdate que son 25 kilómetros de la línea divisoria. De todas formas, lo vamos a ver.</p>
+<p style="text-align: justify;">¿Qué otra cosa me preguntaste?</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> Sin abusar de su tiempo, presidente, pero el tema de la reserva de la biosfera El Pinacate. Para nosotros es muy importante, porque recibimos visitantes de todo el mundo y es una de las imágenes icónicas de nuestro estado, en donde protegemos la fauna y la flora de nuestro desierto</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Tomamos nota y desde ahora se ve. Y mañana en la mañana, en la reunión de seguridad que coordina precisamente un sonorense, Alfonso Durazo, le vamos a pedir que atienda este asunto, el Gabinete de Seguridad.</p>
+<p style="text-align: justify;">Eso fue todo. A ver las dos, tres compañeras. Dos y Sara.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Gracias, señor, gracias señor presidente. Sandra Aguilera, de <em>Grupo Larsa Comunicaciones.</em></p>
+<p style="text-align: justify;">Actualmente en distintos estados del país se utiliza el sistema de multigrado en planteles o instituciones; en la mayoría de los casos no están habilitados los docentes y no están capacitadas estas instituciones para atender esta problemática.</p>
+<p style="text-align: justify;">¿Tiene contemplado en su gobierno mejorar y habilitar los centros escolares para que se busque la inclusión de la niñez?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Es una muy buena pregunta. Son de los temas más preocupantes en la educación. Ya ven cómo se politiza todo, se carga de ideología y los temas más interesantes se hacen a un lado.</p>
+<p style="text-align: justify;">Este tema, hay miles de escuelas que son atendidas por uno o dos maestros, los seis grados; o sea, eso es lo de multigrados. Un maestro atiende a niños de primero, de segundo y de tercero, otro maestro a niños de cuarto, quinto y sexto por la dispersión poblacional que existe.</p>
+<p style="text-align: justify;">Estamos buscando cómo mejorar este sistema. Hay opciones. Existe una opción que es la de la creación de los centros integradores de servicios, estamos trabajando en eso. Vamos a constituir ocho mil centros integradores, que son poblaciones más abajo en población, con menos población, que las cabeceras municipales, pero más cercanas a las poblaciones pequeñas dispersas.</p>
+<p style="text-align: justify;">Entonces, en estos centros integradores queremos crear las escuelas o tener escuelas-albergues completas.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> ¿Se van a capacitar a las personas para que puedan atender…?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí. Lo que estamos viendo es cómo los niños de comunidades apartadas, que tienen que recibir educación con un maestro para todos los grados o con dos, cómo pueden ir a estas escuelas, que están distantes de todas maneras, pueden estar a seis horas, ocho horas a pie.</p>
+<p style="text-align: justify;">Entonces, que los niños estén de lunes a viernes en estos centros integradores, en escuelas de educación completa, integral, también con actividades relacionadas con la producción, con oficios, talleres, actividades agropecuarias, en albergues, que puedan vivir ahí, que puedan tener alimentación e irse los viernes por la tarde a sus comunidades, con sus padres y regresar muy temprano el lunes o los domingos.</p>
+<p style="text-align: justify;">Estamos trabajando sobre esto. Hay ya modelos que han funcionado donde se han aplicado y concentrar lo más que se pueda, porque estamos hablando de poblaciones muy pequeñas, donde son escuelas con 40 alumnos, 50 alumnos. Entonces, no se puede tener un maestro por cada grado. Estamos trabajando en eso.</p>
+<p style="text-align: justify;">Qué bien que lo planteas, que esos son de los grandes problemas.</p>
+<p style="text-align: justify;">No tengo el dato exacto, mañana lo voy a tener, pero estoy seguro, ahí sí me dejo de llamar Andrés Manuel, que la mayoría de las escuelas son multigrado en el país.</p>
+<p style="text-align: justify;">Entonces, cuando hablan de -si me dejo de llamar Andrés Manuel, me puedo quedar como Andrés o como Manuel-, pero sí son miles. Y es importante tocar este tema porque eso ni se sabe, no se conoce. Los defensores de la mal llamada reforma educativa se van por otro lado, o sea, no atienden esto, que es lo que debería de importarnos.</p>
+<p style="text-align: justify;">Y luego el otro tema, la deserción escolar. En esas situaciones muchos niños ya no pueden seguir estudiando. La deserción en el nivel medio superior es preocupante, los que entran a la preparatoria y no terminan, es el porcentaje mayor. Entonces, son los temas que tenemos que atender en lo educativo.</p>
+<p style="text-align: justify;">Quedamos en la compañera.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Buenos días, presidente. Soy Joselyn Gutiérrez…</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> A ver, permíteme nada más un segundo, perdón. Jesús, ¿no puedes ver el dato?</p>
+<p style="text-align: justify;">43 por ciento de las escuelas. Ah, ya perdí. 43 por ciento de las escuelas son multigrado. Sí. Muchísimas.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> Joselyn Gutiérrez, de <em>Político.mx</em></p>
+<p style="text-align: justify;">Para preguntarle dos cuestionamientos, presidente, y si me permite hacerle una pregunta a la secretaria de Bienestar.</p>
+<p style="text-align: justify;">Comenzando primero, que el Senado ya aprobó la legibilidad de las ternas para la CRE. De hecho, esta misma semana podrían ser votadas para elegir a los próximos comisionados de la comisión. Senadores como Xóchitl Gálvez siguen criticando los perfiles que usted mandó al Senado.</p>
+<p style="text-align: justify;">En este caso, ¿qué les pide usted o cuál es el llamado que le hace la oposición en este caso?</p>
+<p style="text-align: justify;">También para preguntarle sobre el gobernador de Tabasco, Adán Augusto. Desmintió a la Asociación de Alto al Secuestro, declaró que no hay un aumento en este delito en el estado y también declaró que aumentó lo que es el homicidio doloso debido al huachicol y al narcotráfico.</p>
+<p style="text-align: justify;">Me gustaría saber qué piensa usted sobre la situación actual de la seguridad en su tierra natal, Tabasco.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ojalá y se aprueben las ternas que se enviaron para la CRE. Hay diferencias, es natural porque también es otro método. Antes se negociaba ahí, los partidos: ‘Dos para ti, dos para mí y dos para el otro’. Así era, que ahora ya no es así.</p>
+<p style="text-align: justify;">Entonces, ahí andan con sus listas queriendo meter ellos a sus allegados. Y además es un asunto… imaginen la CRE, que fue la que autorizó todos estos contratos leoninos, son los representantes o eran representantes de grupos de intereses creados, hasta con conflictos de intereses. Entonces, no les conviene.</p>
+<p style="text-align: justify;">Ahora son técnicos y es gente honesta la que se envió. El otro día un periódico, la prensa fifí, diciendo que uno de los que envié vende perfumes. Son gente honesta, todos profesionales, todos cumplen, pero no son achichincles. Entonces, eso es lo que no les gusta</p>
+<p style="text-align: justify;">Entonces, por eso cuesta y la insinuación es: ‘Vamos a ponernos de acuerdo’. No, apeguémonos a la ley. Si ustedes dicen que no reúnen el perfil, rechácenlas. Yo sostengo que sí y lo puedo probar y no solo son buenos técnicos, hay gente honesta, que es lo que más se necesita.</p>
+<p style="text-align: justify;">Acuérdense ustedes que en la novela de Puzo, la de <em>El Padrino</em>, mandaba a sus hijos, a uno de ellos a estudiar a extranjero, buenas universidades; o sea, eso no es garantía, nada más el nivel académico, además no confundan educación con cultura.</p>
+<p style="text-align: justify;">Ese es otro cambio, porque hay veces que se piensa que los grados académicos son como equivalentes a títulos nobiliarios y que ya dan patente para cometer actos de corrupción. Porque viene de estudiar en una universidad del extranjero famosa, de gran prestigio, ¿ya por eso es experto? Pues no, no, no.</p>
+<p style="text-align: justify;">Entonces, son buenos técnicos todos, conocen de la materia. El otro día fue el ingeniero Celestino, ya se los platicaba; dije aquí que es uno de los que va en la terna, es el que sabe más de refinería en este país y le dije: El asunto es que tiene 85 años, está, pero lúcido y activo, trabajador y dije aquí que tenía 85 y me dijo: ‘Le agradezco licenciado, porque no tengo 85, tengo 90, pero como ya es un decreto presidencial, ya tengo 85, ya me quedo con 85’, pero es una gente que sabe, es uno de los que están ahí propuestos.</p>
+<p style="text-align: justify;">Entonces, vamos a esperar a ver qué resulta. Ojalá y los senadores revisen bien sobre este tema y se atienda para que estemos todos tranquilos, porque dan miedo.</p>
+<p style="text-align: justify;">Antes también daba miedo el Congreso. Yo descansaba cuando se iban a periodos extraordinarios, es decir, cuando no estaban. No extraordinarios, cuando se iban a receso.</p>
+<p style="text-align: justify;">Todas las reformas que hicieron en el periodo neoliberal para afectar al pueblo se autorizaron en el Congreso, las reformas constitucionales. Entonces, cuando estaban en receso podía uno estar tranquilo. Cuando había sesiones: ‘¡Qué van ahora a probar estos!’ Era una amenaza pública.</p>
+<p style="text-align: justify;">Entonces, que todos estemos tranquilos, que no vayan a aprobar cosas en contra del interés general.</p>
+<p style="text-align: justify;">Todas las reformas que ordenaron desde el extranjero para la aplicación de la agenda de las llamadas reformas estructurales las aprobaron los diputados y los senadores, o sea, toda la modificación al marco legal. Hasta se puede hacer el relato. Ahora ya no, ahora ya hay más tranquilidad, que los legisladores actúan con independencia, no hay consigna para que aprueben determinada política. Eso es lo que puedo contestarte, ojalá y se resuelva pronto.</p>
+<p style="text-align: justify;">¿Lo otro?</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> Gracias. Lo otro, le comentaba que el gobernador de Tabasco Adán Augusto…</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, mire, todos los días vemos qué sucede en los estados y Tabasco tiene en incidencia delictiva… vamos a decir que está a la mitad de la tabla en incidencia delictiva, en homicidios, en robos, en secuestros. A la mitad.</p>
+<p style="text-align: justify;">Ayer por ejemplo, esto me da gusto, no es para cantar victoria, pero ayer de los 32 estados, -lo puedo probar, es más, ojalá y pasen la tabla hoy-, de los homicidios, hubo 15 estados sin homicidios, de los 32. Eso es alentador, claro, eso fue ayer, alrededor de 70 homicidios el día de ayer.</p>
+<p style="text-align: justify;">Todos los días estamos viendo. Por ejemplo, ayer de los estamos con más homicidios, Chihuahua y a ver si el Estado de México, a ver si me equivoco. Miren, eso fue lo de ayer, homicidios, pero cuenten donde no hubo, ¿cuántos son?  Según nuestra información son 15, ¿verdad?, 62. Hay otras fuentes, pero la nuestra es esa.</p>
+<p style="text-align: justify;">Entonces les hablaba yo de Chihuahua 10 y del Estado de México.</p>
+<p style="text-align: justify;">Por cierto, en Tabasco, ¿cuántos tiene? No hubo ayer.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> ¿Esta incidencia la podría presentar diariamente, más que las reuniones de gabinete? Es una forma de pedir y de …</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Nosotros estamos desde las seis de la mañana viendo esto.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> Mostrarla, digamos, como una rutina informativa.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ya se hace pública todos los días.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> O sea, viene como el…</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ya, ya va por estado. Pero todos los días esta es nuestra preocupación; pero no sólo nos preocupamos, nos ocupamos y a partir de esto es que tomamos decisiones.</p>
+<p style="text-align: justify;">Por ejemplo, si en Baja California tenemos cuatro, cuando llegamos a tener sólo en Tijuana 20, es que nos está funcionando el plan. Por ejemplo, Guanajuato, que siempre había estado arriba, ¿cuántos trae ahora? Dos. Jalisco es otro estado complicado, ¿cuánto trae? Cuatro.</p>
+<p style="text-align: justify;">Esto por tu pregunta. Pero esto no es suficiente, este es un día y vamos poco a poco. Desde luego, esto va a mejorar, esto es un desafío, un reto, nada más que necesitamos la integración de la Guardia Nacional, todo lo que estamos haciendo.</p>
+<p style="text-align: justify;">Pronto les vamos a presentar, muy pronto, estamos trabajando, el plan para reducir el consumo de drogas en jóvenes, porque estamos convencidos que, si no bajamos el consumo de la droga, si sigue aumentando el consumo de droga, no vamos a poder detener la violencia.</p>
+<p style="text-align: justify;">Entonces, es primero el daño que ocasionan las drogas que se están consumiendo, el cristal, las famosas cocinas.  Entonces, es como un plan de atención a los jóvenes.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> (Inaudible) también alcohol.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Alcohol, pero sobre todo nos preocupa mucho lo de las drogas sintéticas, porque son altamente destructivas y tenemos que detener el consumo en los jóvenes. Ya estamos trabajando para eso.</p>
+<p style="text-align: justify;">Va a haber un plan. Así como lo hicimos con el huachicol, de que dijimos: Va a enfrentarse esto, así estamos haciendo el plan para lo de la atención a los jóvenes.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTOR:</strong> Yo le pregunto sobre el alcohol, porque ayer se publicó una encuesta en la que refería, digamos, el índice de alcoholismo, se enfocó más a jóvenes entre 18 y 29 años que tienen que ver con el programa de jóvenes y se decía que al menos uno de cada 10 está inmerso en el alcoholismo.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Estamos trabajando en el diagnóstico para saber, o sea, no se puede transformar una realidad que no se conoce. Queremos conocer bien cómo está el consumo, cómo se ha comportado el consumo de alcohol, el consumo de droga, de un tiempo a la fecha.</p>
+<p style="text-align: justify;">Porque es muy grave el aumento en el consumo, porque la población mexicana, por nuestras culturas, no hay que olvidar que la cultura es la que nos salva siempre, por nuestras culturas, por la cohesión de las familias mexicanas, la familia mexicana es la institución de seguridad social más importante del país; entonces, últimamente ha habido mucho problema de desintegración de las familias. </p>
+<p style="text-align: justify;">No había tanto consumo, no se incrementaba el consumo en el país, era más tráfico. Tenemos que atender el tema, porque si enfrentamos el incremento o detenemos el incremento y el consumo lo disminuimos, vamos a poder garantizar la paz y la tranquilidad.</p>
+<p style="text-align: justify;">Es que la adicción lleva a la consumación de otros delitos, induce a que se cometan otros delitos, además del daño que provoca, la destrucción de los jóvenes. Entonces, ese es un tema importantísimo, es un tema prioritario que vamos a atender, ya estamos trabajando sobre eso.</p>
+<p style="text-align: justify;">Y ya esto va a ser acompañado por una campaña, pero no queremos nada más la campaña. No es nada más: ‘No consumas o no caigas en las garras de los delincuentes o no te destruyas’, sino dar opciones, alternativas a los jóvenes, tanto a los jóvenes para que no caigan en la drogadicción, una campaña preventiva.</p>
+<p style="text-align: justify;">Hay madres que me dicen: ‘Le encargo, le encargo lo de la atención a los jóvenes’, desesperadas. Por eso la comunicación con la gente porque las mismas mamás, los padres, están preocupados por esto. Entonces, primero lo preventivo.</p>
+<p style="text-align: justify;">Y también que ya cuando hay adicción, ¿cómo recuperar a los jóvenes? Por eso también el programa Jóvenes Construyendo el Futuro es preventivo, que el joven tenga opciones, tenga alternativas, pero no es suficiente, hace falta un plan integral que es el que vamos a trabajar.</p>
+<p style="text-align: justify;">Ayer, la Marina desmanteló instalaciones de procesamiento de droga, cocinas de elaboración de cristal. ¿No las tienen ahí las fotos?</p>
+<p style="text-align: justify;">Ya con esto terminamos, porque nos ampliamos mucho hoy. Ustedes ya tienen ganan de irse a desayunar.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> Disculpe, y la pregunta para la secretaria de Bienestar.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> A ver si la tienen. Sí, estamos sobre el tema, pero esto es importante. Sí, ya lo abordamos.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> Entonces, ¿sí que me deje contestar la pregunta que tengo sobre las estancias infantiles?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Mientras buscan.</p>
+<p style="text-align: justify;"><strong>MARÍA LUISA ALBORES GONZÁLEZ, SECRETARIA DE BIENESTAR:</strong> Sí, adelante.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> Muchas gracias.</p>
+<p style="text-align: justify;">Mi pregunta es si tienen algunas cifras sobre las denuncias presentadas sobre las irregularidades que ustedes detectaron de las estancias infantiles, si tienen algún número de la Fiscalía, con la Fiscalía General o alguna otra dependencia o autoridad.</p>
+<p style="text-align: justify;"><strong>MARÍA LUISA ALBORES GONZÁLEZ, SECRETARIA DE BIENESTAR:</strong> No, hay algunos amparos.</p>
+<p style="text-align: justify;">Se comentaba que porque no se había hecho las reglas de operación. De hecho, en una de las láminas que presentó la compañera Ariadna, se nota ahí que fue el 28 de febrero. Sí se publicaron las reglas de operación, pero hay un cambio de nombre, no se llama el programa Estancias Infantiles, que es lo que estuvimos comentando al principio, es Becas para Niños y Niñas de Madres Trabajadoras.</p>
+<p style="text-align: justify;">Y el esquema cambia porque queremos que llegue el recurso a quienes están en el programa; y en este caso la responsabilidad de estas niñas y de estos niños son las madres o los padres, en este caso los tutores. Por eso es el cambio.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> Muchas gracias.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> A ver, pónganla. Miren, este es un problema. Miren lo que se usa, esto es terrible, destructivo.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> (inaudible)</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sinaloa. Jesús les entrega el informe.</p>
+<p style="text-align: justify;">Esto por lo general, esto no lo damos a conocer siempre, porque tiene que ver con las acciones que se llevan a cabo, pero ahora como sale el tema y nos importa mucho lo del plan de prevención, y nos están viendo, que se sepa para que ya todos ayudemos también. Así como se ayudó con lo del huachicol, que nos ayuden todos.</p>
+<p style="text-align: justify;">Vamos a rescatar a los jóvenes, nunca más darles la espalda a los jóvenes.</p>
+<p style="text-align: justify;">Muy bien, terminamos son Sara.</p>
+<p style="text-align: justify;">Mañana nos vamos a ver y pasado mañana. Por cierto, vamos a estar en Jalisco.</p>
+<p style="text-align: justify;"><strong>PREGUNTA:</strong> Buenos días, presidente.</p>
+<p style="text-align: justify;">Preguntarle por un lado en el tema de la frontera. Esta lentitud en los cruces, entendemos que hay algunos cierres parciales en algunas garitas. Si usted tiene informes de qué impacto económico tienen estos cierres y qué se va a hacer para evitarlos, o esta lentitud. Y, por otro lado, si se está hablando con autoridades de Estados Unidos.</p>
+<p style="text-align: justify;">En este mismo tema, ¿cómo toma usted el discurso del presidente Trump, que por un lado dice que hay una emergencia nacional hoy en la mañana y ayer decía que México está haciendo mucho por detener a los migrantes?</p>
+<p style="text-align: justify;">¿Hay detenciones de migrantes en la frontera sur del país? Gracias. Tengo otra pregunta, si quiere después.</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Es un tema que ya se está atendiendo.</p>
+<p style="text-align: justify;">Hay muy buena comunicación con el gobierno de Estados Unidos. El secretario de Relaciones Exteriores, Marcelo Ebrard, tiene comunicación permanente.</p>
+<p style="text-align: justify;">Nosotros estamos ayudando, lo vamos a seguir haciendo para que se evite un conflicto, que mantengamos abierta la frontera.</p>
+<p style="text-align: justify;">Hasta ahora, les puedo decir que están abiertos los cauces, las garitas, no hay ningún problema.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> La lentitud, ¿qué implica?, ¿cuánto implica de pérdidas?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No es significativa, no hay problemas graves, no hay. Y vamos a procurar distender este ambiente.</p>
+<p style="text-align: justify;">Entonces, vamos muy bien. Estamos ayudando nosotros. Es un fenómeno, yo espero que sea temporal, transitorio, tiene varias aristas y lo más importante es manejarlo con responsabilidad y que haya cooperación entre todos.</p>
+<p style="text-align: justify;">Que los gobiernos actuemos de manera conjunta, que se mantenga la comunicación en la frontera. No nos conviene a nadie el cierre de fronteras. No es lo más recomendable.</p>
+<p style="text-align: justify;">Yo celebro que ya el gobierno de Estados Unidos esté reconociendo que nosotros estamos ayudando. Lo vamos a seguir haciendo, vamos a seguir apoyando con mucho cuidado, con mucha cautela, porque se trata de un fenómeno que surge por la desatención a la gente.</p>
+<p style="text-align: justify;">Ya les hablaba que hay que atender las causas, hay que implementar programas de desarrollo de inmediato en Centroamérica. Ya nosotros estamos actuando en ese sentido.</p>
+<p style="text-align: justify;">Y apenas, bueno, los deportados mexicanos es un porcentaje menor, tiene que ver esto con nuestros hermanos centroamericanos, pero no los culpamos, esto tiene que ver con la necesidad.</p>
+<p style="text-align: justify;">Por eso tenemos que cuidar nuestra frontera, que se aplique la ley, respetando derechos humanos.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> ¿No hay detención de migrantes en la frontera sur, de centroamericanos?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Se está actuando con mucha prudencia. Y sí se está buscando que se respete la ley y vamos muy bien.</p>
+<p style="text-align: justify;">Yo no estoy pesimista, yo estoy optimista, creo que se van a resolver las cosas.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> Le quiero preguntar en otro tema, de salud. Esta prueba del tamiz neonatal, que al parecer está suspendida por temas de austeridad; y también en el Instituto de Cancerología se habla de que no hay suficiente medicamento, justo por estos temas presupuestales.</p>
+<p style="text-align: justify;">¿Qué informes tiene usted, si esto es correcto?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Es un poco lo que preguntaron, no faltan medicamentos, no deja de haber presiones.</p>
+<p style="text-align: justify;">¡Imagínense! Si se rayaban, pues no les gusta que se les acabe el negocio, era una mina de oro.</p>
+<p style="text-align: justify;"><strong>INTERLOCUTORA:</strong> ¿Pero la prueba sí se sigue aplicando?</p>
+<p style="text-align: justify;"><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Claro que puede haber inconformidades, pero todo se resuelve.</p>
+<p style="text-align: justify;">Esto que estás planteando ahora. Si se estuviese presentando, hoy mismo el doctor Jorge Alcocer lo va a atender. Y ahora sí que disculpen por las molestias que estas obras ocasionan, pero la corrupción la vamos a acabar.</p>
+<p style="text-align: justify;">Además, es interesantísimo. No se aburre uno cuando hay polémica; si no, la vida es muy aburrida, hasta bosteza uno cuando no hay debate; o sea, la democracia tiene eso, ¿no?, es un gran atractivo, es un estímulo, es el mantener una sociedad viva, avispada, despierta, demandante. Eso es la democracia, eso es lo que queremos, no ciudadanos imaginarios, sino ciudadanos de verdad.</p>
+<p style="text-align: justify;">Entonces, estamos viviendo un tiempo muy interesante, de mucha participación.</p>
+<p style="text-align: justify;">Muchísimas gracias, gracias.</p>
+<p style="text-align: justify;">+++++</p>
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

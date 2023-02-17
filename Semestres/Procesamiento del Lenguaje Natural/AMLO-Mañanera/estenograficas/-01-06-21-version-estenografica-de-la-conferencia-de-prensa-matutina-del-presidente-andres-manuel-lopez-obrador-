@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>01.06.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/01-06-21-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=140977' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F01-06-21-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F01-06-21-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66jiv-f-7d6d6d5f8-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":18,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"38feee37","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55812,"ak.gh":"23.47.207.46","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616981","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==ap3xmrfbhADaDsag8ZCCRU9UKkWLqdS8eBH2D6yiXPgjoY1pT1SogkY3fR23Gt0apMEtGmLP9ugHwhYFt5JRP+tlZ/XiaVwe7r4pmT2da4jnDWxTasIWtXVVLCVQG9zPbCWrglSX+Drl1VxK6rFfbPNwBrOL0OFrfHqhD7pbczcqfCIcup1JxTFvUy5fUzDbii0TlSQsLYym3X6/DcsZm6Bo9eYE2FFdJXgM6G/A9qsPBeqLK0OGnkONlPaErcuk+sDTpp/9sdnaxUsxKaBD7qJE0CbihUDIR6bT0pVjVCrfSfYuBf2o5AzsPOgiXlstLEtaOx1I9ZxjbbbKcVSx4sxZhr+fWPPiRowGHIThubSnaC0oULnrYWQJdJXNNhl8ABLnsQ8/6Ok9EDj9QsFJ0S0594THSKrHPp6RD/DRykM=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-140977 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef228706eaf" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>01.06.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 01.06.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-140977" class="post-140977 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2021/06/01-06-2021-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-09.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2021/06/01-06-2021-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-09-745x450.jpg" alt="01.06.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">01.06.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><em>2021: Año de la Independencia</em></p>
+<p>&nbsp;</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Buenos días.</p>
+<p>Vamos a informar, como lo hacemos todos los martes, sobre la situación de salud en el país, en especial todo lo relacionado con la pandemia, que afortunadamente ha ido cediendo, en que hay algunos estados, municipios, en donde ha habido un poco de contagio últimamente, pero ya se está atendiendo, en general en el país hay una disminución de la pandemia y lo más importante de todo, lo que nos da más tranquilidad, es que están bajando los fallecimientos, eso es lo que más, más nos llena de satisfacción, porque, de lo contrario, es tristeza, es dolor.</p>
+<p>Entonces, vamos a avanzando, el plan de vacunación va de acuerdo a lo programado, va muy bien. Acordamos que íbamos a finalizar mayo con 40 millones de dosis y hoy se tienen ya las 40 millones de dosis, quizá un poco más tarde, que va llegar en un envío, estamos en 39 millones 800 mil hasta ayer, pero hoy ya pasan de los 40 millones de dosis, que fue lo que dijimos que habría para finales de mayo.</p>
+<p><audio src="http://presidente.gob.mx/wp-content/uploads/2021/06/2021-06-01-Matutina.mp3" controls="controls"></audio></p>
+<p><iframe src="//www.youtube.com/embed/y6G-aQN_uyA?t=1031" width="600" height="400" allowfullscreen="allowfullscreen"></iframe></p>
+<p>De modo que vamos a informar. El doctor Alcocer, secretario de Salud, que le corresponde la segunda dosis el día de hoy, y ayer que tuvimos la reunión de salud que hacemos lunes y jueves, comentaba que no nos iba a acompañar porque iba a ir a que le pusieran su vacuna; lo convencimos para que lo haga aquí, porque es muy importante que se dé confianza de que la vacuna ayuda, que no afecta; quienes se ponen la vacuna tienen protección. Y no sólo es un asunto médico, también es un asunto de seguridad, es un asunto emocional, también el ponerse la vacuna da seguridad, por eso vamos a seguir promoviendo que todos nos vacunemos.</p>
+<p>Y después del doctor Alcocer, pues Hugo López-Gatell va a informar sobre cómo vamos; nos va a informar la maestra Delfina Gómez Álvarez sobre el regreso a clases presenciales; el secretario de Relaciones Exteriores, Marcelo Ebrard, sobre el abasto de vacunas; y la distribución, logística, el llevar la vacuna hasta donde se necesita, hasta los lugares más apartados, esto se ha encargado al secretario de la Defensa, a Luis Cresencio Sandoval González, y a las Fuerzas Armadas, porque ayuda también la Secretaría de Marina.</p>
+<p>Entonces, vamos a iniciar la información.</p>
+<p><strong>JORGE ALCOCER VARELA, SECRETARIO DE SALUD:</strong> Con su permiso, señor presidente.</p>
+<p>Muy buenos días a todas y a todos ustedes.</p>
+<p>Como es bien sabido, la política de vacunación dirigida por el presidente, licenciado Andrés Manuel López Obrador, nos está devolviendo, como acaba de señalar, la tranquilidad, la esperanza y, como fue anunciado a su inicio, empieza a ser evidente la eficacia de las vacunas COVID para reducir las infecciones al virus SARS-CoV-2, las admisiones hospitalarias y los desafortunados fallecimientos.</p>
+<p>Al inicio de la semana 22, la pandemia en México sigue en descenso y la vacunación avanza. En el Pulso de la Salud, como lo acaba de mencionar el señor presidente, el doctor López-Gatell les mostrará los elementos clave que sustentan el mencionado descenso de la actividad en la pandemia y del estado que guarda la vacunación, pues en la semana previa se aplicaron, se lograron aplicar tres millones 805 mil 126 vacunas como ejemplo.</p>
+<p>La maestra Delfina Gómez nos mostrará cómo terminó la vacunación al personal educativo tanto público como privado al cabo de seis semanas de su inicio y cómo va a ser el regreso a clases presenciales.</p>
+<p>El canciller Marcelo Ebrard nos hablará sobre la perspectiva en el camino de seguir, seguir asegurando las vacunas para nuestro país.</p>
+<p>El general Luis Cresencio Sandoval González nos mostrará cuáles son los elementos centrales de la logística y la seguridad para lograr la llegada del producto biológico al sitio de su aplicación.</p>
+<p>Muchas gracias.</p>
+<p>Hugo, por favor.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ, SUBSECRETARIO DE PREVENCIÓN Y PROMOCIÓN DE LA SALUD: </strong>Con su permiso, presidente.</p>
+<p>Con mucho gusto, maestro. Secretaria, secretarios, muy buenos días tengan todas y todos ustedes.</p>
+<p>Como ya dice el secretario Alcocer y ha mencionado el presidente la epidemia de COVID-19, aunque persiste lleva ya 19 semanas consecutivas a la baja y estamos en la semana número 20 de reducción.</p>
+<p>En lo que se prevé de las siguientes dos semanas se sigue visualizando una tendencia de reducción, ya se conoce que generalmente esperamos en las dos semanas que están más recientes a ver el acúmulo de los datos para verificar esta situación.</p>
+<p>Pero vamos a ver la primera imagen, que es nuestra curva epidémica de casos estimados. Y lo que se puede ver es que el punto máximo ocurrió en la primera semana de enero y desde entonces desciende, desciende, desciende.</p>
+<p>En el cambio más reciente de la última semana de la información es de cinco por ciento la reducción, pero es una reducción general de 92 por ciento desde el punto más alto hasta la información más reciente, lo mismo vemos que menos del uno por ciento, 0.7 por ciento de los casos son casos activos, cuando consideramos todos los casos que se han registrado a lo largo de la epidemia solamente 0.7 por ciento son de los últimos 15 días con capacidad de contagiar.</p>
+<p>Lo mismo se ve para las personas que están hospitalizadas. Se ha ido reduciendo, se han ido desocupando las unidades COVID y algunas de ellas que permanecen activas mantienen siempre la capacidad de readaptarse si es que existieran repuntes, como existe en algunas de las entidades federativas, particularmente hemos mencionado Quintana Roo y Colima como dos entidades federativas en las que la tendencia ha sido creciente desde la Semana Santa, pero en el resto de las entidades federativas en general hay una tendencia estable o en la mayoría a la baja también.</p>
+<p>Respecto a la vacunación tenemos cada vez más capacidad de poner vacunas. En primer lugar, porque la capacidad de recibirlas es mayor y estamos recibiendo progresivamente dotaciones más amplias; pero también la capacidad operativa, que depende de las instituciones del Sistema Nacional de Salud, de las Fuerzas Armadas, tanto la Sedena como la Secretaría de Marina como la Guardia Nacional.</p>
+<p>También tenemos importante colaboración en las entidades federativas y ha habido una fuerza de tarea muy, muy importante dada por los servidores y servidoras de la nación que nos permiten expandir a cada rincón del país la capacidad de vacunar.</p>
+<p>Como comentábamos ayer por la tarde, en la semana reciente tuvimos tres días consecutivos con aplicaciones arriba de 700 mil dosis de vacunas, 785 mil en el día más alto y ahora estamos abriendo una nueva semana y ayer por el registro de la noche tuvimos 511 mil 334 dosis de vacunas aplicadas en un solo día, el primer día del ciclo semanal, lo que anticipa que estaremos aumentando la capacidad.</p>
+<p>Esperamos llegar arriba de 850 mil, ojalá que logremos tener incluso el millón de dosis por semana, que es nuestro propósito, esto en la medida en que hemos avanzado ya en terminar todo el ciclo de vacunación de las personas trabajadoras de la educación, esto lo explicará a detalle la secretaria de Educación, la maestra Delfina Gómez Álvarez.</p>
+<p>Pero también estamos terminando ya lo que correspondió a la etapa 2, que somos las personas de 50 años a 59, que recibimos al menos la primera dosis de vacuna y, según el calendario que se específica para cada vacuna, estaremos recibiendo la segunda cuando nos toque, pero prácticamente esta semana terminamos 50 a 59 y ya está misma semana abrimos 40 a 49 y tenemos un avance inicial muy positivo.</p>
+<p>Casi 31 millones de dosis se han puesto en México desde la primera que se puso el 24 de diciembre del año pasado, casi 31 millones de dosis se han distribuido por todo el país y se han aplicado a un número sustancial de personas que ahorita comentaremos.</p>
+<p>Estas son la cantidad de personas, 22 millones 43 mil 213 personas que hemos recibido la primera o la segunda dosis, y esto representa 25 por ciento, la cuarta parte de la población adulta, una de cada cuatro personas adultas en México ha sido vacunada contra el COVID-19.</p>
+<p>Y en su mayoría son esquemas completos, casi 60 por ciento, 57 por ciento son esquemas completos, ya no hace falta ninguna dosis adicional, ya sea porque recibieron las dos dosis de cuatro de las cinco vacunas o bien la única dosis necesaria en el caso de la vacuna CanSino, 43 por ciento son esquemas recientes y por lo tanto de momento sólo tienen la primera dosis.</p>
+<p>Podemos ver también algunos detalles con el arranque en 11 entidades federativas de la vacunación de personas de 40 a 49. Arrancamos ya en 11 entidades federativas, a lo largo de la semana se estará teniendo cobertura en todas las entidades federativas y tenemos 82 mil 398 personas que tan sólo en el día de ayer ya fueron vacunadas y tienen 40 a 49 años de edad.</p>
+<p>Y las embarazadas, que son un sector de la población de gran importancia por la protección que representa la vacuna para las mujeres y también para sus hijas o hijos en formación, hemos vacunado ya a 151 mil 419 personas embarazadas en todas las entidades federativas y así seguiremos conforme se van cumpliendo 10 o más semanas de embarazo en las mujeres que tengan 18 años de edad o más, pueden vacunarse contra COVID-19 y recomendamos mucho que lo hagan para proteger a estas mujeres embarazadas y desde luego a sus productos.</p>
+<p>La siguiente por favor y penúltima es la suma de dosis recibidas, hasta ayer teníamos 39 millones 888 mil 675 y en unos pocos minutos estará llegando el primer embarque de la semana de la vacuna Pfizer-BioNTech con 288 mil 990 dosis que completarán más de 40 millones, 40 millones 700 mil dosis para arrancar junio ya con 40 millones o más de dosis recibidas.</p>
+<p>Vamos a ver la última imagen, que es el calendario semanal precisamente. Vemos aquí que hoy martes el doctor Pedro Zenteno está listo allá en el Aeropuerto Internacional de la Ciudad de México para recibir 288 mil 990 dosis de vacunas Pfizer-BioNTech.</p>
+<p>Mañana y el jueves 585 mil, para un total semanal de casi un millón y medio, un millón 458 mil 990.</p>
+<p>También esta semana, el jueves recibiremos un millón de vacunas chinas de Sinovac, la vacuna Coronavac que recibiremos.</p>
+<p>Y por anunciarse a lo largo de la semana tendremos la liberación de los lotes de vacuna AstraZeneca que se fabrican en Argentina, se envasan aquí en México, en la compañía Liomont y estarán siendo liberados después de este proceso adicional de inspección y evaluación que condujo Astra y la propia compañía Liomont, pero estarán siendo liberadas.</p>
+<p>Por el momento arrancamos la semana con dos millones y medio prácticamente de dosis de vacuna, pero tendremos un tanto más a lo largo de la semana.</p>
+<p>Esto es todo, presidente.</p>
+<p><strong>DELFINA GÓMEZ ÁLVAREZ, SECRETARIA DE EDUCACIÓN PÚBLICA:</strong> Buenos días a todos ustedes. Con su permiso, señor presidente.</p>
+<p>Vamos a, primer paso, precisamente dar el corte de vacunación que se tuvo en estas seis etapas de vacunación de docentes.</p>
+<p>Recordemos que se realizó a partir del 20 abril y termina el 28 de mayo del presente, en donde podemos ver que efectivamente fueron realizadas en seis etapas, dando un total del total de personas en el padrón, que era de tres millones 144 mil 528, de ese total de padrón se vacunaron precisamente dos millones 743 mil 448, dando un 87 por ciento del total que se tenía como meta.</p>
+<p>Cabe aclarar que este resultado es porque en algunos casos, como el caso de Chihuahua, por ejemplo, que hizo un ejercicio muy interesante donde les preguntaron a los docentes cómo se había vacunado, resulta que del total de los encuestados fue el 95 por ciento, porque algunos se habían vacunado precisamente en la etapa de 60 o más y otros por, precisamente la cercanía que tenían con Estados Unidos, tuvieron la oportunidad de precisamente irse a vacunar bajo ese rango.</p>
+<p>Si damos a la siguiente, por favor, vamos a ver ahí ya de manera desglosada cada una de las etapas, etapa 1, 2, 3, en donde viene, precisamente cada uno de los estados, así como el número de vacunados, y así nos vamos con la siguiente etapa, que también es la 4, 5, esa es la siguiente lámina.</p>
+<p>Y en la etapa 6 es donde yo les comentaba el caso de Chihuahua, que ahí maneja que es 62 por ciento, pero, sin embargo, si se hace un análisis por parte del gobierno estatal, nos da un 95 por ciento, de acuerdo a ese tipo de alteración.</p>
+<p>Esto es… Gracias, todas esas fotografías, bueno, es atención a precisamente… Aprovecho como secretaria de Educación agradecer a todos y cada uno de los que participaron, precisamente para lograr el resultado de la vacunación de nuestro personal educativo, tanto de escuelas públicas como privadas, agradezco a todos esa gentileza y ese apoyo que dieron.</p>
+<p>En lo que se refiere… Si damos seguimiento, esas son algunas de las fotografías que efectivamente fueron tomadas en este proceso y que ya con eso podemos decir que concluimos, a reserva de que si hay algún docente que por ahí por alguna causa no se vacunó, pues todavía hay la buena intención de Salud, que yo agradezco, de que pueden precisamente ir a los centros de vacunación y hacer lo propio para que ningún docente, ningún personal de alguna institución educativa quede fuera o que no quede con el proceso de vacunación.</p>
+<p>Y ya con esto, dando precisamente la primera etapa, que es la vacunación, pues ya vamos a iniciar con lo que es precisamente el regreso a clases.</p>
+<p>Ahí lo que llevamos de manera muy precisa, les comento, se han tenido reuniones con gobernadores y con secretarios de Educación, tanto de Salud como Educación Pública de cada estado, con la finalidad de precisar y dar a conocer precisamente y fortalecer lo que ya en su momento se dio, que es el protocolo para el inicio de regreso a clases seguro.</p>
+<p>Ahorita tenemos, en el siguiente tenemos un cuadro en donde efectivamente están los estados que ya precisamente están con ese regreso a clases que tenemos, por un lado, Campeche, que recordemos que ellos inician en ese afán y que agradezco mucho la intención que tuvieron y la buena disposición que siempre mostraron respecto a regresar y que, bueno, ahorita por una situación que se presenta de semáforo amarillo toman la decisión de suspender precisamente un poco este proceso, pero que la verdad iban bien y yo agradezco mucho esa buena disposición.</p>
+<p>Y las escuelas abiertas ahí tenemos las que en su momento ya habían aperturado, 137, 104 de primaria, 33 de primaria indígena, un número de municipios, ocho de 11 municipios; y número de alumnos, cinco mil 949, con un total de personal de apoyo de 278 docentes.</p>
+<p>En Chiapas, bueno, pues ya ahí también vemos que ellos salieron a partir del 17 de mayo con un precisamente total de escuelas de mil 592. Ahí está dividido en cada nivel cuántas fueron, cuántos precisamente escuelas, 427 preescolar, 736 de primaria, 80 de secundaria, 338 de educación media superior y tres normales, en donde vemos que de 124 municipios los 124 aperturan, precisamente ahorita lo que nos falta el dato es el del número de alumnos y de docentes que están que están precisamente en ese proceso de remitirnos.</p>
+<p>Coahuila también hace el ejercicio, abre a partir del 17 de mayo, abre con 78 escuelas, una de preescolar, 33 de primaria y 26 de secundaria de un total de 38 municipios, 24 son los que apertura, y el número de alumnos son un total ocho mil 123, dando precisamente como personal directivo y docente 475.</p>
+<p>Y después tenemos Veracruz, que también ya inició con ese proceso, él inicia el 24 de mayo y abre precisamente 889 escuelas con 330 de inicial, 359 primaria, 90 secundaria, 104 de preparatoria, 16 universidades con especialidades. De un total de 212 escuelas, abren 184, con un total del número de alumnos de 21 mil 730 y de docentes, 879.</p>
+<p>Nayarit que, también al igual precisamente que Campeche, inicia, suspende por la cuestión de semáforo, y ellos iniciaron con 32 escuelas 20 primarias, 12 telesecundarias, 13 escuelas de 20, con un número de alumnos de mil 336 y un personal número de apoyo y personal docente de 71.</p>
+<p>Nuevo León, que inicia el 31 de mayo y con un total de escuelas de 603 que son de media superior y superior, con un subsistema federal y comienza, ellos comienzan el 16 de junio, si bien abren, están con lo que es la escuela dual, ellos van a reaperturar ya de manera general el 16 de junio, pero ahorita están en ese proceso de iniciar poco a poco, y de 51 escuelas se abren 44, con un total de 421 mil 934 alumnos y nos traen ahorita el dato de docentes que todavía está en ese proceso de que nos envíen.</p>
+<p>Y, finalmente, Tamaulipas, 31 de mayo, con 11 escuelas abiertas, 10 de primaria, una de secundaria, de un total de 42 escuelas son siete las que abren con un número de alumnos de 350 y un total de personal de 50.</p>
+<p>Esos totales que están en la parte de abajo, bueno, nada más ahí tendríamos que restar, en este caso lo que es precisamente Nayarit y lo que es Campeche, que ahorita están precisamente esperando a que nuevamente vuelva a verde, que ya ahorita ya está y que ya en próximos días se realizará.</p>
+<p>Se hizo entrega precisamente a medios de comunicación el pasado viernes sobre la cuestión de las consideraciones y lineamientos para la entrega de…. Digo, para entrar, perdón, entrar de manera segura a las instituciones.</p>
+<p>Ahí lo que sí valdría la pena puntualizar y que aprovecho el momento, primero, es que recordemos que, como lo ha señalado el gobierno federal, es voluntario, en ningún momento se está ahora sí que obligando a nadie, es un proceso voluntario, que yo insisto como secretaria de Educación, que hago ese llamamiento y ese voto para que los docentes en este proceso tengamos esa sensibilidad y tengamos ese compromiso moral de precisamente poder ejercer o hacer ejercer en nuestros niños ese derecho a la educación.</p>
+<p>Que este mes que ahorita se está pensando precisamente laborar, nos puede servir precisamente para una evaluación diagnóstica, no solamente de nuestros niños, sino también de ver cómo están nuestras instituciones educativas.</p>
+<p>Ahorita que han ido padres de familia, a través de la instalación del comité precisamente, que es el primer paso que se tiene que hacer la instalación -o reinstalación, porque ya existía- del comité, al momento que llegan los padres de familia y los maestros, pues perciben las necesidades que hay en cuanto, por ejemplo, la limpieza o en cuanto a falta de agua o en la cuestión de jabón o en cómo van a acomodar las bancas, porque hay escuelas en donde tienen precisamente 50 butacas y que ahorita con la sana distancia tenemos que… Bueno ¿qué les puedo decir a los maestros? pues tenemos que acomodarlas de tal manera que sean algo funcionales.</p>
+<p>Entonces, este regreso es un primer acercamiento precisamente a esos espacios que por mucho tiempo quedaron mudos y quedaron en silencio y olvidados, y que es necesario volver a regresar.</p>
+<p>Yo agradezco mucho y me da mucho gusto -porque quizás hablo como maestra- me da mucho gusto cuando veo a los padres de familia que van con su escoba, su cubeta y su trapeador, lo que pueden, y sus guantes y que con tanto amor están precisamente arreglando, y están escombrando y están pintando las instituciones para dejar algo bueno y bonito en nuestros niños.</p>
+<p>Van a llegar los niños, los niños tienen que llegar a un ambiente precisamente no solamente seguro en lo que se refiere a salud, sino también tienen que llegar a un ambiente seguro, emocionalmente. Yo les digo a los maestros: la escuela es el único espacio que pueden tener nuestros niños de una lucecita que pueden ver durante el día.</p>
+<p>No podemos cegarnos a que hubo momento o hubo hogares en donde hubo violencia familiar, porque lo hay y lo tenemos también registrado, y que el niño al que llega a la escuela y esté unas dos horas o tres horas o cinco horas lleno de cariño, de atención y de esa parte humana claro que le da a él otro tipo de expectativa ante la vida.</p>
+<p>Entonces, yo creo que este regreso que queremos hacer más allá de conocimientos, que son importantes y que se está trabajando y que en próximos días les daremos a conocer precisamente el avance que tenemos respecto al análisis que está haciendo cada nivel educativo de educación básica, media superior y superior, en cuanto a los aprendizajes esperados y en cuanto a plan y programas de estudio, porque obviamente esta pandemia nos tiene que precisamente permitir reflexionar acerca de cómo va a ir la educación a partir de esta etapa, yo creo que ahorita lo que nos permite, insisto, es precisamente reencontrarnos como sector educativo, de encontrarnos con nuestras instituciones y valorar precisamente lo que tenemos, que es esa capacidad de poder servir a los demás.</p>
+<p>En cuanto, insisto, al regreso de clases, voluntario, gradual, que cumpla con el protocolo que se estableció por parte de la Secretaría de Salud, que hemos tenido precisamente una buena comunicación, que hemos estado analizando y seguiremos analizando y actualizando, en la medida que se vaya dando esta dinámica del regreso seguiremos actualizando.</p>
+<p>Recordemos que estamos en ese proceso de adaptación y que como tal estamos abiertos precisamente a esos cambios que se tienen que dar de acuerdo a la etapa que estamos viviendo.</p>
+<p>Entonces, eso sería cuanto y quedo a sus órdenes.</p>
+<p>Muchas gracias.</p>
+<p><strong>MARCELO EBRARD CASAUBON, SECRETARIO DE RELACIONES EXTERIORES:</strong> Buenos días, señor presidente. Con su permiso.</p>
+<p>Señoras, señores, rápidamente, esta es la curva de suministros que está a cargo nuestro, la responsabilidad que tenemos y estamos en este punto hoy a las 9:00 de mañana y este es el punto al que vamos a llegar en junio, esto es importante porque así se nos marcó para poder tener cubierta la etapa de 40 a 49 años.</p>
+<p>Estos son los números que ya se dieron aquí, lo que tenemos al día de hoy y lo que va a llegar ya se los informó el doctor López-Gatell, para rebasar a las 9:00 de la mañana los 40 millones de dosis.</p>
+<p>En esencia, Pfizer ha sido la parte principal; en segundo lugar, Astra; tercero, Sinovac; en cuarto, CanSino; y quinto lugar, Sputnik. Es el portafolio de México.</p>
+<p>Somos el lugar nueve en el mundo en este momento en millones de dosis administradas, lugar nueve es México. Vamos subiendo, la semana pasada, como ustedes recordarán, les informé, estábamos en un lugar más abajo.</p>
+<p>Informarles, ya a partir de esta semana México tiene la producción de envasado y llenado de las dosis de AstraZeneca, aquí en Ocoyoacac, en el Estado de México.</p>
+<p>México tiene un convenio con AstraZeneca por 77.4 millones de dosis y el grueso de esas dosis van a provenir de esta producción. La sustancia activa está hecha en Argentina. Si no se hubiese hecho este convenio en agosto del año pasado, pues no tendríamos ese número ni tendríamos la posibilidad de este mes alcanzar el número que les acabo de dar.</p>
+<p>Una parte importante se va a América Latina, primero a Argentina obviamente, y a otros países de América Latina, aproximadamente 17 países de América Latina. Es una iniciativa de la región.</p>
+<p>Lo importante es: si cooperamos, pues tenemos acceso a vacunas, aumentamos la producción, tiene sentido. Es lo que estamos haciendo y se logró, y estamos muy agradecidos con todos los que han intervenido en esto, ya esto es un hecho.</p>
+<p>Tuvimos una semana récord en arribos. Ya se dio cuenta de Pfizer, tuvimos este número.</p>
+<p>De AstraZeneca vía Covax. Les recuerdo que Covax es una iniciativa multilateral de la que México formó parte también desde el principio.</p>
+<p>Y las que tenemos de AstraZeneca, que son las hechas en Argentina, la sustancia activa, y algunas que fueron terminadas en Estados Unidos.</p>
+<p>Muy breve. Somos uno de los países que tiene un portafolio más amplio, la última que se aprobó por Cofepris es Johnson &amp; Johnson, o Janssen, y pronto tendremos acceso a esa vacuna también.</p>
+<p>Esto es todo el portafolio mexicano al día de hoy.</p>
+<p>Colaboración regional. Bueno, informarles que el presidente me autorizó, vamos a estar con el Sistema de Integración Centroamericana, SICA, que reúne a todos los países de Centroamérica, países hermanos de México, el día de hoy y mañana. Fuimos invitados el secretario de Estado de Estados Unidos, Antony Blinken, y su servidor para tener un diálogo con nuestros colegas sobre tres ejes: obvio, migración, desarrollo, fortalecimiento de las instituciones de la región y de manera muy importante recuperación económica y acceso a vacunas, el tema de la salud. Entonces, ahí vamos a estar y tiene que ver con lo que estoy informando el día de hoy.</p>
+<p>El día de ayer se inició a través de la Comunidad de Estados Latinoamericanos y Caribeños el envío de ventiladores mecánicos hechos en México a 10 países en América Latina y el Caribe con el apoyo de la Fuerza Aérea Mexicana. Gracias, señor secretario, por su apoyo.</p>
+<p>Y es el reporte. Muchas gracias.</p>
+<p><strong>LUIS CRESENCIO SANDOVAL GONZÁLEZ, SECRETARIO DE LA DEFENSA NACIONAL:</strong> Con su permiso, señor presidente.</p>
+<p>Vamos a informar sobre la distribución de vacunas Pfizer y AstraZeneca realizadas por personal de la Fuerza Aérea Mexicana y con la seguridad de personal del Ejército mexicano, de Marina y la Guardia Nacional.</p>
+<p>Aquí tenemos lo que arribaron, cinco millones 10 mil dosis entre Pfizer y AstraZeneca los días miércoles, jueves y domingo. Miércoles, jueves y domingo se llevó a cabo la lotificación por estados en Birmex y se distribuyeron cuatro millones 824 mil 340 dosis de la siguiente manera:</p>
+<p>Por vía terrestre, tres millones 723 mil 370 dosis, se organizaron ocho rutas terrestres por parte de Birmex con la seguridad de personal militar para atender 17 estados. Estas rutas son:</p>
+<p>La ruta 1, para cubrir Michoacán, Jalisco, Nayarit.</p>
+<p>La ruta 2, Guanajuato, Aguascalientes.</p>
+<p>La ruta 3, San Luis Potosí, Durango y Sinaloa.</p>
+<p>La ruta 4, Coahuila, Nuevo León, Tamaulipas.</p>
+<p>La ruta 5, Veracruz, Tabasco y Chiapas.</p>
+<p>Estas se realizaron entre viernes y sábado.</p>
+<p>Ayer lunes tres rutas:</p>
+<p>La 6, que cubrió Aguascalientes, Zacatecas.</p>
+<p>La ruta 7, nuevamente Tabasco, aquí lo teníamos en la ruta cinco.</p>
+<p>En la ruta ocho, Colima.</p>
+<p>Acudieron a Birmex siete estados a recibir sus vacunas, el viernes fue Morelos, Puebla, Tlaxcala, Hidalgo y Querétaro, y ayer lunes Ciudad de México y Estado de México.</p>
+<p>Por vía aérea se distribuyeron un millón 100 mil 970 dosis, se establecieron cuatro rutas para atención a ocho estados.</p>
+<p>El viernes cubrimos dos rutas:</p>
+<p>La 1, Baja California Sur, Sonora, Chihuahua.</p>
+<p>La ruta 2, Oaxaca, Campeche, Yucatán y Quintana Roo.</p>
+<p>Ayer lunes la ruta 3, cubriendo también Baja California Sur, Baja California, Sonora y Chihuahua.</p>
+<p>Y la ruta 4, Campeche, Yucatán y Quintana Roo.</p>
+<p>Como resumen, viernes, sábado y lunes se realizaron la transportación de cuatro millones 824 mil 340 dosis, por vía terrestre tres millones 723 mil 370 dosis, vía aérea un millón 100 mil 970 dosis, cubrimos 32 entidades federativas.</p>
+<p>Rutas terrestres, quince se materializaron, con escoltas de seguridad; las rutas aéreas fueron cuatro con 19 operaciones aéreas y casi 25 horas de vuelo.</p>
+<p>El personal empleado en esta seguridad y traslado fueron 886 elementos, 87 vehículos y cuatro aeronaves.</p>
+<p>Es todo, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, pues vamos avanzando en el plan de vacunación.</p>
+<p>Abrimos para preguntas.</p>
+<p><strong>PREGUNTA:</strong> Gracias, Buenos días, presidente. Shaila Rosagel, corresponsal de <em>Grupo Healy</em>, <em>El Imparcial,</em> de Sonora; <em>La Crónica,</em> de Mexicali; <em>Frontera,</em> de Tijuana.</p>
+<p>Presidente, preguntarle: el vocero de la etnia yaqui, Tomás Rojo, está desaparecido desde el jueves pasado. Preguntarle si tiene información sobre las investigaciones. ¿Y qué opina de este caso?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, se está haciendo ya un trabajo desde hace algunos días, ha habido reuniones con los familiares, ayer todavía en Gobernación y se ha iniciado la búsqueda. Estamos trabajando con ese propósito y estamos aplicados para encontrar a este dirigente que sí, en efecto, fue reportado como desaparecido y estamos en eso.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Qué opina presidente de esta desaparición?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Que pues no debe de ninguna manera llevarse a cabo actos de este tipo y que no vamos nosotros a dejar de proteger a las personas y de castigar a los responsables siempre.</p>
+<p>Yo insisto en que, entre otras diferencias, antes se cometían delitos e imperaba la impunidad, nunca se hacía justicia; ahora es diferente, en Sonora o en cualquier estado donde se comete un delito, se investiga y se encuentra a los responsables y se les castiga.</p>
+<p>Ahora que estamos en este proceso electoral, que algunos candidatos lamentablemente han sido agredidos y hasta han perdido la vida, mujeres y hombres, casi en todos los casos se tienen detenidos, presuntos responsables.</p>
+<p>Vamos mañana a informar sobre eso aquí, porque han presentado denuncias sobre estos hechos y queremos informar de cómo se ha avanzado en el castigo a los responsables, hasta en el caso reciente de la candidata de Guanajuato que fue lamentablemente asesinada, ya ayer hubo detenciones.</p>
+<p>Entonces, esto lo digo no para sólo informar de cómo estamos actuando, lo digo porque a los que se portan mal les puede llegar la información, que no estén pensando que van a cometer un ilícito y no va a suceder nada porque están bien parados, porque tienen compradas a las autoridades, porque tienen influencia. Eso ya no funciona, ya no aplica, ya son otros tiempos, el que comete un delito es castigado. Entonces, vamos a seguir actuando así.</p>
+<p><strong>INTERLOCUTORA:</strong> Gracias, presidente.</p>
+<p>Ahora con el regreso a clases, me gustaría preguntar: ¿qué escenario se prevé de COVID-19? Si tienen previsto que haya algún repunte o un pequeño repunte de casos debido a que los maestros ya están vacunados, los papás están en proceso de vacunación, pero los niños no. ¿Qué escenario se está previendo?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues hay un protocolo de salud. En el caso de que haya niños, personas afectadas, contagiadas, pues se suspende la actividad, se hace una revisión a todos. Vamos a estar permanentemente atentos, pendientes, pero también necesitamos regresar a clases presenciales, es muy importante, es necesario, no podemos seguir así.</p>
+<p>Fue una medida alternativa la educación a distancia, pero no podemos tener todo el tiempo a los niños, a los adolescentes, frente al televisor. La escuela es el segundo hogar. Y no solo es conocimiento, es comunicación, es el que haya socialización, que los niños puedan estar con sus amiguitos, niñas, niños, que los adolescentes lo mismo, que estén con sus maestros, con sus maestras, eso es insustituible.</p>
+<p>Entonces, pueden algunos con todo su derecho sostener que no es tiempo, de que por qué regresar ahora si se puede hacer cuando inicie el nuevo ciclo escolar, pero imagínense cuánto tiempo continuamos así.</p>
+<p>El nuevo ciclo escolar, pues inicia a finales de agosto y ya es urgente; además, no es obligatorio, para que no vayan a hacernos manifestaciones o sea motivo de protestas o de cuestionamientos en los medios de comunicación, no, es voluntario.</p>
+<p>Pero que se sepa que la Secretaría de Educación Pública ya permite el reinicio a clases y que va a depender de la comunidad educativa, de las madres, de los padres de familia, de los maestros, de los directivos de las escuelas públicas y de las escuelas privadas.</p>
+<p>Y yo voy a seguir haciendo este llamado, es mi obligación, porque es fundamental la educación y además tiene que ver con una mejor convivencia en nuestras familias, como sociedad, no se debe ver a la ligera.</p>
+<p>Así como se debe garantizar el derecho a la salud, se tiene que garantizar el derecho a la educación. Entonces, son dos pilares para el bienestar, para estar bien, salud y educación, por eso vamos a seguir avanzando en la vacunación, ya se comenzó de 39 a 40.</p>
+<p>Siguen llegando vacunas y vamos a tener abasto suficiente, y vamos a cumplir para que en octubre estén vacunados todos los mexicanos, estemos vacunados todos de 18 años en adelante, todos, en octubre, para que con la llegada de la temporada de lluvias y el invierno no se padezca, que estemos todos protegidos, ese es el plan.</p>
+<p><strong>INTERLOCUTORA:</strong> Presidente, quizás el secretario de Salud o el doctor Hugo López-Gatell puedan decirnos un poco qué panorama es el que se espera, si esperan un repunte o no, o no se está previendo que haya un repunte tras el regreso a clases.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> A ver.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Permiso, presidente. Con mucho gusto, Shaila. Gracias por esta pregunta, que nos ayuda a que todo mundo tenga un contexto claro sobre la epidemia.</p>
+<p>Algunos conceptos generales que hemos venido diciendo desde hace 14 meses. Mientras exista la epidemia en el mundo puede existir en cualquier país, entonces la epidemia sigue en el mundo y en otros países. La región de Europa occidental, por ejemplo, América del Sur en este momento han tenido repuntes; en algunos casos afortunadamente ya empiezan a entrar en control países que tenían una gran intensidad epidémica, India, por ejemplo, lleva ya varias semanas con descenso después de que llegó a una situación muy importante.</p>
+<p>Segundo, este fenómeno se puede presentar a pesar de tener descensos por distintas razones y difícilmente se puede identificar un solo factor: la apertura de las escuelas, la apertura de los mercados, la apertura de los puertos, la apertura de las fronteras.</p>
+<p>Hay múltiples razones por las que puede reemerger la epidemia en algún país del mundo incluso en nuestro país o en una entidad federativa puede ocurrir, como nos ocurre, la gran mayoría del territorio nacional se mantiene a la baja y, como lo mencioné hace rato, hay unas pocas entidades federativas que tienen tendencias al alza.</p>
+<p>Tercero, la situación de la educación pública y su cierre temporal como una medida de control epidémico no debe dejarse de ver que una cosa es la decisión al inicio de la epidemia y otra cosa es 14 meses después, la misma situación abrir las escuelas o mantenerlas abiertas tiene un significado radicalmente distinto cuando estamos 14 meses después de que fueron cerradas.</p>
+<p>En este momento, después de estos 14 meses y después de casi 20 semanas de reducción, de tener la mitad del territorio nacional en semáforo verde, la otra mitad en semáforo amarillo, excepto una entidad federativa, Quintana Roo, vemos que las condiciones son las óptimas para poder dar este paso, abrir las escuelas.</p>
+<p>Podrían retardarse de manera indefinida, pero eso obviamente afectaría a un aspecto importantísimo en el desarrollo de las personas que se están educando, particularmente la niñez.</p>
+<p>Decíamos hace algunos meses, no es lo mismo un año de vida o de experiencia educativa para una persona adulta que para una persona niña, para un niño, niña; 12 meses, 12 meses sin educación tiene un significado radicalmente diferente entre los cinco y los seis años, por ejemplo, que si se vive entre los 23 y los 24.</p>
+<p>No es solamente el contenido educativo, es el desarrollo neurológico, sicológico, emocional y todo eso es importantísimo cuidarlo, porque un año perdido de ese desarrollo, que implica la relación social que tienen niñas y niños en el espacio educativo puede tener una consecuencia muy importante para México o para cualquier país del mundo que haya cerrado escuelas.</p>
+<p>Hay varios países que cuando han llegado a situaciones de control epidémico semejantes a las que hoy tenemos en México ya durante casi 20 semanas toman esas decisiones y precisamente empiezan a abrir.</p>
+<p>Algunos países, por ejemplo, en Europa occidental abrieron escuelas y desafortunadamente tuvieron otros factores, además que llevaron a que se reactivaran las epidemias y tuvieron cierres parciales.</p>
+<p>En realidad, los modelos de manejo epidémico son en general semejantes los momentos de tomar las decisiones dependen de la realidad epidémica del país.</p>
+<p>Termino diciendo lo que dejamos muy en claro hace también varias semanas. Para que nadie se sorprenda, aquí hemos dicho con toda claridad cómo han ido ocurriendo las cosas. Quizás recordarán algunos que cuando la epidemia estaba sólo en China aquí en este mismo foro dijimos: Garantizamos que la epidemia va a llegar a México, porque nos gusta hablar así de claro, que la sociedad sepa lo que puede pasar.</p>
+<p>¿Puede haber casos en las escuelas cuando se abran?</p>
+<p>Definitivamente puede haber casos, pero para eso están previstos los mecanismos de respuesta. Los mecanismos no son nuevos ni se han creado solamente para las escuelas, los métodos epidemiológicos que se usan en el Sistema Nacional de Salud Pública están establecidos desde hace muchos años y se han ido refinando durante la epidemia de COVID.</p>
+<p>Se hacen en caso de que hubiera un caso, por ejemplo, de enfermedad COVID en una escuela, se activan los mecanismos de notificación inmediata, de estudios de casos y contactos, y se hacen las intervenciones no solamente de mitigación en el conjunto de la escuela, sino de contención. Esta metodología está muy establecida en el Sistema de Salud Pública.</p>
+<p>Y lo que se puede esperar es: si en determinado momento en una escuela apareciera un caso, que rápidamente se estudien a los contactos, afortunadamente las personas adultas ya tendrían un riesgo bajo, muy bajo de enfermedad, precisamente porque las hemos vacunado</p>
+<p>¿Niñas y niños, adolescentes podrían contagiarse?</p>
+<p>Sí, sí podrían, pero tenemos la tranquilidad de que la evidencia científica documentada en México y en el mundo a lo largo de la epidemia muestra que la probabilidad de enfermedad de consideración, de enfermedad grave, es muy baja comparado con las personas adultas, entonces da espacio, da oportunidad a la contención.</p>
+<p><strong>INTERLOCUTORA:</strong> Gracias.</p>
+<p><strong>PREGUNTA:</strong> En China encontró ya el primero caso de gripe aviar en humanos. ¿No han advertido esto ustedes?</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Las enfermedades epidémicas de origen infeccioso son muchas, no solamente COVID-19.</p>
+<p>El fenómeno de gripe aviar son las especies de o cepas del virus influenza que mayormente predominan en las especies animales distintas a los seres humanos. Se conoce desde hace mucho tiempo que los virus influenza afectan mayormente al reino animal, incluyendo a los seres humanos, pero el resto del reino animal también es afectado, múltiples especies: aves, aves silvestres, aves de corral, aves domésticas, perros, gatos, caballos, puercos, delfines, ballenas, múltiples especies animales pueden tener infección por influenza.</p>
+<p>Y el tránsito o el traspaso que puede haber de una especie a otra depende de la complejidad de las mutaciones que presentan los virus del tipo influenza. Entonces cuando ocurren traspaso de especies animales a seres humanos entran en juego los mecanismos del Sistema Global de Vigilancia Epidemiológica de Virus Respiratorios antes llamados Sistema Global de Vigilancia de Influenza, al que México pertenece desde 1954.</p>
+<p>Y nosotros tenemos un mecanismo continuo de vigilancia epidemiológica del síndrome respiratorio agudo grave de la enfermedad tipo influenza y de las cepas tipos y variantes del virus influenza igual que lo hacemos ahora para el virus SARS-CoV-2.</p>
+<p>En México no hemos detectado este fenómeno en donde haya traspaso directo de animales a humanos de las variantes de influenza que circulan en el país.</p>
+<p>En este momento en el hemisferio norte, que vivimos en la temporada baja de virus influenza, la actividad epidémica es mínima y desde luego de octubre a marzo, como ocurre todos los años, todos los países del hemisferio norte tenemos la temporada alta y es donde puede ocurrir con mayor probabilidad la expansión de influenza, la propia de los humanos, la que ya está establecida entre humanos, o eventualmente la que se intercambiara de especies animales a seres humanos.</p>
+<p><strong>INTERLOCUTOR:</strong> (Inaudible)</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ: </strong>Así es, estos casos suelen ocurrir a lo largo del año en todos los países cuando es la temporada alta, que en el caso de ahora es en el hemisferio sur, es más probable que esto una vez que ocurra se expanda; en el hemisferio norte el periodo de más preocupación es de octubre a marzo.</p>
+<p>Que ocurra un caso no quiere decir que va a ocurrir una epidemia y mucho menos una pandemia. Estas pandemias que ocurren por transformaciones genéticas de muy amplia gama en los virus influenza, ocurren periódicamente, como nos ocurrió hace 12 años, en el año 2009.</p>
+<p>Y eventualmente puede haber una nueva pandemia de influenza a lo largo de los siguientes años, no es posible predecir científicamente exactamente cuándo, pero sí se sabe que en general con periodos o intervalos que van de 10 a 15 años se presentan fenómenos pandémicos por los virus influenza.</p>
+<p>Gracias.</p>
+<p><strong>PREGUNTA:</strong> Gracias. Buenos días a todos. Liliana Noble, de <em>Pulso Saludable</em>.</p>
+<p>Señor presidente, el próximo domingo es el momento electoral más importante de la historia. Quisiera preguntarle, más bien, solicitarle cuál sería su mensaje a la nación para que salgamos a ejercer nuestro derecho a votar, pero sin el temor al contagio, dado que están dadas las, valga la redundancia, dadas las condiciones para que esto sea de una forma segura para los ciudadanos, pero todavía existe cierto temor. ¿Qué le diría usted a la población?</p>
+<p>Y una segunda pregunta para la maestra, la secretaria de Educación.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues ayer hablamos de que es muy importante el convertir en realidad la democracia, que todos participemos, que el próximo domingo se asista a las casillas y se pueda ejercer el derecho a votar, a elegir a las autoridades, que se haga de manera libre, que se vote en secreto, que no haya compra de votos, que no intervengan las autoridades para favorecer a candidatos, a partidos; que no se use el dinero del presupuesto, que es dinero del pueblo, para beneficiar a ningún candidato, a ningún partido; que no haya fraude electoral, que demos un ejemplo los mexicanos también en este terreno de que se está cambiando, de que hay una transformación.</p>
+<p>En el mundo hay mucho reconocimiento a México, desde luego de tiempo atrás, en el mundo quieren mucho a México, a nuestro país y ahora hay un reconocimiento por la manera en que estamos llevando a cabo entre todos una transformación pacífica, la forma como se está erradicando, desterrando la corrupción y se nos presenta esta oportunidad de también agregar a toda esa fama que tiene México en el mundo el que somos un país auténticamente democrático. Es un trabajo, una tarea, una misión de todos los mexicanos, por eso tenemos que participar y ayudar para que las elecciones sean ejemplares.</p>
+<p>Ese es mi llamado.</p>
+<p><strong>INTERLOCUTORA:</strong> Gracias.</p>
+<p>Y se me permite, señor presidente, preguntarle a la secretaria, a la maestra Delfina, de Educación Pública. Maestra, me pregunta la gente en Fresnillo, Zacatecas, que tuvieron una reunión virtual el día de ayer, y hoy ya los administrativos de los CBTIS ya están requeridos en sus unidades de trabajo parar presentarse a laborar a partir del día de hoy. Ellos me hacen la mención que están en semáforo amarillo y que dicen que es una obligatoriedad ya presentarse el día de hoy.</p>
+<p>Quisieran saber ellos si esto es cierto, porque hacen la mención de que solamente es el personal administrativo, más no los docentes y por supuesto no los alumnos.</p>
+<p>¿Qué nos podría decir al respecto?</p>
+<p><strong>DELFINA GÓMEZ ÁLVAREZ:</strong> Bueno, en primera, dejar precisamente claro que es voluntario; sin embargo, también depende y tiene la facultad cada estado de precisamente organizar y establecer mecanismos de adecuación o de coordinación de trabajo.</p>
+<p>Puede ser que el CBTIS lo que hace ahorita como primera instancia es precisamente citar a su personal administrativo con la finalidad de ver toda la cuestión de papelería, la cuestión de cómo se va a trabajar, por ejemplo, la situación de asistencia, la cuestión de a lo mejor elaboración de proyectos, de a lo mejor guardias, toda la parte que es organizativa y que, bueno, quizás como ya están vacunados ya no tienen el riesgo de que aunque estén de manera reunidas puedan tener el riesgo de algún contagio. Entonces, eso depende de cada estado y ahí somos muy respetuosos.</p>
+<p>Hay estados en donde, por ejemplo, lo que han hecho es trabajar ya las escuelas preparatorias, lo que es, por ejemplo, lo que llamamos nosotros educación dual, en donde efectivamente los jóvenes tienen que estarse presentando porque tienen prácticas y esto solamente se va evaluando respecto a la elaboración de esas prácticas.</p>
+<p>Entonces, cada estado precisamente es lo que nosotros manejamos, hay esa libertad -entre comillas lo decimos- de que, de acuerdo al contexto y de acuerdo a las características que tiene cada estado, incluso que tiene cada escuela, pueden tomar acciones que precisamente no afecten la seguridad de los niños y de los adolescentes y que cumplan con lo que es el protocolo.</p>
+<p>Entonces, ahí es totalmente una instrucción de un estado que nosotros también respetamos.</p>
+<p><strong>PREGUNTA:</strong> Gracias. Buenos días, señor presidente. Demian Duarte, de <em>Sonora Power </em>en YouTube.</p>
+<p>Preguntarle, señor presidente, la compañera Liliana preguntaba sobre el tema de la seguridad que podemos tener los ciudadanos a la hora de asistir a la cita con las urnas.</p>
+<p>En mi estado, que es Sonora en particular, bueno, pues se ha tratado de alguna manera de sembrar la idea de que correos peligro a la hora de presentarnos a votar. Acabo de estar en San Luis Río Colorado, por ejemplo, y a los ciudadanos de San Luis se les vendió la idea de que no fueran a los actos de cierre de campaña porque había una situación de inseguridad manifiesta.</p>
+<p>Esta misma idea se ha tratado de impulsar en ciudades o comunidades como Cajeme, como Guaymas, Empalme, con el ánimo, asumo yo, de inducir una baja en la participación de los ciudadanos en la votación.</p>
+<p>En ese sentido sería muy importante, señor presidente, un pronunciamiento de su parte al respecto precisamente de la seguridad con la que puedan asistir los ciudadanos a ejercer su derecho al voto el próximo domingo.</p>
+<p>Y si me permite, tengo otra pregunta.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí en la época en el periodo muy largo de antidemocracia en México pasaba que se infundía miedo para que la gente no saliera a votar.</p>
+<p>Entonces, como estamos en un proceso de transición en donde lo viejo no acaba de morir y lo nuevo no acaba de nacer, todavía hay esas prácticas antidemocráticas, el infundir miedo para que el ciudadano no salga a ejercer sus derechos.</p>
+<p>Entre otras cosas, lo hacen para poder obtener triunfos -entre comillas- con baja votación, o sea, que tengan nada más los votos que ya de antemano amarraron, que vayan nada más los que ya se aceptaron la dádiva o el dinero, pero que no son muchos.</p>
+<p>Aquí lo he dicho, de un padrón de ciudadanos completo pueden comprar o acarrear un 20 por ciento, por eso la apuesta es a que voten el 35 por ciento, porque con ese 20 se alzan con el triunfo.</p>
+<p>¿Qué pasa si todos votamos libremente, si votan el 60 por ciento de los ciudadanos?</p>
+<p>Pues ya ese 20 ya no les alcanza, por eso se infunde miedo. Es una de las razones.</p>
+<p>Entonces, el llamado es a no tener miedo, a participar, a ir a votar. Sólo así vamos a poder llevar a cabo la transformación del país con democracia.</p>
+<p>¿Por qué se arruinó México?</p>
+<p>Por la falta de democracia.</p>
+<p>¿Por qué imperaba la corrupción?</p>
+<p>Por la falta de democracia, porque no elegía libremente el pueblo, elegían los potentados, se llegó al extremo de imponer candidatos con la influencia de los medios de comunicación, candidatos grises que se convirtieron en hombres de fama y prestigio por campañas publicitarias, se le introdujo al mercado como se introduce un producto chatarra, como se si tratara de un detergente, y una gran difusión y miren los resultados, el daño que causaron.</p>
+<p>Entonces, no debe de aceptarse la manipulación y seguir actuando como hasta ahora. El pueblo de México está dando una lección al mundo, es de los pueblos más conscientes del mundo, nunca en la historia había habido tanta gente consciente como ahora, ni en la Independencia, ni en la Reforma, ni en la Revolución, porque cuántos participaron en la Independencia, bueno, los padres de nuestra patria que ofrecieron hasta su vida y muchos indígenas, campesinos, gente del pueblo, que luchó contra la oligarquía criolla y contra el poder virreinal.</p>
+<p>Pero no eran muchos, había estados en donde se mantenía el control colonial, se decía en un estado: ‘Aquí somos fieles a Fernando VI, aquí no hay lugar, hay espacio para los revoltosos’.</p>
+<p>Entonces, la Independencia, aunque la hizo el pueblo, no fue todo el pueblo.</p>
+<p>El movimiento de Reforma, lo mismo, participaron los liberales para llevar a cabo las transformaciones, pero no eran muchos, no había mucha participación. Por eso lo extraordinario de Juárez y de los liberales que lo acompañaban, porque llevaron a cabo una transformación y condiciones muy difíciles, por eso se ha llegado a decir que fue un milagro o una chiripa, porque ¿cómo enfrentaron al poder conservador que era poderosísimo y triunfó el movimiento de Reforma? Y no solo eso, se derrotó al ejército más poderoso del mundo en ese entonces, pero tampoco participó mucha gente.</p>
+<p>En la Revolución, que es cuando hubo una mayor participación, tampoco, muchos se quedaron sin participar; sin embargo, ahí sí hubo más gente.</p>
+<p>Pero lo de ahora es único, excepcional, inédito, son millones de ciudadanos conscientes.</p>
+<p>¿Cuántos?</p>
+<p>Bueno, 30, 40, 50 millones de mexicanos conscientes, estoy hablando de una vanguardia de millones de mexicanos, ciudadanos. Sigue habiendo, como en todos los países del mundo y como ha sucedido siempre, una franja de la población despolitizada, y además es su derecho, pero ahora es mucho más el número de ciudadanos conscientes.</p>
+<p>Entonces, yo sí espero que el domingo sea toda una fiesta cívica y vamos a celebrar, no quién gana, quién pierde, vamos a celebrar el ejercicio democrático, el que de manera libre se lleven a cabo las elecciones en paz, un ejemplo de civismo del pueblo de México.</p>
+<p><strong>INTERLOCUTOR:</strong> ¿Habrá condiciones en los lugares que son considerados focos rojos?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> En todos lados, en todos lados hay condiciones.</p>
+<p>Han querido también dar a conocer que hay mucha violencia con motivo de las elecciones. Como es un tema muy delicado, muy sensible, hemos sido cuidadosos de hablar de lo que sucedía antes, pero les puedo decir que, aun siendo la elección más grande en los últimos tiempos en cuanto al número de candidatos que se van a elegir, aun con los hechos lamentables de violencia, no es lo mismo que lo pasaba antes; y lo puedo probar, nada más que no nos vamos a poner a comparar número de fallecidos, porque eso… No queremos que nadie pierda la vida, nadie, ninguna persona.</p>
+<p><strong>INTERLOCUTOR:</strong> En el segundo tema y aprovechando -bueno, buenos días a los secretarios y al subsecretario que está aquí con nosotros- aprovechando que está aquí la secretaria de Educación, la maestra Delfina, es evidente que viene y celebramos de hecho muchos el regreso a clases. Esto es un asunto, como usted lo ha planteado, mucho muy importante para nuestros niños, nuestros jóvenes, evidentemente para resolver el regreso a lo que le llamamos ahora la nueva normalidad.</p>
+<p>Con el regreso a clases nos damos cuenta de que persisten dos factores:</p>
+<p>Uno es la fuerte conflictiva magisterial. Hoy antes de entrar aquí a la mañanera me abordó un grupo de maestros de Morelos, por ejemplo, que están pidiendo que se les atienda la situación de asignación de plazas.</p>
+<p>En el caso de mi estado, le quiero comentar dos situaciones particulares: el sistema de DGTI que tiene los CBTIS, y muy en particular el CBTIS 132, tienen un fuerte problema que ya data de años en términos precisamente de sueldos no devengados, plazas no asignadas.</p>
+<p>Y bueno, también antes de venirme me contactó un grupo que reúne a tres mil maestros del sistema básico, que se llama el Movimiento Magisterial Interino por la Estabilidad Laboral, si mal no lo recuerdo, en donde ellos manifiestan una situación en donde tienen fuertes problemas con el asunto de la asignación de plazas.</p>
+<p>En Sonora lamentablemente es persistente y reiterado el asunto de la conflictiva magisterial. En ese sentido, bueno, creo que sería muy importante -porque vimos a la maestra Delfina recientemente con motivo de la vacunación allá en Hermosillo, en la vacunación de maestros- sería muy importante, maestra, en particular, que se abriera una mesa de diálogo y negociación, porque realmente es muy persistente la situación de problemas, muy en particular en el sistema educativo de Sonora.</p>
+<p>No sé, señor presidente, si hubiera el espacio precisamente para darles a los maestros esta alternativa y esta opción.</p>
+<p>Y en el tema de la educación superior, recordará que aquí abordamos el tema de la nueva Ley General de Educación Superior. Usted manifestó que habría una exposición en este recinto de los avances, de los beneficios que trae esta ley, bueno, que muchos consideran que plantea algunos retrocesos.</p>
+<p>Y, mire, en el caso de mi alma mater, que es la Universidad de Sonora, hemos visto con preocupación que se está incorporando un modelo educativo 2030 por iniciativa del actual rector que de hecho está por salir; sin embargo, en este proceso de incorporación del modelo 2030 de educación superior en la universidad no se consultó a la comunidad académica, no se consultó a la comunidad estudiantil, simplemente los altos funcionarios, que parece que ellos tienen la razón o la verdad absoluta, pues terminaron por imponerlo.</p>
+<p>Entonces, la pregunta es esta: ¿qué alternativas nos dejan, bueno, a los que fuimos, como es mi caso, universitarios, pero a los que son universitarios hoy para incorporar lo que es la democracia al interior de las instituciones de educación superior, señor presidente?</p>
+<p>Muchas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, vamos a esperar que pasen las elecciones y vamos a pedirle a la maestra.</p>
+<p><strong>DELFINA GÓMEZ ÁLVAREZ:</strong> Voy a atender a los morelenses precisamente, a las 10:00 de la mañana.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Hoy se atiende a los maestros de Morelos a las 10 de mañana, es lo que nos dice la maestra.</p>
+<p>Y lo que tiene que ver con la reforma para la educación superior, le pedimos al maestro Concheiro, que es el subsecretario de Educación, junto con la maestra, que informen aquí, si te parece.</p>
+<p>Muy bien. Me tengo que ir, me tengo que ir, porque vamos a conmemorar el Día de la Marina. Un abrazo a todos los marinos de México, un saludo, un agradecimiento por todo lo que hacen en favor de la patria todos los marinos. Y vamos a estar hoy en Veracruz, vamos a acompañar en esta ceremonia.</p>
+<p>Si les parece, los tres quedan mañana, ¿de acuerdo? los tres, por favor, porque vamos a que vacunen. ¿Es aquí?</p>
+<p><strong>JORGE ALCOCER VARELA:</strong> Sí, me voy a…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, aquí, aquí, porque qué mejor ejemplo que el secretario de Salud. A mí me corresponde ya, pero me faltan como 10 días, todavía me falta, me dicen los médicos, pero creo que para la otra semana ya me toca.</p>
+<p><strong>INTERVENCIÓN:</strong> ¿Va a ser aquí, presidente?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, sí porque hay que seguir dando el ejemplo.</p>
+<p>Miren, en el mundo -un día vamos a hablar de eso- hay un porcentaje que no quiere vacunarse, en distintos países del mundo. En el caso de México hemos logrado que la vacunación porcentualmente sea alta con relación a otros países y esto se debe a que hemos estado haciendo promoción, informando de que no afecta la vacuna; al contrario, protege.</p>
+<p>¿Ya? Ni me di cuenta, nada.</p>
+<p><strong>JORGE ALCOCER VARELA: </strong>No, todavía no.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>Ah, te esperamos.</p>
+<p><strong>FABIANA MARIBEL ZEPEDA ARIAS, TITULAR DE LA DIVISIÓN DE PROGRAMAS DE ENFERMERÍA del IMSS:</strong> Buenos días, señor presidente. ¿Cómo está?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Mucho gusto. Muchas gracias.</p>
+<p><strong>FABIANA MARIBEL ZEPEDA ARIAS:</strong> El gusto es mío. Gracias a usted. Buenos días.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿No quieres decir algo?</p>
+<p><strong>FABIANA MARIBEL ZEPEDA ARIAS:</strong> Nada, está bien. Traigo aquí micrófono. Y lo que quiero es decirle a la población que se vaya a vacunar y justo, bueno, para muestra un botón. Están aquí los líderes en salud que estamos promoviendo justamente la vacunación, que es tan importante y que este país ha hecho muchos esfuerzos para traerla a México, entonces es un beneficio para todos, seguramente va a ser algo muy bueno para la salud de los mexicanos. Muchas gracias, señor presidente.</p>
+<p>Bueno, entonces, buenos días. Yo soy Fabiana Maribel, le voy a aplicar su vacuna, segunda dosis de vacuna contra COVID-19. Le quiero mostrar su vacuna, es de la farmacéutica AstraZeneca en una jeringa que estaba sellada para garantizar la esterilidad.</p>
+<p>¿Ha tenido temperatura, fiebre en los últimos 24 horas?</p>
+<p><strong>JORGE ALCOCER VARELA:</strong> No.</p>
+<p><strong>FABIANA MARIBEL ZEPEDA ARIAS:</strong> ¿Algún síntoma de COVID?</p>
+<p><strong>JORGE ALCOCER VARELA:</strong> Ninguno.</p>
+<p><strong>FABIANA MARIBEL ZEPEDA ARIAS:</strong> ¿Transfusión sanguínea en los últimos tres meses?, ¿alérgico a algún medicamento?</p>
+<p><strong>JORGE ALCOCER VARELA:</strong> No.</p>
+<p><strong>FABIANA MARIBEL ZEPEDA ARIAS:</strong> Okey. Vamos a proceder entonces a aplicar su vacuna. Por favor, relaje su brazo. Eso es, muy bien, muchas gracias.</p>
+<p>Eso es todo. Puede presentar algunos de los síntomas característicos después de la vacunación, que puede ser dolor, enrojecimiento en el sitio de vacunación. No es necesario aplicarse ningún tipo de pomadas ni fomentos de agua fría ni caliente, tampoco manipularse, tampoco sobarse ni rascarse.</p>
+<p>Es probable que también tenga algunos síntomas derivados de la vacuna como puede ser un poco de fiebre, quizá dolor de cabeza, quizá algún dolor articular o muscular, pero no es nada de cuidado. De todos modos, ahorita usted ya sabe que es su segunda dosis, ya tuvo la experiencia con la primera; no obstante, ahorita tiene que pasar al espacio de vigilancia durante 30 minutos para vigilar que justamente no tenga ninguna reacción.</p>
+<p>¿Alguna duda?</p>
+<p><strong>JORGE ALCOCER VARELA:</strong> No. Muchísimas gracias, le agradezco, muchas gracias.</p>
+<p><strong>FABIANA MARIBEL ZEPEDA ARIAS:</strong> No, gracias a usted.</p>
+<p><strong>INTERVENCIÓN:</strong> ¿Le dolió, señor secretario?</p>
+<p><strong>JORGE ALCOCER VARELA:</strong> Nada. Me conmovió estar completamente inmunizado, dentro de 10, 15 días ya voy a estar con los anticuerpos que se generan con esta antígeno y con ello pues seguir protegiendo a los demás y protegiéndonos todos.</p>
+<p>Es una situación que realmente vale la pena, que vamos a reiterar en lo oportuno y lo importante que es la salud entre (inaudible)</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy bien. Muchas gracias, muchísimas gracias, muchas gracias por todo lo que hacen.</p>
+<p>Hasta luego.</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

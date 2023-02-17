@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>11.09.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/11-09-19-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=124106' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F11-09-19-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F11-09-19-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66iwe-f-d9dd3c909-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":21,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"2a783e3f","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55217,"ak.gh":"23.47.207.69","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616388","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==DXI/glWATsq6xDcdSmdTnPkCNNCwjzR3jNMJ2ZOqn1ZKqEW+pU77Xey5tUM3Ipsd5D1icSt9YxmCgjU/JJt6URfIJSW2fCoRqsBHDjyEl0mE6gp/FUhl6adcvJ8lxury2xSw2qGmIUQ7Rs0dVH6sT0zinA6YREfW41mC+0yqRL6ErbGoOOKBt+Jyh+Kq1NZJUltfXYDKWvuI8jW0/seNTkZ1JfBbPaoTAPsKqedmsqqYZuR5dRiVU7nwrtew+HTCKALt4aA1h1LVm1q+1IUUZ6jkr5C7orCth52BCkyoC9zdC72Nwn+QALbe07fMf/Jb3qE7MbotEPhwWDYvcxLJG8Ht+FMFcfX/tqFTCDbK9RCM5w3LrLIRgJI9doBebtzi+HSsG43s05/5FOacxvlP/Yv9KoGwl/LJaTpiMR9xfI4=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-124106 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef20360d43e" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>11.09.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 11.09.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-124106" class="post-124106 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2019/09/11-09-19-VE-CPM-PORTADA.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2019/09/11-09-19-VE-CPM-PORTADA-745x450.jpg" alt="11.09.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">11.09.19 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><em>2019, Año del Caudillo del Sur, Emiliano Zapata</em></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Buenos días. Ánimo.</p>
+<p>Bueno, el día de hoy vamos a dar una muy buena noticia, otra buena noticia. Y es que ya se concluyó el acuerdo con la empresa Fermaca de los gasoductos. Les recuerdo que los contratos comprendían siete gasoductos, se había logrado el acuerdo en el caso de cinco gasoductos, había quedado pendiente una empresa con dos gasoductos, y afortunadamente ya se llegó a un acuerdo.</p>
+<p>Habíamos quedado formalmente que cuando se llegara al acuerdo se iba a informar -a través de ustedes a todos los mexicanos- sobre el acuerdo ya conjunto con todas las empresas.</p>
+<p><audio src="https://lopezobrador.org.mx/wp-content/uploads/2019/09/2019-09-11-Matutina.mp3" controls="controls"></audio></p>
+<p><iframe src="//www.youtube.com/embed/eJGIlMhl13Q" width="600" height="400" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Hicimos el compromiso con los empresarios de también presentar aquí las conclusiones una vez llegado el acuerdo. Entonces, estamos cumpliendo con eso.</p>
+<p>El licenciado Manuel Bartlett va a informarles en qué consistió este acuerdo. Es un avance por varias razones:</p>
+<p>Primero, porque se evitó el pleito, el ir a tribunales internacionales.</p>
+<p>Segundo, porque se cumple con los contratos.</p>
+<p>Tercero, porque se obtienen rebajas en las tarifas y esto beneficia a la Comisión Federal de Electricidad.</p>
+<p>Cuarto, porque tenemos asegurado gas a buen precio para 20 años, no olvidemos que la mayor parte de la energía eléctrica se produce con gas, esto nos garantiza que no nos falte la energía eléctrica. Y se demuestra que se puede con el dialogo llega a acuerdos en beneficio de empresas y en beneficio del gobierno que representa el interés de los ciudadanos, el interés del pueblo.</p>
+<p>Entonces, vamos a escuchar al licenciado Bartlett.</p>
+<p><strong>MANUEL BARTLETT DÍAZ, DIRECTOR GENERAL DE LA COMISIÓN FEDERAL DE ELECTRICIDAD (CFE):</strong> Voy a hacer una narración breve del proceso, porque fue igual que todos los demás, muy importante.</p>
+<p>Entre febrero y marzo del presente año, la CFE convocó a la empresa Fermaca para informarle que bajo el marco legal que rigen los contratos se buscaba renegociar las condiciones contractuales, sustancialmente la tarifa.</p>
+<p>De los siete gasoductos que se renegociaron, dos son propiedad de la empresa Fermaca: uno, La Laguna Aguascalientes; y dos, Villa de Reyes, Aguascalientes-Guadalajara. La importancia de estos dos gasoductos es realmente muy destacada, traen gas barato de Texas, Estados Unidos, el famoso Shell Gas, al precio más barato del mundo, y lo traen por todo el centro del país hasta dividirse en Aguascalientes y llegan exactamente a la zona… uno es La Laguna Aguascalientes y luego Villa de Reyes Aguascalientes-Guadalajara, en la zona de mayor crecimiento del país.</p>
+<p>La primera semana de julio se realizaron las primera sesiones introductorias el 8 de julio. Con la participación como observadores del Consejo Coordinador Empresarial, el Consejo Mexicano de Negocios y como representante el ciudadano presidente de México, el licenciado Alejandro Esquer, se dio inicio formalmente con este grupo las negociaciones.</p>
+<p>Por parte de la CFE participaron su director general, Manuel Bartlett; el director de Filiales CFE Energía y CFE Internacional, don Miguel Reyes y el coordinador de Administración y Servicios, el maestro Miguel Alejandro López.</p>
+<p>El ciudadano presidente de México, entre el 19 y 26 de agosto convocó a la Comisión Federal de Electricidad y las empresas transportistas para llegar a un acuerdo final y propuso como experto mediador al doctor Edmundo Sánchez, que realmente nos prestó un gran auxilio con una gran visión financiera muy acusada y además con un conocimiento de lo que son los sistemas de gasoductos por su participación en algunos procesos en Europa.</p>
+<p>El presidente de México, posteriormente al acuerdo del 26 de agosto entre CFE y tres de las cuatro empresas transportistas, Carso Energy, IEnova, TC Energía, convocó a la CFE y a Fermaca a lograr un acuerdo en beneficio del país.</p>
+<p>A partir de ello se realizaron cuatro reuniones en el Salón Madero del Palacio Nacional, en las que Fermaca presentó cuatro contrapropuestas a la CFE, de las cuales dos de ellas no se apegaban a los criterios y condiciones acordados con las demás empresas transportistas.</p>
+<p>Además del personal de CFE y Fermaca, en estas reuniones participaron el cofundador de un grupo que se llama Partners Group, de Suiza, que tiene una representación financiera importante. Esta presencia del director de este grupo de Suiza nos permitió ampliar las negociaciones en dos reuniones más; después de esta reunión con el director de este grupo de inversionistas suizos se logró una apertura que considero es de beneficio para ambas partes.</p>
+<p>Se dio con los mismos criterios con los demás grupos, se modificó la naturaleza de las tarifas, se estableció una tarifa de garantía de inversión y no la que financiaba los gasoductos, tarifas de servicio de transporte de gas natural niveladas, donde sólo se paga el alquiler, tema central de la negociación, tarifas fijas liberadas a través del tiempo, acuerdos equilibrados sobre casos fortuitos y fuerzas mayores.</p>
+<p>Recuerden ustedes que la CFE había estado pagando durante un periodo largo por casos fortuitos y fuerza mayor que consideramos que eran inadecuados. Hubo una muy buena voluntad de la empresa para que esas sumas de los casos fortuitos se reintegraran a través de diversos mecanismos y se devolviera a la CFE.</p>
+<p>Se redujo la tarifa, que es lo más importante, que logramos. La Laguna Aguascalientes, la tarifa se redujo en 25 por ciento, al pasar de 14 a 11 centavos de dólar por las medidas que se dan en el gas; el gasoducto Villa de Reyes Aguascalientes-Guadalajara, la tarifa se redujo 18 por ciento, al pasar de 12 a 10 centavos de dólar. El ahorro total fue de 672 millones de dólares.</p>
+<p>La Laguna Aguascalientes se ahorraron 455 millones de dólares, los compromisos de pago pasaron de mil 838 a mil 382 millones de dólares; el gasoducto de Villa de Reyes Aguascalientes-Guadalajara se ahorraron 217 millones de dólares, los compromisos de pago pasaron de mil 179 a 961 millones de dólares.</p>
+<p>Se negociaron -y esto es algo que informo con precisión, porque ha habido algunos comentarios en los medios de que no se había logrado nada en esta negociación- se negociaron 10 años adicionales de servicio de transporte de gas natural.</p>
+<p>Estos 10 años adicionales son un beneficio para la empresa que puede de esa manera compensar las reducciones, pero que además nos dan a la CFE una estructura, un contrato de gas por 10 años más, es decir, nos aporta un beneficio adicional de 10 años más del gas que tenemos alquilado.</p>
+<p>Los pagos para las fuerzas mayores también se reintegraron, cosa que agradezco mucho a la empresa, para que igual que todos las demás llegáramos perfectamente de acuerdo con los pagos que se consideraban inadecuados, que fueron aceptados por la propia empresa.</p>
+<p>Las conclusiones son las siguientes:</p>
+<p>Aun con las dificultades que implica hacer llegar el gas natural a nuestras centrales, se garantiza la producción de gas para la generación de electricidad en las regiones Bajío, Occidente y Centro del país, y el excedente podrá ser comercializado a la industria nacional.</p>
+<p>Les decía yo que estos dos gasoductos son sin duda los más importantes en toda la red de gasoductos, porque vienen de Texas y bajan por todo el centro del país para llegar a las zonas de mayor consumo.</p>
+<p>Decíamos que si bien no estaban destinados directamente a proporcionar el gas a las plantas que no se construyeron, de todas maneras la ubicación de estos gasoductos nos permiten atender a un buen número de plantas en el centro del país, lo cual es una ventaja.</p>
+<p>Al ampliar la duración del contrato por 10 años más se asegura el suministro de gas natural a una tarifa del servicio de transporte competitivo.</p>
+<p>Al renegociar las tarifas se evitó enfrentar precios crecientes del transporte de gas natural en montos insostenibles para la CFE, aguardando con ello las futuras afectaciones financieras y comerciales.</p>
+<p>Si bien las negociaciones fueron extensas, difíciles, siempre existió un trato de respeto entre las partes. La CFE reconoce la disposición mostrada por Fermaca para llegar a este acuerdo fructífero para ambas partes.</p>
+<p>Esta negociación tiene como resultado un beneficio para los dos, como ya se ha dicho, y mantendremos, a partir de la creación y manutención de una atmósfera adecuada, amistosa, cordial, respetuosa, vamos a tener una asociación durante más de 25 años, lo cual tiene un gran beneficio porque vamos a ser socios, nos van a traer el gas en condiciones adecuadas y vamos a poder tener durante todos estos años una relación cordial y atenta entre nosotros.</p>
+<p>Quiero agradecer al ciudadano presidente de la República. Si bien fuimos un poco ¿qué podría yo decir? eficientes al iniciar las negociaciones con demandas de acuerdo con lo que establecen los contratos, a final de cuentas fue la determinación del presidente llegar a estos acuerdos. Siempre nos animó que es mejor un buen arreglo que tener un pleito.</p>
+<p>Y con ese ánimo y con ese impulso del presidente de la República pues logramos este acuerdo que, como el presidente señala, es una buena noticia para el desarrollo del país.</p>
+<p>Tenemos gas, tenemos la posibilidad, incluso de comercializar el gas para fortalecer a la CFE.</p>
+<p>Muchísimas gracias, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy bien.</p>
+<p>A ver si alguien de la empresa quiere expresar algo.</p>
+<p><strong>FERNANDO CALVILLO ÁLVAREZ, PRESIDENTE DE FERMACA:</strong> Muy buenos días a todos.</p>
+<p>Señor presidente, don Manuel Bartlett.</p>
+<p>Celebramos que se alcance un acuerdo con CFE, el cual ha resultado fundamentalmente de la voluntad del diálogo. A lo largo de casi 25 años Fermaca ha invertido en el desarrollo de infraestructura energética de nuestro país y hoy refrendamos nuestro compromiso de ofrecer servicios que representen un mayor bienestar para los mexicanos.</p>
+<p>Reconocemos la buena disposición del director general de la CFE, licenciado Manuel Bartlett; y del presidente de la República, don Andrés Manuel López Obrador, quien tomó este tema como una prioridad de su gobierno.</p>
+<p>Asimismo, queremos agradecer al licenciado Antonio del Valle, presidente del Consejo Mexicano de Hombres de Negocios; y al ingeniero Carlos Salazar Lomelín, presidente del CCE.</p>
+<p>Fermaca es una empresa mexicana que es respaldada por fondos de inversión internacionales, como bien lo mencionó don Manuel, fondos de pensiones y al menos una docena de bancos de inversión para la construcción de los gasoductos que operamos.</p>
+<p>Este acuerdo generará importantes ahorros a la CFE que destinará para proyectos estratégicos para el desarrollo nacional y nos permite mantener la vigencia de nuestros contratos actuales. Asimismo, permitirá la entrada en operación de nuestro gasoducto La Laguna Aguascalientes, el cual cuenta con 453 kilómetros este mismo mes.</p>
+<p>Los gasoductos de Fermaca constituyen la red troncal privada más importante para el abasto de gas natural, que suman dos mil 150 kilómetros desde la Cuenca de Guaje en Texas, con acceso al gas más barato del mundo.</p>
+<p>Cuando nuestra red troncal esté terminada en el primer semestre del 2020, podremos suministrar gas natural al Norte, Occidente y Centro de México, garantizando así un futuro más próspero para nuestro país.</p>
+<p>Refrendamos nuestro compromiso con México y con el anuncio, señor presidente, de una inversión de 12 mil millones de pesos adicionales a través de la expansión de nuestro sistema de gasoductos, y nuestro compromiso por apoyar cualquier esfuerzo para llevar gas natural al sureste del país.</p>
+<p>Le reitero nuestro agradecimiento al señor presidente Andrés Manuel López Obrador.</p>
+<p>Muchas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, este es el informe. Con esto concluimos una muy buena negociación que evitó, repito, ir a los tribunales internacionales.</p>
+<p>Ahora sí, abrimos sobre el tema.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, ciudadano presidente. Carlos Pozos, reportero de la revista <em>Petróleo y Energía</em>. Buenos días a los invitados empresarios y buenos días al señor director de la Comisión Federal de Electricidad, Manuel Bartlett.</p>
+<p>Quisiera hacerle una pregunta primero al representante de Fermaca, que nos pudiera dar su nombre.</p>
+<p>Y mi pregunta en específico para el empresario es: ¿usted tuvo titubeo en la confianza a la administración del señor presidente por esta renegociación?</p>
+<p>Preguntarle: ¿además de esos 12 mil millones de pesos que se tiene contemplado de inversión en cuánto suma con esta renegociación la inversión por parte de Fermaca?, y si hay confianza actualmente en la administración del presidente Andrés Manuel López Obrador</p>
+<p>Y posteriormente le quisiera hacer una al director de la Comisión Federal de Electricidad.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong> Acá, porque si no, se quejan de que no hay audio.</p>
+<p><strong>FERNANDO CALVILLO ÁLVAREZ:</strong> Fernando Calvillo, servidor de usted. Soy presidente del consejo de la empresa.</p>
+<p>Por supuesto que hay confianza, todavía este año hemos estado invirtiendo la cantidad de casi 350 millones de dólares, tenemos absoluta confianza en el gobierno federal.</p>
+<p>Y con los 12 mil millones de pesos adicionales que vamos a invertir estamos hablando de que Fermaca ha invertido en los últimos 15 años aquí en el país alrededor de tres mil 500 millones de dólares en toda su red de gasoductos.</p>
+<p>Como comentábamos, la idea es expandir el sistema para poder proveer de más gas, tanto a la CFE, como a las industrias mexicanas, y la idea es hacer una inversión muy importante este año en compresión para poder meter más a los ductos.</p>
+<p><strong>INTERLOCUTOR:</strong> ¿En esta renegociación hubo titubeo en la confianza de ustedes, los empresarios, al actual gobierno?</p>
+<p><strong>FERNANDO CALVILLO ÁLVAREZ:</strong> La verdad es que no hubo ningún titubeo, como siempre pues pueden existir diferencias y puntos de vista, pero yo creo que lo más importante es el diálogo; y la verdad es que el señor presidente convocó a que llegáramos a un arreglo. Y la verdad que con las discusiones y las negociaciones con don Manuel y su equipo la ampliación del plazo de los contratos, por supuesto que ayudó mucho para que las tarifas fueran competitivas.</p>
+<p><strong>INTERLOCUTOR:</strong> Don Manuel, quisiera ver si me podía contestar una pregunta.</p>
+<p>Don Manuel Bartlett, quisiera saber si su declaración patrimonial está en regla.</p>
+<p>Y respecto a la documentación, si ya la tiene preparada, ya la presentó.</p>
+<p>Y si considera que el reportaje del colega Carlos Loret de Mola es falso.</p>
+<p>¿Y qué opina respecto a que la Función Pública abre una investigación sobre sus bienes tras una denuncia ciudadana?</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> Bueno, esta pregunta muy relacionada con los gasoductos la voy a contestar con todo gusto.</p>
+<p>Mire usted. Tengo toda una vida en el servicio al gobierno mexicano y tengo el patrimonio que he desarrollado en estos años perfectamente definido en mis declaraciones patrimoniales año con año.</p>
+<p>He presentado a la Función Pública cinco años -como establece la ley- anteriores para que puedan tener un conocimiento preciso de cómo se fue constituyendo ese patrimonio. Jamás se me ha acusado de corrupción en todos estos años. He manejado muchos recursos en diversas funciones y todo está en mi declaración patrimonial.</p>
+<p>Si me pregunta usted qué opino de la investigación que dio origen a esta averiguación que se tiene que hacer. El presidente de la República nos ha señalado con toda claridad que nuestro patrimonio y nuestras responsabilidades tienen que ser públicamente discutidas, de manera que yo aprecio desde luego que la Función Pública inicie una investigación, porque estoy seguro de que mis datos son correctos.</p>
+<p>El reportaje que usted menciona es falso. Me atribuye propiedades que no son mías, no existe ninguna prueba alguna de que yo haya escondido estas cantidades inverosímiles de 800 millones de pesos. En este reportaje aparece como… mi caso, una falsedad total, aparece todo un… casi me atribuyen la propiedad de una manzana.</p>
+<p>Pero lo importante, a final de cuentas es la instrucción del presidente, nosotros tenemos que aclarar nuestro patrimonio, no solamente en relación con el año que llevamos en esta función, sino en el patrimonio de toda una vida. Repito, jamás se me ha acusado de corrupción alguna. En este caso se me atribuye una propiedad que no es mía. Es todo, gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Vamos al gas. Siéntese usted.</p>
+<p><strong>PREGUNTA:</strong> Gracias, presidente. De <em>Quinto Poder. </em></p>
+<p>Dos preguntas. Con todo lo que acaba de decir el director Bartlett ¿está en riesgo su puesto dentro de la CFE?, ahora que ya están las indagatorias puestas contra Guillermo Turrent, ex director de CFE Energía, ya comenzó la limpieza dentro de la Comisión Federal de Electricidad.</p>
+<p>Y preguntarle al director Bartlett ¿cómo se recuperará el dinero de los casos fortuitos si Carlos Lomelí ya señaló que no se va a reembolsar estas cifras de dinero que ya ha pagado el gobierno de México?</p>
+<p>Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, decirles que estoy yo muy satisfecho con el trabajo del licenciado Manuel Bartlett, que me apoya en el propósito de limpiar de corrupción la Comisión Federal de Electricidad.</p>
+<p>Podría parecer una paradoja, un contrasentido, porque nuestros adversarios, los conservadores, los que se dedicaron a saquear, ahora son opositores y están queriendo confundir con el propósito de enrarecer el ambiente, hacer creer que todos somos iguales, cuando no es así.</p>
+<p>Todos estos reportajes tienen que ver con los grupos de intereses creados que lucraron durante los 36 años de la llamada política neoliberal, que no fue más que una política de pillaje. Entonces, por eso los ataques a Manuel Bartlett. Pero nosotros tenemos una visión distinta. A mí me ayuda mucho el que esté a cargo de la Comisión Federal de Electricidad Manuel Bartlett, porque había que recuperar la Comisión Federal de Electricidad.</p>
+<p>Si no se ponía orden en la Comisión Federal de Electricidad iba a desaparecer. Recuerden ustedes que el propósito de los que se sentían dueños de México era desaparecer a Pemex y a la Comisión Federal de Electricidad, y se esmeraron para lograr ese propósito.</p>
+<p>En el caso de la Comisión Federal de Electricidad empezaron a privatizar la generación de la energía eléctrica en 1989, violando la Constitución -esto durante el gobierno de Salinas- aprovechándose de una ley secundaria, y empezaron a entregar contratos de generación de energía eléctrica a empresas fundamentalmente extranjeras.</p>
+<p>En ese entonces, cuando se impone a Salinas, la Comisión Federal de Electricidad generaba toda la energía eléctrica que consumía el país, toda. Empiezan con esta política de entregar los contratos y en la actualidad la mitad de la energía eléctrica que consumimos se produce por empresas particulares.</p>
+<p>Al mismo tiempo que se iban entregando estos contratos, no en beneficio del pueblo de México, no es un asunto ideológico decir que estoy en contra de las privatizaciones, es que en el terreno práctico, con juicio práctico, resulta que no se benefició al consumidor mexicano con esa política, porque no bajó el precio de la energía eléctrica; al contrario, aumentó al grado de que es más cara la energía eléctrica en México que en Estados Unidos o en otros países.</p>
+<p>Bueno, todo esto fue un plan deliberado para desaparecer la empresa pública, porque se empezaron a cerrar las plantas de generación de energía eléctrica de la Comisión Federal de Electricidad, inclusive se subutilizaba la capacidad de generación de energía eléctrica de las plantas de la Comisión Federal de Electricidad. El caso, por ejemplo, de las hidroeléctricas, que no turbinaban a toda su capacidad para darle ventaja a las empresas particulares.</p>
+<p>A lo que voy es que, si ustedes revisan los planes a partir de la llamada reforma energética, si continuábamos con esa política a finales de este sexenio esta participación que se tiene ahora, 50-50, iba a ser distinta, la Comisión Federal si acaso iba a estar produciendo el 20 por ciento de la energía eléctrica y el 80 por ciento las empresas particulares.</p>
+<p>Es natural que si cambia la política -porque así lo decidió el pueblo de México el año pasado en las elecciones, de manera democrática- y se decide fortalecer a la Comisión Federal de Electricidad para garantizar que no aumente en un primer momento, en una primera etapa, el costo al consumidor de la energía eléctrica -que es lo que estamos haciendo, no aumentar el precio de la energía eléctrica en términos reales- y luego con todo esto y con una administración honrada, poder bajar el precio de la luz, es lógico que no les gusta a los conservadores, porque se habían dedicado a robar, a saquear.</p>
+<p>Entonces, ese es el fondo de esta oposición de estos reportajes, el querer confundir a los ciudadanos. Aun con eso, nosotros vamos a respetar el derecho a la libre manifestación de las ideas, no va a haber ninguna censura. Aquí vuelvo a decirlo, porque no falta quienes estén pensando -porque creen que somos iguales, iguales de autoritarios como los conservadores- no faltan quienes dicen que Loret de Mola salió de <em>Televisa</em> porque nosotros lo pedimos. Eso es mentira, es una calumnia. Nosotros somos respetuosos de la libertad de expresión.</p>
+<p>Además, ya en estos tiempos -no sé cuál es la concepción de ustedes, el análisis que ustedes hacen- ya en estos tiempos la gente está muy despierta y tiene muchas maneras de informarse, por eso hablo de las benditas redes sociales, y todos estos intentos de desprestigio, de manchar al nuevo gobierno no prosperan; sin embargo, vamos nosotros a respetar el derecho a disentir y se va a investigar todo, absolutamente todo, no hay impunidad.</p>
+<p>Pero sí quiero dar ese contexto, porque son ensaparados. Allá en la Cámara, ayer en el Senado, el PAN vota en contra de que sea delito grave la facturación falsa. Eso es bueno, porque ya sabemos de qué lado están. Pero dan la cara, votan, y hay otros que no se atreven ya a dar el paso, a quitarse la máscara y a constituirse en una asociación política, en un partido político.</p>
+<p>Por ejemplo, todo lo que hace esta asociación de Claudio X. González, de estar promoviendo los amparos para que no se construya el aeropuerto de Santa Lucía o todo este activismo político. Ya fuera máscaras, a un lado la hipocresía.</p>
+<p>Además, es legítimo, permitido, aceptado. Nosotros no luchamos para crear una dictadura, nosotros luchamos para crear una auténtica democracia y en la democracia no hay pensamiento único. No debe haber autoritarismo, no debe haber censura, no debe haber represión, no debe haber uso de la fuerza. La democracia es pluralidad, es debate, es derecho de réplica.</p>
+<p>Entonces, adelante con todo esto. No es desviarnos del tema, es muy importante el acuerdo, desde luego es fundamental en la democracia, así como la transparencia, el diálogo, el que podamos -aún con posturas distintas- sentarnos, respetarnos y llegar a un acuerdo, más si está de por medio el interés general, el interés de la nación.</p>
+<p><strong>PREGUNTA:</strong> (Inaudible)</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Se está limpiando todo.</p>
+<p>Miren, siempre hablo de las escaleras y ese es un buen símil. Las escaleras se barren de arriba para abajo, no se pueden barrer de abajo hacia arriba, de arriba para abajo; entonces, empezamos a barrer arriba y hay que seguir barriendo, y se va a limpiar por completo el gobierno.</p>
+<p>Y vamos también con nuestro ejemplo a pedir que haya una ética empresarial. Hace unos días -mañana les voy a traer la información- una de las asociaciones de empresarios de Estados Unidos, la más importante, tenía como propósito fundamental la obtención de utilidades. Decidieron crear un código de ética en donde ya no es ese su propósito fundamental, sino es el procurar que sus trabajadores tengan buenos salarios, que sus trabajadores tengan prestaciones, que sus empresas no afecten el interés general, que no haya corrupción, que no propicien la entrega de sobornos. Es algo muy interesante.</p>
+<p>O sea, no es sólo el gobierno, todos tenemos que portarnos bien. Entonces, sí, ya empezó la limpia.</p>
+<p><strong>PREGUNTA:</strong> Sobre los recursos…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, eso lo puede explicar el licenciado.</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> Comentábamos en la presentación sobre Fermaca, que a través de diversos mecanismos aceptaron reintegrar esas cantidades a la CFE. Fue uno de los elementos fundamentales en la negociación, se genera la tarifa, etcétera; los pagos fortuitos y de fuerza mayor que se consideraban indebidos, bueno, se plantearon también en la discusión.</p>
+<p>Y hubo una absoluta buena voluntad de las partes, de los transportistas, empezando por Carso, que lo reintegra de inmediato.</p>
+<p>Hay diversos mecanismos, pero todo lo pagado durante el periodo en que no llegaba el gas a la CFE, todo lo pagado en esos casos de fuerza mayor fue restituido a la CFE sin entrar en una discusión.</p>
+<p>Si nosotros planteábamos que eran pagos indebidos había que demostrarlo, había que tener una discusión al respecto. Aceptaron que se reintegraran.</p>
+<p>En ese sentido, también preguntaban la cuestión de cuál es el resultado de esto.</p>
+<p>Nosotros, siguiendo las instrucciones del presidente, tenemos como objetivo fundamental, permanente en todo momento la transparencia y la lucha contra la corrupción.</p>
+<p>En relación con los gasoductos se tiene una auditoría de todo el proceso para dirimir si hay responsabilidades internas que se van a hacer valer. Esa es la instrucción fundamental del presidente.</p>
+<p><strong>INTERLOCUTOR:</strong> (Inaudible)</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> ¿Perdón? ¿Cuál declaración?</p>
+<p><strong>INTERLOCUTOR:</strong> (Inaudible)</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> No, pero aquí están los compañeros con los que discutimos ese asunto. Sí se van a reintegrar, no hubo ninguna discusión al respecto, todos los pagos se van a reintegrar.</p>
+<p><strong>INTERLOCUTOR:</strong> ¿Hay una cifra de lo que se va a reintegrar?</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> ¿De los qué?</p>
+<p><strong>INTERLOCUTOR:</strong> De lo que va a reintegrar, ¿hay una cifra?</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> Ah, son diferentes.  ¿Tienes ahí la cifra?</p>
+<p>Son siete análisis, porque son diferentes situaciones de estos pagos. Todos están reintegrados.</p>
+<p><strong>PREGUNTA:</strong> Gracias. Arturo Páramo, <em>Grupo Imagen</em>.</p>
+<p>Director, todo esto se hizo para que, finalmente, el consumidor tenga un precio menor en el futuro del gas.</p>
+<p>¿En cuánto tiempo la gente podrá tener ya reflejado en el recibo que tiene de gas?, sobre todo los de gas natural evidentemente. Esta baja eventual… ¿o no incrementará el costo que paga el consumidor?</p>
+<p>Entiendo que también está la parte industrial ¿los industriales también tendrán un mejor precio competitivo, entiendo, para esto?</p>
+<p>Y se había prometido también el tema de alimentar las plantas generadoras de energía.</p>
+<p>¿En cuánto tiempo ya también podremos decir, ‘no hace falta’, bueno, más bien, ‘ya se cubre la demanda’? Usted nos había dicho la zona de las penínsulas, sobre todo la de Yucatán.</p>
+<p>¿En cuánto tiempo se puede reflejar esto?</p>
+<p>Y no sé si tiene el dato, yo sé que son siete datos diferentes, pero ¿cuánto es la cifra total de lo que se va a reintegrar por esto que nos comentaban de los pagos?</p>
+<p><strong>MIGUEL SANTIAGO REYES HERNÁNDEZ, DIRECTOR DE CFE ENERGÍA:</strong> Seiscientos setenta millones.</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> ¿Cuánto?</p>
+<p><strong>MIGUEL SANTIAGO REYES HERNÁNDEZ</strong><strong>:</strong> Seiscientos setenta millones.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Por qué no lo explicas?</p>
+<p>A ver, ayúdale.</p>
+<p><strong>MIGUEL SANTIAGO REYES HERNÁNDEZ</strong><strong>:</strong> Fueron siete gasoductos que se encontraron en situaciones de fuerzas mayores. De manera general podemos decirles que fueron 670 millones de dólares, que serán reintegrados algunos de manera directa, como lo comentó el director de la Comisión Federal de Electricidad, en el caso de Carso.</p>
+<p>Y en la situación de las empresas IEnova y EMG será acreditado a través de la misma tarifa en diferentes temporalidades. Con la empresa Fermaca se acordó el que se reintegre el monto entre el año 26 y el año 35 en la incorporación de la tarifa, y con meses de servicio sin cobro tarifario.</p>
+<p>Originalmente los contratos establecían el retorno de estas fuerzas mayores al final de los contratos. Lo que hicimos es considerar algunos cobros, es decir, algunos montos de lo que pensábamos que pudieran ser cobros no de alguna manera reconocidos, es decir, gastos financieros, algunos son acreditados inicialmente, otros a los 25 años, otros entre el año uno y 25 en las tarifas, y otros en el año 26 y 35. El monto, repito, son 670 millones de dólares.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pero quedó otra cosa pendiente.</p>
+<p><strong>INTERLOCUTOR:</strong> Sí, ¿cuándo ya se puede, señor director, ver reflejado ya físicamente en un recibo de empresas, de gente que consume, y del suministro toda esta negociación?</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> Para empezar, el presidente ha dado instrucciones de que no suba la tarifa de gas, digo de electricidad, de ninguna manera en precios reales, en todo el sexenio, y eso se va a cumplir.</p>
+<p>La CFE consumo diversos combustibles, tiene nuclear, tiene combustóleo, tiene gas LP, y el tener gas ahora el más barato nos va a permitir ir alimentando nuestras plantas con ese gas más barato, lo cual permitirá una generación más barata en beneficio de la población.</p>
+<p>¿Cuándo va a estar esto ya logrado, me pregunta?</p>
+<p>Bueno, todavía tenemos algunos gasoductos detenidos, en ese proceso que hemos comentado por diferentes razones en diferentes partes de la República. El presidente ha ordenado a la Secretaría de Gobernación, con la que vamos a colaborar, para que se vayan resolviendo todos estos conflictos que hay para que tengamos lo más rápidamente posible el gas.</p>
+<p>Fermaca tiene un gasoducto casi terminado…</p>
+<p><strong>FERNANDO CALVILLO ÁLVAREZ:</strong> Tiene inicio de operaciones este mes, este próximo viernes y el Villa de Reyes, Guadalajara para marzo del próximo año.</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> Ahí están ya dos gasoductos importantes, como decíamos, que son los que a traviesan todo el país, que van a entrar en operación pronto.</p>
+<p>Y los otros los vamos a ir resolviendo rápidamente, esa es la instrucción del presidente de la República, para tener la cantidad de gas que se tendrá a precios competitivos, a precios de servicio, como lo señalamos, para poder alimentar a las plantas.</p>
+<p>Una parte va a ser utilizada para la industria, que la necesita, y desde luego para la península de Yucatán.</p>
+<p>El ducto marino que llega a las costas mexicanas, no a Tuxpan, ese nos va a permitir hacer una construcción de un gasoducto corto para poderlo llevar a la península de Yucatán y resolver este problema para siempre; es decir, de manera que sí se va a llevar, como lo decía aquí Fermaca, se va a lograr atender el sur, sureste, que no está atendido. Eso ya está en curso.</p>
+<p><strong>PREGUNTA:</strong> Señor presidente, si me permite también una pregunta.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Nada más en esto, para que quede totalmente claro.</p>
+<p>Primero, reafirmar el compromiso de que no aumentan los precios de gasolinas, diésel, energía eléctrica y gas. No aumentan en términos reales, no hay aumentado, porque esto como que no se quiere decir, hemos cumplido y además es muy sencillo de comprobar, esto tiene que ver con la inflación.</p>
+<p>El mismo Banco de México ha reconocido que ha bajado la inflación o se ha mantenido de acuerdo a lo estimado por ellos, porque no han aumentado los precios de los energéticos. Esa es una cosa.</p>
+<p>Lo segundo es de que hay una circunstancia especial en el mercado. Por razones que llevaría tiempo explicar, está barato el gas en Estados Unidos, en particular en Texas, esto lo saben mejor los empresarios. Es el gas más barato del mundo.</p>
+<p>Y nosotros, por razones geográficas, tenemos posibilidad de usar ese gas. Yo hubiese deseado algo distinto: que no se hubiese abandonado el sector energético nacional y que fuésemos autosuficientes en gas. No se pensaba en esto, en traer gas; al contrario, acuérdense ustedes que se hizo un gasoducto para exportar gas, bueno, ese gasoducto ahora se va a arreglar para que nos ayude a introducir gas, porque se cayó la producción petrolera y la producción de gas, ni siquiera hubo en el periodo neoliberal un plan de producción de gas.</p>
+<p>En el caso de la extracción del petróleo se mantuvo muy marginal, pero en el caso del gas ni siquiera se planteó extraer gas. Dieron algunos contratos, uno muy famoso a una empresa española, en Burgos, hicieron inversiones en ese sentido. Un mal negocio para la nación, buen negocio para la empresa y para los funcionarios, pero mal negocio para la nación. Por eso es importante aprovechar la circunstancia de que el gas está barato.</p>
+<p>Lo tercero es, repito, que garanticemos el abasto, porque no somos autosuficientes en gas. Vamos a producir más gas, sobre todo el gas asociado al petróleo, por la explotación de los nuevos campos petroleros, pero no es suficiente, desgraciadamente necesitamos importar gas. Con esto se garantiza el abasto de gas, que significa tener energía eléctrica, entre otras cosas.</p>
+<p>Y como bajan los costos de operación no descartamos, -eso lo planteó el director de la Comisión Federal de Electricidad, yo todavía no me atrevería a sostenerlo, porque no podemos engañar y los compromisos se cumplen- pero hay la posibilidad de reducir los costos de la energía al mediano plazo, que es tu pregunta.</p>
+<p>El compromiso es que no aumente, eso sí se mantiene, ante cualquier circunstancia se mantiene el compromiso de que no van a haber aumentos.</p>
+<p>La reducción va a depender de una serie de elementos para que no tengamos que recurrir a deudas, a contratación de deuda, queremos tener finanzas sanas. Entonces, ahí vamos poco a poco.</p>
+<p><strong>PREGUNTA:</strong> Señor presidente, rapidísimo.</p>
+<p>Ayer un diputado en Tabasco planteó la posibilidad de que usted se reelija, de hecho, su paisano dice que hay un clamor popular porque usted pudiera participar en una elección y estar otros seis años…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ya hasta firmé que no voy a reelegirme.</p>
+<p><strong>INTERLOCUTOR:</strong> ¿Qué le dice usted a este diputado que…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Soy maderista.</p>
+<p><strong>INTERLOCUTOR:</strong> De hecho, dijo Sufragio efectivo si reelección, que hay que cambiar la Constitución.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No reelección. Además, yo por eso me estoy me aplicando a fondo para hacer las cosas bien en mi periodo. No tengo esa intención, no me voy a reelegir, es un asunto de principios, que es lo que estimo más importante en mi vida, no soy un ambicioso vulgar.</p>
+<p>Ya cumplí o estoy cumpliendo, y lo que quiero es entregar el gobierno -si así lo decide el pueblo- al final del 2024 y que vengan otros.</p>
+<p>También por eso estoy actuando de manera precavida, toco madera si regresan los que se fueron. Aunque regresen ya no van a poder dar marcha atrás a lo que va a quedar establecido, va a ser muy difícil dar marcha atrás a la transformación, y si no regresan pues mejor.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, presidente, y a todos los presentes, compañeros. Diana Benítez del <em>Diario 24 Horas</em>.</p>
+<p>Preguntarle, ahora sí que ya en temas en general, si ya tuvo comunicación con el secretario de Relaciones Exteriores, ¿qué le informó de la reunión ayer con autoridades de Estados Unidos?</p>
+<p>Si el presidente Donald Trump le envía un mensaje especial, dado que parece que tuvieron un pequeño encuentro.</p>
+<p>¿Y cuáles serían los resultados que usted esperaría de Estados Unidos en materia de tráfico de armas, que fue un tema que se tocó?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Mañana vamos a informar sobre este tema. Les adelanto que fue un encuentro exitoso, hubo un ambiente satisfactorio para los dos gobiernos, ese es el informe que tengo de parte de Marcelo Ebrard, fue una reunión cordial, distinta diametralmente a la reunión de hace tres meses con el vicepresidente de Estados Unidos; en aquella ocasión no fueron groseros, pero sí estaban en una postura más rígida.</p>
+<p>Ahora fue distinto. Hubo un reconocimiento a que se cumplieron los compromisos de parte nuestra y se alejó el riesgo, la amenaza, de imponer aranceles de manera unilateral a las mercancías que se producen en México y se venden en Estados Unidos. Fue un buen encuentro, una muy buena reunión.</p>
+<p>Hoy me va a informar el secretario de Relaciones Exteriores, que regresa. Y sí hubo acuerdo entre las partes en el tema migratorio, en mantener la misma política de cooperación para el desarrollo, de amistad, de hacer a un lado la confrontación.</p>
+<p>Yo aprovecho para agradecerle al presidente Donald Trump por tener esta actitud respecto a México, una actitud de respeto a México, considero que es muy importante que se mantengan y se fortalezcan las relaciones con Estados Unidos y con Canadá. Lo que viene, lo que estamos esperando, porque consideramos que conviene a las tres naciones, a los tres pueblos, es la firma o aprobación del tratado en el Congreso de Estados Unidos y de Canadá.</p>
+<p>Hago un llamado también respetuoso a quienes tienen que resolver sobre este asunto en Estados Unidos y en Canadá para que nos ayuden o que nos ayudemos mutuamente, conviene la aprobación del tratado a los tres países.</p>
+<p>Y ojalá y se haga pronto porque como hay procesos electorales en puerta, no queremos que este asunto se mezcle con las diferencias naturales que se presentan cuando hay una contienda electoral, política electoral.</p>
+<p>Yo he estado hablando dirigentes del Partido Demócrata y desde luego del Partido Republicano en Estados Unidos sobre este tema, y he dejado en claro qué estamos a favor de la aprobación del tratado; y en el caso del Partido Demócrata, que han sido muy responsables, incluso los dirigentes obreros que tienen algunas dudas sobre el tratado, me refiero a dirigentes obreros en Estados Unidos, hemos hablado y le hemos dado garantías de que en el caso nuestro, de manera soberana, de conformidad con la nueva ley laboral se va a hacer realidad el que haya libertad sindical, democracia sindical y se va a seguir avanzando para que mejoren los salarios en México a los trabajadores; en fin, estamos nosotros haciendo lo que nos corresponde.</p>
+<p>Y en efecto, fue muy buena reunión la de ayer entre el secretario de Relaciones Exteriores, el vicepresidente de Estados Unidos y de otros funcionarios, tanto de México como de Estados Unidos, quedaron satisfechos todos los integrantes de los equipos de los dos gobiernos.</p>
+<p><strong>PREGUNTA:</strong> Presidente, pero si México ya está dando resultados en materia de migración ¿cuáles serían los resultados que usted esperaría de Estados Unidos sobre el tráfico de armas?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Eso es lo que nos van a informar hoy, de qué trató la reunión y luego, con toda transparencia, aquí vamos a informarles, si es posible mañana mismo se informa para que se conozca qué se trató en la reunión y a qué acuerdo se llegó.</p>
+<p>Lo que yo sí puedo decir es que fue una muy buena reunión. Y agradecerle al presidente Donald Trump por su disposición al diálogo y por su voluntad de que haya entendimiento en el tema migratorio y en lo que corresponde a la relación económica comercial entre México, Estados Unidos y Canadá.</p>
+<p><strong>INTERLOCUTORA:</strong> Finalmente, presidente, le preguntaría sobre esta información que ayer dio a conocer la Sedena de que las Fuerzas Armadas ya van a estar respondiendo agresiones de las que sean sujetos, ahora sí que con un uso moderado de la fuerza.</p>
+<p>¿Esta decisión fue consultada con usted? Preguntarle su opinión.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí y la recomendación es que no haya abusos de poder, que no se abuse de la fuerza, que se actúe con respeto a los derechos humanos, que no suceda lo de antes, que había razias y masacres. Eso está prohibido no se permite, no se tolera en el gobierno, esa actitud que desgraciadamente llevaron a la práctica y que en vez de resolver el problema, lo agravó, porque existe esa mentalidad en el conservadurismo, esa mentalidad autoritaria de querer resolver todo por la fuerza, y de arrasar. Eso no, se tiene que respetar la vida de las personas.</p>
+<p>Y nada de que son delincuentes. No, son seres humanos todos y nadie está autorizado para ajusticiar, para rematar heridos, para masacrar. Está haciendo el Ejército y la Marina un gran esfuerzo, además actuando con mucha responsabilidad y también les diría que or convicción para regular el uso de la fuerza y no violar derechos humanos.</p>
+<p>Hubo algunos incidentes, ha habido, ellos han actuado muy bien. Pero, ¿qué ganan los delincuentes con estar provocando? Nada.</p>
+<p>Hubo problemas en Amozoc hace unos días, y aquí aprovecho para hacer un llamado a la gente, el pueblo de Amozoc es un pueblo trabajador, un pueblo bueno, pero algunos se han dejado llevar por quienes se dedican a robar gas y gasolinas, al huachicol. Entonces, los encampanan y los usan como escudo, pero eso no es correcto.</p>
+<p>Yo conozco bien Amozoc. Es gente, repito, muy buena, trabajadora, toda esa región de Puebla, de Tlaxcala, son ejemplares, trabajan la agricultora, toda la familia, desde muy temprano hasta muy tarde, hombres, mujeres, niños, trabajado la agricultura, es de las zonas más productivas de México toda esa región, dedicados al campo, a la agricultura; tan es así que es la segunda región en donde vamos a apoyar con fertilizantes.</p>
+<p>Así como lo estamos haciendo en Guerrero, ahora vamos a apoyar a toda esa zona: Palmar de Bravo, Amozoc, parte de Tlaxcala, porque son pueblos muy trabajadores, muy laboriosos, bueno, abastecen a la Central de Abasto de la Ciudad de México.</p>
+<p>Por cierto, hoy estuvieron los de la Central de Abasto, y que ya dejen de estar de groseros también, eso no está bien. También conozco a los comerciantes de la Central de Abasto, siempre muy bien portados, o sea, hoy se pasaron, tache.</p>
+<p>Pero para terminar esto, decirles que se encontró en Amozoc bodegas clandestinas donde se almacenaba gas, perdón, es Acajete, estoy hablando de Amozoc. Acajete, ahí fue el incidente con la Guardia Nacional. Pues en esa zona almacenes de instalaciones con gas, pipas de distribución de gas, empresas que operaban toda esta región.</p>
+<p>Entonces, pedirles que nos portemos bien todos.</p>
+<p><strong>PREGUNTA:</strong> Muchas gracias, señor presidente, director Bartlett, buenos días a todos. Carlos Montesinos, de <em>La Hoguera</em>.</p>
+<p>Preguntarle, ayer los partidos de la izquierda le realizan un homenaje al ingeniero Cuauhtémoc Cárdenas en el Senado, donde dice que el avance democrático del que usted ya habló hace un momento no se le puede atribuir a una sola persona, incluso llegando a decir que no existe tal cosa como el cardenismo.</p>
+<p>Primero, saber si está de acuerdo con los comentarios que hizo el ingeniero Cárdenas, quien dice que también a partir de 1997, cuando usted era dirigente nacional del PRD, las elecciones se realizaron de otra manera, ya no había motivo para cuestionarlas.</p>
+<p>Y también si está de acuerdo con lo que comentó el exsecretario de Gobernación, Francisco Labastida Ochoa, quien dice que en el homenaje dijo que es una lástima que el ingeniero Cárdenas jamás llegara a la presidencia de la República.</p>
+<p>Y sobre esto que comentaba de lo de la Central de Abastos, saber qué va a pasar. Nos comentaron que ya los estaba atendiendo Atención Ciudadana, pero si se van a tomar algunas medidas adicionales al respecto dado que cercaron Palacio Nacional, tomaron todas las entradas.</p>
+<p>Muchas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, les va a atender, porque siempre se atiende. Esos no son los modos, tienen -cariñosamente, afectuosamente lo digo- tache, no debe ser así. Además, se les va a atender.</p>
+<p>Y es un asunto que tiene que ver fundamentalmente con el gobierno de la ciudad, pero nosotros también somos responsables y los atendemos. Lo que está mal es que vengan con esas prácticas agresivas. No a la violencia, se ve mal eso, no les ayuda en nada. Es más ¿qué ganan con eso?</p>
+<p>Nosotros nos vamos a seguir comunicando, ya vivo aquí, entonces siempre vamos a seguir llevando a cabo las mañaneras.</p>
+<p>¿Qué?, ¿no les gustan las mañaneras?</p>
+<p>Si ustedes no pueden entrar -que ojalá nunca les impidan el paso, nunca, jamás- pero en el remoto caso que sucediera eso, pues yo aquí las doy con un teléfono.</p>
+<p><strong>PREGUNTA:</strong> ¿Y las preguntas…?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>Claro, las mandan, abrimos, le buscamos, pero ya no nos van a cercar, o sea, ya eso no funciona; y no puede haber un problema que no se pueda resolver con diálogo, pues aquí estamos, esta es una prueba.</p>
+<p>Estamos hablando de millones de pesos, y les agradecemos mucho a los empresarios, de veras, su disposición.</p>
+<p>Y en el caso de ellos su financiamiento se logró con un fondo de inversiones, o sea, parte del financiamiento; y aun así los representantes de ese fondo de inversiones contribuyeron, de Suiza, que se los agradezco mucho a los financieros, y desde luego a los empresarios.</p>
+<p>Entonces, ayer me reuní con la CNTE, y estamos dialogando para buscar acuerdos, hoy lo mismo. Entonces, diálogo, diálogo, diálogo, bueno, ayer el diálogo en Estados Unidos, esa es la mejor forma de buscar el entendimiento. Entonces, nada por la fuerza, todo por la razón y el derecho.</p>
+<p><strong>PREGUNTA:</strong> Muchas gracias, presidente, por el uso de la palabra. Michel Picket, de Los Cabos, <em>Cabo Mil Radio</em>.</p>
+<p>Recientemente hace algunas semanas venimos aquí a la mañanera a preguntarle sobre si era posible bajar las tarifas en Baja California Sur. Puntualmente usted nos dice que no, porque obviamente la CFE no podía bajar en ese momento las tarifas.</p>
+<p>Ahorita la petición es el hecho de poder decir ya no que se bajen, sino que haya luz en Baja California Sur. El día de ayer Carlos Morales Mara, director corporativo de Operaciones de la CFE, hizo una conferencia de prensa con el gobernador del estado, Carlos Mendoza, y hablaba de dar 42 megawatts con cuatro unidades de las que se conoce como turbosinas, y luego se comprometieron a generar en el 2021 170 megawatts, y en el 2022 250 megawatts.</p>
+<p>Con la Reforma Energética nos vendieron la idea de la Cenicienta, porque se hablaba de un gasoducto que conectaría a Baja California Sur, porque estamos desconectados del país, inclusive aparte de estar desconectados, estamos partidos en Baja California Sur; hay dos generaciones, la parte norte y la parte sur del estado y que desafortunadamente está siendo que Baja California Sur sufra la mayor crisis energética en la historia del estado, y está generando una crisis real entre toda la comunidad, en las últimas semanas ha habido más de 25 apagones en más del 60 por ciento de la población.</p>
+<p>La pregunta, presidente, es: ¿qué hacer desde la Presidencia?</p>
+<p>Y aprovechando la presencia del director general, Manuel Bartlett. También, ¿qué viene para Baja California Sur?</p>
+<p>Antes nos vendieron la idea de la calabaza de la Cenicienta, pero desafortunadamente… la idea de un cable submarino que conectaría y ya no estaríamos aislados Baja California Sur del centro del país, pero esa Cenicienta se convirtió en calabaza, algo que nunca sucedió.</p>
+<p>Ahorita se nos da la idea -y aquí la pregunta para el director de la CFE, Manuel Bartlett- se da la idea de hacer ahora una conexión y un trabajo muy fuerte en usos de energía mixta o combinada, que ahorita se ve muy claro con la presencia de los titulares de las empresas que el gas, la energía limpia y aparte ahorita lo explicaba muy bien el titular Manuel Bartlett, pues es lo más barato, lo más eficiente, es lo más económico.</p>
+<p>¿Por qué no llevar, en lugar de combinados a Baja California Sur, energía limpia?</p>
+<p>Y, por otro lado, ¿cómo garantizar con la Secretaría de Hacienda, con el tema presupuestal, que en 2021 y en 2022, que se piensan inversiones en Baja California Sur, pues estas se den y no nos pase lo que ha pasado en Baja California Sur en la historia?, de que se prometen cosas, la Reforma Energética, el cable submarino, muchas más  para poderle dar electricidad a un estado que desafortunadamente nos ven como el 0.9 por ciento de la población del país, pero que en este momento somos el número uno en liderazgo del Producto Interno Bruto, arriba del 13 por ciento, inclusive a dos dígitos, y que la falta de energía hace que la productividad empresarial, social, económica, se pare, se frene.</p>
+<p>Y la pregunta, presidente, al director también de la CFE, es: ¿qué hacer para poder cumplir los compromisos que el día de ayer en conferencia de prensa el titular, el director de Operaciones dio en Baja California Sur, junto con el gobernador Carlos Mendoza?</p>
+<p>Esa es la pregunta. Muchas gracias por el uso de la palabra.</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> Bueno, en efecto, las dos penínsulas han tenido problemas, así quedaron. En las dos el presidente nos ha dado instrucciones de resolver el problema de generación.</p>
+<p>En la península de Yucatán ya estamos trabajando para iniciar una planta de ciclo combinado con gas, porque vamos a tener ya el gas y tener un procedimiento que permite iniciar con la instalación de dos turbinas con gas para después complementar hacer una gran planta de ciclo combinado en Yucatán.</p>
+<p>También el problema que tenemos en el norte de Baja California, de aprovechamiento de gas, y desde luego en esta situación en que ha estado la península de Baja California, en donde el sur ha estado aislado, es un sistema que no está integrado al sistema nacional.</p>
+<p>También ahí el presidente nos dio instrucciones de hacer lo mismo que estamos ya haciendo en la península de Yucatán, vamos a iniciar con turbinas y vamos a generar la energía que necesita el estado con su crecimiento.</p>
+<p>He tenido dos reuniones con el gobernador, él nos pidió que fuera el director de Operaciones a Baja California a presentar las soluciones que se están planteando allá, se habló de inmediato de llevar cuatro plantas móviles para que no haya falta de generación en el lugar.</p>
+<p>Y desde luego estamos preparando ya un plan para que antes de un año tengamos gas en la parte sur de la península de Baja California.</p>
+<p>El presidente nos ha dicho -y tiene razón- no podemos permitir que los mexicanos que viven en las penínsulas alejadas tengan un trato diferente al resto de los mexicanos. Es un compromiso que estamos sobre él, ya se están preparando las licitaciones para promover la generación in situ. Independientemente de ese cable submarino que ha sido un viejo sueño, se va a tener gas y vamos a tener generación para el crecimiento, porque tiene un crecimiento en el área turística muy importante, lo tenemos contemplado, y vamos a estar ahí sin ninguna limitación para que tengan las mismas condiciones que tienen el resto de los mexicanos.</p>
+<p>Muchas gracias.</p>
+<p><strong>INTERLOCUTOR:</strong> ¿Cómo garantizar, director, -perdón- cómo garantizar las inversiones?</p>
+<p>Se habla de 400 megawatts que van a llegar con estas inversiones, 2021-2022. ¿Cómo garantizarlas?</p>
+<p>Hay transversalidad con la Secretaría de Hacienda y Crédito Público donde se pueda garantizar, obviamente no hay un presupuesto 21 y 22, pero ¿cómo garantizar que realmente no nos pase lo que nos ha pasado en la historia?, y que esas inversiones comprometidas el día de ayer puedan quedar establecidas de alguna manera para que realmente se hagan, señor director.</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> Bueno, para eso mandamos al señor Morales, para explicarlo ahí, a petición del gobernador; y desde luego lo que estamos planteando lo tenemos que cumplir, estamos sobre eso.</p>
+<p>Muchas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Es muy importante lo que tú planteas. Es una necesidad el resolver el abasto, gas y la generación de energía eléctrica en Baja California Sur. Como decía aquí el licenciado Bartlett, son las dos penínsulas las que tenemos que atender de inmediato.</p>
+<p>Todo lo demás, en reuniones que he tenido con los técnicos y con el licenciado Bartlett, me aseguran que no vamos a tener problema de apagones o de desabasto. Inclusive, antes de que se llegara al acuerdo con las empresas, lo primero que hicimos fue un diagnóstico, un balance de qué sucedería si no se contara con el gas que se está asegurando.</p>
+<p>Y se tenía un plan B y no íbamos a tener problemas, sólo en dos sitios del país: la península de Yucatán y Baja California Sur, que en efecto está creciendo más que ningún otro estado de la República, sus tasas de crecimiento económico de alrededor del 10 por ciento.</p>
+<p>Y está creciendo también la generación de empleos formales, está creciendo ahora igual o más que la zona turística de Quintana Roo y tenemos que resolver el problema del abasto.</p>
+<p>Lo que fue a decir ayer el ingeniero Morales Mar yo lo avalo, es decir, yo lo respaldo. Vamos a resolver el problema, es lo que le digo a la gente de Baja California Sur, y van a tenerse, van a contarse con los recursos económicos suficientes.</p>
+<p>Estamos explorando todas las opciones. Lo que él propone, él es un técnico serio, nosotros lo apoyamos, lo respaldamos, y no dejamos de ver otras posibilidades, otros proyectos.</p>
+<p>Las empresas con las que estamos trabajando lo del gas tienen incluso proyectos que han propuesto para gasoductos.</p>
+<p>En el caso de submarinos, gasoductos submarinos por toda la península, hay interés en eso y no lo descartamos como otra posibilidad, y la Comisión Federal de Electricidad tiene también su propuesta.</p>
+<p>Lo importante es que vamos a atenderlo y se va a resolver, es una prioridad para el gobierno.</p>
+<p><strong>INTERLOCUTOR:</strong> ¿Se puede decir, presidente, que ahorita con las turbinas que llegaron, las cuatro turbinas y con la cantidad de apagones que ha afectado seriamente la productividad del estado y sobre todo de Los Cabos ya no habrá apagones en Baja California Sur con estas cuatro turbinas y con el plan que se hizo?, ¿podemos decir que ya no habrá apagones en Baja California Sur?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, porque es una prioridad.</p>
+<p>Y si iban a haber apagones, porque no eran suficientes las cuatro turbinas o porque todavía las van a instalar y va a llevar tiempo, como ahora ya nos estamos comprometiendo -más aquí por tu insistencia, que además es muy buena- ahora ya me está escuchando el director de la Comisión Federal de Electricidad y se tiene que evitar que haya apagones.</p>
+<p>Sí, es un compromiso y los compromisos se cumplen.</p>
+<p><strong>PREGUNTA:</strong> (inaudible)</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Acerca de lo del ingeniero Cárdenas. Nosotros lo respetamos mucho al ingeniero Cárdenas. Tiene razón en lo que plantea; y desde luego lo que se ha logrado en materia de avance democrático es producto del esfuerzo de millones de mexicanos, en los que vivimos y de los que se nos adelantaron y de dirigentes del movimiento social, del movimiento democrático, de muchos.</p>
+<p>A nosotros nos tocó dar el último jalón, pero esta lucha viene de tiempo atrás y se está logrando, porque en los últimos años millones de mexicanos decidieron acabar con la antidemocracia y con el régimen autoritario y con la política económica antipopular y entreguista.</p>
+<p>Y fueron millones de mexicanos y siguen millones de mexicanos impulsando los cambios. Tenemos ese apoyo, ese respaldo y al mismo tiempo el compromiso de no fallarles, de dejar bastante encaminado el propósito, el ideal de justicia, de democracia, de libertades, de soberanía. Eso es lo que se está haciendo, pero tienes razón.</p>
+<p><strong>PREGUNTA:</strong> Señor presidente, ¿lamenta que no haya llegado al ingeniero Cárdenas a la Presidencia?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, claro que sí. Imagínense lo que sucedió, o sea, no voy a profundizar.</p>
+<p>Y con todo respeto, pero Salinas es el padre de la desigualdad moderna, ¿para qué digo más?  Lo he escrito, ahí se profundizó la política económica neoliberal o neoporfirista, fue el gran remate de todos los bienes, del pueblo, de la nación.</p>
+<p>Hay una gráfica del Fondo Monetario Internacional y del Banco Mundial, de estos organismos que apoyaron esa política, nada más que ahora ya son otros tiempos, pero lo que demuestra la gráfica -un día se las voy a traer- es que exactamente en el sexenio de Salinas fue el periodo en que más se profundizaron las desigualdades en lo económico y en lo social.</p>
+<p><strong>PREGUNTA:</strong> ¿Y empezó con la caída del sistema?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ese es otro asunto.</p>
+<p><strong>PREGUNTA:</strong> ¿Nunca ha abordado el tema con el licenciado Bartlett?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí.</p>
+<p><strong>INTERLOCUTOR:</strong> ¿Sí han hablado del tema?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, sí hemos hablado, ya él ya lo ha explicado ya muchas veces.</p>
+<p><strong>INTERLOCUTOR:</strong> ¿Entre ustedes qué han conversado?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Yo le tengo mucho respeto al licenciado Bartlett.</p>
+<p>No, no, no, ¿para qué contesta? Déjelo así.</p>
+<p>A ver.</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> Mire, respecto a la caída del sistema, que es un tema muy tratado en diversas oportunidades, con la participación de Fernández de Cevallos, por ejemplo, que es el autor de la frase y de toda esta leyenda.</p>
+<p>Yo les recomiendo un libro que se vende en <em>Porrúa</em>, que se llama <em>‘La caída del sistema, un caso jurídico’</em>, porque yo demandé a una persona vinculada a Calderón por señalamientos que me hacía de que yo había hecho el gran fraude en esa elección.</p>
+<p>Lo demandé y hay un proceso judicial largo, que duró seis años y que es muy interesante, y está descrito en el libro. Y ahí en ese juicio largo se presentaron las pruebas supuestas sobre la caída del sistema provocada por mi persona.</p>
+<p>Todas esas pruebas, toda esa literatura, está analizada en ese libro, y a mí me convendrá mucho porque a lo mejor me lo hacen un <em>best seller</em> si lo compran. En <em>Porrúa</em>, se llama <em>‘La caída del sistema, un caso de estudio judicial’. </em>Se los recomiendo.</p>
+<p><strong>INTERLOCUTOR:</strong> Hace un momento el presidente mencionó: ‘Se impuso a Salinas’, es una diferencia de lo que usted está diciendo que no hubo fraude.</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> Yo no dije eso, perdóname, yo no dije eso, que no hubo fraude. Yo lo que dije es que mi participación está ahí dicha.</p>
+<p>Entonces, yo te recomiendo que la leas y luego los invitaría a discutir el tema cuando lo quisieran.</p>
+<p><strong>INTERLOCUTOR:</strong> (Inaudible)</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> ¿Perdón?</p>
+<p><strong>INTERLOCUTOR:</strong> (Inaudible)</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> Bueno, yo creo que debió haber sido así.  Pero ahí está en el libro, ayúdenme, puede ser un <em>best seller.</em></p>
+<p><strong>PREGUNTA:</strong> ¿Hubo fraude o no hubo fraude?</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> Lea usted el libro, porque si no le adelanto yo los resultados.</p>
+<p><strong>INTERLOCUTOR:</strong> ¿Tiene la conciencia tranquila?</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> Pero claro, absolutamente. Pero lean el libro, porque ese proceso que llevó a Salinas a la Presidencia con el apoyo del PAN, y ahí lo describo, hizo un cambio radical en la política mexicana, como lo ha descrito el presidente, y cómo participaron diversos actores para una alianza, ahí nace la alianza que duró muchos años entre el PAN y el PRI, entre Salinas y el PAN.</p>
+<p><strong>INTERLOCUTOR: </strong>También fue secretario de Educación de Salinas.</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> Sí, claro.</p>
+<p><strong>INTERLOCUTOR:</strong> Convalidó de alguna manera, ¿no?</p>
+<p><strong>MANUEL BARTLETT DÍAZ:</strong> Bueno, tú lo que quieres es… lee el libro y cuando leas el libro lo discutimos abiertamente.</p>
+<p>Muchas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Es muy importante este tema.</p>
+<p>Yo también voy a aprovechar para decir que ya estoy terminando el borrador del próximo libro donde trato estos temas, o sea, y ya hablé con la editorial <em>Planeta</em> y les interesó. Y vamos a escribir o ya empecé a hacerlo, pero voy a terminar este libro que va a estar para diciembre.</p>
+<p><strong>PREGUNTA:</strong> Muchas gracias, presidente, buenos días.</p>
+<p>Hay mucho fuchis y muchos guácalas en el país, mucha violencia, detenciones extrajudiciales, ejecuciones extrajudiciales en Tamaulipas, ayer <em>Televisa</em> sacó algo al respecto, uniformando a gente con ropa militar para después ejecutarlas, en fin.</p>
+<p>En Guatemala ya se decretó toque de queda en algunos de sus municipios.</p>
+<p>En territorio nacional, en territorio mexicano, ¿usted en algún momento de su sexenio podría contemplar esa acción para contener este desafío que para usted representa el principal de sus desafíos, presidente?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No.</p>
+<p>Fíjense que no es un asunto sencillo, nos dejaron bien sembrado el problema de la inseguridad y de la violencia -ya lo hemos hablado en otras ocasiones- pero estoy optimista, sé que lo vamos a enfrentar bien y que pronto van a haber mejores resultados.</p>
+<p>Y no vamos a acudir -ya lo dije- ni a la guerra, ni a la desaparición, ni a la tortura, ni a las masacres; se van a respetar derechos humanos, ni a toques de queda, ni a leyes más severas; es decir, nunca apostaría por la pena de muerte, no creo en eso, soy humanista y creo que se puede conseguir la paz sin la violencia.</p>
+<p>Entonces, vamos a tener buenos resultados. Se está avanzando, es un proceso, y no se va a permitir ningún abuso de parte de la autoridad. Y repito, el Estado mexicano ha dejado de ser el principal violador de los derechos humanos.</p>
+<p><strong>INTERLOCUTOR:</strong> Y, por otra parte, presidente. Usted hace un esfuerzo por arrebatarle al crimen organizado a los jóvenes, a la niñez, cada vez son más niños los que están delinquiendo, y armas de fuego y demás; pero desde el área de la Conade están por desaparecer deportes, como el polo acuático, por ejemplo, entre otros muchos, que son cientos y decenas y decenas de miles de jóvenes que están haciendo un esfuerzo por no acercarse a un arma, a las drogas.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, eso puede ser, pero es una lucha constante el no permitir que se queden los jóvenes sin oportunidades de estudio, no permitir que los jóvenes se queden sin oportunidad de trabajo, no permitir que los jóvenes se queden sin la posibilidad de practicar deportes, es de todos los días.</p>
+<p>Esto es una lucha permanente por hacer valer los cambios para la transformación de México. Y hay resistencias, pues ¿cómo no van a haber obstáculos?, imagínense 36 años con un régimen autoritario, antidemocrático, corrupto, de permanente pérdida o de constante pérdida de valores.</p>
+<p>Todo esto que está pasando con la juventud pues es producto de la desintegración de las familias, es producto de que no se pensó en el pueblo, se le dio la espalda al pueblo, se le dio la espalda a los jóvenes.</p>
+<p>Me molesta mucho todavía cuando me acuerdo que lo único que hicieron, así como una gracia, de manera graciosa, supuestamente ingeniosa, fue acuñar la frase de nini. Se lo escuché a un rector, nini, que ni estudian ni trabajan, y: ‘Ja, ja, ja’</p>
+<p>¿Y qué hacían por los jóvenes? ¿Qué hicieron?</p>
+<p>Nada. Imagínense la mentalidad de estos reaccionarios, de estos conservadores queriendo resolver el problema masacrando. Desatienden a los jóvenes y ya cuando el joven tiene que trabajar como ‘halcón’ o dedicarse a la delincuencia, a masacrarlos, porque así se va a resolver el problema, limpia. Esa era la mentalidad que prevalecía.</p>
+<p>Entonces, ya no es así, eso no dio resultado, ni siquiera se pudo bajar la incidencia delictiva; al contrario. Entonces, eso ya no, nosotros no vamos a continuar con esa política.</p>
+<p>Yo celebro mucho que se haya aprobado la reforma a la Constitución, porque, imagínense, sin el apoyo del Ejército, sin el apoyo de la Marina, ¿cómo?, ¿con qué elementos?</p>
+<p>Hoy revisamos cómo se están integrando las coordinaciones de la Guardia Nacional, ya estamos aumentando el número de elementos, ya más de 80 mil elementos para la Guardia Nacional, pero hoy también ya me informaron del inicio de la construcción de instalaciones, creo que 70, 80 instalaciones nuevas para la Guardia Nacional.</p>
+<p>Los gobiernos anteriores crearon la Policía Federal. No hicieron instalaciones. Entonces, la Guardia Nacional va a tener sus instalaciones.</p>
+<p>Y aprovecho para agradecerle mucho a los gobiernos estatales, a los gobiernos municipales, a los ejidos, a las comunidades, porque están entregando terrenos para la construcción de las instalaciones. Entonces, sí se está avanzando, son acciones que van a dar resultados.</p>
+<p>Yo les comentaba hace poco que Yucatán es uno de los estados con menos incidencia delictiva, pero tienen dos millones de habitantes y nueve mil policías; el Estado de México, aun con el esfuerzo que están haciendo, 17 millones de habitantes, 16 mil policías.</p>
+<p>Otro dato importante: el jefe de policía en Yucatán es el mismo desde hace 15 o 20 años, el mismo. Cambiaron los partidos y/o mejor dicho, entraron nuevos gobernadores de otros partidos y han decidido dejar al mismo jefe de la policía.</p>
+<p>¿Qué se recoge como lección?</p>
+<p>Primero, que sí ayuda la presencia. Es que hay municipios en donde no hay policías.</p>
+<p>¿Qué hicieron con todo el dinero que se les transfería a los estados para la seguridad pública? Volvemos a lo mismo: la corrupción.</p>
+<p>La otra lección. Depende mucho del servidor público. Si el servidor público es responsable, es trabajador, es honesto, vamos de gane; si el servidor público es corrupto, pues ya no hay posibilidad de que un tema tan delicado como el de la seguridad pública pueda ser atendido adecuadamente, porque inmediatamente entran en componendas, ya no hay frontera.</p>
+<p>¿Qué pasaba mucho?</p>
+<p>Venían las campañas y recibían dinero los candidatos de la delincuencia, de la delincuencia común y de la delincuencia de cuello blanco. Entonces, ganaba, porque con ese dinero compraba votos, compraba lealtades y llegaba y ¿a quién le tenía que servir?, pues al que le dio el dinero.</p>
+<p>Entonces, el gobernante no representaba al pueblo, representaba a un grupo de interés creado o a una banda de delincuentes. Así estaba. Yo estoy esperando, si no un ensayo, cuando menos una columna sobre esto, de los analistas. Sería bueno que se tocaran estos temas.</p>
+<p>¿Qué? ¿Pasó de noche todo eso? ¿Por qué lo tengo yo que estar diciendo?</p>
+<p>Ni me corresponde, o sea, parezco opositor y soy presidente, ya ni debería yo de meterme en esto.</p>
+<p><strong>PREGUNTA: </strong>Sobre el caso Ayotzinapa.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>Vamos a reunirnos hoy con los padres, madres, de los jóvenes de Ayotzinapa para volver a manifestar nuestra decisión, voluntad, de seguir buscando a los jóvenes hasta encontrarlos. No vamos a descansar en eso, es una prioridad de gobierno. Y hoy vamos a hablar de ese tema.</p>
+<p><strong>PREGUNTA:</strong> ¿Hay algún avance en las investigaciones?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Hoy nos va a informar Alejandro Encinas, hoy se va a dar un informe de cómo vamos.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Alguna noticia para los padres?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Vamos a esperar a que nos den el informe.</p>
+<p>Una más.</p>
+<p><strong>PREGUNTA:</strong> Los asesores técnicos del país pedimos una mesa de diálogo con usted, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>¿Los qué?</p>
+<p><strong>INTERLOCUTORA:</strong> Los asesores técnicos del país, nuestros derechos han estado siendo vulnerados a partir del decreto de reforma.</p>
+<p>Usted comentó que con este decreto no se afectarían los derechos de los trabajadores; sin embargo, la Secretaría de Educación Pública está haciendo caso omiso a esos derechos y ya nos está coartando esa libertad que tenemos al libre crecimiento profesional y al respeto de los derechos adquiridos. Nos está violentando ese artículo 14 constitucional y el tercero del decreto.</p>
+<p>Señor presidente, le solicitamos de manera muy atenta y muy especial que nos atienda. Nosotros no somos representados por ningún sindicato desafortunadamente y somos parte del magisterio, somos parte del sistema educativo nacional.</p>
+<p>Pero a petición de parte de todos mis compañeros le pedimos en este honor de la palabra que usted me da, señor presidente, que nos atienda, para que usted como representante del Ejecutivo Federal establezca esta mesa de diálogo que el señor Esteban Moctezuma no ha querido atender con nosotros, debido a que no tenemos quien nos represente.</p>
+<p>Somos 11 mil asesores técnicos que laboran en el país, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Se le va a atender.</p>
+<p><strong>INTERLOCUTORA:</strong> Hoy necesitamos, quiero sentarme con usted. Mire, aquí traigo un acuerdo, ya nuestros derechos están siendo violentados, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Pero en qué?</p>
+<p><strong>INTERLOCUTORA:</strong> En que no nos están respetando, ya nos están dejando de pagar.</p>
+<p>Y el decreto de reforma dice que no será violentado ningún derecho de los trabajadores, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Se les va a atender.</p>
+<p><strong>INTERLOCUTORA:</strong> Por favor, porque venimos de todo el país…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí.</p>
+<p><strong>INTERLOCUTORA:</strong> Pero por eso me levanto, porque no tengo esa oportunidad diaria, señor presidente; y entonces en eso de la palabra que usted honra de permitir nuevamente esa mesa de diálogo…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí.</p>
+<p><strong>INTERLOCUTORA:</strong> Aquí voy a estar.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Aceptado, ahí está Leticia Ramírez junto a ti.</p>
+<p><strong>INTERLOCUTORA:</strong> Y la acepto y sería con usted, que quede…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, sí, sí. Yo con mucho gusto, si tengo el tiempo les atiendo; si no, les van a atender como si fuese yo, es lo mismo.</p>
+<p>Ahí está Leticia Ramírez.</p>
+<p><strong>INTERLOCUTORA:</strong> O Esteban Moctezuma.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, Lety y Esteban, sí.</p>
+<p><strong>INTERLOCUTORA:</strong> Gracias, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, ya.</p>
+<p><strong>PREGUNTA:</strong> ¿Nos podría decir cómo ve lo de las Fuerzas Armadas, por favor?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Cómo?</p>
+<p><strong>INTERLOCUTORA:</strong> Cómo ve usted lo de las Fuerzas Armadas después de que cambiara la postura de que los elementos van a poder responder las agresiones después con…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, es que no debe de malinterpretarse. Los mandos de las Fuerzas Armadas están conscientes de que no debe de recurrirse al uso indebido de la fuerza, ellos están muy conscientes, y que deben de respetarse los derechos humanos.</p>
+<p>El soldado, el marino es pueblo uniformado y ellos están conscientes de que no debe de retomarse la política de exterminio que se siguió en los pasados gobiernos. Ellos no están de acuerdo con eso.</p>
+<p><strong>PREGUNTA: </strong>Los elementos que fueron agredidos en Puebla…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>Ya se ha hablado con ellos y saben que el no caer en una provocación y que no se escale un conflicto es un ejemplo de buen servidor público, es actuar bien, lo cortés no quita lo valiente, ellos están actuando muy bien y tiene todo nuestro respeto, todo nuestro apoyo. Y si hay secretarías del gobierno federal que me están apoyando, todas nos apoyan, pero las que más me están apoyando es la Secretaría de la Defensa y la Secretaría de Marina, para que quede claro. Y no sólo me apoyan, son leales, como siempre lo ha sido el Ejército mexicano.</p>
+<p>En los líos que los han metido ha sido por cumplir órdenes de los presidentes. Yo tengo una experiencia extraordinaria cuando me querían desaforar, mejor dicho, cuando me desaforaron, lo que pasa es que no pudieron, pero sí legalmente estos mismos que me inventaron que había yo violado un amparo porque construí un camino para comunicar a un hospital, y usaron eso de pretexto -en tiempo de Fox, sí- y me fabricaron el delito y me llevaron a juicio, en la Cámara se pusieron de acuerdo.  En ese entonces era Manlio Fabio el líder del PRI, y el del PAN es preferible olvidar, no sé quién era.</p>
+<p>Me acuerdo de una expresión de Chuayffet, que era diputado. Cuando ya no pudieron, que tuvieron que dar marcha atrás -porque el pueblo es mucha pieza, por eso el pueblo es mi amo, mi único amo, fue el que me sacó a flote- cuando tuvieron que dar marcha atrás, dijo Chuayffet: ‘Se nos rajó Fox’.</p>
+<p>Pero la anécdota, lo que me interesa que se sepa, es que hubo una manifestación. Por eso fue el pueblo el que me sacó adelante, por eso creo en el pueblo, siempre el pueblo me ha apoyado y me ha sacado adelante, no los grupos de intereses creados.</p>
+<p>Yo ahora represento a todos, tengo que hablar con todos y respetar a todos, y atender a todos, y hacer a un lado lo pasado, ya lo pasado, pasado, lo que pasó, pasó. Digo, no olvidar, por eso estoy comentando esto.</p>
+<p>Pero el pueblo, repito, mucha pieza. Y se hace una manifestación grande, y me consta, de que querían usar al Ejército desde antes de la manifestación; y el Secretario de la Defensa en aquel entonces le dijo al presidente: <em>‘</em>Con todo respeto pido que me lo solicite por escrito’<em>. </em>Y luego de esa manifestación lo que dijo el secretario de la Defensa de entonces fue: ‘Ni por escrito’.</p>
+<p>Entonces, el Ejército mexicano es un ejército leal, sobre todo al pueblo y a las instituciones. Entonces, lo que están haciendo ahora es una contribución importante, porque es un cambio, lo he venido diciendo, es un giro.</p>
+<p>¿Cómo lograr que esa institución con el profesionalismo, con la disciplina que tiene, con sus recursos -porque tienen instalaciones, tienen fábricas, tienen equipos- cómo nos ayudan a atender el principal problema que es el de la inseguridad pública, el de la violencia?, ¿cómo nos ayudan sin violar derechos humanos?, ¿cómo dar ese giro?</p>
+<p>Pues esto tiene que ver con una actitud al interior de las Fuerzas Armadas, tiene que ver con la formación, con los planes de estudio que ya se están actualizando en las academias, en el Colegio Militar, para que se conozca cada vez más sobre el respeto a los derechos humanos, sobre el uso regulado de la fuerza.</p>
+<p>Entonces, si logramos esto va a ser algo muy importante que es contar con muchos elementos profesionales para atender el problema de la inseguridad y de la violencia.</p>
+<p>¿Qué quieren nuestros adversarios?</p>
+<p>Ahora dicen que no responde el Ejército, pero si respondiera, y ojalá y nunca se caiga en eso, que no se responda, porque la ordene es tajante: No a la represión.</p>
+<p>Pero esos mismos que ahora están pidiendo más ¿cómo es que le llamaban a eso? mano dura, que así se ponían frente a las cámaras: ‘No me va a temblar la mano’, ¿se acuerdan?, ya no digo lo otro, porque se enojan después, pero esos mismos estarían diciendo: ‘Ah, Ejército represor, violador de los derechos humanos’.</p>
+<p>Y nosotros no hacemos lo que llevamos a la práctica por lo que dicen nuestros adversarios, nosotros actuamos en función de lo que consideramos debe ser un buen gobierno. Vamos bien y así vamos a continuar.</p>
+<p><strong>PREGUNTA: </strong>… de unas declaraciones que usted dio ante la Jornada en la que usted mencionaba esto, que si por usted fuera, desapareciera al Ejército y lo convertiría en Guardia Nacional para declarar a México un país pacifista, pero que si no lo hacía era por las resistencias.</p>
+<p>Había también una aclaración del por qué dio usted estas declaraciones de que si por usted fuera a desaparecer el Ejército.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Porque el principal problema de los mexicanos es la inseguridad, no es la defensa de nuestra soberanía. Hoy el principal problema, lo que más nos afecta a todos es la inseguridad y la violencia.</p>
+<p>Y no hay ninguna amenaza de invasión. Además, si se diese una amenaza de invasión lucharíamos todos por defender a la patria, como ha sido siempre, nada más que se malinterpretó, pero yo soy partidario de que primero tenemos que resolver lo que más daña a nuestro pueblo, y ya la agenda no la dictan desde el extranjero, que ese es otro cambio, ya es lo que nos importa a nosotros, y lo que nos importa a nosotros es que haya trabajo en México, que haya buenos salarios, que haya bienestar, y que haya paz y que haya tranquilidad en México, no las reformas estructurales.</p>
+<p>Busquen ustedes -ahí se los dejo de tarea- de dónde salió eso. Y un día me gustaría que alguno de ustedes, si se ponen de acuerdo, expongan sobre ese tema, sería buenísimo, y yo me siento ahí. Y que se haga una investigación.</p>
+<p>¿Dónde se concibió lo de la política neoliberal?, ¿bajo qué premisas?, ¿cómo fue que llegaron a la conclusión que tenía que desaparecer el Estado y dejar todo lo relacionado con la economía al mercado?, ¿cómo fue que salió esto de las reformas estructurales?, ¿quién las inventó?, ¿cómo se aplicaron en el mundo?, ¿por qué se llamaban igual, Reforma Fiscal, Reforma Energética, Reforma Laboral, Reforma Educativa?, ¿por qué se dejaron de hacer los planes de desarrollo en los países y se gobernó durante mucho tiempo con las recetas que enviaban desde el extranjero?, ¿dónde quedó la soberanía de los estados?</p>
+<p>Una investigación extraordinaria sería que hicieran una revisión desde Salinas hasta finales del año pasado de las modificaciones que hicieron a la Constitución y a las leyes, y quiénes -o sea, todas las reformas- en beneficio de quién y quiénes votaron por esas reformas.</p>
+<p>Entonces, vamos a entender de que hay un cambio.</p>
+<p>Yo ofrezco aquí una disculpa a los empresarios que vienen por otro asunto, pero aprovechamos para platicar.</p>
+<p>Muchísimas gracias.</p>
+<p><strong>PREGUNTA:</strong> ¿Sí está enterado de lo de Tamaulipas, presidente?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí.</p>
+<p><strong>INTERLOCUTOR:</strong> ¿Se está investigando?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí. Miren, se está actuando, se está buscando garantizar la seguridad de los ciudadanos en todo el territorio nacional.</p>
+<p><strong>INTERLOCUTOR:</strong> (Inaudible)</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, no porque nosotros no vamos a caer en ninguna provocación y no queremos la guerra, pero sí estamos actuando en general.</p>
+<p>Muy bien, muchas gracias.</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

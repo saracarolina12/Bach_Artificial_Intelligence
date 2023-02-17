@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>04.05.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/04-05-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=131354' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F04-05-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F04-05-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66jb5-f-4c8d7205b-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":22,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"2a7bd926","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55592,"ak.gh":"23.47.207.69","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616765","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==UmfHRXMG0iKEpKZggjqEPo0lpVeYbQDf9LVR3wZcmestCKOvNF/872yXbOaEQddAv37U5FtbVy72529suicTyYDX4BgTuwqsjp6BGyhOEGrbGKcoAj99GoaGIu3VRX9seFVwSGCJrebWN2lwUT8pa5CYpTsARZx07N4UE3tHgs9MRfkO0RT/sTSQKW6OezjP6v9UDYrbO/shIpilkhn0iBy79gzh0b4yZWfYLyTLGEVJabHD0g3r0peSEc6XTu8YCcY9klaRnoSZY5SwcDEicZg+r9Rypf/++Ysv4oG/eIaNQzFgVj10o6BdiQ4RFeYV103WyPAZvkVCPtIkAeiaaMssW3uEhsy9gU5iiPhGdNswLvEdoCjhO+9jRQ2TyJ1EABMmnCXRm0hMOQfaICAs5XhhkveLE0gOT3q6xzDuVE0=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-131354 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef21aea58e5" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>04.05.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 04.05.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-131354" class="post-131354 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2020/05/04-05-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-010.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/05/04-05-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-010-745x450.jpg" alt="04.05.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">04.05.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><em>2020, Año de Leona Vicario, Benemérita Madre de la Patria</em></p>
+<p>&nbsp;</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Buenos días.</p>
+<p>Bueno, estamos iniciando la semana. Nos van a acompañar el general secretario de la Defensa, el almirante Ojeda, secretario de Marina; también el doctor Jorge Alcocer, de Salud, secretario de Salud; el doctor Hugo López-Gatell, subsecretario de Salud; Luisa María Alcalde Luján, secretaria del Trabajo; y Surit Berenice Romero, subprocuradora de Servicios de Profeco.</p>
+<p>Hoy queremos informar sobre el inicio, aunque nos hemos venido preparando de tiempo atrás, hoy vamos a comenzar con la aplicación del Plan DN-III de la Secretaría de la Defensa y con la aplicación del Plan Marina de la Secretaría de Marina de reforzamiento a toda la estrategia que se viene aplicando para enfrentar el coronavirus, la pandemia de coronavirus.</p>
+<p><audio src="https://lopezobrador.org.mx/wp-content/uploads/2020/05/2020-05-04-Matutina.mp3" controls="controls"></audio></p>
+<div id="fb-root"></div>
+<p><script async="1" defer="1" crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&amp;version=v6.0"></script></p>
+<div class="fb-video" data-href="https://www.facebook.com/lopezobrador.org.mx/videos/3225929537429011" data-width="500">
+<blockquote cite="https://www.facebook.com/lopezobrador.org.mx/videos/3225929537429011/" class="fb-xfbml-parse-ignore"><p><a href="https://www.facebook.com/lopezobrador.org.mx/videos/3225929537429011/">La crisis de #COVID19 nos enseña que el cuidado de la salud es una tarea colectiva y solidaria  Conferencia de prensa matutina. Lunes 4 de mayo 2020</a></p>
+<p>La crisis de #COVID19 nos enseña que el cuidado de la salud es una tarea colectiva y solidaria</p>
+<p>Publicado por <a href="https://www.facebook.com/lopezobrador.org.mx/">Andrés Manuel López Obrador</a> en Lunes, 4 de mayo de 2020</p></blockquote>
+</div>
+<p>Tenemos infraestructura, hay hospitales, camas, ventiladores, especialistas, médicos, enfermeras, suficientes en lo que tiene que ver con el sector salud.</p>
+<p>Aprovecho para agradecer la entrega de los médicos, de las enfermeras en estos tiempos difíciles de cómo están trabajando sin tregua, sin descanso, dejando de manifiesto su profundo amor al prójimo salvando vidas. Bueno, no hemos sido rebasados, afortunadamente contamos con las camas necesarias para atender a los enfermos y vamos todavía a ampliar nuestra capacidad de atención.</p>
+<p>Como ustedes saben, hay seis estados, seis entidades federativas donde se está dando atención especial porque es donde se presenta el mayor número de contagios, esto es Quintana Roo, Tabasco, el Estado de México, la Ciudad de México, Sinaloa y Baja California.</p>
+<p>A pesar de la tragedia, del dolor, tuvimos la suerte de que esta pandemia surge en China e impacta primero en Europa, y eso desgraciadamente causa mucho daño, porque no estaban preparados, nadie imaginaba lo que iba a suceder.</p>
+<p>Nosotros hemos tenido más tiempo para prepararnos, porque hubiese sido muy difícil el resultado, difícil enfrentar esta pandemia sin tiempo de preparación.</p>
+<p>Ya hemos hablado de cómo estaba el sistema de salud, estaba en ruinas el sistema de salud público y esto nos permitió prepararnos y mejorar todo el sistema de salud público.</p>
+<p>Pero también otro elemento bueno es que la epidemia en México no se está expresando en su manifestación critica de manera uniforme, es decir, no está afectando de manera pareja a todo el país en la parte crítica, se ha manifestado en estos estados a los que hice mención, no quiere decir que al resto de los estados no les va a llegar; sin embargo, como no es así en todo el país, esto nos permite concentrar esfuerzos donde más se necesita, y saliendo de los estados críticos, vamos a apoyar a los estados que más lo requieran posteriormente, eso también fue afortunado, tuvimos suerte.</p>
+<p>Entonces, ahora vamos a atender con todo a las entidades más afectadas, sin descuidar el resto del país; pero para hospitalización, para terapia intensiva, para el uso de equipos como ventiladores, para contar con especialistas, es muy importante que se estén dando así las cosas en nuestro país.</p>
+<p>Desde luego, vuelvo a insistir en la recomendación que nos hacen los médicos, los especialistas, los científicos, que han sido excepcionales, es un equipo de lo mejor del mundo, empezando por el doctor Jorge Alcocer, el doctor Hugo López-Gatell, todos los médicos, especialistas, científicos, que nos están ayudando.</p>
+<p>Como ellos lo han recomendado desde el principio, lo más importante de todo es lo preventivo, el quedarnos en casa.</p>
+<p>Acerca de esta solicitud, de esta demanda, de esta necesidad, les digo que ya falta poco, ya se ve la luz al final del túnel. Yo creo que va a ser nada más este mes, ese es mi pronóstico, incluso en algunos lugares vamos a regresar a la normalidad poco a poco, con cuidado, con medidas sanitarias, desde el 17 y el 1º de junio, queremos hacerlo a nivel nacional, igual con cuidado.</p>
+<p>De modo que hay certidumbre de que vamos bien a pesar de la tragedia y vamos a dar el último jalón, que nos quedemos en casa, que nos cuidemos para salir adelante, porque ahora se va demostrando lo que los científicos, lo que los matemáticos han proyectado en cuanto a casos de infectados y de hospitalización, vamos de acuerdo a eso.</p>
+<p>También aquí aprovecho para enviar mi solidaridad a los familiares de enfermos, de los que han perdido la vida, todo nuestro cariño, todo nuestro afecto.</p>
+<p>Vamos a presentar en qué consiste este reforzamiento con el Plan DN-III y con el Plan Marina.</p>
+<p>Se me pasaba también comentarles que además de los secretarios de la Defensa y el secretario de Marina, va a intervenir Zoé Robledo, del Seguro Social, ¿sí está Zoé?, para dar a conocer sobre unos albergues para los médicos, para que puedan estar médicos que se están movilizando de otros estados para la ciudad y así en otros sitios.</p>
+<p>Entonces, si les parece, empezamos. Recapitulando, empieza para que coordine el doctor Jorge Alcocer y luego él le da la palabra al general Luis Cresencio Sandoval González, secretario de la Defensa; luego el almirante José Rafael Ojeda Durán, posteriormente Zoé Robledo, luego María Luisa Alcalde, secretaria del Trabajo; luego Surit Berenice Romero, del Quién es Quién en los Precios; y terminamos con el avance de las obras del aeropuerto y de la refinería; y a partir de ahí abrimos para preguntas y respuestas.</p>
+<p>Entonces, vamos con el doctor Jorge Alcocer.</p>
+<p><strong>JORGE ALCOCER VARELA, SECRETARIO DE SALUD:</strong> Con su permiso, señor presidente.</p>
+<p>Muy buenos días.</p>
+<p>Aprovecho la ocasión nuevamente para reiterar mi mensaje de agradecimiento a la población mexicana por su confianza, su gran solidaridad, comprensión y disciplina ante este difícil reto poblacional, este desafío que desde hace más de tres meses hemos estado atendiendo, como ya lo señaló el señor presidente, las autoridades de salud federales y estatales. Hemos enfrentado todo ello con responsabilidad y tino.</p>
+<p>En forma muy particular hoy se unen a esa tarea la distinguida incorporación de dos instituciones de supremo valor e identificación con el pueblo de México, son parte de él: la Secretaría de Marina y la Secretaría de la Defensa Nacional. Su enfoque hacia los lugares con mayor demanda de camas estará en unos minutos.</p>
+<p>Le pido para empezar esto lo ya referido por el presidente que Hugo López-Gatell nos recuerde el informe técnico al día de hoy.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ, SUBSECRETARIO DE PREVENCIÓN y PROMOCIÓN DE LA SALUD:</strong> Con gusto secretario. Con permiso, señor presidente.  Secretario, secretaria, subprocuradora.</p>
+<p>Muy buenos días tengan todos y todos.</p>
+<p>Presento de manera sintética el informe técnico en la versión más actualizada, me iré solamente en las partes sustantivas más relevantes ahorita.</p>
+<p>Llevamos 42 días de la Jornada Nacional de Sana Distancia que concluye en principio el 30 de mayo, esto quiere decir quedarse en casa para evitar los contagios.</p>
+<p>En el panorama internacional tenemos más de tres millones de personas, casi tres millones y medio de personas que han tenido COVID desde el inicio de la epidemia en enero de 2020 en China, 34 por ciento de ellas son personas que tienen enfermedad en los últimos 15 días o 14 días, por lo tanto, es la parte activa de la enfermedad, un millón 122 mil personas.</p>
+<p>En la siguiente podemos ver la situación de México. Tenemos acumulados 23 mil 471 casos hasta el día de hoy y desde el 28 de febrero, fecha del primer caso, pero seis mil 933 de ellos son de los últimos 14 días, es decir, la parte activa de la epidemia, todo el resto son personas que ya han superado la situación o muy desafortunadamente han perdido la vida, que es el caso de dos mil 154 personas que han muerto directamente por COVID.</p>
+<p>Esto quiere decir que también se han estudiado 95 mil 839 personas que en algún momento fueron casos sospechosos y que los registramos cada uno de ellos y se contribuyen también a la vigilancia epidemiológica, pero al ser estudiados resultan o positivos o negativos.</p>
+<p>Vamos a pasar, esta es la parte de la carga acumulada, la presentamos todas las noches, pero lo relevante es la parte activa de la epidemia, estos seis mil 933 personas que se distribuyen de acuerdo a lo que se ve en la gráfica con los cinco estados con mayor circulación del virus, es: Ciudad de México, la zona conurbada del Valle de México en el Estado de México, Tabasco, Sinaloa, Veracruz y Yucatán.</p>
+<p>Cuando lo comparamos atendiendo a que tienen distintos tamaños poblacionales, también podemos ver que México tiene 5.4 personas con COVID en los últimos 14 días por cada 100 mil habitantes y que cuando vemos en la siguiente gráfica la distribución por estados, podemos apreciar que la Ciudad de México le sigue Tabasco, Quintana Roo, Yucatán y Morelos y Sinaloa que tienen también importante transmisión.</p>
+<p>Aquí quiero hacer una especificación. A veces se presta a confusión cuando señalamos un estado nuevo en la lista que está teniendo mayor transmisión, simplemente es para propósitos de estar monitoreando la transmisión en los distintos estados. Esto no debe interpretarse como alerta o que se prende la alerta o que se declara alerta.</p>
+<p>La alerta tiene una connotación específica, de hecho no está este término en el lenguaje técnico de este momento y tiene ciertas características puntuales. No hay ninguna alerta respecto al estado de Morelos; sencillamente, como es predecible, un estado vecino a la Ciudad de México empieza a tener transmisión activa, pero no hay ninguna alerta en ese sentido.</p>
+<p>Suplico la atención de este detalle para que la comunicación pública atienda a criterios técnicos y ayude a la población y no la confunda con invocaciones de cosas que no tienen un fundamento real.</p>
+<p>Las defunciones, muy lamentables todas y cada una de ellas, se presentan en esta forma en su distribución en el tiempo. Como se puede ver, siguen el mismo patrón gruesamente que los casos que van ocurriendo.</p>
+<p>La última, vamos a saltarnos hasta la última, que es la que sigue, donde se muestra la curva acumulada de casos, estos 23 mil 471 que se han ido sumando con un incremento diario que ha oscilado entre el 10 al 6.3 por ciento. Recordar que este porcentaje de aumento es respecto al día previo, pero, de todos modos, como cada vez hay más casos, desde luego esto tiene un impulso importante de transmisión hasta que lleguemos al punto máximo de la curva, que ha sido predicho con base en métodos matemáticos robustos, alrededor del 6 de mayo.</p>
+<p>Es todo, presidente.</p>
+<p><strong>LUIS CRESENCIO SANDOVAL GONZÁLEZ, SECRETARIO DE LA DEFENSA NACIONAL:</strong> Con permiso, señor presidente.</p>
+<p>Si me ponen la lámina, por favor.</p>
+<p>Dentro del Plan DN-III, que nos empezamos a preparar desde marzo, una vez que nos dio la instrucción el señor presidente, inicialmente teníamos considerado 13 hospitales militares para reconvertirse en COVID, también la operación de 32 hospitales del Insabi para ser operados por nosotros y 48 unidades operativas que se iban a reconvertir o que se reconvirtieron, para hospitalización 34 y para terapia intensiva 14.</p>
+<p>En relación a los hospitales, también la instrucción del señor presidente es que todas nuestras instalaciones sanitarias se conviertan para atención al COVID, es decir, tenemos 117 instalaciones en toda la República mexicana, que son hospitales de especialización, hospitales militares de zona y unidades médicas de consulta externa.</p>
+<p>Todas estas instalaciones van a irse poniendo en operación para la atención de la emergencia y aquí les daré a conocer las primeras 30 que ponemos en operación para poder atender la prioridad que se les dio a estos seis estados.</p>
+<p>Aquí tenemos inicialmente el Valle de México, que comprende la Ciudad de México y el Estado de México. Tenemos 12 instalaciones médicas y cuatro unidades operativas en reconversión.</p>
+<p>Aquí ustedes pueden ver en hospitalización, tenemos en lo que es el Hospital Central Militar, que es nuestra principal instalación sanitaria, 649 camas, tenemos ocupadas 262 y disponibles 387, en terapia intensiva tenemos 21, tenemos 15 ocupadas, seis disponibles.</p>
+<p>Aquí en este hospital tenemos 116 camas que ya tienen todo el sistema para poner nada más los monitores y los ventiladores que serían adicionales para esta cantidad de terapia intensiva.</p>
+<p>Nuestras instalaciones están ubicadas, tenemos cercana a la Secretaría de la Defensa en la alcaldía de Miguel Hidalgo, tenemos el Hospital Central, el Hospital Militar de Especialidades de la Mujer y de Neonatología que aquí están sus camas de hospitalización y lo de terapia intensiva.</p>
+<p>Tenemos en Temamatla, en Santa Lucía, Estado de México; en San Miguel de los Jagüeyes, Estado de México; en el Campo Militar número 1, en la Ciudad de México, aquí tenemos un hospital de zona y también una unidad operativa que la reconvertimos para hospitalización.</p>
+<p>En El Vergel, Iztapalapa.</p>
+<p>En Chivatito, aquí hicimos en esta parte del Chivatito una concentración importante para hospitalización que tenemos aquí 210 camas más 60 de terapia intensiva, estas nada más están en espera de que nos lleguen los ventiladores, pero esas camas pueden ser utilizadas para hospitalización.</p>
+<p>En Tlalpan también, en lo que es el Campo Militar del Heroico Colegio Militar.</p>
+<p>En Temamatla, este también en la Unidad Médica de Consulta Externa es la propia de la Secretaría de la Defensa que se está poniendo a disposición.</p>
+<p>En Santa Fe, en Popotla, en los Leones, Tacuba y en Tlalpan.</p>
+<p>Todas estas instalaciones, las 12 instalaciones médicas más cuatro unidades operativas tenemos un total de hospitalización, de posibilidad de hospitalización de mil 574 camas, tenemos actualmente 367 ocupadas y tenemos disponibles mil 207.</p>
+<p>En terapia intensiva 117 en total y ocupadas 21, disponibles 96, con la aclaración que ya mencioné, que lo es estas 80 estamos en espera de los ventiladores.</p>
+<p>Para el estado de Sinaloa tenemos un hospital militar y un hospital del Insabi que estamos operando. Aquí tendremos la capacidad de 180 camas de hospitalización, tenemos cinco ocupadas, 175 disponibles.</p>
+<p>De terapia intensiva tenemos en nuestro hospital 10; de esas, dos están ocupadas, ocho disponibles.</p>
+<p>En el Hospital General de Culiacán, ahí ya tenemos listas las camas, pero nos faltan los ventiladores. Estas camas, como ya mencioné, pueden ser utilizadas como hospitalización.</p>
+<p>Tabasco, tenemos un hospital militar en Villahermosa, una unidad operativa reconvertida y tres hospitales del Insabi operados por nosotros. Tenemos un total de camas de 150 de hospitalización, las mismas que están disponibles.</p>
+<p>De terapia intensiva tendremos 100, ya éstas están en iguales circunstancias, pueden ser utilizadas como hospitalización, pero estamos en espera de los ventiladores para que se conviertan en terapia intensiva.</p>
+<p>Quintana Roo, tenemos un hospital militar y dos del Insabi, en Chetumal está nuestro hospital, tenemos otro hospital de especialidades oncológicas en Chetumal y un hospital comunitario en Tulum. En estas tres instalaciones tenemos un total de 115 camas de hospitalización, las mismas que están disponibles.</p>
+<p>En iguales circunstancias, aquí tenemos en terapia intensiva 65 camas entre las tres instalaciones, ya se pueden ocupar como hospitalización, pero en espera de los ventiladores para convertirlas en terapia intensiva.</p>
+<p>Baja California, aquí tenemos dos hospitales militares y dos unidades operativas reconvertidas. En El Ciprés está nuestro hospital, también una de las unidades que esta en El Ciprés, Baja California, Ensenada, está también reconvertida; un hospital en Mexicali y una de las unidades operativas en Aguaje de la Tuna también reconvertidas.</p>
+<p>En total tenemos entre estas cuatro instalaciones 122 camas de hospitalización, únicamente están ocho ocupadas, disponibles 114.</p>
+<p>En terapia intensiva tenemos en nuestro hospital en Ensenada en El Ciprés tres camas de terapia intensiva, las cuales están disponibles; y en Mexicali podremos 20 camas de terapia intensiva que están en la misma condición, ya podemos utilizar las de hospitalización, pero en espera de los ventiladores para convertirlas en terapia intensiva.</p>
+<p>Adicionalmente mencionaré que el Plan DN-III, en lo que ya hemos desarrollado, tenemos la seguridad a los almacenes del IMSS desde marzo con 38 almacenes y empleando casi mil elementos, tenemos también medidas sanitarias en cinco aeropuertos.</p>
+<p>Hemos contratado hasta la fecha cuatro mil 225 profesionales de la salud para atender todas estas instalaciones, además de nuestro personal médico, especialistas, enfermeras, todo el esquema de sanidad militar que está apoyando la emergencia.</p>
+<p>Solamente nos faltan 347 profesionales de la salud por contratar, seguimos con la difusión y esperemos que en esta semana podamos completar todo el personal requerido.</p>
+<p>Este apoyo, además de este apoyo de estos seis estados, tenemos preparadas instalaciones, tanto unidades operativas con instalaciones sanitarias en 17 estados más que en el transcurso de esta semana quedarán ya operativas o disponibles e iremos anunciando de acuerdo, como ya mencionó el señor presidente, de la prioridad que se le va dando.</p>
+<p>También hemos realizado la repartición de despensas en coordinación con los gobiernos estatales y municipales.</p>
+<p>Hemos realizado el transporte de insumos por vía terrestre y por vía aérea, el transporte humanitario.</p>
+<p>Hemos repatriado dos mil 249 mexicanos de seis países: Argentina, Perú, Chile, Bolivia, Cuba.</p>
+<p>Y también está fabricando nuestra fábrica de vestuario batas, cubrebocas, uniformes quirúrgicos, gorras desechables para los médicos y zapatones quirúrgicos.</p>
+<p>Es todo lo que estamos realizando por el momento en el Plan DN-III.</p>
+<p>Es todo, señor presidente.</p>
+<p><strong>JOSÉ RAFAEL OJEDA DURÁN, SECRETARIO DE MARINA:</strong> Con permiso, señor presidente.</p>
+<p>Buenos días.</p>
+<p>Con respecto al Plan Marina, en el mapa podemos ver los puntos rojos, son los hospitales que se hicieron COVID. Cabe mencionar también que en cada zona y sectores y regiones navales tenemos nosotros también hospitales.</p>
+<p>Gracias a la buena coordinación que existe entre mi general y el que habla nos pusimos de acuerdo. Les voy a dar un ejemplo, por ejemplo, en Ensenada ambos tenemos hospitales, ahí quedamos en que él va a atender al personal COVID, personal civil, y en nuestro hospital vamos a atender a personal del Ejército y personal de Marina para que de esa manera el hospital de ellos, que tiene más capacidad, se pueda dedicar al COVID; y así en otros puertos.</p>
+<p>Por eso es que nosotros nada más tenemos estos nueve lugares en donde en cada uno de ellos está la cantidad de camas disponibles; lógico, la mayor cantidad se encuentra aquí, en la Ciudad de México.</p>
+<p>Tenemos los centros de aislamiento voluntarios, tenemos también aviones que se dedican al traslado de personal, tenemos cinco aviones de ambulancias aéreas que tienen equipo de terapia intensiva y capsulas para llevar, en caso de que se requiera, personal de COVID.</p>
+<p>Aquí en la Ciudad de México contamos con un hospital que tiene una capacidad para 140 personas internadas COVID. Igualmente, tenemos tres centros de aislamiento voluntario, tienen una capacidad de mil 252 personas.</p>
+<p>Aquí, por ejemplo, esto es un centro de aislamiento voluntario, esta es la dirección donde se encuentra, y aquí tenemos la capacidad para darle alojamiento a 50 personas que estén positivas, digamos, no complicados, en caso de que se compliquen se mandarían a hospitales.</p>
+<p>Tienen aquí todo absolutamente gratis, desde alojamiento, comida, desayuno, comida, cena y atención médica.</p>
+<p>Igualmente tenemos aquí en este otro centro de aislamiento. El Cencis es donde se encuentra nuestra escuela médico naval y nuestra escuela de enfermería, estos dos lugares están contiguos, aquí está la dirección también.</p>
+<p>Este se encuentra en las instalaciones del aeropuerto, donde era el Batallón de Infantería de Marina de Guardias Presidenciales y estos dos se encuentran en la misma dirección, que les dan también capacidad, tienen una capacidad de 320 personas positivas, repito, que no están en situación grave y que no quieran estar en sus casas para contaminar, se pueden trasladar ahí.</p>
+<p>Igualmente, en el Hospital Central tenemos para 140 personas, ahí sí con estado crítico, hay ventiladores, etcétera.</p>
+<p>Aquí ya está más detallado. Tenemos, como les dije hace rato, cinco aviones de ala fija que son ambulancia, tenemos también dos aviones de ala móvil… perdón, helicópteros también para traslado de personal y de equipo.</p>
+<p>Ayer, por ejemplo, hicimos un traslado en avión de Hermosillo a la Ciudad de México de ventiladores que nos pidió el Insabi, igualmente de Monterrey para acá.</p>
+<p>Estos son vehículos que tenemos, se pusieron a disposición para el traslado de carga. Hemos estado llevando equipo a diferentes partes de la república para apoyo de hospitales civiles.</p>
+<p>Y los buques, tenemos estos buques, ahorita tenemos uno en Veracruz donde lo estamos habilitando para darle consulta a nuestro personal, de manera que el hospital que tenemos ahí se dedique a cuestiones de COVID.</p>
+<p>Y estos son aquí, en pocas palabras, las capacidades que tienen los diferentes hospitales, como se vio en la primera diapositiva. En Matamoros para ocho con camas disponibles y ventiladores, todos tienen ventiladores, La Pesca cinco, en Tampico ocho, en Veracruz 20, en el Centro Médico Naval 140, en Mazatlán ocho, en Vallarta ocho, en Lázaro Cárdenas ocho y en Acapulco 12, en total 249.</p>
+<p>Además de eso, se les va a dar apoyo, por ejemplo, el Hospital General Regional número 1 en Culiacán le vamos a mandar ocho médicos y ocho enfermeros; en Quintana Roo, en Cancún, al Hospital General Regional número 17 le vamos a mandar cinco médicos y cinco enfermeros; al hospital también en Cancún, al regional, el General Regional número 3 le vamos a mandar también 10; y en Tijuana también vamos a mandar 20 cuando nos lo pidan. Ya está el personal listo.</p>
+<p>Y esa es otra de las cuestiones que estamos haciendo. Nuestra fábrica de vestuario y equipo, estamos manufacturando equipo de protección personal, el traslado de equipo médico a diferentes partes del país.</p>
+<p>En el Centro Médico están haciendo, se están fabricando camillas de traslado y reparación de ventiladores que nos están mandando diferentes hospitales aquí.</p>
+<p>Y esto es lo que se está haciendo. Por ejemplo, en la fábrica de vestuario y equipo tenemos una meta de llegar a hacer dos millones 900 cubrebocas, esta es la cantidad que llevamos, las pijamas quirúrgicas, las batas quirúrgicas, pijamas para pacientes, batas, overoles y camillas de traslado. Esta es la fabricación de las camillas, esta es nuestra meta, llevamos esto.</p>
+<p>Igualmente, los ventiladores. Hemos recibido 99 y hemos reparado 31, ahí hemos tenido un poco de problema por la cuestión de las refacciones que, como ustedes deben de entender, pues la cadena productiva hoy en día está un poco detenida.</p>
+<p>El traslado de equipo médico con diversas aeronaves y vehículos. Creo que ahí termina.</p>
+<p>Con permiso, señor.</p>
+<p><strong>ZOÉ ROBLEDO ABURTO, DIRECTOR GENERAL DEL INSTITUTO MEXICANO DEL SEGURO SOCIAL, (IMSS):</strong> Con su permiso, señor presidente.</p>
+<p>Muy buenos días a todas y a todos.</p>
+<p>Hace ya algunas semanas empezamos a ver la necesidad de poder contar con espacios de descanso digno para el personal de la salud del Seguro Social y particularmente con aquellos quienes están atendiendo a pacientes COVID.</p>
+<p>La idea era encontrar espacios que nos pudieran servir para tener aéreas de descanso, para pernocta, para la alimentación, que contaran con lavandería, con aseo, con todo lo que merecen quienes hoy están aquí al frente de esta batalla, salvando vidas.</p>
+<p>A partir de esa preocupación -si pueden pasar a la siguiente- hicimos una encuesta interna, les preguntamos quiénes podían estar interesados. Y aquí algo que es importante y fue muy interesante es ver las razones por las cuales el 86 por ciento del personal nos decía, nos manifestaba que sí estaría interesado en un área de hospedaje durante el curso de la pandemia.</p>
+<p>Algunos manifestaban que por las horas de traslado a sus domicilios desde su centro de trabajo. Horas de trabajo que, hay que decirlo también, ocurren en la gran mayoría de los casos en transporte público y hay personal nuestro que vive muy lejos y que, que pesar de que hoy pues está disminuida el tráfico y el desplazamiento de las personas, pues no dejan de ser traslados largos; también pues poder tener áreas de descanso.</p>
+<p>Y algo bien interesante. Nos manifestaban que ellos también están preocupados porque en sus casas pudieran vivir familiares que son parte de los grupos vulnerables y estaban preocupados de no generar contagios y demás.</p>
+<p>Pero también el tema de la seguridad, tener una cercanía y poder llegar rápido al lugar de descanso a partir de la seguridad. Como les decía, 86 por ciento se manifestó interesado.</p>
+<p>A partir de eso fue que, en coordinación con la Secretaría de Cultura, se dispuso del complejo cultural Los Pinos para poder empezar a recibir a nuestro personal a partir del día de hoy al mediodía.</p>
+<p>Hoy entran 58 médicos, médicas, enfermeras, enfermeros del Seguro Social que están atendiendo COVID, particularmente de tres lugares: del Centro Médico Nacional La Raza, del Centro Médico Nacional Siglo XXI y del Hospital General de Zona de Tlatelolco.</p>
+<p>Estos lugares van a tener el hospedaje, la alimentación, el desayuno, la comida, la cena, un área de lavandería y de cambio de ropa de cama, limpieza y desinfección de dormitorios y áreas comunes, abasto de insumos y enseres de limpieza, la disposición también de espacios recreativos como televisión, canchas de fútbol, jardines y las exposiciones que están al aire libre, internet en todos los espacios, transporte también del personal a los hospitales.</p>
+<p>Aquí quiero mencionar que además estamos disponiendo que personal también del Seguro Social mantenga, digamos, que el seguimiento de los síntomas de ellos, los normales, la temperatura y demás, estarles preguntando si han tenido algunos otros síntomas, pero también algo importante, apoyo emocional.</p>
+<p>Son jornadas verdaderamente extenuantes, estresantes, de muchísima intensidad y también eso nos sirve para estar dando seguimiento cómo se sienten, cómo están evolucionado, sobre todo en estos momentos que es las etapas más críticas.</p>
+<p>Los espacios que han sido habilitados ya son la Casa Miguel Alemán, la cabaña número 2 que tenía funcionamiento como oficinas, tres dormitorios del antiguo Estado Mayor Presidencial, el comedor de Molino del Rey y el antiguo helipuerto y las canchas de fútbol como espacios recreativos para que también ellos tengan un lugar donde salir al aire libre y poder también hacer algunas actividades.</p>
+<p>En el caso de la casa Miguel Alemán esta está destinada exclusivamente para mujeres, médicas y enfermeras, tiene mayor posibilidad de tener espacios un poco más privados con los baños y ahí es donde estarán ellas.</p>
+<p>La cabaña número dos estará dispuesta para varones, para médicos y para enfermeros que empezarán a entrar a partir del día de hoy.</p>
+<p>Y estos dormitorios en el 1 y el 2 estará destinado también para hombres, son áreas digamos que más comunes, son dormitorios más comunes, aquí estamos destinando también para hombres y particularmente para jóvenes, hay algunos residentes que están, que van a entrar el día de hoy; entonces aquí van los hombres más jóvenes y en el dormitorio número 3 mujeres.</p>
+<p>Esa es la disposición. Como les decía, son 58 enfermeras, médicas y médicos que el día de hoy entran. Estamos listos para recibir hasta 80 personas, es decir, 22 personas más y con la posibilidad de crecer hasta 100 lugares.</p>
+<p>Estamos a todos preguntándoles quiénes están interesados, hoy ya entran los primeros y creemos que va a ser un buen lugar también para darle un uso para ellos, un uso correcto, solidario y que además, no puedo dejar de decir, que tanto la Secretaría de Cultura, incluso el sindicato nos ha ayudado para el tema del transporte, es decir, llegan al Centro Cultural Los Pinos y van a sus centros de trabajo, en este momento a los tres hospitales en autobuses que nosotros vamos a administrar para que todo esto sea muy controlado en términos de que se logre el objetivo de que ellos salgan de su lugar de trabajo y lleguen a un lugar a descansar.</p>
+<p>Eso es todo, señor presidente, por mi parte.</p>
+<p><strong>JORGE ALCOCER VARELA:</strong> Señor presidente, con permiso.</p>
+<p>Pues todavía falta tiempo y la parte más difícil de la epidemia ha llegado, como saben ustedes, por lo cual es necesario evitar la saturación de hospitales y la lamentable pérdida de vidas humanas por esta causa.</p>
+<p>Por ello estamos trabajando y hoy es un ejemplo de ello, intensamente en la previsión y comunicación fundamentales, anticipándonos en todo momento lo más posible a los acontecimientos derivados de esta pandemia.</p>
+<p><strong>LUISA MARÍA ALCALDE LUJÁN, SECRETARIA DEL TRABAJO Y PREVISIÓN SOCIAL:</strong> Presidente, con su permiso; colegas secretarios.</p>
+<p>Para informar el día de hoy respecto a ejercicio que hemos venido haciendo de quién es quién en el cumplimiento de las medidas sanitarias.</p>
+<p>Aquí podemos mostrarles esta gráfica. A diferencia de la semana pasada, donde traíamos 13 por ciento de empresas que, a pesar del exhorto deciden no suspender sus labores, hoy ese porcentaje se reduce a seis por ciento, el 94 por ciento de las empresas, negocios cumplen el seis por ciento, insisten en no cumplir.</p>
+<p>Esto se puede ver desglosado así. Cuando llegamos, el 48 por ciento ya están cerradas, 20 por ciento se exhorta al cierre y acceden al cierre, 26 por ciento realizan algún tipo de actividad esencial o tienen cerrada buena parte de su industria y quizá una cadena abierta para temas relacionados con la industria médica y el seis por ciento que se niega a cerrar.</p>
+<p>¿Cuáles son las industrias o las actividades económicas en donde se ha concentrado las empresas no esenciales que se niegan al cierre?</p>
+<p>Tenemos comercio de productos no esenciales, es decir, venta de productos no esenciales 27 por ciento; la industria automotriz, está también ya la habíamos mencionado la semana pasada, 27 por ciento; industria textil 11 por ciento, industria maderera seis por ciento y otro tipo de productos diversos también seis por ciento, aquí tenemos otras actividades, tiendas departamentales, industria metalúrgica, etcétera.</p>
+<p>Aquí está por entidades federativas, llamando nuevamente la atención que el 26 por ciento de estas empresas que se niegan al cierre se encuentran en los municipios más afectados por la pandemia.</p>
+<p>Aquí tenemos algunos ejemplos de empresas que han cumplido. Está el caso de Trico Componentes, en Tamaulipas, Matamoros. Ellos fabrican parabrisas, hicieron una reconversión, están trabajando con el 20 por ciento de la plantilla porque se están dedicando a cuestiones relacionadas con la industria médica, específico con ventiladores y todo lo demás pararon su actividad.</p>
+<p>Está el caso de Baja Nautical que es una empresa en Baja California, en Ensenada, con más de 50 trabajadores, igualmente suspendieron y hay algunos que con este material se están… se reconvirtieron para cuestiones con camillas.</p>
+<p>Tenemos luego el caso de Edumex, Chihuahua, en Ciudad Juárez. Es una maquiladora, cinco mil trabajadores que igualmente accedieron al cierre, han cerrado cuatro de cinco de sus plantas y la única que permanece abierta es porque está relacionada con equipo médico.</p>
+<p>Está el caso de Bachoco, en Toluca. Ellos, como ustedes saben, se dedican a la producción de carne y huevo. Si bien se trata de una actividad esencial, a la hora de hacer la visita de inspección, se verificó que cumplen con todas las medidas que se han determinado para el caso de estas empresas, que puedan continuar con sus labores.</p>
+<p>Luego, tenemos respecto a las empresas que se niegan, insisten en no cumplir con las medidas y detener sus actividades, tenemos a Grupo Elektra en diferentes partes del país, con más de 10 mil trabajadores. Es un centro de trabajo no esencial que se niega al cierre.</p>
+<p>Tenemos también el caso de Autofin aquí, en la Ciudad de México. Se dedican a la venta de vehículos automotores, no son una actividad esencial considerada por la Secretaría de Salud y aun así continúan con sus labores.</p>
+<p>Tenemos el caso también de la empresa Campeche, en Campeche. Una industria textil con más de 190 trabajadores que, sin tener una actividad esencial, continúa laborando.</p>
+<p>Y, finalmente, una maquiladora en Saltillo, Coahuila, Hyplasa, con más de 100 trabajadores; igualmente, es una empresa con una actividad no esencial que se ha denunciado varias veces, hemos recibido varias denuncias al respecto y, a pesar de que hemos insistido en el cierre, no han acatado estas medidas.</p>
+<p>Eso es todo, presidente.</p>
+<p><strong>SURIT BERENICE ROMERO DOMÍNGUEZ, SUBPROCURADORA DE SERVICIOS DE LA PROCURADURÍA FEDERAL DEL CONSUMIDOR (PROFECO): </strong>Buenos días a todas y a todos.</p>
+<p>Les voy a presentar el quién es quién en los precios de la gasolina. Tenemos que en la gasolina regular el precio más alto se encuentra en Servicio Talpa, en Talpa de Allende, Jalisco, con 80.90 centavos por litro, con un margen de 4.22 centavos; el precio más bajo lo ofrece Costco Gas en Centro, Tabasco, con un precio de 13.11 centavos por litro con un margen de 17 centavos, vemos que hay una diferencia de más de cinco pesos.</p>
+<p>Para el caso de la gasolina Premium, el precio más alto lo tiene Servicios Momoxpan S.A de C.V. en Cuetzalan, Puebla, a 20.61 centavos por litro, con un margen de 6.82 por litro; el precio más bajo lo tiene otra vez la franquicia Costco Gas en San Luis Potosí, con un costo de 13.39 centavos por litro y un margen de 42 centavos. Se reconoce el esfuerzo de esta empresa por el apoyo que está brindando a la economía familiar de los consumidores.</p>
+<p>En el caso del diésel, los precios más altos se encuentran en la estación de servicio TGM en Villa Unión, Coahuila, a 21.49 por litro con un margen de 5.80 centavos; en el caso del precio más bajo lo proporciona la gasolinera Perinorte en San Luis Potosí a un precio de 15.37 centavos por litro un margen de 1.21 centavos.</p>
+<p>Revisando los indicadores de ganancia por marca, vemos que se mantienen como los más caros Chevron, Arco, y RedCo, y los más baratos Repsol, G500 y Total, que ahora Total es la opción más económica.</p>
+<p>En cuanto a los precios promedio a nivel nacional se mantienen a la baja. En el caso del diésel lo tenemos a 18.62 centavos, la gasolina Premium está en promedio 16.43 centavos y la gasolina regular en 15.29 centavos.</p>
+<p>Se llevaron diversas acciones de verificación y vigilancia a diferentes estaciones de servicio de gasolina y diésel en donde se practicaron 313 denuncias, se realizaron… perdón, se atendieron 313 denuncias, se pudieron realizar 239 visitas, de estas hubo dos gasolineras que se negaron a ser verificadas.</p>
+<p>Se encontraron 17 gasolineras que no daban litro de a litro, se verificaron tres mil 800 bombas y mangueras y se inmovilizaron por no dar litro de a litro, 32.</p>
+<p>Las empresas que se negaron a la inmovilización fueron Corporación La Completa en Mérida, Yucatán; y Super Gas, de Córdoba, en Córdoba, Veracruz.</p>
+<p>Los precios que tenemos en la app, que no toman en cuenta el margen de la gasolina regular, tenemos como las más baratas las franquicias Pemex a 12.99, en Puebla, Puebla; Veracruz, Veracruz, a un costo de 13.00 pesos.</p>
+<p>Las más caras se encuentran en Hermosillo, Sonora, a 17.30 centavos; y en Puerto Vallarta, Jalisco, por parte de Shell, a 17.19 centavos</p>
+<p>En el caso de la gasolina Premium, la franquicia de Pemex en Kanasin, Yucatán, da un precio de 13.19 centavos; y en Jiquipilas, Chiapas, en 13.49; las más caras se encuentran en Cuetzalan del Progreso, Puebla, con la empresa Mobil, que da un precio de 20.61; y San Juan del Río, Queretáro, con un costo de 19.97 centavos.</p>
+<p>El diésel, el más barato se encuentra en San Luis Potosí, San Luis Potosí, a 15.56 por parte de la franquicia Pemex, en Fullook Gasolinas, en Marín, Nuevo León, con un costo de 15.99; y como los más caros están Gulf a 20.99 en la frontera a Coahuila y en Chiautla, Puebla, a 20.89.</p>
+<p>La Profeco sigue monitoreando los servicios sanitarios de las estaciones de servicio. En esta ocasión se visitaron tres mil 352 servicios sanitarios.</p>
+<p>Es todo, presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, vamos con los videos.</p>
+<p><strong>(INICIA VIDEO<em> AVANCE CONSTRUCCIÓN DEL AEROPUERTO INTERNACIONAL FELIPE ÁNGELES</em>)</strong></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> La Secretaría de la Defensa Nacional informa los avances en la construcción del Aeropuerto Internacional Felipe Ángeles al 4 de mayo de 2020.</em></p>
+<p><em>El proceso de materialización de todos los frentes del nuevo aeropuerto es realizado de manera simultánea.</em></p>
+<p><em>En la terminal de combustibles y red de distribución se efectúa el colado de concreto en losa de azotea de subestación eléctrica y planta de emergencia, así como losa base y muro de cisterna de agua potable.</em></p>
+<p><em>En la unidad habitacional militar se realizan actividades de habilitado de acero y cimbra en cimentación de muros y losas, vaciado de concreto, construcción de muros de mampostería, desplante de muro, castillos, cadenas, trabes, muros y losas de concreto armado, así como la instalación de ductería eléctrica, hidráulica y sanitaria.</em></p>
+<p><em>En la pista norte y central plataforma y rodajes, se continúa con la conformación de terraplenes, tendido de la capa subbase, base hidráulica y de tubería de concreto para instalaciones de redes y drenaje pluvial, a su vez siguen despalmes y excavaciones en pista norte.</em></p>
+<p><em>En la terminal de pasajeros se continúa con el montaje de la estructura de acero en procesador central y salas de última espera, se instaló la cuarta grúa torre para un frente más de montaje de estructura.</em></p>
+<p><em>En el complejo de instalaciones de la 37 Zona Militar y organismos jurisdiccionados se realizan actividades de habilitado de acero y cimbra, colados de losa de entrepisos y columnas, colocación de muros y repellado fino en muros de la 37 Zona Militar.</em></p>
+<p><em>A la fecha se han generado 20 mil 532 empleos civiles.  Faltan 686 día de construcción.</em></p>
+<p><strong><em>VOZ MUJER: </em></strong><em>Gobierno de México.</em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>(INICIA VIDEO)</strong></p>
+<p><strong><em>ROCÍO NAHLE GARCÍA, SECRETARIA DE ENERGÍA:</em></strong><em> Hoy es 2 de mayo, estamos en el área de las cimentaciones de las plantas de proceso, también vamos a mostrarles cómo quedará instalada la refinería en esta área que estamos construyendo</em>.</p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy bien, esta es la información en general.</p>
+<p>Abrimos para pregunta y respuestas. En general, vamos.</p>
+<p><strong>PREGUNTA:</strong> Buen día, presidente. Dalila Escobar, corresponsal de <em>A</em> <em>Tiempo TV. </em></p>
+<p>Tiene que ver con la cuestión de salud, ha sido un poco complicada la comunicación en las conferencias de la tarde. Entonces, quisiera aprovechar ahorita para hacer una pregunta en torno a la información que se está dando de manera oficial por parte de la página que se tiene para el tema de coronavirus.</p>
+<p>La pregunta sería para el subsecretario Gatell. Preguntarle, en la página que han dispuesto de manera oficial y en tanto que han dicho que el primer caso de COVID-19 en México confirmado fue el 28 de febrero, haciendo una revisión en esta página en los números que se tienen, ahí se menciona en la tabla de casos confirmados a nivel nacional -que nos aclaren el punto- que desde el 6 de enero ya hubo un caso confirmado en Nayarit.</p>
+<p>El 8 de enero dice también que hay otro en Tabasco, para el 14, uno en Aguascalientes, después en Guanajuato, después en Baja California, Ciudad de México, de tal manera que para el 28 de febrero, México habría llegado con 12 casos de acuerdo con la información que se ve en esta página oficial.</p>
+<p>Preguntar si fue así, si México llegó al 28 de febrero con 12 casos de COVID-19 o qué sucede con esa información, por un lado.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Con su permiso, presidente. Gracias por su pregunta.</p>
+<p>Su pregunta es un poco tardía. En el periódico <em>Reforma</em>, Natalia Vitela, su reportera, lo comentó hace dos semanas y media en un sábado, y ya hicimos la aclaración en su momento, que en el momento de migrar las bases de datos para la integración de un solo sistema o una reasignación equivoca de la fecha de diagnóstico, la fecha de confirmación por laboratorio, la que es evidentemente errónea, porque la fecha de inicio de síntomas de todos los casos que usted relata son de abril.</p>
+<p>Entonces, no podría una persona tener una confirmación de una enfermedad que empezó el abril en enero.</p>
+<p><strong>INTERLOCUTORA:</strong> Bueno, entonces, en ese sentido ¿por qué los números? precisamente también ahí va la pregunta. Sí supimos esa situación, pero entonces ¿por qué continúan los números así? Se lo menciono porque ha generado confusión también esta situación, ¿por qué no se ha corregido?</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> No sé a cuáles específicamente se refiere, pero vamos a pedirle a la Unidad de Inteligencia Epidemiológica que revise todos los datos.</p>
+<p>Estos datos son revisados por múltiples instituciones, de hecho, Conacyt, con quien estamos siempre agradecidos, nos articula toda la parte de auditoría de datos, entonces, vamos a revisar cuáles, si usted nos ayuda a decirnos a cuál se refiere y a qué fecha y cuando bajó la base de datos y cuál fue el mecanismo de verificación. Y hacemos todo un mecanismo que se llama auditoría técnica de datos, en donde se revisan los metadatos, esto es un asunto técnico, pero se puede documentar exactamente qué fue lo que pasó de acuerdo a cual transferencia de cómputo.</p>
+<p><strong>INTERLOCUTORA:</strong> Sí, todavía ayer estaban esos números, por eso se lo comento.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Gracias.</p>
+<p><strong>INTERLOCUTORA:</strong> Y bueno, en otro sentido, también preguntarle a usted con el caso del procurador Federal del Consumidor, Ricardo Sheffield, que sabemos dio positivo a COVID-19. ¿Ya comenzaron el estudio de casos?, entre ellos, sabemos están aquí algunos de los integrantes del gabinete del presidente, el propio presidente, si ya comenzaron con este estudio de casos.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Ya.</p>
+<p><strong>INTERLOCUTORA:</strong> Y bien, entonces, en este sentido, preguntarle, entre el nivel de quienes toman las decisiones, ¿en qué punto se rompería, en todo caso, la cadena de contactos y posibles contagios?, ¿cómo están analizando este hecho?</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Perdón, no entiendo su pregunta.</p>
+<p><strong>INTERLOCUTORA:</strong> En el sentido de que todavía se siguen reuniendo en el gabinete y obviamente han tenido contacto diverso, el lunes estuvo aquí el procurador, estuvo la secretaría Luisa María Alcalde, estuvo el presidente, entonces ¿en qué momento pudiera cortarse la cadena de contacto?, porque han tenido diferentes reuniones, se entiende que tienen que tomar decisiones, pero ¿en qué punto se está tomando la decisión de que en algún momento se corte para que no siga habiendo más casos?</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> En el momento en que esto sea procedente.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿En qué momento podría ser?, o sea, ¿ustedes cómo lo analizan?, o sea, la verdad es que la respuesta así tan cortante no nos sirve.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Se lo explico. Aquí le pongo un ejemplo de algo que ocurrió en esta comunidad de comunicadoras y comunicadores, de ahí quienes acuden en la tarde.</p>
+<p>Con esto se lo voy a ilustrar para que vea cómo funcionan los estudios de casos y contactos.</p>
+<p>El estudio de casos y contactos, para la población que tiene intereses más generales en la epidemia, les comparto que es uno de los elementos básicos de la táctica de contención.</p>
+<p>Esto cuando estábamos en la fase 1 era la parte característica, esta es una recomendación desde hace mucho tiempo de la Organización Mundial de la Salud, no tiene que ver específicamente con COVID, es una de las intervenciones clásicas del control y la prevención de las enfermedades infecciosas de interés epidémico.</p>
+<p>¿En qué consiste esta contención basada en contactos y casos?</p>
+<p>En identificar a las personas que tienen casos sospechosos, es decir, tienen las manifestaciones clínicas de una enfermedad, en este caso que nos ocupa es el COVID, aun cuando no se sepa si tienen o no una confirmación por laboratorio. Esto tiene como propósito encontrar de la manera más temprana y por lo tanto oportuna a una persona que pudiera ser contagiante de otras personas en su entorno inmediato.</p>
+<p>Las características clínicas de una persona con COVID básicamente tiene tres signos o síntomas característicos de mayor relevancia que son: la fiebre, el dolor de garganta, la tos, también el dolor de cabeza y otros de los síntomas accesorios, escurrimiento nasal, enrojecimiento de los ojos, fatiga, dolor muscular, a veces en unos casos esporádicos pudiera haber incluso diarrea, por ejemplo.</p>
+<p>Cuando una persona tiene estas características, independientemente de los cuidados que se deben tener para que esa persona tenga una buena evolución, se considera a la persona como potencialmente contagiante y se le considera un caso, caso sospechoso.</p>
+<p>Inmediatamente esta persona se manifiesta o se presenta a unidad de salud o se documenta que es un caso sospechoso y, sin esperar al momento del resultado del laboratorio, se identifican a sus contactos. Contactos son aquellas personas que durante el tiempo relevante de la probabilidad de contagio estuvieron en estrecha convivencia con el caso.</p>
+<p>Esta estrecha convivencia tiene que ver específicamente con el mecanismo de transmisión de esta enfermedad. Esta enfermedad se transmite por vía respiratoria, como hemos dicho repetidamente, y tiene que ver con las secreciones respiratorias, con los líquidos que se proyectan de nariz y boca, y que provienen de la garganta y de la faringe, de la parte superior de la faringe, y que se proyectan al hablar, toser, cantar, gritar, etcétera.</p>
+<p>Y hay un fenómeno que le llamamos la distancia, la distancia relevante, de ahí viene lo de sana distancia, y es la distancia a la que debe estar una persona para que tenga una probabilidad efectiva o suficientemente alta para ser contagiante.</p>
+<p>Y, finalmente, la duración. No es lo mismo un contacto circunstancial que tener un contacto por varias horas con una persona que es potencialmente contagiante. En el estudio de casos y contactos se documenta cada uno de estos encuentros estimulando la memoria de la persona potencialmente contagiante y posteriormente las personas que pueden ser identificadas como contactos, también se entrevistan como contactos para verificar la información si no existe otra perspectiva de la memoria de quienes pueden ser contactos.</p>
+<p>En el caso del sujeto inicial que pudiera ser un contagiante, se le toma también muestra de laboratorio desde el inicio pero, ya he dicho, el estudio de contactos inicia antes de esperar el resultado de laboratorio. En un momento dado, cuando la persona potencialmente contagiante tiene un resultado de laboratorio, eso contribuye a identificar con mayor precisión la probabilidad de los contagios.</p>
+<p>Este fenómeno ocurre independientemente de que la persona sea un trabajador de la salud, sea un funcionario público, sea un tomador de decisiones políticas, sea un periodista, sea cualquier persona, es decir, cada persona tiene dadas sus características biológicas y sociales una probabilidad dada de estar involucrado en una cadena de contagios, no hay ningún fenómeno de discriminación, ni en favor ni en contra de las personas.</p>
+<p>Entonces, esto es lo que se hace exactamente aquí, es lo que se hizo en el caso de la secretaria Sandoval, es lo que se hará en el caso de cualquiera y debería hacerse.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Tienen el número de contactos que tuvo Ricardo Sheffield o eso no lo van a manejar?</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> No tengo esa información, pero en general fueron muy poquitos. Ricardo Sheffield, él hizo pública su información, por eso podemos hablar de ello; hemos aclarado repetidamente también que es importantísimo conservar el respeto a la confidencialidad de las personas, son personas, aunque tengan un cargo hay que respetarlas como personas.</p>
+<p>Sé que son de interés público porque están en la esfera pública, vienen aquí y a todos ustedes aquí les interesa proteger a nuestro gobierno, sea el gobierno de este país, se lo agradezco, pero hay que respetar su confidencialidad.</p>
+<p>Los estudios de casos y contactos son confidenciales, se trate de quien se trate, no tiene nada que ver con que tengan o no privilegios, ya lo he dicho, no hay esa concepción en nuestro gobierno y hay que respetar su confidencialidad. En este caso se está atendiendo con el protocolo estandarizado de todos los ciudadanos de México.</p>
+<p><strong>INTERLOCUTORA:</strong> Y, presidente, preguntarle, también sobre el caso, ya se ha hablado del tema de los ventiladores, ya sabemos que va a haber un informe, pero yo quisiera preguntarle a usted si el asunto de la compra a sobreprecio de ventiladores al hijo del director general de la CFE, Manuel Bartlett no lo considera por influyentismo o por amiguismo.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Esta es una información que dio a conocer la Asociación Mexicanos a favor de la Corrupción ¿no?, la de Claudio X. González, una persona muy honesta.</p>
+<p>Miren, desde el inicio del gobierno dije que no iba yo a tolerar ningún acto de corrupción, ni siquiera de mi familia, que sólo me hacía cargo de mi hijo Jesús Ernesto porque es menor de edad; de modo que quien sea acusado de actos de corrupción, de cualquier ilegalidad tiene que ser investigado, sancionado y no debe de permitirse la impunidad.</p>
+<p>No somos iguales a los gobiernos de antes, a veces calienta, porque nos confunden. Por ejemplo, el <em>Reforma</em> y otros medios que nunca denunciaron el saqueo que se llevó a cabo durante el gobierno de Salinas, ahora son paladines de la decencia y la honestidad.</p>
+<p>No somos iguales. Nosotros llegamos aquí para limpiar de corrupción al gobierno, para desterrar la corrupción. En este caso, la Secretaría de la Función Pública tiene que hacer su trabajo, tiene que hacer la investigación, y si resulta responsable esta persona tiene que ser sancionado, igual el funcionario que entregó este contrato.</p>
+<p>Pero lo que quiero destacar, lo que está en el fondo, es ese afán de querer debilitar a nuestro gobierno. Les molesta mucho la transformación, ellos quisieran que continuara el mismo régimen de corrupción, de injusticia, de privilegios, eso es el fondo de todo.</p>
+<p>Estamos ante la disyuntiva y sí, considero que no hay medias tintas, es corrupción o transformación. Y este momento, este tiempo está ayudando también a la definición, a que cada quien ocupe su sitio, y están mostrando el cobre, dan pena ajena, haciendo hasta el ridículo.</p>
+<p>Es una tras otra, y es de la mayoría de los medios de información los que actuaban como alcahuetes de los grupos de intereses creados, los que se dedicaban a quemar incienso a los gobernantes, ahora se convirtieron de la noche a la mañana en críticos severos de nuestro gobierno. Afortunadamente no tienen ningún efecto sus calumnias, sus falsedades, toda esta industria tan lucrativa del manejo de las redes sociales con bots, con robots.</p>
+<p>Un día me gustaría que los encargados de Comunicación Social explicaran aquí, porque sería interesante que todos los que nos ven, nos escuchan, conozcan cómo funciona esta perversidad y cómo consume dinero y cómo se tolera por parte de las agencias o las empresas que prestan el servicio de internet, porque es un bombardeo de mentiras, pero además con mucho costo, están financiando una campaña de desprestigio, una guerra sucia en contra del gobierno.</p>
+<p>Afortunadamente, decía yo, no tienen efecto, porque el pueblo de México, ya lo dije, lo repito, es de los pueblos con menos analfabetismo político en el mundo y esos bots, esos robots, todas esas cadenas que arman para atacar al gobierno son inmediatamente enfrentadas con argumentos de la gente que está a favor de la transformación, que ya no quiere más de lo mismo, ya no quiere que siga imperando la corrupción.</p>
+<p>Entonces, es notorio en el caso del <em>Reforma</em> con el doctor Hugo López-Gatell, en la tarde noche vienen a tratar de poner entredicho lo que sostiene el doctor, cuando él es una gente íntegra, una gente honesta, incapaz de distorsionar la realidad. Hay una gran diferencia entre la honorabilidad del doctor López-Gatell y los que manejan <em>El Reforma</em>. Entonces, están empeñados en eso.</p>
+<p>Pero no es nuevo, o sea, ellos surgen, <em>El Reforma</em>, ese periódico, se inicia, comienza en México -y no hay casualidades- en el sexenio de Salinas. Es como la fundación del PAN, que se da en 1939, un año después de la expropiación petrolera, cuando gobernaba el general Cárdenas, un presidente patriota.</p>
+<p>¿Por qué surge ese partido?</p>
+<p>Para oponerse a la política popular y patriótica del general Cárdenas. Entonces, todo tiene su explicación.</p>
+<p>Y no es censura, es nada más aclarar, informar, dar elementos para que nadie sea sorprendido. Los patrocinadores del <em>Reforma</em> pues eran los dueños del país, se sentían los todopoderosos, eran los que hacían los grandes negocios al amparo del poder público, eran los que no pagaban impuestos y ahora están molestos, están inconformes y no se detienen ni siquiera ante la tragedia, porque son tiempos en que deberíamos de estar pensando en cómo ayudar para curar los enfermos, para salvar vidas, pero no, ellos andan en otra idea.</p>
+<p>Estamos como si estuviésemos, no todo el pueblo, sino un grupo, está en una actitud muy inhumana, muy perversa, muy individualista, es como temporada de zopilotes. Entonces, que no se vaya a malinterpretar, que no digan: ‘Hay, censura, autoritarismo’. No, es sólo aclarar. Ese periódico desde el principio de la pandemia empezó a insinuar que estábamos ocultando a los nuestros, querían llevar ellos una contabilidad de muertos. Imagínense la bajeza, la inmoralidad, la falta de escrúpulos de una prensa así.</p>
+<p>Digo todo esto porque ya hay toda una campaña para demeritar al doctor Hugo López-Gatell. No les gustó, no les agradó tampoco que tomáramos la decisión de que el doctor fuese nuestro vocero, porque ellos querían que el gobierno fuese un desorden, un caos y que, primero, no se manejara este asunto tan delicado, con profesionalismo, con responsabilidad y que no tuviésemos a los expertos que tenemos. Primero eso.</p>
+<p>Y luego, de que todos opinaran, que pudiesen sacar en entrevistas declaraciones de todos, y como en política hay siempre mucho protagonismo, pues entrevistar a uno, entrevistar a otro y al final enrarecer el ambiente y poder decir: ‘No son los casos que ellos dicen, no son los muertos, porque ellos informan que perdieron la vida’. Eso es lo que querían.</p>
+<p>Pero decidimos poner orden, actuamos en equipo y se escogió al doctor Hugo López-Gatell, que tiene dos características o virtudes: primero, es un experto, un especialista de lo mejor del país, de lo mejor del mundo en la materia; y segundo, es un hombre preparado, buen expositor, piensa bien y expone bien.</p>
+<p>Entonces, como ya no les está funcionando su estrategia y cada vez es más el desgaste, ahora van sobre el doctor Hugo López-Gatell, pero como se diría antes, hoy me estaba yo acordando de las consignas cuando éramos estudiantes y marchábamos, y ahorita que estaba yo viendo a Zoé que pasábamos enfrente de lo que era <em>Excélsior</em> en la marcha: ‘Prensa vendida, prensa vendida, prensa vendida’, y luego pasábamos enfrente de un hotel de lujo y decíamos: ‘Ese hotel será hospital, ese hotel será hospital’, y ahora la verdad que sí, ya son las residencias se están convirtiendo en hospitales y se está utilizando rodos los espacios, pero también lo otro que decíamos es ‘no estás solo, no estás solo, no estás solo, no estás solo’.</p>
+<p><strong>INTERLOCUTORA:</strong> Nada más lo que pasó el fin de semana y que usted menciona, se debe a que en realidad el subsecretario se había comprometido a dar una información cierto día y no la dio. Bueno, no se notó como un ataque, sino simplemente se pidió que aclarara ese asunto.</p>
+<p>Y también en torno al tema del modelo Centinela han surgido, por supuesto, muchas manifestaciones de que hay confusión en los números, si no se ha explicado por qué ya no es válido, ya no es procedente para monitorear la fase 3, pero pareciera que igual los números que presenta e incluso ayer casualmente reduce el número al factor que se estaba obteniendo anteriormente.</p>
+<p>Solamente es cuestión como de aclarar eso. No es que se ataque al subsecretario, sino que más bien es como pedir claridad en la exposición.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>Lo va a seguir haciendo en la tarde y mañana y pasado, y lo repite y lo repite y lo repite, y lo va a seguir haciendo, pero creo que sí entendemos qué es lo que está detrás, cuál es el fondo del asunto; sin embargo, hay que tener paciencia y estar argumentando y argumentando y argumentando para que no se dé ningún motivo, porque andan buscando eso.</p>
+<p>Entonces, se tiene el derecho a la información y nosotros vamos a cumplir con ese derecho, el informar a todos y con respeto. Digo todo esto, porque es un asunto de carácter público, cuando hay muchas mentiras se afecta, se genera dudas, se genera incertidumbre, se desprestigia a la autoridad, entonces yo estoy obligado a responder, aclarar, a replicar, y hago uso de ese derecho.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, presidente de los Estados Unidos Mexicanos. Su servidor Carlos Pozos, reportero de <em>Lord Molécula Oficial</em>; buenos días a todos los funcionarios aquí presentes y buenos días a todos los colegas y a todos los que nos ven y nos escuchan.</p>
+<p>Mi primera pregunta es en torno a la declaración que hace la secretaria del Trabajo, en donde da a conocer la cadena Elektra no hace caso a las instrucciones sanitarias. La semana pasada se dijo que Coppel tampoco hacía caso, en esta ocasión no se denuncia.</p>
+<p>La pregunta sería en ese sentido: ¿usted le hará un exhorto a través de este círculo de comunicación al señor Ricardo Salinas Pliego o se procederá ya a esta cadena en toda la república a clausurarlas o a las sanciones convenientes que le corresponden?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Miren, nosotros hemos optado en todo por convencer, por persuadir, no por imponer nada. Cuando ustedes sugirieron que se diera a conocer quiénes estaban cumpliendo con las medidas sanitarias, aquí se dijo que íbamos a hacer un quién es quién en el cumplimiento de las normas que se establecieron para enfrentar la pandemia.</p>
+<p>La semana pasada se inició, estaban empresas incumpliendo, el 13 por ciento hace una semana, ahora es el seis. ¿Qué significa esto?</p>
+<p>Bueno, que, primero, que sin ningún tipo de supervisión ya 87 por ciento de las empresas estaban cumpliendo y sólo 13 estaban en falta, ahora sólo seis, yo espero que para la semana que viene, el lunes próximo ya no haya ninguna empresa que incumpla con lo establecido por las medidas sanitarias, vamos a esperar.</p>
+<p>Ya no está Coppel porque seguramente ya aceptaron cerrar, ¿o está Coppel en el seis por ciento de ahora?</p>
+<p><strong>LUISA MARÍA ALCALDE LUJÁN:</strong> Todavía quedan algunas, más bien no se están repitiendo las empresas, pero sí se a volver a dar, se dio un tiempo, unos días para poder regresar y cerciorarnos que hayan cerrado.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Entonces, hay que esperarnos. Este es el método que se eligió para que se cumpla. Más que la sanción, más que la multa, más que lo coercitivo, el convencimiento, eso es lo que estamos haciendo.</p>
+<p><strong>INTERLOCUTOR:</strong> Gracias, señor presidente.</p>
+<p>Mi segunda pregunta viene a colación a las declaraciones de la exembajadora de Estados Unidos en México, Roberta Jacobson. Muchos de los voceros de esta prensa tradicional y caduca y otros actores nada dijeron ayer a la nota informativa o a la información que publica <em>Proceso</em>.</p>
+<p>Mi pregunta es si esta declaración de la señora Jacobson aporta jurídicamente algo a la investigación en México y si usted se pronunciaría porque el expresidente Calderón deba rendir cuentas ante la justicia de los Estados Unidos. Esa sería mi primera pregunta.</p>
+<p>Y la segunda pregunta, ayer fue el Día Mundial de la Libertad de Prensa. ¿Podría decirnos dónde quedó el software o a qué fines trabaja o da el Pegasus, el que compró el exsecretario de Seguridad, García Luna, hoy juzgado en Estados Unidos?</p>
+<p>Sería mis dos preguntas, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, mire, sobre ese asunto ya hemos hablado aquí, corresponde investigar a la autoridad de Estados Unidos, ellos llevan el caso de García Luna, es un proceso legal.</p>
+<p>No quiero yo adelantar nada, sólo diría lo que ya he sostenido, que es muy lamentable que un secretario de Seguridad Pública esté al servicio de un grupo de la delincuencia organizada, que eso fue terrible, independientemente si había complicidad hacia arriba o no.</p>
+<p>Imagínense, el secretario de Seguridad Pública en el tiempo en que se decide declarar la guerra al narcotráfico, defendiendo o protegiendo a uno de los grupos para perseguir a otros. Y en ese tiempo -por eso, la investigación tiene que ir al fondo- fue cuando se llegaron a acuerdos entre gobiernos para que se introdujeran armas de Estados Unidos a México, armas que se usaron para asesinar a personas.</p>
+<p>Entonces, sí amerita una investigación de fondo. No sólo es corrupción, es asociación delictuosa entre gobiernos o entre funcionarios de dos gobiernos.</p>
+<p>Todo esto debe de ser analizado sin aspavientos, nada más justicia, porque sí es grave todo lo que sucedió, que había asesinatos de grupos, se violaron derechos humanos, desapariciones, todo eso, afectando a muchos mexicanos, masacres y escenas verdaderamente deleznables.</p>
+<p>Recuerdo cuando asesinaron a un presunto delincuente o a una persona identificada como delincuente en Morelos, lo acribillan y profanan el cuerpo, le ponen billetes, dólares, cosas así.</p>
+<p><strong>INTERLOCUTOR:</strong> Por lo montajes de televisión.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, pero ese tipo de cuestiones, o sea, eso no lo puede hacer una autoridad, eso es violatorio de los derechos humanos más elementales.</p>
+<p>Entonces, todo eso debe de aclararse, eso es un expediente abierto. Independientemente de las declaraciones de quienes pudieran estar involucradas, yo creo que el gobierno de Estados Unidos debería -ya que inició la investigación- ir a fondo, e investigar también a los funcionarios de la DEA, de la CIA, del FBI, a todos los que intervinieron durante este periodo, porque sin duda hubo cooperación, trabajaron juntos.</p>
+<p>Y ponía yo el ejemplo lo de Rápido y Furioso, la entrada de armas. Imagínense eso. ¡Cómo un gobierno permite, además en secreto, que entren armas y que se entreguen esas armas a bandas y que el supuesto operativo se les vaya de control y ocasionen daños a personas que fueron asesinadas! Sí hay que ver. Luego, lo de la acumulación de dinero, ¿cómo es que nadie se entera de manejo de cientos, miles de millones de pesos?, de residencias en el extranjero de gran lujo.</p>
+<p><strong>INTERLOCUTOR:</strong> Y desde la misma Secretaría de Gobernación.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, todo, investigarlo a fondo.</p>
+<p>Y sobre tu pregunta de este equipo que se compró, que se adquirió, vamos a informar, porque debe de haber ya pruebas, elementos, seguramente ya se entregaron a la fiscalía, porque todo lo que nos llega y que puede, por lo del debido proceso, lo damos a conocer.</p>
+<p><strong>INTERLOCUTOR:</strong> Muchas gracias, presidente.</p>
+<p><strong>PREGUNTA: </strong>Presidente, buenos días. Michelle Mejía, de <em>Multimedios</em>.</p>
+<p>Me gustaría que nos diera su opinión sobre los hechos ocurridos el viernes en Ecatepec en un hospital de Las Américas. Hubo muchas quejas porque varios familiares de pacientes ya estaban muy tensos, porque no les daban información sobre sus pacientes y ellos ingresaron a las instalaciones, incluso abrieron algunas bolsas donde se encontraban cadáveres. Que nos diera su opinión al respecto, ¿qué es lo que piensa sobre esto?</p>
+<p>Si a raíz de esto hubo… Ya el fin de semana, digamos, algunos incidentes similares en algunos otros puntos. Si en las reuniones de seguridad ustedes han pensado primero reforzar los hospitales.</p>
+<p>¿Qué atención se les va a dar a estos familiares de pacientes para que ellos tengan la información en el momento preciso de cómo va evolucionando su paciente?</p>
+<p>Y me gustaría que nos comentaran qué le puede decir a la población que, a prácticamente dos meses más, menos que llevamos de esa pandemia, todavía hay gente que no cree que el COVID todavía está presente, creen que hay invenciones, en fin, que esto no existe y que incluso también hay unas personas que creen que en los hospitales están matando a los pacientes. ¿Qué nos puede decir al respecto?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, es un asunto que tiene que ver con la información, por eso es conveniente informar, informar, informar, volver a informar. Hay quienes piensan que estas conferencias no ayudan pero, si no se informara, sería verdaderamente el caos. Estos actos como los de Ecatepec, como el hecho de Ecatepec, se debe a eso, a falta de información.</p>
+<p>¿Qué le puedo decir a la gente?</p>
+<p>Tengan confianza, nosotros no vamos a mentir, no vamos a engañar, no vamos a ocultar nada. No es como antes, que antes había una tragedia y primero se da un número de víctimas y la gente decía: ‘No es cierto, fueron más, están engañando, están ocultando’. No.</p>
+<p>¿Qué otra cosa sucedía?</p>
+<p>Empezaban a llegar las ayudas y se robaban lo que mandaban. Entonces, tampoco, ya eso se fue a la historia, al basurero de la historia, eso ya no se permite, ya estamos en una etapa nueva.</p>
+<p>Y lo mismo en el caso de la información, ahora tenemos con todos los bots y la manipulación que se da en redes sociales, tenemos ahí mismo un espacio muy bueno, por eso hablo de las benditas redes sociales, para informar.</p>
+<p>Lo que tenemos que hacer es seguir informando. No pocos insinuaban que ya no hubiera mañaneras. Sería majadero decirles: Bueno, si no quieres que haya mañaneras, no las vean, pero deja que los que quieran verlas se informen. O sea, quisieran eso, afortunadamente, ya tenemos manera de comunicarnos, de que haya información.</p>
+<p>Entonces, decirle a la gente hay que estar informados. Y vaya que la gente está muy atenta, es muy receptiva y sensible. Vuelvo a decir, si hemos avanzando a pesar de los pesares, enfrentando el coronavirus ha sido por la actitud responsable del pueblo de México.</p>
+<p>Número uno el pueblo, medalla de oro; medalla de plata, los héroes, las heroínas, los médicos, las enfermeras; bronce, los especialistas, esa es mi calificación.</p>
+<p>Pero yo soy una opinión nada más, hay que recoger la opinión de todos, pero sí hacer un reconocimiento a todos los que han hecho posible que a pesar de las pérdidas de vidas, de los enfermos, de los que sufren, hemos podido reducir al mínimo el dolor, si se compara con lo que desgraciadamente ha pasado en otros países.</p>
+<p>Vamos trabajando de la mano todos juntos, con sana distancia desde luego y no creer rumores, todas estas campañas de desprestigio.</p>
+<p>Y también me explicaban un mecanismo para neutralizar a los bots. Me decían algunos, y es importante hacer una exposición sobre eso, sobre las redes, también para pedirle a Twitter y a Face que nos expliquen cómo es que venden publicidad para bots y además sobre todo que rindan cuentas, que haya transparencia. La regla de oro de la democracia es la transparencia.</p>
+<p>¿Cuánto ingresa a las empresas en México a estas empresas por compra de publicidad?</p>
+<p>No se sabe. Yo pienso que podrían ellos informar.</p>
+<p>Bueno, pero regresando, decían que si se contesta a bots, si se enganchan que Andrés Manuel que -como me dicen- se come las ‘s’ o las dice de más, no hay que contestar. No es por presumir, pero yo llevo 40 años recibiendo ataques, yo estoy inmune y siempre he salido de la calumnia ileso, entonces, ¿para qué contestan? déjenlos.</p>
+<p>Porque me dicen que si se contesta, entonces, se arma la cadena y funciona. Sería bueno orientar sobre este tema, primero, descubrir cómo funciona esta red de robots que se alquilan o se compran para las campañas de desprestigio, si se puede saber quién las promueve y sobre todo, como diría mi paisano, el finado Chico Che: ‘¿Quién pompó?’, ¿quién paga?</p>
+<p><strong>INTERLOCUTORA:</strong> Pero ¿no hay espacio de información entre las instituciones de salud con los familiares de pacientes?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, hay siempre en todos los hospitales trabajadoras sociales encargadas de la comunicación, pero la gente se desespera, y si hay rumores, si se desatan estas distorsiones de que se está muriendo la gente, de que -estaba yo leyendo- les estaban quitando las rodillas porque se venden las rodillas, no, cosas -bueno, como hablamos de que son temporadas de zopilote- muy macabras.</p>
+<p>Entonces, ¿cómo se le hace ante esto?</p>
+<p>Informar, que Hugo tenga también ese otro asunto de estar informando, informando, informando.</p>
+<p>Y pedirles a las trabajadoras sociales, a los encargados de informar en los hospitales, que estén más atentos a las inquietudes de los familiares de los enfermos.</p>
+<p>Hay vigilancia en los hospitales, ya nos está ayudando la Guardia Nacional y está ayudando también el Ejército, la Marina. Pero no queremos militarizar los hospitales, no es eso, no lo consideramos necesario, si acaso protección, hay periodistas que se hacen pasar por médicos y se meten a los hospitales, porque quieren encontrar ahí no sé, enfermos no atendidos o situaciones que puedan significar críticas.</p>
+<p>Todo eso se está haciendo, tampoco es general, son algunos casos, pero desde luego se magnifican. Lo mejor es portarnos bien, que todo mundo ayude, que hagamos consciencia.</p>
+<p>Yo les digo a los conservadores que una vez que pase la pandemia que volvamos a la confrontación política, ideológica, respetuosa, que vayamos al debate, que es bueno, que es parte de la democracia, pero que no mezclemos ahora lo relacionado con la pandemia, que no se vincule lo de la pandemia a lo político-electoral, si es que se puede; si ellos no quieren, de todas maneras, nosotros vamos a ser respetuosos de sus manifestaciones, sólo que vamos a usar nuestro derecho de réplica.</p>
+<p><strong>INTERLOCUTORA:</strong> Presidente y a la gente que aún no cree que existe ¿qué le puede decir?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Que hay pruebas, hay evidencias de que es una pandemia, es algo mundial, y que es cosa de informarse, nada más.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, señor presidente. Verenice Téllez, del diario nacional, <em>UnomásUno</em>.</p>
+<p>El día de ayer en un mensaje usted hablaba de la reconstrucción del mundo y de las economías que después de esta pandemia van a quedar dislocadas, ¿en el caso de nuestro país cómo quedamos?, ¿qué hay hacia adelante?, ¿cómo lo vemos?</p>
+<p>Sé que es muy pronto por el tema de que apenas vamos a llegar al punto máximo de la crisis del COVID-19 en México, pero si necesitamos como que palabras de aliento y saber qué posición, si va a seguir siendo lo de antes, si vamos a colapsar, ¿qué va a pasar con México, presidente?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Nosotros también en esto tuvimos suerte. Claro, Maquiavelo decía que la política era virtud y fortuna, virtud y suerte. Nosotros desde hace mucho tiempo hemos sostenido que el modelo neoliberal no produce bienestar, sino miseria pública, que no puede ser exitoso un modelo que sólo procura el lucro en beneficio de una minoría y a costa del sufrimiento de la inmensa mayoría del pueblo.</p>
+<p>Esto ya no nosotros lo constatamos en nuestra historia, ya sabemos qué pasó durante el porfiriato, y neoliberalismo es neoporfirismo.</p>
+<p>¿Qué sucedió en el porfiriato?</p>
+<p>Pues el gobierno fue tomado, estuvo al servicio de un grupo y se esclavizó al pueblo y se acumularon grandes fortunas al amparo del poder público, pero se tenía al pueblo sometido.</p>
+<p>¿Eso qué produjo, esa desigualdad?</p>
+<p>Una revolución. Si hubiese funcionado ese modelo no hubiese habido revolución. Hay insensatos que dicen que fue un buen gobierno el de Porfirio Díaz; si eso fuese cierto, no hubiese habido una revolución social.</p>
+<p>Es lo mismo de ahora. Se acumuló mucha riqueza en unas cuentas manos, sobre todo en el gobierno de Salinas, se transfirieron los bienes de la nación, los bienes públicos a particulares, se profundizó la desigualdad social.</p>
+<p>México llegó a ocupar el cuarto lugar en el mundo en multimillonarios, cuarto lugar, sólo superado por Estados Unidos por Alemania y por Japón al final del gobierno de Salinas.</p>
+<p>Entonces, esa desigualdad produjo todo esto que estamos ahora padeciendo, esa corrupción, porque llevar a cabo esas operaciones de traslado de dominio, pasar lo público a privado es corrupción, privatizar, lo hemos dicho varias veces, según el diccionario es convertir lo público en privado.</p>
+<p>Entonces, eso es lo que se aplicó en el mundo, hace 40 años comenzó esa política neoliberal, hicieron ensayos en algunos países, incluso el modelo fue impuesto con dictaduras y aparentemente era la panacea, era la modernidad, ese modelo es el que se está derrumbando.</p>
+<p>El coronavirus no produjo ese derrumbe, lo precipitó. Ya el modelo estaba dañado, tan es así que no sólo fue el coronavirus, vino la crisis de precios del petróleo y así ya es un modelo vulnerable, ante todo una epidemia, una crisis financiera, un fenómeno natural, ya se está cayendo.</p>
+<p>Entonces tenemos que pensar en un modelo alternativo, desde luego fraterno, solidario, que no concentre la riqueza en unos pocos, sino que se busque una mejor distribución del ingreso, que no haya tanta desigualdad y que no se piense sólo en crecer por crecer, que no sea como una obsesión el crecimiento, sino que el crecimiento tenga como fin el bienestar.</p>
+<p>¿Qué otras enseñanzas nos está dejando lo del coronavirus en el terreno médico, de salud?</p>
+<p>Se abandonó la salud pública en el mundo. En ese escrito hablo de que en China, uno de los países que ha tenido más crecimiento en los últimos años, que se convirtió en la fábrica del mundo, de repente viene esta epidemia y tienen que hacer hospitales con urgencia y en Europa y en Estados Unidos escenas lamentables de enfermos esperando turno para entrar a unidades de terapia intensiva.</p>
+<p>En el caso de nosotros, tuvimos la suerte de que se retrasó el coronavirus, que nos llegó tarde y eso nos permitió tener las camas, conseguir los ventiladores, los especialistas, pero traemos un déficit de médicos, de especialistas, de enfermeras.</p>
+<p>¿Cómo se produjo este déficit, este faltante?</p>
+<p>Porque estos irresponsables apostaron a privatizar la educación y la salud.</p>
+<p>En el caso de la educación se rechazaba y todavía desgraciadamente se sigue haciendo a quienes querían ingresar a las escuelas con la mentira, con el engaño de que no pasaban el examen de admisión; aquí en la Escuela de Medicina de la UNAM, para poder ingresar de 125 preguntas había que contestar bien 123, fallar en dos, el que contestaba bien 122 ya no entraba.</p>
+<p>Entonces, no es que no pasaran el examen de admisión, es que no había cupo, no hay espacio porque no hay presupuesto o no había el presupuesto suficiente.</p>
+<p>Entonces, pasa el tiempo y ahora resulta que México no tiene los médicos ni tiene los especialistas que necesita, porque para el modelo neoliberal eso no era importante.</p>
+<p>Hay que replantearnos todo y la salud y la educación no deben de ponerse al mercado como si fuesen mercancías, son derechos inherentes al ser humano. Estoy hablando del nuevo modelo.</p>
+<p>¿Qué otras enseñanzas nos deja?, ¿quiénes son los enfermos?, mejor dicho, ¿cuál es la población más afectada vulnerable?</p>
+<p>Los enfermos, según nos dicen los especialistas, de hipertensión, de diabetes, de obesidad. Si lo revisamos bien, estas han sido las pandemias silenciosas más dañinas, incluso de más causas de mortalidad que el coronavirus en México y en el mundo, ¿cuántos pierden la vida por infartos al año o por diabetes en México?</p>
+<p>Claro que cuando se trata de pérdidas de vidas humanas no se puede comparar, porque no se desea que nadie pierda la vida, pero bueno, ¿por qué no volteamos a ver la atención a esas enfermedades?, ¿por qué no les dimos la atención a esas pandemias?, ¿y cómo se originan?</p>
+<p>En lo fundamental por el consumismo, por la mala alimentación, por el consumo de productos industrializados, productos chatarras, por la falta de orientación nutricional, por la falta de educación para la salud. Entonces, ¿qué tenemos que hacer ahora?</p>
+<p>Había quienes estaban enojados por el etiquetado de los productos, ni modo que ahora me vayan a salir de que están molestos por el etiquetado después de lo que estamos viendo.</p>
+<p>Fíjense que, en nuestro país, lo escribo también de los que lamentablemente han fallecido, la mayoría con enfermedades crónicas, incluso más que los de mayor edad.</p>
+<p>Entonces, ¿qué vamos hacer?</p>
+<p>Entre otras cosas, una campaña de orientación nutricional para combatir la obesidad, eso lo tenemos que hacer, eso es obligado después de la pandemia.</p>
+<p>Y lo otro, en lo económico, distribuir el ingreso, distribuir el presupuesto, lo que ya estamos haciendo.</p>
+<p>Me da mucho gusto que martes, miércoles y jueves, porque el viernes fue día 1º de mayo, se entregaron más de 60 mil créditos a pequeños empresarios que tienen trabajadores el Seguro Social y hoy comienza la entrega de un millón de créditos para pequeña empresa familiares.</p>
+<p>Hoy en la tarde, por eso es importante que de 6:00 a 7:00, antes del doctor Hugo, se informen sobre estos créditos, hoy empiezan un millón. Ya han aceptado, porque se hizo una consulta, más de 800 mil y ya van a empezarán distribuirse estos fondos, primero de manera electrónica y con ordenamiento para que no se saturen las sucursales de tres bancos: Santander, Azteca y Banorte.</p>
+<p>Esto es aparte de los créditos para los empresarios del Seguro Social y vamos a dispersar muchos fondos mayo, junio, es el nuevo modelo, fortalecer el mercado interno, fortalecer la capacidad de consumo del pueblo, la capacidad de compra para reactivar lo más rápido que podamos la economía.</p>
+<p>Ayer hablaba yo precisamente, en ese escrito, que la situación económica mundial se torna complicada. Independientemente de la devaluación de las monedas, los pronósticos de crecimiento en Europa, en Estados Unidos son de menos siete, es decir, va a haber decrecimiento económico, en promedio siete por ciento va a caer la economía en el mundo; sólo va a crecer, de acuerdo a los pronósticos, la India, creo que 1.5, y China 1.2 que es algo nunca visto para los últimos tiempos.</p>
+<p>Bueno, aun con este panorama así ¿qué le digo a los mexicanos, a nuestro querido pueblo?</p>
+<p>Que nosotros vamos a salir adelante, tengamos fe que vamos a poder salir bien de la pandemia y vamos también a remontar la crisis económica y se va a garantizar el bienestar de nuestro pueblo. Eso es lo que puedo comentarles.</p>
+<p>Ya se terminó. Mañana, quedas mañana tú ¿sí? Mañana, dos, tres. Por favor, Jesús, por favor, mañana.</p>
+<p>Que la pasen bien, iniciamos la semana.</p>
+<p>---</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

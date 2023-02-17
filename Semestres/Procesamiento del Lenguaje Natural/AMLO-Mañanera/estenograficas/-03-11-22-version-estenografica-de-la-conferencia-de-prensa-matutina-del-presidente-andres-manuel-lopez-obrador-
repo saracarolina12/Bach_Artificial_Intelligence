@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>03.11.22 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/03-11-22-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=156216' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F03-11-22-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F03-11-22-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66i4v-f-6fc5adf1b-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":21,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"38fa7762","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55426,"ak.gh":"23.47.207.46","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616597","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==iNbiPRQEvguKBsoQjZSaI41wGRk0hK4Kq0QTOshaYKQgcf4DvJzCZnIYsCNdjLI6JXoZmsQLo7o4wN0+LtYfDo9nBYid6YCcBBcWFaMmwN7SDwV8clQa2DKnb0pFyG7ymfJfEQRqZwBBC+GPABsUICa4KKk2dwklvUWQhiSf870Jjf4njmyvX0tx5pUZyw6wGDgvwiJ4FpeK/qZnf9uSf2i8Zzh1itB4oBW1GSAc8d6L0MRLTlB2e/wdETYONc5Zgphx++iGyDk7JG3fANPJkGH9Bdzwg0Xm5w501l61hDBzmnvqvwlU3vBt7sM/hivUbOsCrotflP6jFdk5RnSamzMClRK7+ukvfK3Mffzqzkll47ZcfAAhnXXMAR9AbvlHWu7yhST6dkDvi+3ciNvhTDNJQ/2Nek/bQdVxEOC2isc=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-156216 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef2107364cb" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>03.11.22 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 03.11.22 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-156216" class="post-156216 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2022/11/03-11-2022-Conferencia-de-prensa-matutina-Palacio-Nacional-Foto-02.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2022/11/03-11-2022-Conferencia-de-prensa-matutina-Palacio-Nacional-Foto-02-745x450.jpg" alt="03.11.22 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">03.11.22 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><em>2022: Año de Ricardo Flores Magón, precursor de la Revolución Mexicana</em></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Buenos días. Ánimo, ánimo.</p>
+<p>Bueno, pues después de los días de los santos y de los difuntos, vamos a reiniciar la semana. Tenemos dos exposiciones:</p>
+<p>Lo del quién es quién en lo relacionado con la seguridad, que le llamamos Cero Impunidad, todo lo que se hace para que se combata la delincuencia, que no haya impunidad, y lo va a explicar Ricardo Mejía, como lo hace todos los jueves.</p>
+<p>Aprovecho para agradecerle a Ricardo por su trabajo. Es de los mejores servidores públicos en esta materia. Nos ha ayudado muchísimo. Es un gran apoyo, es quien me aligera la carga en este tema que nos preocupa y ocupa, que es el de garantizar la paz, la tranquilidad, que no haya impunidad.</p>
+<p>Antes, la queja constante… Lo tengo que subrayar porque se olvidan las cosas, pero antes siempre se hablaba que se detenía a presuntos delincuentes y había como una puerta giratoria, no se sentenciaba, era mínimo el número de juicios. Y todavía hay ese problema, tenemos que estar muy pendientes, porque hay jueces del Poder Judicial, aunque parezca increíble, que les gustan los sabadazos: termina la semana y como sábado y domingo no hay actividad, de repente una orden para dejar en libertad a un delincuente de altos vuelos porque ya se le terminó el periodo de castigo o porque se integró mal la averiguación o porque no se presentaron las pruebas. Un poco lo que sucedió cuando dejaron en libertad al señor Caro Quintero, que fue así, un fin de semana.</p>
+<p><audio src="http://presidente.gob.mx/wp-content/uploads/2022/11/Conferencia-matutina_2022-11-03.mp3" controls="controls"></audio></p>
+<p><iframe src="//www.youtube.com/embed/FePLxvI11Wo?t=1125" width="600" height="400" allowfullscreen="allowfullscreen"></iframe></p>
+<p>A nosotros nos los han querido hacer como cinco veces, de casos famosos, varios, ya voy a dar a conocer los nombres porque además nosotros no tenemos nada que ocultar y todo es transparente.</p>
+<p>Acaba de pasarnos con dos casos, este señor 40.</p>
+<p><strong>RICARDO MEJÍA BERDEJA, SUBSECRETARIO DE SEGURIDAD PÚBLICA DE LA SECRETARÍA DE SEGURIDAD Y PROTECCIÓN CIUDADANA (SSPC): ‘</strong>El Zeta 40’. No, el de Carillo también, Carrillo Fuentes, y Félix Gallardo.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>De Félix Gallardo señor, sí, y también viernes.</p>
+<p>¿Y qué se hace en estos casos?</p>
+<p><strong>RICARDO MEJÍA BERDEJA:</strong> ‘El güero’ Palma.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>‘El güero’ Palma, por enfermedad.</p>
+<p>Pero pues es plan con maña también, porque no sólo es dejarlos en libertad, sino… Imagínense, Estados Unidos de inmediato, ¿no?, reclamando que en México se dejó en libertad a quien es acusado allá de alguno de los delitos. ¿Y el prestigio del país y el prestigio del Estado mexicano y de las autoridades dónde queda?</p>
+<p>Entonces, se ha avanzado bastante.</p>
+<p>Decía yo: ¿Cómo se le hace en esos casos? Viene la orden del juez; pues hay gente pendiente para buscar de inmediato si no hay otras órdenes de aprehensión, y siempre se encuentran. Porque la orden es: ‘Déjese en libertad de inmediato’.</p>
+<p>Estoy explicando un <em>modus operandi</em>, para la gente que nos ve vaya teniendo información del papel del Poder Ejecutivo, el papel del Poder Judicial, los jueces, los magistrados, los ministros. Porque en México, por décadas, más de un siglo, mucho más, desde el siglo XIX el poder de los poderes                                             era el Ejecutivo, el Poder Judicial y el Poder Legislativo eran apéndices del Poder Ejecutivo.</p>
+<p>Entonces, los ministros de la Corte dependían del Ejecutivo, todavía, hasta hace poco. Bueno, cuando me desaforaron como jefe de gobierno en el 2004, 2005, el que dio la orden fue Fox, le dio la orden al presidente de la Suprema Corte de Justicia, el nieto del escritor Azuela, Mariano Azuela. Gran novela <em>Los de abajo</em>. Lo llamaron —porque eran como sus empleados— a Los Pinos y ahí le dieron la orden; y no sólo eso, todos los ministros sacaron un manifiesto a favor de mi desafuero.</p>
+<p>Entonces, como esto ya está cambiando, tenemos que ir conociendo todos cómo funcionan los poderes y cómo debe de haber independencia, equilibrio y separación de poderes, porque no había esa costumbre, esa tradición, ese hábito. Entonces, todo lo que hagamos en ese sentido, porque esto ya cambió, ya no va a ser igual. Y tardó mucho tiempo, estamos hablando de siglos.</p>
+<p>Por eso nos ha ayudado mucho aquí el abogado Ricardo Mejía para atender todos estos casos, o sea, que no haya corrupción y que no haya impunidad, que está ahí, están queriendo regresar a lo que imperaba al sistema o al régimen autoritario, antidemocrático, corrupto.</p>
+<p>Ya que hablo de antidemocracia, imagínense lo que hicieron los del INE, para los defensores del INE. Me tocó ir hace como dos o tres meses por allá por Las Lomas, y en las casas: ‘yo estoy con el INE’, ‘yo estoy a favor del INE’, ‘yo no quiero la desaparición del INE’.</p>
+<p>Pues nadie desaparece o va a desaparecer al INE, lo que se quiere es que el INE ya no esté en manos de la oligarquía antidemocrática, corrupta, que a través de los partidos nombraban a los consejeros del INE, gente sin principios, sin vocación democrática y nombraban también a los magistrados del Tribunal Electoral.</p>
+<p>Enviamos una iniciativa de reforma al Congreso, que está debatiéndose, para que, a estos representantes del INE, del tribunal, los elija el pueblo de manera democrática. Que el Ejecutivo presente 10, 20 candidatos; que el Legislativo, 10, 20 candidatos ciudadanos, mujeres, hombres, de inobjetable honestidad; que el Judicial, 10, 20. Y que de esos 60, mitad mujeres, mitad hombres, el pueblo decida quién, los que tengan más votación, para que tengamos un órgano electoral verdaderamente independiente, autónomo.</p>
+<p>Esa es una primera propuesta, para que no manipulen los conservadores, que no estén pensando que lo queremos es desaparecer al INE.</p>
+<p>No está de más que recuerden ellos que hasta hace 20 años, 25 años, ¿saben quién organizaba las elecciones? La Secretaría de Gobernación, hasta hace 25 años.</p>
+<p>Aquí estábamos hablando que hasta hace también 25 años aproximadamente, sí, 1996, se pudo lograr que los partidos contrataran tiempo en televisión, porque ni pagando podían los partidos entrar a la televisión, porque el Estado autoritario antidemocrático tenía el control absoluto de los medios, y lo siguió manteniendo, pero ya era posible contratar los medios a partir de 1997. Esto, para los jóvenes.</p>
+<p>Bueno, ¿qué otra cosa estamos proponiendo?</p>
+<p>Que no se gaste tanto, porque el INE, el tribunal, significan un presupuesto de 20 mil millones de pesos. Son los organismos más caros del mundo, los más onerosos, es donde cuesta más emitir un voto de todo el mundo.</p>
+<p>Tres, si se reduce el presupuesto—no sólo es el presupuesto del INE, sino también el presupuesto de los partidos— imagínense cuánto ahorro para las necesidades más urgentes, apremiantes: para educación, para salud, para becas, para discapacitados, para adultos mayores. Entonces eso es lo que estamos proponiendo.</p>
+<p>Y, lo mismo, cuánto nos ahorramos si ya no hay senadores y diputados plurinominales, y en vez de 500 diputados hay 300, sólo los que elija el pueblo, no el achichincle del dirigente del partido, o el familiar del dirigente del partido o el que se coló porque es el más servicial.</p>
+<p>Entonces, imagínense lo que se logra, que los que lleguen tengan el voto. Porque si no, van a lista y hasta se van de vacaciones, ya regresan ya para ocupar su curul y cobrar.</p>
+<p>¿Quiénes son?</p>
+<p>Quién sabe.</p>
+<p>A veces un ciudadano de Chihuahua aparece como legislador en Chiapas.</p>
+<p>Y peores cosas, todavía en el gobierno anterior les daban <em>moches</em>, sobornos a cada uno. ¿Qué tiene que recibir presupuesto un legislador, si no es esa su función? Su función es legislar. Pues les daban un oficio de autorización para hacer obras, la Secretaría de Hacienda, para destruir y construir banquetas, destruir y construir calles, unidades deportivas y cultura, infraestructura para la cultura. Esos tres ramos, calles y banquetas, cultura y deporte eran moches.</p>
+<p>Entonces, le daban a cada legislador —ahora sí que era de los comunes, no de los lores— 10 millones a cada uno, un oficio. Y él iba, aunque no fuese su distrito, y ofrecía a un presidente municipal, a un gobernador de otro estado: ‘Aquí tengo esto para banquetas, para la unidad deportiva, nada más que me tienes que dar un <em>moche</em>’.</p>
+<p>Me gustaría que la compañera que pasa, ¿será que sí sabe? La de las señas… No la tenemos aquí, ¿verdad?, en la transmisión, no hay.</p>
+<p><strong>RICARDO MEJÍA BERDEJA:</strong> La del Puebla, que se ponga la del… Por la franja.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> En la transmisión no tenemos, ¿verdad?, nosotros.</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS, COORDINADOR GENERAL DE COMUNICACIÓN SOCIAL Y VOCERO DE PRESIDENCIA:</strong> Sí, sí hay.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Sí hay?</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> La producción, sí, de señas.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, sí, de señas. Ah, es que… ¿Y es lo mismo?</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> La de <em>moche</em> es así.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí.</p>
+<p>Pero esos, hablo de los comunes, 10: ‘Entonces me das 10 por ciento, 20 por ciento; ¿no me das 20 por ciento? No importa, nada más yo te recomiendo a la empresa que haga la obra’. Así era.</p>
+<p>Tengo que estar recordando, porque parece que esto fue hace un siglo y fue apenas, no llega ni a 10 años, hace cinco años.</p>
+<p>Entonces, aprobaban el presupuesto por unanimidad en la Cámara. Cuando fue secretario de Hacienda una eminencia reconocida por el conservadurismo y por los financieros en México, y sobre todo por los rescatados del Fobaproa y beneficiarios de la política económica neoliberal, Carstens, fue tres años secretario de Hacienda y sacó el presupuesto los tres años, por unanimidad. Increíble, un mago de la política. Pero ese era el mecanismo usado.</p>
+<p>Y a los coordinadores de los grupos parlamentarios, a esos les tocaba muchísimo más, se podían hasta proyectar y llegar a ser gobernadores, se arreglaban arriba.</p>
+<p>Esa podredumbre es la que quieren que regrese, la que quieren que regrese, la oligarquía actual, el conservadurismo, con sus voceros, sus intelectuales orgánicos, sus medios de información, eso es lo que quieren.</p>
+<p>Y un nivel de deshonestidad extremo; de deshonestidad no sólo política, no sólo corrupción política; deshonestidad intelectual de quienes aparentaban ser gentes íntegras, objetivas, profesionales, bien formados, doctores de universidades del extranjero, expertos, eminencias, sabiondos.</p>
+<p>Miren lo que hizo el INE. Tiene muchísimo dinero, porque, además, los funcionarios del INE y del tribunal ganan más que el presidente porque ellos no acataron lo que establece la Constitución, retorcieron la ley, se ampararon y tienen fideicomisos, y se dan la gran vida. Pero ayer se dio a conocer que guardaron una encuesta que ellos pagaron, sí, dos, una creo que a principios de año y otra en septiembre, y no dieron a conocer los resultados; y como los resultados no les favorecían, ocultaron la información.</p>
+<p>Y ayer sale el presidente del INE, que da, la verdad, pena ajena, a decir que pues eso era hace dos meses, pero que ya las cosas desde luego han cambiado porque no estaba en debate todavía el tema de la reforma electoral, ahora como está en debate ya se enteraron más gente, porque cuando hicieron el levantamiento sólo se habían enterado el 37 por ciento.</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS: </strong>El 27</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>El 27; entonces, sería muy bueno hacer otra.</p>
+<p>Pero miren. A ver, regrésale. ¿Esto quién lo puso? Ellos.</p>
+<p>Pero fíjense cómo destacan. Vamos a suponer, como dirían los abogados, aceptando sin conceder, que sólo sea el 27.</p>
+<p>¿Quiénes son los más informados?</p>
+<p>Los de la élite, son los que simpatizan más con el conservadurismo, los que tienen más acceso al internet, los que tienen más información porque viven aquí en la capital o en las capitales de los estados, porque la radio está… la televisión. Pero, bueno, 27.</p>
+<p>Pero fíjense cómo plantean: iniciativa de reforma electoral, sólo 27 por ciento de la ciudadanía está enterada de la iniciativa propuesta por el Ejecutivo Federal.</p>
+<p>Síguele. Y esto es lo que ocultan, porque no querían decir.</p>
+<p>‘Está de acuerdo en que se realice una reforma electoral; sin embargo —hay que matizar, porque el que paga manda, no puede ser así tan rudo, tan seco—, sin embargo, la opinión está dividida, entre quienes lo ven muy necesario y quienes no’.</p>
+<p>Fíjense cómo está dividida, dice: Muy necesario, 23; algo necesario, 28; da 51; 25, nada necesario; 19, poco necesario. ¿Cuánto da?</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> Cuarenta y cuatro.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Cuarenta y cuatro. Y cinco no sabe o no contestó, está muy reñido, nada más son seis puntos. No, siete, siete puntos, está igual de reñido que la elección del 2006.</p>
+<p>A ver, la segunda. Postura ante propuesta de la iniciativa del Ejecutivo federal. Esta es interesantísima, que viva el pueblo. Si esto están pensando los de arriba, imagínense cómo están pensando los de abajo.</p>
+<p>Que, a propósito, ayer vi un mensaje, que a ver si lo ponemos, sobre la educación, que no hay que educar a los pobres, hay que educar a los ricos. Lo tengo en mi… Creo que Juan José te lo puede mandar. Es buenísimo.</p>
+<p>Destinar menos recursos a partidos políticos: muy a favor, 48; a favor, 45; en contra, cinco; muy en contra, uno.</p>
+<p>¿Cómo lo iban a ocultar?</p>
+<p>Dicen que la encuesta la entregaron a los representantes de los partidos, pues también los representantes de los partidos la guardaron, fue un pacto de silencio.</p>
+<p>Disminuir el número de diputaciones y senadurías a nivel federal: muy a favor, 39; a favor, 48; en contra, 10; muy en contra, uno.</p>
+<p>Eso es lo que propone nuestra iniciativa.</p>
+<p>Reducir los recursos que se le otorgan al INE: muy a favor, 33; a favor, 41; en contra, 19; muy en contra, seis.</p>
+<p>Que los consejeros y magistrados electorales sean elegidos directamente por la ciudadanía: 24, muy a favor; a favor, 54; en contra, 15; muy en contra, tres.</p>
+<p>Ampliar el uso del voto electrónico: muy a favor, 17; a favor, 51; en contra, 23; muy en contra, cinco.</p>
+<p>Desaparecer los institutos electorales de los estados y tribunales electorales locales: 17, muy a favor, aquí la idea es que el organismo nacional se haga cargo de las elecciones en estados y municipios y que no haya duplicidad; a favor, 36; en contra, 33; muy en contra, 10. De todas maneras, 53 a favor.</p>
+<p>Sustituir al INE por el Instituto Nacional de Elecciones y Consultas —no quitar al INE, no desaparecer al INE— como único órgano de organizar las elecciones: 17, muy a favor; 35, a favor; 28, en contra; muy en contra, 12. De todas maneras 52 por ciento. Esto es, ¿verdad?</p>
+<p>Sería bueno que hicieran otra ahora, igual, porque ya la gente está más informada y seguramente ya cambió, como sostiene el presidente del INE.</p>
+<p>Muy bien, vamos entonces… Ah, ¿no encuentras el <em>Face</em>? Es que, la verdad, sí hace falta educar. Fue un diputado a un centro comercial como Soriana, pero parece que…</p>
+<p><strong>INTERVENCIÓN:</strong> CityMarket.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> City Market. Yo ni sabía qué cosa era eso, pero, bueno, ya me explicaron.</p>
+<p>Y le empiezan a reclamar: ‘Oiga, ¿usted por qué está aquí?’</p>
+<p><strong>INTERVENCIÓN:</strong> A Noroña.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>A Noroña, sí. Pero señoras, ¿no? Pero eso es real, porque ‘el que lucha por una causa justa, el que está a favor de los pobres pues no debe de usar zapato, sino huarache, no se puede poner traje, no puede viajar en avión’.</p>
+<p>A mí me lo han hecho antes. Antes, una vez iba yo a Yucatán en el avión y me dijo un señor: ‘Oiga, ¿y por qué no se viene en camión de la Ciudad de México hasta Mérida?’ Le digo: Pues no, porque fíjese que tengo que ver varias cosas acá. Era yo opositor. Pero el prototipo de un conservador, pequeño burgués o fifí, o aspirante a fifí también, ni siquiera fifí, porque para ser fifí se requiere ciertas cosas, no cualquiera. Los fifís no van a los súper.</p>
+<p>Y luego me acuerdo que fui una vez de visita a Cuba, y fuimos a comer con Silvio, creo que hay unos restaurantes particulares que se llaman ‘Paladares’ o algo así, entonces también estaban unos turistas y uno de ellos le dijo a Silvio: ‘¿Por qué vienes aquí a comer?’ Y ya no sé qué le contestó Silvio, y ya en la mesa dice: ‘No cabe duda que siguen las cosas igual’.</p>
+<p>Una vez fuimos, me contó la anécdota, a un concierto a Europa con Facundo Cabral y entonces se paró alguien y le dijo: ‘¿En qué vinieron? ¿Cómo vinieron?’ Y Facundo le contestó: ‘Pues veníamos a caballo, pero se nos ahogaron los caballos en el Atlántico’.</p>
+<p>Porque esa es la mentalidad del conservadurismo y sí hay que, con todo respeto, hay que educarlos, sobre todo porque son muy racistas, muy clasistas, y no se dan cuenta que discriminan y no se dan cuenta que somos iguales, ellos se sienten superiores.</p>
+<p>Y también confunden educación con cultura y piensan que, si tienen títulos académicos, ya son como títulos nobiliarios. Hay gente que tiene doctorado. Bueno, el del INE, una vez lo grabaron hablando por teléfono burlándose de unos indígenas, burlándose, como racista, pero es doctor en una universidad del extranjero. No es lo mismo educación que cultura.</p>
+<p>Entonces, sí hace falta todo un proceso nuevo de enseñanza-aprendizaje, eso tiene que ver con una sociedad mejor.</p>
+<p>A ver. Ah, este me encantó, este:</p>
+<p>‘Siempre se quiso educar al pobre, es hora de empezar a educar al rico. Por ejemplo, que no evada impuestos y que no explote al pobre.’</p>
+<p>Es que en las redes hay muchísima sabiduría. Esto es el equivalente a lo que antes, y siguen siendo ¿no? cuando son buenas, eran o son las caricaturas. Una muy buena caricatura es una editorial, es un artículo de fondo. Son unas cuantas palabras, pero así hay muchísima sabiduría.</p>
+<p>Colectivo Dignidad, quién sabe cuál es, pero ya.</p>
+<p>Bueno, Ricardo, ya nos pasamos.</p>
+<p><strong>RICARDO MEJÍA BERDEJA:</strong> Bueno, muchas gracias, señor presidente, y gracias por sus generosas palabras.</p>
+<p>Vamos a presentar el informe Cero Impunidad, no hay crimen sin castigo, que es un esfuerzo del Gobierno de México, la Secretaría de la Defensa Nacional, la Marina, la Secretaría de Seguridad y Protección Ciudadana, el Centro Nacional de Inteligencia y la Guardia Nacional, en coordinación con las secretarías de Seguridad, las fiscalías locales y la Fiscalía General de la República.</p>
+<p>Esta semana, del periodo del 27 de octubre al 2 de noviembre hubo un total de siete mil 515 detenidos por las diferentes fuerzas de seguridad federales, estatales y municipales, de los cuales una vez que se revisó la parte legal fueron presentados, finalmente, al Ministerio Público siete mil 267. Estos son registros que se llevan en el Registro Nacional de Detenciones, que es uno de los principales logros de este gobierno en materia de transparencia y seguridad.</p>
+<p>Dar cuenta que se detuvo a la presenta extorsionadora de líneas de transporte nacional de pasajeros a filiados a la Cámara Nacional de Autotransporte, Pasaje y Turismo. Se trata de Tabita Dorcas ‘N’, quien a su vez es hermana de otro imputado. Ellos pertenecen a un grupo de extorsionadores a líneas de autotransporte que operaban fundamentalmente en los estados de Guerrero y Veracruz. Incluso, para hacer creíble su amenaza, agredieron a unidades de transporte en un trayecto de Acapulco a Chilpancingo.</p>
+<p>Estos son los otros dos detenidos, José Diego ‘N’ y Tito ‘N’, que ya fueron vinculados a proceso penal, el día de mañana es la audiencia para la vinculación a proceso de la tercera implicada en este caso.</p>
+<p>Ellos se ostentaban como parte de una organización criminal y solicitan a las empresas de pasaje una cantidad y estos depósitos iban a parar a cuentas manejadas por esta persona.</p>
+<p>Siguiente. También informar que se desarticuló un grupo de presuntos secuestradores en el municipio de Arandas, Jalisco. Se trata de un grupo de cinco implicados, de una banda dedicada a este delito. Ellos fueron detenidos cuando perpetraban precisamente un hecho delictivo en contra de una adolescente, quien fue liberada sana y salva en hechos ocurridos el pasado 15 de octubre. Por la víctima pedían un rescate de una cantidad muy alta; sin embargo, una buena operación de la Unidad Antisecuestros de Jalisco permitió recuperar a la víctima y detener a los implicados.</p>
+<p>Siguiente. también informar que reaprehendido el parricida de Heidi Jurado en Jalisco. Este delito de parricidio no solamente implica a quienes tienen una relación filial, sino también cuando se trata de cónyuges, sobre todo en la legislación cuando fue el evento, que fue en el 2009.</p>
+<p>A este sujeto, Eugenio ‘N’, se le acusa y se le sentencia por el homicidio de su esposa Heidi Jurado, en hechos trascurridos en enero de 2009. Lo relevante aquí es que, no obstante obtener esta persona una sentencia de 38 años de prisión por este delito, al cumplir 10 años y por observar supuesta buena conducta el juez lo libera de su pena señalando que ya había cumplido con su calidad penitenciaria y, en consecuencia, se le otorgó la libertad anticipada.</p>
+<p>Fue impugnada esta resolución por el Ministerio Público y finalmente se obtiene nuevamente una resolución para que se genere la reaprehensión de esta persona, quien finalmente fue detenido en días pasados, y la liberación había sido otorgada en 2019. Tiene todavía pendiente de compurgar 28 años de prisión. Y también fueron detenidos los autores materiales y corresponsables de este evento criminal.</p>
+<p>Siguiente. También informar que fueron detenidos los presuntos homicidas de una familia en Tecámac, en el Estado de México. Fue una operación coordinada por la Fiscalía del Estado de México, el Grupo Antihomicidios de la Secretaría de Seguridad y Protección Ciudadana, con apoyo de la Coordinación Nacional Antisecuestros. Se trata de la detención de Christopher Jair ‘N’ y Luis Arturo ‘N’ como presuntos responsables del homicidio de tres integrantes de una familia.</p>
+<p>Estas personas se introdujeron al domicilio con la anuencia de la familia, sobre todo porque había un conocimiento previo. Y ellos amagaron y asesinaron a la víctima, así como a los hijos de este, un joven de 25 años y una adolescente de 14 años. Fueron hechos acontecidos el pasado 25 de octubre y con mucha eficacia se pudo en pocos días lograr la detención de estos multihomicidas.</p>
+<p>Siguiente. También informar de diferentes operaciones coordinadas por la Secretaría de la Defensa Nacional y la Guardia Nacional que dieron como resultado la detención de 30 generadores de violencia en diferentes lugares del país, a quienes se les aseguraron también diferentes armas, equipo balístico y drogas.</p>
+<p>Es el caso en Solidaridad, Playa del Carmen, de una persona detenida con arma larga, dos armas cortas, diferentes sustancias de droga, metanfetaminas, marihuana, entre otros objetos.</p>
+<p>También en Tijuana una persona detenida con 121 kilógramos de metanfetamina en Buenavista, Michoacán, un detenido con dos armas largas de uso prohibido, un kilo de metanfetaminas.</p>
+<p>En Tijuana, una persona detenida con casi 20 mil pastillas de fentanilo.</p>
+<p>En Guachochi, Chihuahua, dos personas detenidas que portaban cinco armas largas de uso prohibido, dos cargadores y casi mil cartuchos.</p>
+<p>También en las alcaldías Coyoacán y Gustado A. Madero, una persona detenida con diferentes dosis de cocaína, metanfetamina, otra persona también con diferentes drogas y un arma de fuego de uso prohibido.</p>
+<p>En Nuevo Laredo fueron tres personas detenidas en un primer evento, dos en otro más. Las primeras tres con 11 armas largas, dos armas cortas, vehículos, y las otras dos también con diferentes armas largas y también con cartuchos y dosis de diferentes drogas.</p>
+<p>En Luis Moya, Zacatecas, en una operación muy importante de la Sedena y la Guardia Nacional fueron detenidas siete personas pertenecientes a un grupo criminal generador de violencia, entre estas personas había un menor de edad. Se les aseguraron 15 armas largas, tres armas cortas, nueve chalecos balísticos, siete vehículos y una motocicleta, entre otros instrumentos para cometer ilícitos.</p>
+<p>También en Tijuana, dos personas detenidas con dos armas cortas.</p>
+<p>En Puerto Vallarta, tres personas detenidas, también con dosis de metanfetamina, cocaína, monedas sin acreditar su legal procedencia, cartuchos, entre otros objetos.</p>
+<p>También en Tlalpan, una persona detenida también por diferentes delitos.</p>
+<p>En Ciudad Juárez y también en San Luis Río Colorado, en Sonora.</p>
+<p>Siguiente. Y una operación muy exitosa que fue realizado por la Sedena, con apoyo de inteligencia militar, y en coordinación de la Fiscalía General de la República, quienes ejecutaron un cateo en un inmueble en Tapachula, Chiapas, y pudieron asegurar dos mil 14 kilógramos de cocaína, es decir, dos toneladas de cocaína, armas de fuego, vehículo, inmueble, y se estima que la afectación económica a la delincuencia es de 479 millones de pesos.</p>
+<p>Siguiente. En operaciones coordinadas por la Secretaría de Marina, en el caso de Baja California, con apoyo a la Fiscalía General de Justicia de ese estado, lograron la detención de Jesús ‘N’ y Adrián Jesús ‘N’, de 36 y 34 años de edad, quienes tenían privadas de la libertad a dos personas quienes estaban secuestradas en Ensenada, Baja California. Ya fueron presentados ante el Ministerio Público estos dos presuntos secuestrados y está pendiente de acreditar su vinculación a proceso penal.</p>
+<p>Siguiente. Esta es una detención muy relevante, se trata de Christian ‘N’, alias ‘el Pachón’, y Héctor ‘N’, quienes fueron detenidos después de cometer el homicidio de tres personas en Colima, Colima. Estos dos sujetos pertenecen al grupo criminal conocido como Los Mezcales, que es uno de los principales generadores de violencia en el estado de Colima.</p>
+<p>Anteriormente habían sido detenidos también el ya varias veces comentado aquí José Bernardo ‘N’, alias ‘la Vaca’, que también fue un sujeto que un juez pretendía dejarlo en libertad un fin de semana, como decía el presidente, un sabadazo, pero había una orden de aprehensión de otro estado y ahí se pudo evitar que se sustrajera de la justicia, pero también antes habían sido detenidos José ‘G', alias ‘el Cejón’, y Juan Carlos, alias ‘el Juaritos’, todos del grupo delictivo de Los Mezcales, de Colima, con lo cual se sigue desarticulando esta banda criminal.</p>
+<p>Siguiente. En diferentes operaciones coordinadas por la Secretaría de Marina en la mar, en los días 29, 30 de octubre y 2 de noviembre en Zihuatanejo, Guerrero, Salina Cruz y Huatulco, Oaxaca, lograron en estas diferentes operaciones el aseguramiento de tres mil 634 kilógramos de cocaína, es decir, 3.6 toneladas, lo cual representa un aseguramiento muy, muy importante, que fue derivado de operaciones de vigilancia a buques, aeronaves equipadas con sistemas de detección y personal de infantería, lograron dar seguimiento a diferentes embarcaciones, a cuatro embarcaciones menores con 12 tripulantes y se pudo detener a 12 personas, tres de ellos de nacionalidad ecuatoriana, ocho mexicanos y un guatemalteco, asegurando, como decíamos, tres mil 634 kilógramos de cocaína, cinco mil 375 litros de combustible y tres embarcaciones adicionales.</p>
+<p>Fueron estas las operaciones y aquí se da cuenta de algunas en particular, una embarcación en el poblado de El Cayito, con las detenciones correspondientes; una segunda y tercera embarcación en Zihuatanejo y Salina Cruz, con la carga asegurada y las detenciones correspondientes; y una cuarta operación, ésta en Huatulco, donde pudieron asegurar 601 kilógramos de cocaína, dando en total, como decíamos, tres mil 634 en todas estas operaciones, con 12 detenciones.</p>
+<p>Aquí está el resumen de lo que va del año en las operaciones coordinadas por la Secretaría de la Marina:</p>
+<p>Se han logrado asegurar en el año 2022, 26 mil 762 kilógramos de cocaína, es decir, 26.7 toneladas y también 9.4 toneladas de metanfetamina, se han asegurado 57 embarcaciones y 62 mil 970 litros de combustible.</p>
+<p>Estas son las operaciones que lograron detener combustible, diésel fundamentalmente.</p>
+<p>Estas son otras operaciones, esto fue en Veracruz, una, y en Ciudad del Carmen otra, entre el 23 y el 31 de octubre, que es un trabajo permanente.</p>
+<p>Como parte del operativo Cero Impunidad que se lleva a cabo en Cajeme, Sonora, desde enero del presente año, que es un esfuerzo en este caso coordinado por la Secretaría de Seguridad y Protección Ciudadana a través de la Coordinación Nacional Antisecuestro, y con apoyo de las diferentes fuerzas federales y estatales para ejecutar órdenes de aprehensión, cateos e investigaciones que lleven a la detención de generadores de violencia por homicidio, feminicidio, secuestro, narcomenudeo, violencia sexual, se han logrado en este periodo la detención de 225 generadores de violencia, todo esto en un trabajo permanente y sistemático, donde evidentemente hay el apoyo del Ministerio Público, de la Fiscalía de Sonora y la Agencia de Investigación Criminal.</p>
+<p>En vinculaciones relevantes, que es la otra parte, es decir, es la detención, la puesta a disposición del Ministerio Público, la presentación ante los jueces de control, quienes al haber elementos vinculan a proceso a los imputados, en este caso en seguimiento informar que en el multihomicidio ocurrido en el bar El Pantano, en Irapuato, Guanajuato, donde se perpetró un multihomicidio de 12 personas, los responsables de este hecho criminal ya fueron vinculados a proceso. Se trata de Pedro ‘N’, alias ‘el Sobrino’, Cristopher Alexis ‘N’ y Ricardo ‘N’, alias ‘el Coco’, ya todos vinculados a proceso penal.</p>
+<p>Siguiente. También, en un caso que se dio a conocer la semana pasada, que fue la detención de 12 personas en Guachochi, Chihuahua, en una operación de la Sedena, en apoyo a la Fiscalía General de la República a través de la Fiscalía de Coordinación Regional, se informa que ya se vincularon a proceso a los 12 detenidos por diferentes delitos, como son los de acopio de armas de fuego y posesión de cartuchos, cargadores, todos de uso exclusivo del Ejército, en hechos ocurridos el pasado 20 de octubre. Es importante porque esto es parte del despliegue que lleva a cabo la Secretaría de la Defensa Nacional en esta parte de Chihuahua para evitar que se sigan cometiendo hechos de carácter criminal.</p>
+<p>Siguiente. Y como sentencias relevantes, informar que se logró una sentencia por 20 años de prisión en contra de Vicente ‘C’, alias ‘el Viceroy’, integrante del cártel de Juárez, quien está recluido en un centro penitenciario federal. Esta sentencia se acumula a otra más por 28 años a la cual se había hecho acreedor por cargos relativos a delincuencia organizada con la finalidad de cometer delitos contra la salud y también delitos relacionados con recursos de procedencia ilícita. Con esta nueva sentencia Vicente ‘N’, alias ‘el Viceroy’, acumula 48 años de prisión.</p>
+<p>Siguiente. También informar, como ya se ha dado cuenta en días pasados, de la sentencia en contra de José ‘B’, alias ‘el JJ’, quien fue sentenciado a 36 años de prisión por su responsabilidad en los delitos de delincuencia organizada en la hipótesis contra la salud, recursos de procedencia ilícita, recursos que tienen que ver con la posesión con fines de comercio de narcóticos y otros más, con lo cual sigue acumulando cargos que se acumulan a otros más y ya lleva 59 años de prisión acumulados. Como se recordará, a esta persona se le implica también en el atentado y agresión del futbolista Salvador Cabañas.</p>
+<p>También acumula una nueva sentencia un violador serial, Miguel Ángel ‘N’, quien cometía estos delitos muy graves en contra de las mujeres en diferentes hechos, precisamente por el Periférico, donde perpetraba sus hechos ilícitos. Ya se acumula un nuevo proceso, una nueva sentencia, con lo cual lleva 171 años de penalidades acumuladas, y aún existen siete carpetas de investigación más y una averiguación previa, toda vez que fue con el sistema penal anterior.</p>
+<p>En cuanto a los feminicidios resueltos o con detención durante el periodo que se informa, hay 22, cuatro de ellos han derivado en sentencias, uno en el Estado de México, uno en Ciudad de México, uno en Veracruz, uno en Chiapas, uno en Durango, uno en Chihuahua, tres en Jalisco, entre ellos el de Eugenio ‘N’, que ya dimos cuenta; el de Oaxaca, dos, con un sentenciado; Michoacán, son seis con un sentenciado; Sonora uno, con un sentenciado; Nuevo León, uno; Nayarit, dos; y Campeche uno, con un sentenciado.</p>
+<p>Por último, informar que en el caso de las periodistas Yessenia Mollinedo y Sheila Johana García, de Cosoleacaque, quienes fueron asesinadas en hechos ocurridos el mes de mayo, el 9 de mayo de 2022, ya hay una nueva detención de uno de los autores materiales. Se trata de Antonio de Jesús ‘N’, alias ‘el Mara’, quien fue detenido derivado de labores de inteligencia y seguimiento de investigación por parte de la Coordinación Antisecuestros, la Fiscalía General de Justicia de Veracruz, y con el apoyo del Centro Nacional de Inteligencia y la Secretaría de Marina.</p>
+<p>Ya está por determinarse su vinculación a proceso. Y esta detención en este caso se suma a otras más que se han llevado a cabo, como fue el caso de Armando ‘N’, alias ‘el Trascabo’, que ya está vinculado a proceso, junto con Víctor Manuel ‘N’, alias ‘el Calaco’, quienes también tuvieron participación en el homicidio de estas dos periodistas.</p>
+<p>Siguiente. En cuanto a los casos de periodistas pues ha habido avances en las últimas semanas: tres sentencias, como aquí se informó en el caso de Lourdes Maldonado, nuevas vinculaciones a proceso y la detención del sujeto apodado ‘el Mara’, que fue esta semana.</p>
+<p>Sería cuanto, señor presidente.</p>
+<p>Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ahora vamos a las obras, a los caminos. Es un giro, pero tiene que ver con lo mismo, porque si se construyen obras, la industria de la construcción tiene la virtud que permite hacer las obras públicas, que son indispensables, pero también la industria de la construcción genera muchos empleos, y si hay trabajo, si hay empleos, hay bienestar, y si hay bienestar, hay paz y hay tranquilidad. Entonces, vamos con las obras.</p>
+<p><strong>JORGE NUÑO LARA, ENCARGADO DEL DESPACHO DE LA SECRETARÍA DE INFRAESTRUCTURA, COMUNICACIONES Y TRANSPORTES (SICT):</strong> Gracias, presidente. Con su permiso. Bien, buenos días a todos.</p>
+<p>¿Qué estamos haciendo en la Secretaría de Infraestructura?</p>
+<p>Tenemos un arduo trabajo para poder concretar cinco programas específicos:</p>
+<p>El de carreteras federales, tenemos 51 proyectos con una inversión de 22 mil 815 millones de pesos para una meta de 401 kilómetros; llevamos hasta ahora 35 proyectos concluidos y nos falta por concluir 16, que estarían listos hacia diciembre del 2023.</p>
+<p>El siguiente programa es el programa de caminos rurales y alimentadores, que cuenta con 52 proyectos con una inversión de ocho mil 785 millones de pesos; hasta la fecha hemos concluido 40 y estamos por concluir 12 con una meta de 411 kilómetros.</p>
+<p>Adicionalmente, está el programa de conservación de caminos rurales y alimentadores, en donde se le da mantenimiento a poco más de 24 mil 400 kilómetros, con una inversión de 20 mil 278 millones de pesos.</p>
+<p>En la siguiente lámina está el siguiente programa, que es el programa de caminos de mano de obra, este es uno de los principales programas que tenemos, en donde se les da el beneficio directamente a la población, en donde ellos con su propia mano hacen los caminos de concreto. Hasta ahorita tenemos desplegado este programa en siete estados con una inversión de 20 mil 315 millones de pesos para una meta de 318 caminos y poder pavimentar cuatro mil kilómetros. Hasta ahorita tenemos 107 caminos con una meta de 691 kilómetros y estos han generado poco más de 80 mil empleos. Ahorita ya tenemos desplegado tanto en Oaxaca, como en Sonora, Chihuahua, Tlaxcala, Veracruz, Hidalgo y Guerrero.</p>
+<p>El siguiente programa que tenemos es el programa de autopistas, en donde tenemos 29 proyectos con una inversión total de 130 mil 826 millones de pesos para la construcción de mil 725 kilómetros. Ya de estos 29 proyectos, 14 están en ejecución y uno ya está en operación, y han beneficiado a poco más de seis millones de habitantes.</p>
+<p>Todos estos proyectos estarían listos hacia diciembre de 2023.</p>
+<p>Además, en la secretaría estamos desarrollando seis proyectos ferroviarios con una inversión de 171 mil 700 millones de pesos, estos son adicionales a los que está construyendo la Secretaría de la Defensa, la Semar y Fonatur. A la fecha tenemos uno concluido, que es la Línea 3 de Guadalajara. El total de la meta de los proyectos son de 200 kilómetros hacia diciembre de 2023.</p>
+<p>En la siguiente lámina sólo destacar, ahora que el director de Banobras va a anunciar una buena noticia, Banobras, que también dirige el Fondo Nacional de Infraestructura, que es un vehículo que tiene la Administración Pública Federal para acelerar la inversión en infraestructura y que además es el principal concesionario de autopistas, de las 10 mil 781 kilómetros de autopistas que tenemos, prácticamente cuatro mil 800, es decir, la mitad están concesionadas al Fondo Nacional de Infraestructura, que están distribuidos en cinco títulos de concesión: tres títulos al Fondo Nacional de Infraestructura, Golfo Centro, el Macrotítulo y Barranca Larga-Ventanilla; y hacia Banobras tiene dos títulos concesionados, que es el de la Autopista Guadalajara-Colima, y la Autopista Atlacomulco-Maravatío.</p>
+<p>Esto sería cuanto, señor presidente.</p>
+<p>Sólo destacaría que muchos de estos proyectos que estamos desarrollando en el programa de infraestructura de carreteras, si bien algunos son nuevos, la mayoría han sido proyectos que habían estado abandonados, y que ahorita hemos estado concluyendo.</p>
+<p>Muchas gracias, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Adelante.</p>
+<p><strong>JORGE MENDOZA SÁNCHEZ, DIRECTOR DEL BANCO NACIONAL DE OBRAS Y SERVICIOS PÚBLICOS (BANOBRAS):</strong> Señor presidente. Buenos días a todas y todos.</p>
+<p>Quisiera informarles ―si pasamos, por favor a la presentación― que Banobras se ha consolidado como la principal herramienta financiera del gobierno federal y el quinto banco más grande del sistema financiero mexicano, inclusive por encima de HSBC y Scotiabank. En términos de la cartera directa de Banobras, equivale a dos por ciento del producto interno bruto de nuestro país y el siete por ciento del sistema bancario de México.</p>
+<p>Esto se ha logrado a través de una colocación histórica en estos cuatro años de gobierno por 463 mil millones de pesos. Estos créditos se han dirigido a proyectos prioritarios, pero, más importante, se han dirigido a las regiones que más lo necesitan en nuestro país: el 36 por ciento se ha dirigido a la región sur sureste, el 35 por ciento a la región centro y el resto a la región norte. Con esto, la cartera de crédito se ha incrementado en 22 por ciento desde que llegamos en esta administración, llegando ya a una cartera de crédito directa e inducido de 615 mil millones de pesos.</p>
+<p>Ahora, todo esto se ha logrado manteniendo una posición financiera sólida en la institución. El índice de capitalización se encuentra muy por encima del regulatorio, es decir, el banco cuenta con fortaleza financiera y mucha capacidad de crédito hacia adelante.</p>
+<p>Asimismo, nuestra cartera de crédito ha tenido un muy buen comportamiento. Nuestro índice de morosidad se encuentra en 1.9 por ciento que está por abajo del 2.22 por ciento del promedio de la banca comercial.</p>
+<p>Ahora, entrando al financiamiento para los estados, hemos logrado desembolsar 216 mil millones de pesos a 15 estados para financiamiento de obra nueva, nueve estados para refinanciamientos o reestructuras y dos fideicomisos estatales.</p>
+<p>Los principales estados que han recurrido a Banobras ha sido Veracruz, Quintana Roo, Ciudad de México, Oaxaca, Nuevo León, Morelos, Estado de México y Jalisco. Los estados que no han pedido un crédito es porque no han tenido una autorización de su congreso local o bien han decidido por otros esquemas de financiamiento.</p>
+<p>Hemos hecho también un esfuerzo importante para financiar en nuestro esfuerzo de inclusión financiera a más municipios en nuestro país. Llevamos ya créditos en 207 municipios, de los cuales 130 municipios no contaban con un crédito de largo plazo. Están ubicados en 24 estados de nuestro país y 90 de ellos en la zona sur, sureste.</p>
+<p>Para muchos otros municipios también hemos llevado asistencia técnica, en esto abarcamos 31 estados, 350 de estos municipios son en la zona sur sureste y los hemos ayudado con asesorías legales, financieras, modernizaciones de sus operaciones de agua, modernización de sus operaciones para el catastro y evaluación de proyectos.</p>
+<p>Dentro de estos financiamientos para municipios tenemos un programa para infraestructura social que se llama FAIS. Aquí hemos otorgado tres mil 235 millones de pesos a 155 municipios donde se han beneficiado más de 11 millones de personas y los proyectos son de agua potable, alcantarillado, drenaje, infraestructura básica, educativa, de salud y urbanización.</p>
+<p>Banobras también está participando en todos los proyectos prioritarios de esta administración de manera directa o indirecta, y les voy a mencionar algunos. Hemos desembolsado 300 mil millones de pesos, incluyendo lo que ha hecho Banobras y el Fondo Nacional de Infraestructura, como lo comentó Jorge Nuño.</p>
+<p>En la parte de soberanía energética estamos participando en la refinería de Tula y en la refinería Salina Cruz, hicimos un programa para proveedores de Pemex y también participamos en la adquisición de Deer Park.</p>
+<p>En Telecomm estamos financiando el proyecto Internet para Todos para llevarle a toda la ciudadanía internet a más tardar 2024.</p>
+<p>En salud estamos financiando hospitales del IMSS y el Issste en Tláhuac, en Mérida y en Bahía de Banderas.</p>
+<p>Asimismo, en transporte estamos financiando el Tren Maya, particularmente el Tramo 1 y el 4; el Tren México-Toluca; el Suburbano, que es el ramal al aeropuerto ‘Felipe ángeles’, desde Lechería; también tenemos financiamiento para proyectos de conectividad al aeropuerto ‘Felipe Ángeles’, particularmente El Siervo de la Nación, Naucalpan-Ecatepec, Circuito Exterior Mexiquense; y estamos participando en varias carreteras, algunas de ellas, Las Varas-Puerto Vallarta, Pirámides-Tultepec, La Pera-Cuautla y Real del Monte-Huasca.</p>
+<p>Como concesionario del gobierno federal y manejador de la red de carreteras más importante en nuestro país, también estamos involucrados en la construcción de algunas de ellas. Particularmente tenemos cuatro proyectos, dos de ellos ya concluidos:</p>
+<p>La Guadalajara-Colima, que va a entrar en operación a partir de mañana.</p>
+<p>Asimismo, la Autopista México-Pachuca, que se amplió de cuatro carriles a ocho para mejorar la conectividad del aeropuerto ‘Felipe Ángeles’.</p>
+<p>Y estamos en el proceso de construcción de dos muy importantes autopistas, la primera es la Compostela-Las Varas y su ramal al aeropuerto de Tepic, esto va a permitir conectar a Guadalajara con Tepic y Tepic con Puerto Vallarta.</p>
+<p>Asimismo, estamos participando en la construcción de la Autopista Barranca-Larga Ventanilla para conectar Oaxaca capital con su costa, estamos esperando que estos dos proyectos los vayamos a concluir en 2023.</p>
+<p>En la parte de la operación fiduciaria de Banobras, tuvimos un rol muy importante durante la pandemia. Logramos desembolsar del Fondo de Salud para el Bienestar 77 mil millones de pesos para la adquisición de vacunas, ventiladores, medicamentos, pruebas COVID-19, investigación científica y también para el traslado de equipo médico, y pusimos en operación 10 hospitales que se beneficiaron 3.4 millones de personas, mil 269 camas censables y siete de estos hospitales fueron para apoyar la contingencia sanitaria.</p>
+<p>Algo que hemos estado haciendo también en estos últimos cuatro años es convertir a Banobras en un banco sustentable; por lo tanto, hemos convertido en el emisor más importante en México de bonos sustentables, es decir, verdes y sociales.</p>
+<p>Llevamos 10 emisiones por más de 30 mil millones de pesos. Y hace dos semanas, por primera vez por un banco de desarrollo en México, logramos emitir dos bonos con perspectiva de género, es decir, logramos emitir deuda para usar esos recursos para infraestructura que ayude al bienestar y la infraestructura que utilizan las mujeres.</p>
+<p>Recibimos también tres premios en estos últimos cuatro años, dos del Consejo Consultivo de Finanzas Verdes por nuestro esfuerzo en este tema de sustentabilidad y un premio también por la Asociación Latinoamericana de Instituciones Financieras para el Desarrollo.</p>
+<p>Con todo este trabajo, también nos hemos apegado a las medidas de reducción de gasto, a las medidas de austeridad que se han implementado en esta administración y hemos logrado reducir el gasto de Banobras en términos de administración y promoción en más de la mitad; es decir, bajamos de dos mil 866 millones de pesos en gastos anuales a mil 170 millones de pesos.</p>
+<p>Y en estos últimos meses también, en un reporte del Instituto Mexicano para la Competitividad, incluyeron a Banobras con la mejor calificación posible como la institución de menor riesgo de corrupción en México.</p>
+<p>Ahora, les estaba mencionando hace rato que mañana entra en operación una carretera y un tramo de montaña, la Guadalajara-Colima, algo que teníamos una deuda histórica con el estado de Jalisco y el Estado de Colima. Y, bueno, las buenas noticias es que ya entra en operación mañana, ya está terminada y les voy a ahora a platicar un poco más de este proyecto.</p>
+<p>Primero, esto fue una construcción de un cuerpo nuevo de dos carriles de circulación del kilómetro 103 al 120. Tiene una longitud de 16.49 kilómetros, tiene 14 puentes, siete estructuras especiales.</p>
+<p>La inversión fue de tres mil 278 millones de pesos y particularmente el tramo de montaña fue de 393 millones de pesos.</p>
+<p>Este proyecto va a lograr disminuir de dos horas a una hora y media el traslado de Guadalajara a Colima, va a permitir una mejor seguridad vial, mejor conectividad.</p>
+<p>Está generando empleos, mil 800 empleos.</p>
+<p>Más de 16 mil habitantes se están beneficiando y estamos esperando un aforo de 15 mil vehículos diarios.</p>
+<p>La operación de esta carretera y este tramo ya estará listo a partir de mañana. Nos estamos coordinando con la Guardia Nacional para orientar a todos los usuarios en tanto se vayan familiarizando en este nuevo tramo.</p>
+<p>Y, además de este tramo de montaña, estamos mejorando esta autopista a través de varias obras: ya completamos el entronque Acatlán, con una inversión de 280 millones de pesos, realizamos también trabajos de mantenimiento y conservación por 220 millones de pesos y la construcción de tres estructuras por 90 millones de pesos.</p>
+<p>Ahora les voy a dejar un video de este proyecto. Y recordarles que mañana entra en operación.</p>
+<p><strong> (INICIA VIDEO)</strong></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> En mayo de 2022, el Banco Nacional de Obras y Servicios Públicos, Banobras, asumió el reto de concluir el tramo de montaña de la autopista Guadalajara-Colima, una demanda de los usuarios, pasajeros y transportistas de esta importante vía de comunicación. </em></p>
+<p><em>Con el objetivo de agilizar el tránsito y mejorar la seguridad de los usuarios, Banobras llevó a cabo obras del kilómetro 103 al 120, que incluyen 14 puentes y siete estructuras, y que contaron con una inversión de 393 millones de pesos sólo en esta administración.</em></p>
+<p><em>A seis meses, y atendiendo la instrucción del presidente Andrés Manuel López Obrador, Banobras concluye los trabajos de esta obra, que generó 600 empleos directos y mil 200 indirectos, y beneficiará a más de 16 mil habitantes en 19 comunidades.</em></p>
+<p><strong><em>RAMIRO RAMÍREZ MEDINA, COORDINADOR DE OBRA:</em></strong><em> Esta obra va a traer muchos beneficios. Tenemos nosotros aquí el puerto de Manzanillo, donde va a correr mucha mercancía a nivel internacional y nacional. Se lleva un bien económico para cada ciudadano de la zona, eso es lo que trae, una infraestructura bien planeada y bien construida.</em></p>
+<p><strong><em>RAFAEL ALMAZÁN CARRERA, RESIDENTE DE OBRA:</em></strong><em> México necesita carreteras de alto nivel. Pues claro que la gente está contenta y está muy agradecida de que se esté ejecutando esta obra. Estoy agradecido de que me toque proyectos de suma importancia como lo es este proyecto.</em></p>
+<p><strong><em>CÁNDIDO MANZANO ALLENDE, JEFE DE CUADRILLA:</em></strong><em> Son muy importantes. Y, bueno, sí es una muy buena experiencia. Es un buen recuerdo porque se imagina algún día va a pasar uno por aquí con la familia, y decir: Me tocó esa esta pista.</em></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> La ampliación disminuirá en 30 minutos el tiempo de traslado y mejorará la conectividad de los estados de Jalisco y Colima.</em></p>
+<p><strong><em>CARLOS ALBERTO MARTÍNEZ CRUZ:</em></strong><em> Son buenas inversiones porque facilitan el transporte, la comunicación. Entre más obras, creo que mejor, nos benefician a todos, tanto como trabajador como un automovilista, un chofer.</em></p>
+<p><strong><em>YENIFER YURIDIA BÁRCENAS RODRIGUEZ:</em></strong><em> Bueno, para mí es bonito decir: Por aquí va a pasar la gente y así, y tú dices: Yo anduve ahí. Yo creo que aquí estamos como para hacer el cambio cada persona.</em></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> Banobras construye. Somos un nuevo Banobras.</em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, ya terminamos. Quedamos en tercera, tercera quedamos, tercera, tercera, empezamos con la tercera. Si ya hace poco preguntaron, espérense, ¿no? Bueno, pero va para tercera, la tercera fila, vámonos, primero la compañera.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, señor presidente.</p>
+<p>Stephanie Palacios, de la agencia internacional <em>Sputnik</em>.</p>
+<p>Consultarle sobre el bloqueo que presenta desde hace 30 años, 60 años, Cuba, y que va a presentar un informe esta mañana en la ONU. ¿Qué opina sobre esta carta que mandaron 18 exmandantarios y exjefes de Estado de Latinoamérica y el Caribe sobre las consecuencias de estos bloqueos que ha hecho Estados Unidos contra la isla? Me gustaría saber su opinión sobre esto.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, yo creo que es una infamia lo que se ha venido haciendo en contra de Cuba con el bloqueo del gobierno de Estados Unidos. Es una medida retrógrada, medieval, inhumana, porque no es posible que se aísle, aún más, a un país como Cuba o cualquier otro país de mundo. Nadie tiene ese derecho, actuar como el gobierno mundial, nadie. Los países somos independientes, somos libres, somos soberanos.</p>
+<p>Pero, independientemente de eso, es una clara violación a derechos humanos, porque puede haber problemas políticos, ideológicos. ¿Y el daño a la población, el daño a la gente? ¿Por qué tienen que padecer, sufrir, quienes viven en un país que ha decidido mantener un sistema político de acuerdo a sus decisiones, de acuerdo a un proceso revolucionario, por qué afectar a su pueblo?</p>
+<p>Entonces, ojalá y el día de hoy que, tengo entendido, se va a votar, pues que sea unánime la votación a favor de que se termine el bloqueo en Cuba y espero que el gobierno de Estados Unidos actúe de manera consecuente.</p>
+<p>Porque siempre que se vota en Naciones Unidas este tema, la inmensa mayoría vota porque se quite el bloqueo, pero uno o dos, tres y siempre Estados Unidos en contra y ejerce veto, y queda sin efecto la resolución, porque los miembros de Consejo de Seguridad de la ONU tienen indebidamente ese derecho de veto, cinco Estados miembros del Consejo de Seguridad, los permanentes.</p>
+<p>Entonces, ojalá y el día de hoy sea unánime. Sería una fiesta mundial. Sería decir ‘gracias a la vida’ si de verdad, no por hipocresía, estamos a favor de los derechos humanos, y el principal de los derechos humanos es el derecho a la vida.</p>
+<p>No es posible que, si hay diferencias políticas, se haga un bloqueo para que no lleguen los alimentos, no lleguen apoyos.</p>
+<p>Ayer se dio a conocer aquí en México que aumentaron las remesas, más de cinco mil millones de dólares en septiembre. Este año, gracias a nuestros paisanos migrantes, es muy probable que lleguemos a 60 mil millones de dólares de remesas, y resulta que en Cuba no pueden los familiares que están en Estados Unidos enviar remesas para ayudar a la gente y no se pueden hacer operaciones, ni siquiera para la compra-venta de alimentos, por este bloqueo injusto. ¡Y cómo se va a estar hablando de derechos humanos si no se actúa de manera consecuente!</p>
+<p>Yo, la verdad, quisiera que el sueño que tenemos se convierta en realidad el día de hoy, sería el primero en llamarle al presidente Biden para que les transmitiera a los integrantes del Congreso de Estados Unidos y a los dirigentes de los dos partidos, sus representantes en la ONU, nuestro más profundo reconocimiento por una actitud de ese nivel, porque sería sublime.</p>
+<p>Es una actitud de dignidad, de elevados valores, de demostrar que se tiene, auténticamente, deseos de un cambio, que ya no se va a continuar aplicando la misma política de siglos y que sólo con la justicia, con el respeto a las soberanías, con la amistad y la cooperación entre los pueblos se puede vivir en un mundo mejor y hacer realidad la fraternidad universal, ese es mi punto de vista.</p>
+<p><strong>INTERLOCUTORA:</strong> En entrevista para <em>Sputnik</em>, el embajador de Cuba en México, Marcos Rodríguez, dijo que al menos son 12 millones de dólares diarios que por este bloqueo financiero, y con el huracán y con el tema del COVID y el conflicto de Rusia con Ucrania, se ha agravado muchísimo. Entonces, ellos piden que el fin a este bloqueo, como usted lo menciona. Porque, además, quitarlo de la lista de los países terroristas, que eso también es algo que les ha afectado mucho a la nación cubana.</p>
+<p>Y que, aun así, en esta entrevista que dio el embajador, agradeció el apoyo de México, que durante estas afectaciones, como la que fue la Matanzas, apoyó el Gobierno de México a ese país.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Nosotros vamos a seguir apoyando, como lo han hecho también otros gobiernos, como lo hizo el presidente Adolfo López Mateos, cuando México fue el único país que se opuso a que Cuba se expulsara de la OEA, México fue el único país.</p>
+<p>Y nosotros vamos a seguir apoyando al pueblo de Cuba, al pueblo hermano de Cuba, y a su gobierno, porque estamos en contra del bloqueo, y sabemos que atraviesan una situación muy difícil, mucho muy difícil. En efecto, cada vez que se necesita, nosotros ayudamos, y lo vamos a seguir haciendo, como lo hacemos con otros países.</p>
+<p>Porque —hablé de la fraternidad universal—nosotros aquí estamos atendiendo a la gente más humilde, a la gente más pobre, y no queremos que sólo nos vaya bien a nosotros, queremos un país sin fronteras, un país fraterno, verdaderamente solidario, y eso es lo que deseamos en todos los casos.</p>
+<p>Y somos muy respetuosos del gobierno de Estados Unidos y tenemos muy buena relación, y la vamos a seguir teniendo, pero sí hay diferencias. Y esto es normal, porque tenemos dos historias.</p>
+<p>Imagínense, a nosotros nos invadió España; luego que se logró la Independencia, tuvimos que enfrentar varios intentos de reconquista de España, dos invasiones de Francia, dos invasiones de Estados Unidos, y una de ellas terrible, fue un gran zarpazo, se apoderaron de más de la mitad de nuestro territorio.</p>
+<p>Entonces, aún con eso, aún con eso, tenemos que buscar y mantener una relación de buena vecindad, de respeto, y lo hemos logrado. Me ha tocado tratar con el presidente Trump y ahora con el presidente Biden; con los dos muy buenas relaciones. Y dos partidos y dos estilos, estilos personales de gobernar diría don Daniel Cosío Villegas, y con los dos una relación de respeto.</p>
+<p>El presidente Trump nos respetó. En momentos difíciles nos entendimos, llegamos a acuerdos, no se cerró durante la pandemia la frontera, nos ayudaron a conseguir equipos médicos, vacunas.</p>
+<p>Cuando se decidió reducir la cuota de producción petrolera y nosotros no podíamos cumplir con una reducción de 350 mil barriles diarios, Estados Unidos se hizo cargo de la reducción que nos correspondía con 250 mil barriles diarios.</p>
+<p>Y cuando tuvimos problemas por lamentables crímenes y hechos muy violentos, y él planteó que nos enviaba agentes militares para hacerse cargo de estos asuntos y le dijimos que no, y entendió y fue respetuoso. Y así muchas otras cosas. Fue muy buena la relación.</p>
+<p>Ahora con el presidente Biden, de primera. Él es un hombre bueno, de muy buenos sentimientos. Imagínense, que es el primer presidente de Estados Unidos en los últimos 30, 40 años, 50 años, que no ha hecho muro, porque desde del finado Bush, y a lo mejor desde antes, pero sin duda desde el finado Bush empezaron a hacer cada presidente su tramo, como manda, y llegó el presidente Biden y dijo: ‘No al muro’. Por poner un ejemplo. Y estamos trabajando mucho muy bien.</p>
+<p>Por eso no descarto el que haya un cambio en la política con relación a Cuba, como lo está habiendo poco a poco con Venezuela y el cambio tan importante que ha significado este encuentro de los presidentes de Colombia y de Venezuela, de pueblos, de países vecinos, hermanos, fue un gran paso.</p>
+<p>Y tenemos que ir a la integración de América Latina y el Caribe, pero también pensando en la integración con América del Norte, con Canadá, con Estados Unidos, la integración de América. Así como la comunidad económica europea se convirtió en la Unión Europea, así América, una gran región, nuestra América, pero incluyendo a Canadá y a Estados Unidos. Y eso depende de un cambio completo de política.</p>
+<p>Ya se avanzó con la integración económica comercial de América del Norte, pero imagínense lo que significaría llegar a un acuerdo con toda América. Ahora que el pueblo de Brasil decide apoyar de nuevo a un gran dirigente, que le tiene mucho amor al pueblo, sobre todo a los pobres, ahora que se decidió a favor de Lula hay condiciones inmejorables para un acuerdo entre todos y, repito, incluyendo Canadá, incluyendo Estados Unidos, con el presidente Biden.</p>
+<p>Ahora sí nos gustaría que se convocara pronto a una nueva cumbre de toda América y que, sin excluir a nadie, se hablara de estos temas.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Podría proponer que fuera aquí en México si fuera una nueva Cumbre de las Américas?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> En cualquier lugar, pero sí hay condiciones porque sí hay una actitud de parte del gobierno de Estados Unidos distinta. Esto que se está permitiendo que haya un flujo ordenado de venezolanos que quieren estar en Estados Unidos, y está dando resultados, porque nosotros lo estamos notando aquí, porque están haciendo sus trámites y ya hay un número importante que hay obtenido o están por obtener sus visas temporales o sus permisos, que eso es lo que nosotros planteamos.</p>
+<p>Primero, que haya cooperación para el desarrollo. Si hay crecimiento en todos los países de América, si hay trabajo, pues vamos a poder enfrentar el fenómeno migratorio, porque la gente no abandona a sus pueblos, a sus familias por gusto, lo hace por necesidad.</p>
+<p>Entonces, vamos a que haya crecimiento, que haya bienestar en los lugares de origen, ese es nuestro planteamiento. Y lo podemos hacer, un plan de desarrollo para toda América, con todos los recursos que tienen América, con toda su potencialidad, su fuerza de trabajo, que es pues la mitad de lo que se necesita para crecer, para salir adelante, para que sea la región más importante del mundo, sin cerrarnos, sin guerras comerciales, nada más tener una relación más estrecha en lo económico con respeto a la soberanía de los países.</p>
+<p>Entonces, eso sería mucho, mucho, mucho muy importante. El lograr este acuerdo, nos beneficiaría a todos y sobre todo es un beneficio para los pueblos.</p>
+<p>Entonces, no descarto esa posibilidad, porque sí hay condiciones en el gobierno del presidente Biden. Y por eso, qué tal que se consiga hoy que se acabó el bloqueo; pues ya lo anuncio, habría baile en el Zócalo el sábado, La Santanera y hablaríamos para que vinieran los de La Van Van, y baile.</p>
+<p><strong>INTERVENCIÓN: </strong>(Inaudible).</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, esa es otra cosa.</p>
+<p><strong>INTERLOCUTORA:</strong> En mi segunda pregunta —gracias, presidente— quiero comentarle sobre un caso de un expolicía federal, que se llama Jaime Galindo Hernández, él tiene 59 años de edad y está en el Cefereso 4, en Nayarit.</p>
+<p>Este expolicía federal fue acusado de evasión de reo y de no activar un Código Rojo cuando fue la fuga de Joaquín ‘el Chapo’ Guzmán el 11 de julio del 2015. Esta persona lleva siete años en la cárcel sin sentencia, además de que la mamá de este preso le había pedido en alguna ocasión intervenir para el caso de su hijo.</p>
+<p>Estos 12 expolicías federales, nueve de ellos ya salieron, tres están en libertad condicional, van a firmar cada 15 al penal, pero no les encontraron un indicio de que ellos fueran, tuvieran que ver o estar involucrados en este caso.</p>
+<p>Además de que esta investigación que hizo <em>Sputnik</em> sobre este caso de la fuga de Joaquín y de estos expolicías federales, se buscó a Manelich Castilla, que era el comisionado en ese entonces de la Policía Federal para saber sobre este documento que habían entregado ellos junto con el comisionado nacional de Seguridad, que era Renato Sales, hoy procurador de Campeche, y que Manelich había sido secretario de Seguridad de Quintana Roo cuatro días, porque lo removieron del cargo, todavía no sabemos por qué fue la causa, pero cuando fue a esta entrevista y le preguntamos sobre este comunicado conjunto de que era la Policía Federal, la Segob y Comisión Nacional de Seguridad, si ellos realmente tenían la obligación de activar este código. Dentro de sus funciones de esos expolicías, no tenían por qué activarlo, porque no era su responsabilidad.</p>
+<p>Aunque se filtró en los primeros este video que mencionaron sobre que los expolicías escuchaban lo que había pasado, la fuga del 11 de julio, pues había aparecido sin sonido, tres meses después aparece en un noticiero de televisión, en <em>Primero Noticias</em>, con este conductor de noticias, Carlos Loret, con audio diciendo que ellos sí escuchaban lo que pasaba en este penal.</p>
+<p>Esta versión se confirmó con uno de los expolicías que está en libertad ahora y que trabaja en el gobierno. Y si ellos realmente escuchaban lo que sucedía en ese momento cuando estaban monitoreando, pues él dijo que no, que las únicas personas también que escuchaban eran las del Cisen, no escuchaban los monitoristas.</p>
+<p>Entonces, estas versiones y estas filtraciones a la prensa, señor presidente, han afectado también a personas que están ahora en la cárcel, que no sentencian, como Jaime, que tiene siete años y que, bueno, al final sus familiares tienen dos años que no lo ven, porque además cayó la pandemia de COVID y pues no pudieron verlo, su papá y su mamá fallecieron también, pues él no pudo, o sea, evidentemente no pudo despedirse de sus familiares, no tuvo ninguna comunicación.</p>
+<p>El caso es que también se habló con la abogada de Joaquín ‘el Chapo’ Guzmán, con Mariel Colón, desde Nueva York, para saber sobre este caso porque Manelich Castilla había dicho que había una declaración de Joaquín diciendo que el mismo Joaquín había dicho que estas personas no tenían nada que ver en este caso. Y se le preguntó a la abogada de Joaquín, Mariel Colón si en realidad ellos tenían esta declaración o si se sabían o tenían conocimiento de estos policías federales, y ella dijo que no, no sabían del caso, aunque la esposa de Joaquín Guzmán, Emma Coronel, pues tenía, había sido acusada por la participación de la fuga de Joaquín ese 11 de julio.</p>
+<p>Entonces, realmente pues saber sobre qué está pasando. En ese entonces estaba en la procuraduría Raúl Cervantes. La familia ha estado durante siete años buscando justicia. Entregaron aquí una hoja para que usted supiera del caso, ya cuando era presidente, lo recibió Leticia… Leticia…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ramírez.</p>
+<p><strong>INTERLOCUTORA:</strong> Leticia Ramírez, que ahora ya es secretaria de Educación Pública, tienen ese acuse de recibido, pero también lo recibió el caso, un acuse, la Fiscalía General de la República. Entonces, han ido ellos buscando con Alejandro Encinas durante siete años para saber qué está pasando.</p>
+<p>Entonces, sí, un grave suceso del que estas filtraciones, no sabemos también si realmente ellos escuchaban, no escuchaban, pero ellos dicen que no escuchaban lo que estaba sucediendo.</p>
+<p>Jaime en ese momento, cuando se estaba dando la fuga de Joaquín en el 2015, él estaba monitoreando a ‘la Tuta’ en ese momento, cuando había ido a la enfermería.</p>
+<p>Nosotros en <em>Sputnik</em> tenemos una carta de puño y letra de Jaime en la que escribe por horas todo lo que había sucedido y lo que él veía en el monitor cuando ‘la Tuta’ estaba yendo a la enfermería.</p>
+<p>Él había solicitado información. La enfermería nunca dio ninguna explicación, ellos tenían que resolver por qué lo habían llevado a la enfermería. Hasta que regresó a su celda, en tratamientos especiales, fue que pudo saber, aunque no le entregaron bien el informe. Él se dedicaba a realizar informes, él no estaba viendo directamente si Joaquín se había fugado. En ese momento, cuando Joaquín se estaba fugando, él estaba viendo cómo iba ‘La Tuta’ a la enfermería. Entonces, sí es una cuestión en la que él tampoco tenía ninguna responsabilidad. La persona que estaba viendo el monitor, él ya salió libre.</p>
+<p>Entonces estas personas, nueve, que ya están en libertad, tres en condicional y tres todavía continúan en este penal en El Rincón, en Nayarit.</p>
+<p>Y yo tengo esta carta que firmó su hermano, Guillermo Galindo, que también fue parte de la Policía Federal, ahora extinta, que también ellos mencionan: ‘Nosotros nunca vimos que ningún funcionario de alto nivel…’ Como en ese entonces estaban Alejandro Rubido, Miguel Ángel Osorio Chong, como secretario de Gobernación, que ahora es senador del PRI, pues ninguno de ellos tuvo responsabilidad de este hecho que pasó y que ya purga Joaquín Guzmán Loera una sentencia en Estados Unidos.</p>
+<p>Entonces, saber si esta carta se la podemos entregar. Ellos piden humildemente que por favor les ayuden para que su caso pueda dirigirse a la defensoría pública.</p>
+<p>Porque además el costo de estos servicios de abogados, ellos preguntaron y decían: ‘Nos cuesta un millón de pesos por el caso’, porque además liberar a una persona o que alguien tenga un caso de estos es muy difícil, los jueces no quieren o el juez, el último, parece que la última resolución que hay es que no lo dejaron en libertad con medidas cautelares porque él tiene un familiar en Chiapas y que podía fugarse a Guatemala.</p>
+<p>Entonces, es una cuestión que no han tenido ellos, estos 12 policías, pues ningún indicio de que tuvieran alguna culpabilidad, un presunto... un presunto… pues sí, una responsabilidad.</p>
+<p>Se preguntó por eso a la abogada Mariel Colón, a Renato Sales, que ahora es procurador, fiscal de Campeche, Manelich y las personas involucradas.</p>
+<p>Y también otro caso similar que pasa también en Aguascalientes, con Óscar Fernando González. Igual, un empresario que fue detenido allá en Aguascalientes y que también, por una cuestión política con el exgobernador Martín Orozco… Que también suceden estas mismas cosas, que les fabrican algún delito.</p>
+<p>Y también la familia ha buscado una intervención del gobierno federal para saber qué es lo que pasa en estos casos, porque esta persona también lleva dos años sin sentencia en la cárcel y que también no pasa nada. O sea, una cuestión política, una cuestión que pues, igual, no hay ninguna responsabilidad, pero por cuestiones de… Es todo un empresario y está en la cárcel todavía.</p>
+<p>Entonces, me gustaría, por favor, su opinión sobre este caso, en específico también el de Jaime, porque es un tema muy complicado, además de que usted ha sido cuestionado sobre el tema de Joaquín muchas veces por haber estado con lo de su mamá, saludarla y tener siempre una crítica con Joaquín y con usted.</p>
+<p>Muchas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, mira, ¿qué te parece si platicas con Rosa Icela Rodríguez, todo?</p>
+<p><strong>INTERLOCUTORA:</strong> Sí, de hecho, yo tengo los documentos aquí, la carta de Guillermo.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, entonces vamos a pedirle que ella platique contigo, se ponen un día de acuerdo y a ver qué podemos hacer nosotros.</p>
+<p><strong>INTERLOCUTORA:</strong> Y respecto a este caso, que le hablamos a Mariel Colón, sobre, bueno, si la mamá de Joaquín había solicitado ella una visa humanitaria para visitar a su hijo en Estados Unidos, y si usted ha recibido otra solicitud sobre que la mamá haya querido apoyo sobre el Gobierno de México.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, me pidieron en esa ocasión, creo, me entregaron una carta en donde me pedían que las hermanas de Joaquín Guzmán Loera fueran a visitarlo, y yo hice el trámite, o sea, se lo envié al secretario de Relaciones para que se hiciera el trámite en la embajada de Estados Unidos. No sé en qué terminó, si le permitieron visitar o no. Pero sí me acuerdo de esa carta.</p>
+<p>Lo demás, pues como ustedes comprenderán, no es más que politiquería de muy bajo nivel, una cosa muy corriente en la que están ya metidos hasta supuestos periodistas de renombre, pero como no tienen nada, nada…</p>
+<p>El otro día estaba yo viendo, hay dos señores ahí grandes en el Face, uno que ya mencioné aquí, el señor, creo que Gutiérrez.</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS: </strong>Erick Gutiérrez, de <em>Sin Línea.</em></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Erick, sí, muy bueno, creo que él, pero hay otro que tiene un nombre como extranjero, que te dije que si lo buscábamos, también se ve una persona mayor. Los dos muy inteligentes, pero uno de ellos —a ver si no lo tienes, es Erick Gutiérrez— creo que ayer o antier sacó algo de un personaje, no sé si existe o es robot, <em>bot</em>, pero se los voy a leer para que vean el nivel tan bajo de nuestros adversarios los conservadores.</p>
+<p>Es donde dice que mi esposa Rocío, que falleció, como se apellidan Beltrán, tenía vínculos mi esposa con los Beltrán, relaciones de familia y que de ahí viene el que yo esté en Badiraguato y…</p>
+<p><strong>PREGUNTA:</strong> ¿De dónde era originaria su esposa?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Mande?</p>
+<p><strong>INTERLOCUTOR:</strong> ¿Su esposa Rocío, de dónde era originaria?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues de Teapa. Es que Beltranes hay en todas partes, pero Beltrán son de Tabasco, que yo sepa. Bueno, de Rosario en Sinaloa, de ahí era Lola, y de Sinaloa y de otros estados ¿no? Es un apellido pues bastante conocido, ¿no?</p>
+<p>Pero pues toda la familia de Rocío, de Teapa, su papá, su abuelo, yo creo que hasta sus bisabuelos, porque participaron en un movimiento durante la Reforma, o sea, a mediados del siglo XIX, han de haber llegado de España a principios del XIX, si no es que desde el XVIII, y mis hijos llevan el apellido de su madre. Pero estos ya se pasaron.</p>
+<p>Pero además no solo una… es un… No sé si es el señor ese Erick. ¿No lo encuentras?</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> No lo trae.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No lo trae. Es el otro señor. A ver si lo… Y te conseguimos la entrevista con Leti para que platiquen. Perdón, con Rosa, ¿de acuerdo?, con Rosa Icela.</p>
+<p>Muy bien. Vamos, la tercera, la tercera.</p>
+<p><strong>PREGUNTA:</strong> Oiga, presidente buenos días.</p>
+<p>Ángel Molina, de <em>A Tiempo TV</em>, medio digital de Coahuila.</p>
+<p>Bueno, presidente, preguntarle: pues según cifras del Inegi, Coahuila es de los estados más seguros del país y uno de los más seguros o el más seguro de la frontera norte. En el modelo de seguridad de Coahuila, bueno, la cooperación entre el Ejército y las fuerzas policiales ha sido funcional, ha funcionado y ha sido fundamental, igualmente sobre la ampliación de la estancia de más fuerzas armadas en labores de seguridad.</p>
+<p>Esto, pues llegó al congreso local, mayoritario del PRI, quien ya dio muestras de que se votaría a favor de esta ampliación de la presencia de la Guardia Nacional, esto frente al secretario de Gobernación.</p>
+<p>La pregunta. Es viable en el sentido de que este es básicamente un gobierno de oposición, pero que ha trabajado coordinado con su gobierno en estrategias de seguridad. ¿Considera que esto sirve como modelo el caso de Coahuila para aplicarse en otras entidades?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, y además así debe de ser porque, independientemente de las diferencias partidistas, está la seguridad de la gente. ¿Qué culpa tiene la gente de que por los pleitos político-electorales ellos padezcan de inseguridad, de violencia? Eso hay que separarlo.</p>
+<p>Y qué bien que van a votar por la Guardia y para que continúe la Secretaría de la Defensa ayudando.</p>
+<p>Los amigos laguneros padecieron muchísimo de inseguridad, de violencia, pero mucho, mucho, era de las regiones más peligrosas, y hubo una buena decisión que se tomó en el gobierno del licenciado Peña: se creó fuerzas especiales, un mando especial de La Laguna, que es algo parecido a lo de la guardia en donde intervienen de manera coordinada la Secretaría de la Defensa, que tiene a su cargo el mando y las policías locales, y a partir de que se creó este mando especial se redujo muchísimo la incidencia delictiva, eso lo saben en La Laguna.</p>
+<p>Entonces, imagínense que los legisladores votaran en contra que continúe el Ejército ayudando en tareas de seguridad. No podrían hacerlo.</p>
+<p>Lo mismo en el caso de Guanajuato, que ya la comisión votó en contra, pero esa es la comisión, falta que pase al pleno, y que los del pleno, ya todos los legisladores lo decidan, y yo los llamo a que lo piensen, porque hay mucha violencia en Guanajuato. Y quiero ser muy claro: si no estuviese el Ejército, estaría peor.</p>
+<p>Y también con la misma claridad, les digo: aun cuando voten en contra, el Ejército va a continuar en Guanajuato, porque una cosa es la opinión de los arriba y otra cosa es la soberanía popular, el pueblo, y yo estoy seguro que el pueblo de Guanajuato quiere que esté el Ejército y que esté la Guardia Nacional y que esté Marina, porque urge que haya paz y haya tranquilidad en Guanajuato.</p>
+<p>Entonces, que no estén pensando que, si van a votar en contra, ‘ah, es que se va a retirar el Ejército’, ah, no, eso hasta suena plan con maña. ¿Para qué quieren que se retire el Ejército, habiendo tanta inseguridad y tanta violencia?</p>
+<p><strong>INTERLOCUTOR:</strong> Y, presidente, en otro tema, pues se ha reportado que las labores de rescate de los cuerpos de los mineros en la mina El Pinabete, pues se han suspendido —eso es algo que ha trascendido en redes sociales y algunos medios de comunicación, bueno, lo han dicho— esto debido a que supuestamente no se han realizado los pagos correspondientes a los contratistas, a las personas que estaban realizando estas labores contribuyendo en el rescate.</p>
+<p>¿Qué nos puede decir al respecto?</p>
+<p>Además de preguntarle cuándo podría venir Manuel Bartlett a darnos detalles sobre este rescate. Y si es que la Comisión Federal de Electricidad ya se ha deslindado de las responsabilidades en cuanto a esta tragedia.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, pero no tengo yo esa información, ¿eh? Acabo de hablar con la secretaria del Trabajo y ya se está trabajando en los tajos.</p>
+<p>Para empezar, ya se llegó a un acuerdo con los familiares, ya hubo una reparación del daño, en lo material, porque lo otro es lamentablemente ya difícil ¿no?, pero ya hay un acuerdo y se les está informando constantemente a ellos, y está trabajando la Comisión Federal de Electricidad.</p>
+<p>Voy, de todas maneras, a pedir el informe hoy de cómo van, porque este informe lo tengo de hace como 10 días. A ver si por teléfono con Luisa María. Y si hay demoras, de inmediato vamos a reactivar todo, porque es un compromiso que tenemos.</p>
+<p>Desde luego, hay que ver si es cierto, porque en Coahuila hay elecciones, entonces es como lo que está pasando en Estados Unidos, porque esto se da en cualquier país del mundo, en vísperas de las elecciones.</p>
+<p>En Estados Unidos el martes próximo son elecciones y hay mucho nerviosismo y cuestionamientos, críticas, ¿no?, de unos contra otros, y así es; entonces, en Coahuila ya se está calentando el ambiente y van a usar a los medios.</p>
+<p>Ahí en Coahuila, con todo respeto, siempre ha habido mucho control de los medios, es de los estados que tienen más apergollado. Yo iba allá cuando era opositor y me rodeaban periodistas, hasta tenía que cuidarme porque, si no, me daban con las cámaras en la cabeza, y todas las preguntas eran tendenciosas, y ahí contestaba —pero me los mandaban, pues, porque la mayoría subvencionada al gobierno, o sea, los <em>maiceaban</em>; a lo mejor ya no es así, pero así era hasta hace poco— y al día siguiente nada, no salía nada. Todavía nos falta.</p>
+<p>Entonces, a ver. ¿De quién es?</p>
+<p><strong>INTERVENCIÓN: </strong>Es un anónimo, <em>Voz del Barrio.</em></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, pero… Ah, esto es, miren.</p>
+<p>Es para que vean la miseria:</p>
+<p>‘Recordar que López Obrador tenía una mujer que ya falleció y ésta era prima hermana de Arturo Beltrán Leyva y a la vez pariente de ‘el Chapo’. ¿Ya entienden por qué tanto viaje a la sierra sinaloense? ¿Ya saben quién es el hijo de la fallecida?’</p>
+<p>¿Puede haber más miseria humana que esto? Pues así son los conservadores, así son.</p>
+<p>¿Y la obra? Ahora que nos digan, lo de la obra de…</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> Sí, ya me están diciendo que no. Ha continuado la obra, nada más que cambiaron de proveedor. Comenzó con una empresa local y están…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, pero la vamos a continuar. O sea, que sí tienes razón que está parada porque está cambiando de proveedor, de contratista, me imagino.</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> Sí, hicieron el cambio.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Eso es.</p>
+<p>Pero, miren, ya vamos a darle la oportunidad aquí a la periodista canadiense.</p>
+<p><strong>INTERLOCUTORA:</strong> En Canadá.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, de televisora canadiense.</p>
+<p><strong>INTERLOCUTORA:</strong> Sí, gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Adelante.</p>
+<p><strong>INTERLOCUTORA (interpretación del inglés al español):</strong> Perdón por ser tan insistente, lo que pasa es que tenemos que tomar un avión, por eso interrumpí. Gracias, señor.</p>
+<p>La comunidad internacional cada vez más describe a los aguacates que vienen de Michoacán como una fruta en conflicto, los llaman ‘aguacates sangrientos’ por las amenazas, la extorsión y la violencia que muchos de los campesinos que se dedican a cultivar estos, sufren.</p>
+<p>¿Qué les diría a las personas que tienen miedo de comprar aguacates internacionalmente y que de alguna forma indirecta están apoyando a las bandas del crimen organizado?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, que los productores de aguacate de Michoacán son gentes de bien, gente trabajadora, que hay violencia en Michoacán y hay grupos de la delincuencia en Michoacán, pero que no tienen vínculos con los que producen aguacates, que son agricultores y que lo que hay seguramente es una desinformación, una campaña en contra del aguacate de Michoacán y del aguacate de México. ¿Sí lo entendiste? Sí.</p>
+<p><strong>INTERLOCUTORA (Traducción de pregunta en inglés):</strong> Acabo de regresar de un viaje por Michoacán, donde conocí a diferentes personas. Las personas están atemorizadas y un campesino de Michoacán me dijo que las organizaciones criminales, la policía y el gobierno son básicamente lo mismo. ¿Usted cree que él está diciendo la verdad?, ¿Qué lo que él nos dice es cierto?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No es lo mismo, no está diciendo la verdad. Antes sí había un contubernio, una asociación entre las autoridades y la delincuencia, pero ya no existe eso, han cambiado mucho las cosas en México.</p>
+<p>Y lo que está probado técnica, científicamente es que el mejor aguacate del mundo es el que se produce en Michoacán. No sé cómo le harían en Estados Unidos y en Canadá sin el aguacate de Michoacán. Porque hay otros países que quieren ganarse el mercado de Estados Unidos, pero, con todo respeto, la calidad del aguacate que producen no es la misma.</p>
+<p>Nosotros hemos padecido durante mucho tiempo de boicots por razones de competencia o por razones políticas. Por ejemplo, ahora que hay elecciones en Estados Unidos los políticos de Florida hacen campaña diciéndole a los productores de tomate de Florida que ellos van a lograr que ya no se compre en Estado Unidos tomate mexicano, porque el tomate mexicano lleva agroquímicos o porque lo cultivan niños.</p>
+<p>De acuerdo a nuestra ley del trabajo, sólo se permite que trabajen mayores de 18 años. Entonces, a veces en los campos agrícolas, como van familias completas, trabajan, incluso es la condición de los padres: ‘Yo voy a trabajar, pero mi hijo de 16, de 17 años, también va a trabajar’. Entonces, eso lo utilizan para decir: ‘No compren el tomate mexicano porque es producto cultivado con niños explotados’.</p>
+<p><strong>INTERLOCUTORA (interpretación del inglés al español):</strong> ¿Usted cree que su administración ha dado lo mejor para proteger a los productores de aguacate? Y si la gente en Canadá puede sentirse tranquila que comprando aguacate mexicano no están apoyando a los cárteles, sino están apoyando a los productores aguacateros.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, deben de sentirse tranquilos los canadienses, porque se está impulsando una actividad productiva en Michoacán donde se requieren ingresos para que la gente, sobre todo los jóvenes, tengan trabajo y no tengan que tomar el camino de la delincuencia.</p>
+<p>Lo único que estamos cuidando es el que no se siembre tanto aguacate en la zona de los bosques, sobre todo la zona de las mariposas monarcas, ese es otro tema. Por eso también se está diversificando. Acaba de autorizarse la mayor exportación de aguacate de Jalisco y esto va a ayudar a que no haya tala de bosques para la siembra de aguacate que afecte a la mariposa monarca, pero ya estamos trabajando en eso, diversificando.</p>
+<p>Hay un programa que se llama Sembrando Vida, que es el programa de reforestación más importante del mundo. Estamos invirtiendo mil 600 millones de dólares al año y es para que los campesinos puedan sembrar sus tierras con árboles frutales, como el aguacate, y árboles maderables, como los pinos, como en el trópico el cedro, la caoba y otros árboles.</p>
+<p>Entonces, sí estamos atendiendo esto.</p>
+<p>Hay que tener cuidado con estas campañas porque siempre, aun cuando hay gente que de buena fe se preocupa, hay otros que todo lo hacen en términos económicos para su beneficio. Esto que les decía del tomate nos lo han hecho con el atún, de repente hay un embargo al atún mexicano, que porque las redes donde capturan el atún capturan también peces en vías de extinción, la vaquita marina, entonces aplican embargos.</p>
+<p>Pero todo esto hay que verlo con mucha responsabilidad y cuidar que no sea propaganda…</p>
+<p><strong>INTERVENCIÓN:</strong> Hay un documental en <em>Netflix</em> que se llama <em>La guerra del aguacate</em>.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, sí.</p>
+<p>Entonces vamos nosotros a estar muy pendientes y qué bien que vienes y que lo preguntas aquí. Pero decirle a la gente de Canadá que es muy bueno el aguacate y que no está vinculado, o sea, no es una industria del narcotráfico, no, que son productores que se dedican a eso y han sido exitosos y dan trabajo, y lo único es convencerlos para que se cuiden los bosques y no se afecte a la mariposa monarca, básicamente.</p>
+<p>Bueno, ahora sí ya nos vamos. Mañana tú, tú también.</p>
+<p><strong>INTERVENCIÓN: </strong>¿Va a ser Ricardo (inaudible)?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ah, no, él anda en otras cosas, pero es en sus tiempos libres. Y nos ayuda, mucho, mucho, mucho, y lo estimamos mucho, mucho, a Ricardo.</p>
+<p><strong>INTERVENCIÓN: </strong>(Inaudible).</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Es que todavía, digo, no sé.</p>
+<p>¿Ya empezaron? No sé, no, no, me quiero meter. Soy neófito en esas materias.</p>
+<p>Va a ser interesante, mañana en la conferencia, hay muchas cosas para mañana, mañana vamos a hablar de eso.</p>
+<p>---</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

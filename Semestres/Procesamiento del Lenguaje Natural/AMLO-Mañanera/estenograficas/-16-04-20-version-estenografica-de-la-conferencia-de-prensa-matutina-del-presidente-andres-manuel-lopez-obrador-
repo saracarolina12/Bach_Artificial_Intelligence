@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>16.04.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/16-04-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=131149' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F16-04-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F16-04-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66i5l-f-80419c2a9-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":22,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"38fab921","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55446,"ak.gh":"23.47.207.46","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616619","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==TwxcOu/YLpHKSQo56M6TQOV5CZw1YT9BNy79Ak9pJ5cBHOOVNutRf6rGbza96YCqwCDTZjeOt1kGiBHBmINHpWzlQ/Yj6wfYuNPB5aW7rnVMDCXEP2WguDB6KdpyxKXVmGR9hCwSs05s5qSmIaGpyRmtFioFX8ADQluNjbjs0occbTLt/rS4O9KFTosm26Jb3chbRPgCtB3SNZY4yJev4G0gZ+3dZ2bQyM/Jb69znt5+L3/DmCEJcqBvTY4gsv+ItoesyeAZk6/0DNOiaHPOFS3KSyD7xfaH4s9vtmrm92h1ltxU8Kz/iyZgwsutW38n6AYD9n3rjWXcmkyJhswjg/kUEZM48w35n3QYC5KjPHndtNk9CZnbYCV0vmh4kieYlo3ekQM5NHEACltmWz66fE5IdQp8p6yU10B6ssYy+pE=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-131149 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef211c8cb96" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>16.04.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 16.04.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-131149" class="post-131149 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2020/04/16-04-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-01.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/04/16-04-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-01-745x450.jpg" alt="16.04.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">16.04.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><em>2020, Año de Leona Vicario, Benemérita Madre de la Patria</em></p>
+<p>&nbsp;</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>Buenos días. Ánimo.</p>
+<p>Bueno, pues hoy es un día muy especial porque vamos a informar sobre el diagnóstico y las proyecciones que han hecho los especialistas acerca de la pandemia del coronavirus, y vamos a poder saber todos qué se ha logrado hasta ahora y qué viene, qué es lo que se espera, todo esto con proyecciones científicas, con la aportación de un grupo de especialistas de varias disciplinas, de universidades, académicos y también, desde luego, de médicos y científicos del sector salud. Se va a dar esta información.</p>
+<p>Y también vamos a dar a conocer una buena noticia para empresas que han actuado con mucha responsabilidad durante esta crisis, que no han despedido a sus trabajadores y que no les han reducido el sueldo a los trabajadores, que han actuado con mucha responsabilidad social.</p>
+<p><audio src="https://lopezobrador.org.mx/wp-content/uploads/2020/04/2020-04-16-Matutina.mp3" controls="controls"></audio></p>
+<div id="fb-root"></div>
+<p><script async="1" defer="1" crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&amp;version=v6.0"></script></p>
+<div class="fb-video" data-href="https://www.facebook.com/lopezobrador.org.mx/videos/523039771691488" data-width="500">
+<blockquote cite="https://www.facebook.com/lopezobrador.org.mx/videos/523039771691488/" class="fb-xfbml-parse-ignore"><p><a href="https://www.facebook.com/lopezobrador.org.mx/videos/523039771691488/">Para enfrentar la epidemia necesitamos sumar recursos, voluntades y ayudarnos mutuamente. #COVID19  Conferencia de prensa matutina. Jueves 16 de abril 2020</a></p>
+<p>Para enfrentar la epidemia necesitamos sumar recursos, voluntades y ayudarnos mutuamente. #COVID19Conferencia de prensa matutina.</p>
+<p>Publicado por <a href="https://www.facebook.com/lopezobrador.org.mx/">Andrés Manuel López Obrador</a> en Jueves, 16 de abril de 2020</p></blockquote>
+</div>
+<p>En general, la mayoría de las empresas han apoyado mucho, han actuado de manera solidaria, con dimensión social; apenas un 15 por ciento de todas las empresas -y esto las más grandes, porque las mejores portadas son las pequeñas empresas- son las que no han cumplido con las recomendaciones.</p>
+<p>También decirles que vamos a seguir pidiendo el apoyo de toda la población, porque si vamos bien ha sido fundamentalmente por el apoyo de la gente que ahora se va a demostrar. Si hemos tenido buenos resultados hasta ahora, ha sido porque la gente ha aplicado las medidas, ha hecho caso, nos ha ayudado y se ha comportado de manera ejemplar, sin prohibiciones, sin uso de la fuerza, sin toque de queda.</p>
+<p>Nuestro pueblo ha actuado de manera muy responsable a pesar del sacrificio de muchos. Están ayudando, cuidándose, cuidándonos todos y cuidando a nuestra gran nación, porque no se nota actualmente, a pesar de las campañas de desprestigio.</p>
+<p>Si no se tuvieran buenos resultados, imagínense la mala fama de nuestro país en el extranjero, porque así como la mayor parte de la gente, la mayoría del pueblo, la inmensa mayoría se ha portado muy bien, hay un grupo de adversarios que quieren que nos vaya mal y que se dé una mala imagen.</p>
+<p>Todavía ayer salió en <em>El Diario de Juárez </em>y <em>en El Diario de Chihuahua</em>, <em>Diario de Juárez </em>y <em>Diario de Chihuahua</em>, fotografías en la primera plana de estos dos periódicos de fallecidos en Ecuador como si hubiesen fallecido en hospitales de Chihuahua. Miren eso. De todas maneras, no va a haber censura ni amonestación, no se va a limitar la libertad de expresión, este es un asunto nada más de ética; y así todos los días noticias falsas, pero no han logrado su propósito de desprestigiar a nuestro país y de desprestigiar al gobierno, editoriales en diarios famosos del mundo en contra nuestra.</p>
+<p>Y creo que desde la época del presidente Madero no se había atacado tanto a un gobierno como ahora, pero afortunadamente contamos con el apoyo, el respaldo de millones de mexicanos a los que les agradecemos su confianza, no les vamos a fallar, no vamos a traicionar al pueblo.</p>
+<p>Entonces, empezamos con Hugo López-Gatell, subsecretario de Prevención y Promoción de la Salud de la Secretaría de Salud. Todo este equipo lo conduce, lo dirige el doctor, que es el maestro de muchos de ellos, Jorge Alcocer, secretario de Salud. Él es el maestro, pero uno de sus alumnos, además de que es un profesional de primer orden, tiene facilidades para exponer y él nos ha venido ayudando y lo ha hecho muy bien, a él le toca dar a conocer este informe. Es una propuesta de los especialistas, de los científicos mexicanos.</p>
+<p>Y como también se sabe, y no está de más recordarlo, nosotros nos guiamos por estas recomendaciones. Repito, los políticos no somos todólogos, no somos sabelotodo y no queremos utilizar esta circunstancia para sacar raja, como también nos están haciendo algunos de nuestros adversarios, que aprovechan esta circunstancia para estar atacando al gobierno federal, también con mala fe; pero nosotros tenemos que actuar con mucho profesionalismo, porque es un asunto delicado que merece actuar con responsabilidad, que todos actuemos con responsabilidad.</p>
+<p>Entonces, vamos a escuchar a Hugo, a ver qué nos dice.</p>
+<p><strong>HUGO LÓPEZ-GATELL, SUBSECRETARIO PREVENCIÓN Y PROMOCIÓN DE LA SALUD:</strong> Muchas gracias. Gracias, presidente, secretario, director.</p>
+<p>Muy buenos días tengan todas y todos ustedes; buen día a toda la ciudadanía de México.</p>
+<p>Vamos a comentar con cierto detalle la realidad epidemiológica del país, pero hoy no con el informe diario, sino en forma especial algunas de las conclusiones que tiene el grupo de asesoría científica del gobierno federal y vamos a retomar sobre la parte que fundamenta, la teoría que fundamenta las intervenciones de prevención y control de esta epidemia en el mundo y en México.</p>
+<p>Algunos de los elementos que hemos estado comentando a lo largo de la epidemia en México tienen que ver con los momentos de decisión claves en los que hay que actuar, y hay que actuar de una manera basada en evidencia, en evidencia documental, es decir, la información, los datos de la vigilancia epidemiológica, pero también en la evidencia científica.</p>
+<p>Y continuamente, de manera diaria estamos rastreando, analizando los distintos elementos de evidencia científica que surgen en el mundo y que nos han permitido la oportunidad de que México aprenda de las experiencias vividas en otros países, aprenda de lo que ha sido exitoso, aprenda también de lo que no ha sido tan exitoso y nos ha permitido hacer las adaptaciones apropiadas para México en los momentos apropiados, como lo hemos señalado en otras ocasiones.</p>
+<p>Entonces, vamos a poner algunas diapositivas. La primera es esta gráfica, consiste en lo siguiente:</p>
+<p>Explico primero las tres fases que habíamos indicado desde el inicio que tendría esta epidemia. Una fase 1, que es la importación viral, la importación de los virus al territorio en donde tendríamos una cantidad muy reducida de casos, quizá algunas decenas y podríamos rastrear los distintos casos con sus contagios, ya sea quién le contagió y hacia a quién contagió. Esa primera fase le llamamos importación viral y duró desde el 27 o 28 de febrero hasta el 29 o 30 de marzo.</p>
+<p>En esa fase de importación viral habíamos indicado que la medida de control más importante era la contención en torno a los casos sospechosos, con la secuencia de identificar los casos sospechosos, ponerlos en aislamiento o en reducción de la movilidad en forma voluntaria, tomarles muestras para diagnóstico a todos estos casos sospechosos y, además, analizar a sus contactos.</p>
+<p>Esto se hace en todo el mundo, es una recomendación de la Organización Mundial de la Salud, la ha seguido recomendando para los países que no la han hecho con suficiente intensidad como la hace México y a nosotros nos resultó durante toda la fase 1.</p>
+<p>Llega un momento en que la contención tiene sus límites porque empiezan a aparecer más y más casos y entonces ya no se puede, y tampoco es útil intentar encontrar a cada caso con su contagio porque va perdiendo la trazabilidad de los contagios.</p>
+<p>Es el momento en donde es importante considerar el otro paquete de medidas, que en su conjunto le llamamos mitigación, mitigación comunitaria, que son unas medidas de prevención y control de carácter masivo; estamos hablando de millones de personas a la vez, ya no un caso a la vez, sino millones de personas a la vez y el principio de acción es el mismo: la reducción de la movilidad.</p>
+<p>Recordarán que México se adelantó a la fase 2, la fase de trasmisión comunitaria con medidas que empezaron desde la fase 1. Concretamente, cuando identificamos el 13 de marzo que habíamos triplicado el número de casos identificados, con tan sólo 12 casos y cerca de 120 casos estimados, decidimos implantar las intervenciones que corresponden a la fase 2 y son estas de mitigación masiva, precisamente para aprovechar la oportunidad que México sí tenía de empezar tempranamente este tipo de medidas. En su momento, estas medidas, al ponerse de manera generalizada, nos permitieron empezar con la suspensión de actividades escolares y después las otras medidas que ahorita comentaré.</p>
+<p>Una vez que iniciaron estas medidas el 23 de marzo con la primera disposición de la autoridad sanitaria, identificamos también que necesitábamos hacerlas de manera más enérgica y más sincrónica para tener un mayor número de personas o de millones de personas que suspendían la movilidad en el espacio público.</p>
+<p>Esta gráfica, y por eso he mencionado este preámbulo, la compartimos con el presidente el fin de semana del 27 de marzo, es decir, a cinco días de que habían sido instauradas las medidas de reducción de la movilidad, principalmente con las empresas, para expresar que hacía falta escalar la intensidad de las acciones con la declaratoria del estado de emergencia sanitaria, no emergencia nacional, emergencia sanitaria por causa de fuerza mayor.</p>
+<p>Y aquí explico la gráfica, la hemos comentado en otras ocasiones, para ilustrar el principio teórico de la mitigación y que en un momento vean ustedes los datos reales, los datos observados y las proyecciones que han hecho especialistas en epidemiología matemática y en matemáticas teóricas y aplicadas.</p>
+<p>En la curva anaranjada lo que se ve es lo que le ocurriría a México si no se hicieran intervenciones, es una curva epidémica proyectada de la cantidad de casos que se presentarían si no se hicieran intervenciones; en la curva verde lo que se ve es lo que podría pasar si se hicieran las intervenciones.</p>
+<p>Y este fue el mensaje que transmitimos al jefe de la nación a nombre de los distintos miembros del gabinete que estaban participando en el operativo y también con el respaldo del grupo de especialistas en las áreas de salud relevantes, particularmente de epidemiología, que ratificaron su recomendación de que se hicieran estas medidas correspondientes a la emergencia sanitaria por esta razón.</p>
+<p>Estas curvas finalmente representan lo que se ha respaldado teóricamente desde hace más de 15 años en el mundo por parte de la Organización Mundial de la Salud. Este planteamiento está, por ejemplo, en el plan global de prevención y control de una pandemia de influenza que se comporta de una manera muy parecida a la pandemia de COVID.</p>
+<p>Y hay tres fines o tres propósitos de estas intervenciones:</p>
+<p>La primera, como la pueden notar en la comparación de las curvas, es que el pico máximo, el acmé de la curva sea menor, se reduce la altura de las curvas. Esto lo que quiere decir es que la cantidad de personas enfermas por día sea menor.</p>
+<p>Esto es extremadamente importante porque, como hemos venido comentando, en la fase 3 de esta y otras pandemias semejantes puede existir el riesgo de que se rebase la capacidad instalada o adaptada de un sistema de salud y entonces no haya espacio suficiente para atender a todos los enfermos. Entonces, este es un primer objetivo.</p>
+<p>El segundo objetivo, que lo pueden notar al comparar las curvas, es que se desplace en el tiempo el momento máximo de la epidemia, es decir, el momento de mayor intensidad de transmisión, de mayor frecuencia de los casos diarios.</p>
+<p>Y lo pueden ver ahí, porque la curva anaranjada es más temprano el momento cumbre de la epidemia; en cambio, en la curva verde ocurre en una fecha posterior.</p>
+<p>La ventaja de esto es que, cuando en el proceso de reconversión hospitalaria y de reorganización de los servicios para cumplir sus funciones en condiciones extraordinarias, se pueda terminar ese proceso en los tiempos adecuados antes que llegue el momento de máxima intensidad de la demanda de servicios de salud.</p>
+<p>Y un tercer objetivo que se cumple con estas medidas de mitigación comunitaria son la reducción del número total de casos durante un primero, segundo o tercer ciclo epidémico, y también la reducción de la mortalidad, porque existe la oportunidad de no dejar a nadie fuera, no dejar a nadie atrás y entonces atenderlos a todas y a todos.</p>
+<p>En concreto, esta parte teórica se tradujo en México con una serie de disposiciones, de medidas extraordinarias, medidas de seguridad sanitaria, que fueron dispuestas por las autoridades sanitarias. Recordar que las autoridades sanitarias están claramente descritas en la Ley General de Salud, en su artículo 4º, y son el presidente de la República, el Consejo de Salubridad General, el secretario de Salud y los gobiernos estatales.</p>
+<p>Estas medidas fueron dispuestas por la autoridad sanitaria federal o nacional y se resumen en esta diapositiva, como la suspensión temporal de actividades académicas en todos los niveles educativos, en los sectores público, social y privados y en todo el territorio nacional, asimismo la suspensión de todas las actividades laborales no esenciales e igualmente en los sectores público, privado y social en todo el territorio nacional.</p>
+<p>Y en el acuerdo del secretario de Salud que dispone estas medidas claramente se especificó cuáles son las actividades esenciales que podrían continuar, pero la enorme mayoría no podrían continuar por no ser esenciales.</p>
+<p>Finalmente, las actividades sociales también fueron suspendidas temporalmente. Este es un conjunto amplio de actividades en donde hay congregación de personas y se puso un límite de 50 personas para que no se reunieran en plazas públicas, en jardines, en playas, en espacios culturales, en espacios recreativos o el turismo; por ejemplo, también se suspendió la actividad hotelera, excepto en condiciones muy particulares que fueron claramente descritas en lineamientos técnicos.</p>
+<p>Para que estas medidas surtan efecto tiene que existir un mecanismo y ese mecanismo es la reducción de la movilidad y la congregación en el espacio público. Esto lo que quiere decir es menos personas fuera de su casa y lo resumimos en su momento y lo seguimos resumiendo con la frase ‘quédate en casa’.</p>
+<p>Tenemos afortunadamente distintos mecanismos para monitorear este cumplimiento de las medidas a través de la reducción de la movilidad, en algunos casos son empresas privadas, incluso internacionales, que tienen a disposición pública sus informes de monitoreo, en otros casos ha habido una colaboración directa.</p>
+<p>Y aquí quiero empezar con un agradecimiento a nombre institucional al Consejo Nacional de Ciencia y Tecnología, en particular a su directora general, a la doctora María Elena Álvarez-Buylla, que ha permitido integrar esta unidad de datos, análisis e información donde ha convocado a muchos actores institucionales y sociales como este tipo de empresas, y enseguida mencionaré a distintos grupos académicos que han brindado la asesoría científica necesaria para tomar estas decisiones.</p>
+<p>Lo que se ve en la gráfica procede de la herramienta de la compañía Apple, que nos presenta patrones de movilidad en tres elementos: en la curva roja, manejo, es decir, uso de autos privados, en la curva anaranjada peatones en la vía pública y en la curva morada el tránsito en el transporte público.</p>
+<p>Y lo que se puede ver es que hubo una reducción muy sustancial. Este es México en su conjunto, el país, y lo que vemos es que a partir justamente del 23 de marzo hubo una caída en la intensidad de la movilidad en estos tres parámetros. Vean ustedes que llegamos hasta reducciones de 73 por ciento en el tránsito, en transporte público y de 60 por ciento en el uso de autos privados con una cifra intermedia para los peatones. Ahora, es alentador que en algunas partes del país tenemos una mayor efectividad, un mayor cumplimiento de este tipo de medidas.</p>
+<p>En la siguiente diapositiva vemos el caso de la Ciudad de México. En la Ciudad de México logramos o hemos logrado una reducción promedio de la movilidad de 82 por ciento en el transporte público, de 69 por ciento en el transporte privado con autos y de 77 por ciento en la movilidad peatonal.</p>
+<p>Esto se traduce en una intensidad de reducción de los contagios que nos permite estimar y proyectar -con ciertos modelos matemáticos de las comunidades académicas que ahora mencionaré- cómo se comportaría la curva epidémica en los siguientes días, semanas y meses.</p>
+<p>También, desafortunadamente otras áreas del país, como se puede ver en la siguiente diapositiva, en esta diapositiva, no han logrado reducciones tan sustanciales, en particular en la ciudad de Guadalajara, insisto, de acuerdo a este monitoreo externo al gobierno mexicano, de hecho, externo al país. Se aprecia que sólo se ha logrado una reducción de 62 por ciento para la movilidad peatonal y 61 para el manejo de autos privados. No está mal, pero no es tan importante como ha ocurrido en la zona metropolitana del Valle de México.</p>
+<p>Y lo mismo vemos en alguna otra zona, como es el caso de Tijuana, donde la movilidad se redujo solamente en 39 por ciento para los peatones y 69 por ciento para el uso de autos privados.</p>
+<p>Y esto quiero destacarlo porque ayer por la noche comentábamos lo que acaba de mencionar el presidente. Estamos muy agradecidos con las distintas personas, personas individuales que, a pesar de que esto significa una adversidad muy importante porque se reduce su ingreso diario y también se afecta su vida cotidiana, su vida en familia, su vida en comunidad, han acatado estas medidas con extrema responsabilidad.</p>
+<p>Finalmente, estos patrones de movilidad representan personas, personas de carne y hueso, que tienen una experiencia vital, una experiencia humana y se les ha afectado la vida cotidiana, se nos ha afectado a todos y todas, pero estamos conscientes por qué lo hacemos. Lo hacemos con un propósito, que es lograr reducir los contagios para tener menos casos para que no se saturen las unidades de salud y se pueda atender a todas y a todos los enfermos y reduzcamos la mortalidad.</p>
+<p>Ese es el propósito y en eso ha habido un gran compromiso de la sociedad.</p>
+<p>Pero desafortunadamente hay algunos factores de la sociedad y ayer explicamos que se trata de algunas empresas privadas grandes que no sólo no acataron las medidas en forma inicial, sino que ante un apercibimiento por parte de la autoridad laboral se negaron a responder a estas medidas. Y ayer comentamos justamente lo que procederá, ahora en términos de la investigación y las sanciones correspondientes, porque es muy preocupante que esto dificulte las medidas.</p>
+<p>Entonces, aquí ponemos el ejemplo de Tijuana, porque tenemos que tener claro además que hay una relación directa entre las medidas de la fase 1, reducir la movilidad en el espacio público, y lo que vamos a tener en la fase tres. Lo hemos dicho todos los días, si no se reduce la movilidad, vamos a tener más casos. Por eso dijimos que era la última oportunidad de lograrlo cuando anticipamos las medidas de la fase 2 y lo hemos dicho todos los días.</p>
+<p>Tenemos otros indicadores también procedentes de la colaboración, nuevamente, que se ha articulado, y agradecimiento a estas empresas. A través de <em>Facebook</em> podemos también tener monitoreos confidenciales. Que quede muy claro, aquí no está en juego la identidad de las personas, de los usuarios de redes sociales, hay un monitoreo automático en términos numéricos, pero nada se compromete la identidad de las personas ni su información privada.</p>
+<p>En la siguiente se ve el caso de <em>Twitter</em>. Las gráficas desde luego son demasiado pequeñas para que se distingan a qué corresponden, pero son los 32 estados. Y este es un monitoreo diario de movilidad y lo que pueden ver de manera gruesa es: donde bajan esas curvas es una reducción, y se corrobora que hay reducciones hasta del 60, 70 por ciento en algunos estados, pero también en otros se corrobora que no se redujo sustancialmente la movilidad.</p>
+<p>La siguiente diapositiva lo que muestra es mecanismos gubernamentales de monitoreo. Estos los hemos presentado anteriormente, estos son los de la Ciudad de México, el gobierno de la ciudad monitorea diariamente la movilidad en el uso de transporte público. Estas son las nueve modalidades de transporte público, incluye las bicicletas de renta y también tenemos la movilidad en autos, que hoy no la mostramos, pero la analizamos frecuentemente.</p>
+<p>¿Todo esto a qué nos lleva?</p>
+<p>Lo que nos llevó es a utilizar la ciencia, utilizar la técnica con la colaboración de grupos académicos de universidades públicas mexicanas. Y el agradecimiento institucional también es a estas comunidades académicas que de manera voluntaria, probono, de una manera completamente gratuita están poniendo a disposición su conocimiento, sus capacidades, su talento intelectual al servicio de país. Gracias, ya dijimos, a Conacyt que nos ha permitido articular estas comunidades.</p>
+<p>Entonces, tenemos más de siete grupos académicos de expertos y expertas en matemáticas, matemáticas aplicadas, epidemiología matemática. Digo más de siete porque siete de manera directa participaron, pero a su vez hemos estado en conversaciones con otros grupos también de personas fuera del país en instituciones académicas en el extranjero, varios de ellos mexicanos muy talentosos y muy conocidos en el uso de las matemáticas en la epidemiología.</p>
+<p>Y lo que vemos ahora es ya no una curva teórica, sino una modelación matemática basada en los datos reales, pero que con el uso de ciertos métodos muy reconocidos en las aplicaciones matemáticas a la epidemiología nos permiten ver lo que hubiera pasado y lo que está pasando.</p>
+<p>Lo explico. En la curva roja… Es una de las varias proyecciones que tenemos de todos estos grupos académicos. Y aquí comento también, seleccionamos esta porque es la que tiene la visualización más inmediata, pero en general todos los grupos coincidieron en qué es lo que podría pasar, qué es lo que está pasando, qué es lo que va a pasar. Pequeñas variaciones en fechas, en número de casos, etcétera, pero en general todos coincidieron con este mensaje.</p>
+<p>Lo que se ve en la curva roja es lo que habría pasado si no se hubieran hecho medidas de mitigación comunitaria masivas. Con esta curva, que en el pico máximo supera los 30 mil casos a nivel nacional en un solo día y que hubiera sido muy rápida, pero con una consecuencia muy importante en la saturación de los hospitales, por supuesto también los casos graves y la mortalidad.</p>
+<p>No se alcanza a ver, porque es demasiado pequeño, pero noten ustedes, en el piso de la diapositiva, en la parte inferior de la gráfica se ven unos puntitos negros, son datos reales, es la vigilancia epidemiológica y con base en esos datos se puede construir lo que habría pasado.</p>
+<p>Después ven una serie de puntitos rojos que están a continuación, son los datos a partir del 23 de marzo y hasta hace 48 horas. Y eso lo que permite es reconstruir la curva verde, y esto es igual a la parte que presenté con la diapositiva uno. La curva verde es lo que está pasando -son los puntitos rojos- y lo que se proyecta con estos métodos qué pasará si y sólo si continúan las medidas de mitigación comunitaria.</p>
+<p>Y esto quiero dejarlo muy claro. Esto no es una garantía de que ya estamos fuera de riesgo, esto depende de que continúen y se ejecuten, se cumplan correctamente las medidas de mitigación comunitaria.</p>
+<p>Esta es la gráfica para todo el país, es el resumen, pero en cada región o zona metropolitana tenemos una reproducción de estas curvas y podemos ver importantes diferencias de las predicciones, del éxito de las medidas de mitigación.</p>
+<p>Esto nos lleva a una segunda… Bueno, esta es una excelente noticia, porque lo que nos habla es que estamos teniendo éxito en las medidas que México implantó, que México anticipó al momento del cambio en la velocidad de crecimiento de la curva epidémica, pocos países lo han logrado.</p>
+<p>Y nos lleva a una segunda noticia que es importante, la hemos venido comentando, pero queremos darla a mayor detalle, que se ve en la siguiente diapositiva con un mapa de la República mexicana.</p>
+<p>La epidemia no es una sola. Aunque decimos: la epidemia de COVID en México, en realidad en cada espacio físico del país, en cada zona de la geografía tenemos distintas intensidades de transmisión. Esto lo hemos presentado todos los días con un mapa por estados, hoy lo presentamos con un mapa municipal. Nuevo agradecimiento a Conacyt y a la comunidad científica de México, porque nos han permitido también estas herramientas de visualización por nivel municipal.</p>
+<p>Noten ustedes que en la enorme mayoría del territorio nacional tenemos municipios sin casos, es lo que se ve en forma de color blanco; en cambio, tenemos algunas zonas donde el color verde muestra la intensidad de transmisión con el número de casos que se registran -como hemos explicado y lo seguiremos explicando los jueves- y los casos que se pueden estimar con la vigilancia Centinela.</p>
+<p>Es demasiado pequeño para que se vea, pero la zona metropolitana del Valle de México, como lo hemos dicho cada tarde, es donde existe la mayor intensidad de transmisión. Esto no sorprende, esto es exactamente lo que se espera, porque las zonas donde hay mayor población, desde luego tienen mayor número de casos, pero también tienen una transmisión más eficiente y donde hay mayor densidad de población por kilómetro cuadrado.</p>
+<p>También otras zonas como es Tijuana, Mexicali de hecho en este momento es donde existe la mayor transmisión, independientemente del número absoluto de casos, también las dos zonas metropolitanas de Guadalajara y Monterrey, también la zona metropolitana de Puebla de los Ángeles y también la zona urbana del municipio de Benito Juárez, en Quintana Roo, donde está Cancún; hay otros municipios que tienen distintas intensidades de transmisión como Culiacán, Sinaloa y otros que no mencionaré ahora, pero que se pueden ver en el mapa.</p>
+<p>Entonces, esta segunda observación lo que nos permite es predecir el comportamiento en forma diferencial y, como hemos mencionado, nos permite además tomar medidas más intensas en donde tienen que ser más intensas y no tan intensas donde no hay necesidad de que sean tan intensas, es decir, si lo vemos en las fases de la epidemia, no hay fases generales para el país.</p>
+<p>Cuando declaramos la fase 2, decidimos declarar la fase 2 porque habíamos anticipado cerca de 15 días antes medidas generales, medidas de aplicación nacional.</p>
+<p>Pero recordarán ustedes que desde la preparación en enero indicamos que también había intervenciones que dependen de la intensidad de trasmisión de la enfermedad en regiones específicas.</p>
+<p>Entonces en este momento hemos dicho que es irremediable llegar a la fase 3. Todavía técnicamente no estamos en la fase 3 en forma generalizada, pero hemos dicho que dada la intensidad de transmisión existen zonas que hay que tratar como fase 3.</p>
+<p>Ahora, recuerden ustedes que fase 3 depende, se define de hecho por la generalización de la transmisión, eso es lo que define la fase 3, no el número de casos, sino la generalización territorial de la trasmisión.</p>
+<p>Entonces, si lo vemos por subregiones, tenemos regiones como el Valle de México, como las zonas metropolitanas que he mencionado en donde tenemos la dispersión correspondiente a la fase 3, pero no tenemos a nivel nacional una sola fase 3 para todo el país.</p>
+<p>Posiblemente llegará el momento en donde digamos: Ya estamos en fase 3, igual que lo hicimos entre fase 1 y 2. Nos adelantamos con las medidas, cuando técnicamente llegamos al punto donde la intensidad de la trasmisión revelaba fase 2 dijimos: Ya estamos en fase 2, pero aquí -que quede claro- estamos anticipándonos nuevamente a la fase 3.</p>
+<p>En la siguiente curva, es nuevamente la misma gráfica que ya presenté, la curva esperada en rojo, la curva proyectada, es decir, lo que va a venir dado el comportamiento de la epidemia, sólo para indicar algunas fechas importantes.</p>
+<p>Hay un intervalo de fechas posibles para el pico máximo de la intensidad de transmisión, de la curva epidémica, del acmé<em>, </em>y estas oscilan entre el 8 y el 10 de mayo, hay otras predicciones un poco más optimistas de que fuera antes, un poco menos de que fuera después, pero hay un punto medio entre el 8 y el 10 de mayo, y eso nos lleva además a la duración de la epidemia.</p>
+<p>Y aquí dejo en claro, estamos proyectando este primer ciclo de la epidemia. El primer ciclo de la epidemia se puede proyectar que se extendería hasta agotar cerca del 95 por ciento de los casos esperados el 25 de junio y, como suele pasar en todas las epidemias, con un hilo, una cola, una continuidad de la epidemia ya con una transmisión muy baja que se extiende por varias semanas más. Esta es la predicción para este primer ciclo.</p>
+<p>Insisto, quiero dejarlo extremadamente claro, sí y sólo sí se mantienen las medidas de acuerdo a lo programado, las medidas de mitigación comunitaria que implican quédate en casa.</p>
+<p>Ahora, los grupos científicos hicieron las siguientes recomendaciones y estas recomendaciones se basan en la evidencia que acabo de presentar y su análisis cuidadoso. Hemos tenido repetidas y prolongadas conversaciones con esta comunidad y lo primero que recomiendan es mantener la Jornada Nacional de Sana Distancia, pero extenderla hasta el 30 de mayo, originalmente estipulada al 30 de abril, ahora se extendería hasta el 30 de mayo con el propósito de conservar la intensidad de las medidas de mitigación que están dando resultados y que si continúan seguirán dando resultados.</p>
+<p>Pero también recomendaron de manera enfática asegurar la adecuada implementación y cumplimiento de las medidas de seguridad sanitaria y esto implica el compromiso, la responsabilidad de todas y todos los miembros de la sociedad. Y ya hemos dicho, agradecimiento a quienes de manera individual o las pequeñas empresas que están cooperando también las medianas y grandes empresas que están cooperando, pero falta la cooperación decidida de otras empresas, dado que la medida está orientada a la actividad laboral para que pueda facilitarse el cumplimiento por parte de los trabajadores y las trabajadoras.</p>
+<p>Tercera recomendación, y esta es nueva, esta es importante y esta va a llevar a una decisión muy importante: regionalizar la intensidad de estas medidas.</p>
+<p>Con el mapa municipal lo que apreciamos es zonas sin transmisión o zonas de mínima transmisión. Para fines prácticos es como que estas zonas están en fase1 y en fase 1 son tan poco los casos que se puede utilizar contención y no medidas masivas de mitigación, contención, detectar casos sospechosos, diagnosticarlos y ponerlos en aislamiento a ellos, a ellas y a sus contactos.</p>
+<p>Cuarta medida, que también es nueva la recomendación, segmentar la movilidad en el territorio nacional. Esto lo que quiere decir es instrumentar mecanismos de contención geográfica. Necesitamos que las personas que viven en las zonas de baja o nula transmisión permanezcan en esa zona de baja o nula transmisión, que no se desplacen a zonas de mayor transmisión y viceversa, que quienes vivimos zonas de alta transmisión no vayamos a zonas de baja transmisión, porque esto transportaría los contagios.</p>
+<p>Recordarán que como venía la Semana Santa especificamos que no eran vacaciones y por eso enfatizamos la importancia de cerrar la actividad turística, la actividad hotelera, para que no hubiera desplazamiento, como le ocurrió a algunos de los países europeos más afectados y logramos evitarlo, logramos evitarlo, no se propagó en el territorio nacional.</p>
+<p>Y, por último, mantener aún después del 30 de mayo, cuando acaba la Jornada Nacional de Sana Distancia, la protección con estas medidas de sana distancia de las personas adultas mayores y las personas que tienen enfermedades crónicas que los hacen más susceptibles a complicarse o tener desenlaces fatales y a las mujeres embarazadas.</p>
+<p>Por lo tanto, las acciones de control que serán propuestas para su formalización en el Consejo de Salubridad General son estas tres:</p>
+<p>La Jornada Nacional de Sana Distancia permanecerá vigente hasta el 30 de mayo, pero en los municipios de baja o nula transmisión las medidas de seguridad sanitaria permanecerían hasta el 17 de mayo y posteriormente se conservaría o se recuperarían las actividades normales.</p>
+<p>Entonces, en los municipios donde hay baja o nula transmisión anticipadamente salen de las medidas de mitigación comunitaria anticipadamente y esto representa el éxito que ha habido en esas comunidades.</p>
+<p>Los municipios que tienen alta transmisión se esperan hasta el 30 de mayo y en todos los casos el 1º de junio ya recuperamos de una manera escalonada, de una manera organizada, las actividades económicas sociales y de la vida pública.</p>
+<p>Recordarles aquí que todo depende de que sigan cumpliendo las medidas. Las regiones del país donde no se cumplan las medidas no se va a lograr lo que se proyecta, va a aumentar la trasmisión y podría ser imposible, inviable, no recomendable, que se levanten las medidas. Entonces, ojo, hay que extremar la reducción con todo lo que se necesita para lograrlo.</p>
+<p>Y, tercero, que ya dijimos, se mantendrán hasta nuevo aviso las medidas de protección de las poblaciones con mayor riesgo.</p>
+<p>Concluyo, primero, agradeciendo al grupo científico. Hoy mencionamos solamente a quienes de manera directa contribuyeron con su información y con sus análisis y con sus recomendaciones, en este momento están aquí enlistados, pero hay una comunidad más grande; no quisimos ponerla en este momento, puesto que de manera directa para estas recomendaciones no fueron partícipes, pero son parte de un colectivo académico que seguirá colaborando con nosotros y les agradezco.</p>
+<p>Los menciono por institución: El CIMAT, el Centro de Investigación en Matemáticas, hay dos grupos académicos, el segundo grupo académico del CIMAT además tiene una colaboración con el Instituto de Matemáticas de la UNAM, el grupo de Conacyt, el grupo de funcionarios de la Secretaría de Salud y del IMSS que somos todos los ahí mencionados epidemiólogos y que estuvimos procesando estas recomendaciones para formularlas.</p>
+<p>Finalmente, un mapa y una tabla. En el mapa -y agradecemos aquí a Emiliano Calderón, líder de la Estrategia Digital Nacional que lo elaboró- es el mapa técnico que nos permitirá ya no solo visualizar los municipios afectados, sino los municipios en los que se va a levantar las medidas de mitigación el 17 de mayo, y esos son los que están en verde.</p>
+<p>Todas las zonas verdes van a poder regresar a la normalidad el 17 de mayo, esto incluirá la actividad escolar, se recuperará actividad escolar en esos municipios; los municipios en amarillo son aquellos municipios que están colindantes geográficamente con las zonas de alta transmisión, y obviamente los que están rojo son las zonas de alta transmisión; en estos otros tendrán que esperar hasta el 1º de junio.</p>
+<p>Y respecto a la actividad escolar que acabo de mencionar, obviamente también esto tiene que ser puesto a disposición de la autoridad escolar del país, que es el titular de la Secretaría de Educación Pública, y el Consejo Educativo Nacional, tal como lo hicimos al inicio cuando se implantaron las medidas y justamente la suspensión de las escuelas fue la primera medida que se logró.</p>
+<p>Termino con la tabla, para que vean ustedes el número de municipios que lograríamos liberar de estas medidas de mitigación, están por estado y hay tres categorías: con contagios son los que están pintados en rojo, vecinos de contagios los que están pintados en amarillo y finalmente sin vecindad y sin contagios que son los pintados en verde.</p>
+<p>Si nos vamos al final de la tabla vemos que tenemos 979 municipios que están en la zona verde, la zona que se podrá liberar más pronto y los otros gradualmente de acuerdo a como se vaya teniendo éxito, mil 21 los que son vecinos y 463 los que tienen alta trasmisión.</p>
+<p>Eso es todo por ahora.</p>
+<p>Muchas gracias, presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, esta es la exposición.</p>
+<p>Para precisar desde luego que lo que ha dado a conocer Hugo ha sido muy exhaustivo, a detalle, no hay necesidad de dar más información, pero de todas maneras hay que subrayar algunas cosas.</p>
+<p>Primero, que tenemos que seguir con las medidas de la sana distancia y quedarnos en casa, tenemos que seguir sólo saliendo a la calle por lo indispensable.</p>
+<p>En el caso de las escuelas, como es obvio, no hay regreso a clases el lunes. El regreso a clases, de acuerdo a esto que se está proponiendo, sería el 17 de mayo en los municipios donde no hay casos de coronavirus, los 900 municipios.</p>
+<p>Para eso desde luego sí y sólo si, como diría Hugo, si tenemos la disciplina, si mantenemos la disciplina que hasta ahora se ha observado, el buen comportamiento, si seguimos actuando como buenos ciudadanos.</p>
+<p>A las autoridades de estos municipios, desde luego se va a dar a conocer el día de hoy los nombres de los municipios que se dieron a conocer, solo tabla y el número de municipios, pero todos los nombres para que nos ayuden a establecer cordones sanitarios. Esto ya lo están haciendo en muchos municipios del país, es delimitar muy bien las áreas y ayudar para que no haya contagios.</p>
+<p>El 17 de mayo en estos municipios se regresa a la normalidad, esto es regreso a clases y a todas las actividades productivas, sociales con la única limitación de que los adultos mayores aún en estos municipios, las mujeres embarazadas, los enfermos de diabetes, hipertensión tienen que seguirse cuidando.</p>
+<p>En el resto del país, esto incluye desde luego las grandes ciudades que son las más afectadas, el reinicio a la actividad educativa, el regreso a clases y a todas las actividades productivas será a partir del día 1º de junio, siempre y cuando, repito, sigamos cumpliendo con las medidas.</p>
+<p>Es muy importante ver cómo se redujo la movilidad en el país a partir de que se hizo el llamado a que nos guardáramos, a que nos retiráramos, que nos cuidáramos en nuestras casas. A ver si ponen la lámina.</p>
+<p>Miren esto, esto es lo que más nos ha ayudado. Implica desde luego un sacrificio, pero es lo más eficiente. Lo que dijimos desde el principio por recomendaciones de los especialistas, estas epidemias no se curan sólo en los hospitales, se enfrentan con la gente, con los ciudadanos, con nuestras familias y esta es la prueba.</p>
+<p>Por eso no fuimos rebasados y no seremos rebasados, y no nos van a faltar camas y ventiladores, y médicos y especialistas, y vamos a salvar muchas vidas entre todos por actuar de manera consciente y responsable. Esto es lo que tenemos que seguir haciendo para regresar a la normalidad.</p>
+<p>La semana próxima, el martes, que corresponde a informar sobre salud, vamos a invitar al secretario de Educación Pública para que a partir de estos elementos ya se pueda proyectar, no sólo el reinicio a clases, sino cómo recuperar lo que se ha perdido; qué opinan también los especialistas en educación, en pedagogía y que tengamos ya un punto de vista para el regreso a clases, cuánto tiempo, cómo se va a resolver lo de las vacaciones futuras.</p>
+<p>Se mantiene el tiempo, se reduce el tiempo, se amplían las clases, eso el lunes… perdón el martes, a partir de este diagnóstico, que nos hacía mucha falta a todos, porque esto nos ayuda a organizarnos, a prepararnos, a saber cuánto tiempo más requerimos de este comportamiento solidario y también de cómo nos organizamos para que se presenten menos sufrimientos y podamos atemperar la crisis económica, la crisis de bienestar social.</p>
+<p>Por eso hago este llamado a todo el pueblo a que nos sigan apoyando, esto es lo mejor. No es una conjetura, no es una ocurrencia, es la recomendación de un grupo de expertos, de especialistas, de científicos y, lo más importante, es la salud, es la vida.</p>
+<p>Como ya sabemos, el tiempo de prolongación de las medidas de sana distancia y cómo va a continuar semiparalizada la actividad económica por el plan sanitario.</p>
+<p>Quiero adelantar, aunque la semana próxima se van a dar detalles, que hemos decidido aumentar a un millón de créditos más a pequeñas empresas familiares. En este caso, el millón de nuevos créditos sería a todas las empresas que tienen trabajadores inscritos en el Seguro Social y que actuaron con mucha responsabilidad, sobre todo las pequeñas, no despidiendo a sus trabajadores ni quitándoles o reduciéndoles el salario. A ellas va destinado este crédito.</p>
+<p>El primero se va a empezar a dispersar el 4 de mayo por la vía electrónica a los que tengan posibilidad de recibir estos 25 mil pesos, a un millón, incluye empresas familiares del sector formal y del sector informal.</p>
+<p>Empezamos la semana con lo electrónico para que no se afecte la regla y no haya mucha concentración de personas en las sucursales bancarias; ya la siguiente semana, que va a coincidir con la disminución de la epidemia, ya también de manera ordenada, de acuerdo al alfabeto, a las letras de los apellidos, se va a ir distribuyendo para que en todo mayo se entreguen los créditos, el millón de créditos.</p>
+<p>Ese es un crédito que ya se había anunciado. Ya se está trabajando en el padrón y el nuevo crédito es una ampliación acerca de otro millón de pequeños empresarios, en este caso todos los que tienen trabajadores en el Seguro Social.</p>
+<p>Le quiero pedir a Zoé Robledo que les explique en qué va a consistir este nuevo crédito, de dónde sale este dinero adicional.</p>
+<p>Ustedes recordarán que se está haciendo una gestión de conciliación, de convencimiento para algunas empresas que tienen adeudos y que tiene posibilidad de pagar, hablamos de que 15 empresas debían en general 50 mil millones de pesos, sólo hablamos de 15; de esas 15, ya se tienen garantizadas, de los 50 mil han llegado a ofrecer arreglos para pagar, 15 mil millones hasta ayer.</p>
+<p>Hay quienes están en disposición de llegar a arreglos, hay quienes de plano no quieren pagar, porque esto era una mala costumbre, no todos desde luego, pero sí había y sigue habiendo algunos que, a duras penas, con los dientes apretados, pagaban la nómina, le pagaban a los trabajadores, pero de los impuestos ni lo tenían en cuenta, no lo contemplaban y era un asunto que siempre arreglaban con influyentismo y no pagaban, era una mala costumbre.</p>
+<p>Entonces, en esos casos se va a proceder legalmente, tanto en la vía civil como en la vía penal, de acuerdo a lo que se trate: si es un fraude, pues es penal; si no, se hará por la vía civil, pero no vamos a dejar de presentar querellas, denuncias, porque lo hemos dicho muchas veces, no debe de haber, no debemos de permitir la corrupción, ni el influyentismo ni la impunidad.</p>
+<p>Entonces, ya hay empresarios que están llegando a acuerdos. Les decía, ya se cuenta con 15 mil millones y pensamos que con el tiempo vamos a poder reunir 10 mil más para financiar este millón de nuevos créditos.</p>
+<p>No descartamos que sigamos cobrando a los que tienen y deben, y esto nos puede permitir seguir bajando recursos a la gente que más lo necesita. Este nuevo crédito se va a dispersar, todos los 25 mil millones, también en mayo, ahora va a explicar Zoé en qué condiciones.</p>
+<p>Y agradecerles mucho a los empresarios, de verdad, porque han hecho un esfuerzo. Esto es tomar en cuenta a quienes en los últimos tres meses han mantenido, a pesar de los pesares, a sus trabajadores y los han mandado a sus casas pagándoles para que se cuiden.</p>
+<p>Y nos estamos encargando también -eso va a iniciar igual, a principios de mayo- de todos los que no están en la llamada economía formal, que son los más afectados, los que vivían del día a día y que ahora en están en una situación muy difícil.</p>
+<p>También comentarles en general que mayo y junio vamos a destinar la mayor cantidad de dinero público al pueblo, todo y el resto, mayo y junio, programas sociales. Va apoyo a pescadores, vamos a avanzar más entregando recursos para el mantenimiento de escuelas con la idea de que las sociedades de padres de familia, al tener los recursos, contraten a maestros de obras, a trabajadores y se reactive la economía impulsando la industria de la construcción; lo mismo vamos a hacer con vivienda, con obras.</p>
+<p>Todo se va a destinar en mayo y junio del presupuesto público sin dejar de tener los fondos para el funcionamiento del gobierno hacia adelante, pero lo que queremos es bajar más recursos.</p>
+<p>Estamos modificando el calendario de entrega de fondos, adelantando, para fortalecer el consumo, que la gente tenga recursos para comprar sus mercancías y satisfacer lo básico, que no les falte, ese es el compromiso.</p>
+<p>Entonces, Zoé, a ver si nos explicas.</p>
+<p>De todas maneras, todo el plan de recuperación la semana próxima se va a explicar, porque ya tenemos esto, que es la base, ya sabemos cuál va a ser el comportamiento de la pandemia. De todas formas, vamos a ir viendo lo proyectado con la realidad; como todos los días se informa, vamos a ir viendo si se cumple.</p>
+<p>Puede haber imprevistos, pero es ciencia exacta, no es de aproximaciones. La política, por ejemplo, no es ciencia exacta, es de aproximaciones, pero esta es ciencia pura y por eso la confianza en que va a ser como lo están proyectando los especialistas. Por cierto, a ver si Hugo pone la lámina de los que participaron en esta proyección para que se sepa quiénes son.</p>
+<p>A ver, la lámina nada más.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Gracias. La lámina de los agradecimientos.</p>
+<p>Como decíamos, en esta lámina aparece un grupo más reducido de quienes directamente formularon esta proposición, pero son siete grupos académicos que en su momento pondremos de manera extensiva una vez que corroboremos que todos ratifican su respaldo en este sentido de las recomendaciones específicas.</p>
+<p>Pero aquí están el Centro de Investigación en Matemáticas está Graciela González y Rogelio Ramos Quiroga. Todos ellos son doctores en matemáticas o en matemáticas aplicadas en distintas especialidades de la matemática y todos ellos son investigadores nacionales del Sistema Nacional de Investigadores niveles 2 y 3.</p>
+<p>El doctor Antonio Capella que también, bueno, él es del Instituto de Matemáticas de la UNAM, las representaciones gráficas y las modelaciones matemáticas que amparan estas representaciones gráficas proceden directamente de este grupo.</p>
+<p>Antonio Capella, del Instituto de Matemáticas; Andrés Christen y Marcos Capistrán, del CIMAT, del propio Centro de Investigación en matemáticas en otro campus.</p>
+<p>De Conacyt la propia doctora Elena Álvarez-Buylla, quien es también investigadora nacional de la Universidad Nacional Autónoma de México; la doctora Paola Villareal y Arturo Garduño.</p>
+<p>Y de la Secretaría de Salud participamos, bueno yo mismo, que también soy del Sistema Nacional de Investigadores nivel 2 y doctor en epidemiología; el doctor Ruy López Ridaura, que ya ha venido varias veces, es el director general del Centro de Prevención de Programas Preventivos y Control de Enfermedades, Cenaprece, también es doctor en epidemiología y es investigador nacional; el doctor José Luis Alomía Zegarra, quien es el director general de Epidemiología, también es epidemiólogo y es maestro en sistemas de salud; y el doctor Víctor Hugo Borja Aburto, quien es el director de Prestaciones Médicas del Instituto Mexicano del Seguro Social, también epidemiólogo y también investigador nacional nivel 3.</p>
+<p><strong>ZOÉ ROBLEDO ABURTO, DIRECTOR GENERAL DEL INSTITUTO MEXICANO DEL SEGURO SOCIAL (IMSS):</strong> Con su permiso, señor presidente.</p>
+<p>Muy buenos días a todas y a todos.</p>
+<p>Hace una semana en este mismo lugar presentamos junto con la secretaria del Trabajo una exposición sobre el comportamiento de los desempleos que se habían generado producto de esta pandemia a partir del 13 de marzo, que fue la fecha en la que empezamos a observarlo, en vinculación con el tamaño de las empresas en las que trabajaban estas personas.</p>
+<p>Y la verdad, que es muy coincidente con lo anterior, respecto al comportamiento de las comunidades. Lo ha dicho el presidente, lo pequeño es bello, porque estas pequeñas empresas tenían un comportamiento solidario con sus trabajadores y esto no se replicaba necesariamente con las grandes empresas, que eran las que estaban dando más de baja.</p>
+<p>Nosotros tenemos un criterio. Hay empresas que dan de baja para compensar los ingresos y hay otras que resisten porque la vinculación cuando son pequeñas empresas con menos trabajadores quizás son más personales, o porque cuando van a dar de baja a las personas es porque ya van a cerrar; entonces, el comportamiento parece ser diferente.</p>
+<p>En ese sentido -si pueden pasar la siguiente- en el Seguro Social, si vemos el número de registros -no patronales, porque tenemos los registros patronales- sino los RFC, tenemos estos grupos de empresas por número de trabajadores.</p>
+<p>Es decir, de uno a cinco trabajadores de 923 mil empresas registradas en el Seguro Social, tenemos 623 mil, es decir, es el grupo más grande, son 67.5 por ciento del total de las empresas registradas; después, el siguiente grupo, de seis a 10 trabajadores son 13.6 por ciento y así; de 10 a 20, son el 8.3; de 20 a 50, 5.8, y de más de 50 trabajadores, el 4.9 por ciento.</p>
+<p>Insisto, esto es el número de registros, es decir, el número de patrones si lo vemos en términos del pago de cuotas. Es solamente para observar en qué sectores es donde están estas empresas, las más pequeñas, hasta cinco trabajadores, la parte de transformación, pero sobre todo comercio y servicio para empresas, son las que concentran más.</p>
+<p>Entonces, en este caso los comercios son las misceláneas, los abarrotes, pequeños comercios que hay por todo el país y que tienen ese porcentaje o ese número de trabajadores, entre uno y cinco trabajadores, luego de cinco a 10, se sigue comportando más o menos igual, con distribuciones similares.</p>
+<p>Entonces -si podemos ver la siguiente- el planteamiento que se está presentando el día de hoy es que a las empresas que hayan conservado a sus trabajadores, el promedio de sus trabajadores durante los últimos tres meses y el salario de estos -porque también hemos visto comportamientos en donde no se da de baja al trabajador, pero sí se baja el nivel salarial- a las empresas que no han dado de baja a la plantilla ni han bajado el salario, se ofrecen estos créditos a la palabra por 25 mil pesos. Serían a pagarse en un plazo de hasta tres años a partir, como ya lo ha mencionado el presidente, del 4 de mayo mediante transferencias electrónicas.</p>
+<p>Y, por último, si lo podemos ver acá, estas serían las tasas de interés. Para las empresas de uno a 10 trabajadores, una tasa de interés del 6.5 por ciento, como se ha dicho, distribuido a esos tres años; de 10 a 20 trabajadores, una tasa del 7.5 por ciento; de 20 a 50 trabajadores, una tasa del 8.5 por ciento; y ya más de 50 trabajadores, una tasa del 10 por ciento.</p>
+<p>Aquí es importante decir, se ha mencionado en otras ocasiones, el día de hoy la tasa de interés interbancaria de equilibrio del Banco de México es de 6.5 por ciento para, digamos, la tasa con la que el banco le da a los otros bancos, es decir las transferencias. Entonces, la tasa inicial que es idéntica a la tasa de interés interbancario de equilibrio es prácticamente la transacción.</p>
+<p>Son créditos que no existen en la banca comercial, nadie hoy presta el 6.5 por ciento, incluso al 10 por ciento es también muy difícil; y creemos que sobre todo para este primer grupo, que es un número importante de empresarios, de patrones, puede ser algo muy favorable justamente para los próximos meses y además algo que va a ser muy fácil de poder aplicar.</p>
+<p>Las condiciones, digamos, las reglas de operación son estas, las que se han señalado: que no hayan dado de baja, que hayan mantenido la plantilla y que hayan mantenido los niveles salariales para que entonces nosotros podamos identificar claramente quiénes son estos trabajadores… perdón, estos empresarios, estos patrones que han sido solidarios con sus trabajadores y que en este momento en el que se está ampliando las medidas de contingencia, tendrán una forma también no sólo de retribuir, sino de también mantener esta actitud, esta conducta solidaria.</p>
+<p>Gracias, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Esto se va a explicar más la semana próxima, también simplificada. Se les va a informar a todos los empresarios, ellos ya saben y se les va a decir: ‘presentante a este banco o llama a este banco y te van a entregar el recurso, no vas a dejar nada en garantía, es la palabra’, como en todos los créditos, porque la mayor riqueza de México es la honestidad de su pueblo, la mayor riqueza de México es la honestidad de su pueblo; entonces, nada de papeleo.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Ya para la próxima semana tenemos ya definidos qué bancos y a dónde tienen que llamar, ya se tienen los padrones y a recibir su dinero, y hasta el cuarto mes empiezan a abonar.</p>
+<p>Si es la tasa de 6.5, son como 850 pesos mensuales hasta el cuarto mes, 36 meses, pero tienen tres meses con los recursos que en algo ayudan, sobre todo a los pequeños, porque hay miles de pequeñas tiendas de abarrotes, papelerías, fondas, que tienen a sus trabajadores, muchas veces ellos también están inscritos, son, vamos a decir, empresarios o patrones y al mismo tiempo… o una persona de la familia está inscrita por el servicio médico, por el poder tener la seguridad social.</p>
+<p>Entonces, esto es también lo que se procura, que sigan teniendo servicio médico y nosotros también seguir aplicándonos para que cada vez sea mejor el servicio médico.</p>
+<p>De eso vamos a hablar también adelante, cómo estamos invirtiendo ahora por el coronavirus. De todas maneras, ya lo estábamos haciendo, ahora se acelera el plan para mejorar el sistema de salud, más contratación de personal, más adquisición de equipos, rehabilitación de hospitales.</p>
+<p>Fui hace una semana a Cuernavaca a ver un hospital abandonado del Issste en el centro de Cuernavaca y decidimos rehabilitarlo, y ya está el presupuesto, 280 millones de pesos, en manos de los ingenieros militares y va a estar ya terminado en mayo de rehabilitar, reforzar para que nos ayude en la atención de enfermos por la epidemia, pero va a quedar ya equipado, completamente rehabilitado y se le va a entregar de nuevo al Issste, pero ya en una situación distinta, porque llevaba años de abandono.</p>
+<p>Entonces todo esto está llevando a apresurar acciones, avanzar lo más que podamos. Esto es en general lo que queríamos el día de hoy informar.</p>
+<p>Agradecer mucho a medios de información que se enlazaron para que la gente se enterara más. Estoy seguro que millones de mexicanos nos están viendo, están escuchando lo que se está transmitiendo desde Palacio Nacional.</p>
+<p>Ahora no sólo fueron los medios del gobierno, Face, el Twitter, el YouTube, que siempre se utiliza, las redes sociales, que tienen muchos voluntarios que ayudan a transmitir información, que también mañana vamos a dar a conocer qué medios de enlazaron voluntariamente, ¿cómo se llamaba antes?, cadena nacional, ya no hay cadenas, ya se rompieron las cadenas, ahora todo es voluntario, pero sí están ayudando muchos medios para que se tenga información suficiente.</p>
+<p>Abrimos.</p>
+<p><strong>PREGUNTA:</strong> Gracias, presidente. Buenos días. Isabel González, de <em>Grupo Imagen</em>.</p>
+<p>Para preguntarle, con base en lo que dijo el subsecretario, solamente para clarificar: ¿la fase 3 como tal en las zonas en donde está el alto contagio cuándo se declararía?, ¿hasta la próxima semana? Se hablaba del día 23, se ha hablado también del día 19 de abril. ¿Cuándo sería esto?</p>
+<p>Sería mi primera pregunta.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues eso tiene que ver más con Hugo.</p>
+<p><strong>INTERLOCUTORA:</strong> Y adelantarle también, el porcentaje de población que abarca estos municipios que no tienen contagio y los que sí tienen contagio, porque creo que es un dato que no localicé en las tablas.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Sobre esto más tarde vamos a poner la lista completa de municipios por su población, en este momento le digo un número muy grueso, que es cerca de 27 por ciento de la población, pero no se quede con esa cifra, al rato lo vamos a publicar con el dato exacto del número de población de acuerdo al censo que reside en estos municipios en cada categoría.</p>
+<p>Y respecto al tema de la fase 3, aquí lo hemos venido diciendo, pero lo quiero volver a plantear. En la narrativa pública se tiene esta apreciación de una progresión lineal de menos severidad en las intervenciones a más severidad y a más severidad, como si fuera relacionada con el número: la fase 1 es menos intensa, la fase dos es más intensa, la tres es más intensa, cuatro, cinco, seis. No funciona así, no funciona así.</p>
+<p>Aquí se trata de un uso racional de la evidencia científica para tener la mejor combinación de intervenciones que llegue al punto óptimo, al más adecuado punto de balance entre el control de la epidemia y que no haya daños a la sociedad, esa es la idea básica.</p>
+<p>Entonces, no hay una sola progresión de que cada vez son más severas las intervenciones, no, Como lo acabamos de mostrar, aquí lo que tenemos que analizar… Y eso es específico de cada país, como se puede ver incluso de cada región, entonces perfectamente puede ocurrir, ha venido ocurriendo y lo hemos respaldado en todo momento que haya regiones que tienen un escalamiento más rápido de las intervenciones de restricción de la movilidad en el espacio público.</p>
+<p>El Valle de México, desde hace casi cuatro semanas se estableció este comando de coordinación o grupo técnico de coordinación de común acuerdo entre la jefa de gobierno de la Ciudad de México y el gobernador del Estado de México.</p>
+<p>Está apoyado por múltiples instituciones, tanto federales como locales, y se toman decisiones que no guardan una relación temporal estricta o idéntica a las disposiciones nacionales, porque a nivel nacional nosotros tenemos que velar por el conjunto de todos los municipios de todo el país.</p>
+<p>Y el país, como lo mostramos en el mapa, tiene distintas epidemias, es casi como si fueran distintas epidemias que actuaran de manera independiente.</p>
+<p>Entonces, hay que quitarnos ya esta idea de: ‘Ahí viene la fase 3 y ya ahí viene el gran anuncio y ahora sí…’ No, no funciona así.</p>
+<p><strong>INTERLOCUTOR:</strong> Porque usted dijo que va a venir, por eso lo pregunto.</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> Va a venir, no es una cosa que se programe. Lo que sí se programa y se analiza todos los días es el momento de oportunidad. Nosotros diseñamos las intervenciones desde enero, cuando encontramos el momento óptimo de acuerdo al plan para empezar las medidas de fase 2, aunque técnicamente no estábamos en fase 2, porque la fase se define por la transmisión comunitaria sostenida y la pérdida de trazabilidad de los contagios, dijimos: Este es el momento de poner las medidas de fase 2 y nos adelantamos 15 días. Lo mismo estamos haciendo aquí.</p>
+<p>Hay un momento, no es predecible, exactamente predecible, en donde tendremos suficiente dispersión en el territorio para considerar fase 3, pero nos adelantamos ya con las medidas que son procedentes.</p>
+<p><strong>INTERLOCUTORA:</strong> En el caso, por ejemplo, del Instituto Mexicano del Seguro Social, se habla de que la empresa que fue contratada para entregar ventiladores hay una información que hoy publica <em>Excélsior</em>, que no los entregó. ¿Qué pasó? Si es tan amable en poder explicarnos el director del IMSS.</p>
+<p>Y, presidente, con base en estos estudios ¿qué le han dicho los expertos?, ¿qué tanto va a cambiar la vida?</p>
+<p>Cambia la vida del planeta antes de la pandemia y después de la pandemia. ¿Qué tanto va a cambiar la vida, por ejemplo, en nuestro país de las personas?, el poder ir a la escuela cuando termine justamente, este periodo tan grande.</p>
+<p>Dinamarca ayer es el primer país europeo que regresa a clases, pero no regresaron todos los chicos, no regresó todo el estudiantado, regresó sólo una parte, incluso los más pequeños y con ciertas medidas de seguridad.</p>
+<p>¿Qué tanto va a cambiar la vida?</p>
+<p><strong>ZOÉ ROBLEDO ABURTO:</strong> Muchas gracias. En el tema de los ventiladores nosotros hemos insistido que en todo el mundo, si revisamos los casos de todos los países que nos antecedieron, el asunto se ha tornado muy complicado para todos y hay que hacer esfuerzos por varios frentes.</p>
+<p>En el Seguro Social tenemos por lo menos cinco frentes para el tema de los ventiladores. Uno desde luego es la compra con el gobierno chino, que está coordinando la cancillería y en la que estamos sumados con el Seguro Social.</p>
+<p>La otra es un inventario que se hizo en las últimas semanas, hay que ver que son inventarios de equipo en muchos casos de equipo que se compró hace 40 años, equipo que quizá hace 10 años termino su vida útil y seguía ahí.</p>
+<p>Hicimos un inventario exprés para identificar. Encontramos 24 marcas distintas de ventiladores en el Seguro Social, identificamos cuáles no estaban en servicio porque les faltaban consumibles, porque les faltaba, no parte del equipo, sino un consumible, cuáles estaban ya para salida y cuáles podrían encontrar reparación.</p>
+<p>Ahorita tenemos, en el Centro de Ingeniería de Michoacán, en Morelia, una estrategia con 321 ventiladores que se están reparando, se toman piezas de unos para reparar otros, ponerlos a andar, probarlos y después ponerlos a disposición. Ese es el segundo frente.</p>
+<p>El tercero tiene que ver con las compras locales, en las delegaciones. Ahí los delegados, los hoy representantes, todos, personal del Seguro Social afortunadamente que conocen, todos son médicos y médicas, enfermeros y enfermeras, entraron a un proceso de renta. Hay muchas, aquí en la Ciudad de México, en el Estado de México y en Tijuana han dado buen resultado porque hay clínicas muy pequeñitas privadas que no están en función y por alguna razón tenían algún ventilador, pues se los estamos rentando para esta situación que vivimos.</p>
+<p>Ha habido incluso algunas donaciones, ese es otro frente que tenemos.</p>
+<p>Estamos participando en un cuarto frente con los prototipos que desarrolla Conacyt, en el caso del prototipo de Querétaro y otro de Saltillo que se están probando al interior del Seguro Social.</p>
+<p>Aclaro, en el Centro de Simulación y con el pulmón artificial ahí es donde se prueban, y que hay algunos casos, por lo menos dos de siete prototipos, dos están siendo muy prometedores porque estarían vinculados a que rápidamente a que algunas industrias se pudieran reconvertir para empezar a producirlos.</p>
+<p>Hago esta exposición porque la carrera por los ventiladores, esto va a ser largo, no es un asunto que se resuelva… Yo he insistido en decir que todo esto siempre se va a estar conjugando en gerundio: estamos resolviendo, estamos solucionando, estamos enviando. No hay soluciones finales y totales, pero hacemos el esfuerzo máximo para encontrar.</p>
+<p>Ahora, en ese caso que ha sido tan polémico, no es un tema de <em>Excélsior</em> de hoy, es un asunto que publicó la asociación esta Mexicanos contra la Corrupción y contra la Impunidad, y ellos lo que planteaban era que el Seguro Social en una compra centralizada había comprado a una empresa con sede en el país que había tenido problemas con alguna autoridad norteamericana, en particular con la SEC, que es por sus siglas en inglés la reguladora del mercado de valores, que no tiene que ver con temas de salud.</p>
+<p>Yo ahí sí quiero decir, nosotros cuando empezamos a buscar a los productores que generalmente le venden al Seguro Social, digo las marcas: General Electric, Metronic, Dräger, algunos norteamericanos, otros alemanes, lo que nos manifestaban era que en este momento ellos tenían una indicación de sus gobiernos nacionales de, primero, venderle a sus gobiernos para producción local.</p>
+<p>En algunos casos habían cerrado, incluso fronteras, en Alemania, en Italia pasó lo mismo, se habían cerrado las fronteras a la exportación de esos países, entonces, nos decían: ‘Te vendo, pero te entrego en julio o en agosto’. Pues eso es lo mismo que nada.</p>
+<p>En ese sentido, nosotros empezamos, junto con varias de las instituciones, a buscar, a hacer estudios de mercado y exploraciones de mercado. Ahí lo que ocurre es: vienen las proveedurías comercializadoras, nunca hemos… ahí ya no había posibilidad de hablar con los productores que venían a ofrecer, muchos con precios muy elevados sin duda, simplemente por el tipo de cambio y porque además el precio de un ventilador hoy tiene que ver con el momento de su entrega.</p>
+<p>Si nosotros queremos comprar barato pues compramos a septiembre, pero en ese momento no nos sirve de absolutamente nada, ese sería el peor acto deshonestidad que pudiéramos hacer, comprar algo que nos lo van a entregar cuando esto ya se haya terminado.</p>
+<p>Ahí es donde apareció un proveedor que ofrecía a 15 días después de la celebración de un contrato la entrega de los ventiladores. Esa asignación se hizo el 30 de marzo, es decir, hace 15 días exactamente. Y es una asignación, toda la información que se ha publicado es información que está en Compranet, no es porque la hayan descubierto o haya llegado a las manos de este medio, sino que está en Compranet.</p>
+<p>Bueno, el asunto es que se ha comparado con una solicitud, con una cotización que se hizo a la productora. El problema es que lo que no se dice, y la estuve revisando, es que dicen: este modelo cuesta seis mil dólares, uno, que no estábamos comprando en 40 mil, se estaba comprando en 29 mil, es un sobreprecio enorme, pero la cotización que hicieron, lo que no se dice, no por parte de <em>Excélsior</em>, sino por parte de esta otra organización, es lo que les contestan, es que la entrega es a julio, es una entrega a julio sin certificación y ahí dice, lo digo en inglés, <em>No stock</em>, o sea, dice: ‘No tengo en inventario, pero te lo voy a conseguir y en julio te lo entrego’.</p>
+<p>Pues claro, si nosotros quisiéramos simular que estamos comprando barato, pues compro a julio y seguramente me van a dar esta misma situación, en el mismo modelo, que es un modelo de… que es un productor chino, al que además el Seguro Social nunca le hemos comprado, estamos comprándole en esta situación emergente. Ahora, en ese sentido, no se ha erogado un peso a esa compra.</p>
+<p>¿Qué es lo que ocurre a partir de las 12:00 de la noche de ayer al no haber entregado en tiempo estos productos?</p>
+<p>Se puede rescindir el contrato o si se llega a comprar se compra con una penalización.</p>
+<p>¿En función de qué?</p>
+<p>De lo que entregue, de lo que puedan entregar, era una compra grande que se registra en la cartera de inversión; pero en este momento no se ha pagado un peso de esos ventiladores, son una asignación, se rescinde el contrato.</p>
+<p>Pero sí lo digo muy claro: nosotros, nuestra prioridad es encontrar los ventiladores, eso es lo más importante, y hacerlo con toda la transparencia, eso me queda clarísimo.</p>
+<p>Nosotros trabajamos en el Seguro Social en un modelo de…, como lo hace el gobierno federal, en donde está el Órgano Interno de Control permanentemente, su titular de la Función Pública en el IMSS está ahí y ahí estamos tomando las decisiones.</p>
+<p>Pero insisto, no es una situación ni del Seguro ni de México, la lucha por conseguir ventiladores ha sido algo que han batallado todas las instituciones privadas y públicas en todo el mundo. Y sí, los precios se fueron… nosotros hemos hecho llamados desde el inicio a que los comercializadores tengan una actitud diferente, pero la prioridad está ahí.</p>
+<p>Entonces, a partir de eso es que lo puedo decir con toda claridad: no se ha pagado un peso en ese sentido, se hizo una valoración documental, es decir, con los papeles que proveían, pero incluso si llegan a estar en el país para entrega se tiene que hacer también una valoración técnica en vivo con los materiales ahí y a partir de eso es como se toma una decisión.</p>
+<p><strong>INTERLOCUTORA:</strong> Gracias. Sobre…</p>
+<p><strong>PREGUNTA:</strong> Buenos días. Ya me la había dado.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ahorita te contesto.</p>
+<p><strong>PREGUNTA:</strong> Buenos días, Juan Hernández, de <em>Grupo Cantón</em> y del periódico <em>Basta</em>.</p>
+<p>Referente a este señalamiento que estos empresarios, estos 15 grandes empresarios, si nos podría compartir quiénes son los que ya se han… bueno, los nombres de estos empresarios que ya entraron a esta fase donde van a recuperar este dinero y van a aportar estos recursos precisamente para estos programas que usted va a echar a andar sobre esta situación.</p>
+<p>Ya la segunda, sobre esto, que ya acaban de dar este panorama de ya tener bien definido las curvas, el fin del digamos, de las fases. ¿Cómo va a ser el trabajo en este caso del presidente de la república?, ¿va a realizar las giras?, ¿va a ir a hospitales donde hay… va a hacer visitas a hospitales?, ¿cómo va a ser esa nueva jornada de trabajo a partir de hoy?</p>
+<p>Y finalmente, bueno, retomando la parte de los empresarios, también hay una gran parte de mexicanos que son morosos, que no le han pagado al fisco. ¿Ahí con ellos también va a ser el mismo llamado?, ¿cómo van a ser las condiciones precisamente para que ellos se pongan al corriente con los impuestos?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Nosotros vamos a continuar predicando con el ejemplo, tenemos que seguir cuidando que en todo el gobierno se cumpla con la sana distancia, evitar contagios. Esto lo hacemos en las reuniones que se tienen a diario, en las salas no hay más de 50, aquí mismo en los actos. Eso va a continuar.</p>
+<p>En mi caso lo mismo, me cuido con la distancia adecuada. Lo empecé hacer hasta en las giras, que es, por cierto, muy incómodo, porque yo estoy acostumbrado no sólo a saludar, sino a abrazar y también a besar, y ahora pues no, es de lejos, y así vamos a continuar.</p>
+<p>Tenemos todos que seguir las recomendaciones, porque por eso son buenos los resultados. Ya un día vamos a compararnos con lo que ha pasado en otros países del mundo, pero les adelanto, somos los mexicanos de los mejores del mundo en comportamiento y en buenos resultados, de los mejores del mundo los mexicanos.</p>
+<p>Nada más que vamos a esperarnos, no adelantemos vísperas, vamos muy bien y por eso vamos a seguir con todas las recomendaciones. Estamos trabajando para desatar todas las acciones de apoyo a la economía, como les comentaba, en mayo y junio. Ya se está trabajando con ese propósito, vamos muy avanzados.</p>
+<p>Y cuando podamos salir, con cuidado pues vamos a visitar, por ejemplo, las refinerías, porque necesitamos adelantar los planes de rehabilitación de las refinerías para procesar más crudo en el país y producir más gasolinas, comprar menos gasolinas en el extranjero; entonces, son de las prioridades.</p>
+<p>Yo ayer les comentaba que tenía una reunión con los servidores públicos del Banco de México, pero no, es hoy que tengo esa reunión, me equivoqué, hoy.</p>
+<p>¿Para qué?</p>
+<p>Para ver si los convenzo de que nos adelanten lo que nos tienen que dar en abril, porque nos corresponde, por la garantía que existe. Si hay depreciación de la moneda el Banco de México tiene que compensar a la Secretaría de Hacienda.</p>
+<p>Entonces, esto de acuerdo a la norma es abril, pero podríamos buscar un mecanismo para que se adelantara ese recurso o parte de ese recurso con el compromiso de que si al final del año, que es lo que espero, se fortalece el peso, es decir, se regulariza la situación cambiaria, se aprecia nuestra moneda, como veníamos, todo el año pasado se apreció el peso.</p>
+<p>A partir de enero, por el coronavirus, se ha depreciad. Nos ha ayudado mucho el que todo el 19 se apreció el peso, llegó a ser el primer lugar el peso como moneda fuerte con relación al dólar en el 2019 y ya a partir de la crisis del coronavirus se depreció el peso; pero como traíamos una ventaja, pues la fortaleza de nuestra moneda, eso nos ha ayudado también a resistir mejor la crisis económica, la crisis financiera.</p>
+<p>A eso también me estoy dedicando, porque el compromiso es que salgamos de esta crisis sin endeudar a México. En otras crisis lo primero es pedir dinero prestado a organismos financieros internacionales o a los bancos.</p>
+<p>Y aprovecho también para hacerle una recomendación respetuosa a los gobiernos estatales, que no a la primera de cambio recurran a créditos y que se utilice como excusa o argumento la crisis del coronavirus, porque no hemos dejado de enviarles a los estados sus participaciones; entonces, que primero, antes de recurrir a un crédito, que hagan un esfuerzo de austeridad republicana, que reduzcan los costos en el gobierno, que le cueste menos al pueblo mantener al gobierno. Esa es una fórmula, eso permite ahorros.</p>
+<p>Y lo otro es que no haya corrupción. La corrupción hay que combatirla, no sólo por razones de índole moral, sino porque se liberan muchos fondos para el desarrollo.</p>
+<p>Bueno a eso me estoy dedicando.</p>
+<p>Acerca de los empresarios, cuando se dio a conocer que enviaba yo la carta al presidente del Consejo Coordinador Empresarial de 15 empresas que tienen recursos y que deben según el SAT, 50 mil millones de pesos, a partir de ahí algunos se han acercado al SAT, han llegado a revisar cuentas y hasta ahora se tiene un compromiso de que van a pagar, de esos 50, 15 mil millones, eso ya se tiene.</p>
+<p>De esas 15, en general -no puedo decir los nombres porque legalmente no está permitido y además no es conveniente por cuestiones de ética y de humillación- pero sí hay de esas 15, sí les puedo decir, algunas que dijeron: ‘No, vámonos al pleito.’</p>
+<p><strong>PREGUNTA:</strong> ¿Un porcentaje?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, yo creo que mañana les puedo informar a detalle cuántas no quisieron nada y quieren irse; claro, tienen el derecho de acudir a las instancias legales, como también nosotros. Les aclaro que de las 15, no todas pueden ser denunciadas por la vía penal, pero sí hay quienes, según el SAT, cometieron fraude fiscal y cae en la esfera del derecho penal.</p>
+<p>Y yo también espero que ellos comprendan que no es nada personal, es una regla en el gobierno. Todo aquello que implique una ilegalidad se procede, sea quien sea, ya no hay impunidad. Y además, el presidente no puede ser tapadera, no debe ser tapadera porque pierde autoridad.</p>
+<p>Imagínense si llega la directora del SAT o el secretario de Hacienda o el de Inteligencia Financiera y me presenta una evidencia de fraude, y yo les digo: Guarda ese asunto, espérate, no es tiempo ese funcionario lo primero que imagina es: ‘El presidente está actuando en complicidad con un presunto delincuente’.</p>
+<p>Entonces, no, ni con el funcionario más cercano, con un familiar, con nadie. Si hay una denuncia, tiene que darse curso a esa denuncia. Esa ha sido la regla y va a seguir siendo la regla y ojalá lo entiendan, ya no va a haber encubrimiento. Andaba yo buscando la palabra adecuada, porque esto es como la geometría del lenguaje, ponerle las palabras en donde deben de ir, exactamente es encubrimiento, no complicidad. No podemos encubrir a nadie.</p>
+<p>Como ya están estos 15 mil millones y estamos seguros de que otros que no están en los 15, pero que sí hay, se hizo esta lista de 15 porque son muy grandes, imagínense 15 que deben 50 mil.</p>
+<p>¿Cuál es el promedio?</p>
+<p>Como siete mil 500 millones por empresa.</p>
+<p>¿Cuánto es siete mil 500 millones?</p>
+<p>Muchísimo, por empresa, y además tienen para pagar, porque no es un promedio de siete mil 500 y que no tengan. No, estamos hablando de empresas que sí tienen para pagar esa cantidad. Ese es el promedio, ¿no?, más o menos.</p>
+<p><strong>PREGUNTA:</strong> Son más o menos tres mil millones</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Tres mil millones?</p>
+<p><strong>PREGUNTA:</strong> Tres mil quinientos</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Exactamente.  Tres mil 500, tres mil o tres mil 500 cada uno y tienen para…</p>
+<p>Afortunadamente, les decía, ya hay 15 mil comprometidos en cuanto a esto. Es que es tres mil 500 en promedio, porque hay unos, hay uno que tiene cerca de 10 mil, o sea, hay dos así, que me acuerdo.</p>
+<p>Los dos</p>
+<p><strong>PREGUNTA:</strong> Presidente, buenos días. Luis Méndez, de <em>Notimex</em>.</p>
+<p>Me gustaría preguntarle sobre estos créditos, este nuevo millón. ¿Cuántos serán para empresas formales específicamente que tienen trabajadores en el IMSS?, porque usted habla de formales e informales, ¿cómo se está construyendo este censo?</p>
+<p>Usted nos señala que ya hay un padrón de beneficiarios, pero ¿cómo -la gente se pregunta- cómo puede aspirar a un crédito si no está en estos censos, en estos padrones que ya se tienen?</p>
+<p>Y si está contemplando usted el apoyo a artistas, a teatreros, músicos.</p>
+<p>Y si se está contemplando que se mantenga algo que ellos están exigiendo, que es que el Fonca y el Foprocine, que son dos fideicomisos, ¿qué va a pasar ahí?, porque la comunidad artística y cultural señala que también tendrían que tener algún tipo de atención.</p>
+<p>Y si me permite, una segunda pregunta al subsecretario, presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Los está haciendo de manera ordenada… En el primer caso es un censo que ya se hizo para los programas de bienestar. Y hay más de cinco millones de solicitudes y de ahí se está haciendo la selección con una serie de criterios para que la mitad de ese millón de créditos, 500 mil sea para quienes están en la economía formal y 500 mil para los que están en la llamada economía informal, en eso, sí, la primera.</p>
+<p>En el caso de la segunda es sólo para los que tienen trabajadores inscritos en el Seguro Social dándole más atención, preferencia a los pequeños, sobre todo en cuanto a la tasa de interés, que no hay en el mercado una tasa de interés así, de 6.5 anual, esa es la que fija para operaciones interbancarias el Banco de México.</p>
+<p>Entonces, sí, realmente es un apoyo y los tres años con tres meses, vamos a decir, de gracia, pues equivale a pagar 850 pesos mensuales, eso ayuda mucho.</p>
+<p>Acerca todos los sectores, por ejemplo, en el caso del Seguro Social… A ver si ponen la tabla la de los empresarios, las actividades que se dedican. Sí, esa. Miren, por ejemplo, en el caso del comercio, son dueños de tiendas de abarrotes, de papelería, de establecimientos comerciales de todo tipo, estamos hablando de 255 mil, es bastante; ferreteros, o sea, restauranteros no sé si esté, restaurante está en comercio.</p>
+<p><strong>ZOÉ ROBLEDO ABURTO:</strong> Debe de estar entre servicios sociales o comercio, creo que está en comercio.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Entonces, es importante.</p>
+<p>Acerca de lo del Fonca, que se ha hablado mucho, y de otros fideicomisos. Mire, ponía yo el ejemplo del Conacyt, que ahora nos ayuda tanto, ¿y por qué nos ayuda tanto el Conacyt?, por la directora, porque esto tiene que ver mucho con las personas; puede existir una institución buena, noble, pero si el que la dirige no es la persona idónea, pues esa institución no sale adelante, no cumple con su propósito.</p>
+<p>Aquí el Conacyt ahora está en manos de una profesional, es Premio Nacional de Ciencias la directora de Conacyt, María Elena, Premio Nacional de Ciencias, igual que el secretario de Salud. ¿Cuándo?, ¿en qué gobierno?, ¿en qué gobierno el secretario de Salud o secretaria de Salud y el director del Conacyt o directora del Conacyt habían sido distinguidos como premios nacionales de ciencia?</p>
+<p><strong>PREGUNTA:</strong> (Inaudible)</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, pero ¿quién era el de Conacyt?, no sabemos. Digo, a lo mejor sí, habría que ver, pero yo creo que nunca se había visto. María Elena es una mujer con convicciones, profesional y honesta.</p>
+<p>Entonces, el Conacyt tenía 62 fideicomisos, porque para todo era fideicomiso y puro influyentismo, y destinar recursos a financiar empresas. Les voy a dar algo de tarea ahora que necesitamos ir aprendiendo, ahorita, porque te voy a contestar tu pregunta, es interesante.</p>
+<p>Indaguen en los países del mundo cuánto aportan las empresas privadas para la ciencia y la tecnología y comparen lo que aportan las empresas privadas de México en ciencia y tecnología. Aquí es el gobierno el que les da a las empresas.</p>
+<p>Entonces, está bien, es un apoyo para el fomento a la ciencia, a la tecnología, a lo que ahora se llama la innovación tecnológica, está bien, pero había mucha dispersión de recursos.</p>
+<p>Entonces, ¿qué dice María Elena?</p>
+<p>Dice: ‘Con dos fideicomisos de los 62 que nos queden tenemos’. Ella así lo ha expresado.</p>
+<p>Bueno en el caso del arte y la cultura lo mismo. ¡Cómo vamos a dejar sin becas a los creadores! Claro que no. Sí nos importa mucho el fomento a la cultura, a las artes, no somos conservadores. ¿Quiénes le dan la espalda al arte y a la cultura históricamente?</p>
+<p>Bueno, nada más vamos a buscar el mecanismo para que se entregue, además no podíamos expedir un decreto con excepciones, porque entonces ya no iba a tener ningún efecto, es todos los fideicomisos, además nos los pide la Ley de Austeridad Republicana, extinguir los fideicomisos, porque estamos hablando de miles de fideicomisos de guardaditos por todos lados sin control, sin supervisión. Entonces, todo ese dinero se recoge y va a Hacienda y Hacienda, con un criterio de darle prioridad a lo fundamental, a lo básico, sigue manteniendo los programas.</p>
+<p>En el caso de las becas no se van a dejar de entregar, claro, pero es poner orden en el caos. La política es eso, entre otras cosas, poner orden en el caos que existía.</p>
+<p>Aduanas, por ejemplo, tiene un fideicomiso de 50 mil millones de pesos, y así en todos lados. Entonces, ya vamos a saber, porque ayer se venció el plazo para que todas las dependencias del sector público informaran sobre cuánto tenían en fideicomisos y en fondos.</p>
+<p>¿Qué nos va a dejar esta situación de crisis sanitaria o esta epidemia?</p>
+<p>Muchas cosas buenas, no todo es malo, además muchas enseñanzas:</p>
+<p>Primero, que podemos, por nuestras culturas, enfrentar cualquier adversidad, va a quedar de manifiesto que la cultura siempre nos ha salvado ante calamidades, epidemias, inundaciones, terremotos, malos gobiernos, corrupción, todo, que este es un país muy fuerte.</p>
+<p>Va a quedar de manifiesto que es muy importante mantener nuestra integración familiar, que la familia es la institución de seguridad social más importante del país.</p>
+<p>Nos va a quedar de manifiesto que hace falta más convivencia con nuestros hijos, darles más tiempo a nuestros hijos, escucharlos más, atenderlos más, quererlos más, conocerlos más.</p>
+<p>Queda de manifiesto que se puede enfrentar cualquier crisis si no hay corrupción, o que cuestan más las crisis cuando hay corrupción, son más dañinas.</p>
+<p>Queda de manifiesto que es muy importante recurrir a los especialistas, a los que saben de las distintas materias.</p>
+<p>Queda de manifiesto también que la mayoría del pueblo es bueno, bondadoso.</p>
+<p>Y también queda de manifiesto que son muy pocos los individualistas, los egoístas, los que están dominados por lo material, que tienen como único dios al dinero, los que piensan que la felicidad es triunfar a toda costa, sin escrúpulos morales de ninguna índole. Va a quedar una sociedad más fuerte.</p>
+<p>La parte material, la cuestión económica, leía yo hace como dos días al doctor Lammoglia, que decía que sus pacientes están más preocupados por la cuestión económica que por su salud. Esto tiene que ver desde luego con las clases medias, con ciertos estratos de la sociedad que deben de ser sus pacientes; además, es un buen doctor, es una muy buena persona.</p>
+<p>Pero esto también nos debe de servir para tener en cuenta que aún en la adversidad económica, aún con la crisis económica, hay salidas, que siempre hay salidas si se protege, si se blinda a los más necesitados, a los débiles, a los desposeídos, a los vulnerables.</p>
+<p>Fíjense que lección nos está dejando esta pandemia, que estamos cuidando y que están a salvo o están más protegidos nuestros adultos mayores que en otras partes, que esto es muy importante.</p>
+<p>Lo que hablábamos, por ejemplo, de los asilos. Lo digo con todo respeto, porque cada pueblo tiene su cultura, su idiosincrasia, pero nosotros no por falta de una política de seguridad social, sino porque no queremos que nuestros adultos mayores se vayan a la casa, queremos tenemos ahí, se siente feo cuando se decide por circunstancias también comprensibles buscar un asilo para un anciano, duele, en el caso de nuestras costumbres, culturas mexicanas; en otros países no, por eso hay muchísimos asilos.</p>
+<p>Ahora con esta epidemia, desgraciadamente en Francia, en España fueron muy afectados adultos mayores en asilos, porque la proporción de asilos en España, en Francia, en Estados Unidos con relación a los asilos de México es como de uno a 20, o sea, si hay un asilo aquí, hay 20 en esos países, mínimo uno a 10.</p>
+<p>Entonces eso es extraordinario, esa es la república amorosa. Y por eso vamos a salir y vamos a salir bien.</p>
+<p>Y termino nada más diciéndole a la gente: ayúdennos, o mejor dicho, sígannos ayudando, no deben de relajarse las medidas de protección, vamos a seguirnos cuidando, les vamos a seguir informando cómo va el comportamiento.</p>
+<p>Yo tuve que pedirle, no de manera enérgica, sino con todo respeto, pero explicándoles que ya era tiempo de saber que venía, le dije a los especialistas: Ya quiero una proyección y me habían dicho, el jueves, porque son muy precavidos, no quieren equivocarse, y tienen razón, y dijeron el jueves… no, el miércoles.</p>
+<p>Y ayer estuvimos todo el día y luego reunión con todo el equipo de Salud, hoy de nuevo reunión a las 12:00 porque aun cuando ya no va a haber el pico este que nos rebase, porque tenemos las camas y tenemos los ventiladores y tenemos ya los especialistas… Porque es otra la proyección, no es lo que iba a pasar si no tomábamos decisiones, aun así tenemos que seguirnos preparando para que salvemos vidas, el mayor número de vidas que podamos salvar.</p>
+<p><strong>PREGUNTA:</strong> Presidente, mi segunda pregunta es para el subsecretario Hugo López-Gatell, es un tema que creo que es importante que se aclare, aunque como usted lo ha señalado y nos ha explicado varias veces, ya habló sobre esta guía de bioética. A mí me gustaría preguntarle, subsecretario: ¿cómo lo explicaría a la población?</p>
+<p>Y luego de que la UNAM desconoció esta guía bioética y que se deslindó de la misma, ¿qué implicaciones tiene esto en el marco de la pandemia? Si nos pudiera explicar, por favor, cuál es la implicación de que la UNAM se deslinda de esta guía bioética y del uso que se podría hacer para la población en circunstancias extremas, por favor.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Me puedo inmiscuir?, ¿por qué no lo dejamos para la noche que lo explique, para no desviar el propósito?</p>
+<p>Nos vemos mañana temprano y en la noche Hugo con eso empieza, con eso empieza respondiendo eso.</p>
+<p><strong>PREGUNTA:</strong> Queda para mañana.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Queda para mañana, mañana tú.</p>
+<p><strong>PREGUNTA:</strong> Presidente, los gobernadores del PAN que rechazaron el equipo…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, ya se aclaró, ya Hugo lo aclaró.</p>
+<p><strong>PREGUNTA:</strong> ¿Algún mensaje?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Que se aclare, porque hay hasta un escrito que se les envió. Ese material, se dice en el escrito, que no deben de utilizarlo los médicos, ni enfermeras, o sea… Ah, que fue algo que entregó el SAT para distribución, pero se aclaró, no es el equipo médico que viene de China o que se está comprando para los médicos. Yo creo que se precipitaron, se precipitaron. Es por la circunstancia.</p>
+<p>Ya se está distribuyendo en todos lados, pero ese equipo que dieron a conocer, eso fue una confiscación, si se puede llamar así, que hizo el SAT, aduanas, y se les está ayudando en todo, todo lo que cuenta, pero no es el equipo para los médicos, ni para las enfermeras.</p>
+<p>Entonces, hasta se hizo un escrito. A ver, ¿no tienes el oficio?</p>
+<p>¿Ya dieron a conocer el oficio?</p>
+<p><strong>HUGO LÓPEZ-GATELL RAMÍREZ:</strong> El oficio no, el correo electrónico.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> A ver. Nada más para que quede esto claro, porque a lo mejor ellos confundieron y pensaron que era el equipo médico.</p>
+<p>A ver, Jesús, por favor.</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS, COORDINADOR GENERAL DE COMUNICACIÓN SOCIAL Y VOCERO DE PRESIDENCIA:</strong> Es una carta donde se hace la aclaración, el asunto es:</p>
+<p>‘Por medio de la presente le hago saber…’ Esto está dirigido desde a Alejandro Antonio Calderón Alipi, a todos los contactos, incluidos a los gobernadores.</p>
+<p>Dice: ‘Por medio de la presente le hago saber que se han enviado a los establecimientos de salud a su digno cargo batas con las siguientes características: bata de 22 gramos. -esas delgadas que se presentaron en la foto- Estas batas deberán ser usadas exclusivamente por personal que no está en contacto con pacientes COVID. Estas batas fueron transferidas por el servicio de Administración Tributaria, procedentes de un decomiso.</p>
+<p>Asimismo, se les ha enviado y se les seguirá enviando bastas impermeables de polipropileno. Estas batas sí están destinadas para el uso personal de salud que están en contacto con pacientes COVID.’</p>
+<p>Atentamente Alejandro Antonio Calderón Alipi, que es el responsable.</p>
+<p>Esta información se le hizo llegar a los gobernadores, de tal manera que están informados de esta situación.</p>
+<p>Si los secretarios de Salud estatales no informaron a los gobernadores es otra situación.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí. ¿Ya se entiende? Es una falta de información, de comunicación. No hay mala fe.</p>
+<p><strong>PREGUNTA: </strong>¿Los podría hacer público?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, sí. Se les va a dar a conocer.</p>
+<p>Muy bien, muchas gracias. Nos vemos mañana.</p>
+<p>---</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

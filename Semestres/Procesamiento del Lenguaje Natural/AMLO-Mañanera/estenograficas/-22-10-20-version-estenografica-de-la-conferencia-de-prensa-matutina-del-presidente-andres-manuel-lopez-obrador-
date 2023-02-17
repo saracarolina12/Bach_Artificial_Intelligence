@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>22.10.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/22-10-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=135533' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F22-10-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F22-10-20-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66ire-f-f418b6d91-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":21,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"2a76a243","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55054,"ak.gh":"23.47.207.69","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616228","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==cykK6wCb8S4jIC8jDPCG4ByAG+DUAstUoaIHRlmd9ndABxm2OmBJ1wUkF5Z3Da6+YZPtCso4vCOoqAS6X+EAIOag3aGY5iCVcjsCvijpCWGukYWK2P5fbZPVZIhZuzl8fE1ax67T5C87VKUVkX9ThQVbcQeGOb5m7MX4zDluvQChpib/pOEmTVkcH84YoMf2QSlcpYJxC8Wb6vYnZaOeAQZ2hz/H7rjngKrhXGGeG1dLPSAjcnL1L9FAmsUy5Zlq3E0nbblPCuZ73L66iX59CFzYDYxCMrVqN1LVJsacSC4k/pniKPqUCA0yC1IrcYIhojoae48bYAdt/JL3P3qeJHPo2pibFvtw5wN7lzhvEoJQGWcaDmjQxSnfSo67Ga7xNPWjbzNnfgvIA3hBQFJOOGG5ErwAj+ATjoSdPChIEtI=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-135533 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef1f956fe97" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>22.10.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 22.10.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-135533" class="post-135533 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2020/10/22-10-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-08.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2020/10/22-10-2020-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-08-745x450.jpg" alt="22.10.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">22.10.20 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><em>2020, Año de Leona Vicario, Benemérita Madre de la Patria</em></p>
+<p>&nbsp;</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Buenos días. Ánimo.</p>
+<p>Quedamos en destinar el día de contestar las preguntas de ustedes; sin embargo, ayer se suscribió un acuerdo muy importante con relación al convenio del agua que se tiene con Estados Unidos y consideramos necesario el que se conozca sobre este acontecimiento, muy favorable, ya se logró un acuerdo.</p>
+<p>Quiero aprovechar para agradecer al gobierno de Estados Unidos por su comprensión y por su solidaridad, agradecer al presidente Donald Trump, al secretario de Estado, al señor Pompeo, porque tuvimos algunas dificultades para el cumplimiento; sin embargo, ellos entendieron la circunstancia especial de la entrega del agua; sobre todo, por el conflicto en Chihuahua, la actitud poco responsable de las autoridades en Chihuahua y de otros actores, y se tuvo que recurrir para cumplir, a disponer de agua, que se asegura para el consumo humano, con el compromiso del gobierno estadounidense de que si necesitamos el agua para consumo humano, ellos van a proporcionarla y que si tenemos una situación de sequía severa, ellos también van a auxiliar. Por eso mi agradecimiento al gobierno de Estados Unidos en este asunto.</p>
+<p><audio src="https://lopezobrador.org.mx/wp-content/uploads/2020/10/CPM-2020-10-22.mp3" controls="controls"></audio></p>
+<p><iframe src="//www.youtube.com/embed/IDcJrNdgTAM?t=849" width="600" height="400" allowfullscreen="allowfullscreen"></iframe></p>
+<p>&nbsp;</p>
+<p>Vamos a que nos informen, que nos explique Blanca Jiménez, directora de Conagua; el maestro Roberto Velasco Álvarez, director general para América del Norte de la Secretaría de Relaciones Exteriores; y también que nos dé su punto de vista el secretario de Relaciones Exteriores, Marcelo Ebrard, sobre este tema, que es muy, muy importante.</p>
+<p>En esencia se evitó una sanción, un conflicto, y se llegó a un acuerdo, un buen entendimiento, pero ahora se explica en qué condiciones se logró este acuerdo. Empezamos con Blanca.</p>
+<p><strong>BLANCA JIMÉNEZ CISNEROS, DIRECTORA GENERAL DE LA COMISIÓN NACIONAL DEL AGUA (CONAGUA):</strong> Con su permiso, señor presidente.</p>
+<p>Buenos días a todas y todos. Si me ponen la primera lámina, por favor.</p>
+<p>Quiero recordar lo que es el tratado. Es un tratado muy benéfico para el país porque nuestro país recibe cuatro veces más de lo que aporta con base anual. Recibimos mil 850 millones de metros cúbicos y aportamos 432.</p>
+<p>Además, es un tratado que tiene flexibilidad en las entregas de agua por parte de México. Mientras que Estados Unidos nos entrega mil 850 millones de metros cúbicos con un calendario que México establece mes con mes, y siempre han cumplido, nosotros pagamos esa cantidad hasta en un periodo de 10 años. Entonces, son constituciones sumamente flexibles.</p>
+<p>Piénsenlo como un crédito, imagínese que les prestan el dinero y les dan cinco años y si no acabas de pagar a los cinco años todavía tienes otros cinco años, es sumamente flexible; además, no hay tasas de interés.</p>
+<p>¿Cómo se paga?</p>
+<p>Con los tributarios, esto está definido en el tratado. Las cuencas grises son los ríos tributarios, las rosas no son ríos tributarios.</p>
+<p>Fue un análisis que se hizo en México y pasó esa acta aprobada en el Senado y también pasó por Estados Unidos, y dice que los tributarios son: el río Conchos que está en Chihuahua, Las Vacas, San Diego, San Rodrigo, Escondido y Salado, en Coahuila, Nuevo León y Tamaulipas. El río Conchos es el más caudaloso y aportan cada uno en una proporción igual a su caudal; por eso, el río Conchos aporta el 54.1 por ciento.</p>
+<p>También el tratado establece que si no pagamos en cinco años tenemos otros cinco años, pero ya no nos podemos ir a 15 años.</p>
+<p>¿Qué ocurrió en el ciclo 35?</p>
+<p>Estos ciclos se numeran y actualmente estamos en el ciclo 35. Sucedió que el ciclo anterior se cerró con un adeudo en 2015 de 324.7 millones de metros cúbicos, 325 en números redondos.</p>
+<p>¿Y qué tuvimos que hacer?</p>
+<p>O sea, nosotros recibimos el ciclo completado, tuvimos que pagar todo lo que se debía en el ciclo, la cantidad de dos mil 158, que es los 400 por cinco años, y lo debíamos de pagar, como se ve en la figura de la izquierda, con el río Conchos y con los ríos de los otros estados, o sea, con el río que está en Chihuahua y los ríos que están en Coahuila, Nuevo León y Tamaulipas, que son prioritarios, y debíamos de pagar lo que nos correspondía a los cinco años, más el adeudo que recibimos.</p>
+<p>¿Cómo pagamos finalmente?</p>
+<p>Dado que Chihuahua… Ustedes ven lo que había aportado a un tercio, es la verde oscura de abajo, eso es lo que había aportado Chihuahua, así lo recibimos. Se hicieron todas estas negociaciones, presiones, aperturas de precios que ustedes conocen; logramos extraer más de Chihuahua, no la cantidad que le correspondía, pero bueno, se logró traer y también hicimos aportaciones de los otros ríos, más de las presas internacionales. Así fue como se pagó, ahorita el maestro Roberto les va a explicar ya todo el cierre.</p>
+<p>Dejamos también todo un plan para tener el agua de las 13 ciudades fronterizas aseguradas, porque las presas internacionales se utilizan, entre otras cosas, para suministrar a las ciudades que tienen ustedes del lado derecho: La Amistad, que es la primera presa; La Falcón, ahí tienen las ciudades que se suministran.</p>
+<p>¿De dónde las extraeremos?</p>
+<p>De El Granero, continuará la extracción de El Granero, porque ya tenemos el agua transferida ahí; de La Amistad y Falcón. En las presas internacionales finalmente quedan 87 millones de metros cúbicos, después de hacer este pago nos queda una cantidad de agua aproximadamente para unos 2.5 meses, tres meses de agua potable en total.</p>
+<p>Y también recordarán ustedes el huracán Hanna, que iba a entrar y se dobló para Estados Unidos. Afortunadamente dejó agua en la presa El Cuchillo y en La Marte R. Gómez. Hay manera de usar parte de esa agua para suministrar a las ciudades que se abastecen del Falcón, entonces vamos a pasar agua de ahí. Entonces, también logramos dejar el agua asegurada.</p>
+<p>Un último comentario. ¿Cómo quedan las presas de Chihuahua? Quedan con agua suficiente, con mucha, de hecho, con más del agua que normalmente tienen las otras presas; pero aquí queremos destacar que cuando Conagua hizo la propuesta en diciembre de transferir el agua de las presas de Chihuahua hasta el punto de pago, había una temperatura más baja, las perdidas por evaporación eran menores, cuando lleva el agua se le va evaporando.</p>
+<p>Y también durante todo este tiempo perdimos 280 millones de metros cúbicos que simplemente se evaporaron, eso fue 89 por ciento del adeudo que tenía Chihuahua.</p>
+<p>Es lo último que yo quisiera destacar. Es todo, señor presidente.</p>
+<p><strong>ROBERTO VELASCO ÁLVAREZ, DIRECTOR GENERAL PARA AMÉRICA DEL NORTE DE LA SECRETARÍA DE RELACIONES EXTERIORES (SRE):</strong> Con su permiso presidente.</p>
+<p>Empiezo con un poco de contexto histórico. Si me ayudan con la siguiente diapositiva.</p>
+<p>A pesar de que hay una asimetría entre nuestros países, siempre se ha respetado nuestra soberanía y se han logrado términos equitativos y justos desde la firma del tratado y las actas subsecuentes.</p>
+<p>El artículo 25 del tratado establece que los acuerdos entre los dos países se denominan actas. A la fecha se habían firmado 324 actas, entre ellas, dos que es importante retomar: la 234, que es lo que decía la doctora, no nos podemos atrasar dos ciclos consecutivos, eso se acordó en 1968; y el acta 308, en la que se acordó el intercambio de información hidrológica entre los dos países y ahorita comento más de eso.</p>
+<p>Siguiente lámina. Esto es cómo vamos a cerrar los ciclos 34 y 35. Como ustedes pueden ver, el ciclo actual se cerró sin déficit. El déficit del ciclo anterior, que es el 34, que correspondió al gobierno pasado, vamos a saldar lo que faltaba con una transferencia de las presas internacionales y de esta forma cumplimos lo que se establece en el acta 234, el 100 por ciento de lo que teníamos que entregar.</p>
+<p>El acta 325 que se estuvo negociando en las últimas semanas con el gobierno de Estados Unidos va a permitir, como decía, cerrar exitosamente el ciclo y garantizar -esto es muy importante, como lo decía el señor presidente y la doctora Jiménez- el agua para uso público urbano de estas ciudades en el norte del país.</p>
+<p>Tuvimos que construir confianza para llegar a este punto, pero -muy importante también- hacer una gestión interna del agua que permitiera cumplir con nuestras obligaciones sin poner en riesgo el abasto de las ciudades y obviamente se tuvo que hacer una serie de trasvases para reducir el volumen pendiente de entrega.</p>
+<p>El acta 325 va a utilizar aguas de propiedad mexicana, como decía, 131 millones de metros cúbicos y va a dejar cerca de 87 millones de metros cúbicos de almacenamiento mexicano para nuestras ciudades.</p>
+<p>Pero, además, muy importante, Estados Unidos aceptó una cláusula que era para nosotros muy importante, que va a cooperar con México por razones humanitarias en caso de que hubiera una sequía extrema o alguna otra emergencia, permitiéndonos usar volúmenes estadounidenses si esto ocurriera y, además, se retomó el compromiso de compartir información de manera binacional para mejorar la gestión del agua mediante un grupo de hidrología.</p>
+<p>En la negociación participó obviamente la Secretaría de Relaciones Exteriores, el señor canciller encabezó y su servidor; la doctora Blanca Jiménez, de la Comisión Nacional del Agua, estuvo personalmente en las negociaciones con Estado Unidos y Texas; el doctor Humberto Marengo, de la Sección Mexicana de la Comisión Internacional de Límites y Aguas, que también merece un importante reconocimiento; y también nuestra cónsul general en Houston, Alicia Kerber, que nos estuvo ayudando en la parte de Texas.</p>
+<p>También hay que hacer un reconocimiento muy especial a la Secretaría de Seguridad Pública y Protección Ciudadana, sobre todo al subsecretario Ricardo Mejía, quien no nos pudo acompañar el día de hoy, pero estuvo muy presente en todo este proceso; a la Guardia Nacional, a la Secretaría de la Defensa Nacional y a la Secretaría de Gobernación que ayudaron en toda la parte nacional.</p>
+<p>Por Estados Unidos participó el Departamento de Estado, el gobierno de Texas y la sección estadounidense de CILA.</p>
+<p>Si vamos a la siguiente lámina. Esta es al acta que se firmó el día de ayer, el acta 325. Se firmó en el Monumento Internacional Número 1 por parte de los comisionados Marengo y Jayne Harkins, como establece el propio tratado, y yo les trasmití en el acto también la aprobación del Gobierno de México a esa acta que firmaron los comisionados.</p>
+<p>Si vamos a la siguiente lámina. Aquí pueden ver algunas imágenes del evento en este monumento que es muy importante porque es el monumento que divide o marca la división entre los dos países.</p>
+<p>También ayer mismo la sección estadounidense nos notificó la aprobación del Departamento de Estado al acta 325, es decir, el acta 325 entró en vigor el día de ayer mismo.</p>
+<p>Algunas consideraciones finales. Como decía el presidente, si bien ciertos actores políticos de Chihuahua, en especial el gobernador, antepusieron un interés electoral sobre el interés nacional poniendo en riesgo el consumo de agua para la población del norte del país, se logró cerrar exitosamente el ciclo.</p>
+<p>Y aquí hago una anotación muy importante del porqué esta negociación es tan exitosa. Hubo una situación similar en 2002, en el acta 308, y se acordó, entre otras cosas -para que vean la diferencia entre entonces y ahora- se acordó en ese entonces pagar mil 500 millones de pesos para invertir en un supuesto programa de tecnificación del riego, que la doctora les puede platicar algún día qué resultados ha dado, y además se acordó continuar extracciones interiores de México durante meses. Pueden revisar esa acta, está en línea. Y en esta ocasión ya no habrá un cobro de este tipo, un pago de este tipo y además cerramos los ciclos en cero.</p>
+<p>Lo que sí hay que decir, se va a tener que continuar con la extracción de agua de la presa ‘Luis L. León’, El Granero, ya no para el pago del tratado, sino para consumo humano, para reabastecer las presas internacionales para estas ciudades. Esto estima la Conagua que hasta el 19 de noviembre estará sucediendo.</p>
+<p>Entonces, con eso simplemente decir: fue una negociación muy exitosa, reiteramos el reconocimiento a todos los que participaron y obviamente agradecemos al señor presidente por la conducción de todo este proceso.</p>
+<p><strong>MARCELO EBRARD CASAUBON, SECRETARIO DE RELACIONES EXTERIORES:</strong> Bueno, buenos días, señor presidente. Con su permiso. Compañeras, compañeros.</p>
+<p>Simplemente decir, en primer término, que agradecemos al Departamento de Estado, a Mike Pompeo y a todo su equipo este respaldo que nos dieron para llegar a este acuerdo.</p>
+<p>Segundo, y no repetir lo que aquí ya se expuso, en síntesis ¿qué podríamos decir’?, ¿cómo podríamos entender este acuerdo del día de hoy?</p>
+<p>México recibe cuatro veces más de agua que Estados Unidos en este tratado. El conflicto en Chihuahua es poner en duda que paguemos ese uno para recibir cuatro.</p>
+<p>¿Qué significa eso?</p>
+<p>Significa poner en riesgo el suministro de agua para las ciudades fronterizas, millones de personas, y significa poner en riesgo el tratado, es decir, que en los subsecuentes ciclos, las siguientes generaciones, no la siguiente elección, las siguientes décadas, México ya no reciba cuatro por uno.</p>
+<p>¿Cuál sería la combinación?</p>
+<p>Pues seguramente muy desventajosa. No sé si… Si tuviésemos suerte, a lo mejor pasaría a ser dos y dos o tres y dos, o en una de esas al revés, por la asimetría que hay entre México y Estados Unidos en tamaño de economía y poder.</p>
+<p>Nosotros en la Secretaría de Relaciones Exteriores siempre se ha visto y se ha considerado este tratado como uno de los grandes triunfos de México. Este tratado tomó de 1929 a 1944. En aquellos años los diplomáticos mexicanos batallaron mucho. Imagínense ustedes todo ese tiempo. Había muchos temas de conflicto, pero este era uno principalísimo para México. Entonces, se considera que ese tratado, por lo que acabo de exponer, es uno de los grandes logros de la diplomacia mexicana y no debemos ponerlo en riesgo.</p>
+<p>Y no estamos pensando en esta administración, sino como aquellos mexicanos de 1929 a 44. Estamos en 2020, las decisiones que tomaron han permitido el suministro sin riesgo de agua, muy escasa, para nuestras ciudades y eso es lo que tenemos que tener siempre en mente.</p>
+<p>Puede ser una buena idea, una tentación electoral, pero ¿de qué sirve, si ponemos en entredicho el futuro de todo el norte del país?</p>
+<p>Entonces, afortunadamente se llegó a un acuerdo, sus rasgos principales ya los tienen ustedes. No hay en el gobierno de la República otro afán, y es la instrucción que nos ha dado el señor presidente, de garantizar el suministro pensando igual, actuando igual que los mexicanos que negociaron el tratado en 1929-44. Es lo que estamos pensando y así hemos actuado.</p>
+<p>Y agradecer muchísimo a la Secretaría de la Defensa Nacional, a la Guardia Nacional y a Ricardo Mejía Berdeja, quien el día de hoy no nos acompaña, pero ha sido una pieza clave para llegar a este resultado.</p>
+<p>Muchas gracias. Es todo señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, pues este era el informe y ahora sí vamos a preguntas y respuestas. Empezamos.</p>
+<p><strong>PREGUNTA:</strong> Buenos días señor presidente. Alberto Marroquín Espinosa, de Querétaro, <em>JF Informa</em> desde Cancún y <em>Frecuencia CAD</em>, y desde mi portal <em>Es ahora am.com</em>.</p>
+<p>Señor presidente, dando continuidad al tema que he venido tratando desde la mañanera del 13 de mayo de 2019 en relación a Pemex, quiero hacer de su conocimiento que en mi investigación llegué hasta a un líder petrolero de nombre José Rubén Rosaldo Cordero, que cuenta con información fidedigna en relación al desfalco del que ha sido víctima del Sindicato de Trabajadores Petroleros de la República Mexicana.</p>
+<p>Tengo una prueba de uno de los tantos fraudes que durante años se sabe fue denunciado y lamentablemente quedó en el archivo muerto como resultado de la corrupción. Un ejemplo de tantos casos impunes es la causa penal 107-2003/2 ante el Juzgado Décimo Tercero del Distrito de Procedimientos Penales Federales y que no está prescrita en contra de Carlos Antonio Romero Deschamps.</p>
+<p>Señor presidente, en base a esta información, que es propiedad del gremio petrolero y voz del pueblo, deseo saber si toda esta información con la que cuenta el señor José Rubén Rosaldo nuevamente será motivo de persecución a su persona o será estandarte de justicia por tantos años de trabajo que ha buscado en favor de los petroleros, y aquí tengo una prueba de lo que le estoy comentando.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy bien. Si te parece, nos entregas el informe con el compromiso de que nosotros lo remitimos, lo enviamos a la fiscalía para que se atienda. Si hay investigación abierta en contra del señor Romero Deschamps, que se tome en consideración este asunto; si no hay investigación, que la fiscalía decida si procede que se abra una carpeta de investigación sobre este caso. ¿Te parece así?</p>
+<p><strong>INTERLOCUTOR:</strong> En otra pregunta, señor presidente, ayer se publicó el decreto donde se adicionan diversas disposiciones para garantizar el acceso a las playas de país; sin embargo, ¿de qué manera se puede blindar las mismas para que no se vendan como sucedió en Quintana Roo durante los sexenios de Fox y Calderón, donde desde Fonatur sus entonces delegados remataron alrededor de cinco millones de metros cuadrados de playa o terreno costero?, de hecho, ya hay denuncias por esas ventas irregulares. En ese sentido, ¿cómo se va a blindar esa parte de las playas?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, entiendo que esta disposición legal es para que ya no se continúen entregando las playas a particulares, que sean playas públicas, que puedan existir las playas de hoteles, pero que se garantice que la gente que vive en las ciudades de playa, en las ciudades turísticas, pueda acceder a las playas.</p>
+<p>En efecto, se ha abusado de esto en el sentido de que no tiene la gente cómo ir a la playa, quien no está en un hotel, porque se han privatizado las playas.</p>
+<p>Entonces, yo celebro que se haya tomado ese acuerdo ayer, esa disposición y ahora lo que hay que hacer es, primero, ya no permitir que se sigan entregando las playas. Nosotros no hemos entregado playas desde que estamos aquí y no se van a entregar playas que son públicas a particulares. No hay privatización de las playas, para ser claros.</p>
+<p>Y, segundo, que se recuperen las que se puedan recuperar. En el caso, por ejemplo, de Playa del Carmen, ahora que hay un proceso de regularización que se está llevando a cabo en la colonia Colosio, que desde hace años hay una situación completamente irregular y ahora hay un acuerdo entre el gobierno federal y el gobierno del estado, el gobierno municipal de ese municipio, Solidaridad, que se entreguen escrituras a quienes están viviendo desde hace mucho tiempo sin papeles en sus lotes, ya edificaron; porque había un asunto, existe un tema jurídico que viene de lejos, de unos propietarios que reclaman derechos sobre las tierras, entonces se está llegando ya a un acuerdo.</p>
+<p>Y en Playa del Carmen hay como cuatro, seis hectáreas de playa y parte de ese acuerdo es que esa superficie se convierta en un parque con acceso a la playa. Eso lo vamos a seguir haciendo en el caso de Quintana Roo y en otros casos.</p>
+<p>Pero sí, fue bueno lo que se decidió el día de ayer.</p>
+<p><strong>INTERLOCUTOR:</strong> Aprovechando que está la directora de Conagua, nada más preguntarle: ¿cómo se le puede hacer para evitar ya la privatización del agua en fraccionamientos, como ya se los he citado en ocasiones anteriores?, ¿qué se podría hacer al caso?</p>
+<p>Yo sé que compete mucho al estado y a los municipios, que a veces se declaran incompetentes y de alguna forma empresas privadas son las que cobran esos recibos del agua en colonias y fraccionamientos muy grandes. Le hablo del caso de Querétaro, por ejemplo, y yo sé que sucede en todo el país.</p>
+<p>Ojalá que algún día se pueda dar solución a este tema, porque se me hace un muy, muy delicado que al rato ya no contemos ni con agua.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, yo nada más aquí recuerdo que querían privatizar el agua en el gobierno anterior y había acuerdo ya de los dos partidos, que siempre se ponen en correspondencia, siempre actúan juntos cuando se trata de estas cosas ya de tiempo atrás y nosotros evitamos que se privatizara el agua cuando estábamos en la oposición. Ya habían acordado en comisiones.</p>
+<p>Creo que fue el sexenio pasado, sí, porque pudo haber sido, se pudo haber dado también en el otro sexenio, porque era lo mismo. Pero nos opusimos. Era legisladora quien es ahora secretaria del Trabajo, Luisa María Alcalde; entonces, sí fue en el sexenio pasado.</p>
+<p>Y eran pocos los legisladores verdaderamente de oposición; sin embargo, nosotros nos manifestamos y ellos pudieron impedir que pasara el proyecto a votación en el pleno de la cámara, donde seguramente iba a ser aprobado porque tenían mayoría.</p>
+<p>Fíjense que eso ni siquiera se acuerda la gente porque cuando hacían esas cosas antes todo se callaba; los medios de comunicación, con honrosas excepciones, lo informaban, como tenían control casi absoluto de los medios, pues no se sabía, no se daba a conocer.</p>
+<p>Entonces, por esa protesta, aunque éramos minoría en el Congreso, se detuvo la privatización del agua; y ahora, pues ya para que quede claro, si lo hicimos cuando estábamos en la oposición, pues ahora que estamos en el gobierno pues no vamos a permitir que se privatice el agua. Así de claro, para que nadie se haga ilusiones porque ya sería el colmo que se privatice el agua, que es un alimento fundamental, que es vida.</p>
+<p>De todas maneras, como avanzaron en entregar concesiones, hay lugares en donde se entregó el agua, bueno, se entregó hasta el acopio, la recolección de la basura, se privatizó todo, hay lugares donde todo se entregó a empresas vinculadas a políticos y que cobran todos estos servicios.</p>
+<p>Entonces, no sé si Blanca pueda informarnos sobre esto, pero no hay… A ver, informa.</p>
+<p><strong>BLANCA JIMÉNEZ CISNEROS:</strong> Gracias. A lo que se hizo parando la ley de privatización, no hay muchas concesiones o privatizaciones de agua en el país. Hay en seis estados y el tema también es que para… hay en seis estados, ya ninguno está funcionando y estamos también tratando de trabajar junto con los municipios y de los estados en revertirla, como sería en Cancún; en Aguascalientes la gente está relativamente contenta, pero en los lugares donde no están contentos sí estamos dando asesoría, porque no ha sido el gobierno federal el que la ha privatizado, sino municipios o los estados.</p>
+<p>El otro tema también está el tema en Puebla. En este caso lo que está privatizado es las aguas residuales, que es muy difícil tratar de cobrar una tarifa para pagar también las aguas residuales y se necesitan ser tarifas muy elevadas. Entonces, en general hay poco y estamos también trabajando en revertirlo.</p>
+<p><strong>INTERLOCUTOR:</strong> Sí, Querétaro es El Refugio, La Pradera, Jurica, Juriquilla.</p>
+<p><strong>BLANCA JIMÉNEZ CISNEROS:</strong> También ahí es otro de los temas, pero estamos trabajando. Tiene que haber también voluntad por parte de los municipios o de la gente y podemos intervenir, pero dentro del marco de la ley sí se puede trabajar.</p>
+<p><strong>INTERLOCUTOR:</strong> Muchas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sara.</p>
+<p><strong>PREGUNTA:</strong> Gracias presidente. Buenos días.</p>
+<p>Preguntarles, entonces, al tomar el agua de las presas internacionales, ¿qué tan riesgoso es que se queden sin agua estas entidades del norte del país?</p>
+<p>Decía que había potable para tres meses y se va a tomar de El Granero, pero ¿qué tan alto es el riesgo?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, por eso nuestro agradecimiento al gobierno de Estados Unidos, porque se tiene agua para consumo humano en estas ciudades fronterizas; sin embargo, se logró, y esto es muy importante, que en caso de que no sea suficiente o que haya una sequía severa, ellos, por razones humanitarias, nos darían agua para que no falte el abasto de agua en estas ciudades fronterizas. Eso es lo que yo entiendo de este acuerdo. Por eso celebro que se haya suscrito, porque tenemos, vamos a decir, una reserva, una protección en el caso de que sea necesario.</p>
+<p>Pero sería bueno que ustedes lo explicaran un poco más.</p>
+<p><strong>BLANCA JIMÉNEZ CISNEROS:</strong> La probabilidad es ya muy baja porque precisamente lo que se hizo… Cuando se inició lo del tratado, el señor presidente nos puso dos condiciones:</p>
+<p>Una, mantener toda el agua para riego de Chihuahua para el ciclo 21, cosa que hicimos y se les entregó completamente toda el agua, incluso sobró.</p>
+<p>Y el otro -nos puso dos parámetros- el otro era no poner en riesgo a las ciudades. Estuvimos trabajando mucho en este tema, ahorita les van a explicar todo el tema del acta contingente y cómo opera, pero ahorita en la gráfica que presenté ahí se demostraba que tenemos asegurado ya al 100 por ciento el agua, ahorita con la que queda en las ciudades, para dos meses, pero viendo, llevando el agua de otros lados, digamos, a seis meses.</p>
+<p>Por eso se puso en el acta los dos puntos, o sea, si había sequía o si nos falla algún tema de infraestructura, porque puede haberlo; o sea, no nos ha fallado ahorita nada de la infraestructura, pero nada más nos quisimos súper proteger y está asegurado seis meses, que es lo que recomiendan los estándares internacionales y además acuérdense que en seis meses yo creo que tiene que llover.</p>
+<p>Pero, de todas maneras, con el pronóstico de un año seco tendríamos asegurado prácticamente todo un año, más que lo que establecen los criterios internacionales.</p>
+<p>Yo creo que Roberto puede explicar el tema del acta contingente mejor.</p>
+<p><strong>ROBERTO VELASCO ÁLVAREZ:</strong> Con su permiso, presidente.</p>
+<p>Sí, en efecto. Es muy importante decir… Conservamos un volumen en las presas internacionales, que eso se logró gracias a los trasvases que se hicieron de las presas Las Vírgenes, El Granero y una pequeña parte de La Boquilla. Eso era muy importante; si no, era imposible lograr esto.</p>
+<p>Y, por otro lado, tenemos esta garantía en el acta del cierre del ciclo, el acta 325, en la cual dijimos: Bueno, si nosotros tenemos una emergencia -y eso fue una indicación que nos dio el presidente- no podemos tener ningún riesgo para el abasto de la población del norte del país, que es lo que no le importó al gobierno de Chihuahua, pero a nosotros sí nos tenía que importar.</p>
+<p>Entonces, se puso esa cláusula de que, si llegara a haber una emergencia, nos van a prestar agua, llamémosle así, van a cooperar con nosotros por razones humanitarias con términos que se van a negociar en su momento si esto llegara a ocurrir.</p>
+<p>Pero reiterar, está en el acta y se respeta de esta forma el derecho humano al agua de todas las personas en el norte del país.</p>
+<p><strong>INTERLOCUTORA:</strong> Presidente, ¿y cómo queda la relación con el gobierno de Chihuahua?, ¿qué va a pasar con la presa La Boquilla?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, pues ya no se pudo utilizar esa agua, como también aquí se informó, por esta actitud intransigente y sobre todo politiquera, el querer usar este asunto con propósitos electorales para favorecer a un partido y a un candidato porque vienen elecciones.</p>
+<p>Bueno, por levantar este movimiento sin razón, sin fundamento, sólo con esos fines, pues hasta se evaporó el agua. Sería bueno que lo volvieran a explicar. O sea, si se hubiese permitido extraer el agua de La Boquilla no hubiese faltado agua, bueno, como no falta el agua para el riego, para la gente y no se hubiese perdido porque se evaporó un porcentaje, estaría igual.</p>
+<p>Pero pues se ponen su sombrero ahora y sus camisas vaqueras y sus botines o botas y empiezan a encabezar movimientos, pensando que con eso la gente va a votar por ellos, se envolvieron en la bandera de la defensa del agua en contra del convenio que se tiene desde hace muchos años, apostaron a manipular a la gente.</p>
+<p>¿Cómo queda la relación?</p>
+<p>Bien, o sea, nosotros no vamos, de ninguna manera, a desatender al pueblo de Chihuahua porque es muy claro que no es el pueblo de Chihuahua, son estos intereses creados y la politiquería.</p>
+<p>Entonces, a ver, ¿por qué no explicas lo de la evaporación?, porque no vaya a ser que esto no tenga fundamento técnico o científico.</p>
+<p><strong>BLANCA JIMÉNEZ CISNEROS:</strong> El haber comenzado a mover el agua durante los meses de diciembre, que hay una menor temperatura -además, si recuerdan este fue un año con temperaturas muy altas- hubiera permitido que durante el transporte del agua no se hubiera evaporado tanto y que el agua que está ahí en las presas también se está evaporando, y eso representa un total de 189 millones de metros cúbicos, que es aproximadamente el 89 por ciento del adeudo que todavía tenía Chihuahua.</p>
+<p>Si recuerdan la gráfica, yo lo exponía, que debían de haber dado el 54.1, dieron el 44 por ciento; también, si hubieran dado esa cantidad pues no hubiéramos tenido que agarrar agua de otros lados sin evaporar.</p>
+<p>Nada más quiero recordar que aquí el maestro Roberto Velasco mostró el acuerdo que se había tenido con el gobernador de Chihuahua de hacer las transferencias antes de que ocurrieran muchos de los disturbios y no hubiéramos estado en esto.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> A ver, ¿por qué no muestran el acuerdo?</p>
+<p><strong>BLANCA JIMÉNEZ CISNEROS:</strong> ¿Tú traes, el acuerdo?</p>
+<p><strong>ROBERTO VELASCO ÁLVAREZ:</strong> Lo puedo enviar a Jesús en este momento para que lo pongan.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿El acuerdo en dónde?</p>
+<p><strong>BLANCA JIMÉNEZ CISNEROS:</strong> Donde firmó el gobernador Corral.</p>
+<p>Ese acuerdo básicamente lo que dice era cuánto se podía estar… Está la presa La Boquilla y Las Vírgenes, las dos van a dar a El Granero, lo que sale de Chihuahua es realmente lo de El Granero.</p>
+<p>Como había mucha discusión que si llovía, que si iban a pagar con lluvias en lugar de extracción o de que si iban a pagar…. Cuando uno riega, parte del agua se recupera y vuelve a llegar a las presas, que se llama correntía o con las correntías. Y estábamos metidos en esa discusión, entonces dijimos: En lugar de andar discutiendo de por dónde pagamos, que eso se le ocurrió al señor canciller, en lugar de que se enfrasquen en esas discusiones, pónganse afuera de la presa y digan cuánto tienen que sacar y eso fue lo que él rubricó.</p>
+<p>Entonces, tenemos un acuerdo de sacar una cierta cantidad semanalmente. Nosotros cumplimos a pie, todo el tiempo estuvimos cumpliendo este acuerdo, se le mandaba la tabla semana con semana de los avances, se le fue demostrando cómo no estaban cumpliendo, íbamos retrasados.</p>
+<p>Y luego, de nuevo en los medios cambió el discurso; a pesar de que teníamos, siempre regresaban a los mismos discursos que ustedes ya conocen, que además fueron discursos que se explicaron técnicamente, políticamente, de muchas formas, y eso dio también mucho pie a los disturbios que hubo.</p>
+<p>¿Tú quieres decir algo?</p>
+<p><strong>ROBERTO VELASCO ÁLVAREZ:</strong> Nada más quiero reiterar unos puntos de la tabla. O sea, aquí lo que hicimos, como dice la doctora, es: ¿cuánta agua se necesita para pagar el tratado?, y pueden ver aquí. Esto era lo que se esperaba que entrara al Granero, lo que se tenía que extraer de El Granero, lo que se tenía que extraer descontando el riego de El Granero y lo que se esperaba en la estación hidrométrica, ya digamos lo que cuenta para el tratado.</p>
+<p>Entonces, ¿qué le dijimos al gobernador? Yo estuve con él varias horas en su oficina y le dije: Mire, es muy sencillo, gobernador, esto es lo que tiene que entrar. Si ustedes tienen razón y va a llover y va a haber retornos agrícolas y no sé cuanta cosa, pues disminuimos las extracciones de las presas, muy fácil; pero si no entra esto, es muy sencillo, ya no nos peleamos, eso es lo que tiene que reponer con extracciones de las presas.</p>
+<p>Le pusimos aquí varias consideraciones, quedamos de entregar la información, yo se la mandé todas las semanas y el gobernador ese día me dijo: ‘Sí, está bien, me parece bien el programa’, pero yo lo que le dije al gobernador, dije: Bueno, las palabras se las lleva el viento, pongámosle una rúbrica, esta es la suya y esta es la mía.</p>
+<p>¿Y qué pasó después de esto?</p>
+<p>Dos semanas después, como si no hubiera nada, así. Pues yo lo que digo es: ¿qué pasa con la palabra? Si uno no tiene palabra pues no tiene nada. Entonces, eso es muy importante para que quede claro qué es lo que se firmó. No es un acuerdo verbal, no es algo, él se comprometió a esto, dijo que estaba bien, incluso llamó a su titular del sistema de aguas, lo revisó, lo revisó también el secretario de Desarrollo Agrícola y los tres dijeron: ‘Órale, está bien’.</p>
+<p>Entonces, también muy importante decir, ¿por qué vamos a continuar extrayendo agua después del 24 para cumplir lo que se comprometió el gobernador? Eso es lo que vamos a hacer, porque nosotros sí cumplimos lo que decimos.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy bien.</p>
+<p><strong>INTERLOCUTORA:</strong> Presidente, saber si ya tiene una decisión sobre quién va a sustituir a Alfonso Durazo o lo va a dejar para la próxima semana, ¿hasta cuándo va a permanecer él?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Todavía pues yo insisto que vamos a seguir convenciendo a Alfonso.</p>
+<p><strong>INTERLOCUTORA:</strong> Él ya dijo ayer que se va.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pero falta tiempo, y aunque no le fue bien a los Dodgers ayer, pero va empatada la serie.</p>
+<p>Recuerdo de nuevo lo que decía ‘Yogi’ Berra, esto no se acaba hasta que se acaba. Tenemos hasta el 31 como plazo, todo el que aspire a ser candidato, aunque por ley podría estar más tiempo, nosotros queremos hacer el deslinde, hicimos el compromiso de que hasta el 31 de octubre, entonces ese día vamos a saber ya cuántas renuncias de servidores públicos que van a participar como candidatos, pero es hasta el día 31, de modo que para entonces vamos a dar a conocer a quiénes van a sustituir.</p>
+<p><strong>INTERLOCUTORA:</strong> Ya hasta se anda candidateando al canciller para sustituir a Durazo.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Cómo?</p>
+<p><strong>INTERLOCUTORA:</strong> Hasta se anda candidateando al canciller para sustituir a Alfonso Durazo.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Yo estoy más que contento, satisfecho, con el trabajo que está realizando Marcelo Ebrard. Es un servidor público de primera, me ayuda mucho. La política exterior de México ha vuelto a ser ejemplo mundial.</p>
+<p>Acabamos de enterarnos de los resultados de la elección en Bolivia. Nos dio mucho gusto. Saludamos, abrazamos, felicitamos al pueblo de Bolivia porque supieron enfrentar un conflicto grave por la vía pacífica, democrática y eligieron a un presidente del mismo movimiento que fue desconocido, del mismo movimiento al que pertenece el expresidente Evo Morales, quien fue destituido y enfrentó amenazas.</p>
+<p>Y el Gobierno de México, haciendo valer su tradicional respeto al derecho de asilo, que siempre lo ha caracterizado al gobierno, sobre todo en épocas como cuando gobernó el general Lázaro Cárdenas, pues se le otorgó protección y asilo y se le fue a buscar, y esa fue una labor que encabezó Marcelo Ebrard.</p>
+<p>Yo di la instrucción, pero el que operó junto con la Secretaría de la Defensa, que se les protegiera a los perseguidos, a los que estaban en riesgo, pues fue una labor de la diplomacia mexicana. Entonces, sólo por ponerles un caso.</p>
+<p>La relación con Estados Unidos lo mismo, esto que estamos ahora informando, el acuerdo del agua. Hay muy buena relación con el gobierno de Estados Unidos, pero quien opera esta relación, quien la lleva a la práctica pues es Marcelo.</p>
+<p>Entonces, vamos a esperarnos hasta el 31.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿No va a dar…?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Vamos a esperarnos hasta el 31.</p>
+<p><strong>PREGUNTA:</strong> Gracias, presidente. Buen día. Dalila Escobar, corresponsal de <em>A Tiempo.TV</em>.</p>
+<p>Primero, bueno, pues insistir si no estaría pensando también o no está descartado el subsecretario de la Secretaría de Seguridad para este reemplazo, porque ayer vimos muy firme a Alfonso Durazo, a pesar de que usted le comentaba que todavía tenía que pensarlo un poco más. Si estaría pensando en el subsecretario, que precisamente estuvo con algunas maniobras en el caso de Chihuahua y resolviendo este asunto.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy bueno como servidor público Ricardo Mejía, que ahora está guardado porque está cuidándose por la pandemia. Pero todavía no es el tiempo, vamos a esperar.</p>
+<p>Aquí no son cargos, son encargos y sí se respetan jerarquías, pero aquí todos ayudamos. Hay servidores públicos que no tienen un alto cargo, pero que son fundamentales para llevar a cabo la transformación de la vida pública de México.</p>
+<p>Ahí tienen a una funcionaria pública, Leticia Ramírez, es un ejemplo. Su cargo es atención ciudadana, en la jerarquía es como segundo o tercer nivel, pero su trabajo es de primer nivel.</p>
+<p>¿A cuántos ciudadanos atiendes diariamente?</p>
+<p><strong>LETICIA RAMIREZ AMAYA, TITULAR DE LA OFICINA DE ATENCIÓN CIUDADANA:</strong> Más o menos ahorita están viniendo 250 personas diarias y más o menos cuatro o cinco grupos.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> A ver ven, explícalo, explica también cómo se atiende a la gente.</p>
+<p><strong>LETICIA RAMIREZ AMAYA:</strong> Buenos días. Claro que sí. Nosotros desde que inició la pandemia tuvimos, sí, una decisión de no atender de manera personal a los ciudadanos para podernos cuidar todos, pero estábamos atendiendo más o menos 400 personas al día y ahorita están viniendo ya 250, 200 por día. A todos los recibimos, platicamos con ellos, los atendemos y hacemos todas las gestiones.</p>
+<p>El asunto de los grupos se ha incrementado, son todas las personas que se organizan de varias… por diferentes demandas y vienen aquí a manifestarse. A todos los escuchamos.</p>
+<p>Hemos tenido, sí, una serie de dificultades durante la pandemia porque es muy complicado pedirle a la gente guarda la sana distancia, háganse para allá, permítanme hablarles, hablar con el cubrebocas, platicando con ellos, tratando de entender cuáles son sus demandas. Nos ha costado mucho trabajo, ha sido una situación que hemos tenido que enfrentar; pero de todos modos los recibimos, los atendemos, hacemos todas las gestiones.</p>
+<p>Casi a todos los grupos que vienen les conseguimos citas con las autoridades que tienen que resolver sus demandas el mismo día. Tenemos… Y las respuestas son diversas, algunos son situaciones estatales, municipales o incluso federales y la respuesta no es inmediata.</p>
+<p>Entonces, lo que les pedimos es: levanten su plantón, retírense de aquí, pero seguimos en el diálogo, eso es lo más importante. En el caso de los grupos nosotros privilegiamos el diálogo, siempre la plática, siempre el respeto, respetar su derecho de manifestación y pedirles que nos permitan buscar soluciones.</p>
+<p>Debo aclarar que no todas las cosas que se plantean tienen solución, hay algunas cosas que tienen mucho tiempo, que tienen una dinámica, que ya tiene una solución en la que ellos no están de acuerdo, pero buscamos cómo podérselas explicar para que eso suceda.</p>
+<p>En otros de los casos lo que ellos insisten es quedarse aquí mientras encontramos la solución y pues aquí los tenemos y nosotros seguimos buscando todas esas soluciones.</p>
+<p>Con las personas en lo individual lo que estamos haciendo es: siempre se les da una respuesta y ahorita en la relación que yo tengo con todas las dependencias y que tenemos como institución tenemos ya un porcentaje de 78 por ciento de respuesta, lo cual nos da mucho gusto, porque avanzamos. Yo creo que también por la situación de la pandemia había mucha gente que tenía las cuestiones detenidas, pero estuvieron trabajando.</p>
+<p>Insisto, no todas las respuestas son positivas, pero toda la gente tiene una respuesta de lo que está planteando.</p>
+<p>Y si me permiten, quisiera comentarles algo que ha sucedido en estos últimos tiempos y es que ha habido muchas propuestas, o sea, la gente no sólo viene a solicitar, a pedir que se le dé una respuesta a su demanda, sino que últimamente han llegado muchas ideas de cómo mejorar muchas cuestiones de ‘estamos con usted, estamos trabajando, ya vimos lo que están haciendo, les falta esto’, sugerencias.</p>
+<p>Esto nos ha estado llegando mucho últimamente, la gente está planteando cómo podemos seguir ayudando, ‘no se les olvide esto, que ya empezaron esto, pero acuérdense que todavía falta terminarlo, no está completo’, siempre llamando la atención.</p>
+<p>Y hemos avanzado en la relación con las dependencias de si nos están llamando la atención sobre un tema hay que hacerles caso y qué pasó con este asunto, qué paso con cualquier otro.</p>
+<p>Esa es la dinámica con la que estamos trabajando y lo hacemos además con muchísimo gusto, con mucha convicción y con mucha alegría. La verdad, es muy satisfactorio servir.</p>
+<p>Gracias.</p>
+<p><strong>INTERLOCUTORA:</strong> Gracias, presidente.</p>
+<p>Dos temas, más. Uno, el asunto de la Corte, la decisión de la Corte para suspender este decreto federal que modifica las reglas para las nuevas plantas privadas generadoras de energías renovables, por un lado; por otro lado, la decisión de Iberdrola de decir que no va a invertir en el país hasta que no se tengan estas reglas claras.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Estamos en una revisión de todos estos ordenamientos legales porque se abusó mucho.</p>
+<p>El propósito, para decirlo con claridad, era dejarle el mercado de los energéticos al sector privado, tanto nacional como extranjero y esto implicaba menguar, socavar, destruir, acabar con Pemex y con la Comisión Federal de Electricidad, eso era el propósito de la política económica en el periodo neoliberal y nosotros no estamos de acuerdo con eso, y no es nuevo, lo planteamos durante años, y está planteado en la campaña y está en los compromisos el rescatar a Pemex y a la Comisión Federal de Electricidad.</p>
+<p>Entonces, antes no era esa la intención. La llamada reforma energética la hicieron para terminar de destruir a Pemex y a la Comisión Federal de Electricidad, y ni siquiera pueden decir que pensando en la gente, porque en todo el periodo neoliberal y sobre todo a partir de que se aprobó la llamada reforma energética se incrementaron los precios de las gasolinas, de la luz, no se benefició al pueblo. Entonces, ahora hay un cambio de política.</p>
+<p>Esto, desde luego a los que sacaban provecho… En el caso de Iberdrola, una empresa española que empieza a construir plantas de generación de energía, les otorgan contratos muy jugosos los funcionarios del gobierno, pero llega a tanto el arreglo, la asociación entre particulares y funcionarios, que en esta empresa trabajan quienes eran funcionarios cuando se les entregaron esos contratos, la secretaria de Energía del gobierno de México pasó a ser funcionaria de Iberdrola, pero ya en el extremo del descaro el expresidente Calderón fue nombrado consejero de Iberdrola.</p>
+<p>Entonces, yo entiendo que con la nueva política de rescate a la Comisión Federal de Electricidad y a Pemex pues no estén conformes, pero nosotros no vamos a ceder en este asunto porque tenemos que defender el interés público, tenemos que defender el interés del pueblo, de la nación.</p>
+<p>A nosotros no nos interesan los negocios privados, nos interesan los negocios públicos o, para no ser tan tajante, los únicos negocios a los que se les debe de dar toda la atención es a los negocios públicos, porque nosotros somos servidores públicos. El gobierno no es un comité al servicio de grupos privados, particulares, de corporaciones, de bancos, de empresas, el gobierno está al servicio del pueblo, de todos los mexicanos.</p>
+<p>Entonces, ellos no aceptan esta nueva política y por eso tenemos protestas y por eso <em>El País, </em>este periódico español que defiende a estas empresas, nos ataca un día sí y el otro también, pero ahora sí que hasta les ofrecemos disculpas por lo que estamos haciendo, ojalá y un día nos comprendan.</p>
+<p>Pero nosotros no podemos traicionar al pueblo de México, yo no le puedo fallar al pueblo de México, la gente votó por un cambio, por una transformación.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Pero con la suspensión de este decreto cuál sería el plan?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ah, vamos a ver si no hay otra instancia para defender el interés público.</p>
+<p>Si es necesario, propondría en su momento, lo he dicho, una reforma constitucional para que prevalezca el dominio de la nación sobre los recursos naturales y para que el interés general, el interés del pueblo, esté por encima de intereses personales o de grupos, por legítimos que sean. Entonces, somos distintos, ya no queremos la política neoliberal.</p>
+<p>Me gustaría hasta que se difundiera un documento que acaba de dar a conocer el papa Francisco, una condena al neoliberalismo, cómo es la política neoliberal contraria al humanismo. En su concepción religiosa dice: ‘contraria al <em>Evangelio’</em>, porque es lucro, porque no considera fundamental el pensar en los demás, porque hace a un lado el amor al prójimo.</p>
+<p>Entonces, somos distintos, son proyectos distintos y contrapuestos, por eso hay estas discrepancias. Desde luego, no vamos nosotros a actuar con medidas autoritarias, siempre va a ser en el marco de la legalidad, no somos como ellos, somos distintos. Al margen de la ley, nada; por encima de la ley, nadie.</p>
+<p>Antes no había Estado de derecho, era un Estado de chueco, de cohecho, bueno, se ha llegado a decir que era un narco-Estado, un narcogobierno, ¿ya que más?</p>
+<p>Yo lo único que quiero es que no sólo se piense en la delincuencia organizada, que se piense también en la delincuencia de cuello blanco, porque se dedicaban a saquear y ni siquiera perdían su respetabilidad, se disfrazaban como empresarios, se disfrazaban de hombres de negocios cuando se dedicaban a robar, a saquear. Entonces, eso ya no se acepta.</p>
+<p>Y no tiene nada que ver con la libertad. Si surge un grupo como Frenaaa, ahora que surgió este grupo de Carlos X. González, pues es lógico, pues ellos estuvieron apoyando toda la política privatizadora. Desde Salinas, su papá era el asesor económico de Salinas, ellos se beneficiaron con plantas eléctricas porque, no hay que olvidar, hace 20 años no había empresas particulares que generan energía eléctrica.</p>
+<p>Esto fue producto de la política neoliberal, cuando empezaron a concesionar la generación de la energía eléctrica y el propósito era acabar con la Comisión Federal de Electricidad. Ya llegaron al 50 por ciento de la generación de la energía eléctrica en 20 años y el propósito era ir cerrando todas las plantas de la Comisión Federal de Electricidad.</p>
+<p>Resultaron también ecologistas, ambientalistas, y como las plantas de la Comisión Federal de Electricidad se abandonaron y datan de 30, 40, 50 años las hidroeléctricas y otras plantas, pues entonces esperaron a decir: ‘Contaminan, hay que cerrarlas’.</p>
+<p>¿Por qué?</p>
+<p>Porque con ese plan ellos se iban apoderando del mercado. Si no hubiésemos llegado nosotros a la Presidencia, a finales de ese sexenio la Comisión Federal iba a estar produciendo cuando mucho el 10 por ciento de la energía eléctrica, y el 90 por ciento los particulares, sobre todo las empresas extranjeras, cobrando carísimo por el consumo de la luz, porque en el tiempo que ellos han dominado no bajó el precio de la luz, ni siquiera se mantuvo; al contrario, siempre se fue incrementando, lo mismo de los gasolinazos.</p>
+<p>Entonces, a pesar de eso, nosotros vamos a respetar todos los procedimientos legales, pero, aunque el periódico <em>Reforma</em>, igual que <em>El País</em> esté en contra de esta postura nuestra, nosotros vamos adelante.</p>
+<p>Y también que no se le malinterprete, porque un caricaturista ahora sale a decir que se afecta la libertad de expresión por lo que yo digo aquí todas las mañanas. ¿En qué?, si no estamos persiguiendo a nadie. ¿O qué?, ¿no vamos a ejercer nuestra libertad?, ¿nos vamos a quedar callados? Tenemos que hablar todos, tenemos derecho a hablar.</p>
+<p><strong>INTERLOCUTORA:</strong> Gracias, presidente.</p>
+<p>Hablaba también de cuestiones de abusos y se hablaba también del asunto de la privatización de zonas costeras, pero también más bien lo que vemos en cuanto a abusos también en este tipo de zonas, por ejemplo, en venta de terrenos de Fonatur, donde se vendían terrenos el metro cuadrado en 70 pesos, cuando costaba ocho mil.</p>
+<p>Sabemos que Fonatur está haciendo una auditoría de las ventas de estos terrenos que han calificado como un asalto en despoblado, que ha sido una serie de abusos y están de la mano con la Función Pública. Preguntar si estas auditorías a exdirectores de Fonatur, a empresarios, se aplicarían las sanciones y si buscarían recuperar estos terrenos que se vendieron de una forma irregular.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues vamos a revisar el asunto. Nos llevaría mucho tiempo también, es que todo está así. Era, ofrezco disculpas por la mala expresión, era un cochinero.</p>
+<p>El caso de la venta de terrenos de Fonatur, tengo claro y hay pruebas de cómo durante el gobierno de Fox se vendieron terrenos como a 10 minutos cuando mucho del actual aeropuerto de Cancún, manglares, creo que como 200, 300 hectáreas a 70 pesos el metro cuadrado, ni lo que cuesta un metro de alfombra. Ahí está eso.</p>
+<p>Lo otro, lo de la compra del terreno al finado Toledo Corro, en Nayarit, un rancho de como dos mil hectáreas, creo que 120 millones de dólares. No sé si pudieran…. el terreno o el mapa, nada más para que tengamos una idea de lo que hacían. Esto fue en el gobierno de Calderón.</p>
+<p><strong>INTERLOCUTORA:</strong> Sí, fueron los dos sexenios donde hubo precisamente este tipo de…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Donde hubo más venta de terrenos, así de ganga, de remate.</p>
+<p>Van a ver, porque esto nos… No, pero me gustaría… Si no tienen un mapa sobre la zona costera, sí, Sinaloa y Nayarit, para que yo les explique. A ver, si se puede.</p>
+<p>Este terreno está ahí, aprovecho para ver si hay quien se anime a comprarlo, nada más que sea dinero de procedencia lícita, pero vamos a tratar de recuperar cuando menos lo que se invirtió.</p>
+<p>Es en los… aquí, sí, en los límites de… Aquí es, aquí compraron el terreno, ya aquí es Nayarit, aquí está el límite, el terreno está aquí, el rancho, aquí está Mazatlán y aquí está el aeropuerto, esta es Villa Unión y aquí está el aeropuerto, y este es Mazatlán.</p>
+<p>Bueno, si el aeropuerto está aquí y Mazatlán ahora tiene mucho auge turístico, ahora por la pandemia se detuvo, pero está llegando mucha gente porque se hizo el camino hacia Durango, la carretera, y llegan incluso cruceros aquí, a Mazatlán, aquí está el aeropuerto, que era lo lógico si se quería desarrollar en el turismo, que es una opción, bueno, desarrollar esta parte, porque aquí está el aeropuerto, ¿qué tenían que comprar acá?, ¿cómo se llega acá? Aquí hay una base aérea de la Marina y aquí está el terreno.</p>
+<p>El finado Toledo Corro fue gobernador de Sinaloa, para que la gente que nos está escuchando lo sepa.</p>
+<p>¿Qué hicieron?</p>
+<p>Pues un negocio porque no valía eso que pagaron. Tan es así, que desde entonces no hay nada y tenemos que estar pagando mantenimiento.</p>
+<p>Esto es Fonatur, pero así como esto, por poner un ejemplo claro, si el propósito era el desarrollo turístico, pues lo que correspondía era cerca del aeropuerto, hacerlo ahí y no acá, porque acá se requiere un aeropuerto especial.</p>
+<p>Entonces, estamos procurando… Es como el avión presidencial, nos cuesta trabajo venderlo, nos está costando trabajo porque ¿quién compra un avión así?, pues sólo quienes tienen esta mentalidad faraónica. Pues es lo mismo.</p>
+<p>Y en el caso de Cancún, no, pues ahí hablé de este terreno, pero hay muchos otros y en todos lados. Por eso lo importante de lo de las playas.</p>
+<p>La otra cuestión que estamos revisando es la de los tribunales agrarios. Resulta que todo esto es propiedad social o era propiedad social, eran ejidos, eran tierras comunales, incluso tierras nacionales.</p>
+<p>Entonces, se apropiaron de las instituciones agrarias, en este caso de todo lo que tiene que ver con la Procuraduría Agraria y los más antiagraristas empezaron a apoderarse de estos tribunales. Les hablo del conservadurismo más rancio, tienen los tribunales agrarios para legalizar los despojos, las tierras ejidales, comunales, a tierras nacionales.</p>
+<p>Tengo que proponer a nuevos magistrados para los tribunales agrarios y no quería yo hacerlo porque tengo que nombrar tribunales administrativos. Imagínense todos los aparatos burocráticos que se crearon, que no están al servicio del pueblo, que no defienden el interés general.</p>
+<p>Entonces, en mi lógica de austeridad digo: Voy a dejar eso ahí -son como 100 nombramientos- porque nos ahorramos ese dinero y no pasa nada, nos ahorramos porque son sueldos elevados, pero alguien me aclaró: ‘Es que no está el titular, pero entra el suplente’, y siguen haciendo lo mismo.</p>
+<p>Entonces, ahora voy a proponer a los tribunales, porque estaban en manos estos órganos de puro mercader, manejado por abogados, esos especialistas en el tráfico de influencia; porque estamos hablando de playas, estamos hablando de terrenos que valen muchísimo dinero y se los fueron apropiando.</p>
+<p><strong>PREGUNTA:</strong> (inaudible)</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Vamos a ver legalmente si no han prescrito estos casos y lo más importante de todo es no repetir esa política.</p>
+<p>Por eso cuando todos estos grupos conservadores que han estado apoyando la corrupción se inconformar y dicen: ‘Hay que regresar a lo de antes’, pues es regresar a la corrupción.</p>
+<p>Ayer estaba yo viendo de que estos del ‘sí’, no sé si en las redes sociales está, es pura coincidencia seguramente, pero van a ver el ¿cómo le llaman?, el logotipo, de pura coincidencia.</p>
+<p>Este es Claudio X. González hijo, que se lanzó en contra de los maestros de Oaxaca, los acusaba de lavado de dinero, porque esa es una característica de todos estos personajes, son de doble discurso, de doble moral, mucha hipocresía. Pero quiero mostrarles el logotipo, puede ser coincidencia, es el Sí, es el Sí, parecido al Sí que utilizó Pinochet.</p>
+<p>Y su papá, porque como yo soy el presidente electo -eso sí, democráticamente- de más edad en la historia de México, ya tengo alguna experiencia ¿no?, por la edad. Entonces…</p>
+<p>Cuando, a pesar de la dictadura en Italia se le consultó a la gente si querían que continuara el régimen militar o se optaba por la democracia después del golpe al presidente Salvador Allende este era; y ahora el de Claudio es este.</p>
+<p>Puede ser coincidencia, pero fíjense que en el 2006 cuando nos robaron la Presidencia, el papá, -por eso hablo de que como ya llevamos tiempo en esto- declaró que no querían hacer, si ganábamos, o que no querían verse en la necesidad de aplicar una política como la que se impuso en Chile en el 73 con el derrocamiento del presidente Allende, lo declaró. De todas formas, están en su derecho; pero somos distintos, somos diferentes.</p>
+<p>Una más. Ya es mucho Sonora.</p>
+<p><strong>PREGUNTA:</strong> Gracias, presidente. Buenos días a todos. Daniel Blancas, de <em>Crónica</em>.</p>
+<p>Para compartirle una investigación, presidente, sobre contrabando, importaciones ilegales y mal uso de programas sectoriales, el cual en realidad afecta el empleo principalmente, de acuerdo a nuestra investigación de industrias, como la del calzado, el textil, el papel, el azúcar, el acero y otras que son vitales en el país.</p>
+<p>Durante la pandemia, presidente, paró la industria formal por obvias razones, lo sabemos, pero no las redes ilegales. La mercancía, por debajo del precio de la materia prima, incluso la mercancía que se llama subvaluada, creció, le voy a poner algunos ejemplos, 6.5 por ciento, estoy hablando del rango de enero a julio, la mercancía ilícita creció 6.5 por ciento en relación con el año pasado en la industria textil, en confecciones cinco puntos, en calzado tres puntos. Esto con datos del SAT, presidente, con datos oficiales.</p>
+<p>En realidad, el reportaje es muy largo, presidente, es un extenso y me gustaría no agotarlo ahora, sino compartírselo en futuras ocasiones, siempre pensando en el beneficio que puede traer para el empleo, ahora que es un momento complicado en el país.</p>
+<p>Hoy solamente quiero hablarle de un programa que es auspiciado por la Secretaría de Economía, que se llama Immex. Este programa, presidente, permite las importaciones temporales de bienes con la excusa de que aquí serán transformados y regresados al extranjero. Bueno, esto se hace sin cubrir ningún impuesto, presidente, este programa anula cualquier impuesto.</p>
+<p>Para las redes delictivas es muy importante porque lo usan para importar productos terminados o prohibidos que luego nutren el mercado negro o incluso el mercado formal por medio de facturas falsas, de las famosas factureras.</p>
+<p>Se evaden muchos impuestos, presidente, y en esto está relacionado, incluso la Antad, la cadena de tiendas de autoservicio.</p>
+<p>Según el último registro de la Secretaría de Economía hay dos mil 350 programas de estos que le estoy hablando, que se llaman Immex, dos mil 350.</p>
+<p>¿Sabe usted cuántos de estos dos mil 350 tienen registro de operaciones de comercio exterior?</p>
+<p>Sólo 400, presidente, sólo 400, es decir, menores del 20 por ciento; el otro 80 por ciento, presidente, de acuerdo a nuestra investigación, es usado por estas redes delictivas para, si me cachan una, aquí tengo la otra. Son como fichas de dominó para el crimen.</p>
+<p>Tengo aquí diversos archivos, presidente, testimonios, documentos, que detallan cómo un alto funcionario de la Secretaría de Economía conoció sobre la venta de estos programas, sobre la renta de estos programas en miles de dólares, sobre el ingreso de contenedores con mercancía fraudulenta o vacíos en el retorno.</p>
+<p>Este funcionario ocupó un puesto clave en este entramado, era nada más y nada menos que director general de Comercio Exterior, del cual depende Immex. Estuvo en este puesto en el sexenio de Felipe Calderón, en el sexenio de Peña Nieto. El problema, presidente, es que lleva 15 años en ese puesto porque también es el director de Comercio Exterior de su gobierno.</p>
+<p>Mis preguntas son las siguientes. Si me lo permite, vamos respondiendo una por una. La primera, ¿ordenaría usted una revisión y depuración de este programa del cual estoy hablando, de este programa Immex, para que sea usado en beneficio del pueblo y del empleo y no de traficantes?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, y además ya tengo conocimiento y se está haciendo ya un trabajo de investigación, lo está viendo la secretaria de Economía y lo está viendo el director de Aduanas, pero ya andamos sobre eso.</p>
+<p>Y lo que estás aquí exponiendo es muy, muy, muy cercano a la realidad. Es decir, sí es un foco de corrupción, sí es un asunto que ya estamos atendiendo, de modo que nos vas a dar el documento y vamos a indagar, vamos a profundizar.</p>
+<p><strong>INTERLOCUTOR:</strong> La segunda pregunta, presidente, ¿cómo es que se lograron filtrar a su gobierno funcionarios con gran responsabilidad en estas estafas?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Es muy buena pregunta.</p>
+<p><strong>INTERLOCUTOR:</strong> ¿Y cuál sería su postura sobre su continuidad?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues el gobierno es grande, ojalá y fuese grandioso, es grandote, es, ya lo dije, es un elefante echado, reumático y mañoso lo que nos entregaron, estamos ahí levantándolo y empujándolo para que camine.</p>
+<p>Duró mucho el neoliberalismo, más que el porfiriato. Lo repito, el porfiriato fueron 34 años, la política neoliberal, que es sinónimo de corrupción, duró 36 años, entonces eclipsaron todo y quedaron muchos funcionarios enquistados en las estructuras del gobierno, pasaban de sexenio a sexenio hasta nuestros días, esto que estás planteando. Entonces vamos a ir limpiando, lo seguimos haciendo, o sea, es diario y vamos a terminar de purificar la vida pública.</p>
+<p>Todos estos casos son investigados, pero un funcionario, por ejemplo, que está 15 años en un cargo y que permaneció durante el periodo de más corrupción en la historia de México no debe de seguir ahí, no debe de continuar ahí. De todas maneras, hay que revisar el caso.</p>
+<p>Pero esto nos pasa en Hacienda, nos pasa en Economía, bueno, Seguridad Pública había gente -y todavía no terminamos de limpiar- de García Luna y así en toda la estructura.</p>
+<p>Por eso hablamos de barrer de arriba para abajo y vamos avanzando y no vamos a dejar de limpiar. Cero corrupción, cero impunidad. Y ya lo dije, puede ser mi hermano, puede ser un hijo mío, si comete un delito de corrupción se va a cárcel, y estoy hablando de mi familia.</p>
+<p>En esto no hay acuerdo con amigos, con familiares.</p>
+<p>Nosotros llegamos aquí con la encomienda de acabar con la corrupción y los altos funcionarios del gobierno lo saben, constantemente se los estoy repitiendo. Sea quien sea, se le demuestra un caso de corrupción y no sólo tiene que abandonar el cargo, se le consigna.</p>
+<p>Y esto también lo digo y lo repito, lo repito y lo repito para que no se use mi nombre, porque hay unos que dicen: ‘Es una instrucción de arriba’, un poco lo que veíamos ayer con los fideicomisos, por instrucciones de arriba, no sé cuál era el término que usaban, pero sí… superiores, por instrucciones superiores.</p>
+<p>Yo no mando a decir nada, yo los cito cuando se trata de un asunto que nos importa y de manera directa; es más, yo creo que soy más transparente aquí en la conferencia que en las reuniones particulares o en los acuerdos con funcionarios, porque no tengo nada que ocultar y además esto me ayuda a mí para que sepan todos de que no hay tolerancia con la corrupción.</p>
+<p>Nada de que ‘está muy cercano y te pide el presidente que le ayudes o si nos apoyas, por ejemplo, en eso de los tribunales electorales para dar registros a unos y quitar registros a otros’. Nada absolutamente. En las candidaturas, ni de las de Morena me meto. Que quede claro eso, esto es distinto completamente.</p>
+<p>Entonces, todo esto que estás planteando se va a investigar.</p>
+<p>Antier plantearon aquí, dijeron que un funcionario de Pemex estaba en un restaurante con Romero Deschamps y con los líderes. Se dio a conocer aquí y ya nada más me informó el director de Pemex, bueno, ni siquiera habló conmigo, ya nada más me mandó el boletín de que fue suspendido el funcionario.</p>
+<p><strong>INTERLOCUTOR:</strong> ¿Se esperaría que así ocurriera en este caso?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí.</p>
+<p><strong>INTERLOCUTOR:</strong> El funcionario se llama Juan Díaz Mazadiego y, le digo, no es un puesto menor, es director de Comercio Exterior.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, sí, ya sólo que… Si estuvo dos sexenios, si estuvo en el sexenio de Calderón y en el sexenio de Peña en ese cargo y está en el sexenio nuestro con ese cargo pues no puede estar. Es de veras… O sea, sí hay funcionarios de carrera, pero en estos dos sexenios se intensificó la corrupción como nunca.</p>
+<p><strong>INTERLOCUTOR:</strong> Además, hay testimonios y archivos, documentos de que…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí y hay pruebas, sí.</p>
+<p>Es que si no lo hacemos así… ¿Y saben qué pasa?, por ejemplo, esto que me estás diciendo yo no lo sabía, ¿por qué?, porque son estructuras.</p>
+<p>Y le doy la confianza al secretario y si tienen casos así de gentes que vienen de las otras administraciones pues tratan de mantenerlos pensando que son técnicos, que son independientes y ahí se van.</p>
+<p>Y además se ponderó demasiado lo de la técnica, a los técnicos se les consideraba como científicos o se creían científicos y se elevó a rango supremo la economía, esa es una característica del periodo neoliberal, y se subordinó todo lo demás.</p>
+<p>Yo he llegado aquí a decir que para ser un buen funcionario público el 90 por ciento es honestidad y el 10 por ciento es conocimiento, experiencia y se enojan, dicen ‘no’, por la influencia que hubo durante muchos años, donde lo importante eran los grados académicos y no la honestidad.</p>
+<p>Y había quienes estudiaban doctorado en Harvard y por ese hecho ya tenían licencia para robar, como los hijos de <em>El Padrino,</em> de la novela de Puzo, que los mandaba a estudiar a universidades de extranjero.</p>
+<p>O los legisladores. Yo recuerdo que cuando decidimos que los militantes de Morena pudieran aspirar a ser diputados o senadores y que no se resolviera en una convención… Porque ¿qué pasaba cuando se resolvía en una asamblea?, ¿quiénes quedaban para ir a la lista plurinominal?, los cercanos a los dirigentes, hasta metían a sus esposas, a sus hermanos, a sus primos, a sus achichincles; como eran corrientes, grupos se ponían de acuerdo, se hacía la asamblea y salían en las listas.</p>
+<p>Entonces dijimos: No, ahora va a ser por sorteo, por insaculación, dicen los técnicos, los que hablan físico, y fue una crítica, ‘¡cómo!', ¿y si gana un albañil?, ¿y si gana una mujer indígena?, ¿y si gana un campesino?, ¡cómo va a ser diputado!’</p>
+<p>Bueno, entonces ¿qué?, ¿no son pueblo? ¿y qué no el diputado es un representante del pueblo? Y no se quiere conocimiento sobre la materia. Eso es elemental, eso en un mes se conoce la práctica parlamentaria.</p>
+<p>Ah, lo importante, lo más importante de todo es la honestidad y el tener vergüenza. ¿Para qué lo quiero tan experto y graduado en universidades del extranjero? Si se va a corromper, si le va a dar la espalda al pueblo, si nunca va a ser representante popular en los hechos.</p>
+<p>¿Saben qué paso, qué sucedió?</p>
+<p>Pues esos albañiles, esas campesinas, nunca traicionaron, jamás, nunca votaron por una reforma que afectara los intereses del pueblo, ninguno se vendió.</p>
+<p>Entonces, son parámetros distintos de medición. No nos hace falta mucha experiencia técnica, lo que nos falta en un país que padeció durante tantos años, siglos de corrupción, lo que necesitamos es moralizar la vida pública de México y para eso necesitamos mujeres y hombres honestos más que cualquier otra cosa. Eso es lo que buscamos.</p>
+<p>Y nos entregas tu trabajo.</p>
+<p><strong>INTERLOCUTOR:</strong> Sí, presidente.</p>
+<p>Para cerrar el tema y considerando que el Ejército, las Fuerzas Armadas, se han sumado ya a este ámbito aduanal portuario y que tiene usted ahí a dos funcionarios que creo que son importantes y de su confianza como Buenrostro y como Horacio Duarte, si se ha planteado un plazo para comenzar a disminuir el contrabando y la ilegalidad en este ámbito, presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Lo vamos a lograr pronto, porque no hay tolerancia con la corrupción y Horacio Duarte es un hombre íntegro y la que está en puertos, Rosa Icela Rodríguez, de primera.</p>
+<p>Así es como quiero que sean los servidores públicos, como Horacio Duarte, como Lety Ramírez, como Rosa Icela. Y fíjense que no están en el primer nivel, por lo que hablábamos; pero además hay quienes están en el primer nivel, como es el caso de Marcelo, que me ayuda mucho, profesional, de lo mejor que tenemos. Y así vamos conformando el equipo para la transformación.</p>
+<p>Y lo que decía Lety, que es muy interesante, la gente nos está ayudando, nos está recomendando cosas, o sea, no solo es ‘estamos con ustedes’, o lo que me dicen, ‘no afloje, no se preocupe, estamos con usted, le apoyamos’.</p>
+<p>¿Saben que me mandó a decir el papa Francisco con mi esposa?</p>
+<p><strong>PREGUNTA:</strong> ¿Ya regresó?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí. ‘Dígale que no se canse, que siga adelante’.</p>
+<p>Bueno, precisamente por cumplir un compromiso, tengo una llamada telefónica, es a las 9:00, voy a contestar tarde con el presidente de Alemania. Me tengo que ir, un abrazo.</p>
+<p>---</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

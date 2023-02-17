@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>17.03.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/17-03-21-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=139440' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F17-03-21-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F17-03-21-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66irz-f-ccebee417-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":26,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"38f63454","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55072,"ak.gh":"23.47.207.46","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616249","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==QoUrOz3ts2Lqo4M9T/wCEhR7obvemxysdcIQBtppjkuJ+nKTyqdR0jywc8bSzy/EKXO8v/1GRe4f+lHCnn47/cZvZhCF3EDGV3UNhduVFux0OV5aqBAxe0F+VOAThl3h532fOLPGEaraOKRxXGqmRASjxVGqt7AujyYOikcm/vhtFLdAJ4N3QvCQUitfhYUVom9MWUf8HkFnsghrNMe0B37IvFH7Hyd0TY28nab5qmnqJL9KUDwlFJL9Ogcf0bgh0ykmazQuQu/ifdD+5OsUD/Pb8MK09owKHpiwo8oc4xrYB762P4y3I/KNQ9cV3Z7X4hIA1sa78e3GReNyI3aBdU2tUtJmCYDKn/E6Opv4Dt/WiGwdSVT94W4w1xll4cusxeadedeRiAwh7xoYI66sYE86TWAKUtg2xEI3MDHqNdE=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-139440 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef1faada686" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>17.03.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 17.03.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-139440" class="post-139440 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2021/03/17-03-2021-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-01.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2021/03/17-03-2021-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-01-745x450.jpg" alt="17.03.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">17.03.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><em>2021: Año de la Independencia</em></p>
+<p>&nbsp;</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy buenos días.</p>
+<p>Nos da muchísimo gusto que en esta conferencia nos acompañe la doctora Claudia Sheinbaum, jefa de Gobierno de la Ciudad de México; el maestro Alejandro Murat Hinojosa, gobernador constitucional del estado de Oaxaca; el licenciado Miguel Barbosa Huerta, gobernador constitucional del estado de Puebla. Están aquí los tres gobernadores, la jefa de Gobierno incluida, porque vamos a informar al pueblo de México sobre el plan de reconstrucción que se está llevando a cabo para mejorar los bienes culturales, escuelas, hospitales, todo lo que fue afectado por los sismos.</p>
+<p>Se va a informar de cómo estamos trabajando de manera coordinada con los gobiernos municipales, de manera muy especial con los gobiernos de los estados, con el gobierno de la ciudad y cómo hemos avanzado.</p>
+<p><audio src="http://presidente.gob.mx/wp-content/uploads/2021/03/2021-03-17-Matutina.mp3" controls="controls"></audio></p>
+<p><iframe src="//www.youtube.com/embed/BSLjFckK9RI?t=761" width="600" height="400" allowfullscreen="allowfullscreen"></iframe></p>
+<p>&nbsp;</p>
+<p>Por parte del gobierno federal va a informar David Cervantes Peredo, que es subsecretario de Ordenamiento Territorial de la Secretaría de Desarrollo Urbano; y también va a informar Alejandra Frausto Guerrero, secretaria de Cultura, de todos los edificios, todos los bienes con valor histórico, cultural, que se están reconstruyendo.</p>
+<p>Nos acompaña también el director del Instituto Nacional de Antropología e Historia, Diego Prieto, que está aquí con nosotros.</p>
+<p>Antes de comenzar, antes de hacer esta presentación, queremos nada más hacer uso de nuestro derecho de réplica para aclarar una información falsa del periódico <em>Reforma</em> acerca del sargazo en las playas de Quintana Roo, lo cual no es cierto, afortunadamente no hay sargazo, las playas están limpias y es un paraíso del Caribe, con su mar azul turquesa.</p>
+<p>Porque ya vamos logrando que baje el contagio, ya hay estados con semáforo verde y ya se va a restablecer la actividad turística pronto, entonces esta información no ayuda, mejor dicho, la desinformación no ayuda, las noticias falsas, y por eso es importante aclarar.</p>
+<p>Entonces, el subsecretario de la Secretaría de Marina, el almirante Eduardo Redondo Arámburo, va a informar sobre lo que está realmente sucediendo en las playas de Quintana Roo y después ya informamos sobre el plan de reconstrucción.</p>
+<p>Almirante, por favor.</p>
+<p><strong>EDUARDO REDONDO ARÁMBURO, SUBSECRETARIO DE MARINA: </strong>Gracias. Muy buenos días a todos.</p>
+<p>Aparece esta nota en el periódico el <em>Reforma</em> y manifiestan que Marina anunció que acudiría hasta el próximo mes de abril a limpiar la macroalga. Marina ha estado trabajando permanentemente ahí, no ha cedido desde hace dos años.</p>
+<p>Podemos ver del lado derecho fotografías del día de ayer de la situación actual de las playas.</p>
+<p>Si pasamos a la siguiente, por favor. Esas son otras fotografías de la situación actual. En la primera fotografía, del lado izquierdo, es un poco de zacate marino, no son algas; y el resto de las fotografías pueden observar ustedes las playas perfectamente limpias, fotografías del día de ayer, repito.</p>
+<p>¿Qué acciones hemos estado realizando?</p>
+<p>Este año, ya el 5 de marzo se cambió de semáforo verde a amarillo y se inició con la operación de una embarcación sargacera Vulgare, que es su nombre, en el área de Mahahual.</p>
+<p>Aquí quiero comentarles que la Secretaría de Marina desde el año pasado contaba ya con siete embarcaciones sargaceras, las cuales en este momento ya están desplazadas, instaladas en determinadas áreas de playas, iniciando con su trabajo, además de dos embarcaciones más que se terminaron de construir; es decir, contamos con nueve embarcaciones sargaceras para aguas someras.</p>
+<p>Asimismo, con un buque de mayor desplazamiento que en tres días más se instalará en aguas profundas. El buque es de 500 toneladas de desplazamiento y es readaptado, reacondicionado para trabajar en la recolección de sargazo en aguas más profundas.</p>
+<p>Se efectuó un sobrevuelo no detectándose grandes cantidades de sargazo, no existe sargazo actualmente, pequeñas manchas muy lejanas, y hemos permanecido desde el principio de año efectuando sobrevuelos sobre las áreas marítimas.</p>
+<p>El 12 y 14 de marzo se efectuaron recorridos de playa, observándose las playas limpias en Puerto Morelos, que es el puerto que señalan, y asimismo en el resto de las playas.</p>
+<p>Se están instalando barreras, el 16 de marzo ya se instalaron barreras en Tulum y se continúa instalando anclajes de barreras de contención en Playa del Carmen.</p>
+<p>Hemos estado trabajando de la mano con el gobierno del estado, asimismo con los municipios, Semarnat, Turismo y otras dependencias del gobierno federal para mantener un constante trabajo y una constante limpieza de sargazo en esas áreas, no se ha dejado de llevar a cabo esa coordinación y ese trabajo permanente durante estos dos años.</p>
+<p>Ayer se elaboró un comunicado de prensa informando al respecto y les puedo asegurar que las playas en el mar Caribe están limpias y listas para que los turistas acudan a bañarse, a disfrutar de nuestro Caribe mexicano y la Secretaría de Marina continuará trabajando de la mano con el resto de las instituciones para mantener esas playas limpias.</p>
+<p>Muchas gracias. Gracias señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿No tienes la nota del periódico?</p>
+<p>Aquí está la nota, es falsa, aunque todo está dedicado a nosotros. Súbele. ‘Revira ministro Cossío; AMLO no entiende’. Qué terco es.</p>
+<p>Esta no sé de qué se trata. Ah, AstraZeneca. ¿Está qué? Ah, estamos actuando de manera irresponsable. Muy bien.</p>
+<p>Se aclara porque están desatados los de la prensa fifí y en su desesperación mienten como respiran.</p>
+<p>Bueno, ahora sí vamos a la información.</p>
+<p>Si les parece, que inicie David, que continúe Alejandra Frausto, de Cultura, y luego los dos gobernadores y Claudia para que se vayan preparando, primero Alejandro Murat, esa es la propuesta respetuosa, luego Miguel Barbosa y luego Claudia. Así comenzamos. Adelante.</p>
+<p><strong>DAVID CERVANTES PEREDO, SUBSECRETARIO DE ORDENAMIENTO TERRITORIAL Y AGRARIO. SECRETARÍA DE DESARROLLO AGRARIO, TERRITORIAL Y URBANO (SEDATU):</strong> Buenos días, jefa de Gobierno, gobernadores, secretaria, subsecretario.</p>
+<p>Vamos a iniciar la exposición con un video que habla de manera general de lo que se ha hecho en el Programa Nacional de Reconstrucción.</p>
+<p><strong>(INICIA VIDEO)</strong></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> El Programa Nacional de Reconstrucción es uno de los programas prioritarios del Gobierno de México y tiene como propósito atender a las familias y comunidades que sufrieron daños en sus viviendas, escuelas, unidades de salud, sus templos u otras construcciones que forman parte de su patrimonio cultural por los sismos de septiembre de 2017 y febrero de 2018. El beneficio de las obras, los empleos, la capacitación, son para quienes fueron afectados y para sus comunidades. </em></p>
+<p><em>La participación directa de las personas en la administración de los recursos para la reconstrucción de sus viviendas y sus escuelas, las obras mismas cuando se trata de algunos trabajos de restauración y en general en la vigilancia de los trabajos es una base fundamental del programa.</em></p>
+<p><em>Para financiar las obras de reconstrucción y restauración, en el periodo 2019-2020 se han destinado más de nueve mil millones de pesos del presupuesto federal y se han sumado recursos de otros programas, así como fundaciones para un total de 27 mil 875 millones de pesos, con los que se han llevado a cabo 54 mil 451 acciones del programa. El 91 por ciento de estas se encuentran concluidas y nueve por ciento en proceso.</em></p>
+<p><em>Para 2021, en el presupuesto federal se han asignado mil 800 millones de pesos a este programa, lo que permitirá, sumado a otras fuentes de financiamiento, contar con tres mil 578 millones de pesos para continuar obras e iniciar nuevas acciones.</em></p>
+<p><em>Es así que en estos dos años, por medio de la Comisión Nacional de Vivienda, Conavi, se han otorgado 46 mil 461 apoyos para la reconstrucción de viviendas por un monto de seis mil 787 millones de pesos; 70 por ciento de estos apoyos se destinaron para los casos de pérdida total o daños graves y el 30 por ciento para daños menores.</em></p>
+<p><em>Se han destinado 11 mil 284 millones de pesos para seis mil 462 acciones de reconstrucción en planteles escolares.</em></p>
+<p><em>Más de 400 acciones han sido realizadas por los comités escolares de administración participativa con la asistencia técnica del Instituto Nacional para la Infraestructura Física Educativa.</em></p>
+<p><em>Para la restauración de inmuebles con valor patrimonial, a cargo del Instituto Nacional de Antropología e Historia y de la Dirección General de Sitios y Monumentos de la Secretaría de Cultura, se han destinado más de cinco mil 341 millones de pesos para mil 354 acciones realizadas.</em></p>
+<p><em>Como parte del programa se ha capacitado en las técnicas tradicionales de construcción a técnicos y artesanos de las propias localidades.</em></p>
+<p><em>Por otra parte, el Instituto Mexicano del Seguro Social y la Secretaría de Salud coordinan y llevan a cabo las acciones de reconstrucción, mismas que se han financiado con cuatro mil 463 millones de pesos.</em></p>
+<p><em>Ya se concluyeron 174 acciones, tanto en centros de salud de las comunidades como en grandes hospitales.</em></p>
+<p><em>Ya falta poco. Estamos reconstruyendo esperanza.</em></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> Gobierno de México.</em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>DAVID CERVANTES PEREDO:</strong> Bien, pues daríamos sólo algunos datos para complementar lo que ya fue expuesto en el video con esta presentación. Podemos pasar a la primera lámina.</p>
+<p>¿Cómo se ha distribuido este recurso, estos 27 mil, más de 27 millones de pesos?</p>
+<p>De acuerdo con los criterios que se han aplicado en el programa de dar prioridad a donde hubo mayor concentración y mayor gravedad de daños, pues aparece Oaxaca en primer lugar con más de 17 mil acciones, más de seis mil millones de pesos y luego siguen los estados de Morelos, Puebla, Chiapas, Estado de México, la Ciudad de México; y ya con menor inversión y menor cantidad de daños, Guerrero, Tlaxcala, Veracruz e Hidalgo.</p>
+<p>Este programa ha aplicado estos recursos en 10 entidades y en un número muy importante de municipios, 778 municipios, y estimamos que con ello se han generados más de 316 mil empleos directos y más de 425 mil empleos indirectos.</p>
+<p>¿De dónde han provenido estos recursos?</p>
+<p>Fundamentalmente de lo que se destinado cada año en el Presupuesto de Egresos de la Federación, representa casi un 31 por ciento de estos 27 mil millones de pesos, seguido de lo que son las aportaciones del Fondo de Aportaciones Múltiples, lo que fueron los recursos de las aseguradoras, de los inmuebles que estaban asegurados, lo que fue el Fonden, fundaciones también han participado de manera importante; aunque el monto no es tan alto, ha sido muy importante también la participación de la sociedad civil.</p>
+<p>Y en otros estamos considerando recursos propios, por ejemplo, del Seguro Social, suma de recursos del gobierno de Chiapas, de gobierno de Puebla.</p>
+<p>Y aquí hay que destacar que no está considerado lo que ha aportado el gobierno de la Ciudad de México, que ahorita la jefa de Gobierno explicará más ampliamente, porque en el caso de la Ciudad de México la reconstrucción de vivienda ha recaído fundamentalmente en el gobierno de la ciudad.</p>
+<p>Y, bueno, para 2021 estamos disponiendo de tres mil 577 millones de pesos también con la suma de recursos del presupuesto federal y de otras fuentes, y con ello pretendemos llevar a cabo mil nueve…perdón, 462 acciones de cultura con mil nueve millones, seis acciones de educación con 4.5 millones de pesos, 43 acciones para seguir reconstruyendo hospitales, centros de salud con mil 480 millones de pesos, y seis mil 867 apoyos directos para la reconstrucción de vivienda con mil 84 millones de pesos. Pasamos a la última, por favor.</p>
+<p>Y bueno, pues queremos invitarlos a que puedan visitar nuestra plataforma abierta, este sitio reconstruyendoesperanza.gob.mx, donde puede encontrarse de manera más detallada la información que ahora hemos presentado. Muchas gracias.</p>
+<p><strong>ALEJANDRA FRAUSTO GUERRERO, SECRETARIA DE CULTURA:</strong> Buenos días. Gracias, presidente por el espacio. Buenos días, jefa de Gobierno, gobernadores, colegas de gabinete, Diego y pues medios de comunicación.</p>
+<p>La restauración del patrimonio cultural tiene características muy precisas. Vamos a la presentación, por favor. Si bien, como bien lo expresaba David Cervantes, la reconstrucción, por ejemplo, de una escuela, de viviendas, tienen una cadencia un poco más rápida, la reconstrucción del patrimonio se habla de una historia en cada inmueble, de historias que vienen del siglo XVI, del siglo XVII y todo eso conlleva un trabajo muy minucioso de cada uno de estos inmuebles.</p>
+<p>Se vio afectado el patrimonio edificado cultural como nunca antes por los sismos del 17 y el universo de atención son tres mil 61 bienes, muebles e inmuebles. Este patrimonio es un patrimonio vivo en las comunidades; no solamente se trata de infraestructura que tiene un valor cultural y patrimonial muy importante, sino tiene un valor comunitario muy importante donde se encuentra situado.</p>
+<p>Al recibir esta administración se llevaba 15 por ciento de avance por trabajos del Instituto Nacional de Antropología e Historia, y al sumarse el Plan Nacional de Reconstrucción con más de 700 inmuebles que no habían estado considerados originalmente, sumando este universo llevamos un 50.4 de avance al momento, con una inversión ejecutada al momento de cuatro mil 208 millones de pesos.</p>
+<p>Es importante el número de empleos que ha generado este programa, 41 mil 400 empleos especializados de arquitectos, de restauradores, de mano de obra por supuesto, albañilería, pero también desarrollando capacidades en las propias comunidades para estos trabajos.</p>
+<p>El 90 por ciento de estas manos son de las propias comunidades a las que nos referimos, el trabajo comunitario es fundamental. Donde se encuentran organizaciones comunitarias alrededor de estos templos o de estos centros que tienen un poder social muy grande se avanza mucho más rápido. De la mano del INAH, de la mano de sitios y monumentos, en asambleas, en acuerdos con las propias comunidades, como se puede ver ahí, se avanza de una manera mucho más ágil.</p>
+<p>Y algo que, bueno, Diego Rivera lo decía respecto a algunas piezas, decía: ‘Son las mismas manos, las mismas piedras’, en este caso son las mismas manos de las comunidades que se están capacitando para restaurar lo que sus mismas manos ancestrales en sus comunidades construyeron.</p>
+<p>Y esa capacidad generada en las propias comunidades para el presidente era importante que quedara como capacidades para el futuro para el mantenimiento preventivo. Si hubiera habido mantenimiento en toda esta infraestructura cultural tan importante no hubiera existido la catástrofe que vivimos.</p>
+<p>El tema de la prevención es fundamental y -pasamos a la siguiente- justamente con labores preventivas. En este gran Palacio de Bellas Artes, lo que no se ve en estos espacios que visitamos es la instalación eléctrica. Cuando revisamos este inmueble, todavía en transición, le comentamos al presidente que había una situación que nos preocupaba. Ustedes recordarán el conato de incendio que existió en los talleres de iluminación y costura en el 2017 y esto reflejaba una falta de mantenimiento y atención a todo el sistema eléctrico que tenía en condiciones muy críticas, como las pueden ver en la foto de ahí abajo, este inmueble que es parte fundamental de nuestra cultura, que tiene en sus manos el Instituto Nacional de Bellas Artes y Literatura.</p>
+<p>Recibimos un proyecto que llegaba a casi 400 millones de pesos para la intervención y que por ello no se había atendido.</p>
+<p>Y, por instrucciones del presidente, hicimos una colaboración muy cercana con la CFE. Aquí aprovecho para agradecerles porque por primera vez tenemos un trabajo puntual de las cargas eléctricas, los tableros y una restauración de todo este sistema de manera extraordinaria, un trabajo impecable por 30 millones de pesos que provienen del Instituto para Devolver al Pueblo lo Robado, o sea, estamos hablando del 7.5 de lo estimado originalmente.</p>
+<p>Se generan ahorros a través de esta obra que se hizo, que se concluyó ya, se da seguridad obviamente al inmueble, al patrimonio artístico, a los elencos y al público que asiste y se garantiza la vida útil de este sistema por 30 años.</p>
+<p>También en labores de mantenimiento preventivo, la Catedral Metropolitana, que hace dos décadas que no tenía labor de mantenimiento y estamos interviniendo con también la modernización de la instalación eléctrica, con la rehabilitación del sistema de pararrayos, con el mantenimiento de los pilotes de la catedral, que es un trabajo de ingeniería único en este país, somos ejemplares en ello, pues está arriba de agua este inmueble, y se ha hecho un trabajo muy, muy puntual, en esto.</p>
+<p>Se está retirando la flora parásita que se ve en las cúpulas, se sellan las grietas y se reparan los enladrillados sueltos. Viene otra etapa de la restauración de las esculturas y de todo aquello que sufrió también por el sismo.</p>
+<p>Agradecer las alianzas con distintas fundaciones y gobiernos de otras partes del mundo que nos ayudan a la intervención de 170 bienes muebles o inmuebles, muebles como murales, como retablos, como vitrales.</p>
+<p>Y pues aquí está la Fundación Harp Helú, la Fundación Carlos Slim, la Universidad de Roma III, el gobierno de Hungría, el gobierno de Francia, el gobierno de Chile, la Unión Europea y la Unesco; o sea, han colaborado con acompañamiento técnico, recursos, asesoría y apoyo en especie.</p>
+<p>Y para concluir, en el 2021 el 100 por ciento de los inmuebles afectados estará ya en obra, en proceso de restauración; para el 2022 el 90 por ciento de los bienes estarán entregados y restaurados; y para el 2023 el 99 por ciento de los bienes restaurados, este uno por ciento al que hacemos referencia como faltante son aquellos inmuebles que tengan un daño muy grave y por las condiciones y las características de los inmuebles lleve más tiempo esta reconstrucción.</p>
+<p>Como usted lo ha dicho, presidente, esta reconstrucción no sólo se trata de obra material, de albañilería, sino estamos reconstruyendo parte de nuestra historia y nuestra identidad, y pues la emergencia terminará cuando entreguemos el último bien restaurado.</p>
+<p>Gracias a la Dirección de Comunicación Social, que nos ayudó a hacer un video. El trabajo de síntesis es difícil en tres mil inmuebles, pero hay aquí un video que vamos a presentar con los avances.</p>
+<p>Gracias, presidente.</p>
+<p><strong>(INICIA VIDEO <em>AVANCE DE LA RECONSTRUCCIÓN DEL PATRIMONIO HISTÓRICO-CULTURAL AFECTADO POR LOS SISMOS DE 2017</em>)</strong></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> El Programa Nacional de Reconstrucción en Materia de Patrimonio Cultural avanza. </em></p>
+<p><em>Tres mil 61 inmuebles del patrimonio edificado histórico y artístico fueron afectados por los sismos de 2017.</em></p>
+<p><em>Al día de hoy el avance en la restauración es de mil 543 bienes inmuebles, logrando restaurar el 50.4 por ciento de las edificaciones dañadas.</em></p>
+<p><em>En el mismo esfuerzo se han restaurado 192 conjuntos de bienes muebles en 11 estados de la República.</em></p>
+<p><em>En la restauración del patrimonio, el Gobierno de México ha invertido más de cuatro mil 208 millones de pesos en recuperar recintos emblemáticos para la cultura, las tradiciones y la identidad de las comunidades.</em></p>
+<p><em>En Tlaxcala, por ejemplo, se restauró la Parroquia de San Francisco Tepeyanco y la Basílica de la Santísima Virgen de Ocotlán, una de las joyas barrocas del siglo XVI más importantes del país. </em></p>
+<p><em>En Puebla se han entregado templos como los de Tochimizolco y Tecamachalco, construcciones religiosas de gran arraigo entre sus comunidades. </em></p>
+<p><em>En Morelos se rehabilitaron varias capillas en Cuernavaca, Miacatlán y Tlayacapan, sobresalen también los trabajos en el templo del exconvento de Jantetelco, bello inmueble del siglo XVI, que funciona como parroquia en la cabecera municipal.</em></p>
+<p><em>En Oaxaca, uno de los estados más afectados por los sismos de 2017, destaca el templo de San Sebastián en Santo Domingo Tehuantepec, reciente icónico que recobró su esplendor tras sufrir daños severos y cuya restauración implicó un verdadero reto.</em></p>
+<p><em>Las comunidades trabajan de la mano con diversos especialistas como restauradoras, arquitectos e ingenieros.</em></p>
+<p><em>En Zinacantán, Chiapas, fue muy significativa la organización comunitaria para trasladar y resguardar sus piezas religiosas mientras se restauraba el templo.</em></p>
+<p><em>Y en la Ciudad de México los habitantes de la colonia Guerrero sobresalen por su activa participación a lo largo del proceso de restauración que se ha llevado a cabo en la Iglesia de Nuestra Señora de los Ángeles.</em></p>
+<p><em>La participación comunitaria se refleja también en las tareas mismas de reconstrucción. El 90 por ciento de las trabajadoras y los trabajadores de las obras de restauración pertenecen a las propias comunidades, ello significa que las manos que construyeron los monumentos ven reflejada la herencia de la memoria en las obras de restauración que ahora les devuelven su belleza y dignidad, al tiempo que se recuperan técnicas y materiales ancestrales de construcción.</em></p>
+<p><em>Sobre los trabajos de restauración a obra artística mural afectadas, a la fecha han sido restaurados diversos murales de grandes pintores mexicanos, entre los que destacan Epopeya del pueblo mexicano, de Diego Rivera en la escalera monumental de Palacio Nacional; Retrato de la burguesía, de David Alfaro Siqueiros, en el Sindicato Mexicano de Electricistas; Por una seguridad completa y al servicio de todos los mexicanos, de Siqueiros; y El pueblo en demanda de salud, de Rivera, ambos en el Centro Médico Nacional La Raza.</em></p>
+<p><em>Además, gracias al Programa Nacional de Reconstrucción, el Gobierno de México amplió el catálogo de inmuebles con valor cultural para reconstruir, logrando incorporar más de 600 inmuebles a este programa.</em></p>
+<p><em>Con una inversión superior a los 544 millones de pesos, ha sido posible restaurar sitios con valor arquitectónico y artístico como La casa de la Malinche, en Coyoacán, o La casa de los vientos, en Acapulco, Guerrero, que habitó e intervino el gran artista Diego Rivera.</em></p>
+<p><em>Este es un esfuerzo compartido tanto de los distintos órdenes de gobierno, federal, estatal, municipal y comunitario, de gobiernos de países como Chile, Italia e Hungría, que han aportado recursos o conocimiento para la restauración de inmuebles con valor cultural, así como organizaciones privadas como la Fundación Alfredo Harp Helú Oaxaca, que aporta significativamente para conservar y difundir el patrimonio cultural en ese estado.</em></p>
+<p><em>Recuperar el patrimonio es la oportunidad de reencontrarnos con nuestro pasado y con la esperanza de un mejor futuro. La restauración cultural no se detendrá hasta concluir el último inmueble y bien patrimonial afectado.</em></p>
+<p><em>Con estas acciones, el Gobierno de México refrenda su compromiso con las comunidades y su cultura.</em></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> Gobierno de México.</em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Adelante, Alejandro.</p>
+<p><strong>ALEJANDRO MURAT HINOJOSA, GOBERNADOR DE OAXACA:</strong> Gracias. Bueno, primero que nada, quiero reconocer y agradecer la gran coordinación que pudimos desdoblar estos dos años en el proceso de reconstrucción con el gobierno federal, señor presidente.</p>
+<p>En este proceso se atendieron acciones de vivienda, acciones educativas, de salud y de cultura, participando las diferentes instancias del gobierno federal y estatal.</p>
+<p>Pudimos atender más de 305 municipios. De acuerdo a Protección Civil, más del 50 por ciento de los sismos que impactan al territorio nacional año con año se dan en el estado de Oaxaca; sin duda, en 2017 y 2018 tuvimos los más fuertes en la era moderna de México.</p>
+<p>De acuerdo al Plan Nacional de Reconstrucción pudimos atender entre 2019 y 2020 más de seis mil 916 millones de pesos, que son alrededor de 17 mil 551 acciones.</p>
+<p>En el área de vivienda, para que podamos contextualizar, el Inegi reconoce alrededor de 180 mil viviendas. Desde el sismo del 17 al día de hoy hemos tenido un impacto que supera ya las 80 mil viviendas, para que podamos contextualizar.</p>
+<p>En estos dos años se pudieron atender 15 mil 660 acciones y, como ya lo señaló el subsecretario, más del 30 por ciento fueron pérdida total. La dispersión hasta el día de hoy es de dos mil 201 millones de pesos.</p>
+<p>Para que podamos contextualizar, en Oaxaca año con año no superábamos las mil 500 acciones de vivienda y no se construían más de 600 viviendas al año. De esa magnitud ha sido la atención en el tema de los hogares.</p>
+<p>En el tema también educativo fue uno de los temas más sentidos al arribo de su administración, señor presidente. Hemos podido ya atender mil 494 escuelas con más de dos mil 573 millones de pesos dispersados en las diferentes regiones del estado de Oaxaca, como es el istmo, la costa y la Mixteca.</p>
+<p>También, para que podamos contextualizar, cada escuela tiene alrededor de tres a ocho aulas. Anualmente no se atendían hasta el programa también de La Escuela es Nuestra más de 500 aulas al año. De esa magnitud ha sido también la atención que hemos podido desdoblar en el ramo educativo y estaremos listos para cuando se defina el arranque de clases.</p>
+<p>En el tema de salud se han podido dispersar alrededor de 44 mil millones de pesos atendiendo más de 25 centros y hospitales de salud.</p>
+<p>Y, por último, en la parte de los monumentos históricos se han podido atender 39 obras concluidas por 67.34 millones de pesos y tenemos 64 obras contratadas.</p>
+<p>Como saben, este es un proceso artesanal que requiere un cuidado especial, pero se ha ido avanzando de manera importante. Claramente se atendió primero la vivienda porque son los hogares en donde vive la población, tema de salud, el tema educativo y posteriormente el tema de los monumentos históricos.</p>
+<p>Reconocemos también que ya está en proceso la reconstrucción al 30 por ciento del Palacio Municipal de Juchitán, su drenaje y vamos a seguir trabajando de manera coordinada.</p>
+<p>Señor presidente, le agradecemos mucho que no haya dejado solo al pueblo de Oaxaca.</p>
+<p>Para que podamos también contextualizar, el estado de Oaxaca más, menos, recauda anualmente entre cuatro mil a cinco mil millones de pesos; es decir, aquí tenemos más o menos el presupuesto anual de los ingresos propios que tiene el estado de Oaxaca, así que ha sido claramente muy importante para las oaxaqueñas y los oaxaqueños.</p>
+<p>Por último, quiero también usar esta tribuna para reiterarle el compromiso de mi gobierno de firmar el acuerdo al que usted ha convocado en materia electoral.</p>
+<p>Muchas gracias.</p>
+<p><strong>MIGUEL BARBOSA HUERTA, GOBERNADOR DE PUEBLA:</strong> Presidente, buenos días.</p>
+<p>El tema de la devastación de los sismos de 2017 y 2018, en Puebla en el 2017, su epicentro fue en Puebla, en la Mixteca poblana, y hemos nosotros, desde que soy gobierno, recibido el apoyo de la federación para impulsar este Programa Nacional de Reconstrucción en suelo poblano.</p>
+<p>Les diré, 106 municipios afectados en los temas culturales, de salud, educativos y de vivienda; en materia de monumentos históricos, en materia de cultura, 454 monumentos afectados.</p>
+<p>Es un proceso largo, no es un proceso fácil. La reconstrucción con los materiales originales, impedir que se utilicen otro tipo de materiales y que se afecte el estilo original de cada uno de ellos es una lucha, es un cuidado permanente, porque no siempre hay la especialidad en esta materia y el INAH desempeña una función muy especial, 454, tenemos en marcha más de la 270, están en marcha, en un proceso ya en diferentes niveles de evolución, porque son monumentos históricos muy, muy complejos.</p>
+<p>En materia educativa fueron más de 270 escuelas dañadas, presidente, pero ya van más de mil 800 entregadas, otras que están en curso y no tengo duda que 2022 será el año que concluyamos todas las escuelas que fueron afectadas con el sismo.</p>
+<p>La vivienda la tenemos completa, porque aquí no hay que confundir el hecho de que una cosa es la vivienda afectada y otra cosa son los programas de vivienda que permanentemente la federación, a través de diferentes fondos, lleva a cabo en los estados y nosotros como estado también llevamos nuestros planes de vivienda, miles de acciones de vivienda, miles, cada año.</p>
+<p>Y en materia de las viviendas particulares que fueron afectadas, ya están restauradas de manera completa.</p>
+<p>Los hospitales no, tenemos un sistema hospitalario en pie, solamente nueve hospitales fueron afectados… 11 hospitales fueron afectados, nueve de los cuales están restaurados completamente y los otros dos no es que no estén funcionando, pero necesitan etapas de restauración.</p>
+<p>El gobierno de Puebla comprometido con el gobierno federal para completar este Programa Nacional de Reconstrucción y con esa máxima nos vamos, de que se va a concluir cuando se concluya. Gracias, presidente.</p>
+<p><strong>CLAUDIA SHEINBAUM PARDO, JEFA DE GOBIERNO DE LA CIUDAD DE MÉXICO:</strong> Buenos días, presidente. Buenos días a todos y a todas.</p>
+<p>Tenemos una presentación para mostrar los daños provocados por el sismo del 19 de septiembre de 2017 y los avances que hemos realizado en distintos conceptos que tienen que ver con vivienda, patrimonio histórico e infraestructura de distinto tipo.</p>
+<p>Igual quiero hacer un reconocimiento a César Cravioto, que es el comisionado de la reconstrucción; y a Jesús Esteva, que es el secretario de Obras del gobierno de la ciudad, que conjuntamente han encabezado este esfuerzo.</p>
+<p>Esto fue lo que encontramos cuando llegamos al gobierno. Se habían reconocido siete mil viviendas afectadas y de un censo muy intenso que realizamos encontramos que en realidad habían sido 25 mil 42 viviendas afectadas por el sismo del 2017. El avance a la fecha lo dividimos en edificios, unidades habitacionales, reubicaciones y vivienda unifamiliar en el caso de la vivienda.</p>
+<p>En el caso de los edificios fueron 370 dañados, hemos terminado 135; en obra, 95; donaciones principalmente de la Fundación Carlos Slim, 30 edificios y 140 por iniciar obra. Hay que decir que aquí es un proceso largo, particularmente en los edificios, tiene que haber un proceso jurídico de si son propietarios o no quienes habitan en el lugar, el apoyo para ello y al mismo tiempo un estudio de si el edificio tenía que demolerse o reconstruirse o tenía que rehabilitarse con sus proyectos ejecutivos.</p>
+<p>A la fecha se han invertido dos mil 700 millones de pesos y en total para los edificios requerirán ocho mil millones de pesos, y hay un programa que tenemos de redensificación de algunos pisos que nos va a permitir subsidiar o más bien financiar este proceso de reconstrucción de edificios.</p>
+<p>En el caso de la vivienda unifamiliar, 13 mil 343 viviendas afectadas, principalmente en las alcaldías de Iztapalapa y Tláhuac, aunque algunas también en Xochimilco; y de ellas, tenemos terminadas seis mil 329; en obra, mil 292; y este año comenzaremos a intervenir en siete mil 215. Estamos hablando de una inversión total de cuatro mil 640 millones de pesos y está por invertirse mil 440.</p>
+<p>En el caso de unidades habitacionales dañadas, con 11 unidades completas, una inversión total de 456 millones de pesos y este año iniciaremos la inversión en 120 que aún no han sido intervenidas, sobre todo por el tema de los estudios muy minuciosos que deben hacerse.</p>
+<p>Se hizo un análisis de ocho mil 500 viviendas unifamiliares, particularmente en Iztapalapa y en Tláhuac, donde las grietas por los hundimientos de la ciudad asociados a la sobreexplotación del acuífero generaron daños en algunos casos irreversibles, de tal manera que alrededor de 320 familias van a tener que ser reubicadas. Hemos adquirido ya el predio, que está en Tláhuac, y está comenzando a hacerse la inversión a través del Instituto de Vivienda de la Ciudad de México y es una inversión de 306 millones de pesos; por invertir, 121.</p>
+<p>Los daños de infraestructura hidráulica y carretera en reparación de grietas, construcción de acueductos, colectores, hemos invertido 602 millones de pesos y este año invertiremos alrededor de mil 51 millones adicionales.</p>
+<p>En el caso de la infraestructura social, aquí dividimos en la mitad la inversión. Se dañaron mil 132 escuelas en la ciudad, estamos hablando de una cuarta parte de las escuelas de toda la Ciudad de México. La mitad fue intervenida por el Gobierno de México y la otra mitad por nosotros, una inversión de casi tres mil millones de pesos y prácticamente están terminadas todas, hay cuatro escuelas que por temas con el seguro aún están en proceso, pero para agosto, el inicio del nuevo ciclo escolar, estarán terminadas.</p>
+<p>Y en el caso del patrimonio cultural hay una inversión muy importante por parte del INAH y otra parte que realizamos desde el gobierno de la ciudad, particularmente para los templos de los pueblos originarios, 21 templos y también para el templo de Tlatelolco.</p>
+<p>Y, finalmente, el Ángel de la Independencia, que lo encontramos con un daño muy grave por el sismo del 2017. Y, si nos permite, presidente, pasaríamos un video sobre el Ángel de la Independencia, los daños, la restauración que hemos hecho.</p>
+<p>Y en la restauración final que estamos trabajando junto con el INAH ya nada más es de la propia fachada, ya no tiene que ver con los daños estructurales y que evidentemente estará listo para los 200 años de la conmemoración de la consumación de la Independencia.</p>
+<p><strong>(INICIA VIDEO)</strong></p>
+<p><strong><em>VOZ MUJER:</em></strong><em> En el sismo del 19 de septiembre del 2017… (falla en transmisión de video)</em></p>
+<p><strong>CLAUDIA SHEINBAUM PARDO:</strong> Para no quitarles mucho más tiempo, igual subimos a las redes el otro. Gracias.</p>
+<p><strong>(PROYECCIÓN DE VIDEO <em>REFUERZO ESTRUCTURAL, COLUMNA DE LA INDEPENDENCIA)</em></strong></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, pues esta es la presentación. Este es un informe de todo lo que se está haciendo de manera coordinada con los gobiernos locales, los gobiernos de los estados, el gobierno de la ciudad, el gobierno federal, por la importancia que tiene la reconstrucción de monumentos históricos y la atención a todos los afectados por los sismos. Se ha seguido atendiendo sus demandas, se ha seguido ayudando a las comunidades y ya hay presupuesto suficiente para continuar y terminar con este Programa Nacional de Reconstrucción.</p>
+<p>Ahora sí abrimos. Ah, perdón. Quedaron pendientes Sara Pablo.</p>
+<p><strong>PREGUNTA:</strong> Buenos días. Buenos días a todos.</p>
+<p>Sólo del tema de reconstrucción, preguntar si se tendrá algún estimado de para cuándo se concluirán las acciones de vivienda en las entidades afectas. Supongo que debe ser diferente en cada estado, pero si tendrán algún aproximado.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues yo creo que el arquitecto David Cervantes puede tener la información.</p>
+<p><strong>DAVID CERVANTES PEREDO:</strong> Bueno, hay que comentar respecto a la reconstrucción en vivienda, que fue uno de los sectores en donde fue más difícil identificar la cantidad de daños, lo que se había hecho, lo que faltaba por hacer, dado que no se entregó un informe pormenorizado.</p>
+<p>Y esto ha sido un trabajo de todos, identificar qué familias todavía no habían sido atendidas, en dónde había comunidades que ni siquiera habían sido visitadas para el levantamiento de daños.</p>
+<p>Pero hoy podemos afirmar que, de las familias que perdieron totalmente su vivienda, han sido atendidas, en este año estamos atendiendo ya principalmente daños parciales graves y creemos que lo que quedaría pendiente serían los daños menores.</p>
+<p>Hemos concluido en ya un número muy importante de municipios, hemos ido como cerrando a reconstrucción en muchos municipios y esperamos este año llegar ya prácticamente al 90 por ciento y el próximo año poder concluir. Eso sería.</p>
+<p><strong>INTERLOCUTORA:</strong> Y presidente, buenos días. Preguntarle sobre el tema del Poder Judicial. Por un lado, entiendo, envió una iniciativa de reforma a la Ley Orgánica del Poder Judicial al Senado. Preguntarle cuál es su objetivo.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No hay nada en especial, la reforma que se aprobó del Poder Judicial tiene como propósito -garantizando su autonomía, su independencia- mejorar el funcionamiento de ese poder y sobre todo combatir la corrupción, eso es lo que se tiene básicamente.</p>
+<p>Acerca de las suspensiones que otorgaron jueces, uno en particular, pues ha generado una polémica que yo considero buena porque vamos a transparentar todo lo relacionado con la política de privatización que se llevó a cabo durante el periodo neoliberal, donde se le dio preferencia a las empresas particulares, sobre todo extranjeras, para generar energía eléctrica, vender la luz a precios altos y darle preferencia al mismo tiempo a particulares y cobrar más a las familias, a los consumidores domésticos.</p>
+<p>Ayer lo decía yo, hay corporativos que, mediante la interpretación sesgada, además, de la ley que existía, llegaban a pagar -o están todavía pagando- menos que lo que pagaba una familia de clase popular o de clase media por el consumo de luz; y desde luego, una tienda de abarrotes de una colonia, de un barrio, de un pueblo, pagaba -o paga todavía, y es lo que queremos corregir- hasta cinco veces más que lo que paga un centro distribuidor de productos, de las grandes cadenas comerciales.</p>
+<p>Entonces, por eso es la polémica, porque estamos corrigiendo todos estos excesos, abusos. Venían empresas extranjeras a hacer su agosto, nos veían como país de conquista y eso ya cambió. Pero como son intereses que tienen que ver con grupos financieros, con grupos empresariales, con los medios de comunicación, con los intelectuales orgánicos, desde luego con jueces, con magistrados, con ministros, con legisladores…</p>
+<p>Acuérdense, porque se olvida, se padece de amnesia, en algunos sectores desde luego, en el pueblo no, pero acuérdese de que hay una denuncia en la fiscalía porque cuando se aprobó la reforma energética se entregaron sobornos a legisladores para votar a favor de la reforma energética, esta que sirvió de paraguas, de marco, para llevar a cabo las privatizaciones en la industria eléctrica y en la industria petrolera. Entonces, ese es el fondo del asunto.</p>
+<p>Nosotros, pues vamos a respetar las decisiones del Poder Judicial. Luchamos por una democracia, no aspiramos a una dictadura, queremos una auténtica división de poderes, que no había, porque antes el poder de los poderes era el Ejecutivo, era el presidente; que ahora hay autonomía e independencia de los poderes, estamos viviendo una etapa nueva, un verdadero Estado de derecho, no como antes, que había un Estado de chueco.</p>
+<p>Entonces, esto es lo que ahora está desconcertando a algunos, pero nos tenemos que ir acostumbrando a la nueva realidad.</p>
+<p><strong>INTERLOCUTORA:</strong> Presidente, ya son entre 25, 27 suspensiones provisionales que se han otorgado, se sumó otro juez que otorgó otras tantas.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Y las que se acumulen.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Pediría usted también que se investigue a este otro juez o solamente al primero?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sólo la queja que presentamos, pero también hay que transparentar todo. La vida pública tiene que ser cada vez más pública, la transparencia es una regla de oro de la democracia y no debe de haber intocables.</p>
+<p>El presidente de México ahora no tiene fueros, puede ser juzgado por cualquier delito como cualquier otro ciudadano, eso no sucedía; y si es así con el presidente, ¿por qué no va a ser así con otros servidores públicos?</p>
+<p>Por eso también voy a enviar pronto una iniciativa de reforma para que no haya secreto, para que no se guarden los expedientes cuando se trata de servidores públicos que cometen actos de corrupción, porque, de acuerdo al llamado debido proceso, se tienen que mantener estos expedientes en secreto.</p>
+<p>Puede ser que, en el caso de particulares, para no violar sus derechos humanos, se reserven los nombres en los juicios; pero en el caso de un servidor público, el que roba, viola derechos humanos. Entonces, hay que transparentar la vida pública.</p>
+<p><strong>INTERLOCUTORA:</strong> Y, presidente, y una vez que se resuelva de fondo este tema de los amparos, si determinan que esta ley eléctrica contraviene a la Constitución, ¿usted impulsaría entonces una reforma constitucional?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, sí. Yo estoy seguro que no es inconstitucional la reforma, pero si lo determinan jueces, magistrados, ministros, que es inconstitucional y que no puede proceder, enviaría yo una iniciativa de reforma a la Constitución, porque no puedo ser cómplice del robo, del atraco, no puedo aceptar que particulares dañen la hacienda pública y afecten la economía popular y sobre todo afecten la economía de los más pobres.</p>
+<p>Porque privatización en México, en el periodo neoliberal, es sinónimo de corrupción. Se dedicaron a saquear, a robar, a hacer jugosos negocios al amparo del poder público y en el caso de la industria eléctrica y de la industria petrolera pues no tengo duda; pero no sólo eso, en los reclusorios, en la construcción de hospitales, en todo.</p>
+<p>Entonces, era una banda de cuello blanco, lo que sucede es que no perdían ni siquiera su respetabilidad y decían que eran negocios, que estaban haciendo negocios cuando en realidad estaban robando. Muy mal para el país y muy bien para ellos.</p>
+<p>Entonces, a eso se debe que se estén llevando a cabo estas reformas, porque así garantizamos que no aumente el precio de la luz.</p>
+<p>Llevaron a cabo la reforma energética y desde que se aprobó la reforma energética empezaron a aumentar el precio de la luz, el precio de las gasolinas. Nosotros llevamos dos años cuatro meses y no ha aumentado el precio de las gasolinas, ni del diésel ni de la luz, y no van a aumentar los precios de los energéticos.</p>
+<p>Entonces, para garantizar eso necesitamos que no haya corrupción y fortalecer a la Comisión Federal de Electricidad, que la querían destruir, y a Pemex, dejar todo a particulares, nacionales y extranjeros, todo al mercado y utilizar nada más al Estado para protegerlos, para rescatarlos en el caso que les fuera mal, como sucedió cuando el Fobaproa.</p>
+<p>Miren lo que está sucediendo en Estados Unidos, en Texas, con el problema de la nevada. Les están llegando los recibos a los texanos con costos elevadísimos. Aquí nosotros resolvimos el problema en cinco días gracias a los trabajadores electricistas, a los técnicos.</p>
+<p>Y sí, tuvimos un costo, pero menor, que no se va a transferir a los consumidores, es decir, no van a aumentar las tarifas.</p>
+<p>¿Y por qué logramos resolver nosotros y ellos no pudieron?</p>
+<p>Porque nosotros tenemos todavía afortunadamente el control de toda la red de distribución de energía y allá está fraccionada, privatizada, son distintas empresas. Entonces, se viene una emergencia como la que se enfrentó y no tienen opción, no tienen salida, porque sus líneas de transmisión no abarcan la totalidad de Texas ni están conectadas con otros estados de la Unión Americana.</p>
+<p>¿Cómo salimos nosotros?, ¿dónde fue la falla?</p>
+<p>En los estados del norte más cercanos a Texas.</p>
+<p>¿De dónde se produjo energía para llevar a Monterrey?, porque faltaba, dado que se fueron a las nubes los precios del gas para producir la energía eléctrica.</p>
+<p>De las plantas hidroeléctricas del Grijalva y de otras plantas que se echaron a andar y se subió energía y llegó la luz a todo el país.</p>
+<p>Entonces, es un asunto de interés nacional, no de -con todo respeto- de la ambición de malandros, fifís. Entonces, vamos a continuar con esto.</p>
+<p>Y ofrecemos disculpas por lo que se está haciendo, pero si no, pues vamos a pagar muy caro todos por la corrupción y vamos a heredar a las nuevas generaciones un país desecho. No, tenemos que entregar buenas cuentas. Y vamos a limpiar y se tiene que moralizar México, tenemos que purificar la vida pública del país. Y vale más que se vayan acostumbrando porque nosotros somos muy perseverantes.</p>
+<p>Ahora que me estás preguntando que qué va a pasar si declaran inconstitucional la ley, va la reforma a la Constitución. Que necesitamos dos terceras partes para que se apruebe una reforma constitucional, pero que lo decida el pueblo.</p>
+<p>Además, qué bien que vienen elecciones, porque por eso ellos están apostando a que no tengamos mayoría en la Cámara de Diputados para seguir manteniendo privilegios y seguir manteniendo el régimen de corrupción; nada más que el pueblo es sabio, es un pueblo con un instinto certero, sabe lo que está sucediendo por más campañas que haya.</p>
+<p>Ayer en el <em>New York Times</em>, Krauze escribe pidiendo la intervención del presidente Biden para que venga él a moderarnos, Es el colmo. Imagínense, el de Coparmex, este señor Hoyos, le pedía al rey de España lo mismo, a Felipe VI, que viniera a llamarnos la atención; ahora Krauze en el <em>New York Times</em> pidiendo que venga el presidente Biden a regañarnos.</p>
+<p>Pues ya, que deje de simular y que mejor les pida que lo nombren embajador de Estados Unidos en México, está vacante ese cargo, porque pues lo que está planteando es que se tenga un embajador como Henry Wilson, que preparó el golpe de Estado y el asesinato del presidente Madero.</p>
+<p>Que, por cierto, otro Wilson, pero Woodrow Wilson, que era presidente de Estados Unidos, nunca reconoció a Huerta, siempre consideró que se había asesinado al presidente Madero. Y ese Woodrow Wilson, ese presidente, era demócrata.</p>
+<p>Entonces, ¿cómo?, ¿haciendo el ridículo, a esos extremos? La verdad es que él es un empresario de la industria editorial que recibía muchos apoyos del gobierno anterior; más que historiador en sentido estricto, pues es un empresario editorial.</p>
+<p>¿Y por qué en el <em>New York Times</em>?</p>
+<p>Porque también la gran prensa tiene vinculaciones con las grandes corporaciones empresariales financieras en el mundo y carecen de ética.</p>
+<p>No nos dejemos apantallar y siempre actuemos con apego a la verdad, eso es lo mejor.</p>
+<p><strong>INTERLOCUTORA:</strong> Finalmente, preguntarle, a la luz de estos amparos que se están solicitando, supongo, no hay diálogo con ninguna de las empresas en materia eléctrica.</p>
+<p>Y también, usted ha dicho en estos días que grandes empresas no pagaban la luz como lo hacen los pequeños contribuyentes. ¿Bajo qué amparo de la ley se daba esta situación? Si de la propia reforma y si nos podría poner un ejemplo.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ah pues es que cualquier empresa se inscribía como otra, por ejemplo, con Iberdrola, como socio de una empresa productora de energía, aunque su ramo económico fuese el comercio y por ese hecho recibían un subsidio, o reciben un subsidio, y se los permitía la ley. Entonces, ese fue el cambio.</p>
+<p>A ver si mañana damos a conocer de cuánto pagan de luz las corporaciones y se compara con lo que pagan de luz los mexicanos en sus domicilios, para que se entienda mejor.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Y no hay una negociación con ninguna empresa ahorita?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, se está buscando eso, sí, está abierta la negociación, ya hay algunos que quieren llegar a acuerdos y estamos nosotros en la mejor disposición de que haya acuerdos, nada más que tiene que haber descuentos.</p>
+<p>Es el caso de los reclusorios, imagínese que les dieron contratos. Lo repito porque es parecido.</p>
+<p>O los gasoductos, contratos para traer gas. Se utilice o no se utilice el gas, hay que pagarlo y al final, a los 20 años, todas las instalaciones, los gasoductos, en vez de pasar a la Comisión Federal de Electricidad, se quedan como propiedad de las empresas.</p>
+<p>Los reclusorios, igual. Haya reclusos o no, hay que pagar al 100 por ciento, como si estuviesen llenos. Cuando entramos estaban al 20 por ciento los ocho reclusorios concesionados, ahora ya están al 60, pero hay que pagar al 100; el año pasado, 16 mil millones de pesos por los ocho reclusorios. Y a los 20 años las instalaciones, el reclusorio le queda a la empresa, no al gobierno.</p>
+<p>Entonces, se pagan tres mil 500 pesos por recluso, diarios. Un hotel de tres mil 500 pesos diarios, pues es como de cinco estrellas y puede ser que hasta de gran turismo. Entonces, ¿qué queremos?</p>
+<p>¿Cuánto están los cuartos de hotel de Oaxaca? Son baratos, ahí sí, como mil, mil 500 pesos cuando mucho, y además es una belleza Oaxaca y Puebla, y bueno, la Ciudad de México.</p>
+<p>Pero tres mil 500 pesos por recluso, entonces, ¿qué estamos haciendo? Bueno, ya se está hablando con ellos, ¿para qué? Bájenle.</p>
+<p>¿Desde luego que los reclusorios les van a quedar a ustedes?</p>
+<p>Eso no, eso no, mejor vámonos a la revisión del contrato.</p>
+<p>Pero ¿quieren mantener el contrato?</p>
+<p>De acuerdo, pero el reclusorio le tiene que quedar al gobierno. Y esa cantidad que están cobrando, bájenle un porcentaje, ya han cobrado bastante.</p>
+<p>Además, pero ¿quiénes son los afortunados de estos negocios?</p>
+<p>Pues los cuñados de Carlos Salinas de Gortari, los dueños de dos medios de comunicación, un gran empresario, etcétera, etcétera.</p>
+<p>Ya también en este caso se están acercando y se busca un acuerdo, y eso es lo único que queremos. Antes se permitía, estaba mal, ahora ya no se permite, pero vamos a buscar el arreglo.</p>
+<p>Lo mismo que se hizo con la planta de etano para producir polietileno de Odebrecht. Imagínense, le entregaron un contrato en la época de Felipe Calderón, el 2010, para que Pemex le vendiera gas etano 75 por ciento más barato que lo que cuesta el gas en el mercado.</p>
+<p>Y si Pemex -porque no tiene gas, lo tiene que importar- les falla, lo multaban.</p>
+<p>¿Cuánto se llevaron así?</p>
+<p>Pues como 10 mil millones de pesos.</p>
+<p>Entonces, ¿qué se hizo?</p>
+<p>Se terminó el contrato, no el de etano porque ese es un contrato a 20 años y si lo cancelábamos nos iban a acusar en tribunales internacionales; pero había -y eso no lo tenían en cuenta- un contrato, otro, de gas natural con Pemex que se venció.</p>
+<p>Entonces, primero, no querían ningún arreglo, porque además prepotentes, no acostumbrados a hacer negocios lícitos, sino acostumbrados al influyentismo y al soborno.</p>
+<p>Se les insistía: Vamos a revisar el contrato, es injusto. ‘No, no’. Pero se termina el contrato de gas y era un asunto ya legal decir: No voy a renovarte el contrato de gas.</p>
+<p>Entonces, me consultaron y dije:</p>
+<p>-No se va a renovar el contrato de gas.</p>
+<p>-Pero se va a parar la planta.</p>
+<p>-Se para.</p>
+<p>Y entonces sí, ya llegaron y ya se llegó al acuerdo, ya nos entendimos y todos contentos, nada más que ya no vamos a pagar el subsidio de 75 por ciento, ya la entrega del etano no va a ser hasta el año 2040, sino hasta el 2024 y lo que tenía que pagar multas Pemex desde que llegamos hasta la fecha se cancela.</p>
+<p>Entonces, eso es en beneficio de la nación, porque nosotros al final solamente somos administradores de los dineros del pueblo.</p>
+<p>Es lo mismo de la industria eléctrica y es lo mismo en el caso del petróleo y en general. Entonces, todo esto lo expongo para que la gente se entere.</p>
+<p>Y también decir que no todos los empresarios son así, la mayoría de los empresarios cumplen con sus responsabilidades sociales, pero con el neoliberalismo se fueron creando malas costumbres de no pagar impuestos, de tener empleados en el gobierno, de llevarse a trabajar, como Iberdrola, que se llevó de empleados a la secretaria de Energía, se lleva al Consejo de Administración de su empresa al presidente Felipe Calderón.</p>
+<p>El expresidente Zedillo se va también de asesor a la empresa ferrocarrilera extranjera que se beneficia con la privatización de los ferrocarriles nacionales, termina y a quien le entrega los ferrocarriles lo contrata de asesor.</p>
+<p>No hay un país en el mundo, o sea, que me digan dónde suceden estas cosas. Lo más cercano es España, que algunos expresidentes, ministros, los contratan las empresas españolas para hacer <em>lobby</em>, para hacer trámites en países de América Latina, para mantener contratos o conseguir nuevos contratos, pero es lo único, eso no pasa, o sea, es muy raro que suceda en otros países.</p>
+<p>Por eso también hay una reforma que se hizo reciente para que el que trabaje en el gobierno, terminando, no pueda de inmediato irse a trabajar a una empresa privada, eso ya se terminó.</p>
+<p>Porque los directores de Pemex a las empresas particulares, secretarios de Energía y de otros cargos, los que llevaron a cabo lo del rescate financiero cuando el Fobaproa a trabajar a los bancos particulares, a los bancos que se les benefició, entonces los contrataron después. Una vergüenza, entonces ya no.</p>
+<p>Bueno, vamos con Urbano.</p>
+<p><strong>PREGUNTA:</strong> Gracias. Buen día, señor presidente, buenos días, señora secretaria, jefa de Gobierno, subsecretarios, gobernadores.</p>
+<p>Señor presidente, ayer que se tocó el tema del sindicalismo por el caso del líder petrolero, quería plantearle también un tema. Usted ayer dijo que su gobierno auspicia, fue el término que utilizó, auspicia la democracia sindical y entonces pues ahora los trabajadores quieren que también su gobierno defienda esos logros vía la democracia sindical, le voy a decir por qué.</p>
+<p>Quiero actualizarle información acerca del conflicto de trabajadores y empresas mineras canadienses, que ya le hemos tocado aquí en la conferencia, básicamente en Sinaloa. Usted sabe muy bien, porque ha llevado el seguimiento, que la Secretaría de Gobernación, la Secretaría de Economía, la Secretaría del Trabajo, han hecho un esfuerzo mayúsculo, también el líder, el dirigente del sindicato minero metalúrgico, el senador Gómez Urrutia, y han trabajado muy bien, pero los empresarios canadienses, los accionistas, no quieren avanzar en este proceso, incluso están constituyendo un frente para resistir lo que resta, todo lo que viene de su gobierno, para no respetar los recuentos y no respetar los nuevos contratos colectivos de trabajo.</p>
+<p>Por ejemplo, en el caso -estuve recientemente con los trabajadores- en el caso de la mina San Rafael, en Cosalá, el coordinador de seguridad, Justino Mendoza Pompa, reveló que el gerente de la mina, Gaspar Mendoza Celaya, y el abogado de la empresa canadiense, J. Gilberto Acuña Armenta, lo obligaron a declarar y a firmar documentos en los que imputa delitos de robo a su hermano, al dirigente de la Sección 333, Yasser Beltrán Curioca, a 18 dirigentes de la zona.</p>
+<p>Y todo esto se cayó, el testigo estelar de los canadienses ya acudió al Ministerio Público allá en Sinaloa con la Fiscalía General de Justicia del estado de Sinaloa para declarar y denunciar que lo presionaron.</p>
+<p>Aquí, si quiere, ahorita por medio de Jesús, aquí están todas las declaraciones que se presentaron ante el ministerio público, se las hago llegar.</p>
+<p>Y también el pasado viernes Justino, este joven que se encarga de la seguridad, también se presentó ante los trabajadores mineros en una asamblea y dio a conocer todas las presiones de que fue objeto. También aquí tengo el USB de la declaración pública que hace ahí afuera de la mina para también que usted la conozca.</p>
+<p>El conflicto, como usted saben, ya lleva un año dos meses y ellos le piden que les ayude a defender esa democracia sindical. Ya ganaron los recuentos, como usted sabe, ya cumplieron con todo, pero siguen con la resistencia.</p>
+<p>El domingo que usted estuvo también allá en Sinaloa se acercaron por ahí ejidatarios de Bacamopa y de El Nacimiento, municipio de Mocorito, porque ellos también ya empezaron un bloqueo en la mina, El Magistral, porque los empresarios canadienses que se dedican a la explotación de oro y plata desde el 2008 no quieren reactivar, iniciar los convenios de explotación y pagar los gastos a los ejidatarios, al pueblo.</p>
+<p>Ellos, cuando llegaron ahí, invirtieron cerca de 300 millones de dólares y obtienen aproximadamente 50 millones de dólares cada año; o sea, tienen ganancias muy buenas como para que ahora no quieran cumplirme a los ejidatarios, al pueblo que, como usted dice, no saben que ya tienen hipotecado y vendido el subsuelo de donde viven y donde siembran.</p>
+<p>La pregunta del pueblo de Cosalá, la pregunta de los mineros de Sinaloa, de los trabajadores, pues es: ¿qué va a pasar?, que si van a estar obligados a seguir cerrando minas como un acto de presión.</p>
+<p>¿Qué ha platicado usted, señor presidente, con el embajador de Canadá en México, que ya estaba en conocimiento de estas negociaciones? Y que si los empresarios canadienses van a seguir violando sistemáticamente la ley en México y si quieren detener este proceso de nuevo sindicalismo, de nuevo respeto a los trabajadores y que los trabajadores, por primera vez, pues puedan elegir a sus dirigentes que ellos quieren y que están amparados en la ley.</p>
+<p>Gracias, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, hay algunos problemas con las empresas mineras canadienses, no con todas, son varias.</p>
+<p>Hay empresas que son ejemplares, por ejemplo, la minera de Mazapil, en Zacatecas, que le paga bien a los trabajadores, que ayuda a las comunidades, que cuida el medio ambiente, que no se destruya el territorio, es una empresa canadiense; pero hay otras que no siguen ese ejemplo.</p>
+<p>Cuando se habla del comportamiento de las empresas mineras, pues no hay que olvidar lo que sucedió durante el gobierno del presidente Fox con la mina de San Luis, la del Cerro de San Pedro, la minera San Javier, también canadiense, acabaron con el cerro, bueno, hasta fue asesinado el presidente municipal.</p>
+<p>El cerro de San Pedro está en el escudo de San Luis Potosí. ¿No estará el escudo de San Luis?, porque si es ese escudo pues ya no existe el cerro.</p>
+<p>Y para sacar el mineral, sacar el oro, destruyeron completamente el poblado y devastaron a zona, y eso lo permitieron las autoridades mexicanas desgraciadamente. Nosotros tenemos dos asuntos…</p>
+<p>No, no está el cerro.</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS, COORDINADOR GENERAL DE COMUNICACIÓN SOCIAL Y VOCERO DE LA PRESIDENCIA:</strong> Está arriba.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ah, claro, sí. ¿No hay otro que se vea mejor? Ahí está, ese es.</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS: </strong>Ya no existe.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ya se acabó. Una minera canadiense, con el apoyo, la complicidad del gobierno estatal y del gobierno federal de aquel entonces.</p>
+<p>Ahora tenemos nosotros dos asuntos que aprovecho para tratarlos. Esta es la mina de Cosalá en Sinaloa que -le explico a los mexicanos- no aceptaba, no acepta la empresa al sindicato, entonces se estaban peleando la titularidad del contrato, porque hay la mala costumbre -así también era antes- que querían las empresas tener sindicatos a modo, sindicatos blancos que estaban al servicio de las empresas y no defendían a los trabajadores.</p>
+<p>Entonces, en este caso, como había dos sindicatos peleándose la titularidad del contrato, se hizo un recuento y ganó, por decisión de los trabajadores, un sindicato para que representara a los trabajadores; pero como no es del agrado de la empresa no quieren iniciar actividades, porque quieren tener su sindicato y no están cumpliendo con el mandamiento de ley de la Secretaría del Trabajo.</p>
+<p>Entonces, aprovecho para pedirle al secretario de Relaciones Exteriores que hable con el gobierno de Canadá y que explique esta situación. Y que no se vaya a entender como amenaza, ni siquiera como advertencia, pero si no se respeta la legalidad, el gobierno puede revocar la concesión a la empresa, y no va a faltar otra empresa que quiera, cumpliendo la ley, llevar a cabo los trabajos de explotación minera. Ese es un caso.</p>
+<p>Y el otro es el de otra minera, también canadiense, en Tayoltita, Durango. Ahí no quieren pagar impuestos, la empresa no quiere pagar impuestos y ya están buscando irse a tribunales internacionales. Pues también, un llamado a las autoridades de Canadá para que nos ayuden y que estas empresas hagan lo mismo que hacen en Canadá, no queremos que hagan más que eso, que paguen impuestos como pagan en Canadá, que traten bien a los trabajadores como sucede en Canadá y que cuiden el medio ambiente, que no destruyan el territorio como están obligados a hacerlo en Canadá. Yo estoy seguro que se va a lograr un acuerdo en este sentido.</p>
+<p>Y estoy hablando de dos, pero deben de estar trabajando 100 empresas mineras; o sea, no es general, es un asunto de -como en todo- de algunas empresas, estas dos.</p>
+<p>Entonces, ojalá y nos ayuden el gobierno de Canadá para que se resuelva este asunto; de lo contrario, vamos a actuar legalmente.</p>
+<p><strong>INTERLOCUTOR:</strong> Perfecto. Gracias, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy bien.</p>
+<p>Vamos con Daniela Pastrana.</p>
+<p><strong>PREGUNTA:</strong> Gracias, buenos días, presidente. Daniela Pastrana, de <em>Pie de Página</em>.</p>
+<p>Nosotros hemos estado en las últimas semanas haciendo unos recorridos en las comunidades muy lejanas del país para ver cómo está la vacunación.</p>
+<p>Hemos visto que efectivamente ha llegado a lugares muy, muy remotos, pero que también depende mucho la información de gobiernos estatales, locales; o sea, es muy dispareja.</p>
+<p>Nosotros vamos a plantear algunas dudas más bien en la conferencia en la tarde, pero hay una que me interesa mucho plantearle a usted, porque estoy segura que no le va a sorprender que le diga que en La Montaña de Guerrero hubo municipios donde mucha gente, a diferencia de otros lugares, tenía miedo de vacunarse, que le daba miedo la vacuna, en Tlapa, en Malinaltepec.</p>
+<p>Entonces, quería preguntarle, porque yo sé las vacunas que no se aplicaron ahí, se aplicaron en otros municipios, pero para las siguientes etapas donde pues va a haber más gente vacunada, si va a haber un refuerzo de información en sus lenguas o si va a haber alguna estrategia para captar a esta gente que está un poco, pues asustada por la desinformación que ha habido sobre las vacunas.</p>
+<p>Y concretamente en el caso de Tlacoapa, que tienen un hospital que está funcionando temporalmente en una casa de bienes comunales desde hace ocho años, que se cayó el hospital que tenían con estas tormentas de Ingrid y Manuel, y que no está construido el… O sea, está construido el hospital, pero no se ha inaugurado, creo que porque tiene algunas fallas estructurales o algunas cosas así.</p>
+<p>Entonces, en ese caso quería preguntarle si es posible que nos den una actualización de este plan que tienen de reconstrucción de hospitales, si entra, si no entra. Los médicos de ahí nos pidieron mucho que habláramos sobre el tema.</p>
+<p>Bueno, la zona COVID es un garaje, entonces sí tienen mucha preocupación y mucha urgencia de que ese hospital se eche a andar.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, pues vamos a dar respuesta, tomamos en cuenta tu planteamiento acerca del hospital y van a ir de parte nuestra del Insabi a La Montaña para ver lo de este hospital.</p>
+<p>Y también vamos a seguir informando, orientando de la importancia de la vacunación, porque sí hay dudas o no se tiene toda la información, o caló la desinformación del daño que podría ocasionar la vacuna. Pues lo estamos viendo hoy o ayer en el periódico <em>Reforma</em>, sobre que no estamos haciendo nada para analizar los efectos que podría causar, los daños que podría causar la vacuna AstraZeneca, eso es lo que dice el <em>Reforma</em>; o sea, lo de los coágulos cuando los médicos especialistas mexicanos están trabajando en eso, pero además están en comunicación con la Organización Mundial de la Salud y hay investigación en el mundo, y ya se empieza a despejar la duda y se autoriza el uso de la vacuna.</p>
+<p>Nosotros ya llevamos aplicadas miles de vacunas de AstraZeneca -a ver si no tenemos lo de los frasquitos- y no hemos tenido problema con esta vacuna; pero al momento que se informa, no explicando bien, sino nada más con propósitos de politiquería, o sea, porque tienen problemas con nosotros, se meten hasta en asuntos que tienen que ver con la salud del pueblo.</p>
+<p>Astra, 870 mil. Y hay un cuadro sobre los efectos de las vacunas, sobre reportes.</p>
+<p><strong>INTERLOCUTORA:</strong> A veces esa información que se genera en la tarde, nosotros la hemos estado entendiendo muy bien, pero a veces es un poco técnica para la gente que vive en esas comunidades.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí</p>
+<p>¿Cuántos?</p>
+<p><strong>JESÚS RAMÍREZ CUEVAS:</strong> Once casos de AstraZeneca.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Once casos.</p>
+<p>Pero vamos a seguir informando y yo pienso que la gente va a ir convenciéndose cada vez más.</p>
+<p>Aquí es alto el porcentaje de personas en el país que quieren vacunarse. En otros países están más dudosos, actúan de manera más precavida, están esperando; acá no, en México es alto el porcentaje que sí quiere la vacunación.</p>
+<p>Pero sí hay una franja de la población que se niega; entonces, nuestra labor es informar y dar garantías a la gente de que la vacuna ayuda y que no perjudica, que no causa daño.</p>
+<p>Y necesitamos hacer más trabajo en las comunidades marginadas, en las comunidades más apartadas, allá en La Montaña y en la tarahumara y en la lacandona, y en la Sierra Sur y la Sierra Norte, y en la Mazateca y en todos lados, en Oaxaca. Más información y se va a lograr. También en estas comunidades es muy probable que regresemos para la segunda dosis y ahí se va a lograr, ahí se va a poder vacunar a los que faltaron o que estaban pensándolo.</p>
+<p>Ahora lo que se hace es que se va a un municipio, se termina el municipio; si son menos de los habitantes estimados, menos de los adultos mayores que hay, porque existe esta negativa a vacunarse, lo que se hace es que se va a al municipio cercano para no perder la vacuna y por las condiciones de congelamiento, de efectividad de la vacuna, pero estamos trabajando en eso.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Qué alcaldías continúan?, ¿qué alcaldías siguen en la vacunación?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Mande?</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Qué alcaldías días siguen en la vacunación?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Es que estamos ahora trabajando más -desde el principio lo analizamos- en las comunidades más apartadas porque cuesta más la vacunación.</p>
+<p>Si vemos la gráfica del número de vacunados por día, hemos llegado a tener hasta 360 mil vacunados diarios, pero es cuando vacunamos más en las ciudades, que es relativamente más fácil, las comunidades rurales llevan más tiempo y hay que ir a buscar a adultos mayores hasta sus casas, no olvidemos que en México hay 230 mil comunidades, pequeñas comunidades, hay una gran dispersión poblacional, 230 mil localidades.</p>
+<p>Entonces, se va a comunidad central, a un centro integrador del que dependen muchas pequeñas comunidades; entonces, va la brigada ahí, vacuna ahí y luego tiene que ir a todas. Ahí hay muchos adultos mayores que no puede moverse, que hay que ir a sus casas. Es una labor importante, intensa la que se está llevando a cabo por parte de las brigadas, pero estamos ya avanzando mucho en las comunidades más apartadas.</p>
+<p>De modo que hacia delante de lo que nos va a quedar, en el caso de adultos mayores, son las grandes ciudades. Llevamos como un 25 por ciento de adultos mayores, pero ya estamos terminando porque estamos trabajando en más… Ya hemos avanzado y en esta semana y en la próxima terminamos ya más de mil municipios, pero pequeños de los dos mil 500 aproximadamente que hay en el país, poco menos de dos mil 500, ya más de mil completos de adultos mayores.</p>
+<p><strong>INTERLOCUTORA:</strong> Presidente, ahora, aprovechando que está aquí la jefa de Gobierno, le quería preguntar si hay algún plan o pensado ya que se vaya a suspender de nuevo el Viacrucis, como el año pasado, la representación.</p>
+<p>Y el plan que están teniendo para con los bajos niveles de Cutzamala, que entiendo ya informó que hay un sistema de pipas, pero la gente nos ha preguntado si acceden vía las alcaldías o cómo acceden a estos sistemas de pipas, porque ya hay escasez de agua en varias colonias.</p>
+<p><strong>CLAUDIA SHEINBAUM PARDO:</strong> Sí, en el caso del Viacrucis de Iztapalapa, estuvo inclusive Jesús con Clara Brugada, se va a llevar a cabo de manera virtual nuevamente, es el segundo año que va a ser así.</p>
+<p>Afortunadamente quien organiza este Viacrucis, que en realidad es un Viacrucis comunitario, aceptó esto y lo están llevando a cabo.</p>
+<p>Y hay todo el apoyo de <em>Canal 11</em>, de todos los canales públicos y al mismo tiempo de <em>Capital 21</em> en la Ciudad de México para que se pueda apreciar y todo el país pueda apreciar esta ceremonia, que es una ceremonia eclesial, pero al mismo tiempo muy comunitaria, particularmente en Iztapalapa.</p>
+<p>En el caso de las pipas, de la disminución del Cutzamala, hoy o mañana van a dar conferencia de prensa la Conagua, la CAEM del Estado de México y el Sistema de Aguas de la Ciudad de México, se va a informar del nivel de las presas dada la sequía que hemos vivido en los últimos meses y cuáles son las acciones que se van a llevar a cabo.</p>
+<p>Entonces, no recuerdo si es hoy o mañana, pero es una conferencia de prensa conjunta.</p>
+<p><strong>INTERLOCUTORA:</strong> Muchas gracias.</p>
+<p>Por último, presidente, hoy se cumplen seis años de la movilización de jornaleros agrícolas en San Quintín. Ellos han tenido ya avances en negociaciones, ya tienen seguro social, ya no tienen trabajo de niños jornaleros, pero hay dos temas que todavía están pendientes, bueno, hay muchos temas que todavía están pendientes de las demandas que tenían, dos concretamente:</p>
+<p>Uno tiene que ver con el agua, que siguen recibiendo agua salada, entonces no sé si haya algún plan ya específico para ellos.</p>
+<p>Y otro tiene que ver con el tema de las guarderías, de las estancias. Nosotros que conocemos bien el plan que hay o el plan que ha habido de sustitución de ese programa por el de las madres trabajadoras, pero en el caso de las jornaleras el problema es que ahí no hay ni abuelitas ni hay estancias privadas ni hay nada, o sea, tienen una situación particular porque no hay lugares en donde puedan tener a sus hijos las jornaleras y ellas tiene que salir a trabajar.</p>
+<p>Entonces, preguntarle si hay algún plan que tengan específico, ahora que se ha constituido su municipio, para avanzar en la agenda de San Quintín.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, vamos a tratar los dos temas. Ya es municipio San Quintín y tengo que ir allá, hice el compromiso porque vamos a inaugurar la ampliación del hospital del IMSS-Bienestar, nada más que ya va a iniciar la veda electoral y ya no me va a alcanzar el tiempo para ir ahora.</p>
+<p>Pronto, voy a ir a principios, la primer quincena de junio voy a ir a San Quintín y vamos a ver lo del agua que estás planteando y lo de las estancias infantiles para trabajadoras jornaleras, agrícolas, vamos a ver eso.</p>
+<p><strong>INTERLOCUTORA:</strong> Muchas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy bien.</p>
+<p>Les propongo que dejemos hasta aquí la conferencia hoy, mañana seguimos. Nos quedaron -no avanzamos- nos quedan pendientes cinco compañeros: Juan Carlos, Esteban, Arturo Pavón, Diego Cedillo y Felipe Fierro. ¿Les parece para mañana?</p>
+<p>Es que mañana ya va a ser pura pregunta y respuesta, aunque tardamos mucho, porque ya saben ustedes que yo no hablo de corrido, y además aprovecho también para informar, hay que contextualizar más.</p>
+<p>Siempre he sostenido que, a diferencia de los escritores, que no se deben de repetir, un dirigente, un gobernante pues sí tiene que repetirse bastante, tiene que repetir y repetir y repetir, porque la labor de un dirigente, de un gobernante, tiene que ver con la creación de consciencia con el cambio de mentalidad.</p>
+<p>Nosotros siempre pensamos que lo más importante es la revolución de las conciencias. Cuando hay un cambio de mentalidad, cambia todo. Eso es lo que afortunadamente está sucediendo, esa es la bendición, el despertar como nunca de los mexicanos. Es un pueblo completamente despierto, politizado, consciente, que está ayudando mucho para llevar a cabo la transformación.</p>
+<p>No podríamos solos, ya me hubiesen hecho minilla, no digo de qué especie acuática, ya nos hubiesen avasallado porque son intereses creados muy poderosos y se sentían dueños de México, y se arraigó mucho la corrupción, 36 años.</p>
+<p>Siempre repito, el porfiriato fueron 34 años y miren lo que costó una revolución: asesinatos de dirigentes, perdieron la vida un millón de mexicanos tanto por la violencia como por las epidemias, el hambre, para salir del porfiriato.</p>
+<p>Salir del neoliberalismo nos está costando menos, mucho menos, por el apoyo del pueblo, porque desde luego ahora hay más consciencia que en la Revolución, es mayor el número de mexicanos conscientes que los que había en la Revolución, incluso proporcional a la población de entonces y de ahora.</p>
+<p>Y desde luego, más gente consciente ahora que en la Reforma. Lo de la Reforma fue una hazaña, es una gran obra de transformación, no sólo porque los liberales parecían gigantes, porque era una minoría, imagínense enfrentar a todo el poder del clero en ese entonces y de los conservadores, y se logró la Reforma. Claro, Juárez y Lerdo, Iglesias y Riva Palacios, Prieto, Zamacona, Zarco, etcétera, etcétera, etcétera. Muchas mujeres también. Pero eso fue una hazaña, es increíble; algunos dicen que fue una chiripa histórica, no, es obra de un proceso de conducción política ejemplar encabezada por el presidente Juárez.</p>
+<p>Y también, si vemos la Independencia, pues es heroico lo que hicieron los padres de nuestra patria, Hidalgo y Morelos, pero tampoco era mucha la población consciente como ahora.</p>
+<p>Por eso nos está costando menos trabajo y se está llevando a cabo una transformación profunda, igual que la Independencia, igual que la Reforma, igual que la Revolución, de manera pacífica y se va avanzando.</p>
+<p>Entonces, yo estoy muy contento por eso, porque el pueblo de México está a altura de las circunstancias.</p>
+<p>Y, como decía el presidente Juárez, con el pueblo todo, sin el pueblo nada. Si no fuese por la gente, si no fuese por el pueblo, no se avanzaría.</p>
+<p>Se jalan los pelos nuestros adversarios: ¿Cómo es? Si todos los días primeras planas en contra, del <em>Reforma</em>, de <em>El Universal</em>, etcétera, etcétera, etcétera, programas de radio, televisión.’</p>
+<p>Y ya no salen encuestas, no publican encuestas, los mariachis callaron, porque, con toda la campaña, la gente nos está apoyando. Imagínense, si no tuviésemos el apoyo del pueblo, todos los días estarían sacando encuestas.</p>
+<p>Yo recuerdo que en una campaña un periódico y un programa de radio sacaban encuestas diarias cuando el candidato Peña Nieto estaba por las nubes, diarias, las daba a conocer Ciro, que ya no se enoje tanto, no hay que perder el sentido del humor.</p>
+<p>Bueno, adiós, adiós.</p>
+<p>---</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>

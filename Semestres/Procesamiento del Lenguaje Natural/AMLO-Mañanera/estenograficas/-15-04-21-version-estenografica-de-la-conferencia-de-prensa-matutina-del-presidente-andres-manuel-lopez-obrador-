@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>              <html class="ie8 no-js" lang="es">     <![endif]-->
+<!--[if IE 9]>					<html class="ie9 no-js" lang="es">     <![endif]-->
+<!--[if !(IE)]><!-->			<html class="not-ie no-js" lang="es">  <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<!--[if ie]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+		<!-- <link rel="shortcut icon" href="http://151.394.mwp.accessdomain.com/wp-content/themes/diplomat/favicon.ico" type="image/x-icon" /> -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<link rel="alternate" type="application/rss+xml" title="Presidente de México RSS Feed" href="https://presidente.gob.mx/feed/" />
+		<link rel="pingback" href="https://presidente.gob.mx/xmlrpc.php" />
+
+		
+		<title>15.04.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador &#8211; Presidente de México</title>
+
+		<script type="text/javascript">
+			var tmm_lang_no_events = "No events at this period!";
+			
+			var lang_january =  "January";
+			var lang_february = "February";
+			var lang_march =    "March";
+			var lang_april =    "April";
+			var lang_may =      "May";
+			var lang_june =     "June";
+			var lang_july =     "July";
+			var lang_august =   "August";
+			var lang_september = "September";
+			var lang_october =  "October";
+			var lang_november = "November";
+			var lang_december = "December";
+
+			var lang_sunday =   "Sunday";
+			var lang_monday =   "Monday";
+			var lang_tuesday =  "Tuesday";
+			var lang_wednesday = "Wednesday";
+			var lang_thursday = "Thursday";
+			var lang_friday =   "Friday";
+			var lang_saturday = "Saturday";
+
+			var lang_sun = "Sun";
+			var lang_mon = "Mon";
+			var lang_tue = "Tue";
+			var lang_wed = "Wed";
+			var lang_thu = "Thu";
+			var lang_fri = "Fri";
+			var lang_sat = "Sat";
+
+			var lang_today = "today";
+			var lang_month = "month";
+			var lang_week = "week";
+			var lang_day = "day";
+			var lang_time = "Time";
+			var lang_place = "Place";
+			var error_fetching_events = "There was an error while fetching events!";
+
+			var events_time_format = "0";
+			var events_date_format = 0;
+		</script>
+
+				<style type="text/css" media="print">#wpadminbar { display: none; }</style>
+		<script type="text/javascript">
+						var is_single_page = true;//for breadcumbs definitions it theme.js
+						var site_url = "https://presidente.gob.mx";
+			var capcha_image_url = "https://presidente.gob.mx/wp-content/themes/diplomat/helper/capcha/image.php/";
+			var template_directory = "https://presidente.gob.mx/wp-content/themes/diplomat/";
+			var ajaxurl = "https://presidente.gob.mx/wp-admin/admin-ajax.php";
+			var ajax_nonce = "1cab9bfc1f";
+			var lang_enter_correctly = "Please enter correct";
+			var lang_sended_succsessfully = "Your message has been sent successfully!";
+			var lang_server_failed = "Server failed. Send later";
+			var lang_any = "Any";
+			var lang_home = "Home";
+			var lang_attach_more_else = "You cant add more else attachments!";
+			var lang_loading = "Loading ...";
+			var lang_mail_sending = "Mail sending ...";
+			var charcount = "20";
+			var widget_advanced_search = "1";
+			var menu_advanced_search = "1";
+			var fixed_menu = "1";
+			var appearing_speed = "50";
+		</script>
+		<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed" href="https://presidente.gob.mx/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Presidente de México &raquo; Feed de los comentarios" href="https://presidente.gob.mx/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/presidente.gob.mx\/wp-includes\/js\/wp-emoji-release.min.js?ver=e283627719625c42dbfcc13b6adb6f19"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='arqam-style-css'  href='https://presidente.gob.mx/wp-content/plugins/arqam/assets/style.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_google_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%7CRoboto%7CPT+Serif%7CDroid+Serif%7CMontserrat&#038;subset=latin%2Ccyrillic&#038;ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_fontello-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/css/fontello.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='layerslider-css'  href='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/css/layerslider.css?ver=7.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://presidente.gob.mx/wp-includes/css/dist/block-library/style.min.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='foobox-free-min-css'  href='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/css/foobox.free.min.css?ver=2.7.17' type='text/css' media='all' />
+<link rel='stylesheet' id='events_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='events_calendar_css-css'  href='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/css/calendar.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_theme_style-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/styles.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<link rel='stylesheet' id='tmm_custom2-css'  href='https://presidente.gob.mx/wp-content/themes/diplomat/css/custom2.css?ver=e283627719625c42dbfcc13b6adb6f19' type='text/css' media='all' />
+<!--n2css--><script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='layerslider-utils-js-extra'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"7.2.1","fixGSAP":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.utils.js?ver=7.2.1' id='layerslider-utils-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=7.2.1' id='layerslider-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitions.js?ver=7.2.1' id='layerslider-transitions-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/modernizr.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_modernizr-js'></script>
+<script type='text/javascript' id='foobox-free-min-js-before'>
+/* Run FooBox FREE (v2.7.17) */
+var FOOBOX = window.FOOBOX = {
+	ready: true,
+	disableOthers: false,
+	o: {wordpress: { enabled: true }, countMessage:'image %index of %total', excludes:'.fbx-link,.nofoobox,.nolightbox,a[href*="pinterest.com/pin/create/button/"]', affiliate : { enabled: false }},
+	selectors: [
+		".foogallery-container.foogallery-lightbox-foobox", ".foogallery-container.foogallery-lightbox-foobox-free", ".gallery", ".wp-block-gallery", ".wp-caption", ".wp-block-image", "a:has(img[class*=wp-image-])", ".foobox"
+	],
+	pre: function( $ ){
+		// Custom JavaScript (Pre)
+		
+	},
+	post: function( $ ){
+		// Custom JavaScript (Post)
+		
+		// Custom Captions Code
+		
+	},
+	custom: function( $ ){
+		// Custom Extra JS
+		
+	}
+};
+</script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/foobox-image-lightbox/free/js/foobox.free.min.js?ver=2.7.17' id='foobox-free-min-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/google-analyticator/external-tracking.min.js?ver=6.5.7' id='ga-external-tracking-js'></script>
+<meta name="generator" content="Powered by LayerSlider 7.2.1 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.com -->
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://presidente.gob.mx/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://presidente.gob.mx/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://presidente.gob.mx/15-04-21-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador/" />
+<link rel='shortlink' href='https://presidente.gob.mx/?p=140220' />
+<link rel="alternate" type="application/json+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F15-04-21-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://presidente.gob.mx/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpresidente.gob.mx%2F15-04-21-version-estenografica-de-la-conferencia-de-prensa-matutina-del-presidente-andres-manuel-lopez-obrador%2F&#038;format=xml" />
+
+		<style type="text/css" media="screen">
+			
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="32x32" />
+<link rel="icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<meta name="msapplication-TileImage" content="https://presidente.gob.mx/wp-content/uploads/2022/01/Presidencia-favicon-rojo.png" />
+<!-- Google Analytics Tracking by Google Analyticator 6.5.7 -->
+<script type="text/javascript">
+    var analyticsFileTypes = [];
+    var analyticsSnippet = 'disabled';
+    var analyticsEventTracking = 'enabled';
+</script>
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-144351937-1', 'auto');
+ 
+	ga('send', 'pageview');
+</script>
+		<style type="text/css" id="wp-custom-css">
+			body {
+	background: #691C32;
+}
+
+.header.type-1 .header-middle {
+    background-color: #691C32;
+}
+
+#footer .footer-top{
+	background-color: #691C32;
+}
+
+#footer .footer-bottom{
+	background-color: #691C32;
+	border-top-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a, .header-bottom nav.navigation > .menu > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-item > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a, .header-bottom nav.navigation > .menu > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-parent > a:before, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a, .header-bottom nav.navigation > .menu > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current-menu-ancestor > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_item > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a, .header-bottom nav.navigation > .menu > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_item > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a, .header-bottom nav.navigation > .menu > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_parent > a:before, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a, .header-bottom nav.navigation > .menu > ul > .current_page_ancestor > a:before, .header-bottom nav.navigation > .menu-primary-menu-container > ul > .current_page_ancestor > a:before{
+	background-color: #691C32;
+}
+
+.header-bottom nav.navigation > .menu > ul > li:hover > a, .header-bottom nav.navigation > .menu-primary-menu-container > ul > li:hover > a{
+	background-color: #691C32;
+}		</style>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481486-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-144481486-1');
+</script>	
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("True"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"U4MTS-J7K9R-VPPR2-ZPBHU-KFPCW",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="fadbapqaakejkkagcaym57qaabr66i6x-f-8cae1b86c-clienttons-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"34","ak.cp":"959687","ak.ai":parseInt("615102",10),"ak.ol":"0","ak.cr":19,"ak.ipv":6,"ak.proto":"http/1.1","ak.rid":"2a7ae7f5","ak.r":46270,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.bpcip":"2806:103e:2:8895::","ak.cport":55491,"ak.gh":"23.47.207.69","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1676616663","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==1iey/nMnyipz/ENZ+Q1S/6jjK7u+rGtCa4z0+FVMcjWtNPhWGOKf1MI0ttdClaHzQZCzrcODZ0yUsxYkJpHamuvlzPLbJij3XdhGKsGYwu+AixNNR+QS3Mm1yIBiIS8y918gzVw82EiqYVrBkGOLaWKFuPr+D2sFyCzj+KVLxxuhpu8/uV7ma/jOFNxFXuHLFory5MrA786irAD9NWIKF4sZ6wDWs6YUapHWKpnU9LqL+tZzaNbbq8SUyp/8g6yU0lBk5MtVTt7vUHc5dwWdJ9p8ueCq6zfsulJBHZR0W/KlXcdY+AFwSmPrplROX5vrgxr3eJGLyM1J2gkJK6kOH9AVURFtfvhyWI0cIDniGXgLRBmU2fDEcsx02MwDRwYEGSkJDJ5/83G1MxofMPL62KrFyq2++iH64Q8urNMsRZ0=","ak.pv":"23","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+	<body class="post-template-default single single-post postid-140220 single-format-standard custom-background header-fixed animated">
+
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+       
+		<div id="fb-root"></div>
+                	
+        <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+        <div id="wrapper">
+
+	        <!-- - - - - - - - - - - - - Mobile Menu - - - - - - - - - - - - - - -->
+
+	        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+	        <!-- - - - - - - - - - - - end Mobile Menu - - - - - - - - - - - - - -->
+                
+            <!-- - - - - - - - - - - - Header - - - - - - - - - - - - - -->
+
+            
+<header id="header" class="header type-1">
+
+	<div class="header-top">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				
+<ul class="social-icons">
+
+	<br />
+<b>Warning</b>:  Invalid argument supplied for foreach() in <b>/var/www/html/wordpress/wp-content/themes/diplomat/header-socials.php</b> on line <b>8</b><br />
+
+</ul><!--/ .social-icons-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-top-->
+
+	<div class="header-middle">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+				<div class="header-middle-entry">
+
+						<div class="logo">
+		<a class="tmm_logo" title="Presidente de México" href="https://presidente.gob.mx">
+			<img height="500" width="1640" src="https://presidente.gob.mx/wp-content/uploads/2023/01/portada-villa-2023-3.png" alt="Presidente de México" />
+		</a>
+	</div>
+	
+					<div class="account">
+
+						
+						<!-- - - - - - - - - - - - - Donate Button - - - - - - - - - - - - - - -->
+
+							
+						<!-- - - - - - - - - - - - - end Donate Button - - - - - - - - - - - - -->
+
+					</div>
+
+				</div>
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-middle-->
+
+	<div class="header-bottom">
+
+		<div class="row">
+
+			<div class="large-12 columns">
+
+				<nav id="navigation" class="navigation top-bar" data-topbar role="navigation">
+
+						<div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-111936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-111936"><a href="https://presidente.gob.mx">Inicio</a></li>
+<li id="menu-item-111964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-111964"><a href="https://presidente.gob.mx/sala-de-prensa/">Sala de Prensa</a>
+<ul class="sub-menu">
+	<li id="menu-item-112186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112186"><a href="https://presidente.gob.mx/sala-de-prensa/boletines/">Boletines</a></li>
+	<li id="menu-item-111786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111786"><a href="https://presidente.gob.mx/sala-de-prensa/transcripciones/">Transcripciones</a></li>
+	<li id="menu-item-118108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118108"><a href="https://presidente.gob.mx/documentos/">Documentos</a></li>
+	<li id="menu-item-98894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98894"><a href="https://presidente.gob.mx/sala-de-prensa/fotogalerias/">Fotogalería</a>
+	<ul class="sub-menu">
+		<li id="menu-item-158543" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-158543"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/">Fotogalerías. Reuniones estatales del Banco del Bienestar</a></li>
+	</ul>
+</li>
+	<li id="menu-item-125355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125355"><a href="https://presidente.gob.mx/multimedia/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-156889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156889"><a href="https://presidente.gob.mx/4-anos-de-transformacion/">4 Años de Transformación</a></li>
+<li id="menu-item-138549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138549"><a href="https://presidente.gob.mx/gabinete-3-2/">Gabinete</a></li>
+<li id="menu-item-136675" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-136675"><a href="https://presidente.gob.mx/oficina-de-la-presidencia-2/">Oficina de la Presidencia</a></li>
+<li id="menu-item-572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-572"><a href="https://presidente.gob.mx/biografia/">Biografía</a></li>
+<li id="menu-item-121787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121787"><a href="https://presidente.gob.mx/contacto/">Contacto</a></li>
+</ul></div>						
+
+<div class="search-form-nav">
+	<form method="get" id="searchform-63ef2148ac6ea" action="https://presidente.gob.mx/">
+		<fieldset>
+			<input placeholder="Search" type="text" name="s" autocomplete="off" value="" class="advanced_search" />
+			<button type="submit" class="submit-search">Search</button>
+		</fieldset>
+	</form>
+</div>
+
+						
+				</nav><!--/ .navigation-->
+
+
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .header-bottom-->
+
+</header><!--/ #header-->
+
+            <!-- - - - - - - - - - - - end Header - - - - - - - - - - - - - -->
+                
+
+			<!-- - - - - - - - - - - - - - Main - - - - - - - - - - - - - - - - -->
+
+	        
+			<main id="content" class="row sbr">
+
+				
+	<div class="large-12 columns">
+		<div class="page-title">
+
+			
+					<h1 class='font-small'>15.04.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h1>
+
+									
+				
+
+
+				
+													
+
+							
+
+			
+					<div class="breadcrumbs">
+						<a href="https://presidente.gob.mx" title="">Home</a> <a href="https://presidente.gob.mx/secciones/version-estenografica/" title="View all posts in Versión Estenográfica">Versión Estenográfica</a> 15.04.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador 					</div><!--/ .breadcrumbs-->
+
+					
+		</div>
+	</div>
+
+
+				<section id="main" class="medium-8 large-8 columns">
+
+		<article id="post-140220" class="post-140220 post type-post status-publish format-standard has-post-thumbnail hentry category-version-estenografica">
+
+		    <div class="post full-width">
+
+				
+	<a href="https://presidente.gob.mx/wp-content/uploads/2021/04/15-04-2021-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-07.jpg" class="image-post item-overlay single-image-link" >
+		<img  src="https://presidente.gob.mx/wp-content/uploads/2021/04/15-04-2021-CONFERENCIA-DE-PRENSA-MATUTINA-FOTO-07-745x450.jpg" alt="15.04.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador" />
+	</a>
+
+	
+			    <header class="entry-header">
+
+				    <h2 class="entry-title">15.04.21 Versión estenográfica de la conferencia de prensa matutina del presidente Andrés Manuel López Obrador</h2>
+
+				    
+
+			    </header>
+
+			    <div class="entry-content">
+
+				    <p style="text-align: right;"><em>2021: Año de la Independencia</em></p>
+<p>&nbsp;</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy buenos días. Ánimo.</p>
+<p>Pues vamos a destinar esta mañanera a contestar preguntas y también a informar, porque están llegando vacunas. El día de hoy vamos a tener un enlace con médicos que están en el aeropuerto para seguir informando sobre el Plan Nacional de Vacunación. Ayer comentábamos que fue récord el número de vacunados y vamos a continuar con este plan que protege, sobre todo a los adultos mayores.</p>
+<p>Quedó pendiente Miguel Arzate, para responder. Es el único, ya después vamos, ahorita vemos cómo le hacemos.</p>
+<p><strong>PREGUNTA:</strong> Muy buenos días, presidente. Gracias por la oportunidad.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sigue -nada más, Miguel- sigue una compañera.</p>
+<p><strong>INTERLOCUTOR:</strong> Gracias por la oportunidad, señor presidente. Muy buenos días. Miguel Arzate, del <em>Sistema Público de Radiodifusión del Estado Mexicano, Canal 14.</em> Preguntarle, señor presidente:</p>
+<p>A finales del mes pasado, a finales de marzo, la Fiscalía General de la República inició la investigación sobre el homicidio de 19 migrantes asesinados en Camargo, Tamaulipas. Esta investigación la inició la autoridad local, pero, al considerarse un delito federal, atrajo este caso la FGR.</p>
+<p><audio src="http://presidente.gob.mx/wp-content/uploads/2021/04/2021-04-15-Matutina.mp3" controls="controls"></audio></p>
+<p><iframe src="//www.youtube.com/embed/nGCe6AOb3UE?t=894" width="600" height="400" allowfullscreen="allowfullscreen"></iframe></p>
+<p>Estos delitos presuntamente se cometieron el 22 de enero y hay 12 policías detenidos, acusados de abuso de autoridad y de homicidio. Se sospecha que los policías alteraron las pruebas en el lugar de este delito, donde presuntamente se cometió este delito.</p>
+<p>Los casos de abuso de autoridad se han hecho mediáticos en los últimos días; particularmente, cobran relevancia los abusos de autoridad cometidos contra migrantes, basta recordar el caso de Victoria Salazar, quien perdió la vida al ser detenida por policías locales de Tulum, Quintana Roo.</p>
+<p>¿Qué se sabe sobre la investigación de Camargo, Tamaulipas? Particularmente ¿qué responsabilidad tiene la autoridad local, los policías?</p>
+<p>Bajo estos casos, señor presidente, ¿no valdría la pena mandar una iniciativa de reforma, establecer nuevos protocolos de actuación para las policías locales, particularmente las estatales y municipales?</p>
+<p>¿Qué pasó en gobiernos anteriores, quienes presumían que se estaba capacitando a la policía, quienes les hacían exámenes de control de confianza para poder prestar un servicio a los ciudadanos?, ¿qué pasó con esos exámenes? Preguntarle si valdría la pena poner este tema en la agenda, capacitar a los policías en actuación.</p>
+<p>Muchas veces, los policías locales perciben un sueldo muy bajo, no tienen preparación y son cooptados fácilmente por la delincuencia. Ante esta situación, los policías se ven obligados a establecer sus propios protocolos y códigos de ética para actuar ante casos de peligro.</p>
+<p>La mayoría de los policías tienen la convicción de prestar un servicio, pero se enfrentan a situaciones muy complicadas; también hay una situación: parte de la ciudadanía no respeta a la policía por esta situación que se ha presentado con los años.</p>
+<p>La pregunta, señor presidente ¿valdría la pena mandar una reforma?, ¿establecer un programa de capacitación a los policías locales?, ¿qué nos puede comentar al respecto?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, se debe de tomar en cuenta que se está avanzando bastante con la integración de la Guardia Nacional. Esto significó un paso adelante, porque había una desatención completa, el ciudadano estaba totalmente indefenso.</p>
+<p>Es cosa de recordar que se contaba con 40 mil elementos de la Policía Federal y la mitad estaba en funciones administrativas y la otra mitad… Realmente se contaba con 10 mil policías federales para todo el país, 10 mil para todo el país, sin formación, sin disciplina, con muchos vicios, sin cuarteles. Un desorden completo.</p>
+<p>Entonces, al crearse la Guardia Nacional se ha ido avanzando. Sólo en elementos, ya hay 100 mil elementos de la Guardia Nacional, ya se tienen 160 cuarteles terminados, equipos de protección, personal capacitado, profesional. La Guardia se ha ido construyendo con el apoyo de la Secretaría de la Defensa, de la Secretaría de Marina, o sea, vamos avanzando.</p>
+<p>En el caso de los policías estatales y municipales, nosotros tenemos que actuar con respeto a las soberanías de los estados; sin embargo, en lo que corresponde al presupuesto federal que se les transfiere, de acuerdo a lo que establece la legislación, hay un presupuesto que se transfiere para seguridad a los estados.</p>
+<p>Anteriormente, ese presupuesto se transfería sin ningún tipo de condición y se usaba para muchas cosas y no para garantizar la seguridad pública, entonces ahora ya se hizo una reforma y hay una definición de cómo utilizar ese presupuesto y se incluye en ese presupuesto, en esa transferencia de recursos, el que se destinen apoyos a las policías municipales y estatales.</p>
+<p>Cuando nos toque informar sobre seguridad le voy a pedir a la secretaria de Seguridad que les explique sobre esto, que fue una reforma importante, aceptada por todos los gobernadores, con ese propósito, de que se mejoren las policías municipales, las policías estatales.</p>
+<p>Hay estados en la actualidad en donde son más los elementos de la Guardia Nacional que los policías estatales porque no se le dio importancia, se abandonó; hay otros estados en los que son ejemplo, por el número de elementos que tienen, por lo que les pagan a los policías, las prestaciones a los policías, por la disciplina y sobre todo por los resultados, es decir, que no tienen violencia en esos estados.</p>
+<p>Entonces, sí es un tema importante.</p>
+<p>Yo he comentado en otras ocasiones -y lo voy a seguir haciendo- de que desgraciadamente suceden hechos lamentables y bochornosos, tristes, como lo que pasó en Tulum; esto que mencionas de los migrantes de Camargo duele mucho.</p>
+<p>La diferencia… Desde luego, deseamos que esto no pase y lo estamos atendiendo en los orígenes, atendiendo las causas, que no se siga descomponiendo la relación en lo social, que no siga habiendo desintegración de las familias, que no se abandone a los jóvenes, que eso es muy importante; se haga a un lado el pensamiento individualista, materialista, el triunfar a toda costa, el querer tener dinero, el querer tener riquezas, el querer tener carros último modelo, el tener ropa de marca y las alhajas, y todo ese estilo de vida que se impuso durante mucho tiempo, el lujo barato, y que se fomenten los valores que tenemos los mexicanos en las familias, en los pueblos, la gran reserva de valores morales, culturales, espirituales, todo eso ayuda. La parte social, el que se atienda a los jóvenes, que tengan trabajo, que no sean enganchados para el crimen, para la delincuencia, todo eso que estamos haciendo, todo esto, no permitiendo la corrupción a las autoridades.</p>
+<p>Y una cosa importante también: no permitir la impunidad; que, si se comete un delito de estos atroces, inhumanos, o cualquier delito, haya castigo.</p>
+<p>O sea, en el caso de Tulum están detenidos los policías, en el caso de Camargo están detenidos los policías y vamos a pedir información de cómo van los casos. Asesinaron a los de la familia Miller, LeBarón, la mayoría está en la cárcel de los que participaron y no termina todavía la investigación.</p>
+<p>O sea, que no se permita la impunidad, que se castigue y que no toleremos actos arbitrarios.</p>
+<p><strong>INTERLOCUTOR:</strong> Mi segunda pregunta, señor presidente. Esta semana se dio a conocer otro caso donde la autoridad se ve envuelta en diversas irregularidades.</p>
+<p>El pasado 9 de abril, 30 marinos fueron puestos a disposición de la Fiscalía General de la República por la desaparición de cuatro personas en Nuevo Laredo, Tamaulipas. Presuntamente, este caso ocurrió en febrero de 2018, durante la administración federal pasada.</p>
+<p>Ayer un juez los vinculó a proceso, a seis de esos 30 marinos detenidos, pero todavía está pendiente el caso de otros marinos más por este mismo hecho.</p>
+<p>¿De qué caso estamos hablando, señor presidente? ¿la desaparición forzada de qué personas? No está claro qué caso es por el cual se está procesando a estos elementos de la Secretaría de Marina. Si nos podría comentar los detalles del caso.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, es un hecho que se presenta en el gobierno anterior. Es una violación a los derechos humanos, eso es lo que sostienen las autoridades, participan marinos, 30 marinos; la fiscalía le dio seguimiento a este asunto y se dictaron órdenes de aprehensión, la misma Secretaría de Marina ayudó para la detención de todos estos elementos.</p>
+<p>Se detuvieron a 29 en tres días y faltó uno, que está detenido por otras causas en Morelos, o sea, ya están los 30 detenidos a disposición de los jueces.</p>
+<p>Yo voy a pedirle a Jesús que se informe de este asunto y lo mejor sería que la fiscalía -se lo solicitamos de manera respetuosa a la fiscalía- les informara a ustedes sobre el caso.</p>
+<p>Es un asunto que se heredó, y la instrucción es que no se tolera la violación de derechos humanos, cero impunidad, trátese de quien se trate. Entonces, se está atendiendo esta decisión.</p>
+<p>El almirante Ojeda, ayer lo comenté, aun afectado por el COVID -afortunadamente ya fue dado de alto y desde aquí le mandamos un saludo- él me envió el informe, porque ha seguido trabajando; es más, estaba en el hospital y él tenía el mando y estaba atento a todo lo que corresponde a la Secretaría de Marina, él me envió el informe, el reporte de esto que estamos comentando.</p>
+<p>Y ya hay una actitud completamente distinta a la que había antes, tanto en la Secretaría de Marina como en la Secretaría de la Defensa.</p>
+<p>Acuérdense lo lamentable que era ver que abatían a presuntos delincuentes y profanaban sus cuerpos; acuérdense de esa escena vergonzosa, inhumana, de cuando hay un enfrentamiento en Cuernavaca y someten y fallece uno de los presuntos delincuentes, o dos o tres, y luego les toman fotos y les ponen a sus cuerpos dólares, esas cosas de mucha vergüenza.</p>
+<p>Y luego, eso genera que a los marinos que participan los ajusticien como represalia, incluso a sus familias, cosas que no corresponden.</p>
+<p>Y en ese entonces, declarando, el embajador de Estados Unidos, dando sus opiniones sobre la detención, sin respeto a nuestra soberanía.</p>
+<p>Entonces, esas cosas ya no suceden ni queremos que sucedan, no vamos a permitirlo</p>
+<p>En el caso de Marina y en el caso de la Defensa, el almirante Ojeda, el general Sandoval, están pendientes.</p>
+<p>Ayer, que vimos esto que sucedió en Michoacán, de cómo el Ejército estaba planteando no a la confrontación, buscar que se atienda el problema con Programas de Bienestar, no caer en la trampa de la provocación, no usar la violencia. Es una situación completamente distinta.</p>
+<p>Yo agradezco mucho esta actuación, tanto de marinos como de soldados, porque no es desatar la guerra, eso fue más que un absurdo, causó mucho daño, porque no se puede enfrentar la violencia con la violencia.</p>
+<p>Entonces, vamos a seguir y el caso de las policías se va a seguir tratando.</p>
+<p>Desde luego, vamos a esperar también que pasen las elecciones, porque ahora no es momento para estar señalando qué policías estatales, municipales, están bien, cuáles están mal, no podemos hacer eso, es una situación en general básicamente.</p>
+<p><strong>INTERLOCUTOR:</strong> En un último tema, señor presidente, ayer se dio a conocer que la vicepresidenta de Estados Unidos, Kamala Harris, realizará un viaje por países que están envueltos en esta crisis de migración que se está viviendo en estos momentos.</p>
+<p>Preguntarle, señor presidente si ya tiene fecha para cuándo Kamala Harris estará en México, en dónde ocurrirá esta reunión, quién la atenderá, quién se entrevistará con ella, si será usted, si será el canciller Marcelo Ebrard. ¿Qué nos puede comentar de los detalles de esta visita?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No tenemos todavía ninguna información al respecto, no sabemos si se vaya a realizar ese viaje.</p>
+<p>Cuando hablamos por teléfono la invité para ir a Chiapas, a Tabasco, a Campeche, a los estados fronterizos del sur de nuestro país para que se diera cuenta, que conociera la experiencia que se tiene en apoyar a los pobladores del campo, productores, campesinos, ejidatarios, comuneros, pequeños propietarios, que conociera lo del programa Sembrando Vida; le platiqué sobre ese programa, la importancia que tiene, porque tiene un efecto multiplicador: se da trabajo en las comunidades donde vive la gente, los lugares de origen de las personas, se da empleo, se siembran árboles frutales, maderables, que esto ayuda mucho al medio ambiente y se arraiga a la gente.</p>
+<p>Ya si se tiene un trabajo seguro, pues ya no hay la necesidad de emigrar. Esta es una opción, esta es una alternativa, el sureste de México, donde se está aplicando el programa Sembrando Vida, es muy parecido en clima, en geografía, en cultura; son nuestros hermanos los guatemaltecos, salvadoreños, hondureños, es lo mismo.</p>
+<p>En el caso de Guatemala nos divide el Usumacinta o toda la franja de Chiapas y de Tabasco. Ese programa podría aplicarse de inmediato; desde luego, respetando a las autoridades de los tres países, consultándolos, recogiendo sus puntos de vista a los presidentes de El Salvador, de Honduras, de Guatemala.</p>
+<p>Y tratar también el asunto de los niños, de las niñas.</p>
+<p>De eso hablamos por teléfono y sí la invité, pero no sé si ya decidió hacer alguna visita a México. Ella será bienvenida a nuestro país, pero tiene que ver su agenda y con la estrategia que están siguiendo ¿no?</p>
+<p>Ah, pero es una compañera.</p>
+<p><strong>PREGUNTA:</strong> Gracias, presidente. Lizbeth Álvarez, de<em> ZMG Noticias</em> y <em>Gurú Político</em>.</p>
+<p>Presidente, saber si usted tuvo conocimiento que hoy se sabe, dada la investigación, que la semana pasada un elemento de la Guardia Nacional golpeó de manera brutal a su esposa, hoy se sabe que es su pareja, en calles de Coapa, alcaldía de Coyoacán.</p>
+<p>Hoy el individuo se encuentra consignado y la víctima se encuentra en el proceso de empoderamiento para que ella pueda llevar a cabo la denuncias, si es que ella así lo requiere.</p>
+<p>Usted ha mencionado que los elementos, que la Guardia Nacional es como uno de los pilares de la Cuarta Transformación.</p>
+<p>Saber qué se va a hacer ante esto para que la ciudadanía tenga confianza de sus elementos dadas las circunstancias y qué se está haciendo sobre todo en este sentido.</p>
+<p>También en este caso quiero agradecer también a la maestra Leticia Ramírez y a la coordinadora general de investigación, Lara Borbolla, por su prontitud ante el caso y ante la emergencia de que esta mujer no fue una estadística más de feminicidio.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues lo mismo, no permitir estos actos autoritarios, abusos de autoridad de nadie y que se proceda, como se está haciendo.</p>
+<p>Se va a continuar combatiendo todo lo que es maltrato a las mujeres, violación de derechos humanos, feminicidios, todo en general. Vamos a combatir la inseguridad, la violencia, a conseguir la paz, la tranquilidad, sin corrupción del gobierno, sin impunidad, sin que haya asociación delictuosa, que no valgan las influencias y en eso vamos avanzando.</p>
+<p><strong>INTERLOCUTORA:</strong> Pero de manera concreta ¿qué se va a hacer con este tipo de elementos que pertenecen a la Guardia Nacional?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, pues ya no pueden estar. Quien hace ese tipo de acciones o quien lleva a cabo estos delitos, si la autoridad considera que, en efecto, se golpeó a una mujer, pues no puede seguir laborando en el gobierno un funcionario con esas características.</p>
+<p>Aun cuando se pueda decir: ‘Fue en la calle, no fue en la oficina’, no. Si ya está en manos de la autoridad y se demuestra que golpeó a una mujer, inclusive sin ser su pareja sentimental, su esposa o lo que sea, es una mujer, ya una autoridad así no puede seguir, un funcionario no puede seguir laborando en el gobierno.</p>
+<p><strong>INTERLOCUTORA:</strong> Destacar nada más que el elemento fue detenido no por el acto de violencia hacia la persona, sino por otro delito diverso, entonces, bueno, de ahí lo relacionaron.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, pero lo más grave es eso, o sea, independientemente el delito que sea, el que se le pegue a una mujer, si es un servidor público, no puede trabajar en el gobierno, así de sencillo. Es un asunto no sólo legal, es un asunto moral, ético, humano.</p>
+<p>Aquí está: ‘Con absoluta indignación, identificamos un video que circula en redes sociales en el que se aprecia a un integrante de esta institución agredir a su esposa en la vía pública, conducta totalmente alejada de las leyes, principios y valores de la Guardia Nacional.</p>
+<p>‘Reprobamos cualquier acción que atente contra la integridad de las personas, máxime cuando se trata de una mujer. Por ello, la Unidad de Asuntos Internos inició un procedimiento administrativo en contra del presunto responsable.</p>
+<p>‘Colaboraremos de forma estrecha con la autoridad correspondiente. En la Guardia Nacional ratificamos nuestro compromiso de contribuir para lograr un país libre de violencia en contra de las mujeres, pilares fundamentales de la sociedad mexicana.’</p>
+<p>Esto es la Guardia Nacional.</p>
+<p>Y les digo una cosa, me estoy informando de este caso ahora. Lo cual me da mucho gusto, que las instrucciones que se tienen se estén cumpliendo, que no es que se enteró el presidente y que el presidente dio la instrucción para que se actuara; esto ya es iniciativa de los mandos de la Guardia Nacional, como lo que hablábamos hace un momento de la conducta de los militares en Michoacán, la conducta de los oficiales de la Secretaría de Marina.</p>
+<p>Esto va a permitir acercar más al pueblo, al ciudadano, a la Guardia Nacional, a los integrantes de las Fuerzas Armadas, porque el soldado uniformado es pueblo, el pueblo es soldado uniformado, es parte de nuestra sociedad el integrante de la Guardia Nacional, el marino, el soldado, pueblo uniformado.</p>
+<p>Entonces, nada de separación, unidad y cero tolerancia en estos casos y en todos los casos de abuso de autoridad, de violación de derechos humanos, de actos de corrupción. Entonces, me da a mí mucho gusto que se actúe así.</p>
+<p>Y fíjense la importancia que tiene la mañanera, que podemos ventilar todo aquí, porque estos son ejemplos y es enseñanza para una sociedad mejor, porque algunos elementos de la Guardia Nacional seguramente están viendo la conferencia o se van a enterar, u otras autoridades se enteran que desde el Palacio Nacional se está hablando de estos temas y que no se permite que se comentan actos injustos de abusos de autoridad, y que si se cometen abusos se castigue a los responsables, eso también es importante.</p>
+<p>Porque había mucha impunidad, se cometían abusos y no pasaba nada, o salían de la cárcel porque tenían influencias o porque arreglaban sus asuntos con buenos abogados, y todo se daba en el anonimato, no salía nada en los medios.</p>
+<p>Ahora suceden cosas y se entera todo el país. No es para presumir, pero la mañanera es vista por bastante gente. Voy a las giras -antes de la veda electoral- y allá me dicen: ‘Veo la mañanera’. Bueno, la ven nuestros paisanos en Estados Unidos, no estoy hablando de todos, pero sí me he encontrado personas.</p>
+<p>Hace poco creo que en Puebla encontré una pareja de paisanos que estaban de visita, viven allá en Estados Unidos, me decía la señora: ‘Aquí tiene a un simpatizante que todos los días en la mañana lo primero que hace es ver las mañaneras’. No es para presumir y no quiero generar celos y sentimientos, pero sí se ve mucho lo que aquí comentamos, este diálogo circular.</p>
+<p>Y ayuda, ayuda mucho, porque siempre hemos dicho que lo más importante es el cambio de mentalidad, el cambio de nuestras actitudes, de nuestro comportamiento, el cambio que podemos llevar a cabo nosotros mismos, el cambio de actitudes, de maneras de actuar que afectan a otros; y es un proceso.</p>
+<p>Y se puede rectificar, se puede cambiar de parecer. Hay que seguir convenciendo, hay que seguir persuadiendo. Porque a lo mejor pensábamos de que estaban bien ciertas cosas y nos vamos dando cuenta de que no; por ejemplo, toda esta vida fincada en lo material, de salir adelante como sea, por tener cosas que en realidad no valen, los lujos, porque ese fue el estilo de vida que se introdujo durante mucho tiempo.</p>
+<p>¿Se acuerdan ustedes de la publicidad?: ‘¿Y la Cheyenne, apá?’, como si eso fuese lo más importante, que el niño ya está pensando en eso.</p>
+<p>Y todavía tenemos que trabajar más, por eso los cambios en los contenidos de los libros de texto y la educación no formal y la atención a los niños, a las niñas, por eso la importancia del regreso a clases presenciales.</p>
+<p>Me estaban comentando con preocupación algunas personas de lo que ven los niños en la televisión o en los juegos, la violencia, los enfrentamientos, estos que se dan en los juegos, racistas. En el juego quitarle la vida un afroamericano o a un mexicano tiene no sé qué valor, si es blanco vale más o vale menos, esas cosas.</p>
+<p>Entonces, sí necesitamos seguir adelante, un cambio de mentalidad, una nueva corriente de pensamiento. Afortunadamente se va avanzando en eso.</p>
+<p><strong>INTERLOCUTORA:</strong> Gracias, presidente.</p>
+<p>Y solamente dos denuncias que han llegado a nuestra redacción. Una, que las enfermeras del Hospital Psiquiátrico ‘Fray Bernardino’ no han recibido todavía la vacuna y que en el municipio de San Rafael, en Veracruz, también a los adultos mayores aún no han recibido la vacuna. De manera constante nos han llegado estas denuncias.</p>
+<p>Y pues muchas gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, hoy en la tarde se informa, le vamos a pedir al doctor Hugo que en el caso de este hospital que nos informe y lo de San Rafael, en Veracruz.</p>
+<p>Tengo entendido de que ya se está vacunando en los municipios que faltan, se va a terminar pronto ya la vacunación de todos los adultos mayores, seguro están por llegar ahí a San Rafael, que es un municipio de Veracruz cercano a Martínez De la Torre, cercano a la costa, al golfo, de gente muy trabajadora que producen cítricos, plátano, que vienen a vender sus productos a la Central de Abasto, es gente muy trabajadora allá en San Rafael.</p>
+<p>Y sí vamos a ayudarlos con lo de la vacuna. Digo, es su derecho pues, no es que los vamos a ayudar, es su derecho de todos.</p>
+<p>A ver, después tú, la compañera, también tú, sí también, Reyna.</p>
+<p><strong>PREGUNTA:</strong> Gracias, presidente. Buenos días, buenos días a la gente que lo escucha y lo ve en su tradicional conferencia de prensa. Soy Marco Antonio Olvera, de la revista <em>Énfasis</em>.</p>
+<p>Presidente, dos preguntas y una denuncia, pero antes quiero recordarle dos temas que ni para atrás ni para adelante, pese a que usted ha dado instrucciones aquí en el foro de la mañanera.</p>
+<p>Durante hace más de medio año le planteé el problema de los 245 ejidatarios de Creel, allá en Chihuahua. De ese grupo ya murieron desgraciadamente 70 por COVID recientemente. La problemática no se resuelve. Usted dijo aquí que el secretario de Hacienda, Arturo Herrera, los recibiría y no ha pasado nada, no hay respuesta.</p>
+<p>Ellos traen una propuesta, presidente, en la que su gobierno y ellos saldrán beneficiados. Le pongo un ejemplo: supongamos que sus tierras que les debe el gobierno federal tienen un monto de mil pesos, pero ellos traen una bolsa económica de dos mil pesos disponibles, cobrables, de eso ellos le solicitan, le sugieren que se les paguen los mil pesos y los otros mil pesos que se queden para las arcas del gobierno federal que tanto hacen falta.</p>
+<p>Y sobre el Issste, presidente, aquí le planteé también la problemática que viven los tres mil 500 sindicalizados del Sinadissste. La situación se ha agravado a raíz de que Judith Rojas Velasco asumió el cargo de subdirectora de personal y llegó a dicho puesto con un grupo de cinco asesores, cuando estos puestos no deben de existir en ese instituto y en ningún otro, porque usted dijo que asesores cero.</p>
+<p>Rojas Velasco desconoce por completo la normativa del Issste, las condiciones generales de trabajo y lo que significa la libre sindicación y los alcances de ésta, gracias a las gestiones realizadas por su gobierno.</p>
+<p>Presidente, los trabajadores del Issste le solicitan su pronta intervención, ya que llevan casi dos años solicitando lo siguiente:</p>
+<p>Que se involucre la Secretaría del Trabajo y Previsión Social, la Secretaría de Gobernación y que estas sean las dependencias que, en base a derecho, obliguen al director general del Issste a tener mesas de trabajo para la solución de problemas que desconoce la libertad sindical.</p>
+<p>El cambio de manuales obsoletos en los que sólo se pretende beneficiar a los sindicatos charros.</p>
+<p>Garantizar los derechos de los trabajadores sin importar su afiliación sindical.</p>
+<p>Por último, presidente, los trabajadores del Sindicato Nacional Auténtico y Democrático de Trabajadores del Issste le preguntan si está usted de acuerdo en que la libertad sindical se condicione y se limite por la ignorancia de algunas autoridades del Issste.</p>
+<p>Ahora le voy a hacer los dos planteamientos, presidente.</p>
+<p>Con respecto al INE, le voy a hacer una referencia, un marco de referencia para que pudiera contestarme lo que le voy a plantear.</p>
+<p>Este planteamiento, presidente, tiene que ver con migrantes que están en Estados Unidos particularmente, y que siguen siendo atropellados por el INE que encabeza Lorenzo Córdova, y por los 50 cónsules que existen en territorio norteamericano lidereados por el recién nombrado embajador de México en Washington, Esteban Moctezuma Barragán.</p>
+<p>Le explico, presidente. Cuando usted llegó al poder como presidente de la República, en el 18 decidió desaparecer la truculenta dependencia llamada ProMéxico, que tenía en gastos para el país más de mil millones de pesos anuales.</p>
+<p>¿Por qué le hago esa referencia, presidente?</p>
+<p>Porque ahora los 50 consulados que operan en Estados Unidos siguen tratando mal a los cerca de 37 millones de mexicanos en territorio norteamericano, porque durante el pasado 2020, miles de ellos no fueron atendidos en trámites como pasaportes, ID, actas de nacimiento, de matrimonio, de defunción, etcétera, es decir, no hay citas, nadie los atiende y la situación se empeoró durante la pandemia del COVID-19.</p>
+<p>Estos migrantes, presidente, quienes durante el año pasado mandaron a México -y usted lo sabe- más de 40 mil millones de dólares en remesas le tienen, le piden una limpia de los cónsules que siguen operando con los ideales del viejo régimen del PRI y del PAN, porque usted sólo ha propuesto y la Cámara de Senadores ha aprobado al 20 por ciento de los cónsules durante casi dos años de administración. Estos cónsules no comulgan con la 4T y siguen operando como sultanes y, como consecuencia, desdeñando a los migrantes.</p>
+<p>Eso no es todo, presidente. Los 50 consulados de Estados Unidos junto con el INE, que encabeza Lorenzo Córdova, se han negado a entregar credenciales de elector argumentando que no hay citas y con ello ya se concina dejar fuera a miles de mexicanos que podrían votar este próximo 6 de junio, porque no tienen para cuándo entregarles su credencial de elector.</p>
+<p>En ese sentido, los gigantes de la comunicación en México no dicen nada, porque siguen apoyando a un Ciro Murayama que lleva como dictador en el INE más de 22 años en ese instituto, reeligiéndose y ganando más de 200 mil pesos mensuales, más que lo que gana usted.</p>
+<p>Así como tampoco dijeron nada durante el gobierno de Enrique Peña Nieto y en el que a <em>Televisa</em> le dieron 17 millones de pesos para financiar narconovelas en el 2018, cuando estaba al frente de Proméxico Paulo Carreño King.</p>
+<p>¿Qué dice de esto, presidente, donde los cónsules y Lorenzo Córdova hacen caso omiso de entregar credenciales de elector y los servicios de los consulados de México en Estados Unidos para el servicio de los migrantes sigue obeso, inoperante y mañoso?</p>
+<p>Le voy a poner un ejemplo de uno de los miles de casos de migrantes que no han sido escuchados por nadie. Se trata del mexiconorteamericano Alfredo Luna, operador de tráileres, a eso se dedica, que se ha refugiado en Baja California y quien ha sido víctima de persecución y violencia contra su familia, esposa e hijos, hoy teme por su vida y pide sea atendido.</p>
+<p>Es la primera pregunta, presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, mira, lo de Creel sí se está atendiendo, tengo información del secretario de Hacienda; de todas formas, hoy mismo vamos a dar a conocer lo que se ha hecho para resolver este asunto con los campesinos de Creel, Chihuahua, ese es el compromiso. Hoy, a través de tu persona, vamos a informar a los campesinos, lo va a hacer el secretario de Hacienda, lo primero que planteas.</p>
+<p>Lo segundo, le voy a pedir al director del Issste que también atienda lo que estás dando a conocer.</p>
+<p>Y lo tercero, decirles que Esteban Moctezuma tiene instrucción para que se consoliden los 50 consulados, se fortalezcan los consulados, se cumpla el compromiso que tenemos de que los consulados se conviertan, en los hechos, porque legalmente es otra situación, pero que en la práctica sean como procuradurías para la defensa de los migrantes.</p>
+<p>Se ha ido avanzando. Yo estoy satisfecho con el trabajo de muchos cónsules, ahora con la pandemia han estado trabajando, ayudando a familiares de víctimas del COVID.</p>
+<p>Se está vacunando en los consulados de nuestro país, eso lo hemos estado solicitando al gobierno de Estados Unidos que se vacune a todos nuestros paisanos y esa es una labor de los cónsules.</p>
+<p>Y vamos a pedirle a Esteban que actúe más para mejorar el servicio de los consulados. Esteban lleva esa misión y se van a mejorar los consulados.</p>
+<p>Tenemos que equilibrar en los nombramientos. En el caso de consulados pueden ser -aquí se ha planteado- paisanos nuestros, migrantes que tienen preparación, pero no sólo eso, son muy sensibles y defienden, protegen a los paisanos, ahí hay la posibilidad de tener buenos cónsules; eso, para cuando se necesite.</p>
+<p>También gente con experiencia, profesional, aun cuando no sean diplomáticos de carrera, y desde luego contar con la experiencia de los diplomáticos de carrera que sigan trabajando en consulados, en embajadas.</p>
+<p>Aquí voy a comentarles que, buscando este equilibrio, van a haber ahora nombramientos de embajadores. Va a estar -lo dijimos- Blanca Jiménez en la representación de México en Francia; Lilia Rossbach de Pérez Gay va a ser, si lo aprueba el Senado de la República y se consigue el beneplácito del gobierno de Argentina, va a ser nuestra embajadora en Argentina; y lo mismo, siguiendo los procedimientos, va a ser embajador en la República Popular de China Jesús Seade, que nos ayudó mucho en toda la negociación del Tratado de Libre Comercio con Estados Unidos y Canadá.</p>
+<p>Y al mismo tiempo van a entrar a otras embajadas mujeres y hombres con mucha experiencia del servicio exterior, es decir, diplomáticos de carrera; y lo mismo se está haciendo en el caso de los consulados.</p>
+<p>Pero aprovecho para informar sobre esta decisión que hemos tomado.</p>
+<p>Acerca de lo del INE, pues no quiero opinar sobre eso por la veda, ya hemos hablado bastante sobre esos temas. Nada más decirles a los paisanos, los que puedan, que tengan la posibilidad de hacerlo, que participen, que voten con las elecciones, que es su derecho.</p>
+<p>Quisiéramos que votaran todos, no es fácil.</p>
+<p><strong>INTERLOCUTOR:</strong> Pero no les entregaron en tiempo y forma la credencial de elector.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Siempre ha sido un problema que no se ha resuelto, esa es una asignatura pendiente, pero no de ahora, para que no se piense que le estamos echando la culpa a las actuales autoridades del INE, desde hace tiempo, estamos hablando de cuando menos 20 años que se ha estado insistiendo en que se entreguen credenciales, que puedan votar nuestros paisanos.</p>
+<p>Y es muy reducido al final el número de participantes porque, en efecto, son de 37 a 38 millones de mexicanos que viven, que trabajan en Estados Unidos nacidos aquí y que se fueron a buscarse la vida allá, o sus hijos; entonces la comunidad hispana mexicana, los mexicanos en Estados Unidos son la mayoría de los hispanos en Estados Unidos y de la población migrante.</p>
+<p>Entonces, sí tiene mucha importancia el que participen porque nos están ayudando, como aquí lo hemos dicho muchas veces, y no nos vamos a cansar de agradecerles todo el apoyo que recibimos de parte de nuestros paisanos, también tienen ellos el derecho de participar en las decisiones públicas de México.</p>
+<p>Y ojalá y se logre que estas campañas de afiliación, de credencialización para participar se extiendan en Estados Unidos. Hay comunidades de países hispanos más pequeñas, pero con más participación política, sobre todo en Estados Unidos.</p>
+<p>Yo creo que ahora ya se está tomando más en cuenta, no sólo en nuestro país, sino también en Estados Unidos, a nuestros paisanos y esto es importante, porque va a significar mejor representación para la defensa de los derechos humanos de nuestros paisanos en Estados Unidos, porque somos muchos los mexicanos allá, muchos, muchos, pero no hay cohesión, no hay organización como sucede con otros agrupamientos de otras nacionalidades en Estados Unidos, tienen mucha más presencia en la vida pública en Estados Unidos.</p>
+<p>Ahora está creciendo mucho la participación de los mexicanos en la vida pública en Estados Unidos y esto es muy bueno también. Por eso ayer que se dio la fusión de <em>Univisión</em> con <em>Televisa</em> lo celebramos, porque esto va a permitir también que haya comunicación y con el compromiso de que no haya discriminación, maltrato, que no haya xenofobia, que se respete a los mexicanos y que se respete a los migrantes en los medios de información, eso es lo que estamos planteando.</p>
+<p><strong>INTERLOCUTOR:</strong> Una segunda pregunta, presidente, si me lo permite, esto tiene que ver con la ONU, que involucra a México, Bélgica e Iberdrola, le explico.</p>
+<p>Según la Asociación de Productores y Empacadores de Aguacate, Apeam, a Estados Unidos se exportaron un millón 42 mil toneladas de aguacate entre el 2019 y el 2020. Durante el Super Bowl, allá en los Estados Unidos, se consumen 100 mil toneladas de ese producto.</p>
+<p>El oro verde a la Unión Europea también lo sedujo presidente, porque según el Tridge, un centro de abastecimiento global, a esos países que integran la Unión Europea México les vendió 319 millones de dólares tan sólo en el 2018, solamente de aguacates.</p>
+<p>Presidente, datos a los que tuve acceso y que me proporcionan altos funcionarios de la ONU, durante el gobierno de Enrique Peña Nieto un colega mío logró infiltrarse como jornalero de aguacates en Michoacán, logrando constatar que a las hectáreas sembradas de aguacate se le ponen pesticidas para provocar cáncer o que generan cáncer, logrando un trabajo final que lleva por nombre <em>Los aguacates del diablo</em>.</p>
+<p>Este documental, presidente, ahora está siendo utilizado por la extrema derecha de Bélgica, quienes son socios de la empresa española Iberdrola, donde Felipe Calderón trabajó y ahora tiene amigos dentro de, obviamente, Iberdrola y por supuesto de la extrema derecha en Bélgica.</p>
+<p>¿Qué hará su gobierno, presidente, para aplicar normas fitosanitarias más rigurosas para que no se pongan en riesgo la salud de quienes consumimos este producto?, pero también ¿cuál será el actuar de su gobierno con Iberdrola y la extrema derecha de Bélgica, quienes buscan desestabilizar las relaciones económicas con la Unión Europea y México donde, como le dije anteriormente, estarían en riesgo 319 millones de dólares por la exportación de aguacate, empleos y todo lo que genera vender este producto?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, nosotros estamos haciendo un trabajo para cuidar todo lo relacionado con el uso de los agroquímicos, fertilizantes, herbicidas, que no afecten la salud del pueblo, se está trabajando en esa materia y el Conacyt está llevando a cabo investigaciones, y lo estamos haciendo en coordinación con productores y con investigadores para producir sano en México.</p>
+<p>Y se produce en lo general en México cuidando todas las normas y el programa de sanidad que se aplica es profesional. Cuenta con los recursos suficientes, el programa de sanidad no ha tenido ningún ajuste en el presupuesto porque se cuida mucho el que se produzca sano, que sean productos que no dañen la salud.</p>
+<p>Lo que hay siempre, no sólo en este tema, sino en otros, pues es competencia de países que producen y que para afectar a otros países desatan campañas de desprestigio para productos; esto se aplica mucho también en la pesca, hay hasta embargos y así en varios casos.</p>
+<p>En el turismo, yo recuerdo que cuando se padecía del sargazo -se sigue padeciendo, pero ya está controlado- en el Caribe había campañas, en otras playas, en otros centros turísticos, diciendo: ‘Aquí no hay sargazo, no vayan para allá’.</p>
+<p>Los que venden productos naturistas a veces son grandes empresas, porque se puede pensar que lo orgánico tiene que ver con la economía campesina, con pequeños productores; ahora, como hay más consciencia de que debemos de comer bien, cuidar nuestra nutrición, ya hay grandes conglomerados encargados de la venta de estos productos y a veces también se meten a financiar campañas para descalificar a otros productos acusando de que esos productos tienen muchos elementos químicos o azucares, grasas.</p>
+<p>Bueno, las vacunas, la campaña de que esta vacuna no se está usando en tal lugar, que no se debe de usar, que esta sí es buena, esta otra no.</p>
+<p>Entonces, hay que ver. En el caso del aguacate, la verdad es que es un producto de consumo nacional y de exportación, se exporta bastante, es un ingreso importante para México, para los productores, pero al mismo tiempo existe una oposición, porque hay productores que usan estos agroquímicos, cada vez son menos, cada vez es mejor la calidad.</p>
+<p>Y también hay comunidades que se quejan, porque la siembra del aguacate significa tirar los bosques; o sea, siempre hay estas polémicas, pero lo mejor es buscar el equilibrio.</p>
+<p>Y defender a México, defender a los productores mexicanos de estos embargos, de estas campañas de desinformación y decir sin duda de que lo hecho en México está bien hecho.</p>
+<p><strong>INTERLOCUTOR:</strong> Gracias, presidente y una última. Esa es más bien una denuncia y una llamada de auxilio para la gente del sureste mexicano.</p>
+<p>Presidente, los grupos étnicos y nuestros hermanos del sureste mexicano han sido los más olvidados, como usted lo sabe y lo ha dicho, los más arrollados, los más atropellados.</p>
+<p>Ahora nos vamos a referir a Santiago Jamiltepec, Oaxaca y el Paso de La Reina, que usted conoce y conoce muy bien.</p>
+<p>Esta denuncia, esta problemática la expone a través de mi voz los integrantes de Curoa, Campesinos Unidos de la Región Oaxaqueña, le digo por qué.</p>
+<p>Los integrantes de Curoa aseguran que la presidenta de Jamiltepec, Oaxaca, Cecilia Rivas Márquez y sus hijos Manuel y Rafael Iglesias Rivas se han convertido en el terror de los lugareños de Jamiltepec porque no dejan que otras personas ocupen la presidencia municipal, sólo entre ellos, a través de sus familiares, amigos y cómplices.</p>
+<p>Y lo más grave, presidente, en días recientes han sido asesinados en El Paso de la Reina, Raymundo Robles Cruz, su hermano Noé Robles Cruz y su sobrino Gerardo Mendoza Robles, así como Jaime Jiménez Ruiz y Fidel Heras Cruz, cinco en total. Por ello es urgente, estos lugareños le piden la presencia de la Guardia Nacional o el Ejército.</p>
+<p>Presidente, los habitantes de El Paso de la Reina viven aterrados, están siendo desolados, desplazados, por ello le piden de manera urgente su intervención, si es posible, su presencia, porque ahora que se acercan las elecciones del próximo 6 de junio esto subirá de tono.</p>
+<p>Toda esta violencia, presidente, también se genera por los planes de la construcción de la presa de El Paso y sus habitantes están siendo asesinados por las propias autoridades del lugar y miembros de la organización que se opone a la construcción de la misma presa.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, conozco bien toda esa región, como tengo la dicha de conocer todo el país. Jamiltepec está en la costa de Oaxaca, en el Pacífico, muy cerca de Pinotepa Nacional y El Paso de la Reina está también en esa región de Oaxaca.</p>
+<p>Ahí durante algún tiempo se propuso construir una presa. Decirles ya también a los ciudadanos, ya lo saben, que nosotros no vamos a construir esa presa, para que ya no se utilice eso. Es una zona de gente buena, de gente trabajadora, de todas las culturas.</p>
+<p>Toda esa región, desde Pinotepa hasta Puerto Escondido, tiene mucha actividad productiva, es tierra buena para la agricultura, para los cítricos, para la siembra de papaya, para ganadería y con mucho, mucho potencial turístico y, hasta les diría, mucho potencial turístico religioso, porque por ahí está Juquila, que es el santuario de la Virgen de Juquila, que es muy visitado, yo creo que es de los tres más visitados, la Virgen de Juquila, que está ahí.</p>
+<p>Entonces, llegan a Juquila de la Ciudad de México, del Estado de México, de Puebla, de Tlaxcala, de Guerrero, desde luego de Oaxaca, de Chiapas.</p>
+<p>Si ustedes recorren el país y quieren saber cómo se llaman las pequeñas tiendas de los pueblos yo creo que el primer lugar debe ser La Lupita y el segundo -y a lo mejor no me equivoco- Juquilita o Juquila, ahí se los dejo de tarea, por lo mismo.</p>
+<p>Ahora se está construyendo la carretera de Oaxaca a Puerto Escondido que se había iniciado hace 10 o 12 años, se había iniciado y se había dejado inconclusa. La vamos a terminar, se van a poder hacer dos horas, dos horas y media de Oaxaca a Puerto Escondido.</p>
+<p>Y estamos buscando la manera de mejorar también la entrada a Juquila y mejorar toda la carretera costera, desde Puerto Escondido hasta Pinotepa.</p>
+<p>Es una región también donde hay población afromexicana, en esa costa, sobre todo más de Pinotepa hacia Guerrero, una población que estamos atendiendo también, porque ha sido muy olvidada, muy marginada; entonces, estamos trabajando en toda esa región.</p>
+<p>Ya diste a conocer lo que sucede, ya con eso creo que es suficiente, porque no nos podemos meter mucho a la cuestión de las elecciones. Pero sí incluso tengo pensado, una vez que pase la veda, quiero hacer una gira por allá, que no he ido por Pinotepa, por esa región, voy a para allá.</p>
+<p>Pero la presa no se va a construir, porque se afecta a comunidades. Ya no vamos nosotros a seguir con la misma política.</p>
+<p>Ahora lo que se está haciendo… Imagínense, construir presas y privatizarlas, afectar a la gente y al mismo tiempo tener abandonadas las hidroeléctricas, las presas públicas.</p>
+<p>Hay alrededor de 60 hidroeléctricas en el país que se fueron construyendo desde antes de la Revolución y sobre todo en la época del gobierno… Yo creo que fue el que construyó más presas grandes el presidente López Mateos, pero también anterior a él el presidente Ruiz Cortines, bueno, siempre, el general Cárdenas, todos hacían presas.</p>
+<p>Y luego fue el auge de las hidroeléctricas, de las grandes presas, también con el gobierno de Díaz Ordaz, hasta López Portillo se construyeron grandes presas y se fueron abandonando, porque a partir de la política neoliberal se les dejó el mercado a los particulares. Entonces las presas, las hidroeléctricas eran subutilizadas, no turbinaban, no generaban energía para darle preferencia a las particulares, que eran las que subían la energía a la red, las utilizaban las hidroeléctricas en lo que llaman el respaldo.</p>
+<p>¿En qué consiste esto?</p>
+<p>En que, como no siempre hay viento ni siempre hay Sol, entonces las eólicas, las solares, dejan de producir energía y entraban a reforzar como respaldo las hidroeléctricas de la Comisión Federal de Electricidad y esos costos de operación no se consideraban para apoyar a particulares.</p>
+<p>Todo esto es lo que tiene que ver con la reforma eléctrica, esta que está siendo muy cuestionada, porque afecta a las grandes empresas y permite la injusticia de que las grandes corporaciones comerciales paguen menos por la luz que las familias en los domicilios, las grandes corporaciones, que esto no se sabía, se ocultaba. Tuvo que ver con todo el proceso de privatización que se inició con Salinas y luego que se consumó con la llamada reforma energética.</p>
+<p>Entonces, ¿qué es lo que ahora se está haciendo para fortalecer a la Comisión Federal de Electricidad?, ¿y por qué fortalecer a la Comisión Federal de Electricidad?, ¿por qué no darle el mismo trato a la Comisión Federal de Electricidad que a Iberdrola?</p>
+<p>Porque la Comisión Federal de Electricidad es una empresa pública, es de la nación.</p>
+<p>Entonces, estos tecnócratas irresponsables piensan que es lo mismo la Comisión Federal de Electricidad que Iberdrola y crearon hasta tribunales para tener detenida, sometida, a la Comisión Federal de Electricidad con el pretexto, la excusa del monopolio y de que tiene que haber competencia y que tiene que haber condiciones de igualdad, cuando en las leyes que se aprobaron con la reforma energética no hay igualdad, se protegió a los particulares, porque lo que querían era quedarse con todo el mercado de la electricidad y arruinar por completo la Comisión Federal de Electricidad. Ese es el fondo del debate.</p>
+<p>Y como los jueces se crearon para eso, después… No, un poco antes de la reforma energética -son cosas que no se saben- se crearon jueces y se crearon tribunales del Poder Judicial para garantizar la competencia, es decir, proteger a los particulares.</p>
+<p>Bueno, de ahí también vinieron bonos, subsidios para particulares y agarraron la bandera de las energías limpias, de que no se debía de utilizar combustóleo para generar energía eléctrica, que no al petróleo; en este caso se permitía el gas, pero lo fundamental eran las energías limpias con el viento, con el Sol.</p>
+<p>Bueno, la producción de energía limpia con plantas eólicas o solares es del seis por ciento y las hidroeléctricas, aun paradas o subutilizadas, significan el 10 por ciento ¿y saben ustedes que las hidroeléctricas no están consideradas como plantas que producen energía limpia y por eso tampoco tienen un despacho preferente? Todo eso se está arreglando.</p>
+<p>¿Qué es lo que vamos a hacer?</p>
+<p>Ya no construir más presas, porque no sólo es el daño, imagínense la campaña que se llevaría a cabo por todos los que tienen ahora los contratos.</p>
+<p>¿Qué vamos a hacer?</p>
+<p>Pues vamos a modernizar las hidroeléctricas con nuevas turbinas, porque tienen equipos de hace 40, 50 años. Entonces con nuevas turbinas, modernizando estas plantas hidroeléctricas, se va a producir más y es con la misma agua en los embalses que ya se tienen sin causar ningún daño. Por eso ya no se van a construir las presas.</p>
+<p>El Paso de la Reina, La Parota, que sí por ahí aparece que el gobierno quiere construir la presa La Parota, que el gobierno quiere construir El Paso de la Reina: demagogia, campaña sucia, negra, eso sí contaminante, muy contaminante.</p>
+<p><strong>INTERLOCUTOR:</strong> Gracias.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy bien. Reyna.</p>
+<p><strong>PREGUNTA:</strong> Gracias, presidente. Reyna Haydeé Ramírez, reportera independiente y ahora para <em>Alianza de Medios</em>.</p>
+<p>El primer tema, presidente, es sobre los niños, que ayer ofreció también hablar sobre este tema de los niños armados en Guerrero. Ayer mencionaba usted que se tardaron en la reunión de seguridad porque trataron varios temas, muchos temas, no sé si este estaría incluido, pero ya tiene varios días cuando se trató. ¿Y qué reportes tiene?</p>
+<p>Y la pregunta concreta sobre esto. Como sabe usted, son comunidades nahuas, indígenas, que están tratando de defenderse y que hicieron… Lo que dicen ellos es que hicieron esta movilización de niños porque pues quieren llamar su atención y la atención de las autoridades, porque prácticamente viven en unas condiciones sin Estado de derecho, no tienen defensa, no tienen educación, niños armados en vez de ir a la escuela, pues están como que las condiciones difíciles.</p>
+<p>Y la pregunta concreta, presidente es: ¿qué está haciendo o qué instrucciones a dado usted para resolver esta situación o para tratar de minimizar este impacto en estos niños?, porque ellos hablan de que ya tienen un año armando a los niños, o sea, son 36 niños, 34 niños armados, 19 del año pasado y los demás este año.</p>
+<p>Entonces, ¿qué instrucciones ha dado usted a las dependencias del bienestar, a la SEP en concreto, para que esos niños no pierdan escuelas y tengan realmente calidad de vida?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, primero decir que, aunque se tenga una causa, no se debe de utilizar a los niños, así de categórico. Aunque se trate de una causa muy justa, no debe de utilizarse a los niños, es el caso del fenómeno migratorio y en cualquier caso.</p>
+<p>Se puede decir: ‘Es que los migrantes no tienen trabajo, tienen que salir a buscarse la vida’. Eso lo entendemos, hemos dicho aquí siempre que la gente abandona sus comunidades por necesidad, no por gusto. Pero aún con esa triste y amarga realidad, no deben de utilizarse a niños; más, cuando detrás de esto en el caso de la migración hay ‘coyotes’, hay traficantes de personas que cobran por el traslado de los migrantes. No estoy negando las causas, nada más estoy aclarando.</p>
+<p>Es lo mismo o parecido. Que no hay seguridad, ya la Guardia Nacional está actuando, pero no utilizar a los niños.</p>
+<p>Es un punto de vista, o sea, yo sé que pueden no estar de acuerdo conmigo, así es la vida, es el derecho a disentir.</p>
+<p>Hacer un video, poner a los niños ahí, difundir el video y pensar que con eso ya se va a atender una demanda de autodefensas. En Guerrero hay autodefensas que están permitidas legalmente por acuerdo de comunidades, pero después esto se fue, no en todos los casos, pero se fue distorsionando, y grupos que se dedican a la delincuencia tienen al mismo tiempo autodefensas.</p>
+<p>Por ejemplo, este caso que se da cerca de Chilapa tiene relación con grupos de autodefensa de la Costa Chica de Guerrero.</p>
+<p>Entonces, ¿qué les digo a nuestros hermanos guerrerenses?</p>
+<p>Que va a seguir actuando la Guardia Nacional, que lo de autodefensa se creó en una circunstancia muy especial. Fue un error haberlo alentado, como se hizo en el gobierno anterior, un error, porque la seguridad pública corresponde garantizarla al Estado.</p>
+<p>Entonces, si hay vacíos se llenan, pero nosotros queremos que, si no hay presencia, sea la Guardia Nacional la que garantice la seguridad.</p>
+<p><strong>INTERLOCUTORA:</strong> Pero ¿no ha quedado rebasada la autoridad ahí en estas comunidades?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, no. Esto fue un video con esas características. Yo escuché la opinión del gobernador de Guerrero, la comparto; escuché la opinión del obispo de Chilpancingo, comparto su opinión en el sentido de que no se deben de utilizar a los niños.</p>
+<p><strong>INTERLOCUTORA:</strong> Pero ¿qué está haciendo el estado?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Estamos trabajando.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Cuál es la coordinación o algún convenio que tenga usted con el gobierno del estado?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Todos los días nos reunimos en Chilpancingo.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Con las dependencias?, ¿Bienestar, por ejemplo?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, todos los días.</p>
+<p>De Chilpancingo a Chilapa debe de ser una hora, hora y media, y en Chilpancingo todos los días hay una mesa de seguridad en donde participa la Guardia Nacional, la Secretaría de la Defensa, Marina, el gobierno del estado. Estamos atendiendo esto.</p>
+<p>Entonces, ojalá y no se utilice a los niños.</p>
+<p><strong>INTERLOCUTORA:</strong> Nuestros compañeros de <em>Amapola</em> en Guerrero, es un medio digital independiente, están ellos documentando que ni siquiera pueden ir. Justamente usted habla de dos comunidades, ellos no pueden ir de una a otra sin que… O sea, sin temor de la perder la vida, incluso perder la vida por poder ir por tomates.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, es muy lamentable que esto pase, que haya violencia. Estamos atendiendo, hemos avanzando mucho, hay menos homicidios ahora en Guerrero -lo puedo probar- que cuando llegamos a la Presidencia -a ver si no tenemos los datos- y menos violencia.</p>
+<p><strong>INTERLOCUTORA:</strong> Y en cuanto a la seguridad…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Y no es un asunto fácil, en esa zona ha habido muchos asesinatos, asesinatos de dirigentes, ahí han asesinado compañeros que yo conocí desde hace muchos años en esa región, luchadores sociales. Y estamos trabajando, pero no es así, no es con violencia, mucho menos enfrentando o utilizando a los niños.</p>
+<p><strong>INTERLOCUTORA:</strong> Presidente ¿y cómo se garantiza que estos niños tengan acceso a una educación efectiva?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR: </strong>Estamos trabajando. Yo acabo de ir a Tierra Colorada, por ahí cerca, inauguré una universidad. Y estamos trabajando.</p>
+<p>Los tres estados que más apoyos reciben del gobierno federal porque son los tres estados con más pobreza son en este orden: Chiapas, Guerrero y Oaxaca. Les puedo decir que en estos tres estados prácticamente en todos los hogares se recibe cuando menos un apoyo del gobierno federal y quienes tienen más apoyo son las comunidades indígenas, los más pobres.</p>
+<p>Ahora mismo en Guerrero estamos distribuyendo fertilizantes para la siembra del maíz y de otros alimentos. Es el único estado donde se entregan de manera gratuita los fertilizantes, todos los fertilizantes que se requieren para producir en Guerrero, o sea, es universal.</p>
+<p>Ya hemos logrado que en regiones muy difíciles, por las condiciones del suelo, por la pobreza, hemos logrado aumentar la producción de maíz, bueno, ya ahora hasta lo que nos piden son bodegas; antes era todo para autoconsumo y no alcanzaba para el autoconsumo.</p>
+<p>Ahí de esa región, donde están los niños, y la Montaña Media y la Montaña Alta, hasta Tlapa, en toda esa región hay muchos jornaleros agrícolas que van al norte, trabajan seis meses y seis meses a trabajar su tierra, sus parcelas, a sembrar, a esos les estamos ayudando.</p>
+<p>¿Qué se hace?</p>
+<p>Eso. Y entregamos becas y estamos aplicando el programa Sembrando Vida y lo vamos a seguir haciendo, y desde luego queremos el regreso a clases presenciales y apoyar en lo educativo, y también lo de la seguridad, la Guardia Nacional.</p>
+<p>Ya no hay condiciones para eso, para tomar un video con niños, ya no, eso en otro tiempo.</p>
+<p><strong>INTERLOCUTORA:</strong> Presidente, pero la educación de estos niños ¿cómo se puede garantizar si las personas, los maestros que les dan clases -que este es un sistema aparentemente nuevo, pero ya es un sistema de los telebachilleratos indígenas- no tienen garantías en su educación?, o sea, no tienen ni las herramientas ni el salario, ni siquiera tampoco la ¿cómo se dice?, la seguridad de ese empleo y andan batallando con eso, y son ellos los que van a darles la educación a las comunidades indígenas y a las comunidades alejadas.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, puede ser que existan…</p>
+<p><strong>INTERLOCUTOR:</strong> No tienen bases, presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Puede ser que existan todas esas deficiencias, que hemos procurado nosotros eliminarlas y que se resuelva, pero aun con eso, Reyna, no se justifica lo de los niños, no.</p>
+<p>Y hay que ser así, claro, categóricos, el tomar un video como se hizo… ¿Por qué no ponen el video? Para que vean cómo… O sea, yo respeto y atiendo. Véanlo.</p>
+<p><strong>(INICIA VIDEO)</strong></p>
+<p><strong><em>INTERVENCIÓN HOMBRE:</em></strong><em> No hay leyes que nos protejan, a los niños huérfanos de México ni gobierno de nuestro país para que nos brinden seguridad, entonces vamos a responder con fuego a los sicarios hijos de la chingada.</em></p>
+<p><strong><em>INTERVENCIÓN HOMBRE:</em></strong><em> Tenemos 30 compañeros que han caído en las manos de grupos delictivos. Cada vez que cae un compañero, es secuestrado, vamos y les reportamos a los militares y lo único que nos dicen: ‘No, no tenemos orden de salir’, entonces por eso nos vimos obligados a formar a los niños, para que los niños, como salen a cuidar, puedan llevar un arma y puedan defenderse. Como decimos, es mejor morir.</em></p>
+<p><strong>(FINALIZA VIDEO)</strong></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Sabe quién hizo el reportaje?</p>
+<p><strong>INTERLOCUTORA:</strong><em> El País.</em></p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> El periódico <em>El País,</em> que es un boletín que defiende a las empresas españolas que hacían su agosto en México durante el periodo neoliberal, pero bueno.</p>
+<p><strong>INTERLOCUTORA:</strong> Es una realidad.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Aceptando sin conceder que hay razón, los niños no, con los niños no.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Y qué otra alternativa les da el Estado a estas personas?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Atenderlos y trabajamos todo el día para eso. Y que no nos confundan, no somos iguales a los que protegía <em>El País. </em></p>
+<p><strong>INTERLOCUTORA:</strong> ¿Ha habido una acción inmediata, presidente, después de este hecho?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, hay comunicación, les decía yo, con el gobernador y se están atendiendo todas las peticiones, las demandas, y se van a seguir atendiendo.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Se va a desarmar a esos niños o qué se va a hacer al respecto?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Vamos a buscar la forma, porque tampoco se trata de utilizar la fuerza o de caer en la trampa de la provocación.</p>
+<p>Nada más que esto, según mi ver y entender, ya no funciona. Esto podía tener efectos en el periodo neoliberal, durante el régimen anterior, con el viejo régimen de corrupción, de injusticias, de privilegios. Esto no lo hacia <em>El País</em> antes.</p>
+<p><strong>INTERLOCUTORA:</strong> Bueno, pero ahí en este caso el medio está exponiendo lo que hizo la gente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, pues sí, lo invitaron para eso, lo invitaron a eso. Entonces, ya no.</p>
+<p>A ver, vamos viendo las estadísticas, los datos de la situación de homicidios, de violencia en Guerrero. Yo no estoy hablando de que sea un paraíso, nada más decir que estamos trabajando.</p>
+<p>Esto es homicidios, esto en Guerrero, y aquí entramos y hay una tendencia a la baja. No lo puedo decir de otros estados, no lo puedo decir de Guanajuato, y lo lamento porque ahí ha crecido el número de homicidios desgraciadamente, o el caso del Estado de México, Jalisco, Zacatecas, pero sí lo puedo decir de Guerrero y de otros estados. Entonces, sí estamos trabajando.</p>
+<p>Porque hablo de homicidio, porque aquí no hay cifra negra en el homicidio, puede haber cifra negra en secuestro, en violaciones, en robo a casa habitación, en robo a transporte, robo a transeúnte, pero homicidio y robo de vehículo, que se tiene que registrar o denunciar, no hay cifra negra. Entonces, estamos trabajando, no es un asunto fácil.</p>
+<p>Esto de las guardias o autodefensas fue un error que se cometió, porque esa es una función del Estado.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Y hay planes para reparar eso, presidente?, ¿hacer algo?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pues en la medida de que haya más presencia de la Guardia Nacional, porque también, les comentaba, no había presencia. ¿Qué se podía hacer con 10 mil policías federales?</p>
+<p>La Secretaría de Gobernación, que manejaba a la Policía Federal, contrataba policías privados para cuidar sus instalaciones. Era un desorden completo, desastre.</p>
+<p>Esto, lo de la estadística, no se analizaba diariamente, no se tenía.</p>
+<p>Nosotros sabemos desgraciadamente cuántos fallecidos hubo ayer en el país, cada 24 horas, porque todos los días lo estamos viendo.</p>
+<p>¿Qué hacían estos?</p>
+<p>Recibir información cada 15 días, cada mes.</p>
+<p>¿Cuándo se reunían?</p>
+<p>Ni se llevaban entre ellos.</p>
+<p>¿Eran buenas las relaciones, ustedes creen, entre García Luna y el que estaba de procurador en ese entonces o el secretario de la Defensa de ese entonces o el secretario de Marina de ese entonces?</p>
+<p>No. Ahora es distinto, ahora estamos todos juntos trabajando de manera coordinada.</p>
+<p>Y no tenemos una sociedad perfecta y no hay un gobierno perfecto, vamos avanzando, es un proceso de transformación.</p>
+<p>Pero sí hay cosas que debemos de analizar todos. Este asunto de los niños, por ejemplo.</p>
+<p>Aquí se habló de lo del asesinato de Camargo, allá en la frontera con Tamaulipas, imagínense si no tenemos control, porque hay algunos que quisieran que dejáramos pasar a todos los que quieren ingresar al país para llegar a Estados Unidos. Imagínense los riesgos de los migrantes, lo que ha sucedido. No estoy inventando nada.</p>
+<p>Esto mismo de Camargo, pero imagínenlo en niños. No podemos permitir eso, tenemos que cuidarlos y también al mismo tiempo pedir que el gobierno de Estados Unidos ayude a Centroamérica, que ayude a los pueblos.</p>
+<p>Porque también se puede decir: ‘Eso es responsabilidad de cada país’. Pues sí, pero ¿y la solidaridad internacional y la fraternidad internacional?</p>
+<p>Nosotros estamos ayudando con 100 millones de dólares, Estados Unidos debe de ayudar también y otros países que siempre han manifestado su preocupación por los pobres, por los necesitados, que ayudemos todos para atender las causas.</p>
+<p>Yo puedo hablar de Guerrero, por ejemplo, en esta situación que tú me estás planteando porque no tengo problemas de consciencia.</p>
+<p>Cuando les digo que Guerrero, Chiapas y Oaxaca son los que más apoyo están recibiendo estamos actuando de manera consecuente. Por el bien de todos, primero los pobres, y eso es lo que estamos haciendo.</p>
+<p>Pero te voy a mostrar eso. ¿Por qué no le dices a Carlos que nos mande la relación de los estados -a Carlos Torres- de beneficiarios de programas sociales?</p>
+<p><strong>INTERLOCUTORA:</strong> De este tema de los niños, nada más me quedaría pendiente lo del bienestar y lo de la educación para ver qué están haciendo las dependencias, pero ya que tenga un informe bien y yo pasaría…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Yo también te pediría que le dejaras los datos a Jesús para que nosotros podamos decirte por comunidad si se están entregando becas, si se están rehabilitando las escuelas, si se tiene maestro, o sea, todo lo que...</p>
+<p><strong>INTERLOCUTORA:</strong> Si son primero los pobres, presidente, estos maestros rurales deberían de tener mejores condiciones para trabajar.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, la situación de los maestros, o sea, todo te lo informamos.</p>
+<p><strong>INTERLOCUTORA:</strong> Bueno, eso queda pendiente.</p>
+<p>Y en un segundo tema, presidente, también nuestra compañera Diana Manzo, en <em>Istmo Press</em>, de la <em>Alianza de Medios</em>, reporta o más bien pregunta que por qué no han llegado las vacunas a la zona del Istmo.</p>
+<p>Ella habla de que hay 600, según los trabajos que han hecho ellos, hablan de 600 personal médico de primera línea que no ha sido vacunado y que tampoco han llegado las vacunas para los adultos mayores.</p>
+<p>Entiendo que esta zona del Istmo tiene marginación, no tanta como la Mixteca, que es donde empezaron las vacunaciones, pero ¿por qué en el caso del Istmo?, ¿qué reporte tiene usted de que no han llegado ahí las vacunas?</p>
+<p>Porque incluso hubo un amparo por ahí, no sé si usted tiene conocimiento de eso, que en un pueblo se ampararon, ya entra en el terreno de lo político o de lo legal, pero ¿qué informes tiene usted de esto y cuál sería la respuesta al respecto?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Bueno, mañana vamos a informar en general sobre vacunas y vamos a dar respuesta a los que estás planteando.</p>
+<p>Ya nos queda muy poco de los adultos mayores que les falta vacunar y los médicos, trabajadores de la salud, enfermeras, que están en hospitales COVID. Mañana se va a informar bien sobre esto.</p>
+<p>Yo quiero aprovechar para agradecerle mucho a los médicos, a las enfermeras, a los trabajadores de la salud. Se han portado de lo mejor, son héroes, heroínas, han estado atendiendo a enfermos; al principio, arriesgando sus vidas porque no tenían cubrebocas, no tenían guantes, no tenían protección, se consiguieron todos los equipos, se les protegió, ahora se les ha vacunado.</p>
+<p>No hubo una protesta, como hubiesen querido nuestros adversarios, que pararan los hospitales, que tomaran las calles, no.</p>
+<p>¿Saben a quién en particular le mando un abrazo o a quiénes les mando un abrazo con todo mi cariño?</p>
+<p>A las enfermeras porque, de todo el equipo médico, ellas fueron de lo mejor. Que a veces los médicos se protegían bastante desde la ventana y la enfermera decía ‘véngase’, que estaban ahí con el enfermo. Y los médicos también muy bien, no se retiraron, ahí estuvieron. O sea, por eso logramos que no nos desbordara la pandemia.</p>
+<p>Crecimos en infraestructura, en equipos, en camas, en ventiladores, en médicos, casi cuatro veces. Levantamos del suelo el sistema de salud que nos dejaron, hospitales a medio construir, que se terminaron.</p>
+<p>Todos trabajando juntos. Mi reconocimiento a los médicos, a las enfermeras, a todos.</p>
+<p>Y mañana se va a informar cómo vamos en la vacunación, cuántos médicos, cuántas enfermeras, cuántos trabajadores de la salud se han vacunado, cuántos adultos mayores, cuántos municipios ya están terminados de vacunar en adultos mayores, cuántos faltan, esto que estás planteando del Istmo.</p>
+<p><strong>INTERLOCUTORA:</strong> Y precisar los hospitales rurales, presidente, si están vacunando a los médicos, al personal.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, precisar todo.</p>
+<p><strong>INTERLOCUTORA:</strong> Las casas comunitarias que son los que ellos tienen allá.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, sí. Y decir también que en atención de COVID se vacunó a médicos y enfermeras del sector público y del sector privado, porque es mucha la manipulación, haciendo campaña para echarnos a los médicos encima, diciendo que no los vacunamos, y a los médicos privados, que no los vacunamos, ahí están convocando a manifestaciones.</p>
+<p>Si fuese cierto, si fuese injusto lo que estamos haciendo en el gobierno, con toda la propaganda de la prensa fifí y de los medios conservadores a los llamados de que salgan los médicos a protestar saldrían cientos, miles.</p>
+<p>Ayer convocaron a una manifestación, no reunieron gente. Y no es que yo esté en contra de ellos, es que no es justo el querer decir: ‘A mí me vacunas.’ No, si no te corresponde, no.</p>
+<p>‘Ah, si no, como soy médico y me pongo mi bata blanca, voy a los medios de comunicación, voy al <em>Reforma</em>, voy a <em>El Universal,</em> voy a los programas de radio. ¡Qué barbaridad!, ¡cómo no van a vacunar a los médicos!’. Pues tenemos que vacunar a los adultos mayores, son los más vulnerables.</p>
+<p>Claro que los médicos que están atendiendo a enfermos COVID hay que vacunarlos, si fueron los primeros, y los vamos a seguir vacunando, y se está haciendo una revisión sobre eso.</p>
+<p>Pero no es: ‘A ver, voy a presionar’, porque además como hay elecciones y hay un partido, bueno, es el mismo que quiere sacar raja de todo con medios, los intelectuales orgánicos, dos partidos de oposición, los que quieren que regrese el régimen de corrupción, yo sí quiero que regresen, pero lo que se robaron.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Usted tiene informes de por qué se ampararon en un pueblo de Oaxaca?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Puede ser y se está cumpliendo. Cuando hay amparo, ya ven que los jueces también ahorita están actuando de manera expedita cuando se trata de afectarnos o creen que nos afectan. Entonces, si hay un amparo y nos ordena un juez: ‘Que se vacune a esta persona’, lo tenemos que vacunar, porque tenemos que cumplir con la ley.</p>
+<p>Pero yo le digo a esa persona: ¿Es justo?, ¿es un asunto legal?, ¿no crees que es un asunto moral?, ¿para qué vamos a templos?, ¿para qué vamos a las iglesias?, ¿para qué comulgamos?, ¿para qué confesamos si no actuamos con integridad, si queremos ser nosotros los primeros?</p>
+<p>Este ambiente de ‘sálvese el que pueda’ y ‘a mí no me importan los demás’, eso era lo que prevalecía, ese era el pensamiento neoliberal: egoísmo, individualismo, influyentismo, corrupción.</p>
+<p>Eso ya no, no se permite y aunque continúen las campañas. Es que a lo mejor pensaron que si desataban las campañas en los medios yo iba a ir a buscar a los directores de los periódicos o a los dueños de los medios a decir: Vamos a ponernos de acuerdo, vamos a dialogar. No, no, eso ya se acabó. Le costaba mucho al pueblo mantenerlos.</p>
+<p>Es lo mismo de los intelectuales orgánicos, todo ese dinero a los dedicados a las nuevas tecnologías, a la investigación, que se les financiaba.</p>
+<p>Pues estamos hablando de los niños de allá de Chilapa, pues es mejor que esos niños tengan su beca, que tengan sus maestros y que estén bien pagados los maestros, esto que estás planteando tú, a que le tengamos que dar a las empresas editoriales porque, si no, nos van a cuestionar, nos van a criticar. No, esto ya cambió y yo espero que se vaya entendiendo. Se va entendiendo, vamos avanzando porque ya saben de que no es más de lo mismo.</p>
+<p><strong>INTERLOCUTORA:</strong> En el amparo, presidente, también hay una persona de 92 años.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿No tienen el listado? Carlos, bueno que te lo mande.</p>
+<p>Pero vamos al aeropuerto porque están llegando precisamente vacunas, a ver qué nos informan. El doctor Pedro Zenteno, de Birmex.</p>
+<p><strong>PEDRO ZENTENO SANTAELLA, DIRECTOR DE LABORATORIOS DE BIOLÓGICOS Y REACTIVOS DE MÉXICO (BIRMEX):</strong> Gracias, señor presidente. Buenos días tenga usted.</p>
+<p>Efectivamente, estamos aquí en el aeropuerto de la Ciudad de México e informarle a usted que llegaron dos vuelos hoy de vacunas. El primero, a las 6:00 de la mañana, de Sinovac, con un cargamento de 500 mil vacunas y en este momento están descargando el segundo vuelo de Pfizer con 487 mil 500 vacunas, que nos dan un total en este día que llegaron al país, de los dos vuelos, 987 mil 500 dosis de vacunas el día de hoy, señor presidente.</p>
+<p>Con esto hacemos un total en el país que han llegado vacunas, 17 millones 888 mil 350 dosis que ya han llegado al país y con esto continúa la campaña de vacunación para adultos mayores, y se iniciará ya también la campaña de vacunación a maestros en todo el país, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> ¿Nos repites la cantidad de vacunas que han llegado?</p>
+<p><strong>PEDRO ZENTENO SANTAELLA:</strong> Diecisiete millones 888 mil 350 vacunas, señor presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Muy bien, muchas gracias, Pedro, muchas gracias.</p>
+<p><strong>PEDRO ZENTENO SANTAELLA:</strong> Para servirle señor. Buen día.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Quiero informar, aunque mañana se va a dedicar a eso, quiero informarle al pueblo que ya tenemos en los estados, no sólo en el país, sino ya en todas las entidades, tenemos todas las dosis de vacunas que se requieren para terminar de vacunar antes de concluya este mes a todos los adultos mayores. O sea, no es lo que va a llegar, estas vacunas ya se van a utilizar para iniciar la vacunación de segunda dosis y comenzar también la vacunación de 50 a 59 años.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Y los maestros?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> La vacuna que se va a aplicar a los maestros ya se tiene.</p>
+<p><strong>INTERLOCUTORA:</strong> Hay preocupación en los maestros, los están convocando, por ejemplo, en la Universidad de la Sierra Sur de Oaxaca, los están convocando ya a trabajar ya mañana, digo, el lunes 19, pero tienen preocupación porque no están vacunados todavía.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Mañana vamos a informar sobre la vacunación a todos los maestros, nada más adelanto, del sector público y del sector privado, o sea, escuelas públicas y escuelas privadas, a todos se les va a vacunar. Al mismo tiempo que terminamos de vacunar a adultos mayores vamos a estar vacunando a todos los maestros y los trabajadores de la educación del país.</p>
+<p>¿Con qué propósito?</p>
+<p>Que se pueda reiniciar el regreso, o mejor dicho, se pueda tener clases presenciales antes de que concluya el ciclo escolar. Pero aclaro una cosa también, es voluntario, nada por la fuerza, todo por la razón y el derecho.</p>
+<p>No quiero, como lo acaba de expresar Reyna, que empiecen a decir que ya los estamos obligando, no, prohibido prohibir. Aquí tiene que ser por voluntad y tiene que ser actuando cada quien de manera responsable y los maestros siempre han actuado con responsabilidad y con civismo.</p>
+<p><strong>INTERLOCUTORA:</strong> Presidente, en otro tema y muy importante. Usted ayer hablaba de los conflictos mineros. Hay uno particularmente preocupante en la que reportan nuestros colegas en Jalisco, es Jalisco y Colima, hay una mina de capital italiano, indio y argentino al parecer, que es un gran problema de 50 años atrás.</p>
+<p>Ellos mencionan que no han podido… Justo porque la minera está haciendo lo mismo que ha hecho en Sonora, por ejemplo, otras minas, comprar los terrenos a los ejidatarios u obligarlos a venderlos o despojarlos de sus terrenos para poder ampliar sus trabajos.</p>
+<p>En este caso con esta mina de hierro hubo una desaparición forzada, reportan los comunitarios ahí, y son indígenas también que están reportando que ni se les consultó para poder hacer este tipo de ampliaciones.</p>
+<p>Y reportan la desaparición, digo, el asesinato ya más bien, porque ya lo encontraron muerto a la persona, no sé si se lo reportaron a usted, Santos Isaac Chávez, un miembro ejidal, estaban ellos en elecciones. Acusan que la empresa en contubernio con autoridades, con el estado o con otras autoridades, tratan ellos de hacer sus propios o manipular las elecciones ejidales para que queden las personas afines a ellos y poder mantener ese poder sobre los ejidatarios.</p>
+<p>Aquí el punto, presidente, ellos preguntan, quieren que este caso lo atraiga la fiscalía. Si usted les puede apoyar en eso o si usted podría, usted nos dirá, porque no es la primera vez que desaparece una persona y no pasa nada, o sea, ya van varios defensores y varios ejidatarios que han desaparecido en esa región a lo largo de este conflicto y las autoridades no han dado respuesta ni se ha sabido de estas personas.</p>
+<p>Hay otra persona que se llama Celedonio Monroy, que desde el 2012 a la fecha no se sabe nada de él.</p>
+<p>Y hay algo aquí preocupante, presidente, que esta empresa, si bien es un asunto de años anteriores que tiene 50 años en este conflicto y ninguna autoridad se ha hecho cargo del caso, ellos hablan de que… Como reporta también el reportero Carlos Ruiz, comenta que en septiembre del 2019 empresarios de esta mina se reunieron con usted y al mes Semarnat les autorizó el uso de varias hectáreas en un bosque para utilizarla como desechos.</p>
+<p>Entonces, los mineros, presidente, tienen mucha cercanía con el poder, pueden llegar a usted muy fácilmente o pueden llegar al presidente en turno muy fácilmente, pero los indígenas no, los ejidatarios no, la gente no puede llegar tan fácilmente a usted.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Fíjate, Reyna, que no estoy de acuerdo contigo.</p>
+<p><strong>INTERLOCUTORA:</strong> Bueno, en este caso ha habido una diferencia en particular en su sexenio.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, no, yo convivo con todos, pero la verdad, la verdad, dedico más tiempo a los pobres, convivo más con la gente humilde y también con empresarios y con científicos y con todos, es mi trabajo.</p>
+<p>Pero la instrucción, sólo que no se haya hecho caso, la instrucción es no entregar ninguna concesión minera, ni ampliación. Entonces, yo mañana te voy a decir sobre este caso, nada más le vas a dar…</p>
+<p><strong>INTERLOCUTORA:</strong> Fue un permiso de Semarnat en octubre, el 19, del 20, sí. Dice que la reunión fue en septiembre de 2019 y en octubre 18 Semarnat les autorizó el uso de 155 hectáreas de bosque para utilizarlo como depósito de desechos, eso ya fue en esta administración.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ah, lo vamos a ver aquí.</p>
+<p><strong>INTERLOCUTORA:</strong> Pero ahora lo que piden es también es, presidente, ¿cómo usted puede ayudar a estas comunidades que están siendo despojadas de sus terrenos?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, estamos ayudándolos, los representamos, los defendemos. Vamos a ver de qué se trata, mañana vamos a informar, porque la instrucción es no dar permiso.</p>
+<p>Nos estaban pidiendo un permiso hace poco para la mina El Boleo, en Baja California Sur, que ya la van a cerrar y que querían un permiso para 300, 400 hectáreas, y les dije que no, que ya no podemos seguir entregando estas concesiones.</p>
+<p>Pero vamos a revisar qué sucedió.</p>
+<p>Porque también aquí si se hizo una denuncia del manejo de playas ahí en Vallarta, ya tengo el reporte de que no está autorizado lo de Conchas Chinas, sí, y vamos a aprovechar.</p>
+<p>¿No quedamos que iba a venir María Luisa?</p>
+<p><strong>JÉSUS RAMÍREZ CUEVAS:</strong> (inaudible)</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, pero mañana hablamos de esto, si te parece.</p>
+<p><strong>INTERLOCUTORA:</strong> Sí, presidente, nada más, para aclarar, yo sí creo que en este sexenio ha hecho diferencia de acercamiento porque los mismos indígenas, las mismas comunidades, hay comunidades que nunca habían sido visitadas por un presidente y eso son parte de las cosas que ellos les reconocen.</p>
+<p>Cuando yo le digo que los poderosos están… Es inevitable eso, presidente. Toda la vida estuvieron más cercanos al poder y hoy están tratando de hacer lo mismo y tienen facilidades, porque no hay limpia en todo el gobierno federal, o sea, usted es una cosa, pero abajo todavía hay gente de anteriores administraciones que trabajan incluso para otros intereses.</p>
+<p>Entonces a eso le digo yo que ellos pueden llegar muy fácilmente a…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Pero ya Reyna, de veras están cambiando las cosas. Estoy de acuerdo, es un proceso de transición, lo nuevo no acaba de nacer y lo viejo no acaba de morir, pero vamos avanzando y yo por eso creo que ya pronto ya no vamos a ser necesarios, ya por eso el 24 me voy a ir tranquilo, si me lo permite la gente y si lo permite el Creador, que yo llegue hasta el 24, me voy a ir tranquilo, porque ya vamos a dejar arreglado todo.</p>
+<p>Soy muy optimista, estamos trabajando para eso, hemos avanzado mucho y nos falta tiempo para consolidar las cosas.</p>
+<p>Y voy a seguir visitando los pueblos abajo, seguramente el municipio al que tú haces referencia, si está en los límites…</p>
+<p><strong>INTERLOCUTORA:</strong> Entre Colima y Jalisco…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Debe ser Minatitlán.</p>
+<p><strong>INTERLOCUTORA:</strong> Y este es un problema, porque intervienen los dos estados ahí.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Y hay una mina muy grande que es Minatitlán.</p>
+<p><strong>INTERLOCUTORA:</strong> Esa es.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, sí. He ido a Minatitlán como mínimo cinco veces, conozco toda esa región y es Minatitlán Colima, porque hay Minatitlán Veracruz. Y un día vamos a hablar sobre los nombres de los municipios, sobre los pueblos, por qué se repiten, que tiene que ver con el dominio mexica, que repetían y repetían los nombres.</p>
+<p>Hay Tuxpan en Nayarit, hay Tuxpan en Jalisco, hay Tuxpan en Veracruz, muchos; Tlacotepec muchísimos también, varios, no muchos, varios en distintas partes, Tepetitán también se repite, no Tepatitlán, Tepetitán se repite.</p>
+<p>Hay un pueblo en la sierra de Puebla, nada más que no se llama así, Tepetitán, no le ponen el acento.</p>
+<p>Una vez andaba yo por allá, y yo muy orgulloso de que mi pueblo no se repetía, que había Tepatitlán y aquí en el Estado de México hay otro pueblo, que hay hasta una línea de transporte de autobús, no recuerdo ahora, parecido a Tepetitán, que es mi pueblo Macuspana, Tabasco. Entonces, yo muy orgulloso y de repente en una gira… ¿Cómo se llama donde trabajaba, precisamente, María Luisa? Cuetzalan, en esa región de Cuetzalan, en las comunidades, y de repente veo Tepetitan, pero no le ponen el acento, es Tepetitan. Entonces, ya quedó hasta ahora nada más Tepetitán.</p>
+<p>Pero todo es náhuatl, por el dominio que llegaron a tener, que es algo importantísimo para estudiar, porque fueron nada más… En 200 años se extendieron todo Mesoamérica, Nicaragua es náhuatl.</p>
+<p><strong>INTERLOCUTORA:</strong> Ahí es náhuatl, otomí.</p>
+<p>Ayotitlán es la comunidad.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí.</p>
+<p><strong>INTERLOCUTORA:</strong> Nada más para precisar, es la mina Peña Colorada en la Sierra de Minatitlán.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Peña Colorada, sí.</p>
+<p><strong>INTERLOCUTORA:</strong> ¿Habría oportunidad de que se les diera seguridad a estas personas ahorita que están en su elección ejidal para que sea libre, una elección libre y tranquila y segura?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, ahora, sí, plática con Jesús para buscar la manera.</p>
+<p><strong>INTERLOCUTORA:</strong> Mejor usted platique con la Guardia Nacional o con quien tenga que hacerlo.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> No, no, no, pero para que tú nos des todos los datos nada más, nosotros nos vamos a hacer cargo. Ni modo que te vamos a pedir a ti que tú vayas, no, nosotros lo vamos a hacer.</p>
+<p><strong>INTERLOCUTORA:</strong> Presidente, pero, o sea, que se garantice ahí el Estado de derecho, ¿eso es posible?</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, sí, es nuestro trabajo, es nuestra responsabilidad.</p>
+<p><strong>INTERLOCUTORA:</strong> Y que pueda intervenir para que la… Bueno, igual, la Fiscalía General de la República pues es la misma…</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Sí, procurar que, si hay una elección ejidal, sean los ejidatarios, sean los campesinos, los que libremente elijan al comisariado.</p>
+<p><strong>INTERLOCUTORA:</strong> Bueno, gracias, presidente.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Y al consejo de vigilancia.</p>
+<p>Bueno, ya nos vamos, ya nos vamos. ¿No tienes la nota?, ¿no te la mandó Carlos? Mañana te mostramos.</p>
+<p><strong>PREGUNTA:</strong> No habló de Isabel Arvide, presidente. El audio de Isabel Arvide, presidente, donde se escucha que presuntamente maltrata a sus trabajadores en Estambul.</p>
+<p><strong>PRESIDENTE ANDRÉS MANUEL LÓPEZ OBRADOR:</strong> Ah, no lo he visto, pero mañana hablamos de eso, sí, les parece.</p>
+<p>Muy bien, hasta luego.</p>
+<p>---</p>
+
+			    </div>
+
+			    
+		    </div><!--/ .post-->
+
+			
+			
+			
+			
+		    
+        </article><!--/ .entry-->
+
+		
+
+	</section>
+
+	<aside id="sidebar" class="medium-4 large-4 columns"><div class="widget widget_metro_style">
+    <ul class="metro_container">
+        <li>
+	        <a
+		        		        style="color: #ffffff; background-color: #691c32"
+	            href="http://bit.ly/34xdTwf"><span>Conferencia de prensa matutina</span><i>Conferencia de prensa matutina</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/sala-de-prensa/%20"><span>Sala de prensa</span><i>Sala de prensa</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #691c32"
+                href="https://presidente.gob.mx/documentos/"><span>Documentos</span><i>Documentos</i>
+	        </a>
+        </li>
+        <li>
+	        <a
+		                        style="color: #ffffff; background-color: #595959"
+                href="https://presidente.gob.mx/gabinete-3-2/"><span>Gabinete</span><i>Gabinete</i>
+	        </a>
+        </li>
+    </ul>
+</div><!--/ .widget-container--><div id="media_image-15" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg" class="image wp-image-149841  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2022/04/Banner_Bienestar_700x238_3-2-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-17" class="widget widget_media_image"><a href="https://presidente.gob.mx/4-anos-de-transformacion/"><img width="1280" height="720" src="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg" class="image wp-image-156894  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022.jpeg 1280w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-300x169.jpeg 300w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-1024x576.jpeg 1024w, https://presidente.gob.mx/wp-content/uploads/2022/11/4-años-transformacion-presidente-amlo-2022-768x432.jpeg 768w" sizes="(max-width: 1280px) 100vw, 1280px" /></a></div><div id="media_image-18" class="widget widget_media_image"><a href="https://presidente.gob.mx/fotogalerias-reuniones-estatales-del-banco-del-bienestar/"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg" class="image wp-image-158538  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03.jpg 700w, https://presidente.gob.mx/wp-content/uploads/2023/01/ReunionesEstatales.03-300x102.jpg 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="media_image-14" class="widget widget_media_image"><a href="https://programasparaelbienestar.gob.mx/mapa-banco-del-bienestar-sucursales-retiros/" target="_blank" rel="noopener"><img width="700" height="238" src="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png" class="image wp-image-153137  attachment-700x238 size-700x238" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238.png 700w, https://presidente.gob.mx/wp-content/uploads/2022/07/Banners_Portal_Presi_Banco_700x238-300x102.png 300w" sizes="(max-width: 700px) 100vw, 700px" /></a></div><div id="linkcat-3502" class="widget widget_links"><h3 class="widget-title">Enlaces de interés</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="https://aprendeencasa.sep.gob.mx/">Aprende en casa II</a></li>
+<li><a href="http://www.atlasnacionalderiesgos.gob.mx/" target="_blank">Atlas Nacional de Riesgos &#8211; Cenapred</a></li>
+<li><a href="https://www.gob.mx/becasbenitojuarez">Becas Benito Juárez</a></li>
+<li><a href="https://www.gob.mx/">Gobierno de México</a></li>
+<li><a href="https://www.gob.mx/inapam/">INAPAM</a></li>
+<li><a href="https://portalmx.infonavit.org.mx/" target="_blank">Infonavit</a></li>
+<li><a href="https://coronavirus.gob.mx/">Información sobre COVID-19</a></li>
+<li><a href="https://www.gob.mx/insabi">Instituto de Salud para el Bienestar</a></li>
+<li><a href="https://jovenesconstruyendoelfuturo.stps.gob.mx/" target="_blank">Jóvenes Construyendo el Futuro</a></li>
+<li><a href="https://www.gob.mx/liconsa">Liconsa</a></li>
+<li><a href="http://pension.adultosmayores.bienestar.gob.mx/index" target="_blank">Pensión Adultos Mayores</a></li>
+<li><a href="https://www.planeandojuntos.gob.mx/">Planeando juntos</a></li>
+<li><a href="https://proequidad.inmujeres.gob.mx/public/index.html">Proequidad</a></li>
+<li><a href="https://reconstruyendoesperanza.gob.mx/">Programa Nacional de Reconstrucción</a></li>
+<li><a href="https://dosbocas.energia.gob.mx">Proyecto Refinería Dos Bocas</a></li>
+<li><a href="https://www.trenmaya.gob.mx/">Proyecto Tren Maya</a></li>
+<li><a href="https://mivacuna.salud.gob.mx/index.php">Registro vacuna contra COVID-19</a></li>
+<li><a href="https://www.gob.mx/sembrandovida" target="_blank">Sembrando Vida</a></li>
+<li><a href="http://imss.gob.mx/personas-trabajadoras-hogar">Trabajadoras del hogar &#8211; programa de afiliación al IMSS</a></li>
+
+	</ul>
+</div>
+</aside>
+
+	
+	<div id="subscribeDialog" class="dialog">
+		<div class="dialog-overlay"></div>
+		<div class="dialog-content">
+			<div class="morph-shape">
+				<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 560 280" preserveAspectRatio="none">
+					<rect x="3" y="3" fill="none" width="556" height="276"/>
+				</svg>
+			</div>
+			<div class="dialog-inner">
+				<p class="message"></p>
+				<i class="action-close" data-dialog-close>Close</i>
+			</div>
+			<div class="dialog-error" style="display: none;"></div>
+		</div>
+	</div>
+
+</main><!--/ #content -->
+
+<!-- - - - - - - - - - - - - end Main - - - - - - - - - - - - - - - - -->
+
+<!-- - - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+<footer id="footer">
+
+	
+	<div class="footer-top">
+
+		<div class="row">
+
+			<div class="large-4 columns">
+
+				<div id="text-8" class="widget widget_text"><h3 class="widget-title">Contacto</h3>			<div class="textwidget"><p><strong>Andrés Manuel López Obrador</strong></p>
+<p><em>Presidente de México</em></p>
+<p><strong>t. 5093 4900</strong></p>
+<p><strong>t. 01800 080 1127</strong></p>
+<p>Puerta 8 Palacio Nacional, Plaza de la Constitución S/N, Colonia Centro, Ciudad de México, C.P. 06066</p>
+<p><a href="https://www.gob.mx/aviso_de_privacidad">Aviso de </a><a href="https://www.gob.mx/aviso_de_privacidad">privacidad</a></p>
+</div>
+		</div>
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+			<div class="large-4 columns">
+
+				
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-top-->
+
+	
+	<div class="footer-bottom">
+
+		<div class="row">
+
+			<div class="large-6 columns">
+				<div class="copyright">
+					Copyright &copy; 2022. All rights reserved				</div><!--/ .copyright-->
+			</div>
+
+			<div class="large-3 large-offset-3 columns">
+				<div class="developed">
+					Developed by <a target="_blank" href="http://webtemplatemasters.com">ThemeMakers</a>
+				</div><!--/ .developed-->
+			</div>
+
+		</div><!--/ .row-->
+
+	</div><!--/ .footer-bottom-->
+
+</footer><!--/ #footer-->
+
+<!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - -->
+
+</div><!--/ #wrapper-->
+
+<!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/arqam/assets/js/scripts.js?ver=e283627719625c42dbfcc13b6adb6f19' id='arqam-scripts-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_content_composer/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_layout_constructor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/plugins/tmm_events_calendar/js/front.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='events_calendar_js-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-content/themes/diplomat/js/vendor-min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='tmm_vendor-js'></script>
+<script type='text/javascript' src='https://presidente.gob.mx/wp-includes/js/wp-embed.min.js?ver=e283627719625c42dbfcc13b6adb6f19' id='wp-embed-js'></script>
+
+</body>
+</html>
