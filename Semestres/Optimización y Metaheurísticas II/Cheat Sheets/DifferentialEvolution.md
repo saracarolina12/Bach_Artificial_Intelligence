@@ -52,7 +52,7 @@ Try to approach the given sin.
 
 </td><td>
 
-### <u> _[Image Out Of Circles](https://github.com/saracarolina12/IA_School/tree/master/Semestres/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Evolutionary%20Computation/DifferentialEvolution/ImagesOutOfCircles)_ </u>
+### <u> _[Image Out Of Circles](https://github.com/LuisR-jpg/Artificial-Intelligence---UP/tree/master/Optimizaci%C3%B3n%20y%20Metaheur%C3%ADsticas%20II/Evolutionary%20Computing/Differential%20Evolution/ImagesOutOfCircles)_ </u>
 Given an image, this project tries to make a similar one by drawing a bunch of circles. For each circle the algorithm has to calculate the optimal values of the folllowing features.
 </td><tr>
 
